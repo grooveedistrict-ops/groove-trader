@@ -1212,7 +1212,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82493.0
+   "last_price": 81986
   },
   {
    "symbol": "SPY",
@@ -1224,7 +1224,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 778.01
+   "last_price": 772.74
   },
   {
    "symbol": "META",
@@ -1236,7 +1236,7 @@
    "stop_loss": 665.62,
    "take_profit": 839.26,
    "thesis": "ძლიერი ტრენდია (30 დღეში +27%, MA-ებზე მაღლა). 60-დღიანი მაქ",
-   "last_price": 762.5
+   "last_price": 745.13
   },
   {
    "symbol": "AAPL",
@@ -1248,7 +1248,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 341.27
+   "last_price": 345.437
   },
   {
    "symbol": "AMZN",
@@ -1261,7 +1261,7 @@
    "take_profit": 301.79,
    "thesis": "ფასი MA20-ზე ($252) მაღლაა, RSI 55, მაქსიმუმიდან −7.6% — ზრდ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 258.58,
+   "last_price": 256.05,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1283,7 +1283,7 @@
    "take_profit": 451.59,
    "thesis": "ახალ 60-დღიან მაქსიმუმზეა, მაგრამ RSI მხოლოდ 55 — მომენტუმი ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 375.23
+   "last_price": 367.265
   },
   {
    "symbol": "GOOGL",
@@ -1296,7 +1296,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 353.78,
+   "last_price": 354.14,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1318,7 +1318,7 @@
    "take_profit": 835.73,
    "thesis": "Nasdaq-100 ETF: ფასი MA20 ($739) და MA50 ($726) ზემოთაა, RSI",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 743.57
+   "last_price": 736.05
   },
   {
    "symbol": "XLV",
@@ -1331,7 +1331,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 169.66
+   "last_price": 172.55
   }
  ],
  "closed_trades": [
@@ -4210,18 +4210,18 @@
   }
  ],
  "last_prices": {
-  "BTC": 82493.0,
+  "BTC": 81986,
   "NEAR": 5.11,
   "AVAX": 10.23,
-  "SPY": 778.01,
-  "META": 762.5,
-  "AAPL": 341.27,
+  "SPY": 772.74,
+  "META": 745.13,
+  "AAPL": 345.437,
   "NVDA": 228.52,
-  "AMZN": 258.58,
-  "TSLA": 375.23,
-  "GOOGL": 353.78,
-  "QQQ": 743.57,
-  "XLV": 169.66,
+  "AMZN": 256.05,
+  "TSLA": 367.265,
+  "GOOGL": 354.14,
+  "QQQ": 736.05,
+  "XLV": 172.55,
   "MSFT": 543.45,
   "PLTR": 208.67,
   "V": 396.06,
@@ -4327,12 +4327,12 @@
   "progress_vs_target": "ბანკი ≈ $99.69 (-0.31 $100-დან), BTC-ბენჩმარკი 98.63; $500k აფსუარიული მიზანია."
  },
  "overall_report": {
-  "time": "2026-10-14 17:20 (Tbilisi)",
-  "total_value": 98.66,
-  "vs_100_usd": -1.34,
-  "vs_100_pct": -1.34,
-  "btc_bench": 97.89,
-  "vs_btc_usd": 0.77,
+  "time": "2026-10-14 18:27 (Tbilisi)",
+  "total_value": 98.22,
+  "vs_100_usd": -1.78,
+  "vs_100_pct": -1.78,
+  "btc_bench": 97.29,
+  "vs_btc_usd": 0.93,
   "bets": {
    "n": 28,
    "wins": 14,
@@ -4380,20 +4380,20 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.67,
-   "unrealized_usd": -0.33,
+   "value_usd": 14.58,
+   "unrealized_usd": -0.42,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.52
+   "total_pl_usd": -2.61
   },
   "stocks": {
    "open_n": 8,
-   "value_usd": 51.25,
-   "unrealized_usd": 0.25,
+   "value_usd": 50.9,
+   "unrealized_usd": -0.1,
    "realized_usd": -0.14,
-   "total_pl_usd": 0.11
+   "total_pl_usd": -0.24
   },
   "cash_usd": 18.59,
   "open_bets_usd": 14.15
  },
- "last_refresh": "2026-10-14 17:20 (Tbilisi)"
+ "last_refresh": "2026-10-14 18:27 (Tbilisi)"
 }
