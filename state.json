@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 410.09,
+ "cash_usd": 411.91,
  "open_bets": [
   {
    "id": "B020",
@@ -215,31 +215,6 @@
    },
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261015 ; https://www.dratings.com/predictor/europa-league-predictions/ ; https://fulltimestats.com/match/lech-poznan-vs-bayer-leverkusen-2026-10-15",
    "odds_time": "2026-10-13 19:22 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B039",
-   "sport": "Football",
-   "league": "Champions League MD2",
-   "event": "Feyenoord Rotterdam vs Como",
-   "kickoff": "2026-10-14 20:45",
-   "selection": "Feyenoord Rotterdam (1X2 — მოგება)",
-   "odds": 3.65,
-   "book": "AN best book71 (+265)",
-   "p": 0.333,
-   "implied_pct": 27.4,
-   "edge_pct": 5.9,
-   "stake": 0.5,
-   "reasoning": "ბაზრის no-vig FEY 26.6% (AN საუკეთესო 3.65). ProbaPredict 37% და FullTimeStats 43% — ორივე ცალკე EV>0 3.65-ზე (L004). ნაზავი 0.5×ბაზარი+0.5×მოდელები = 33.3%, EV 21.5%. Opta კოომოს 48.2%-ს აძლევს (არ ეთანხმება) — მაინც ≥2 მოდელი თანხმდება. ანდერდოგი ≤5.0.",
-   "model_inputs": {
-    "market_novig": 0.266,
-    "ProbaPredict": 0.37,
-    "FullTimeStats": 0.43,
-    "Opta_Como": 0.482,
-    "blend": "0.5×ბაზარი + 0.5×(PP+FTS)/2"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261014 ; https://probapredict.app/match/feyenoord-vs-como-2026-10-14 ; https://fulltimestats.com/match/feyenoord-vs-como-2026-10-14 ; https://theanalyst.com/articles/uefa-champions-league-match-predictions-2026-27",
-   "odds_time": "2026-10-13 23:58 (Tbilisi)",
    "status": "open"
   },
   {
@@ -1462,6 +1437,38 @@
    "settled_time": "2026-10-14 07:26 (Tbilisi)",
    "pl_usd": -0.5,
    "settle_note": "ESPN MLB scoreboard 20261013 STATUS_FINAL"
+  },
+  {
+   "id": "B039",
+   "sport": "Football",
+   "league": "Champions League MD2",
+   "event": "Feyenoord Rotterdam vs Como",
+   "kickoff": "2026-10-14 20:45",
+   "selection": "Feyenoord Rotterdam (1X2 — მოგება)",
+   "odds": 3.65,
+   "book": "AN best book71 (+265)",
+   "p": 0.333,
+   "implied_pct": 27.4,
+   "edge_pct": 5.9,
+   "stake": 0.5,
+   "reasoning": "ბაზრის no-vig FEY 26.6% (AN საუკეთესო 3.65). ProbaPredict 37% და FullTimeStats 43% — ორივე ცალკე EV>0 3.65-ზე (L004). ნაზავი 0.5×ბაზარი+0.5×მოდელები = 33.3%, EV 21.5%. Opta კოომოს 48.2%-ს აძლევს (არ ეთანხმება) — მაინც ≥2 მოდელი თანხმდება. ანდერდოგი ≤5.0.",
+   "model_inputs": {
+    "market_novig": 0.266,
+    "ProbaPredict": 0.37,
+    "FullTimeStats": 0.43,
+    "Opta_Como": 0.482,
+    "blend": "0.5×ბაზარი + 0.5×(PP+FTS)/2"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261014 ; https://probapredict.app/match/feyenoord-vs-como-2026-10-14 ; https://fulltimestats.com/match/feyenoord-vs-como-2026-10-14 ; https://theanalyst.com/articles/uefa-champions-league-match-predictions-2026-27",
+   "odds_time": "2026-10-13 23:58 (Tbilisi)",
+   "status": "settled",
+   "result": "won",
+   "final_score": "Feyenoord Rotterdam 3 – 2 Como",
+   "settled_time": "2026-10-14 23:19 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261014"
+   ],
+   "pl_usd": 1.32
   }
  ],
  "positions": [
@@ -1476,7 +1483,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81583
+   "last_price": 81719
   },
   {
    "symbol": "SPY",
@@ -1488,7 +1495,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 767.98
+   "last_price": 767.9
   },
   {
    "symbol": "META",
@@ -1500,7 +1507,7 @@
    "stop_loss": 665.62,
    "take_profit": 839.26,
    "thesis": "ძლიერი ტრენდია (30 დღეში +27%, MA-ებზე მაღლა). 60-დღიანი მაქ",
-   "last_price": 736.77
+   "last_price": 736.88
   },
   {
    "symbol": "AAPL",
@@ -1512,7 +1519,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 342.67,
+   "last_price": 343.09,
    "adds": [
     {
      "date": "2026-10-14",
@@ -1534,7 +1541,7 @@
    "take_profit": 301.79,
    "thesis": "ფასი MA20-ზე ($252) მაღლაა, RSI 55, მაქსიმუმიდან −7.6% — ზრდ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 253.56,
+   "last_price": 253.255,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1556,7 +1563,7 @@
    "take_profit": 451.59,
    "thesis": "ახალ 60-დღიან მაქსიმუმზეა, მაგრამ RSI მხოლოდ 55 — მომენტუმი ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 364.42
+   "last_price": 364.75
   },
   {
    "symbol": "GOOGL",
@@ -1569,7 +1576,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 348.07,
+   "last_price": 347.46,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1591,7 +1598,7 @@
    "take_profit": 835.73,
    "thesis": "Nasdaq-100 ETF: ფასი MA20 ($739) და MA50 ($726) ზემოთაა, RSI",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 728.46
+   "last_price": 727.38
   },
   {
    "symbol": "XLV",
@@ -1604,7 +1611,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 173.76,
+   "last_price": 173.86,
    "adds": [
     {
      "date": "2026-10-14",
@@ -5696,24 +5703,24 @@
   }
  ],
  "last_prices": {
-  "BTC": 81583,
-  "NEAR": 4.82,
-  "AVAX": 9.88,
-  "SPY": 767.98,
-  "META": 736.77,
-  "AAPL": 342.67,
+  "BTC": 81719,
+  "NEAR": 4.8,
+  "AVAX": 9.86,
+  "SPY": 767.9,
+  "META": 736.88,
+  "AAPL": 343.09,
   "NVDA": 220.627,
-  "AMZN": 253.56,
-  "TSLA": 364.42,
-  "GOOGL": 348.07,
-  "QQQ": 728.46,
-  "XLV": 173.76,
+  "AMZN": 253.255,
+  "TSLA": 364.75,
+  "GOOGL": 347.46,
+  "QQQ": 727.38,
+  "XLV": 173.86,
   "MSFT": 534.245,
   "PLTR": 201.23,
   "V": 391.68,
   "BRK-B": 524.795,
-  "ETH": 2426.79,
-  "SOL": 104.02,
+  "ETH": 2429.82,
+  "SOL": 104.23,
   "AMD": 572.715
  },
  "plan": {
@@ -5809,20 +5816,20 @@
   "progress_vs_target": "ბანკი ≈ $98.17 (-1.83 $100-დან), BTC-ბენჩმარკი 96.90; $500k აფსუარიული მიზანია."
  },
  "overall_report": {
-  "time": "2026-10-14 22:25 (Tbilisi)",
-  "total_value": 497.71,
+  "time": "2026-10-14 23:17 (Tbilisi)",
+  "total_value": 499.04,
   "deposits_usd": 500,
-  "vs_deposits_usd": -2.29,
-  "vs_deposits_pct": -0.46,
-  "btc_bench": 495.08,
-  "vs_btc_usd": 2.62,
+  "vs_deposits_usd": -0.96,
+  "vs_deposits_pct": -0.19,
+  "btc_bench": 495.91,
+  "vs_btc_usd": 3.13,
   "bets": {
-   "n": 28,
-   "wins": 14,
+   "n": 29,
+   "wins": 15,
    "losses": 14,
-   "open": 41,
-   "pl_usd": 1.07,
-   "roi_pct": 3.9
+   "open": 40,
+   "pl_usd": 2.39,
+   "roi_pct": 8.6
   },
   "by_sport": {
    "NHL": {
@@ -5847,11 +5854,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 15,
-    "wins": 9,
+    "n": 16,
+    "wins": 10,
     "losses": 6,
-    "pl_usd": 3.56,
-    "roi_pct": 24.2
+    "pl_usd": 4.88,
+    "roi_pct": 32.1
    },
    "NCAAF": {
     "n": 1,
@@ -5863,23 +5870,23 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.51,
-   "unrealized_usd": -0.49,
+   "value_usd": 14.53,
+   "unrealized_usd": -0.47,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.68
+   "total_pl_usd": -2.66
   },
   "stocks": {
    "open_n": 8,
-   "value_usd": 50.96,
-   "unrealized_usd": -0.48,
+   "value_usd": 50.95,
+   "unrealized_usd": -0.49,
    "realized_usd": -0.2,
-   "total_pl_usd": -0.68
+   "total_pl_usd": -0.69
   },
-  "cash_usd": 410.09,
+  "cash_usd": 411.91,
   "scanned": 140,
-  "open_bets_usd": 22.15
+  "open_bets_usd": 21.65
  },
- "last_refresh": "2026-10-14 22:25 (Tbilisi)",
+ "last_refresh": "2026-10-14 23:17 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
