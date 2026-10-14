@@ -1476,7 +1476,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81649
+   "last_price": 81937
   },
   {
    "symbol": "SPY",
@@ -1488,7 +1488,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 769.465
+   "last_price": 769.235
   },
   {
    "symbol": "META",
@@ -1500,7 +1500,7 @@
    "stop_loss": 665.62,
    "take_profit": 839.26,
    "thesis": "ძლიერი ტრენდია (30 დღეში +27%, MA-ებზე მაღლა). 60-დღიანი მაქ",
-   "last_price": 736.285
+   "last_price": 736.705
   },
   {
    "symbol": "AAPL",
@@ -1512,7 +1512,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 345.0,
+   "last_price": 343.17,
    "adds": [
     {
      "date": "2026-10-14",
@@ -1534,7 +1534,7 @@
    "take_profit": 301.79,
    "thesis": "ფასი MA20-ზე ($252) მაღლაა, RSI 55, მაქსიმუმიდან −7.6% — ზრდ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 254.718,
+   "last_price": 254.12,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1556,7 +1556,7 @@
    "take_profit": 451.59,
    "thesis": "ახალ 60-დღიან მაქსიმუმზეა, მაგრამ RSI მხოლოდ 55 — მომენტუმი ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 364.74
+   "last_price": 367.02
   },
   {
    "symbol": "GOOGL",
@@ -1569,7 +1569,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 351.33,
+   "last_price": 348.72,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1591,7 +1591,7 @@
    "take_profit": 835.73,
    "thesis": "Nasdaq-100 ETF: ფასი MA20 ($739) და MA50 ($726) ზემოთაა, RSI",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 730.015
+   "last_price": 730.07
   },
   {
    "symbol": "XLV",
@@ -1604,7 +1604,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 173.195,
+   "last_price": 173.3,
    "adds": [
     {
      "date": "2026-10-14",
@@ -5682,25 +5682,25 @@
   }
  ],
  "last_prices": {
-  "BTC": 81649,
-  "NEAR": 4.98,
-  "AVAX": 9.82,
-  "SPY": 769.465,
-  "META": 736.285,
-  "AAPL": 345.0,
-  "NVDA": 224.01,
-  "AMZN": 254.718,
-  "TSLA": 364.74,
-  "GOOGL": 351.33,
-  "QQQ": 730.015,
-  "XLV": 173.195,
-  "MSFT": 538.655,
-  "PLTR": 207.15,
-  "V": 396.06,
-  "BRK-B": 520.59,
-  "ETH": 2419.34,
-  "SOL": 103.56,
-  "AMD": 583.614
+  "BTC": 81937,
+  "NEAR": 4.9,
+  "AVAX": 9.93,
+  "SPY": 769.235,
+  "META": 736.705,
+  "AAPL": 343.17,
+  "NVDA": 222.063,
+  "AMZN": 254.12,
+  "TSLA": 367.02,
+  "GOOGL": 348.72,
+  "QQQ": 730.07,
+  "XLV": 173.3,
+  "MSFT": 535.89,
+  "PLTR": 201.93,
+  "V": 392.9,
+  "BRK-B": 523.12,
+  "ETH": 2445.08,
+  "SOL": 105.03,
+  "AMD": 573.27
  },
  "plan": {
   "updated": "2026-10-14 19:01 (Tbilisi)",
@@ -5795,12 +5795,12 @@
   "progress_vs_target": "ბანკი ≈ $98.17 (-1.83 $100-დან), BTC-ბენჩმარკი 96.90; $500k აფსუარიული მიზანია."
  },
  "overall_report": {
-  "time": "2026-10-14 20:30 (Tbilisi)",
-  "total_value": 97.89,
-  "vs_100_usd": -2.11,
-  "vs_100_pct": -2.11,
-  "btc_bench": 96.89,
-  "vs_btc_usd": 1.0,
+  "time": "2026-10-14 21:21 (Tbilisi)",
+  "total_value": 97.86,
+  "vs_100_usd": -2.14,
+  "vs_100_pct": -2.14,
+  "btc_bench": 97.23,
+  "vs_btc_usd": 0.62,
   "bets": {
    "n": 28,
    "wins": 14,
@@ -5848,20 +5848,20 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.52,
-   "unrealized_usd": -0.48,
+   "value_usd": 14.57,
+   "unrealized_usd": -0.43,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.67
+   "total_pl_usd": -2.62
   },
   "stocks": {
    "open_n": 8,
-   "value_usd": 51.13,
-   "unrealized_usd": -0.31,
+   "value_usd": 51.05,
+   "unrealized_usd": -0.4,
    "realized_usd": -0.2,
-   "total_pl_usd": -0.51
+   "total_pl_usd": -0.59
   },
   "cash_usd": 10.09,
   "open_bets_usd": 22.15
  },
- "last_refresh": "2026-10-14 20:30 (Tbilisi)"
+ "last_refresh": "2026-10-14 21:21 (Tbilisi)"
 }
