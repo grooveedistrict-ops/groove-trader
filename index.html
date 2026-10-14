@@ -160,7 +160,7 @@ ${(()=>{const R=S.overall_report;if(!R)return '';const B=R.bets||{},C=R.crypto||
 <div class="card s6"><h2>// მისიები (გეგმა 24–48სთ)</h2><ul>${(S.plan?.focus_next_24_48h||[]).map(x=>`<li>${E(x)}</li>`).join('')}</ul><small>${E(S.plan?.progress_vs_target)}</small></div>
 <div class="card s6"><h2>// სამიზნეები (watchlist)</h2><ul>${(S.plan?.watchlist||[]).map(w=>`<li><span class="k">${E(w.item)}</span> — ${E(w.trigger_to_act)}</li>`).join('')}</ul>
  <h2>// დახურული ტრეიდები</h2><table>${(S.closed_trades||[]).map(t=>`<tr><td>${t.symbol}</td><td>${f(t.entry_price)}→${f(t.exit_price)}</td><td class="${cls(t.pl_usd)}">${f(t.pl_usd)}</td></tr>`).join('')}</table></div>
-<div class="card s12"><h2>// კვლევა</h2><ul>${(r.research||[]).map(x=>`<li><span class="k">${E(x.topic)}</span>: ${E(x.found)}</li>`).join('')}</ul></div>`;
+<div class="card s12"><h2>// კვლევა</h2><ul>${(Array.isArray(r.research)?r.research:((r.research||{}).sources||[])).map(x=>`<li><span class="k">${E(x.topic)}</span>: ${E(x.found)}</li>`).join('')}</ul></div>`;
  countUp();renderDesk()}
 const TIDS=['bitcoin','ethereum','solana','binancecoin','ripple','dogecoin','cardano','avalanche-2','near','chainlink','sui','render-token'],TS={bitcoin:'BTC',ethereum:'ETH',solana:'SOL',binancecoin:'BNB',ripple:'XRP',dogecoin:'DOGE',cardano:'ADA','avalanche-2':'AVAX',near:'NEAR',chainlink:'LINK',sui:'SUI','render-token':'RENDER'};
 function ticker(){const items=TIDS.filter(i=>live[i]).map(i=>{const v=live[i],ch=v.usd_24h_change||0,fl=prev[i]==null?'':v.usd>prev[i]?'flashG':v.usd<prev[i]?'flashR':'';
