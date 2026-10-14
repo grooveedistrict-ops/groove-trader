@@ -3,100 +3,8 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 384.66,
+ "cash_usd": 389.04,
  "open_bets": [
-  {
-   "id": "B020",
-   "sport": "Football",
-   "league": "Champions League MD4",
-   "event": "Manchester City vs Paris Saint-Germain",
-   "kickoff": "2026-10-14 23:00",
-   "selection": "Manchester City (1X2 — მოგება)",
-   "odds": 2.25,
-   "book": "oddschecker best",
-   "p": 0.46,
-   "implied_pct": 44.4,
-   "edge_pct": 3.5,
-   "stake": 1.05,
-   "odds_time": "2026-10-12 11:15 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B021",
-   "sport": "Football",
-   "league": "Champions League MD4",
-   "event": "Bodo/Glimt vs Borussia Dortmund",
-   "kickoff": "2026-10-14 23:00",
-   "selection": "Bodo/Glimt (1X2 — მოგება)",
-   "odds": 3.25,
-   "book": "oddschecker best",
-   "p": 0.33,
-   "implied_pct": 30.8,
-   "edge_pct": 7.3,
-   "stake": 1.05,
-   "odds_time": "2026-10-12 11:15 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B025",
-   "sport": "Football",
-   "league": "Champions League MD3",
-   "event": "Aston Villa vs Fenerbahce",
-   "kickoff": "2026-10-14 23:00",
-   "selection": "ორივე გუნდი გაიტანს (BTTS — დიახ)",
-   "odds": 1.667,
-   "book": "footballpredictions (listed, -150)",
-   "p": 0.63,
-   "implied_pct": 60.0,
-   "edge_pct": 5.0,
-   "stake": 1.04,
-   "odds_time": "2026-10-12 23:55 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B027",
-   "sport": "Football",
-   "league": "Champions League MD2",
-   "event": "Roma vs Real Madrid",
-   "kickoff": "2026-10-14 23:00",
-   "selection": "Real Madrid (1X2 — მოგება)",
-   "odds": 1.901,
-   "book": "LetsBetMD (-111)",
-   "p": 0.54,
-   "implied_pct": 52.6,
-   "edge_pct": 2.7,
-   "stake": 0.51,
-   "reasoning": "რეალი სტუმრად ფავორიტია ყველა წიგნში (-111…-120); კლასის სხვაობა, მაგრამ რომა შინ საშიშია — მცირე ფსონი.",
-   "odds_source_url": "https://rg.org/news/soccer/atletico-vs-man-utd-man-city-vs-psg-champions-league-matchday-2-bets",
-   "odds_time": "2026-10-12 (rg.org ცხრილი), წაკითხულია 2026-10-13 02:17 (Tbilisi)",
-   "status": "open",
-   "kickoff_note": "შესწორდა 13 ოქტ. AM: Opta (ოთხშაბათი 14 ოქტ.) და Action Network (2026-10-14T19:00Z)"
-  },
-  {
-   "id": "B032",
-   "sport": "Football",
-   "league": "EFL Championship",
-   "event": "QPR vs Derby County",
-   "kickoff": "2026-10-14 22:45",
-   "selection": "Derby County (1X2 — მოგება)",
-   "odds": 4.9,
-   "book": "DraftKings (+390, ESPN odds feed)",
-   "p": 0.2342,
-   "implied_pct": 20.4,
-   "edge_pct": 14.8,
-   "stake": 0.5,
-   "reasoning": "DRatings 22%, ProbaPredict 32%, FullTimeStats 28% vs ბაზარი 19.5%; კოეფიციენტი ≤5.0. L004: მოდელები ფავორიტს ბაზარზე დაბლა აფასებენ — ამიტომ EV გაბერილი შეიძლება იყოს; X: დერბი 9 მატჩში 1 მოგება, ესტასზე ზეწოლა. მინიმალური ფსონი.",
-   "model_inputs": {
-    "market_novig": 0.195,
-    "DRatings": 0.22,
-    "ProbaPredict": 0.32,
-    "FullTimeStats": 0.28,
-    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261014 ; https://www.dratings.com/predictor/england-championship-predictions/upcoming/2 ; https://probapredict.app/match/qpr-vs-derby-county-2026-10-14 ; https://fulltimestats.com/match/qpr-vs-derby-2026-10-14 ; https://x.com/thederbydigest/status/2110023001160757742",
-   "odds_time": "2026-10-13 19:20 (Tbilisi)",
-   "status": "open"
-  },
   {
    "id": "B033",
    "sport": "NCAAF",
@@ -215,31 +123,6 @@
    },
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261015 ; https://www.dratings.com/predictor/europa-league-predictions/ ; https://fulltimestats.com/match/lech-poznan-vs-bayer-leverkusen-2026-10-15",
    "odds_time": "2026-10-13 19:22 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B040",
-   "sport": "Football",
-   "league": "EFL Championship",
-   "event": "Portsmouth vs Sheffield United",
-   "kickoff": "2026-10-14 22:45",
-   "selection": "Sheffield United (1X2 — მოგება)",
-   "odds": 3.25,
-   "book": "DraftKings (+225, ESPN odds)",
-   "p": 0.3345,
-   "implied_pct": 30.8,
-   "edge_pct": 2.7,
-   "stake": 0.5,
-   "reasoning": "ბაზრის no-vig SHU 29.4% (DK 3.25). ProbaPredict 40% და FullTimeStats 35% — ორივე EV>0 (L004). DRatings 30.6% ზღვარზეა (EV≈0) — ნაზავში მხოლოდ PP+FTS. p=33.45%, EV 8.7%. დუბლიკატი/ჰეჯი არაა.",
-   "model_inputs": {
-    "market_novig": 0.294,
-    "ProbaPredict": 0.4,
-    "FullTimeStats": 0.35,
-    "DRatings": 0.306,
-    "blend": "0.5×ბაზარი + 0.5×(PP+FTS)/2"
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261014 ; https://probapredict.app/match/portsmouth-vs-sheffield-united-2026-10-14 ; https://fulltimestats.com/match/portsmouth-vs-sheffield-utd-2026-10-14 ; https://www.dratings.com/predictor/england-championship-predictions/",
-   "odds_time": "2026-10-13 23:58 (Tbilisi)",
    "status": "open"
   },
   {
@@ -1737,6 +1620,171 @@
     "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261014"
    ],
    "pl_usd": 1.32
+  },
+  {
+   "id": "B020",
+   "sport": "Football",
+   "league": "Champions League MD4",
+   "event": "Manchester City vs Paris Saint-Germain",
+   "kickoff": "2026-10-14 23:00",
+   "selection": "Manchester City (1X2 — მოგება)",
+   "odds": 2.25,
+   "book": "oddschecker best",
+   "p": 0.46,
+   "implied_pct": 44.4,
+   "edge_pct": 3.5,
+   "stake": 1.05,
+   "odds_time": "2026-10-12 11:15 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Manchester City 2 – 4 Paris Saint-Germain",
+   "settled_time": "2026-10-15 01:31 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261014"
+   ],
+   "pl_usd": -1.05,
+   "settle_note": "ESPN scoreboard 20261014 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B021",
+   "sport": "Football",
+   "league": "Champions League MD4",
+   "event": "Bodo/Glimt vs Borussia Dortmund",
+   "kickoff": "2026-10-14 23:00",
+   "selection": "Bodo/Glimt (1X2 — მოგება)",
+   "odds": 3.25,
+   "book": "oddschecker best",
+   "p": 0.33,
+   "implied_pct": 30.8,
+   "edge_pct": 7.3,
+   "stake": 1.05,
+   "odds_time": "2026-10-12 11:15 (Tbilisi)",
+   "status": "settled",
+   "result": "won",
+   "final_score": "Bodo/Glimt 1 – 0 Borussia Dortmund",
+   "settled_time": "2026-10-15 01:31 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261014"
+   ],
+   "pl_usd": 2.36,
+   "settle_note": "ESPN scoreboard 20261014 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B025",
+   "sport": "Football",
+   "league": "Champions League MD3",
+   "event": "Aston Villa vs Fenerbahce",
+   "kickoff": "2026-10-14 23:00",
+   "selection": "ორივე გუნდი გაიტანს (BTTS — დიახ)",
+   "odds": 1.667,
+   "book": "footballpredictions (listed, -150)",
+   "p": 0.63,
+   "implied_pct": 60.0,
+   "edge_pct": 5.0,
+   "stake": 1.04,
+   "odds_time": "2026-10-12 23:55 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Aston Villa 6 – 0 Fenerbahce",
+   "settled_time": "2026-10-15 01:31 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261014"
+   ],
+   "pl_usd": -1.04,
+   "settle_note": "ESPN scoreboard 20261014 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B027",
+   "sport": "Football",
+   "league": "Champions League MD2",
+   "event": "Roma vs Real Madrid",
+   "kickoff": "2026-10-14 23:00",
+   "selection": "Real Madrid (1X2 — მოგება)",
+   "odds": 1.901,
+   "book": "LetsBetMD (-111)",
+   "p": 0.54,
+   "implied_pct": 52.6,
+   "edge_pct": 2.7,
+   "stake": 0.51,
+   "reasoning": "რეალი სტუმრად ფავორიტია ყველა წიგნში (-111…-120); კლასის სხვაობა, მაგრამ რომა შინ საშიშია — მცირე ფსონი.",
+   "odds_source_url": "https://rg.org/news/soccer/atletico-vs-man-utd-man-city-vs-psg-champions-league-matchday-2-bets",
+   "odds_time": "2026-10-12 (rg.org ცხრილი), წაკითხულია 2026-10-13 02:17 (Tbilisi)",
+   "status": "settled",
+   "kickoff_note": "შესწორდა 13 ოქტ. AM: Opta (ოთხშაბათი 14 ოქტ.) და Action Network (2026-10-14T19:00Z)",
+   "result": "won",
+   "final_score": "AS Roma 3 – 4 Real Madrid",
+   "settled_time": "2026-10-15 01:31 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261014"
+   ],
+   "pl_usd": 0.46,
+   "settle_note": "ESPN scoreboard 20261014 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B032",
+   "sport": "Football",
+   "league": "EFL Championship",
+   "event": "QPR vs Derby County",
+   "kickoff": "2026-10-14 22:45",
+   "selection": "Derby County (1X2 — მოგება)",
+   "odds": 4.9,
+   "book": "DraftKings (+390, ESPN odds feed)",
+   "p": 0.2342,
+   "implied_pct": 20.4,
+   "edge_pct": 14.8,
+   "stake": 0.5,
+   "reasoning": "DRatings 22%, ProbaPredict 32%, FullTimeStats 28% vs ბაზარი 19.5%; კოეფიციენტი ≤5.0. L004: მოდელები ფავორიტს ბაზარზე დაბლა აფასებენ — ამიტომ EV გაბერილი შეიძლება იყოს; X: დერბი 9 მატჩში 1 მოგება, ესტასზე ზეწოლა. მინიმალური ფსონი.",
+   "model_inputs": {
+    "market_novig": 0.195,
+    "DRatings": 0.22,
+    "ProbaPredict": 0.32,
+    "FullTimeStats": 0.28,
+    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261014 ; https://www.dratings.com/predictor/england-championship-predictions/upcoming/2 ; https://probapredict.app/match/qpr-vs-derby-county-2026-10-14 ; https://fulltimestats.com/match/qpr-vs-derby-2026-10-14 ; https://x.com/thederbydigest/status/2110023001160757742",
+   "odds_time": "2026-10-13 19:20 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Queens Park Rangers 4 – 1 Derby County",
+   "settled_time": "2026-10-15 01:31 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261014"
+   ],
+   "pl_usd": -0.5,
+   "settle_note": "ESPN scoreboard 20261014 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B040",
+   "sport": "Football",
+   "league": "EFL Championship",
+   "event": "Portsmouth vs Sheffield United",
+   "kickoff": "2026-10-14 22:45",
+   "selection": "Sheffield United (1X2 — მოგება)",
+   "odds": 3.25,
+   "book": "DraftKings (+225, ESPN odds)",
+   "p": 0.3345,
+   "implied_pct": 30.8,
+   "edge_pct": 2.7,
+   "stake": 0.5,
+   "reasoning": "ბაზრის no-vig SHU 29.4% (DK 3.25). ProbaPredict 40% და FullTimeStats 35% — ორივე EV>0 (L004). DRatings 30.6% ზღვარზეა (EV≈0) — ნაზავში მხოლოდ PP+FTS. p=33.45%, EV 8.7%. დუბლიკატი/ჰეჯი არაა.",
+   "model_inputs": {
+    "market_novig": 0.294,
+    "ProbaPredict": 0.4,
+    "FullTimeStats": 0.35,
+    "DRatings": 0.306,
+    "blend": "0.5×ბაზარი + 0.5×(PP+FTS)/2"
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261014 ; https://probapredict.app/match/portsmouth-vs-sheffield-united-2026-10-14 ; https://fulltimestats.com/match/portsmouth-vs-sheffield-utd-2026-10-14 ; https://www.dratings.com/predictor/england-championship-predictions/",
+   "odds_time": "2026-10-13 23:58 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Portsmouth 3 – 2 Sheffield United",
+   "settled_time": "2026-10-15 01:31 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261014"
+   ],
+   "pl_usd": -0.5,
+   "settle_note": "ESPN scoreboard 20261014 STATUS_FULL_TIME"
   }
  ],
  "positions": [
@@ -1751,7 +1799,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81719
+   "last_price": 81732
   },
   {
    "symbol": "SPY",
@@ -1763,7 +1811,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 769.0
+   "last_price": 769.6
   },
   {
    "symbol": "META",
@@ -1775,7 +1823,7 @@
    "stop_loss": 665.62,
    "take_profit": 839.26,
    "thesis": "ძლიერი ტრენდია (30 დღეში +27%, MA-ებზე მაღლა). 60-დღიანი მაქ",
-   "last_price": 737.09
+   "last_price": 737.54
   },
   {
    "symbol": "AAPL",
@@ -1787,7 +1835,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 342.6,
+   "last_price": 342.96,
    "adds": [
     {
      "date": "2026-10-14",
@@ -1809,7 +1857,7 @@
    "take_profit": 301.79,
    "thesis": "ფასი MA20-ზე ($252) მაღლაა, RSI 55, მაქსიმუმიდან −7.6% — ზრდ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 253.89,
+   "last_price": 254.08,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1831,7 +1879,7 @@
    "take_profit": 451.59,
    "thesis": "ახალ 60-დღიან მაქსიმუმზეა, მაგრამ RSI მხოლოდ 55 — მომენტუმი ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 366.88
+   "last_price": 367.16
   },
   {
    "symbol": "GOOGL",
@@ -1844,7 +1892,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 347.43,
+   "last_price": 347.64,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1866,7 +1914,7 @@
    "take_profit": 835.73,
    "thesis": "Nasdaq-100 ETF: ფასი MA20 ($739) და MA50 ($726) ზემოთაა, RSI",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 728.28
+   "last_price": 728.95
   },
   {
    "symbol": "XLV",
@@ -1879,7 +1927,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 173.94,
+   "last_price": 173.96,
    "adds": [
     {
      "date": "2026-10-14",
@@ -1905,7 +1953,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 91.8
+   "last_price": 91.78
   }
  ],
  "closed_trades": [
@@ -6947,36 +6995,36 @@
   }
  ],
  "last_prices": {
-  "BTC": 81719,
-  "NEAR": 4.79,
-  "AVAX": 9.87,
-  "SPY": 769.0,
-  "META": 737.09,
-  "AAPL": 342.6,
-  "NVDA": 221.24,
-  "AMZN": 253.89,
-  "TSLA": 366.88,
-  "GOOGL": 347.43,
-  "QQQ": 728.28,
-  "XLV": 173.94,
+  "BTC": 81732,
+  "NEAR": 4.81,
+  "AVAX": 9.94,
+  "SPY": 769.6,
+  "META": 737.54,
+  "AAPL": 342.96,
+  "NVDA": 221.3,
+  "AMZN": 254.08,
+  "TSLA": 367.16,
+  "GOOGL": 347.64,
+  "QQQ": 728.95,
+  "XLV": 173.96,
   "MSFT": 533.1,
   "PLTR": 200.73,
   "V": 390.96,
   "BRK-B": 524.795,
-  "ETH": 2428.06,
-  "SOL": 104.05,
+  "ETH": 2418.4,
+  "SOL": 104.25,
   "AMD": 570.6,
   "SPY30": 772.44,
   "ORCL": 130.22,
-  "AVGO": 346.09,
+  "AVGO": 346.25,
   "JPM": 335.0201,
-  "JNJ": 253.93,
+  "JNJ": 253.91,
   "BAC": 51.435,
   "UNH": 395.68,
   "COST": 982.0,
   "XOM": 177.25,
   "CRM": 236.02,
-  "KO": 91.8,
+  "KO": 91.78,
   "NFLX": 70.56,
   "WMT": 116.16,
   "INTC": 98.115,
@@ -7060,20 +7108,20 @@
   ]
  },
  "overall_report": {
-  "time": "2026-10-15 00:06 (Tbilisi)",
-  "total_value": 499.1,
+  "time": "2026-10-15 01:31 (Tbilisi)",
+  "total_value": 498.86,
   "deposits_usd": 500,
-  "vs_deposits_usd": -0.9,
-  "vs_deposits_pct": -0.18,
-  "btc_bench": 495.91,
-  "vs_btc_usd": 3.19,
+  "vs_deposits_usd": -1.14,
+  "vs_deposits_pct": -0.23,
+  "btc_bench": 495.99,
+  "vs_btc_usd": 2.88,
   "bets": {
-   "n": 29,
-   "wins": 15,
-   "losses": 14,
-   "open": 51,
-   "pl_usd": 2.39,
-   "roi_pct": 8.6
+   "n": 35,
+   "wins": 17,
+   "losses": 18,
+   "open": 45,
+   "pl_usd": 2.12,
+   "roi_pct": 6.5
   },
   "by_sport": {
    "NHL": {
@@ -7098,11 +7146,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 16,
-    "wins": 10,
-    "losses": 6,
-    "pl_usd": 4.88,
-    "roi_pct": 32.1
+    "n": 22,
+    "wins": 12,
+    "losses": 10,
+    "pl_usd": 4.61,
+    "roi_pct": 23.2
    },
    "NCAAF": {
     "n": 1,
@@ -7121,16 +7169,16 @@
   },
   "stocks": {
    "open_n": 9,
-   "value_usd": 57.01,
-   "unrealized_usd": -0.51,
+   "value_usd": 57.04,
+   "unrealized_usd": -0.47,
    "realized_usd": -0.13,
-   "total_pl_usd": -0.63
+   "total_pl_usd": -0.6
   },
-  "cash_usd": 384.66,
+  "cash_usd": 389.04,
   "scanned": 10792,
-  "open_bets_usd": 42.9
+  "open_bets_usd": 38.25
  },
- "last_refresh": "2026-10-15 00:06 (Tbilisi)",
+ "last_refresh": "2026-10-15 01:31 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
