@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 411.91,
+ "cash_usd": 384.66,
  "open_bets": [
   {
    "id": "B020",
@@ -749,7 +749,8 @@
    "odds_time": "2026-10-14 19:01 (Tbilisi)",
    "status": "open",
    "polymarket_slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
-   "outcome_price": 0.615
+   "outcome_price": 0.655,
+   "odds_mark": 1.527
   },
   {
    "id": "B067",
@@ -767,7 +768,8 @@
    "odds_time": "2026-10-14 19:01 (Tbilisi)",
    "status": "open",
    "polymarket_slug": "nfl-sea-den-2026-10-16",
-   "outcome_price": 0.565
+   "outcome_price": 0.565,
+   "odds_mark": 1.77
   },
   {
    "id": "B068",
@@ -785,7 +787,9 @@
    "odds_time": "2026-10-14 19:01 (Tbilisi)",
    "status": "open",
    "polymarket_slug": "crint-ind-wst-2026-10-14",
-   "outcome_price": 0.515
+   "outcome_price": 0.0005,
+   "odds_mark": 2000.0,
+   "note_mtm": "UMA proposed; India@0.0005 WI@0.9995 — not settled until closed"
   },
   {
    "id": "B069",
@@ -803,7 +807,271 @@
    "odds_time": "2026-10-14 19:01 (Tbilisi)",
    "status": "open",
    "polymarket_slug": "mlb-mil-lad-2026-10-14",
-   "outcome_price": 0.395
+   "outcome_price": 0.395,
+   "odds_mark": 2.532
+  },
+  {
+   "id": "B070",
+   "sport": "NFL",
+   "league": "NFL Week 7",
+   "event": "Chicago Bears @ Atlanta Falcons",
+   "kickoff": "2026-10-18 21:00",
+   "selection": "Chicago Bears (moneyline)",
+   "odds": 1.82,
+   "book": "Action Network best (-122)",
+   "p": 0.5755,
+   "implied_pct": 54.9,
+   "edge_pct": 4.7,
+   "stake": 1.25,
+   "reasoning": "ESPN predictor away 60.2% vs ბაზარი 54.9% (AN CHI 1.82). ნაზავი 57.55%, EV≈4.7%<5% → ნახევარი ზომა (A4).",
+   "model_inputs": {
+    "market_novig": 0.549,
+    "ESPN predictor": 0.602,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl?date=20261016 ; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B071",
+   "sport": "NFL",
+   "league": "NFL Week 7",
+   "event": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
+   "kickoff": "2026-10-18 21:00",
+   "selection": "Pittsburgh Steelers (moneyline)",
+   "odds": 2.05,
+   "book": "Action Network best (+105)",
+   "p": 0.5435,
+   "implied_pct": 48.8,
+   "edge_pct": 11.4,
+   "stake": 2.5,
+   "reasoning": "ESPN 59.9% vs ბაზარი 48.8% @2.05. ნაზავი 54.35%, EV≈11.4%. სტანდარტი 1.70–2.99.",
+   "model_inputs": {
+    "market_novig": 0.488,
+    "ESPN predictor": 0.599,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl?date=20261016 ; ESPN summary 401873002",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B072",
+   "sport": "NFL",
+   "league": "NFL Week 7",
+   "event": "New Orleans Saints @ New York Giants",
+   "kickoff": "2026-10-18 21:00",
+   "selection": "New Orleans Saints (moneyline)",
+   "odds": 2.2,
+   "book": "Action Network best (+120)",
+   "p": 0.497,
+   "implied_pct": 45.5,
+   "edge_pct": 9.3,
+   "stake": 2.5,
+   "reasoning": "ESPN away 53.9% vs ბაზარი 45.5% @2.20. ნაზავი 49.7%, EV≈9.3%.",
+   "model_inputs": {
+    "market_novig": 0.455,
+    "ESPN predictor": 0.539,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "AN nfl + ESPN summary 401873000",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B073",
+   "sport": "NFL",
+   "league": "NFL Week 7",
+   "event": "Dallas Cowboys @ Green Bay Packers",
+   "kickoff": "2026-10-19 04:20",
+   "selection": "Dallas Cowboys (moneyline)",
+   "odds": 2.42,
+   "book": "Action Network best (+142)",
+   "p": 0.4655,
+   "implied_pct": 41.3,
+   "edge_pct": 12.7,
+   "stake": 2.5,
+   "reasoning": "ESPN 51.8% vs ბაზარი 41.3% @2.42. ნაზავი 46.55%, EV≈12.7%.",
+   "model_inputs": {
+    "market_novig": 0.413,
+    "ESPN predictor": 0.518,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "AN nfl + ESPN summary 401873007",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B074",
+   "sport": "NFL",
+   "league": "NFL Week 7 (London)",
+   "event": "Houston Texans @ Jacksonville Jaguars",
+   "kickoff": "2026-10-18 17:30",
+   "selection": "Jacksonville Jaguars (moneyline)",
+   "odds": 1.909,
+   "book": "Action Network best (-110)",
+   "p": 0.554,
+   "implied_pct": 52.4,
+   "edge_pct": 5.8,
+   "stake": 2.5,
+   "reasoning": "ESPN home 58.4% vs ბაზარი 52.4% @1.909. ნაზავი 55.4%, EV≈5.8%. ლონდონის თამაში.",
+   "model_inputs": {
+    "market_novig": 0.524,
+    "ESPN predictor": 0.584,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "AN nfl + ESPN summary 401872996",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B075",
+   "sport": "NCAAF",
+   "league": "Sun Belt (Thursday)",
+   "event": "Georgia Southern Eagles @ Old Dominion Monarchs",
+   "kickoff": "2026-10-16 03:30",
+   "selection": "Georgia Southern Eagles (moneyline)",
+   "odds": 1.769,
+   "book": "Action Network best (-130)",
+   "p": 0.619,
+   "implied_pct": 56.5,
+   "edge_pct": 9.5,
+   "stake": 2.5,
+   "reasoning": "ESPN FPI away 67.3% vs ბაზარი 56.5% @1.769. ნაზავი 61.9%, EV≈9.5%.",
+   "model_inputs": {
+    "market_novig": 0.565,
+    "ESPN FPI": 0.673,
+    "blend": "0.5×ბაზარი + 0.5×FPI"
+   },
+   "odds_source_url": "AN ncaaf + ESPN summary 401869950",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B076",
+   "sport": "Polymarket",
+   "league": "US Midterms 2026",
+   "event": "Will the Democrats win the Nevada governor race in 2026?",
+   "kickoff": "2026-11-04 08:00",
+   "selection": "Yes (Democrats)",
+   "odds": 1.905,
+   "book": "Polymarket gamma",
+   "p": 0.55,
+   "implied_pct": 52.5,
+   "edge_pct": 3.0,
+   "stake": 1.25,
+   "outcome_price": 0.525,
+   "polymarket_slug": "will-the-democrats-win-the-nevada-governor-race-in-2026",
+   "reasoning": "ლიკვიდური midterm ბაზარი; Yes≈52.5¢. რბილი მოდელი 55% (ისტორიული D-lean NV governor) → EV≈3%<5% → ნახევარი. Polymarket paper only.",
+   "model_inputs": {
+    "market": 0.525,
+    "soft_prior": 0.55,
+    "blend": "0.5×ბაზარი + 0.5×prior"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets (volume-ranked)",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B077",
+   "sport": "Polymarket",
+   "league": "France 2027",
+   "event": "Will Marine Le Pen win the 2027 French presidential election?",
+   "kickoff": "2027-04-01 20:00",
+   "selection": "Yes",
+   "odds": 2.275,
+   "book": "Polymarket gamma",
+   "p": 0.47,
+   "implied_pct": 44.0,
+   "edge_pct": 3.0,
+   "stake": 1.25,
+   "outcome_price": 0.44,
+   "polymarket_slug": "will-marine-le-pen-win-the-2027-french-presidential-election",
+   "reasoning": "Yes≈44¢ / 2.275. რბილი prior 47% (პოლინგების კონსენსუსის მიმართულება) → EV≈3%. Paper only; გრძელი ჰორიზონტი.",
+   "model_inputs": {
+    "market": 0.44,
+    "soft_prior": 0.47,
+    "blend": "0.5×ბაზარი + 0.5×prior"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B078",
+   "sport": "Polymarket",
+   "league": "Ballon d'Or 2026",
+   "event": "Will Harry Kane win the 2026 Ballon d'Or?",
+   "kickoff": "2026-10-30 20:00",
+   "selection": "No",
+   "odds": 2.611,
+   "book": "Polymarket gamma",
+   "p": 0.42,
+   "implied_pct": 38.3,
+   "edge_pct": 5.1,
+   "stake": 2.5,
+   "outcome_price": 0.383,
+   "polymarket_slug": "will-harry-kane-win-the-2026-ballon-dor",
+   "reasoning": "Kane Yes≈61.7¢ — ევროპული კონსენსუსი ხშირად გადაჭარბებულია ადრეულ ციკლში; No prior 42% vs 38.3% → EV≈5.1%.",
+   "model_inputs": {
+    "market_no": 0.383,
+    "soft_prior_no": 0.42,
+    "blend": "0.5×ბაზარი + 0.5×prior"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B079",
+   "sport": "Polymarket",
+   "league": "Geopolitics",
+   "event": "Netanyahu out by end of 2026?",
+   "kickoff": "2026-12-31 23:59",
+   "selection": "Yes",
+   "odds": 2.532,
+   "book": "Polymarket gamma",
+   "p": 0.425,
+   "implied_pct": 39.5,
+   "edge_pct": 3.0,
+   "stake": 1.25,
+   "outcome_price": 0.395,
+   "polymarket_slug": "netanyahu-out-by-end-of-2026",
+   "reasoning": "Yes≈39.5¢. რბილი prior 42.5% (კოალიციის რისკი) → EV≈3%<5% → ნახევარი. Paper only.",
+   "model_inputs": {
+    "market": 0.395,
+    "soft_prior": 0.425,
+    "blend": "0.5×ბაზარი + 0.5×prior"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
+  },
+  {
+   "id": "B080",
+   "sport": "Polymarket",
+   "league": "US Midterms 2026",
+   "event": "2026 Balance of Power: D Senate, D House",
+   "kickoff": "2026-11-04 08:00",
+   "selection": "No",
+   "odds": 2.667,
+   "book": "Polymarket gamma",
+   "p": 0.405,
+   "implied_pct": 37.5,
+   "edge_pct": 3.0,
+   "stake": 1.25,
+   "outcome_price": 0.375,
+   "polymarket_slug": "2026-balance-of-power-d-senate-d-house",
+   "reasoning": "Yes D/D ≈62.5¢ — ისტორიულად midterm პრეზიდენტის პარტია ზარალდება; No prior 40.5% vs 37.5% → EV≈3%.",
+   "model_inputs": {
+    "market_no": 0.375,
+    "soft_prior_no": 0.405,
+    "blend": "0.5×ბაზარი + 0.5×prior"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "open"
   }
  ],
  "settled_bets": [
@@ -1495,19 +1763,19 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 767.9
+   "last_price": 769.0
   },
   {
    "symbol": "META",
    "type": "stock",
-   "qty": 0.011046,
+   "qty": 0.0056192542837374005,
    "entry_price": 723.5,
    "entry_date": "2026-10-07",
-   "cost_usd": 8.0,
+   "cost_usd": 4.0697,
    "stop_loss": 665.62,
    "take_profit": 839.26,
    "thesis": "ძლიერი ტრენდია (30 დღეში +27%, MA-ებზე მაღლა). 60-დღიანი მაქ",
-   "last_price": 736.88
+   "last_price": 737.09
   },
   {
    "symbol": "AAPL",
@@ -1519,7 +1787,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 343.09,
+   "last_price": 342.6,
    "adds": [
     {
      "date": "2026-10-14",
@@ -1541,7 +1809,7 @@
    "take_profit": 301.79,
    "thesis": "ფასი MA20-ზე ($252) მაღლაა, RSI 55, მაქსიმუმიდან −7.6% — ზრდ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 253.255,
+   "last_price": 253.89,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1563,7 +1831,7 @@
    "take_profit": 451.59,
    "thesis": "ახალ 60-დღიან მაქსიმუმზეა, მაგრამ RSI მხოლოდ 55 — მომენტუმი ",
    "fill_note": "ბაზარი დაკეტილია — შესრულება ბოლო დახურვის ფასით (9 ოქტ.)",
-   "last_price": 364.75
+   "last_price": 366.88
   },
   {
    "symbol": "GOOGL",
@@ -1576,7 +1844,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 347.46,
+   "last_price": 347.43,
    "adds": [
     {
      "date": "2026-10-13",
@@ -1598,20 +1866,20 @@
    "take_profit": 835.73,
    "thesis": "Nasdaq-100 ETF: ფასი MA20 ($739) და MA50 ($726) ზემოთაა, RSI",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 727.38
+   "last_price": 728.28
   },
   {
    "symbol": "XLV",
    "type": "stock",
-   "qty": 0.02049137,
+   "qty": 0.049236914440611707,
    "entry_price": 170.15,
    "entry_date": "2026-10-13",
-   "cost_usd": 3.5,
+   "cost_usd": 8.5,
    "stop_loss": 158.24,
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 173.86,
+   "last_price": 173.94,
    "adds": [
     {
      "date": "2026-10-14",
@@ -1619,8 +1887,25 @@
      "price": 172.46,
      "usd": 1.0,
      "why": "RSI 56.7, MA20 ზემოთ ($169.23), დივერსიფიკაცია"
+    },
+    {
+     "date": "2026-10-15 00:06",
+     "usd": 5.0,
+     "price": 173.94
     }
    ]
+  },
+  {
+   "symbol": "KO",
+   "type": "stock",
+   "qty": 0.054466230936819175,
+   "entry_price": 91.8,
+   "entry_date": "2026-10-15 00:06",
+   "cost_usd": 5.0,
+   "stop_loss": 84.46,
+   "take_profit": 105.57,
+   "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
+   "last_price": 91.8
   }
  ],
  "closed_trades": [
@@ -1718,6 +2003,17 @@
    "pl_usd": -0.0589,
    "pl_pct": -3.78,
    "reason": "MID trim: ფასი MA20-ზე ქვემოთ (371), RSI 44 — რისკის შემცირება"
+  },
+  {
+   "symbol": "META",
+   "type": "stock",
+   "side": "trim",
+   "qty": 0.0054267457162626,
+   "entry_price": 724.2440702516748,
+   "exit_price": 737.09,
+   "pl_usd": 0.0697,
+   "date": "2026-10-15 00:06",
+   "reason": "CPI selloff trim"
   }
  ],
  "history": [
@@ -1879,6 +2175,14 @@
    "total_value": 98.17,
    "cash": 10.09,
    "btc_bench": 96.9
+  },
+  {
+   "date": "2026-10-15 00:06",
+   "slot": "PM",
+   "total": 499.1,
+   "cash": 384.66,
+   "open_bets": 51,
+   "note": "PM: +11 bets, stocks 3"
   }
  ],
  "benchmarks_start": {
@@ -5555,6 +5859,943 @@
      "desk_pl_today": -0.06
     }
    }
+  },
+  {
+   "date": "2026-10-15",
+   "slot": "PM",
+   "time": "2026-10-15 00:06 (Tbilisi)",
+   "headline": "PM: 11 ფსონი (NFL/NCAAF/Poly), აქციები 3, ტოკენები 0, სკანი 10792",
+   "analysis": "PM ციკლი 2026-10-15 00:06 (Tbilisi). ბანკი ~$499.10 (დეპოზიტები $500). სეტლი 0 (ლაივი). ახალი 11 ფსონი (NFL/NCAAF/Poly). აქციები: XLV add $5.0 @ 173.94, KO buy $5.0 @ 91.8, META trim $4.0: qty−0.005427 @ 737.09, pl $0.0697. ტოკენები 0 (BTC<MA20). სკანი 10792. TITAN დაბლოკა 14.",
+   "research": {
+    "sources": [
+     "CoinGecko simple+market_chart",
+     "Yahoo Finance charts",
+     "ESPN scoreboards+summaries",
+     "Action Network scoreboards",
+     "Polymarket gamma-api",
+     "Dexscreener boosts/profiles",
+     "X search_posts_all (BTC, SPY/CPI)"
+    ],
+    "btc_ma20": 83814.92,
+    "btc_ma50": 81168.2,
+    "cpi_note": "Hot CPI; SPY −1.17%"
+   },
+   "trades": [
+    "XLV add $5.0 @ 173.94",
+    "KO buy $5.0 @ 91.8",
+    "META trim $4.0: qty−0.005427 @ 737.09, pl $0.0697",
+    "ფსონი B070: Chicago Bears @ Atlanta Falcons — Chicago Bears (moneyline) @1.82 $1.25, EV 4.7%",
+    "ფსონი B071: Pittsburgh Steelers @ Tampa Bay Buccaneers — Pittsburgh Steelers (moneyline) @2.05 $2.5, EV 11.4%",
+    "ფსონი B072: New Orleans Saints @ New York Giants — New Orleans Saints (moneyline) @2.2 $2.5, EV 9.3%",
+    "ფსონი B073: Dallas Cowboys @ Green Bay Packers — Dallas Cowboys (moneyline) @2.42 $2.5, EV 12.7%",
+    "ფსონი B074: Houston Texans @ Jacksonville Jaguars — Jacksonville Jaguars (moneyline) @1.909 $2.5, EV 5.8%",
+    "ფსონი B075: Georgia Southern Eagles @ Old Dominion Monarchs — Georgia Southern Eagles (moneyline) @1.769 $2.5, EV 9.5%",
+    "ფსონი B076: Will the Democrats win the Nevada governor race in 2026? — Yes (Democrats) @1.905 $1.25, EV 3.0%",
+    "ფსონი B077: Will Marine Le Pen win the 2027 French presidential election? — Yes @2.275 $1.25, EV 3.0%",
+    "ფსონი B078: Will Harry Kane win the 2026 Ballon d'Or? — No @2.611 $2.5, EV 5.1%",
+    "ფსონი B079: Netanyahu out by end of 2026? — Yes @2.532 $1.25, EV 3.0%",
+    "ფსონი B080: 2026 Balance of Power: D Senate, D House — No @2.667 $1.25, EV 3.0%"
+   ],
+   "skipped": [
+    {
+     "event": "სეტლი ღია ფსონები",
+     "why": "UCL/EFL ჯერ მიმდინარეა (City/Roma/Villa HT; QPR/Pompey ~50'); B068 UMA proposed"
+    },
+    {
+     "event": "NHL",
+     "why": "კალიბრაციის შეზღუდვა"
+    },
+    {
+     "event": "ახალი ტოკენები",
+     "why": "L002 BTC < MA20"
+    },
+    {
+     "event": "UEL ძლიერი ფავორიტები",
+     "why": "A3 <1.70 / FTS<<market"
+    },
+    {
+     "event": "დუბლიკატი",
+     "why": "UEL B060–B062 / SEA B067 უკვე ღიაა"
+    }
+   ],
+   "token_scan": {
+    "scanned": 60,
+    "checked": 60,
+    "passed_safety": 7,
+    "bought": 0,
+    "passed_names": [
+     "Pumpoween (solana, liq $90526)",
+     "GOMO (solana, liq $88394)",
+     "YUVI (near, liq $54276)",
+     "SANTACOIN (robinhood, liq $67409)",
+     "MISTAKE (solana, liq $171829)",
+     "SI276 (solana, liq $100638)",
+     "ABU (solana, liq $52749)"
+    ],
+    "rugged_24h": 0,
+    "pumps_rejected": 6,
+    "liquidity_fail": 46,
+    "cg_trending_checked": [
+     "ASTRO",
+     "ZYLO",
+     "PRL",
+     "WAL",
+     "NEAR",
+     "PENGU",
+     "QTC",
+     "BTC",
+     "HYPE",
+     "STRK",
+     "QNT",
+     "AERO",
+     "ZEC",
+     "ENA",
+     "ONDO"
+    ],
+    "blocked_by": "L002/H2: BTC < MA20 (new tokens gated)",
+    "note": "BTC $81719 vs MA20 $83815; უსაფრთხოება გაიარა 7, ყიდვა 0"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 10792,
+     "candidates": [
+      {
+       "name": "B070",
+       "type": "bet",
+       "score": 69,
+       "why": "Chicago Bears (moneyline) @1.82 EV≈4.7%"
+      },
+      {
+       "name": "B071",
+       "type": "bet",
+       "score": 82,
+       "why": "Pittsburgh Steelers (moneyline) @2.05 EV≈11.4%"
+      },
+      {
+       "name": "B072",
+       "type": "bet",
+       "score": 78,
+       "why": "New Orleans Saints (moneyline) @2.2 EV≈9.3%"
+      },
+      {
+       "name": "B073",
+       "type": "bet",
+       "score": 85,
+       "why": "Dallas Cowboys (moneyline) @2.42 EV≈12.7%"
+      },
+      {
+       "name": "B074",
+       "type": "bet",
+       "score": 71,
+       "why": "Jacksonville Jaguars (moneyline) @1.909 EV≈5.8%"
+      },
+      {
+       "name": "B075",
+       "type": "bet",
+       "score": 79,
+       "why": "Georgia Southern Eagles (moneyline) @1.769 EV≈9.5%"
+      },
+      {
+       "name": "B076",
+       "type": "polymarket",
+       "score": 66,
+       "why": "Yes (Democrats) @1.905 EV≈3.0%"
+      },
+      {
+       "name": "B077",
+       "type": "polymarket",
+       "score": 66,
+       "why": "Yes @2.275 EV≈3.0%"
+      },
+      {
+       "name": "B078",
+       "type": "polymarket",
+       "score": 70,
+       "why": "No @2.611 EV≈5.1%"
+      },
+      {
+       "name": "B079",
+       "type": "polymarket",
+       "score": 66,
+       "why": "Yes @2.532 EV≈3.0%"
+      },
+      {
+       "name": "B080",
+       "type": "polymarket",
+       "score": 66,
+       "why": "No @2.667 EV≈3.0%"
+      },
+      {
+       "name": "XLV",
+       "type": "stock",
+       "score": 72,
+       "why": "CPI defensive add"
+      },
+      {
+       "name": "KO",
+       "type": "stock",
+       "score": 70,
+       "why": "staple defensive buy"
+      },
+      {
+       "name": "META",
+       "type": "stock",
+       "score": 55,
+       "why": "trim after CPI"
+      },
+      {
+       "name": "BTC",
+       "type": "crypto",
+       "score": 40,
+       "why": "below MA20 $83815, above MA50 $81168"
+      },
+      {
+       "name": "Pumpoween",
+       "type": "token",
+       "score": 35,
+       "why": "safety pass but L002 gate"
+      },
+      {
+       "name": "GOMO",
+       "type": "token",
+       "score": 35,
+       "why": "safety pass but L002 gate"
+      },
+      {
+       "name": "YUVI",
+       "type": "token",
+       "score": 35,
+       "why": "safety pass but L002 gate"
+      },
+      {
+       "name": "SANTACOIN",
+       "type": "token",
+       "score": 35,
+       "why": "safety pass but L002 gate"
+      },
+      {
+       "name": "MISTAKE",
+       "type": "token",
+       "score": 35,
+       "why": "safety pass but L002 gate"
+      }
+     ]
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 81719.0,
+       "tp": 88006.0,
+       "stop": 73547.0,
+       "support": 80000,
+       "resistance": 83815.0,
+       "volume": "avg",
+       "prices": [
+        75590.24,
+        76146.81,
+        76371.36,
+        80873.58,
+        81236.41,
+        81169.04,
+        86596.74,
+        86183.29,
+        84382.4,
+        84377.97,
+        84075.72,
+        84416.71,
+        84448.75,
+        83479.25,
+        83640.1,
+        83576.13,
+        84841.67,
+        84506.47,
+        84742.79,
+        86489.73,
+        85770.87,
+        85540.09,
+        83282.05,
+        81685.89,
+        82564.29,
+        82917.9,
+        83690.87,
+        81794.85,
+        83115.1,
+        81719.19
+       ]
+      },
+      {
+       "candidate": "XLV",
+       "trend": "up",
+       "entry": 173.94,
+       "tp": 187.86,
+       "stop": 163.5,
+       "support": 170,
+       "resistance": 180,
+       "volume": "avg",
+       "prices": [
+        169.66,
+        173.94
+       ]
+      },
+      {
+       "candidate": "KO",
+       "trend": "up",
+       "entry": 91.8,
+       "tp": 105.57,
+       "stop": 84.46,
+       "prices": [
+        91.8
+       ]
+      },
+      {
+       "candidate": "META",
+       "trend": "down",
+       "entry": 737.09,
+       "tp": 810.8,
+       "stop": 663.38,
+       "prices": [
+        762.5,
+        737.09
+       ]
+      },
+      {
+       "candidate": "B071",
+       "trend": "up",
+       "entry": 2.05,
+       "tp": 2.05,
+       "stop": 1.0,
+       "prices": [
+        2.05
+       ]
+      },
+      {
+       "candidate": "B075",
+       "trend": "up",
+       "entry": 1.769,
+       "tp": 1.769,
+       "stop": 1.0,
+       "prices": [
+        1.769
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "SPY",
+       "stance": "bearish",
+       "text": "CPI hot: core +0.3% vs +0.2%; SPY closed −1.17%",
+       "source": "https://x.com/alphaticaio/status/2110460792051298652"
+      },
+      {
+       "candidate": "BTC",
+       "stance": "watch",
+       "text": "BTC $81719 under MA20 $83815, above MA50 $81168",
+       "source": "CoinGecko market_chart"
+      },
+      {
+       "candidate": "Fed",
+       "stance": "bullish",
+       "text": "Poly Fed Oct no-change Yes ≈65.5¢ (was 61.5¢ MID)",
+       "source": "https://gamma-api.polymarket.com/markets"
+      },
+      {
+       "candidate": "NFL",
+       "stance": "watch",
+       "text": "Week 7 lines live; ESPN predictors fetched for 13 games",
+       "source": "ESPN NFL summaries"
+      },
+      {
+       "candidate": "B068",
+       "stance": "bearish",
+       "text": "India T20 UMA proposed; WI≈99.95¢ — MTM near-zero, not settled",
+       "source": "Polymarket gamma slug crint-ind-wst-2026-10-14"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "BTC",
+       "mood": -0.2,
+       "note": "X: MA50 support talk + Pacman alts; mixed"
+      },
+      {
+       "candidate": "SPY",
+       "mood": -0.55,
+       "note": "X: CPI selloff, put walls, bearish targets"
+      },
+      {
+       "candidate": "Fed",
+       "mood": 0.15,
+       "note": "no-change price up on Poly"
+      },
+      {
+       "candidate": "NFL",
+       "mood": 0.05,
+       "note": "neutral pre-Week 7"
+      }
+     ],
+     "overall": -0.25
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "B070",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 4.7% ; stake $1.25; კეპები OK"
+      },
+      {
+       "candidate": "B071",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 11.4% ; stake $2.5; კეპები OK"
+      },
+      {
+       "candidate": "B072",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 9.3% ; stake $2.5; კეპები OK"
+      },
+      {
+       "candidate": "B073",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 12.7% ; stake $2.5; კეპები OK"
+      },
+      {
+       "candidate": "B074",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 5.8% ; stake $2.5; კეპები OK"
+      },
+      {
+       "candidate": "B075",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 9.5% ; stake $2.5; კეპები OK"
+      },
+      {
+       "candidate": "B076",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 3.0% ; stake $1.25; კეპები OK"
+      },
+      {
+       "candidate": "B077",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 3.0% ; stake $1.25; კეპები OK"
+      },
+      {
+       "candidate": "B078",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 5.1% ; stake $2.5; კეპები OK"
+      },
+      {
+       "candidate": "B079",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 3.0% ; stake $1.25; კეპები OK"
+      },
+      {
+       "candidate": "B080",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "EV 3.0% ; stake $1.25; კეპები OK"
+      },
+      {
+       "candidate": "XLV",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "CPI defensive / trim — TITAN OK"
+      },
+      {
+       "candidate": "KO",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "CPI defensive / trim — TITAN OK"
+      },
+      {
+       "candidate": "META",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "CPI defensive / trim — TITAN OK"
+      },
+      {
+       "candidate": "NHL tonight",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "NHL throttle — ROI −12.2%"
+      },
+      {
+       "candidate": "new tokens",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "L002 BTC < MA20; new tokens gated"
+      },
+      {
+       "candidate": "SOL/alts buy",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "BTC < MA20; exception needs VEGA+TITAN+beat BTC 7d — not met for new alts"
+      },
+      {
+       "candidate": "Benfica 1.267",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "L001/A3: <1.70 strong fav, FTS 72%<market 79%, EV negative"
+      },
+      {
+       "candidate": "Bournemouth 1.222",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "A3 <1.70; FTS 55% << market 82%"
+      },
+      {
+       "candidate": "AZ Alkmaar 1.308",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "A3 <1.70; FTS 58% << market"
+      },
+      {
+       "candidate": "Anderlecht @3.9",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "A3 ≥3.0 needs EV≥5% + 2 models; only FTS"
+      },
+      {
+       "candidate": "Levski @4.2",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "A3 longshot 1 model only"
+      },
+      {
+       "candidate": "CAR @ PHI 3.25",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "A3 ≥3.0 only 1 model (ESPN)"
+      },
+      {
+       "candidate": "live UCL Poly Madrid/City",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "in-play; უკვე გვაქვს სპორტ ფსონები"
+      },
+      {
+       "candidate": "B068 India add",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "UMA proposed WI≈99.95%; არ ვამატებთ"
+      },
+      {
+       "candidate": "NVDA/AMD add",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "WAIT",
+       "objection": "CPI chip selloff — ველოდებით სტაბილიზაციას"
+      },
+      {
+       "candidate": "QQQ add",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "WAIT",
+       "objection": "below recent highs post-CPI"
+      },
+      {
+       "candidate": "MSFT/PLTR",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "არა ახალი შესვლა დღეს"
+      },
+      {
+       "candidate": "duplicate UEL B060-62",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "უკვე ღიაა"
+      },
+      {
+       "candidate": "Sea/Den poly add",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": false
+       },
+       "verdict": "SKIP",
+       "objection": "B067 უკვე ღიაა"
+      },
+      {
+       "candidate": "TSLA add",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "WAIT",
+       "objection": "უკვე trimmed MID-ში; CPI weakness"
+      },
+      {
+       "candidate": "BTC buy more",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "WAIT",
+       "objection": "A1: close < SMA50? actually >MA50 but <MA20 — hold only existing"
+      }
+     ],
+     "blocked_count": 14
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "B070",
+       "action": "BUY",
+       "size_usd": 1.25
+      },
+      {
+       "candidate": "B071",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "B072",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "B073",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "B074",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "B075",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "B076",
+       "action": "BUY",
+       "size_usd": 1.25
+      },
+      {
+       "candidate": "B077",
+       "action": "BUY",
+       "size_usd": 1.25
+      },
+      {
+       "candidate": "B078",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "B079",
+       "action": "BUY",
+       "size_usd": 1.25
+      },
+      {
+       "candidate": "B080",
+       "action": "BUY",
+       "size_usd": 1.25
+      },
+      {
+       "candidate": "XLV",
+       "action": "BUY",
+       "size_usd": 5.0
+      },
+      {
+       "candidate": "KO",
+       "action": "BUY",
+       "size_usd": 5.0
+      },
+      {
+       "candidate": "META",
+       "action": "SELL",
+       "size_usd": 4.0
+      },
+      {
+       "candidate": "NHL tonight",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "new tokens",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "SOL/alts buy",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Benfica 1.267",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Bournemouth 1.222",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "AZ Alkmaar 1.308",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Anderlecht @3.9",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Levski @4.2",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "CAR @ PHI 3.25",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "live UCL Poly Madrid/City",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "B068 India add",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "NVDA/AMD add",
+       "action": "WAIT",
+       "size_usd": 0
+      },
+      {
+       "candidate": "QQQ add",
+       "action": "WAIT",
+       "size_usd": 0
+      },
+      {
+       "candidate": "MSFT/PLTR",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "duplicate UEL B060-62",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Sea/Den poly add",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "TSLA add",
+       "action": "WAIT",
+       "size_usd": 0
+      },
+      {
+       "candidate": "BTC buy more",
+       "action": "WAIT",
+       "size_usd": 0
+      }
+     ],
+     "desk_pl_today": 0.07
+    }
+   }
   }
  ],
  "calibration": {
@@ -5704,59 +6945,82 @@
  ],
  "last_prices": {
   "BTC": 81719,
-  "NEAR": 4.8,
-  "AVAX": 9.86,
-  "SPY": 767.9,
-  "META": 736.88,
-  "AAPL": 343.09,
-  "NVDA": 220.627,
-  "AMZN": 253.255,
-  "TSLA": 364.75,
-  "GOOGL": 347.46,
-  "QQQ": 727.38,
-  "XLV": 173.86,
-  "MSFT": 534.245,
-  "PLTR": 201.23,
-  "V": 391.68,
+  "NEAR": 4.79,
+  "AVAX": 9.87,
+  "SPY": 769.0,
+  "META": 737.09,
+  "AAPL": 342.6,
+  "NVDA": 221.24,
+  "AMZN": 253.89,
+  "TSLA": 366.88,
+  "GOOGL": 347.43,
+  "QQQ": 728.28,
+  "XLV": 173.94,
+  "MSFT": 533.1,
+  "PLTR": 200.73,
+  "V": 390.96,
   "BRK-B": 524.795,
-  "ETH": 2429.82,
-  "SOL": 104.23,
-  "AMD": 572.715
+  "ETH": 2428.06,
+  "SOL": 104.05,
+  "AMD": 570.6,
+  "SPY30": 772.44,
+  "ORCL": 130.22,
+  "AVGO": 346.09,
+  "JPM": 335.0201,
+  "JNJ": 253.93,
+  "BAC": 51.435,
+  "UNH": 395.68,
+  "COST": 982.0,
+  "XOM": 177.25,
+  "CRM": 236.02,
+  "KO": 91.8,
+  "NFLX": 70.56,
+  "WMT": 116.16,
+  "INTC": 98.115,
+  "PEP": 129.27,
+  "LLY": 1210.725,
+  "DIS": 108.955,
+  "MA": 602.7,
+  "CSCO": 113.61,
+  "ADBE": 240.635,
+  "XLP": 86.055,
+  "IWM": 271.42,
+  "XLE": 67.61
  },
  "plan": {
-  "updated": "2026-10-14 19:01 (Tbilisi)",
+  "updated": "2026-10-15 00:06 (Tbilisi)",
   "focus_next_24_48h": [
-   "დღეს საღამოს: B039 Feyenoord 20:45; B032/B040 22:45; B020/B021/B025/B027 23:00 — სეტლი ფინალის შემდეგ",
-   "15 ოქტ.: MLS ახალი B054–B059 + ძველი B035/B036; UEL B060–B062; NCAAF B063",
-   "პირველი Polymarket: B066 Fed no-change, B067 SEA, B068 IND, B069 MIL — მონიტორინგი",
-   "BTC>MA20 (~$83.8k) → ტოკენები (swordcat/STONK/TART/arc)",
-   "H4/H5: ანდერდოგების კალიბრაცია სეტლების შემდეგ"
+   "AM 08:50: სეტლი ღამის UCL/EFL (City/PSG, Bodo, Villa, Roma, QPR, Portsmouth) თუ FT",
+   "MLS B054–B059 + B035/B036; NCAAF B063/B075; NBA B065",
+   "B068 India: UMA proposed — სეტლი მხოლოდ closed/resolved-ზე",
+   "ახალი NFL B070–B074 Week 7 მონიტორინგი",
+   "BTC>MA20 → ტოკენები; ახლა L002 გეითი"
   ],
   "watchlist": [
    {
-    "item": "B039 Feyenoord",
-    "why": "20:45 კიკოფი",
-    "trigger_to_act": "ფინალური სკორი → სეტლი"
+    "item": "UCL live B020/B021/B025/B027",
+    "why": "HT/in-play",
+    "trigger_to_act": "FT → settle"
    },
    {
-    "item": "QQQ",
-    "why": "MA20 ქვემოთ",
-    "trigger_to_act": "სტოპი $701.42"
+    "item": "EFL B032/B040",
+    "why": "~50'",
+    "trigger_to_act": "FT → settle"
+   },
+   {
+    "item": "B068 India Poly",
+    "why": "UMA proposed WI≈99.95%",
+    "trigger_to_act": "closed → settle loss"
    },
    {
     "item": "BTC MA20",
-    "why": "ახლა $81661 vs $83812",
+    "why": "$81719 vs $83815",
     "trigger_to_act": "ზემოთ → ტოკენები"
-   },
-   {
-    "item": "Fed Polymarket B066",
-    "why": "soft jobs",
-    "trigger_to_act": "FOMC Oct 28"
    },
    {
     "item": "NHL throttle",
     "why": "ROI უარყოფითი",
-    "trigger_to_act": "≥3 ახალი სეტლი ROI გაუმჯობესება"
+    "trigger_to_act": "≥3 ახალი სეტლი"
    }
   ],
   "hypotheses_to_test": [
@@ -5790,44 +7054,21 @@
     "evidence_needed": "≥10 სეტლი CLV-ით",
     "current_evidence": "ჯერ იშვიათად იზომება"
    }
-  ],
-  "rule_refinements": [
-   {
-    "proposal": "კრიპტო-ალტის ყიდვამდე BTC უნდა იყოს MA20-ის ზემოთ",
-    "status": "active",
-    "reason": "L002 — AVAX-ის გასვლაც ადასტურებს დაღმავალ რეჟიმს"
-   },
-   {
-    "proposal": "მოდელის ნაზავი: კოეფიციენტი ≤5.0, ≥2 მოდელი EV>0, EV≥2–3%",
-    "status": "active",
-    "reason": "L004 — SOU 1.8% უარყოფილია"
-   },
-   {
-    "proposal": "RSI<40 ალტზე → გასვლა",
-    "status": "active",
-    "reason": "AVAX PM გასვლა"
-   }
-  ],
-  "process_improvements": [
-   "პირველი Polymarket ციკლი: gamma API რეალური ფასებით",
-   "ESPN DraftKings moneyline.close ოდდები",
-   "ინ-ფლეი სეტლმენტის აკრძალვა მკაცრად დაცულია"
-  ],
-  "progress_vs_target": "ბანკი ≈ $98.17 (-1.83 $100-დან), BTC-ბენჩმარკი 96.90; $500k აფსუარიული მიზანია."
+  ]
  },
  "overall_report": {
-  "time": "2026-10-14 23:17 (Tbilisi)",
-  "total_value": 499.04,
+  "time": "2026-10-15 00:06 (Tbilisi)",
+  "total_value": 499.1,
   "deposits_usd": 500,
-  "vs_deposits_usd": -0.96,
-  "vs_deposits_pct": -0.19,
+  "vs_deposits_usd": -0.9,
+  "vs_deposits_pct": -0.18,
   "btc_bench": 495.91,
-  "vs_btc_usd": 3.13,
+  "vs_btc_usd": 3.19,
   "bets": {
    "n": 29,
    "wins": 15,
    "losses": 14,
-   "open": 40,
+   "open": 51,
    "pl_usd": 2.39,
    "roi_pct": 8.6
   },
@@ -5876,17 +7117,17 @@
    "total_pl_usd": -2.66
   },
   "stocks": {
-   "open_n": 8,
-   "value_usd": 50.95,
-   "unrealized_usd": -0.49,
-   "realized_usd": -0.2,
-   "total_pl_usd": -0.69
+   "open_n": 9,
+   "value_usd": 57.01,
+   "unrealized_usd": -0.51,
+   "realized_usd": -0.13,
+   "total_pl_usd": -0.63
   },
-  "cash_usd": 411.91,
-  "scanned": 140,
-  "open_bets_usd": 21.65
+  "cash_usd": 384.66,
+  "scanned": 10792,
+  "open_bets_usd": 42.9
  },
- "last_refresh": "2026-10-14 23:17 (Tbilisi)",
+ "last_refresh": "2026-10-15 00:06 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
