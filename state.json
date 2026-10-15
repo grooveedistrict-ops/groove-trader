@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 231.1682,
+ "cash_usd": 232.6682,
  "open_bets": [
   {
    "id": "B033",
@@ -33,36 +33,6 @@
     "best_now": 3.3,
     "fair_now": 3.317,
     "clv_pct": -5.03
-   }
-  },
-  {
-   "id": "B037",
-   "sport": "Football",
-   "league": "Europa League MD2",
-   "event": "Celta Vigo vs Juventus",
-   "kickoff": "2026-10-15 23:00",
-   "selection": "Celta Vigo (1X2 — მოგება)",
-   "odds": 3.75,
-   "book": "bet365 (+275)",
-   "p": 0.2765,
-   "implied_pct": 26.7,
-   "edge_pct": 3.7,
-   "stake": 0.5,
-   "reasoning": "DRatings 27.8% და FullTimeStats 28% ბაზარზე (27.4%) მაღლა, EV 3.7% — ზღვრული. X (GdS): იუვენტუსი ფლანგებზე როტაციას აპირებს. 0.5%.",
-   "model_inputs": {
-    "market_novig": 0.274,
-    "DRatings": 0.278,
-    "FullTimeStats": 0.28,
-    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261015 ; https://www.dratings.com/predictor/europa-league-predictions/ ; https://fulltimestats.com/match/celta-vigo-vs-juventus-2026-10-15 ; https://x.com/forumJuventus/status/2109878220380078378",
-   "odds_time": "2026-10-13 19:22 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 3.75,
-    "best_now": 3.55,
-    "fair_now": 3.651,
-    "clv_pct": 2.71
    }
   },
   {
@@ -414,28 +384,6 @@
     "best_now": 1.73,
     "fair_now": 1.777,
     "clv_pct": -2.64
-   }
-  },
-  {
-   "id": "B061",
-   "sport": "Football",
-   "league": "Europa League MD2",
-   "event": "Olympiacos vs Marseille",
-   "kickoff": "2026-10-15 23:00",
-   "selection": "Olympiacos (1X2 — მოგება)",
-   "odds": 3.0,
-   "book": "ESPN/DraftKings",
-   "p": 0.37,
-   "implied_pct": 33.3,
-   "edge_pct": 3.7,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 3.0,
-    "best_now": 3.25,
-    "fair_now": 3.112,
-    "clv_pct": -3.61
    }
   },
   {
@@ -871,29 +819,6 @@
     "price_bet": 0.375,
     "slug": "2026-balance-of-power-d-senate-d-house-949"
    }
-  },
-  {
-   "id": "B081",
-   "sport": "Football",
-   "league": "Conference League MD2",
-   "event": "FC Nordsjælland @ Heart of Midlothian",
-   "kickoff": "2026-10-15 23:00",
-   "selection": "Heart of Midlothian (1X2 — მოგება)",
-   "odds": 2.95,
-   "book": "ESPN/DraftKings (+195)",
-   "p": 0.3819,
-   "implied_pct": 33.9,
-   "edge_pct": 12.67,
-   "stake": 1.25,
-   "reasoning": "FTS 44% vs DK no-vig 32.4% @2.95. ნაზავი 38.2%, EV≈12.7%. ერთი მოდელი + ერთი წიგნი → ნახევარი ფსონი. ახალი ლიგა (UECL).",
-   "model_inputs": {
-    "market_novig": 0.3239,
-    "FullTimeStats": 0.44,
-    "blend": "0.5×ბაზარი + 0.5×FTS"
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261015 ; https://fulltimestats.com/match/heart-of-midlothian-vs-fc-nordsjaelland-2026-10-15",
-   "odds_time": "2026-10-15 09:16 (Tbilisi)",
-   "status": "open"
   },
   {
    "id": "B082",
@@ -1710,37 +1635,6 @@
    "scan_id": "pm:epl-bou-sun-2026-10-18-bou",
    "polymarket_slug": "epl-bou-sun-2026-10-18-bou",
    "outcome_price": 0.46
-  },
-  {
-   "id": "B111",
-   "sport": "Polymarket",
-   "league": "europa",
-   "event": "Anderlecht @ Dinamo Zagreb",
-   "kickoff": "2026-10-15 23:00",
-   "selection": "Anderlecht",
-   "odds": 3.846,
-   "book": "Polymarket ask",
-   "p": 0.2741,
-   "implied_pct": 26.0,
-   "edge_pct": 5.42,
-   "stake": 2.38,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.31,
-     "DRatings": 0.267
-    },
-    "mkt": 0.2597,
-    "nbooks": 5,
-    "blend_p": 0.2741,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=uel-din-and-2026-10-15-and",
-   "reasoning": "scan PASS EV=5.42% models=['FTS', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:uel-din-and-2026-10-15-and",
-   "polymarket_slug": "uel-din-and-2026-10-15-and",
-   "outcome_price": 0.26
   },
   {
    "id": "B112",
@@ -3592,6 +3486,148 @@
     "note": "CLV −4.6% no-vig (raw close 2.70 = ჩვენი 2.70); მხოლოდ FTS მოდელი; 1–1 ფრე. $5 მაქს. ზომა ერთ მოდელზე — ვარიანსი, მცირე უარყოფითი CLV.",
     "lesson": null
    }
+  },
+  {
+   "id": "B037",
+   "sport": "Football",
+   "league": "Europa League MD2",
+   "event": "Celta Vigo vs Juventus",
+   "kickoff": "2026-10-15 23:00",
+   "selection": "Celta Vigo (1X2 — მოგება)",
+   "odds": 3.75,
+   "book": "bet365 (+275)",
+   "p": 0.2765,
+   "implied_pct": 26.7,
+   "edge_pct": 3.7,
+   "stake": 0.5,
+   "reasoning": "DRatings 27.8% და FullTimeStats 28% ბაზარზე (27.4%) მაღლა, EV 3.7% — ზღვრული. X (GdS): იუვენტუსი ფლანგებზე როტაციას აპირებს. 0.5%.",
+   "model_inputs": {
+    "market_novig": 0.274,
+    "DRatings": 0.278,
+    "FullTimeStats": 0.28,
+    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261015 ; https://www.dratings.com/predictor/europa-league-predictions/ ; https://fulltimestats.com/match/celta-vigo-vs-juventus-2026-10-15 ; https://x.com/forumJuventus/status/2109878220380078378",
+   "odds_time": "2026-10-13 19:22 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 3.75,
+    "best_now": 3.55,
+    "fair_now": 3.651,
+    "clv_pct": 2.71
+   },
+   "result": "lost",
+   "score": "Celta Vigo 1–2 Juventus (FT)",
+   "settled_at": "2026-10-16 01:25 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+   "pl_usd": -0.5,
+   "closing_odds": 3.5,
+   "clv_pct": 2.76,
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915560",
+   "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +250/+220/+125; no-vig fair 3.649; hourly refresh 2026-10-16 01:25 (Tbilisi)"
+  },
+  {
+   "id": "B061",
+   "sport": "Football",
+   "league": "Europa League MD2",
+   "event": "Olympiacos vs Marseille",
+   "kickoff": "2026-10-15 23:00",
+   "selection": "Olympiacos (1X2 — მოგება)",
+   "odds": 3.0,
+   "book": "ESPN/DraftKings",
+   "p": 0.37,
+   "implied_pct": 33.3,
+   "edge_pct": 3.7,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 3.0,
+    "best_now": 3.25,
+    "fair_now": 3.112,
+    "clv_pct": -3.61
+   },
+   "result": "won",
+   "score": "Olympiacos 1–0 Marseille (FT)",
+   "settled_at": "2026-10-16 01:25 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+   "pl_usd": 1.0,
+   "closing_odds": 2.45,
+   "clv_pct": 16.94,
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915550",
+   "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +190/+240/+145; no-vig fair 2.565; hourly refresh 2026-10-16 01:25 (Tbilisi)"
+  },
+  {
+   "id": "B081",
+   "sport": "Football",
+   "league": "Conference League MD2",
+   "event": "FC Nordsjælland @ Heart of Midlothian",
+   "kickoff": "2026-10-15 23:00",
+   "selection": "Heart of Midlothian (1X2 — მოგება)",
+   "odds": 2.95,
+   "book": "ESPN/DraftKings (+195)",
+   "p": 0.3819,
+   "implied_pct": 33.9,
+   "edge_pct": 12.67,
+   "stake": 1.25,
+   "reasoning": "FTS 44% vs DK no-vig 32.4% @2.95. ნაზავი 38.2%, EV≈12.7%. ერთი მოდელი + ერთი წიგნი → ნახევარი ფსონი. ახალი ლიგა (UECL).",
+   "model_inputs": {
+    "market_novig": 0.3239,
+    "FullTimeStats": 0.44,
+    "blend": "0.5×ბაზარი + 0.5×FTS"
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261015 ; https://fulltimestats.com/match/heart-of-midlothian-vs-fc-nordsjaelland-2026-10-15",
+   "odds_time": "2026-10-15 09:16 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "score": "Heart of Midlothian 1–1 FC Nordsjælland (FT, draw)",
+   "settled_at": "2026-10-16 01:25 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261015",
+   "pl_usd": -1.25,
+   "closing_odds": 2.65,
+   "clv_pct": 6.15,
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/summary?event=401915850",
+   "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +165/+280/+145; no-vig fair 2.779; hourly refresh 2026-10-16 01:25 (Tbilisi)"
+  },
+  {
+   "id": "B111",
+   "sport": "Polymarket",
+   "league": "europa",
+   "event": "Anderlecht @ Dinamo Zagreb",
+   "kickoff": "2026-10-15 23:00",
+   "selection": "Anderlecht",
+   "odds": 3.846,
+   "book": "Polymarket ask",
+   "p": 0.2741,
+   "implied_pct": 26.0,
+   "edge_pct": 5.42,
+   "stake": 2.38,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.31,
+     "DRatings": 0.267
+    },
+    "mkt": 0.2597,
+    "nbooks": 5,
+    "blend_p": 0.2741,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=uel-din-and-2026-10-15-and",
+   "reasoning": "scan PASS EV=5.42% models=['FTS', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:uel-din-and-2026-10-15-and",
+   "polymarket_slug": "uel-din-and-2026-10-15-and",
+   "outcome_price": 0.26,
+   "result": "lost",
+   "score": "Dinamo Zagreb 1–0 Anderlecht (FT)",
+   "settled_at": "2026-10-16 01:25 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+   "pl_usd": -2.38,
+   "closing_odds": 4.2,
+   "clv_pct": -12.23,
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915549",
+   "closing_note": "DraftKings close (ESPN pickcenter) H/D/A -120/+285/+320; no-vig fair 4.382; hourly refresh 2026-10-16 01:25 (Tbilisi)"
   }
  ],
  "positions": [
@@ -3606,7 +3642,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82327
+   "last_price": 82203.0
   },
   {
    "symbol": "SPY",
@@ -3618,7 +3654,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 771.77
+   "last_price": 771.79
   },
   {
    "symbol": "META",
@@ -3686,7 +3722,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 177.17,
+   "last_price": 177.19,
    "adds": [
     {
      "date": "2026-10-14",
@@ -3712,7 +3748,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 91.9
+   "last_price": 92.0
   },
   {
    "symbol": "MSFT",
@@ -3729,7 +3765,7 @@
    "qty": 0.01222255,
    "entry_price": 409.08,
    "cost_usd": 5.0,
-   "last_price": 406.72,
+   "last_price": 406.67,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -3738,7 +3774,7 @@
    "qty": 0.01263584,
    "entry_price": 395.7,
    "cost_usd": 5.0,
-   "last_price": 399.76,
+   "last_price": 399.75,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -3751,7 +3787,7 @@
    "stop_loss": 1189.49,
    "take_profit": 1352.27,
    "thesis": "ორივე MA-ს ზემოთ (SMA20 1173.7 / SMA50 1179.1), დღეს +3.6% — ჯანდაცვის სიძლიერე",
-   "last_price": 1252.1,
+   "last_price": 1251.61,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -3779,7 +3815,7 @@
    "stop_loss": 234.36,
    "take_profit": 266.44,
    "thesis": "ორივე MA-ს ზემოთ (233.1/229.0), დღეს +4.5%",
-   "last_price": 246.7,
+   "last_price": 246.74,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   }
@@ -13599,10 +13635,10 @@
   }
  ],
  "last_prices": {
-  "BTC": 82327,
+  "BTC": 82203.0,
   "NEAR": 5.41,
   "AVAX": 10.04,
-  "SPY": 771.77,
+  "SPY": 771.79,
   "META": 736.72,
   "AAPL": 342.0,
   "NVDA": 217.23,
@@ -13610,10 +13646,10 @@
   "TSLA": 362.44,
   "GOOGL": 349.22,
   "QQQ": 728.0,
-  "XLV": 177.17,
+  "XLV": 177.19,
   "MSFT": 539.44,
   "PLTR": 200.5,
-  "V": 399.76,
+  "V": 399.75,
   "BRK-B": 525.98,
   "ETH": 2451.94,
   "SOL": 105.87,
@@ -13624,16 +13660,16 @@
   "JPM": 335.57,
   "JNJ": 253.4,
   "BAC": 51.67,
-  "UNH": 406.72,
+  "UNH": 406.67,
   "COST": 978.01,
   "XOM": 174.65,
-  "CRM": 246.7,
-  "KO": 91.9,
+  "CRM": 246.74,
+  "KO": 92.0,
   "NFLX": 72.61,
   "WMT": 117.87,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1252.1,
+  "LLY": 1251.61,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
@@ -13668,20 +13704,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-16 00:07 (Tbilisi)",
-  "total_value": 493.4,
+  "time": "2026-10-16 01:25 (Tbilisi)",
+  "total_value": 490.25,
   "deposits_usd": 500,
-  "vs_deposits_usd": -6.6,
-  "vs_deposits_pct": -1.32,
-  "btc_bench": 499.6,
-  "vs_btc_usd": -6.2,
+  "vs_deposits_usd": -9.75,
+  "vs_deposits_pct": -1.95,
+  "btc_bench": 498.85,
+  "vs_btc_usd": -8.6,
   "bets": {
-   "n": 53,
-   "wins": 23,
-   "losses": 30,
-   "open": 73,
-   "pl_usd": -3.48,
-   "roi_pct": -7.6
+   "n": 57,
+   "wins": 24,
+   "losses": 33,
+   "open": 69,
+   "pl_usd": -6.61,
+   "roi_pct": -13.1
   },
   "by_sport": {
    "NHL": {
@@ -13706,11 +13742,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 35,
-    "wins": 15,
-    "losses": 20,
-    "pl_usd": -2.09,
-    "roi_pct": -6.8
+    "n": 38,
+    "wins": 16,
+    "losses": 22,
+    "pl_usd": -2.84,
+    "roi_pct": -8.6
    },
    "NCAAF": {
     "n": 3,
@@ -13727,37 +13763,37 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 2,
+    "n": 3,
     "wins": 1,
-    "losses": 1,
-    "pl_usd": 0.27,
-    "roi_pct": 27.0
+    "losses": 2,
+    "pl_usd": -2.11,
+    "roi_pct": -62.4
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.64,
-   "unrealized_usd": -0.36,
+   "value_usd": 14.62,
+   "unrealized_usd": -0.38,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.55
+   "total_pl_usd": -2.57
   },
   "stocks": {
    "open_n": 12,
    "value_usd": 79.36,
    "unrealized_usd": 0.29,
    "realized_usd": -0.86,
-   "total_pl_usd": -0.57
+   "total_pl_usd": -0.56
   },
-  "cash_usd": 231.1682,
+  "cash_usd": 232.6682,
   "scanned": 62131,
-  "open_bets_usd": 168.23,
+  "open_bets_usd": 163.6,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 35,
-    "wins": 15,
-    "losses": 20,
-    "pl_usd": -2.09,
-    "roi_pct": -6.8
+    "n": 38,
+    "wins": 16,
+    "losses": 22,
+    "pl_usd": -2.84,
+    "roi_pct": -8.6
    },
    "BASKETBALL": {
     "n": 1,
@@ -13795,11 +13831,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 2,
+    "n": 3,
     "wins": 1,
-    "losses": 1,
-    "pl_usd": 0.27,
-    "roi_pct": 27.0
+    "losses": 2,
+    "pl_usd": -2.11,
+    "roi_pct": -62.4
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -13824,7 +13860,7 @@
    }
   }
  },
- "last_refresh": "2026-10-16 00:07 (Tbilisi)",
+ "last_refresh": "2026-10-16 01:25 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -15077,7 +15113,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-16 00:07 (Tbilisi)",
+  "updated": "2026-10-16 01:25 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -15108,12 +15144,12 @@
     "lean": null
    },
    "Football": {
-    "n": 6,
-    "early_better": 1,
+    "n": 9,
+    "early_better": 4,
     "late_better": 4,
     "equal": 1,
-    "avg_clv_pct": -8.68,
-    "no_close": 45,
+    "avg_clv_pct": -1.24,
+    "no_close": 42,
     "lean": null
    },
    "NCAAF": {
@@ -15135,12 +15171,12 @@
     "lean": null
    },
    "Polymarket": {
-    "n": 1,
+    "n": 2,
     "early_better": 1,
-    "late_better": 0,
+    "late_better": 1,
     "equal": 0,
-    "avg_clv_pct": 0.88,
-    "no_close": 37,
+    "avg_clv_pct": -3.77,
+    "no_close": 36,
     "lean": null
    },
    "NFL": {
@@ -15745,23 +15781,60 @@
     "better": "equal"
    },
    {
-    "id": "B033",
-    "sport": "NCAAF",
-    "event": "Memphis Tigers @ Tulane Green Wave",
-    "open": null,
-    "taken": 3.15,
-    "taken_time": "2026-10-13 19:14 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B037",
     "sport": "Football",
     "event": "Celta Vigo vs Juventus",
     "open": null,
     "taken": 3.75,
     "taken_time": "2026-10-13 19:22 (Tbilisi)",
+    "close": 3.5,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+    "clv_pct": 7.14,
+    "better": "early"
+   },
+   {
+    "id": "B061",
+    "sport": "Football",
+    "event": "Olympiacos vs Marseille",
+    "open": null,
+    "taken": 3.0,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": 2.45,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+    "clv_pct": 22.45,
+    "better": "early"
+   },
+   {
+    "id": "B081",
+    "sport": "Football",
+    "event": "FC Nordsjælland @ Heart of Midlothian",
+    "open": null,
+    "taken": 2.95,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": 2.65,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261015",
+    "clv_pct": 11.32,
+    "better": "early"
+   },
+   {
+    "id": "B111",
+    "sport": "Polymarket",
+    "event": "Anderlecht @ Dinamo Zagreb",
+    "open": null,
+    "taken": 3.846,
+    "taken_time": null,
+    "close": 4.2,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+    "clv_pct": -8.43,
+    "better": "late"
+   },
+   {
+    "id": "B033",
+    "sport": "NCAAF",
+    "event": "Memphis Tigers @ Tulane Green Wave",
+    "open": null,
+    "taken": 3.15,
+    "taken_time": "2026-10-13 19:14 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -15883,17 +15956,6 @@
     "open": null,
     "taken": 1.73,
     "taken_time": "2026-10-14 09:05 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B061",
-    "sport": "Football",
-    "event": "Olympiacos vs Marseille",
-    "open": null,
-    "taken": 3.0,
-    "taken_time": "2026-10-14 19:01 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -16048,17 +16110,6 @@
     "open": null,
     "taken": 2.667,
     "taken_time": "2026-10-15 00:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B081",
-    "sport": "Football",
-    "event": "FC Nordsjælland @ Heart of Midlothian",
-    "open": null,
-    "taken": 2.95,
-    "taken_time": "2026-10-15 09:16 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -16366,17 +16417,6 @@
     "event": "Sunderland @ AFC Bournemouth",
     "open": null,
     "taken": 2.174,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B111",
-    "sport": "Polymarket",
-    "event": "Anderlecht @ Dinamo Zagreb",
-    "open": null,
-    "taken": 3.846,
     "taken_time": null,
     "close": null,
     "close_source": null,
