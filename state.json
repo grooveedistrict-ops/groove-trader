@@ -30,30 +30,6 @@
    "status": "open"
   },
   {
-   "id": "B036",
-   "sport": "Football",
-   "league": "MLS",
-   "event": "Real Salt Lake vs San Jose Earthquakes",
-   "kickoff": "2026-10-15 05:30",
-   "selection": "San Jose Earthquakes (1X2 — მოგება)",
-   "odds": 3.8,
-   "book": "bet365 (+280)",
-   "p": 0.2906,
-   "implied_pct": 26.3,
-   "edge_pct": 10.4,
-   "stake": 0.5,
-   "reasoning": "DRatings 26.8% (ზღვრულად) და FullTimeStats 36% ბაზარზე (26.7%) მაღლა; SJ (13-8-7) vs RSL (9-13-5). X: ბაზარი 24სთ-ში SJ-ისკენ 26.8→28.5% (bookpos, 9 წიგნი). 0.5%.",
-   "model_inputs": {
-    "market_novig": 0.2673,
-    "DRatings": 0.268,
-    "FullTimeStats": 0.36,
-    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261014 ; https://www.dratings.com/predictor/mls-soccer-predictions/ ; https://fulltimestats.com/match/real-salt-lake-vs-san-jose-earthquakes-2026-10-15 ; https://x.com/bookpos_app/status/2109877866447905166",
-   "odds_time": "2026-10-13 19:14 (Tbilisi)",
-   "status": "open"
-  },
-  {
    "id": "B037",
    "sport": "Football",
    "league": "Europa League MD2",
@@ -99,29 +75,6 @@
    },
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261015 ; https://www.dratings.com/predictor/europa-league-predictions/ ; https://fulltimestats.com/match/lech-poznan-vs-bayer-leverkusen-2026-10-15",
    "odds_time": "2026-10-13 19:22 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B041",
-   "sport": "NCAAF",
-   "league": "CUSA (Week 7, Wednesday)",
-   "event": "Western Kentucky Hilltoppers @ Sam Houston State Bearkats",
-   "kickoff": "2026-10-15 04:00",
-   "selection": "Sam Houston State Bearkats (moneyline)",
-   "odds": 2.06,
-   "book": "FanDuel/AN book30 (+106)",
-   "p": 0.507,
-   "implied_pct": 48.5,
-   "edge_pct": 2.2,
-   "stake": 0.5,
-   "reasoning": "ESPN FPI SHSU 54.7% / WKU 45.3%. AN საუკეთესო შინ 2.06, no-vig ≈48.0%. ნაზავი 0.6×ბაზარი+0.4×FPI = 50.7%, EV 4.4% (B029-ის იგივე მეთოდი). ფავორიტი არაა (p<65%).",
-   "model_inputs": {
-    "market_novig": 0.48,
-    "ESPN_FPI": 0.547,
-    "blend": "0.6×ბაზარი + 0.4×FPI"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf?date=20261014 ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event",
-   "odds_time": "2026-10-13 23:58 (Tbilisi)",
    "status": "open"
   },
   {
@@ -1849,6 +1802,69 @@
    ],
    "settle_note": "ESPN NBA scoreboard Final; DET away win",
    "pl_usd": 0.68
+  },
+  {
+   "id": "B036",
+   "sport": "Football",
+   "league": "MLS",
+   "event": "Real Salt Lake vs San Jose Earthquakes",
+   "kickoff": "2026-10-15 05:30",
+   "selection": "San Jose Earthquakes (1X2 — მოგება)",
+   "odds": 3.8,
+   "book": "bet365 (+280)",
+   "p": 0.2906,
+   "implied_pct": 26.3,
+   "edge_pct": 10.4,
+   "stake": 0.5,
+   "reasoning": "DRatings 26.8% (ზღვრულად) და FullTimeStats 36% ბაზარზე (26.7%) მაღლა; SJ (13-8-7) vs RSL (9-13-5). X: ბაზარი 24სთ-ში SJ-ისკენ 26.8→28.5% (bookpos, 9 წიგნი). 0.5%.",
+   "model_inputs": {
+    "market_novig": 0.2673,
+    "DRatings": 0.268,
+    "FullTimeStats": 0.36,
+    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261014 ; https://www.dratings.com/predictor/mls-soccer-predictions/ ; https://fulltimestats.com/match/real-salt-lake-vs-san-jose-earthquakes-2026-10-15 ; https://x.com/bookpos_app/status/2109877866447905166",
+   "odds_time": "2026-10-13 19:14 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Real Salt Lake 1 – 1 San Jose Earthquakes",
+   "settled_time": "2026-10-15 08:21 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261014"
+   ],
+   "settle_note": "ESPN MLS scoreboard Full Time; draw, San Jose did not win",
+   "pl_usd": -0.5
+  },
+  {
+   "id": "B041",
+   "sport": "NCAAF",
+   "league": "CUSA (Week 7, Wednesday)",
+   "event": "Western Kentucky Hilltoppers @ Sam Houston State Bearkats",
+   "kickoff": "2026-10-15 04:00",
+   "selection": "Sam Houston State Bearkats (moneyline)",
+   "odds": 2.06,
+   "book": "FanDuel/AN book30 (+106)",
+   "p": 0.507,
+   "implied_pct": 48.5,
+   "edge_pct": 2.2,
+   "stake": 0.5,
+   "reasoning": "ESPN FPI SHSU 54.7% / WKU 45.3%. AN საუკეთესო შინ 2.06, no-vig ≈48.0%. ნაზავი 0.6×ბაზარი+0.4×FPI = 50.7%, EV 4.4% (B029-ის იგივე მეთოდი). ფავორიტი არაა (p<65%).",
+   "model_inputs": {
+    "market_novig": 0.48,
+    "ESPN_FPI": 0.547,
+    "blend": "0.6×ბაზარი + 0.4×FPI"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf?date=20261014 ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event",
+   "odds_time": "2026-10-13 23:58 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Western Kentucky Hilltoppers 16 – 3 Sam Houston Bearkats",
+   "settled_time": "2026-10-15 08:21 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261014&groups=80"
+   ],
+   "settle_note": "ESPN NCAAF scoreboard Final; WKU away win",
+   "pl_usd": -0.5
   }
  ],
  "positions": [
@@ -1863,7 +1879,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81227
+   "last_price": 81010
   },
   {
    "symbol": "SPY",
@@ -7059,9 +7075,9 @@
   }
  ],
  "last_prices": {
-  "BTC": 81227,
-  "NEAR": 4.65,
-  "AVAX": 9.5,
+  "BTC": 81010,
+  "NEAR": 4.66,
+  "AVAX": 9.61,
   "SPY": 769.6,
   "META": 737.54,
   "AAPL": 342.96,
@@ -7075,8 +7091,8 @@
   "PLTR": 200.73,
   "V": 390.96,
   "BRK-B": 524.795,
-  "ETH": 2359.45,
-  "SOL": 101.74,
+  "ETH": 2365.62,
+  "SOL": 102.76,
   "AMD": 570.6,
   "SPY30": 772.44,
   "ORCL": 130.22,
@@ -7172,20 +7188,20 @@
   ]
  },
  "overall_report": {
-  "time": "2026-10-15 07:20 (Tbilisi)",
-  "total_value": 500.3,
+  "time": "2026-10-15 08:20 (Tbilisi)",
+  "total_value": 499.26,
   "deposits_usd": 500,
-  "vs_deposits_usd": 0.3,
-  "vs_deposits_pct": 0.06,
-  "btc_bench": 492.92,
-  "vs_btc_usd": 7.38,
+  "vs_deposits_usd": -0.74,
+  "vs_deposits_pct": -0.15,
+  "btc_bench": 491.61,
+  "vs_btc_usd": 7.66,
   "bets": {
-   "n": 43,
+   "n": 45,
    "wins": 21,
-   "losses": 22,
-   "open": 37,
-   "pl_usd": 3.65,
-   "roi_pct": 10.0
+   "losses": 24,
+   "open": 35,
+   "pl_usd": 2.65,
+   "roi_pct": 7.1
   },
   "by_sport": {
    "NHL": {
@@ -7210,18 +7226,18 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 28,
+    "n": 29,
     "wins": 14,
-    "losses": 14,
-    "pl_usd": 4.81,
-    "roi_pct": 21.1
+    "losses": 15,
+    "pl_usd": 4.31,
+    "roi_pct": 18.5
    },
    "NCAAF": {
-    "n": 2,
+    "n": 3,
     "wins": 1,
-    "losses": 1,
-    "pl_usd": 0.15,
-    "roi_pct": 15.0
+    "losses": 2,
+    "pl_usd": -0.35,
+    "roi_pct": -23.3
    },
    "NBA": {
     "n": 1,
@@ -7233,10 +7249,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.44,
-   "unrealized_usd": -0.56,
+   "value_usd": 14.41,
+   "unrealized_usd": -0.59,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.75
+   "total_pl_usd": -2.78
   },
   "stocks": {
    "open_n": 9,
@@ -7247,9 +7263,9 @@
   },
   "cash_usd": 394.57,
   "scanned": 10792,
-  "open_bets_usd": 34.25
+  "open_bets_usd": 33.25
  },
- "last_refresh": "2026-10-15 07:20 (Tbilisi)",
+ "last_refresh": "2026-10-15 08:20 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
