@@ -1799,7 +1799,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81672
+   "last_price": 81560
   },
   {
    "symbol": "SPY",
@@ -6995,9 +6995,9 @@
   }
  ],
  "last_prices": {
-  "BTC": 81672,
-  "NEAR": 4.85,
-  "AVAX": 10.0,
+  "BTC": 81560,
+  "NEAR": 4.79,
+  "AVAX": 9.9,
   "SPY": 769.6,
   "META": 737.54,
   "AAPL": 342.96,
@@ -7011,8 +7011,8 @@
   "PLTR": 200.73,
   "V": 390.96,
   "BRK-B": 524.795,
-  "ETH": 2423.62,
-  "SOL": 104.34,
+  "ETH": 2412.95,
+  "SOL": 104.15,
   "AMD": 570.6,
   "SPY30": 772.44,
   "ORCL": 130.22,
@@ -7108,13 +7108,13 @@
   ]
  },
  "overall_report": {
-  "time": "2026-10-15 04:19 (Tbilisi)",
-  "total_value": 498.85,
+  "time": "2026-10-15 05:26 (Tbilisi)",
+  "total_value": 498.83,
   "deposits_usd": 500,
-  "vs_deposits_usd": -1.15,
+  "vs_deposits_usd": -1.17,
   "vs_deposits_pct": -0.23,
-  "btc_bench": 495.62,
-  "vs_btc_usd": 3.23,
+  "btc_bench": 494.94,
+  "vs_btc_usd": 3.89,
   "bets": {
    "n": 35,
    "wins": 17,
@@ -7162,10 +7162,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.52,
-   "unrealized_usd": -0.48,
+   "value_usd": 14.5,
+   "unrealized_usd": -0.5,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.67
+   "total_pl_usd": -2.69
   },
   "stocks": {
    "open_n": 9,
@@ -7178,7 +7178,7 @@
   "scanned": 10792,
   "open_bets_usd": 38.25
  },
- "last_refresh": "2026-10-15 04:19 (Tbilisi)",
+ "last_refresh": "2026-10-15 05:26 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
