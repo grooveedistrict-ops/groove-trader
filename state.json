@@ -2791,6 +2791,68 @@
  },
  "runs": [
   {
+   "date": "2026-10-12",
+   "slot": "PM",
+   "time": "2026-10-12 23:51 (Tbilisi)",
+   "headline": "PM: ახალი ფსონი B025 (Villa–Fenerbahce BTTS) და QQQ $3.5; კრიპტო სუსტია, სიგნალი არცერთ პოზიციაზე არ გააქტიურდა. ბანკი ≈ $104.11.",
+   "research": [
+    {
+     "topic": "გაკვეთილები",
+     "found": "გამოვიყენე L001/L002 და გეგმა: MSFT-ს არ ვყიდულობ (RSI 70, გეგმაში პულბექის მოლოდინი), კრიპტოში ახალი ალტი არ ვიყიდე (BTC MA20-ის ქვემოთაა, ETH/BNB/LINK სუსტია). ახალი გაკვეთილი არ არის — ფსონები ჯერ ",
+     "sources": []
+    },
+    {
+     "topic": "NHL/MLB ხაზები (covers)",
+     "found": "NHL 13 ოქტ. 18 მატჩი, MLB: LAD@MIL G2 უკვე მიმდინარეობს (ლაივი, არ ვთამაშობ), CLE@TB −170/+142 (ჩვენ TB 1.676 გვაქვს). NHL გვერდი არ ასახელებს წიგნმცოდნეს — ახალი NHL ფსონი ვერ დავამტკიცე.",
+     "sources": [
+      "https://www.covers.com/sport/hockey/nhl/odds"
+     ]
+    },
+    {
+     "topic": "ფეხბურთი (oddschecker + preview)",
+     "found": "UCL 13–14 ოქტ.: Villa −145, Fenerbahce +450. ვილა–ფენერბაჭეზე footballpredictions: BTTS −150, xG 1.44/1.81, პროგნოზი 2-1. Roma–Real Madrid (−110 RM)-ზე სანდო წინასწარი მასალა ვერ ვიპოვე (ერთი გვერდი 2",
+     "sources": [
+      "https://www.oddschecker.com/us/soccer"
+     ]
+    },
+    {
+     "topic": "კრიპტო (CoinGecko)",
+     "found": "BTC $82,684 (MA20 $84.1k-ის ქვემოთ, RSI 51), ETH RSI 44, BNB 47, LINK 48; NEAR $5.49 (MA20-ზე მაღლა, RSI 61, შესვლიდან −5.5%), AVAX $10.46 (MA20 $10.79-ის ქვემოთ, RSI 53, −5%). არცერთი +5%/−წესი არ გა",
+     "sources": [
+      "https://api.coingecko.com/api/v3/simple/price"
+     ]
+    },
+    {
+     "topic": "აქციები (Yahoo)",
+     "found": "SPY 778 (RSI 59), QQQ 746 (RSI 57), NVDA 226.8 (MA20 227.5-ის ქვემოთ, RSI 50, −4.5%), MSFT 541 (RSI 70, მაქსიმუმზე), PLTR RSI 76, JPM/COIN/AVGO სუსტია. QQQ ვიყიდე.",
+     "sources": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/QQQ"
+     ]
+    }
+   ],
+   "trades": [
+    "ფსონი B025 Villa–Fenerbahce BTTS დიახ @1.667, $1.04",
+    "ყიდვა QQQ $3.5 @746.19",
+    "კრიპტოში მოქმედება არ იყო: +5%/−წესი არცერთ კოინზე არ გააქტიურდა"
+   ],
+   "analysis": {
+    "what_happened": "ბანკი ≈ $104.11 (MID-ზე $104.32). შედეგი ჩავარდა ძირითადად კრიპტოს გამო: NEAR −5.5%, AVAX −5%, BTC −1.9% შესვლიდან, NVDA −4.5%. ფსონები არ დასრულებულა — B007 (Coventry–Newcastle) ახლა თამაშდება და ~00:50-ზე მთავრდება.",
+    "what_worked_didnt": "ტექნიკური წესი კრიპტოში ჯერ არ აძლევს გაყიდვის სიგნალს (AVAX MA20-ის ქვემოთ, მაგრამ RSI 53). ბოლო MID-ზე ორი ახალი კრიპტო-შესვლა (NEAR, AVAX) დღის განმავლობაში ზარალშია — L002/H2-ს ერთ კიდევ მონაცემს უმატებს, მაგრამ ჯერ დახურული არაა.",
+    "conclusions": [
+     {
+      "text": "NEAR/AVAX-ის შესვლები ვარდნისას ბაზარზე ჯერ ზარალშია (≈−5%); თუ სტოპამდე მივა, H2-ს მხარს დაუჭერს. n=2 ღია პოზიცია, დასკვნისთვის არ არის საკმარისი.",
+      "confidence": "hypothesis",
+      "evidence_ids": [
+       "NEAR",
+       "AVAX"
+      ],
+      "n": 2
+     }
+    ],
+    "mistakes_or_data_gaps": "NHL-ზე წიგნმცოდნის სახელი covers-ის გვერდიდან ვერ ამოვიღე; ჩოგბურთზე და Roma–RM-ზე სანდო მასალა არ იყო. UCL 14 ოქტ. მატჩები (RM, Villa) მხოლოდ ერთი წყაროთია დაფარული."
+   }
+  },
+  {
    "date": "2026-10-13",
    "slot": "AM",
    "time": "2026-10-13 02:17 (Tbilisi)",
@@ -8680,7 +8742,7 @@
   ]
  },
  "overall_report": {
-  "time": "2026-10-15 09:17 (Tbilisi)",
+  "time": "2026-10-15 09:18 (Tbilisi)",
   "total_value": 499.07,
   "deposits_usd": 500,
   "vs_deposits_usd": -0.93,
@@ -8764,7 +8826,7 @@
   "scanned": 73200,
   "open_bets_usd": 40.5
  },
- "last_refresh": "2026-10-15 09:17 (Tbilisi)",
+ "last_refresh": "2026-10-15 09:18 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
