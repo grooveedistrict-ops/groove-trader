@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 392.24,
+ "cash_usd": 394.57,
  "open_bets": [
   {
    "id": "B033",
@@ -401,22 +401,6 @@
    "status": "open"
   },
   {
-   "id": "B057",
-   "sport": "Football",
-   "league": "MLS",
-   "event": "Vancouver Whitecaps @ St. Louis CITY SC",
-   "kickoff": "2026-10-15 04:30",
-   "selection": "Vancouver Whitecaps (1X2 — მოგება)",
-   "odds": 2.85,
-   "book": "ESPN/DraftKings",
-   "p": 0.385,
-   "implied_pct": 35.1,
-   "edge_pct": 3.4,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open"
-  },
-  {
    "id": "B058",
    "sport": "Football",
    "league": "MLS",
@@ -428,22 +412,6 @@
    "p": 0.37,
    "implied_pct": 33.9,
    "edge_pct": 3.1,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B059",
-   "sport": "Football",
-   "league": "MLS",
-   "event": "Philadelphia Union @ Chicago Fire FC",
-   "kickoff": "2026-10-15 04:30",
-   "selection": "Chicago Fire FC (1X2 — მოგება)",
-   "odds": 2.5,
-   "book": "ESPN/DraftKings",
-   "p": 0.43,
-   "implied_pct": 40.0,
-   "edge_pct": 3.0,
    "stake": 0.5,
    "odds_time": "2026-10-14 19:01 (Tbilisi)",
    "status": "open"
@@ -497,22 +465,6 @@
    "status": "open"
   },
   {
-   "id": "B063",
-   "sport": "NCAAF",
-   "league": "CUSA (Week 7, Wednesday)",
-   "event": "Kennesaw State Owls @ Missouri State Bears",
-   "kickoff": "2026-10-15 03:30",
-   "selection": "Missouri State Bears (moneyline)",
-   "odds": 2.3,
-   "book": "ESPN/DraftKings",
-   "p": 0.47,
-   "implied_pct": 43.5,
-   "edge_pct": 3.5,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open"
-  },
-  {
    "id": "B064",
    "sport": "NCAAF",
    "league": "AAC (Week 8, Thursday)",
@@ -524,22 +476,6 @@
    "p": 0.42,
    "implied_pct": 38.5,
    "edge_pct": 3.5,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B065",
-   "sport": "NBA",
-   "league": "NBA",
-   "event": "Detroit Pistons @ Minnesota Timberwolves",
-   "kickoff": "2026-10-15 04:00",
-   "selection": "Detroit Pistons (moneyline)",
-   "odds": 2.36,
-   "book": "ESPN/DraftKings",
-   "p": 0.455,
-   "implied_pct": 42.4,
-   "edge_pct": 3.1,
    "stake": 0.5,
    "odds_time": "2026-10-14 19:01 (Tbilisi)",
    "status": "open"
@@ -1817,6 +1753,102 @@
    ],
    "pl_usd": -0.5,
    "settle_note": "ESPN MLS scoreboard Full Time; draw → 1X2 win loses"
+  },
+  {
+   "id": "B057",
+   "sport": "Football",
+   "league": "MLS",
+   "event": "Vancouver Whitecaps @ St. Louis CITY SC",
+   "kickoff": "2026-10-15 04:30",
+   "selection": "Vancouver Whitecaps (1X2 — მოგება)",
+   "odds": 2.85,
+   "book": "ESPN/DraftKings",
+   "p": 0.385,
+   "implied_pct": 35.1,
+   "edge_pct": 3.4,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Vancouver Whitecaps 0 – 0 St. Louis CITY SC",
+   "settled_time": "2026-10-15 07:22 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261014"
+   ],
+   "settle_note": "ESPN MLS scoreboard Full Time; draw → 1X2 win loses",
+   "pl_usd": -0.5
+  },
+  {
+   "id": "B059",
+   "sport": "Football",
+   "league": "MLS",
+   "event": "Philadelphia Union @ Chicago Fire FC",
+   "kickoff": "2026-10-15 04:30",
+   "selection": "Chicago Fire FC (1X2 — მოგება)",
+   "odds": 2.5,
+   "book": "ESPN/DraftKings",
+   "p": 0.43,
+   "implied_pct": 40.0,
+   "edge_pct": 3.0,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Philadelphia Union 3 – 1 Chicago Fire FC",
+   "settled_time": "2026-10-15 07:22 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261014"
+   ],
+   "settle_note": "ESPN MLS scoreboard Full Time; CHI home loss",
+   "pl_usd": -0.5
+  },
+  {
+   "id": "B063",
+   "sport": "NCAAF",
+   "league": "CUSA (Week 7, Wednesday)",
+   "event": "Kennesaw State Owls @ Missouri State Bears",
+   "kickoff": "2026-10-15 03:30",
+   "selection": "Missouri State Bears (moneyline)",
+   "odds": 2.3,
+   "book": "ESPN/DraftKings",
+   "p": 0.47,
+   "implied_pct": 43.5,
+   "edge_pct": 3.5,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "result": "won",
+   "final_score": "Kennesaw State Owls 21 – 24 Missouri State Bears",
+   "settled_time": "2026-10-15 07:22 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261014&groups=80"
+   ],
+   "settle_note": "ESPN CFB scoreboard Final; MoSt home win",
+   "pl_usd": 0.65
+  },
+  {
+   "id": "B065",
+   "sport": "NBA",
+   "league": "NBA",
+   "event": "Detroit Pistons @ Minnesota Timberwolves",
+   "kickoff": "2026-10-15 04:00",
+   "selection": "Detroit Pistons (moneyline)",
+   "odds": 2.36,
+   "book": "ESPN/DraftKings",
+   "p": 0.455,
+   "implied_pct": 42.4,
+   "edge_pct": 3.1,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "result": "won",
+   "final_score": "Detroit Pistons 128 – 106 Minnesota Timberwolves",
+   "settled_time": "2026-10-15 07:22 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261014"
+   ],
+   "settle_note": "ESPN NBA scoreboard Final; DET away win",
+   "pl_usd": 0.68
   }
  ],
  "positions": [
@@ -1831,7 +1863,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 80817
+   "last_price": 81227
   },
   {
    "symbol": "SPY",
@@ -7027,7 +7059,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 80817,
+  "BTC": 81227,
   "NEAR": 4.65,
   "AVAX": 9.5,
   "SPY": 769.6,
@@ -7140,20 +7172,20 @@
   ]
  },
  "overall_report": {
-  "time": "2026-10-15 06:27 (Tbilisi)",
-  "total_value": 499.9,
+  "time": "2026-10-15 07:20 (Tbilisi)",
+  "total_value": 500.3,
   "deposits_usd": 500,
-  "vs_deposits_usd": -0.1,
-  "vs_deposits_pct": -0.02,
-  "btc_bench": 490.43,
-  "vs_btc_usd": 9.47,
+  "vs_deposits_usd": 0.3,
+  "vs_deposits_pct": 0.06,
+  "btc_bench": 492.92,
+  "vs_btc_usd": 7.38,
   "bets": {
-   "n": 39,
-   "wins": 19,
-   "losses": 20,
-   "open": 41,
-   "pl_usd": 3.32,
-   "roi_pct": 9.6
+   "n": 43,
+   "wins": 21,
+   "losses": 22,
+   "open": 37,
+   "pl_usd": 3.65,
+   "roi_pct": 10.0
   },
   "by_sport": {
    "NHL": {
@@ -7178,26 +7210,33 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 26,
+    "n": 28,
     "wins": 14,
-    "losses": 12,
-    "pl_usd": 5.81,
-    "roi_pct": 26.6
+    "losses": 14,
+    "pl_usd": 4.81,
+    "roi_pct": 21.1
    },
    "NCAAF": {
-    "n": 1,
-    "wins": 0,
+    "n": 2,
+    "wins": 1,
     "losses": 1,
-    "pl_usd": -0.5,
-    "roi_pct": -100.0
+    "pl_usd": 0.15,
+    "roi_pct": 15.0
+   },
+   "NBA": {
+    "n": 1,
+    "wins": 1,
+    "losses": 0,
+    "pl_usd": 0.68,
+    "roi_pct": 136.0
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.37,
-   "unrealized_usd": -0.63,
+   "value_usd": 14.44,
+   "unrealized_usd": -0.56,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.82
+   "total_pl_usd": -2.75
   },
   "stocks": {
    "open_n": 9,
@@ -7206,11 +7245,11 @@
    "realized_usd": -0.13,
    "total_pl_usd": -0.6
   },
-  "cash_usd": 392.24,
+  "cash_usd": 394.57,
   "scanned": 10792,
-  "open_bets_usd": 36.25
+  "open_bets_usd": 34.25
  },
- "last_refresh": "2026-10-15 06:27 (Tbilisi)",
+ "last_refresh": "2026-10-15 07:20 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
