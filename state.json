@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 271.3482,
+ "cash_usd": 272.4482,
  "open_bets": [
   {
    "id": "B033",
@@ -63,65 +63,6 @@
     "best_now": 3.55,
     "fair_now": 3.651,
     "clv_pct": 2.71
-   }
-  },
-  {
-   "id": "B038",
-   "sport": "Football",
-   "league": "Europa League MD2",
-   "event": "Lech Poznan vs Bayer Leverkusen",
-   "kickoff": "2026-10-15 20:45",
-   "selection": "Lech Poznan (1X2 — მოგება)",
-   "odds": 5.0,
-   "book": "bet365 (+400)",
-   "p": 0.243,
-   "implied_pct": 20.0,
-   "edge_pct": 21.5,
-   "stake": 0.5,
-   "reasoning": "DRatings 20.8% და FullTimeStats 36% ბაზარზე (20.2%) მაღლა; კოეფიციენტი ზუსტად 5.0 ზღვარზე. FTS-ის 36% L004-ის ტიპის „შეკუმშვაა“ — EV ძირითადად ამ მოდელიდან მოდის, ამიტომ მინიმალური ფსონი.",
-   "model_inputs": {
-    "market_novig": 0.202,
-    "DRatings": 0.208,
-    "FullTimeStats": 0.36,
-    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261015 ; https://www.dratings.com/predictor/europa-league-predictions/ ; https://fulltimestats.com/match/lech-poznan-vs-bayer-leverkusen-2026-10-15",
-   "odds_time": "2026-10-13 19:22 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 5.0,
-    "best_now": 5.1,
-    "fair_now": 5.247,
-    "clv_pct": -4.7
-   }
-  },
-  {
-   "id": "B042",
-   "sport": "Football",
-   "league": "Europa League MD2",
-   "event": "Lyon vs Crystal Palace",
-   "kickoff": "2026-10-15 20:45",
-   "selection": "Lyon (1X2 — მოგება)",
-   "odds": 2.2,
-   "book": "Action Network best (+120)",
-   "p": 0.4925,
-   "implied_pct": 45.5,
-   "edge_pct": 8.4,
-   "stake": 0.5,
-   "reasoning": "FTS 53% vs ბაზარი 45.5% (AN best +120 / 2.20). ნაზავი 0.5×ბაზარი+0.5×FTS=49.25%, EV≈8.4%. შინ თამაში. ერთი მოდელი — NCAAF-ის FPI პრეცედენტივით დაშვებულია მცირე ფსონით.",
-   "model_inputs": {
-    "market_novig": 0.455,
-    "FullTimeStats": 0.53,
-    "blend": "0.5×ბაზარი + 0.5×FTS"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261015 ; https://fulltimestats.com/match/lyon-vs-crystal-palace-2026-10-15",
-   "odds_time": "2026-10-14 09:05 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 2.2,
-    "best_now": 2.3,
-    "fair_now": 2.419,
-    "clv_pct": -9.05
    }
   },
   {
@@ -476,28 +417,6 @@
    }
   },
   {
-   "id": "B060",
-   "sport": "Football",
-   "league": "Europa League MD2",
-   "event": "Real Sociedad vs Union St.-Gilloise",
-   "kickoff": "2026-10-15 20:45",
-   "selection": "Real Sociedad (1X2 — მოგება)",
-   "odds": 2.8,
-   "book": "ESPN/DraftKings",
-   "p": 0.4,
-   "implied_pct": 35.7,
-   "edge_pct": 4.3,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 2.8,
-    "best_now": 2.7,
-    "fair_now": 2.818,
-    "clv_pct": -0.63
-   }
-  },
-  {
    "id": "B061",
    "sport": "Football",
    "league": "Europa League MD2",
@@ -517,28 +436,6 @@
     "best_now": 3.25,
     "fair_now": 3.112,
     "clv_pct": -3.61
-   }
-  },
-  {
-   "id": "B062",
-   "sport": "Football",
-   "league": "Europa League MD2",
-   "event": "NK Celje vs Omonia Nicosia",
-   "kickoff": "2026-10-15 20:45",
-   "selection": "NK Celje (1X2 — მოგება)",
-   "odds": 2.5,
-   "book": "ESPN/DraftKings",
-   "p": 0.435,
-   "implied_pct": 40.0,
-   "edge_pct": 3.5,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 2.5,
-    "best_now": 2.75,
-    "fair_now": 2.765,
-    "clv_pct": -9.57
    }
   },
   {
@@ -1478,34 +1375,6 @@
    "polymarket_slug": "el2-tra-bar-2026-10-17-bar",
    "outcome_price": 0.47,
    "elo_only": true
-  },
-  {
-   "id": "B099",
-   "sport": "Football",
-   "league": "soc_uefa.europa.conf",
-   "event": "Getafe @ CSU Craiova",
-   "kickoff": "2026-10-15 20:45",
-   "selection": "CSU Craiova",
-   "odds": 2.7,
-   "book": "ESPN-DK",
-   "p": 0.4024,
-   "implied_pct": 37.0,
-   "edge_pct": 8.65,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.45
-    },
-    "mkt": 0.3548,
-    "nbooks": 1,
-    "blend_p": 0.4024,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_1853 id=espn401915854",
-   "reasoning": "scan PASS EV=8.65% models=['FTS'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "espn401915854"
   },
   {
    "id": "B100",
@@ -3252,6 +3121,182 @@
    "clv_pct": 0.88,
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=20261014 ; AN consensus close +151",
    "pl_usd": 0.77
+  },
+  {
+   "id": "B038",
+   "sport": "Football",
+   "league": "Europa League MD2",
+   "event": "Lech Poznan vs Bayer Leverkusen",
+   "kickoff": "2026-10-15 20:45",
+   "selection": "Lech Poznan (1X2 — მოგება)",
+   "odds": 5.0,
+   "book": "bet365 (+400)",
+   "p": 0.243,
+   "implied_pct": 20.0,
+   "edge_pct": 21.5,
+   "stake": 0.5,
+   "reasoning": "DRatings 20.8% და FullTimeStats 36% ბაზარზე (20.2%) მაღლა; კოეფიციენტი ზუსტად 5.0 ზღვარზე. FTS-ის 36% L004-ის ტიპის „შეკუმშვაა“ — EV ძირითადად ამ მოდელიდან მოდის, ამიტომ მინიმალური ფსონი.",
+   "model_inputs": {
+    "market_novig": 0.202,
+    "DRatings": 0.208,
+    "FullTimeStats": 0.36,
+    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261015 ; https://www.dratings.com/predictor/europa-league-predictions/ ; https://fulltimestats.com/match/lech-poznan-vs-bayer-leverkusen-2026-10-15",
+   "odds_time": "2026-10-13 19:22 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 5.0,
+    "best_now": 5.1,
+    "fair_now": 5.247,
+    "clv_pct": -4.7
+   },
+   "result": "lost",
+   "score": "Lech Poznan 0–4 Bayer Leverkusen (FT)",
+   "settled_at": "2026-10-15 23:22 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+   "pl_usd": -0.5,
+   "closing_odds": null,
+   "clv_pct": null,
+   "closing_source": null,
+   "closing_note": "hourly settle; close not verified — LEDGER to backfill from a real book"
+  },
+  {
+   "id": "B042",
+   "sport": "Football",
+   "league": "Europa League MD2",
+   "event": "Lyon vs Crystal Palace",
+   "kickoff": "2026-10-15 20:45",
+   "selection": "Lyon (1X2 — მოგება)",
+   "odds": 2.2,
+   "book": "Action Network best (+120)",
+   "p": 0.4925,
+   "implied_pct": 45.5,
+   "edge_pct": 8.4,
+   "stake": 0.5,
+   "reasoning": "FTS 53% vs ბაზარი 45.5% (AN best +120 / 2.20). ნაზავი 0.5×ბაზარი+0.5×FTS=49.25%, EV≈8.4%. შინ თამაში. ერთი მოდელი — NCAAF-ის FPI პრეცედენტივით დაშვებულია მცირე ფსონით.",
+   "model_inputs": {
+    "market_novig": 0.455,
+    "FullTimeStats": 0.53,
+    "blend": "0.5×ბაზარი + 0.5×FTS"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261015 ; https://fulltimestats.com/match/lyon-vs-crystal-palace-2026-10-15",
+   "odds_time": "2026-10-14 09:05 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 2.2,
+    "best_now": 2.3,
+    "fair_now": 2.419,
+    "clv_pct": -9.05
+   },
+   "result": "won",
+   "score": "Lyon 3–2 Crystal Palace (FT)",
+   "settled_at": "2026-10-15 23:22 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+   "pl_usd": 0.6,
+   "closing_odds": null,
+   "clv_pct": null,
+   "closing_source": null,
+   "closing_note": "hourly settle; close not verified — LEDGER to backfill from a real book"
+  },
+  {
+   "id": "B060",
+   "sport": "Football",
+   "league": "Europa League MD2",
+   "event": "Real Sociedad vs Union St.-Gilloise",
+   "kickoff": "2026-10-15 20:45",
+   "selection": "Real Sociedad (1X2 — მოგება)",
+   "odds": 2.8,
+   "book": "ESPN/DraftKings",
+   "p": 0.4,
+   "implied_pct": 35.7,
+   "edge_pct": 4.3,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 2.8,
+    "best_now": 2.7,
+    "fair_now": 2.818,
+    "clv_pct": -0.63
+   },
+   "result": "lost",
+   "score": "Union St.-Gilloise 1–1 Real Sociedad (FT, draw)",
+   "settled_at": "2026-10-15 23:22 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+   "pl_usd": -0.5,
+   "closing_odds": null,
+   "clv_pct": null,
+   "closing_source": null,
+   "closing_note": "hourly settle; close not verified — LEDGER to backfill from a real book"
+  },
+  {
+   "id": "B062",
+   "sport": "Football",
+   "league": "Europa League MD2",
+   "event": "NK Celje vs Omonia Nicosia",
+   "kickoff": "2026-10-15 20:45",
+   "selection": "NK Celje (1X2 — მოგება)",
+   "odds": 2.5,
+   "book": "ESPN/DraftKings",
+   "p": 0.435,
+   "implied_pct": 40.0,
+   "edge_pct": 3.5,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 2.5,
+    "best_now": 2.75,
+    "fair_now": 2.765,
+    "clv_pct": -9.57
+   },
+   "result": "lost",
+   "score": "NK Celje 0–3 Omonia Nicosia (FT)",
+   "settled_at": "2026-10-15 23:22 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015",
+   "pl_usd": -0.5,
+   "closing_odds": null,
+   "clv_pct": null,
+   "closing_source": null,
+   "closing_note": "hourly settle; close not verified — LEDGER to backfill from a real book"
+  },
+  {
+   "id": "B099",
+   "sport": "Football",
+   "league": "soc_uefa.europa.conf",
+   "event": "Getafe @ CSU Craiova",
+   "kickoff": "2026-10-15 20:45",
+   "selection": "CSU Craiova",
+   "odds": 2.7,
+   "book": "ESPN-DK",
+   "p": 0.4024,
+   "implied_pct": 37.0,
+   "edge_pct": 8.65,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.45
+    },
+    "mkt": 0.3548,
+    "nbooks": 1,
+    "blend_p": 0.4024,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_1853 id=espn401915854",
+   "reasoning": "scan PASS EV=8.65% models=['FTS'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "espn401915854",
+   "result": "lost",
+   "score": "CSU Craiova 1–1 Getafe (FT, draw)",
+   "settled_at": "2026-10-15 23:22 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261015",
+   "pl_usd": -5.0,
+   "closing_odds": null,
+   "clv_pct": null,
+   "closing_source": null,
+   "closing_note": "hourly settle; close not verified — LEDGER to backfill from a real book"
   }
  ],
  "positions": [
@@ -3266,7 +3311,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82045
+   "last_price": 82464
   },
   {
    "symbol": "SPY",
@@ -3278,7 +3323,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 769.675
+   "last_price": 772.67
   },
   {
    "symbol": "META",
@@ -3290,7 +3335,7 @@
    "stop_loss": 665.62,
    "take_profit": 839.26,
    "thesis": "ძლიერი ტრენდია (30 დღეში +27%, MA-ებზე მაღლა). 60-დღიანი მაქ",
-   "last_price": 738.175
+   "last_price": 736.53
   },
   {
    "symbol": "AAPL",
@@ -3302,7 +3347,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 342.042,
+   "last_price": 342.88,
    "adds": [
     {
      "date": "2026-10-14",
@@ -3324,7 +3369,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 349.185,
+   "last_price": 349.4,
    "adds": [
     {
      "date": "2026-10-13",
@@ -3346,7 +3391,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 178.13,
+   "last_price": 178.06,
    "adds": [
     {
      "date": "2026-10-14",
@@ -3372,7 +3417,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 92.415
+   "last_price": 92.03
   },
   {
    "symbol": "MSFT",
@@ -3380,7 +3425,7 @@
    "qty": 0.00931949,
    "entry_price": 536.51,
    "cost_usd": 5.0,
-   "last_price": 539.24,
+   "last_price": 540.77,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -3389,7 +3434,7 @@
    "qty": 0.01222255,
    "entry_price": 409.08,
    "cost_usd": 5.0,
-   "last_price": 410.293,
+   "last_price": 408.75,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -3398,7 +3443,7 @@
    "qty": 0.01263584,
    "entry_price": 395.7,
    "cost_usd": 5.0,
-   "last_price": 401.95,
+   "last_price": 402.58,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   }
  ],
@@ -11706,36 +11751,36 @@
   }
  ],
  "last_prices": {
-  "BTC": 82045,
-  "NEAR": 5.14,
-  "AVAX": 9.95,
-  "SPY": 769.675,
-  "META": 738.175,
-  "AAPL": 342.042,
-  "NVDA": 217.165,
-  "AMZN": 253.96,
-  "TSLA": 360.05,
-  "GOOGL": 349.185,
-  "QQQ": 724.495,
-  "XLV": 178.13,
-  "MSFT": 539.24,
-  "PLTR": 199.04,
-  "V": 401.95,
-  "BRK-B": 528.25,
-  "ETH": 2444.29,
-  "SOL": 106.01,
-  "AMD": 548.35,
+  "BTC": 82464,
+  "NEAR": 5.38,
+  "AVAX": 10.04,
+  "SPY": 772.67,
+  "META": 736.53,
+  "AAPL": 342.88,
+  "NVDA": 218.14,
+  "AMZN": 255.425,
+  "TSLA": 363.579,
+  "GOOGL": 349.4,
+  "QQQ": 728.575,
+  "XLV": 178.06,
+  "MSFT": 540.77,
+  "PLTR": 200.67,
+  "V": 402.58,
+  "BRK-B": 527.93,
+  "ETH": 2453.72,
+  "SOL": 106.06,
+  "AMD": 565.57,
   "SPY30": 772.44,
-  "ORCL": 134.04,
-  "AVGO": 339.53,
-  "JPM": 334.61,
-  "JNJ": 255.745,
-  "BAC": 51.945,
-  "UNH": 410.293,
-  "COST": 988.349,
-  "XOM": 174.76,
-  "CRM": 244.065,
-  "KO": 92.415,
+  "ORCL": 134.47,
+  "AVGO": 343.88,
+  "JPM": 335.746,
+  "JNJ": 254.28,
+  "BAC": 51.825,
+  "UNH": 408.75,
+  "COST": 982.0,
+  "XOM": 174.16,
+  "CRM": 245.8,
+  "KO": 92.03,
   "NFLX": 70.57,
   "WMT": 116.16,
   "INTC": 98.12,
@@ -11775,20 +11820,20 @@
  },
  "plan": "MID გეგმა (2026-10-15 18:59 (Tbilisi)): ღია ფსონები 70; ქეში $271.35. ევროპა/UECL დღეს საღამოს — სეტლი PM-ში. აქციები: სიძლიერის მიმართულებით. ტოკენები მხოლოდ BTC>MA20-ის შემდეგ.",
  "overall_report": {
-  "time": "2026-10-15 22:20 (Tbilisi)",
-  "total_value": 499.4,
+  "time": "2026-10-15 23:21 (Tbilisi)",
+  "total_value": 493.6,
   "deposits_usd": 500,
-  "vs_deposits_usd": -0.6,
-  "vs_deposits_pct": -0.12,
-  "btc_bench": 497.89,
-  "vs_btc_usd": 1.51,
+  "vs_deposits_usd": -6.4,
+  "vs_deposits_pct": -1.28,
+  "btc_bench": 500.43,
+  "vs_btc_usd": -6.83,
   "bets": {
-   "n": 48,
-   "wins": 22,
-   "losses": 26,
-   "open": 70,
-   "pl_usd": 2.42,
-   "roi_pct": 6.2
+   "n": 53,
+   "wins": 23,
+   "losses": 30,
+   "open": 65,
+   "pl_usd": -3.48,
+   "roi_pct": -7.6
   },
   "by_sport": {
    "NHL": {
@@ -11813,11 +11858,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 30,
-    "wins": 14,
-    "losses": 16,
-    "pl_usd": 3.81,
-    "roi_pct": 16.0
+    "n": 35,
+    "wins": 15,
+    "losses": 20,
+    "pl_usd": -2.09,
+    "roi_pct": -6.8
    },
    "NCAAF": {
     "n": 3,
@@ -11843,28 +11888,28 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.59,
-   "unrealized_usd": -0.41,
+   "value_usd": 14.66,
+   "unrealized_usd": -0.34,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.6
+   "total_pl_usd": -2.53
   },
   "stocks": {
    "open_n": 9,
-   "value_usd": 61.51,
-   "unrealized_usd": 0.44,
+   "value_usd": 61.54,
+   "unrealized_usd": 0.47,
    "realized_usd": -0.86,
-   "total_pl_usd": -0.42
+   "total_pl_usd": -0.39
   },
-  "cash_usd": 271.3482,
+  "cash_usd": 272.4482,
   "scanned": 61015,
-  "open_bets_usd": 151.95,
+  "open_bets_usd": 144.95,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 30,
-    "wins": 14,
-    "losses": 16,
-    "pl_usd": 3.81,
-    "roi_pct": 16.0
+    "n": 35,
+    "wins": 15,
+    "losses": 20,
+    "pl_usd": -2.09,
+    "roi_pct": -6.8
    },
    "BASKETBALL": {
     "n": 1,
@@ -11931,7 +11976,7 @@
    }
   }
  },
- "last_refresh": "2026-10-15 22:20 (Tbilisi)",
+ "last_refresh": "2026-10-15 23:21 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -13184,7 +13229,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-15 22:20 (Tbilisi)",
+  "updated": "2026-10-15 23:21 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -13792,28 +13837,6 @@
     "better": "early"
    },
    {
-    "id": "B033",
-    "sport": "NCAAF",
-    "event": "Memphis Tigers @ Tulane Green Wave",
-    "open": null,
-    "taken": 3.15,
-    "taken_time": "2026-10-13 19:14 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B037",
-    "sport": "Football",
-    "event": "Celta Vigo vs Juventus",
-    "open": null,
-    "taken": 3.75,
-    "taken_time": "2026-10-13 19:22 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B038",
     "sport": "Football",
     "event": "Lech Poznan vs Bayer Leverkusen",
@@ -13831,6 +13854,61 @@
     "open": null,
     "taken": 2.2,
     "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B060",
+    "sport": "Football",
+    "event": "Real Sociedad vs Union St.-Gilloise",
+    "open": null,
+    "taken": 2.8,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B062",
+    "sport": "Football",
+    "event": "NK Celje vs Omonia Nicosia",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B099",
+    "sport": "Football",
+    "event": "Getafe @ CSU Craiova",
+    "open": null,
+    "taken": 2.7,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B033",
+    "sport": "NCAAF",
+    "event": "Memphis Tigers @ Tulane Green Wave",
+    "open": null,
+    "taken": 3.15,
+    "taken_time": "2026-10-13 19:14 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B037",
+    "sport": "Football",
+    "event": "Celta Vigo vs Juventus",
+    "open": null,
+    "taken": 3.75,
+    "taken_time": "2026-10-13 19:22 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -13957,33 +14035,11 @@
     "better": null
    },
    {
-    "id": "B060",
-    "sport": "Football",
-    "event": "Real Sociedad vs Union St.-Gilloise",
-    "open": null,
-    "taken": 2.8,
-    "taken_time": "2026-10-14 19:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B061",
     "sport": "Football",
     "event": "Olympiacos vs Marseille",
     "open": null,
     "taken": 3.0,
-    "taken_time": "2026-10-14 19:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B062",
-    "sport": "Football",
-    "event": "NK Celje vs Omonia Nicosia",
-    "open": null,
-    "taken": 2.5,
     "taken_time": "2026-10-14 19:01 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -14336,17 +14392,6 @@
     "event": "Barnet @ Tranmere Rovers",
     "open": null,
     "taken": 2.128,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B099",
-    "sport": "Football",
-    "event": "Getafe @ CSU Craiova",
-    "open": null,
-    "taken": 2.7,
     "taken_time": null,
     "close": null,
     "close_source": null,
