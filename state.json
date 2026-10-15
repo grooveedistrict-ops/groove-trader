@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 389.04,
+ "cash_usd": 392.24,
  "open_bets": [
   {
    "id": "B033",
@@ -26,30 +26,6 @@
     "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
    },
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://www.dratings.com/predictor/ncaa-football-predictions/upcoming/4 ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862801",
-   "odds_time": "2026-10-13 19:14 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B035",
-   "sport": "Football",
-   "league": "MLS",
-   "event": "FC Cincinnati vs New England Revolution",
-   "kickoff": "2026-10-15 03:30",
-   "selection": "New England Revolution (1X2 — მოგება)",
-   "odds": 3.7,
-   "book": "bet365 (+270)",
-   "p": 0.2924,
-   "implied_pct": 27.0,
-   "edge_pct": 8.2,
-   "stake": 0.5,
-   "reasoning": "DRatings 29.3% და FullTimeStats 34% ბაზარზე (26.8%, 10 წიგნი) მაღლა; NE (14-10-4) ცხრილში CIN-ზე (9-9-9) მაღლაა. X: ბაზარი 24სთ-ში CIN-ისკენ გადაიწია (46→48%) — რისკი. 0.5%.",
-   "model_inputs": {
-    "market_novig": 0.2684,
-    "DRatings": 0.293,
-    "FullTimeStats": 0.34,
-    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261014 ; https://www.dratings.com/predictor/mls-soccer-predictions/ ; https://fulltimestats.com/match/fc-cincinnati-vs-new-england-revolution-2026-10-14 ; https://x.com/bookpos_app/status/2109770686092730533",
    "odds_time": "2026-10-13 19:14 (Tbilisi)",
    "status": "open"
   },
@@ -422,54 +398,6 @@
    },
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862802",
    "odds_time": "2026-10-14 09:05 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B054",
-   "sport": "Football",
-   "league": "MLS",
-   "event": "Atlanta United FC @ CF Montréal",
-   "kickoff": "2026-10-15 03:30",
-   "selection": "Atlanta United FC (1X2 — მოგება)",
-   "odds": 2.7,
-   "book": "ESPN/DraftKings",
-   "p": 0.405,
-   "implied_pct": 37.0,
-   "edge_pct": 3.5,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B055",
-   "sport": "Football",
-   "league": "MLS",
-   "event": "New York Red Bulls @ D.C. United",
-   "kickoff": "2026-10-15 03:30",
-   "selection": "New York Red Bulls (1X2 — მოგება)",
-   "odds": 2.75,
-   "book": "ESPN/DraftKings",
-   "p": 0.4,
-   "implied_pct": 36.4,
-   "edge_pct": 3.6,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B056",
-   "sport": "Football",
-   "league": "MLS",
-   "event": "Orlando City SC @ Toronto FC",
-   "kickoff": "2026-10-15 03:30",
-   "selection": "Orlando City SC (1X2 — მოგება)",
-   "odds": 2.65,
-   "book": "ESPN/DraftKings",
-   "p": 0.41,
-   "implied_pct": 37.7,
-   "edge_pct": 3.3,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
    "status": "open"
   },
   {
@@ -1785,6 +1713,110 @@
    ],
    "pl_usd": -0.5,
    "settle_note": "ESPN scoreboard 20261014 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B035",
+   "sport": "Football",
+   "league": "MLS",
+   "event": "FC Cincinnati vs New England Revolution",
+   "kickoff": "2026-10-15 03:30",
+   "selection": "New England Revolution (1X2 — მოგება)",
+   "odds": 3.7,
+   "book": "bet365 (+270)",
+   "p": 0.2924,
+   "implied_pct": 27.0,
+   "edge_pct": 8.2,
+   "stake": 0.5,
+   "reasoning": "DRatings 29.3% და FullTimeStats 34% ბაზარზე (26.8%, 10 წიგნი) მაღლა; NE (14-10-4) ცხრილში CIN-ზე (9-9-9) მაღლაა. X: ბაზარი 24სთ-ში CIN-ისკენ გადაიწია (46→48%) — რისკი. 0.5%.",
+   "model_inputs": {
+    "market_novig": 0.2684,
+    "DRatings": 0.293,
+    "FullTimeStats": 0.34,
+    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261014 ; https://www.dratings.com/predictor/mls-soccer-predictions/ ; https://fulltimestats.com/match/fc-cincinnati-vs-new-england-revolution-2026-10-14 ; https://x.com/bookpos_app/status/2109770686092730533",
+   "odds_time": "2026-10-13 19:14 (Tbilisi)",
+   "status": "settled",
+   "result": "won",
+   "final_score": "New England Revolution 3 – 2 FC Cincinnati",
+   "settled_time": "2026-10-15 06:27 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261014"
+   ],
+   "pl_usd": 1.35,
+   "settle_note": "ESPN MLS scoreboard Full Time; NE away win"
+  },
+  {
+   "id": "B054",
+   "sport": "Football",
+   "league": "MLS",
+   "event": "Atlanta United FC @ CF Montréal",
+   "kickoff": "2026-10-15 03:30",
+   "selection": "Atlanta United FC (1X2 — მოგება)",
+   "odds": 2.7,
+   "book": "ESPN/DraftKings",
+   "p": 0.405,
+   "implied_pct": 37.0,
+   "edge_pct": 3.5,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "result": "won",
+   "final_score": "Atlanta United FC 3 – 0 CF Montréal",
+   "settled_time": "2026-10-15 06:27 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261014"
+   ],
+   "pl_usd": 0.85,
+   "settle_note": "ESPN MLS scoreboard Full Time; ATL away win"
+  },
+  {
+   "id": "B055",
+   "sport": "Football",
+   "league": "MLS",
+   "event": "New York Red Bulls @ D.C. United",
+   "kickoff": "2026-10-15 03:30",
+   "selection": "New York Red Bulls (1X2 — მოგება)",
+   "odds": 2.75,
+   "book": "ESPN/DraftKings",
+   "p": 0.4,
+   "implied_pct": 36.4,
+   "edge_pct": 3.6,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Red Bull New York 1 – 2 D.C. United",
+   "settled_time": "2026-10-15 06:27 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261014"
+   ],
+   "pl_usd": -0.5,
+   "settle_note": "ESPN MLS scoreboard Full Time; RBNY away loss"
+  },
+  {
+   "id": "B056",
+   "sport": "Football",
+   "league": "MLS",
+   "event": "Orlando City SC @ Toronto FC",
+   "kickoff": "2026-10-15 03:30",
+   "selection": "Orlando City SC (1X2 — მოგება)",
+   "odds": 2.65,
+   "book": "ESPN/DraftKings",
+   "p": 0.41,
+   "implied_pct": 37.7,
+   "edge_pct": 3.3,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "final_score": "Orlando City SC 3 – 3 Toronto FC",
+   "settled_time": "2026-10-15 06:27 (Tbilisi)",
+   "result_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261014"
+   ],
+   "pl_usd": -0.5,
+   "settle_note": "ESPN MLS scoreboard Full Time; draw → 1X2 win loses"
   }
  ],
  "positions": [
@@ -1799,7 +1831,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81560
+   "last_price": 80817
   },
   {
    "symbol": "SPY",
@@ -6995,9 +7027,9 @@
   }
  ],
  "last_prices": {
-  "BTC": 81560,
-  "NEAR": 4.79,
-  "AVAX": 9.9,
+  "BTC": 80817,
+  "NEAR": 4.65,
+  "AVAX": 9.5,
   "SPY": 769.6,
   "META": 737.54,
   "AAPL": 342.96,
@@ -7011,8 +7043,8 @@
   "PLTR": 200.73,
   "V": 390.96,
   "BRK-B": 524.795,
-  "ETH": 2412.95,
-  "SOL": 104.15,
+  "ETH": 2359.45,
+  "SOL": 101.74,
   "AMD": 570.6,
   "SPY30": 772.44,
   "ORCL": 130.22,
@@ -7108,20 +7140,20 @@
   ]
  },
  "overall_report": {
-  "time": "2026-10-15 05:26 (Tbilisi)",
-  "total_value": 498.83,
+  "time": "2026-10-15 06:27 (Tbilisi)",
+  "total_value": 499.9,
   "deposits_usd": 500,
-  "vs_deposits_usd": -1.17,
-  "vs_deposits_pct": -0.23,
-  "btc_bench": 494.94,
-  "vs_btc_usd": 3.89,
+  "vs_deposits_usd": -0.1,
+  "vs_deposits_pct": -0.02,
+  "btc_bench": 490.43,
+  "vs_btc_usd": 9.47,
   "bets": {
-   "n": 35,
-   "wins": 17,
-   "losses": 18,
-   "open": 45,
-   "pl_usd": 2.12,
-   "roi_pct": 6.5
+   "n": 39,
+   "wins": 19,
+   "losses": 20,
+   "open": 41,
+   "pl_usd": 3.32,
+   "roi_pct": 9.6
   },
   "by_sport": {
    "NHL": {
@@ -7146,11 +7178,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 22,
-    "wins": 12,
-    "losses": 10,
-    "pl_usd": 4.61,
-    "roi_pct": 23.2
+    "n": 26,
+    "wins": 14,
+    "losses": 12,
+    "pl_usd": 5.81,
+    "roi_pct": 26.6
    },
    "NCAAF": {
     "n": 1,
@@ -7162,10 +7194,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.5,
-   "unrealized_usd": -0.5,
+   "value_usd": 14.37,
+   "unrealized_usd": -0.63,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.69
+   "total_pl_usd": -2.82
   },
   "stocks": {
    "open_n": 9,
@@ -7174,11 +7206,11 @@
    "realized_usd": -0.13,
    "total_pl_usd": -0.6
   },
-  "cash_usd": 389.04,
+  "cash_usd": 392.24,
   "scanned": 10792,
-  "open_bets_usd": 38.25
+  "open_bets_usd": 36.25
  },
- "last_refresh": "2026-10-15 05:26 (Tbilisi)",
+ "last_refresh": "2026-10-15 06:27 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
