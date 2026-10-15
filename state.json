@@ -8742,7 +8742,7 @@
   ]
  },
  "overall_report": {
-  "time": "2026-10-15 15:26 (Tbilisi)",
+  "time": "2026-10-15 15:55 (Tbilisi)",
   "total_value": 499.02,
   "deposits_usd": 500,
   "vs_deposits_usd": -0.98,
@@ -8824,9 +8824,81 @@
   },
   "cash_usd": 387.086,
   "scanned": 73200,
-  "open_bets_usd": 40.5
+  "open_bets_usd": 40.5,
+  "desk_stats": {
+   "FOOTBALL": {
+    "n": 30,
+    "wins": 14,
+    "losses": 16,
+    "pl_usd": 3.81,
+    "roi_pct": 16.0
+   },
+   "BASKETBALL": {
+    "n": 1,
+    "wins": 1,
+    "losses": 0,
+    "pl_usd": 0.68,
+    "roi_pct": 136.0
+   },
+   "US SPORTS": {
+    "n": 14,
+    "wins": 6,
+    "losses": 8,
+    "pl_usd": -1.34,
+    "roi_pct": -10.6
+   },
+   "TENNIS": {
+    "n": 1,
+    "wins": 0,
+    "losses": 1,
+    "pl_usd": -1.0,
+    "roi_pct": -100.0
+   },
+   "MMA/UFC": {
+    "n": 0,
+    "wins": 0,
+    "losses": 0,
+    "pl_usd": 0,
+    "roi_pct": null
+   },
+   "ESPORTS": {
+    "n": 0,
+    "wins": 0,
+    "losses": 0,
+    "pl_usd": 0,
+    "roi_pct": null
+   },
+   "POLYMARKET": {
+    "n": 2,
+    "wins": 1,
+    "losses": 1,
+    "pl_usd": 0.27,
+    "roi_pct": 27.0
+   },
+   "CRYPTO MAJORS": {
+    "n": 3,
+    "wins": 0,
+    "losses": 3,
+    "pl_usd": -2.04,
+    "roi_pct": -10.2
+   },
+   "NEW TOKENS": {
+    "n": 1,
+    "wins": 0,
+    "losses": 1,
+    "pl_usd": -0.15,
+    "roi_pct": -7.5
+   },
+   "EQUITIES": {
+    "n": 5,
+    "wins": 3,
+    "losses": 2,
+    "pl_usd": -0.13,
+    "roi_pct": -1.1
+   }
+  }
  },
- "last_refresh": "2026-10-15 15:26 (Tbilisi)",
+ "last_refresh": "2026-10-15 15:55 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -8838,5 +8910,1185 @@
   "max_bets_per_day": 200,
   "max_bets_per_run": 65,
   "note": "percentage caps unchanged (see template/DESK rules)"
+ },
+ "simulation": {
+  "log": [
+   {
+    "time": "2026-10-15 15:55 (Tbilisi)",
+    "rule": "SMA50_AND_EMA20>50",
+    "desc": "crypto/equity long only if close>SMA50 AND EMA20>EMA50",
+    "baseline": "close>SMA50",
+    "criteria": "stricter-only AND Sharpe>=base AND maxDD within 2pp on >=5/7 assets",
+    "assets_passed": 1,
+    "assets": 7,
+    "stricter": true,
+    "verdict": "REJECT",
+    "detail": {
+     "bitcoin": {
+      "cand": [
+       2.5,
+       -9.3,
+       0.22,
+       7
+      ],
+      "base": [
+       13.8,
+       -18.9,
+       0.64,
+       19
+      ],
+      "stricter": true,
+      "pass": false,
+      "days": 366
+     },
+     "ethereum": {
+      "cand": [
+       7.7,
+       -19.6,
+       0.39,
+       6
+      ],
+      "base": [
+       24.5,
+       -21.9,
+       0.77,
+       8
+      ],
+      "stricter": true,
+      "pass": false,
+      "days": 366
+     },
+     "solana": {
+      "cand": [
+       -7.0,
+       -25.3,
+       -0.14,
+       12
+      ],
+      "base": [
+       -15.7,
+       -44.4,
+       -0.31,
+       26
+      ],
+      "stricter": true,
+      "pass": true,
+      "days": 366
+     },
+     "SPY": {
+      "cand": [
+       -4.6,
+       -7.8,
+       -0.49,
+       24
+      ],
+      "base": [
+       -0.9,
+       -7.8,
+       -0.06,
+       24
+      ],
+      "stricter": true,
+      "pass": false,
+      "days": 252
+     },
+     "QQQ": {
+      "cand": [
+       -0.2,
+       -13.0,
+       0.05,
+       21
+      ],
+      "base": [
+       2.0,
+       -14.3,
+       0.21,
+       25
+      ],
+      "stricter": true,
+      "pass": false,
+      "days": 252
+     },
+     "NVDA": {
+      "cand": [
+       -20.3,
+       -25.6,
+       -0.77,
+       26
+      ],
+      "base": [
+       -13.1,
+       -24.5,
+       -0.39,
+       30
+      ],
+      "stricter": true,
+      "pass": false,
+      "days": 252
+     },
+     "AAPL": {
+      "cand": [
+       0.3,
+       -12.9,
+       0.11,
+       17
+      ],
+      "base": [
+       6.9,
+       -12.9,
+       0.44,
+       17
+      ],
+      "stricter": true,
+      "pass": false,
+      "days": 252
+     }
+    },
+    "fields": "[ret%,maxDD%,Sharpe,trades]"
+   }
+  ],
+  "adopted": [],
+  "rejected": [
+   "SMA50_AND_EMA20>50"
+  ]
+ },
+ "timing": {
+  "updated": "2026-10-15 15:55 (Tbilisi)",
+  "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
+  "by_sport": {
+   "NHL": {
+    "n": 0,
+    "early_better": 0,
+    "late_better": 0,
+    "equal": 0,
+    "avg_clv_pct": null,
+    "no_close": 6,
+    "lean": null
+   },
+   "MLB": {
+    "n": 0,
+    "early_better": 0,
+    "late_better": 0,
+    "equal": 0,
+    "avg_clv_pct": null,
+    "no_close": 5,
+    "lean": null
+   },
+   "Tennis": {
+    "n": 0,
+    "early_better": 0,
+    "late_better": 0,
+    "equal": 0,
+    "avg_clv_pct": null,
+    "no_close": 1,
+    "lean": null
+   },
+   "Football": {
+    "n": 1,
+    "early_better": 0,
+    "late_better": 1,
+    "equal": 0,
+    "avg_clv_pct": -0.67,
+    "no_close": 38,
+    "lean": null
+   },
+   "NCAAF": {
+    "n": 0,
+    "early_better": 0,
+    "late_better": 0,
+    "equal": 0,
+    "avg_clv_pct": null,
+    "no_close": 18,
+    "lean": null
+   },
+   "NBA": {
+    "n": 0,
+    "early_better": 0,
+    "late_better": 0,
+    "equal": 0,
+    "avg_clv_pct": null,
+    "no_close": 1,
+    "lean": null
+   },
+   "Polymarket": {
+    "n": 1,
+    "early_better": 1,
+    "late_better": 0,
+    "equal": 0,
+    "avg_clv_pct": 0.88,
+    "no_close": 11,
+    "lean": null
+   },
+   "NFL": {
+    "n": 0,
+    "early_better": 0,
+    "late_better": 0,
+    "equal": 0,
+    "avg_clv_pct": null,
+    "no_close": 5,
+    "lean": null
+   }
+  },
+  "bets": [
+   {
+    "id": "B002",
+    "sport": "NHL",
+    "event": "Edmonton Oilers @ Anaheim Ducks",
+    "open": null,
+    "taken": 2.12,
+    "taken_time": "2026-10-07 11:34 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B003",
+    "sport": "MLB",
+    "event": "Los Angeles Dodgers @ Atlanta Braves",
+    "open": null,
+    "taken": 1.719,
+    "taken_time": "2026-10-07 11:34 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B001",
+    "sport": "MLB",
+    "event": "Milwaukee Brewers @ San Diego Padres",
+    "open": null,
+    "taken": 1.971,
+    "taken_time": "2026-10-07 11:34 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B008",
+    "sport": "Tennis",
+    "event": "Cameron Norrie vs Dalibor Svrcina",
+    "open": null,
+    "taken": 1.5,
+    "taken_time": "2026-10-07 18:37 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B009",
+    "sport": "NHL",
+    "event": "San Jose Sharks @ St. Louis Blues",
+    "open": null,
+    "taken": 2.32,
+    "taken_time": "2026-10-08 08:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B010",
+    "sport": "NHL",
+    "event": "Nashville Predators @ Montreal Canadiens",
+    "open": null,
+    "taken": 1.588,
+    "taken_time": "2026-10-08 08:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B005",
+    "sport": "Football",
+    "event": "Chelsea vs AFC Bournemouth",
+    "open": null,
+    "taken": 1.714,
+    "taken_time": "2026-10-07 18:37 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B006",
+    "sport": "Football",
+    "event": "Sunderland vs Brighton & Hove Albion",
+    "open": null,
+    "taken": 2.35,
+    "taken_time": "2026-10-07 18:37 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B011",
+    "sport": "Football",
+    "event": "Austin FC vs Nashville SC",
+    "open": null,
+    "taken": 1.909,
+    "taken_time": "2026-10-08 08:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B004",
+    "sport": "Football",
+    "event": "Liverpool vs Manchester City",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": "2026-10-07 18:37 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B012",
+    "sport": "Football",
+    "event": "SC Freiburg vs Schalke 04",
+    "open": null,
+    "taken": 1.645,
+    "taken_time": "2026-10-08 08:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B013",
+    "sport": "Football",
+    "event": "1. FC Cologne vs Borussia Mönchengladbach",
+    "open": null,
+    "taken": 2.0,
+    "taken_time": "2026-10-08 08:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B014",
+    "sport": "Football",
+    "event": "Real Betis vs CA Osasuna",
+    "open": null,
+    "taken": 1.606,
+    "taken_time": "2026-10-08 08:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B015",
+    "sport": "Football",
+    "event": "Sporting Kansas City vs Portland Timbers",
+    "open": null,
+    "taken": 2.55,
+    "taken_time": "2026-10-08 08:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B007",
+    "sport": "Football",
+    "event": "Coventry City vs Newcastle United",
+    "open": null,
+    "taken": 2.15,
+    "taken_time": "2026-10-07 18:37 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B016",
+    "sport": "MLB",
+    "event": "Los Angeles Dodgers @ Milwaukee Brewers",
+    "open": null,
+    "taken": 1.794,
+    "taken_time": "2026-10-12 11:15 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B024",
+    "sport": "NHL",
+    "event": "Ottawa Senators @ New Jersey Devils",
+    "open": null,
+    "taken": 2.17,
+    "taken_time": "2026-10-12 18:54 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B017",
+    "sport": "MLB",
+    "event": "Cleveland Guardians @ Tampa Bay Rays",
+    "open": null,
+    "taken": 1.676,
+    "taken_time": "2026-10-12 11:15 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B018",
+    "sport": "NHL",
+    "event": "Vegas Golden Knights @ Minnesota Wild",
+    "open": null,
+    "taken": 1.98,
+    "taken_time": "2026-10-12 11:15 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B019",
+    "sport": "Football",
+    "event": "Atletico Madrid vs Manchester United",
+    "open": null,
+    "taken": 1.952,
+    "taken_time": "2026-10-12 11:15 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B022",
+    "sport": "Football",
+    "event": "Villarreal vs SSC Napoli",
+    "open": null,
+    "taken": 1.5,
+    "taken_time": "2026-10-12 18:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B023",
+    "sport": "Football",
+    "event": "RB Leipzig vs PSV Eindhoven",
+    "open": null,
+    "taken": 4.0,
+    "taken_time": "2026-10-12 18:56 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B028",
+    "sport": "Football",
+    "event": "Villarreal vs SSC Napoli",
+    "open": null,
+    "taken": 3.3,
+    "taken_time": "2026-10-13 08:57 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B030",
+    "sport": "Football",
+    "event": "Stoke City vs Middlesbrough",
+    "open": null,
+    "taken": 3.7,
+    "taken_time": "2026-10-13 19:18 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B031",
+    "sport": "Football",
+    "event": "Cardiff City vs Watford",
+    "open": null,
+    "taken": 4.5,
+    "taken_time": "2026-10-13 19:18 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B026",
+    "sport": "NHL",
+    "event": "Washington Capitals @ Carolina Hurricanes",
+    "open": null,
+    "taken": 1.725,
+    "taken_time": "2026-10-13 02:17 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B029",
+    "sport": "NCAAF",
+    "event": "Delaware Blue Hens @ Middle Tennessee Blue Raiders",
+    "open": null,
+    "taken": 1.833,
+    "taken_time": "2026-10-13 08:57 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B034",
+    "sport": "MLB",
+    "event": "Cleveland Guardians @ Tampa Bay Rays",
+    "open": null,
+    "taken": 2.16,
+    "taken_time": "2026-10-13 19:14 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B039",
+    "sport": "Football",
+    "event": "Feyenoord Rotterdam vs Como",
+    "open": null,
+    "taken": 3.65,
+    "taken_time": "2026-10-13 23:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B020",
+    "sport": "Football",
+    "event": "Manchester City vs Paris Saint-Germain",
+    "open": null,
+    "taken": 2.25,
+    "taken_time": "2026-10-12 11:15 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B021",
+    "sport": "Football",
+    "event": "Bodo/Glimt vs Borussia Dortmund",
+    "open": null,
+    "taken": 3.25,
+    "taken_time": "2026-10-12 11:15 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B025",
+    "sport": "Football",
+    "event": "Aston Villa vs Fenerbahce",
+    "open": null,
+    "taken": 1.667,
+    "taken_time": "2026-10-12 23:55 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B027",
+    "sport": "Football",
+    "event": "Roma vs Real Madrid",
+    "open": null,
+    "taken": 1.901,
+    "taken_time": "2026-10-12 (rg.org ცხრილი), წაკითხულია 2026-10-13 02:17 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B032",
+    "sport": "Football",
+    "event": "QPR vs Derby County",
+    "open": null,
+    "taken": 4.9,
+    "taken_time": "2026-10-13 19:20 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B040",
+    "sport": "Football",
+    "event": "Portsmouth vs Sheffield United",
+    "open": null,
+    "taken": 3.25,
+    "taken_time": "2026-10-13 23:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B035",
+    "sport": "Football",
+    "event": "FC Cincinnati vs New England Revolution",
+    "open": null,
+    "taken": 3.7,
+    "taken_time": "2026-10-13 19:14 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B054",
+    "sport": "Football",
+    "event": "Atlanta United FC @ CF Montréal",
+    "open": null,
+    "taken": 2.7,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B055",
+    "sport": "Football",
+    "event": "New York Red Bulls @ D.C. United",
+    "open": null,
+    "taken": 2.75,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B056",
+    "sport": "Football",
+    "event": "Orlando City SC @ Toronto FC",
+    "open": null,
+    "taken": 2.65,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B057",
+    "sport": "Football",
+    "event": "Vancouver Whitecaps @ St. Louis CITY SC",
+    "open": null,
+    "taken": 2.85,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B059",
+    "sport": "Football",
+    "event": "Philadelphia Union @ Chicago Fire FC",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B063",
+    "sport": "NCAAF",
+    "event": "Kennesaw State Owls @ Missouri State Bears",
+    "open": null,
+    "taken": 2.3,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B065",
+    "sport": "NBA",
+    "event": "Detroit Pistons @ Minnesota Timberwolves",
+    "open": null,
+    "taken": 2.36,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B036",
+    "sport": "Football",
+    "event": "Real Salt Lake vs San Jose Earthquakes",
+    "open": null,
+    "taken": 3.8,
+    "taken_time": "2026-10-13 19:14 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B041",
+    "sport": "NCAAF",
+    "event": "Western Kentucky Hilltoppers @ Sam Houston State Bearkats",
+    "open": null,
+    "taken": 2.06,
+    "taken_time": "2026-10-13 23:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B058",
+    "sport": "Football",
+    "event": "Portland Timbers @ LA Galaxy",
+    "open": null,
+    "taken": 2.95,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": 2.97,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261014 ; AN consensus close +197",
+    "clv_pct": -0.67,
+    "better": "late"
+   },
+   {
+    "id": "B068",
+    "sport": "Polymarket",
+    "event": "Cricket T20: India vs West Indies",
+    "open": null,
+    "taken": 1.942,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B069",
+    "sport": "Polymarket",
+    "event": "MLB: Brewers vs Dodgers",
+    "open": null,
+    "taken": 2.532,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": 2.51,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=20261014 ; AN consensus close +151",
+    "clv_pct": 0.88,
+    "better": "early"
+   },
+   {
+    "id": "B033",
+    "sport": "NCAAF",
+    "event": "Memphis Tigers @ Tulane Green Wave",
+    "open": null,
+    "taken": 3.15,
+    "taken_time": "2026-10-13 19:14 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B037",
+    "sport": "Football",
+    "event": "Celta Vigo vs Juventus",
+    "open": null,
+    "taken": 3.75,
+    "taken_time": "2026-10-13 19:22 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B038",
+    "sport": "Football",
+    "event": "Lech Poznan vs Bayer Leverkusen",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": "2026-10-13 19:22 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B042",
+    "sport": "Football",
+    "event": "Lyon vs Crystal Palace",
+    "open": null,
+    "taken": 2.2,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B043",
+    "sport": "NCAAF",
+    "event": "Cincinnati Bearcats @ West Virginia Mountaineers",
+    "open": null,
+    "taken": 2.1,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B044",
+    "sport": "NCAAF",
+    "event": "Arkansas State Red Wolves @ Southern Miss Golden Eagles",
+    "open": null,
+    "taken": 3.2,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B045",
+    "sport": "NCAAF",
+    "event": "Penn State Nittany Lions @ Michigan Wolverines",
+    "open": null,
+    "taken": 3.2,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B046",
+    "sport": "NCAAF",
+    "event": "Missouri Tigers @ Ole Miss Rebels",
+    "open": null,
+    "taken": 3.2,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B047",
+    "sport": "NCAAF",
+    "event": "North Carolina Tar Heels @ Duke Blue Devils",
+    "open": null,
+    "taken": 2.85,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B048",
+    "sport": "NCAAF",
+    "event": "Northern Illinois Huskies @ Wyoming Cowboys",
+    "open": null,
+    "taken": 3.6,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B049",
+    "sport": "NCAAF",
+    "event": "Kansas Jayhawks @ Kansas State Wildcats",
+    "open": null,
+    "taken": 3.35,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B050",
+    "sport": "NCAAF",
+    "event": "Arkansas Razorbacks @ Vanderbilt Commodores",
+    "open": null,
+    "taken": 2.98,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B051",
+    "sport": "NCAAF",
+    "event": "UMass Minutemen @ Buffalo Bulls",
+    "open": null,
+    "taken": 3.0,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B052",
+    "sport": "NCAAF",
+    "event": "Ohio State Buckeyes @ Indiana Hoosiers",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B053",
+    "sport": "NCAAF",
+    "event": "Florida Atlantic Owls @ Army Black Knights",
+    "open": null,
+    "taken": 1.73,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B060",
+    "sport": "Football",
+    "event": "Real Sociedad vs Union St.-Gilloise",
+    "open": null,
+    "taken": 2.8,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B061",
+    "sport": "Football",
+    "event": "Olympiacos vs Marseille",
+    "open": null,
+    "taken": 3.0,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B062",
+    "sport": "Football",
+    "event": "NK Celje vs Omonia Nicosia",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B064",
+    "sport": "NCAAF",
+    "event": "East Carolina Pirates @ UAB Blazers",
+    "open": null,
+    "taken": 2.6,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B066",
+    "sport": "Polymarket",
+    "event": "Fed Oct 2026: no change in interest rates",
+    "open": null,
+    "taken": 1.626,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B067",
+    "sport": "Polymarket",
+    "event": "NFL: Seahawks vs Broncos",
+    "open": null,
+    "taken": 1.77,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B070",
+    "sport": "NFL",
+    "event": "Chicago Bears @ Atlanta Falcons",
+    "open": null,
+    "taken": 1.82,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B071",
+    "sport": "NFL",
+    "event": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
+    "open": null,
+    "taken": 2.05,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B072",
+    "sport": "NFL",
+    "event": "New Orleans Saints @ New York Giants",
+    "open": null,
+    "taken": 2.2,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B073",
+    "sport": "NFL",
+    "event": "Dallas Cowboys @ Green Bay Packers",
+    "open": null,
+    "taken": 2.42,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B074",
+    "sport": "NFL",
+    "event": "Houston Texans @ Jacksonville Jaguars",
+    "open": null,
+    "taken": 1.909,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B075",
+    "sport": "NCAAF",
+    "event": "Georgia Southern Eagles @ Old Dominion Monarchs",
+    "open": null,
+    "taken": 1.769,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B076",
+    "sport": "Polymarket",
+    "event": "Will the Democrats win the Nevada governor race in 2026?",
+    "open": null,
+    "taken": 1.905,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B077",
+    "sport": "Polymarket",
+    "event": "Will Marine Le Pen win the 2027 French presidential election?",
+    "open": null,
+    "taken": 2.275,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B078",
+    "sport": "Polymarket",
+    "event": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "open": null,
+    "taken": 2.611,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B079",
+    "sport": "Polymarket",
+    "event": "Netanyahu out by end of 2026?",
+    "open": null,
+    "taken": 2.532,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B080",
+    "sport": "Polymarket",
+    "event": "2026 Balance of Power: D Senate, D House",
+    "open": null,
+    "taken": 2.667,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B081",
+    "sport": "Football",
+    "event": "FC Nordsjælland @ Heart of Midlothian",
+    "open": null,
+    "taken": 2.95,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B082",
+    "sport": "NCAAF",
+    "event": "Alabama Crimson Tide @ Tennessee Volunteers",
+    "open": null,
+    "taken": 3.75,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B083",
+    "sport": "Football",
+    "event": "Colorado Rapids @ Portland Timbers",
+    "open": null,
+    "taken": 2.3,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B084",
+    "sport": "Football",
+    "event": "Rayo Vallecano @ Getafe",
+    "open": null,
+    "taken": 2.7,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B085",
+    "sport": "Polymarket",
+    "event": "Will CA Huracán win on 2026-10-15? (Huracán vs Gimnasia La Plata)",
+    "open": null,
+    "taken": 2.703,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B086",
+    "sport": "Polymarket",
+    "event": "Will Fulham FC win on 2026-10-17? (Hull City @ Fulham)",
+    "open": null,
+    "taken": 1.786,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B087",
+    "sport": "Polymarket",
+    "event": "Will the price of Bitcoin be above $82,000 on October 16?",
+    "open": null,
+    "taken": 1.754,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   }
+  ]
  }
 }
