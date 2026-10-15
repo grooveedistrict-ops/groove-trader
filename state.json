@@ -3266,7 +3266,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82234
+   "last_price": 82247
   },
   {
    "symbol": "SPY",
@@ -3278,7 +3278,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 770.415
+   "last_price": 769.5
   },
   {
    "symbol": "META",
@@ -3290,7 +3290,7 @@
    "stop_loss": 665.62,
    "take_profit": 839.26,
    "thesis": "ძლიერი ტრენდია (30 დღეში +27%, MA-ებზე მაღლა). 60-დღიანი მაქ",
-   "last_price": 734.895
+   "last_price": 734.52
   },
   {
    "symbol": "AAPL",
@@ -3302,7 +3302,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 344.18,
+   "last_price": 343.54,
    "adds": [
     {
      "date": "2026-10-14",
@@ -3324,7 +3324,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 349.76,
+   "last_price": 347.877,
    "adds": [
     {
      "date": "2026-10-13",
@@ -3346,7 +3346,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 178.72,
+   "last_price": 178.53,
    "adds": [
     {
      "date": "2026-10-14",
@@ -3372,7 +3372,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 92.84
+   "last_price": 92.615
   },
   {
    "symbol": "MSFT",
@@ -3380,7 +3380,7 @@
    "qty": 0.00931949,
    "entry_price": 536.51,
    "cost_usd": 5.0,
-   "last_price": 537.835,
+   "last_price": 539.785,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -3389,7 +3389,7 @@
    "qty": 0.01222255,
    "entry_price": 409.08,
    "cost_usd": 5.0,
-   "last_price": 412.12,
+   "last_price": 411.97,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -3398,7 +3398,7 @@
    "qty": 0.01263584,
    "entry_price": 395.7,
    "cost_usd": 5.0,
-   "last_price": 399.61,
+   "last_price": 399.125,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   }
  ],
@@ -11706,36 +11706,36 @@
   }
  ],
  "last_prices": {
-  "BTC": 82234,
-  "NEAR": 4.87,
-  "AVAX": 9.82,
-  "SPY": 770.415,
-  "META": 734.895,
-  "AAPL": 344.18,
-  "NVDA": 216.445,
-  "AMZN": 252.39,
-  "TSLA": 361.165,
-  "GOOGL": 349.76,
-  "QQQ": 722.67,
-  "XLV": 178.72,
-  "MSFT": 537.835,
+  "BTC": 82247,
+  "NEAR": 5.09,
+  "AVAX": 9.95,
+  "SPY": 769.5,
+  "META": 734.52,
+  "AAPL": 343.54,
+  "NVDA": 216.697,
+  "AMZN": 253.36,
+  "TSLA": 360.81,
+  "GOOGL": 347.877,
+  "QQQ": 723.83,
+  "XLV": 178.53,
+  "MSFT": 539.785,
   "PLTR": 200.97,
-  "V": 399.61,
+  "V": 399.125,
   "BRK-B": 526.35,
-  "ETH": 2384.13,
-  "SOL": 104.13,
-  "AMD": 545.255,
+  "ETH": 2434.17,
+  "SOL": 105.47,
+  "AMD": 549.41,
   "SPY30": 772.44,
   "ORCL": 130.55,
   "AVGO": 346.25,
-  "JPM": 335.38,
+  "JPM": 333.722,
   "JNJ": 253.91,
   "BAC": 51.39,
-  "UNH": 412.12,
+  "UNH": 411.97,
   "COST": 982.0,
   "XOM": 177.01,
-  "CRM": 244.84,
-  "KO": 92.84,
+  "CRM": 245.27,
+  "KO": 92.615,
   "NFLX": 70.57,
   "WMT": 116.16,
   "INTC": 98.12,
@@ -11746,42 +11746,42 @@
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
-  "IWM": 273.77,
+  "IWM": 273.015,
   "XLE": 67.63,
-  "XRP": 1.32,
-  "ADA": 0.225195,
-  "DOGE": 0.079364,
-  "DOT": 1.088,
-  "LINK": 12.27,
-  "SUI": 0.999068,
-  "TRX": 0.330063,
-  "BNB": 727.27,
-  "LTC": 59.27,
-  "UNI": 7.33,
-  "XLM": 0.182466,
-  "XMR": 536.29,
-  "OKB": 117.52,
-  "AAVE": 152.43,
-  "MNT": 0.520877,
-  "XLF": 54.92,
+  "XRP": 1.33,
+  "ADA": 0.229269,
+  "DOGE": 0.080913,
+  "DOT": 1.11,
+  "LINK": 12.45,
+  "SUI": 1.022,
+  "TRX": 0.331088,
+  "BNB": 732.19,
+  "LTC": 60.34,
+  "UNI": 7.54,
+  "XLM": 0.184443,
+  "XMR": 541.37,
+  "OKB": 117.57,
+  "AAVE": 155.68,
+  "MNT": 0.527943,
+  "XLF": 54.975,
   "BTC_MA20": 83699.69,
   "BTC_MA50": 81209.28,
   "_meta": {
-   "BTC_MA20": 81231.26,
-   "BTC_MA50": 82308.26,
-   "time": "2026-10-15 19:31 (Tbilisi)",
+   "BTC_MA20": 83841.32,
+   "BTC_MA50": 81178.76,
+   "time": "2026-10-15 20:20 (Tbilisi)",
    "source": "coingecko+yahoo"
   }
  },
  "plan": "MID გეგმა (2026-10-15 18:59 (Tbilisi)): ღია ფსონები 70; ქეში $271.35. ევროპა/UECL დღეს საღამოს — სეტლი PM-ში. აქციები: სიძლიერის მიმართულებით. ტოკენები მხოლოდ BTC>MA20-ის შემდეგ.",
  "overall_report": {
-  "time": "2026-10-15 19:30 (Tbilisi)",
-  "total_value": 499.54,
+  "time": "2026-10-15 20:21 (Tbilisi)",
+  "total_value": 499.47,
   "deposits_usd": 500,
-  "vs_deposits_usd": -0.46,
-  "vs_deposits_pct": -0.09,
-  "btc_bench": 499.03,
-  "vs_btc_usd": 0.51,
+  "vs_deposits_usd": -0.53,
+  "vs_deposits_pct": -0.11,
+  "btc_bench": 499.11,
+  "vs_btc_usd": 0.35,
   "bets": {
    "n": 48,
    "wins": 22,
@@ -11843,17 +11843,17 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.62,
-   "unrealized_usd": -0.38,
+   "value_usd": 14.63,
+   "unrealized_usd": -0.37,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.57
+   "total_pl_usd": -2.56
   },
   "stocks": {
    "open_n": 9,
-   "value_usd": 61.62,
-   "unrealized_usd": 0.55,
+   "value_usd": 61.54,
+   "unrealized_usd": 0.47,
    "realized_usd": -0.86,
-   "total_pl_usd": -0.3
+   "total_pl_usd": -0.38
   },
   "cash_usd": 271.3482,
   "scanned": 61015,
@@ -11931,7 +11931,7 @@
    }
   }
  },
- "last_refresh": "2026-10-15 19:30 (Tbilisi)",
+ "last_refresh": "2026-10-15 20:21 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -12078,15 +12078,1113 @@
      }
     },
     "fields": "[ret%,maxDD%,Sharpe,trades]"
+   },
+   {
+    "time": "2026-10-15 20:40 (Tbilisi)",
+    "rule": "TB1_PM_sports_ML_dog_0.25-0.40_<=7d",
+    "desc": "temporal-bias calibration study: Polymarket resolved binary markets (gamma closed=true, vol>=20k, end 2025-01..2026-09), CLOB prices-history snapshots at 45d/14d/3d/12h before start/end; ROI after 1c half-spread + fee model",
+    "baseline": "implied prob = price",
+    "criteria": "fit old (ref<2025-12-07) n>=200 ROI>0 -> OOS new n>=200 ROI>0 after costs, stable",
+    "sample": {
+     "markets": 4161,
+     "snapshots": 8610,
+     "markets_fetched": 6251
+    },
+    "verdict": "PASS (weak; tag-only, gates unchanged)",
+    "passed_cells": [
+     {
+      "cat": "sports",
+      "ttr": "1-7d",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 242,
+       "impl": 0.331,
+       "actual": 0.364,
+       "roi": 6.7
+      },
+      "new": {
+       "n": 449,
+       "impl": 0.337,
+       "actual": 0.385,
+       "roi": 10.0
+      },
+      "pass": true
+     },
+     {
+      "cat": "sports",
+      "ttr": "<24h",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 314,
+       "impl": 0.328,
+       "actual": 0.366,
+       "roi": 8.5
+      },
+      "new": {
+       "n": 502,
+       "impl": 0.335,
+       "actual": 0.382,
+       "roi": 9.7
+      },
+      "pass": true
+     }
+    ],
+    "robustness": {
+     "<24h": {
+      "bootCI_old": [
+       -3.7,
+       21.2
+      ],
+      "bootCI_new": [
+       0.8,
+       19.0
+      ],
+      "hs2c_roi": [
+       5.3,
+       6.6
+      ],
+      "one_per_game_new": 7.1
+     },
+     "1-7d": {
+      "bootCI_old": [
+       -8.0,
+       20.8
+      ],
+      "bootCI_new": [
+       0.4,
+       20.1
+      ],
+      "hs2c_roi": [
+       3.7,
+       7.0
+      ]
+     },
+     "note": "mostly daily fidelity, so the time buckets near the end overlap"
+    },
+    "cells": [
+     {
+      "cat": "non-sports",
+      "ttr": "1-7d",
+      "bin": "0.02-0.10",
+      "old": {
+       "n": 209,
+       "impl": 0.05,
+       "actual": 0.053,
+       "roi": -12.7
+      },
+      "new": {
+       "n": 128,
+       "impl": 0.047,
+       "actual": 0.109,
+       "roi": 90.6
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "1-7d",
+      "bin": "0.10-0.25",
+      "old": {
+       "n": 186,
+       "impl": 0.171,
+       "actual": 0.269,
+       "roi": 48.9
+      },
+      "new": {
+       "n": 68,
+       "impl": 0.163,
+       "actual": 0.221,
+       "roi": 27.0
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "1-7d",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 129,
+       "impl": 0.316,
+       "actual": 0.372,
+       "roi": 14.2
+      },
+      "new": {
+       "n": 42,
+       "impl": 0.316,
+       "actual": 0.381,
+       "roi": 16.2
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "1-7d",
+      "bin": "0.40-0.60",
+      "old": {
+       "n": 194,
+       "impl": 0.499,
+       "actual": 0.5,
+       "roi": -1.8
+      },
+      "new": {
+       "n": 44,
+       "impl": 0.5,
+       "actual": 0.5,
+       "roi": -2.6
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "1-7d",
+      "bin": "0.60-0.75",
+      "old": {
+       "n": 126,
+       "impl": 0.68,
+       "actual": 0.627,
+       "roi": -9.2
+      },
+      "new": {
+       "n": 42,
+       "impl": 0.684,
+       "actual": 0.619,
+       "roi": -11.1
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "1-7d",
+      "bin": "0.75-0.90",
+      "old": {
+       "n": 189,
+       "impl": 0.827,
+       "actual": 0.725,
+       "roi": -13.4
+      },
+      "new": {
+       "n": 68,
+       "impl": 0.837,
+       "actual": 0.779,
+       "roi": -8.1
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "1-7d",
+      "bin": "0.90-0.98",
+      "old": {
+       "n": 210,
+       "impl": 0.949,
+       "actual": 0.948,
+       "roi": -1.2
+      },
+      "new": {
+       "n": 126,
+       "impl": 0.952,
+       "actual": 0.889,
+       "roi": -7.7
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "7-30d",
+      "bin": "0.02-0.10",
+      "old": {
+       "n": 212,
+       "impl": 0.05,
+       "actual": 0.042,
+       "roi": -29.4
+      },
+      "new": {
+       "n": 116,
+       "impl": 0.051,
+       "actual": 0.121,
+       "roi": 98.0
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "7-30d",
+      "bin": "0.10-0.25",
+      "old": {
+       "n": 151,
+       "impl": 0.16,
+       "actual": 0.199,
+       "roi": 16.6
+      },
+      "new": {
+       "n": 93,
+       "impl": 0.162,
+       "actual": 0.258,
+       "roi": 49.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "7-30d",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 80,
+       "impl": 0.314,
+       "actual": 0.263,
+       "roi": -19.0
+      },
+      "new": {
+       "n": 59,
+       "impl": 0.326,
+       "actual": 0.22,
+       "roi": -34.9
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "7-30d",
+      "bin": "0.40-0.60",
+      "old": {
+       "n": 109,
+       "impl": 0.499,
+       "actual": 0.505,
+       "roi": -0.9
+      },
+      "new": {
+       "n": 48,
+       "impl": 0.496,
+       "actual": 0.5,
+       "roi": -1.7
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "7-30d",
+      "bin": "0.60-0.75",
+      "old": {
+       "n": 79,
+       "impl": 0.684,
+       "actual": 0.722,
+       "roi": 4.0
+      },
+      "new": {
+       "n": 59,
+       "impl": 0.669,
+       "actual": 0.78,
+       "roi": 14.5
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "7-30d",
+      "bin": "0.75-0.90",
+      "old": {
+       "n": 150,
+       "impl": 0.837,
+       "actual": 0.8,
+       "roi": -5.6
+      },
+      "new": {
+       "n": 95,
+       "impl": 0.836,
+       "actual": 0.737,
+       "roi": -13.0
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "7-30d",
+      "bin": "0.90-0.98",
+      "old": {
+       "n": 211,
+       "impl": 0.949,
+       "actual": 0.957,
+       "roi": -0.1
+      },
+      "new": {
+       "n": 115,
+       "impl": 0.949,
+       "actual": 0.878,
+       "roi": -8.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "<24h",
+      "bin": "0.02-0.10",
+      "old": {
+       "n": 178,
+       "impl": 0.05,
+       "actual": 0.079,
+       "roi": 30.0
+      },
+      "new": {
+       "n": 91,
+       "impl": 0.05,
+       "actual": 0.187,
+       "roi": 207.5
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "<24h",
+      "bin": "0.10-0.25",
+      "old": {
+       "n": 128,
+       "impl": 0.174,
+       "actual": 0.195,
+       "roi": 6.2
+      },
+      "new": {
+       "n": 44,
+       "impl": 0.162,
+       "actual": 0.136,
+       "roi": -21.3
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "<24h",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 142,
+       "impl": 0.324,
+       "actual": 0.408,
+       "roi": 22.4
+      },
+      "new": {
+       "n": 30,
+       "impl": 0.307,
+       "actual": 0.267,
+       "roi": -16.2
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "<24h",
+      "bin": "0.40-0.60",
+      "old": {
+       "n": 192,
+       "impl": 0.499,
+       "actual": 0.5,
+       "roi": -1.8
+      },
+      "new": {
+       "n": 55,
+       "impl": 0.498,
+       "actual": 0.509,
+       "roi": -0.6
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "<24h",
+      "bin": "0.60-0.75",
+      "old": {
+       "n": 139,
+       "impl": 0.673,
+       "actual": 0.604,
+       "roi": -11.5
+      },
+      "new": {
+       "n": 28,
+       "impl": 0.684,
+       "actual": 0.75,
+       "roi": 7.8
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "<24h",
+      "bin": "0.75-0.90",
+      "old": {
+       "n": 133,
+       "impl": 0.823,
+       "actual": 0.782,
+       "roi": -6.1
+      },
+      "new": {
+       "n": 46,
+       "impl": 0.831,
+       "actual": 0.826,
+       "roi": -1.8
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": "<24h",
+      "bin": "0.90-0.98",
+      "old": {
+       "n": 175,
+       "impl": 0.949,
+       "actual": 0.92,
+       "roi": -4.1
+      },
+      "new": {
+       "n": 90,
+       "impl": 0.948,
+       "actual": 0.811,
+       "roi": -15.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": ">30d",
+      "bin": "0.02-0.10",
+      "old": {
+       "n": 143,
+       "impl": 0.05,
+       "actual": 0.042,
+       "roi": -30.6
+      },
+      "new": {
+       "n": 121,
+       "impl": 0.049,
+       "actual": 0.05,
+       "roi": -16.9
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": ">30d",
+      "bin": "0.10-0.25",
+      "old": {
+       "n": 97,
+       "impl": 0.162,
+       "actual": 0.134,
+       "roi": -22.0
+      },
+      "new": {
+       "n": 77,
+       "impl": 0.157,
+       "actual": 0.286,
+       "roi": 70.5
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": ">30d",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 65,
+       "impl": 0.318,
+       "actual": 0.446,
+       "roi": 35.9
+      },
+      "new": {
+       "n": 43,
+       "impl": 0.34,
+       "actual": 0.349,
+       "roi": -1.1
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": ">30d",
+      "bin": "0.40-0.60",
+      "old": {
+       "n": 69,
+       "impl": 0.499,
+       "actual": 0.493,
+       "roi": -3.2
+      },
+      "new": {
+       "n": 42,
+       "impl": 0.5,
+       "actual": 0.5,
+       "roi": -2.2
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": ">30d",
+      "bin": "0.60-0.75",
+      "old": {
+       "n": 65,
+       "impl": 0.679,
+       "actual": 0.554,
+       "roi": -19.7
+      },
+      "new": {
+       "n": 43,
+       "impl": 0.66,
+       "actual": 0.651,
+       "roi": -3.1
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": ">30d",
+      "bin": "0.75-0.90",
+      "old": {
+       "n": 93,
+       "impl": 0.834,
+       "actual": 0.871,
+       "roi": 3.2
+      },
+      "new": {
+       "n": 76,
+       "impl": 0.843,
+       "actual": 0.724,
+       "roi": -15.2
+      },
+      "pass": false
+     },
+     {
+      "cat": "non-sports",
+      "ttr": ">30d",
+      "bin": "0.90-0.98",
+      "old": {
+       "n": 147,
+       "impl": 0.948,
+       "actual": 0.952,
+       "roi": -0.6
+      },
+      "new": {
+       "n": 122,
+       "impl": 0.95,
+       "actual": 0.943,
+       "roi": -1.9
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "1-7d",
+      "bin": "0.02-0.10",
+      "old": {
+       "n": 22,
+       "impl": 0.066,
+       "actual": 0.227,
+       "roi": 198.5
+      },
+      "new": {
+       "n": 25,
+       "impl": 0.054,
+       "actual": 0.12,
+       "roi": 83.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "1-7d",
+      "bin": "0.10-0.25",
+      "old": {
+       "n": 140,
+       "impl": 0.194,
+       "actual": 0.264,
+       "roi": 29.5
+      },
+      "new": {
+       "n": 198,
+       "impl": 0.186,
+       "actual": 0.237,
+       "roi": 19.5
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "1-7d",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 242,
+       "impl": 0.331,
+       "actual": 0.364,
+       "roi": 6.7
+      },
+      "new": {
+       "n": 449,
+       "impl": 0.337,
+       "actual": 0.385,
+       "roi": 10.0
+      },
+      "pass": true
+     },
+     {
+      "cat": "sports",
+      "ttr": "1-7d",
+      "bin": "0.40-0.60",
+      "old": {
+       "n": 609,
+       "impl": 0.499,
+       "actual": 0.498,
+       "roi": -2.2
+      },
+      "new": {
+       "n": 1019,
+       "impl": 0.499,
+       "actual": 0.499,
+       "roi": -3.1
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "1-7d",
+      "bin": "0.60-0.75",
+      "old": {
+       "n": 250,
+       "impl": 0.666,
+       "actual": 0.636,
+       "roi": -6.0
+      },
+      "new": {
+       "n": 458,
+       "impl": 0.661,
+       "actual": 0.616,
+       "roi": -8.7
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "1-7d",
+      "bin": "0.75-0.90",
+      "old": {
+       "n": 141,
+       "impl": 0.806,
+       "actual": 0.738,
+       "roi": -9.6
+      },
+      "new": {
+       "n": 201,
+       "impl": 0.812,
+       "actual": 0.756,
+       "roi": -8.3
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "1-7d",
+      "bin": "0.90-0.98",
+      "old": {
+       "n": 22,
+       "impl": 0.934,
+       "actual": 0.773,
+       "roi": -18.1
+      },
+      "new": {
+       "n": 26,
+       "impl": 0.944,
+       "actual": 0.885,
+       "roi": -7.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "7-30d",
+      "bin": "0.02-0.10",
+      "old": {
+       "n": 11,
+       "impl": 0.058,
+       "actual": 0.273,
+       "roi": 298.4
+      },
+      "new": {
+       "n": 17,
+       "impl": 0.06,
+       "actual": 0.176,
+       "roi": 148.0
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "7-30d",
+      "bin": "0.10-0.25",
+      "old": {
+       "n": 19,
+       "impl": 0.161,
+       "actual": 0.263,
+       "roi": 53.5
+      },
+      "new": {
+       "n": 41,
+       "impl": 0.181,
+       "actual": 0.317,
+       "roi": 63.0
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "7-30d",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 21,
+       "impl": 0.33,
+       "actual": 0.524,
+       "roi": 54.2
+      },
+      "new": {
+       "n": 63,
+       "impl": 0.325,
+       "actual": 0.365,
+       "roi": 7.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "7-30d",
+      "bin": "0.40-0.60",
+      "old": {
+       "n": 48,
+       "impl": 0.5,
+       "actual": 0.5,
+       "roi": -2.0
+      },
+      "new": {
+       "n": 160,
+       "impl": 0.499,
+       "actual": 0.5,
+       "roi": -3.1
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "7-30d",
+      "bin": "0.60-0.75",
+      "old": {
+       "n": 21,
+       "impl": 0.67,
+       "actual": 0.476,
+       "roi": -30.0
+      },
+      "new": {
+       "n": 65,
+       "impl": 0.673,
+       "actual": 0.631,
+       "roi": -8.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "7-30d",
+      "bin": "0.75-0.90",
+      "old": {
+       "n": 19,
+       "impl": 0.839,
+       "actual": 0.737,
+       "roi": -13.2
+      },
+      "new": {
+       "n": 41,
+       "impl": 0.819,
+       "actual": 0.683,
+       "roi": -17.9
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "7-30d",
+      "bin": "0.90-0.98",
+      "old": {
+       "n": 11,
+       "impl": 0.942,
+       "actual": 0.727,
+       "roi": -23.6
+      },
+      "new": {
+       "n": 17,
+       "impl": 0.94,
+       "actual": 0.824,
+       "roi": -13.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "<24h",
+      "bin": "0.02-0.10",
+      "old": {
+       "n": 38,
+       "impl": 0.066,
+       "actual": 0.079,
+       "roi": 4.3
+      },
+      "new": {
+       "n": 54,
+       "impl": 0.062,
+       "actual": 0.074,
+       "roi": 2.1
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "<24h",
+      "bin": "0.10-0.25",
+      "old": {
+       "n": 182,
+       "impl": 0.189,
+       "actual": 0.308,
+       "roi": 54.7
+      },
+      "new": {
+       "n": 224,
+       "impl": 0.183,
+       "actual": 0.228,
+       "roi": 16.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "<24h",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 314,
+       "impl": 0.328,
+       "actual": 0.366,
+       "roi": 8.5
+      },
+      "new": {
+       "n": 502,
+       "impl": 0.335,
+       "actual": 0.382,
+       "roi": 9.7
+      },
+      "pass": true
+     },
+     {
+      "cat": "sports",
+      "ttr": "<24h",
+      "bin": "0.40-0.60",
+      "old": {
+       "n": 644,
+       "impl": 0.499,
+       "actual": 0.498,
+       "roi": -2.1
+      },
+      "new": {
+       "n": 1146,
+       "impl": 0.5,
+       "actual": 0.5,
+       "roi": -3.0
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "<24h",
+      "bin": "0.60-0.75",
+      "old": {
+       "n": 314,
+       "impl": 0.669,
+       "actual": 0.634,
+       "roi": -6.7
+      },
+      "new": {
+       "n": 503,
+       "impl": 0.664,
+       "actual": 0.62,
+       "roi": -8.5
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "<24h",
+      "bin": "0.75-0.90",
+      "old": {
+       "n": 188,
+       "impl": 0.809,
+       "actual": 0.691,
+       "roi": -15.6
+      },
+      "new": {
+       "n": 227,
+       "impl": 0.816,
+       "actual": 0.762,
+       "roi": -8.0
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": "<24h",
+      "bin": "0.90-0.98",
+      "old": {
+       "n": 37,
+       "impl": 0.933,
+       "actual": 0.946,
+       "roi": 0.3
+      },
+      "new": {
+       "n": 54,
+       "impl": 0.938,
+       "actual": 0.926,
+       "roi": -2.5
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": ">30d",
+      "bin": "0.02-0.10",
+      "old": {
+       "n": 9,
+       "impl": 0.048,
+       "actual": 0.222,
+       "roi": 283.9
+      },
+      "new": {
+       "n": 14,
+       "impl": 0.066,
+       "actual": 0.143,
+       "roi": 84.4
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": ">30d",
+      "bin": "0.10-0.25",
+      "old": {
+       "n": 10,
+       "impl": 0.191,
+       "actual": 0.4,
+       "roi": 99.0
+      },
+      "new": {
+       "n": 29,
+       "impl": 0.186,
+       "actual": 0.276,
+       "roi": 38.6
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": ">30d",
+      "bin": "0.25-0.40",
+      "old": {
+       "n": 11,
+       "impl": 0.334,
+       "actual": 0.545,
+       "roi": 58.6
+      },
+      "new": {
+       "n": 50,
+       "impl": 0.317,
+       "actual": 0.34,
+       "roi": 2.1
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": ">30d",
+      "bin": "0.40-0.60",
+      "old": {
+       "n": 9,
+       "impl": 0.489,
+       "actual": 0.556,
+       "roi": 11.4
+      },
+      "new": {
+       "n": 70,
+       "impl": 0.5,
+       "actual": 0.5,
+       "roi": -3.7
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": ">30d",
+      "bin": "0.60-0.75",
+      "old": {
+       "n": 12,
+       "impl": 0.661,
+       "actual": 0.417,
+       "roi": -37.9
+      },
+      "new": {
+       "n": 48,
+       "impl": 0.68,
+       "actual": 0.646,
+       "roi": -7.3
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": ">30d",
+      "bin": "0.75-0.90",
+      "old": {
+       "n": 10,
+       "impl": 0.809,
+       "actual": 0.6,
+       "roi": -26.7
+      },
+      "new": {
+       "n": 31,
+       "impl": 0.81,
+       "actual": 0.742,
+       "roi": -9.9
+      },
+      "pass": false
+     },
+     {
+      "cat": "sports",
+      "ttr": ">30d",
+      "bin": "0.90-0.98",
+      "old": {
+       "n": 9,
+       "impl": 0.952,
+       "actual": 0.778,
+       "roi": -19.2
+      },
+      "new": {
+       "n": 14,
+       "impl": 0.934,
+       "actual": 0.857,
+       "roi": -9.3
+      },
+      "pass": false
+     }
+    ],
+    "fields": "n, impl=mean price, actual=win freq, roi% after costs",
+    "files": "sim_temporal/"
    }
   ],
-  "adopted": [],
+  "adopted": [
+   "TB1_PM_sports_ML_dog_0.25-0.40_<=7d (tag-only)"
+  ],
   "rejected": [
-   "SMA50_AND_EMA20>50"
+   "SMA50_AND_EMA20>50",
+   "TB_non-sports_all_cells (n<200 OOS or unstable)"
   ]
  },
  "timing": {
-  "updated": "2026-10-15 19:30 (Tbilisi)",
+  "updated": "2026-10-15 20:21 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
