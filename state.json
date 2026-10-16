@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 232.6682,
+ "cash_usd": 238.3907,
  "open_bets": [
   {
    "id": "B033",
@@ -387,28 +387,6 @@
    }
   },
   {
-   "id": "B064",
-   "sport": "NCAAF",
-   "league": "AAC (Week 8, Thursday)",
-   "event": "East Carolina Pirates @ UAB Blazers",
-   "kickoff": "2026-10-16 03:30",
-   "selection": "UAB Blazers (moneyline)",
-   "odds": 2.6,
-   "book": "ESPN/DraftKings",
-   "p": 0.42,
-   "implied_pct": 38.5,
-   "edge_pct": 3.5,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 2.6,
-    "best_now": 2.85,
-    "fair_now": 2.815,
-    "clv_pct": -7.62
-   }
-  },
-  {
    "id": "B066",
    "sport": "Polymarket",
    "league": "Polymarket",
@@ -629,43 +607,6 @@
     "book30": 1.909,
     "real_books_max_now": 1.746,
     "over_real_pct": 9.3,
-    "checked": "2026-10-15 09:16 (Tbilisi)",
-    "lesson": "L005"
-   }
-  },
-  {
-   "id": "B075",
-   "sport": "NCAAF",
-   "league": "Sun Belt (Thursday)",
-   "event": "Georgia Southern Eagles @ Old Dominion Monarchs",
-   "kickoff": "2026-10-16 03:30",
-   "selection": "Georgia Southern Eagles (moneyline)",
-   "odds": 1.769,
-   "book": "Action Network best (-130)",
-   "p": 0.619,
-   "implied_pct": 56.5,
-   "edge_pct": 9.5,
-   "stake": 2.5,
-   "reasoning": "ESPN FPI away 67.3% vs ბაზარი 56.5% @1.769. ნაზავი 61.9%, EV≈9.5%.",
-   "model_inputs": {
-    "market_novig": 0.565,
-    "ESPN FPI": 0.673,
-    "blend": "0.5×ბაზარი + 0.5×FPI"
-   },
-   "odds_source_url": "AN ncaaf + ESPN summary 401869950",
-   "odds_time": "2026-10-15 00:06 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 1.769,
-    "best_now": 1.568,
-    "fair_now": 1.622,
-    "clv_pct": 9.04
-   },
-   "odds_check": {
-    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
-    "book30": 1.769,
-    "real_books_max_now": 1.568,
-    "over_real_pct": 12.8,
     "checked": "2026-10-15 09:16 (Tbilisi)",
     "lesson": "L005"
    }
@@ -3634,6 +3575,81 @@
    "settled_at": "2026-10-16 05:28 (Tbilisi)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20261015",
    "pl_usd": -1.25
+  },
+  {
+   "id": "B064",
+   "sport": "NCAAF",
+   "league": "AAC (Week 8, Thursday)",
+   "event": "East Carolina Pirates @ UAB Blazers",
+   "kickoff": "2026-10-16 03:30",
+   "selection": "UAB Blazers (moneyline)",
+   "odds": 2.6,
+   "book": "ESPN/DraftKings",
+   "p": 0.42,
+   "implied_pct": 38.5,
+   "edge_pct": 3.5,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 2.6,
+    "best_now": 2.85,
+    "fair_now": 2.815,
+    "clv_pct": -7.62
+   },
+   "result": "won",
+   "pl_usd": 0.8,
+   "score": "UAB 30–17 East Carolina (FT)",
+   "final_score": "UAB 30–17 East Carolina",
+   "settled_at": "2026-10-16 07:21 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261015",
+   "settle_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261015",
+   "closing_odds": null
+  },
+  {
+   "id": "B075",
+   "sport": "NCAAF",
+   "league": "Sun Belt (Thursday)",
+   "event": "Georgia Southern Eagles @ Old Dominion Monarchs",
+   "kickoff": "2026-10-16 03:30",
+   "selection": "Georgia Southern Eagles (moneyline)",
+   "odds": 1.769,
+   "book": "Action Network best (-130)",
+   "p": 0.619,
+   "implied_pct": 56.5,
+   "edge_pct": 9.5,
+   "stake": 2.5,
+   "reasoning": "ESPN FPI away 67.3% vs ბაზარი 56.5% @1.769. ნაზავი 61.9%, EV≈9.5%.",
+   "model_inputs": {
+    "market_novig": 0.565,
+    "ESPN FPI": 0.673,
+    "blend": "0.5×ბაზარი + 0.5×FPI"
+   },
+   "odds_source_url": "AN ncaaf + ESPN summary 401869950",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 1.769,
+    "best_now": 1.568,
+    "fair_now": 1.622,
+    "clv_pct": 9.04
+   },
+   "odds_check": {
+    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
+    "book30": 1.769,
+    "real_books_max_now": 1.568,
+    "over_real_pct": 12.8,
+    "checked": "2026-10-15 09:16 (Tbilisi)",
+    "lesson": "L005"
+   },
+   "result": "won",
+   "pl_usd": 1.9225,
+   "score": "Georgia Southern 23–15 Old Dominion (FT)",
+   "final_score": "Georgia Southern 23–15 Old Dominion",
+   "settled_at": "2026-10-16 07:21 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261015",
+   "settle_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261015",
+   "closing_odds": null
   }
  ],
  "positions": [
@@ -3648,7 +3664,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82083.0
+   "last_price": 82068
   },
   {
    "symbol": "SPY",
@@ -13641,7 +13657,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 82083.0,
+  "BTC": 82068,
   "NEAR": 5.41,
   "AVAX": 10.04,
   "SPY": 771.79,
@@ -13710,20 +13726,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-16 06:24 (Tbilisi)",
-  "total_value": 488.98,
+  "time": "2026-10-16 07:22 (Tbilisi)",
+  "total_value": 491.7,
   "deposits_usd": 500,
-  "vs_deposits_usd": -11.02,
-  "vs_deposits_pct": -2.2,
-  "btc_bench": 498.12,
-  "vs_btc_usd": -9.14,
+  "vs_deposits_usd": -8.3,
+  "vs_deposits_pct": -1.66,
+  "btc_bench": 498.03,
+  "vs_btc_usd": -6.33,
   "bets": {
-   "n": 58,
-   "wins": 24,
+   "n": 60,
+   "wins": 26,
    "losses": 34,
-   "open": 68,
-   "pl_usd": -7.86,
-   "roi_pct": -15.1
+   "open": 66,
+   "pl_usd": -5.14,
+   "roi_pct": -9.4
   },
   "by_sport": {
    "NHL": {
@@ -13755,11 +13771,11 @@
     "roi_pct": -8.6
    },
    "NCAAF": {
-    "n": 3,
-    "wins": 1,
+    "n": 5,
+    "wins": 3,
     "losses": 2,
-    "pl_usd": -0.35,
-    "roi_pct": -23.3
+    "pl_usd": 2.37,
+    "roi_pct": 52.7
    },
    "NBA": {
     "n": 1,
@@ -13778,10 +13794,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.6,
-   "unrealized_usd": -0.4,
+   "value_usd": 14.59,
+   "unrealized_usd": -0.41,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.59
+   "total_pl_usd": -2.6
   },
   "stocks": {
    "open_n": 12,
@@ -13790,9 +13806,9 @@
    "realized_usd": -0.86,
    "total_pl_usd": -0.56
   },
-  "cash_usd": 232.6682,
+  "cash_usd": 238.3907,
   "scanned": 62131,
-  "open_bets_usd": 162.35,
+  "open_bets_usd": 159.35,
   "desk_stats": {
    "FOOTBALL": {
     "n": 38,
@@ -13809,11 +13825,11 @@
     "roi_pct": 136.0
    },
    "US SPORTS": {
-    "n": 14,
-    "wins": 6,
+    "n": 16,
+    "wins": 8,
     "losses": 8,
-    "pl_usd": -1.34,
-    "roi_pct": -10.6
+    "pl_usd": 1.38,
+    "roi_pct": 8.8
    },
    "TENNIS": {
     "n": 1,
@@ -13866,7 +13882,7 @@
    }
   }
  },
- "last_refresh": "2026-10-16 06:24 (Tbilisi)",
+ "last_refresh": "2026-10-16 07:22 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -15119,7 +15135,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-16 06:24 (Tbilisi)",
+  "updated": "2026-10-16 07:22 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -15846,6 +15862,28 @@
     "better": null
    },
    {
+    "id": "B064",
+    "sport": "NCAAF",
+    "event": "East Carolina Pirates @ UAB Blazers",
+    "open": null,
+    "taken": 2.6,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B075",
+    "sport": "NCAAF",
+    "event": "Georgia Southern Eagles @ Old Dominion Monarchs",
+    "open": null,
+    "taken": 1.769,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B033",
     "sport": "NCAAF",
     "event": "Memphis Tigers @ Tulane Green Wave",
@@ -15978,17 +16016,6 @@
     "better": null
    },
    {
-    "id": "B064",
-    "sport": "NCAAF",
-    "event": "East Carolina Pirates @ UAB Blazers",
-    "open": null,
-    "taken": 2.6,
-    "taken_time": "2026-10-14 19:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -16060,17 +16087,6 @@
     "event": "Houston Texans @ Jacksonville Jaguars",
     "open": null,
     "taken": 1.909,
-    "taken_time": "2026-10-15 00:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B075",
-    "sport": "NCAAF",
-    "event": "Georgia Southern Eagles @ Old Dominion Monarchs",
-    "open": null,
-    "taken": 1.769,
     "taken_time": "2026-10-15 00:06 (Tbilisi)",
     "close": null,
     "close_source": null,
