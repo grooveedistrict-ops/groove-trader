@@ -2026,38 +2026,6 @@
    "scan_id": "scan:295288"
   },
   {
-   "id": "B129",
-   "sport": "Polymarket",
-   "league": "soc_ger.2",
-   "event": "1. FC Nürnberg @ Energie Cottbus",
-   "kickoff": "2026-10-16 20:30",
-   "selection": "Energie Cottbus",
-   "odds": 4.0,
-   "book": "Polymarket ask",
-   "p": 0.2824,
-   "implied_pct": 25.0,
-   "edge_pct": 12.96,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-16 09:07 (Tbilisi)",
-   "odds_time": "2026-10-16 09:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.34,
-     "EloFD": 0.2886
-    },
-    "mkt": 0.2505,
-    "nbooks": 1,
-    "blend_p": 0.2824,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bl2-fce-fcn-2026-10-16-fce",
-   "reasoning": "scan PASS EV=12.96% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
-   "scan_id": "pm:bl2-fce-fcn-2026-10-16-fce",
-   "polymarket_slug": "bl2-fce-fcn-2026-10-16-fce",
-   "outcome_price": 0.25
-  },
-  {
    "id": "B130",
    "sport": "Polymarket",
    "league": "soc_fra.2",
@@ -3923,6 +3891,47 @@
    "result_source": "https://gamma-api.polymarket.com/markets?slug=bitcoin-above-82k-on-october-16-2026&closed=true",
    "resolution_source": "Polymarket gamma uma resolved + Binance.US BTCUSDT 1m kline 16:00 UTC",
    "closing_odds": null
+  },
+  {
+   "id": "B129",
+   "sport": "Polymarket",
+   "league": "soc_ger.2",
+   "event": "1. FC Nürnberg @ Energie Cottbus",
+   "kickoff": "2026-10-16 20:30",
+   "selection": "Energie Cottbus",
+   "odds": 4.0,
+   "book": "Polymarket ask",
+   "p": 0.2824,
+   "implied_pct": 25.0,
+   "edge_pct": 12.96,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-16 09:07 (Tbilisi)",
+   "odds_time": "2026-10-16 09:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.34,
+     "EloFD": 0.2886
+    },
+    "mkt": 0.2505,
+    "nbooks": 1,
+    "blend_p": 0.2824,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bl2-fce-fcn-2026-10-16-fce",
+   "reasoning": "scan PASS EV=12.96% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
+   "scan_id": "pm:bl2-fce-fcn-2026-10-16-fce",
+   "polymarket_slug": "bl2-fce-fcn-2026-10-16-fce",
+   "outcome_price": 0.25,
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-16 23:25 (Tbilisi)",
+   "score": "Energie Cottbus 1–1 1. FC Nürnberg (FT) — Polymarket proposed Cottbus=No (0.9995)",
+   "final_score": "Energie Cottbus 1–1 1. FC Nürnberg",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard?dates=20261016",
+   "settle_source": "ESPN Full Time 90+5; Polymarket gamma bl2-fce-fcn-2026-10-16-fce umaResolutionStatus=proposed, Yes 0.0005",
+   "closing_odds": null,
+   "clv_pct": null
   }
  ],
  "positions": [
@@ -3937,7 +3946,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81275
+   "last_price": 81351
   },
   {
    "symbol": "SPY",
@@ -3949,7 +3958,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 762.31
+   "last_price": 762.505
   },
   {
    "symbol": "AAPL",
@@ -3961,7 +3970,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 341.53,
+   "last_price": 342.605,
    "adds": [
     {
      "date": "2026-10-14",
@@ -3983,7 +3992,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 339.745,
+   "last_price": 340.185,
    "adds": [
     {
      "date": "2026-10-13",
@@ -4005,7 +4014,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 176.47,
+   "last_price": 176.485,
    "adds": [
     {
      "date": "2026-10-14",
@@ -4031,7 +4040,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 92.915
+   "last_price": 93.02
   },
   {
    "symbol": "MSFT",
@@ -4039,7 +4048,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 526.925,
+   "last_price": 526.044,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4048,7 +4057,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 402.23,
+   "last_price": 402.695,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4057,7 +4066,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 400.7,
+   "last_price": 400.43,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4070,7 +4079,7 @@
    "stop_loss": 1189.49,
    "take_profit": 1352.27,
    "thesis": "ორივე MA-ს ზემოთ (SMA20 1173.7 / SMA50 1179.1), დღეს +3.6% — ჯანდაცვის სიძლიერე",
-   "last_price": 1254.6,
+   "last_price": 1255.67,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4084,7 +4093,7 @@
    "stop_loss": 111.98,
    "take_profit": 127.3,
    "thesis": "ორივე MA-ს ზემოთ (108.9/108.8), დღეს +1.5% — დეფენსიური",
-   "last_price": 118.89,
+   "last_price": 118.5,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4098,7 +4107,7 @@
    "stop_loss": 234.36,
    "take_profit": 266.44,
    "thesis": "ორივე MA-ს ზემოთ (233.1/229.0), დღეს +4.5%",
-   "last_price": 240.17,
+   "last_price": 241.09,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4112,7 +4121,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 992.77,
+   "last_price": 990.515,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -4126,7 +4135,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 529.15,
+   "last_price": 529.39,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -4140,7 +4149,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 177.935,
+   "last_price": 178.39,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -4154,7 +4163,7 @@
    "stop_loss": 64.0,
    "take_profit": 72.76,
    "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 67.915,
+   "last_price": 68.05,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   }
@@ -16285,22 +16294,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 81275,
+  "BTC": 81351,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 762.31,
+  "SPY": 762.505,
   "META": 721.07,
-  "AAPL": 341.53,
+  "AAPL": 342.605,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
-  "GOOGL": 339.745,
+  "GOOGL": 340.185,
   "QQQ": 717.463,
-  "XLV": 176.47,
-  "MSFT": 526.925,
+  "XLV": 176.485,
+  "MSFT": 526.044,
   "PLTR": 188.823,
-  "V": 400.7,
-  "BRK-B": 529.15,
+  "V": 400.43,
+  "BRK-B": 529.39,
   "ETH": 2396.52,
   "SOL": 102.98,
   "AMD": 542.81,
@@ -16310,23 +16319,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 402.23,
-  "COST": 992.77,
-  "XOM": 177.935,
-  "CRM": 240.17,
-  "KO": 92.915,
+  "UNH": 402.695,
+  "COST": 990.515,
+  "XOM": 178.39,
+  "CRM": 241.09,
+  "KO": 93.02,
   "NFLX": 71.21499633789062,
-  "WMT": 118.89,
+  "WMT": 118.5,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1254.6,
+  "LLY": 1255.67,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 67.915,
+  "XLE": 68.05,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -16363,20 +16372,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-16 22:25 (Tbilisi)",
-  "total_value": 494.08,
+  "time": "2026-10-16 23:22 (Tbilisi)",
+  "total_value": 493.15,
   "deposits_usd": 500,
-  "vs_deposits_usd": -5.92,
-  "vs_deposits_pct": -1.18,
-  "btc_bench": 493.21,
-  "vs_btc_usd": 0.87,
+  "vs_deposits_usd": -6.85,
+  "vs_deposits_pct": -1.37,
+  "btc_bench": 493.68,
+  "vs_btc_usd": -0.53,
   "bets": {
-   "n": 63,
+   "n": 64,
    "wins": 28,
-   "losses": 35,
-   "open": 71,
-   "pl_usd": -1.8,
-   "roi_pct": -3.1
+   "losses": 36,
+   "open": 70,
+   "pl_usd": -2.8,
+   "roi_pct": -4.8
   },
   "by_sport": {
    "NHL": {
@@ -16422,30 +16431,30 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 6,
+    "n": 7,
     "wins": 2,
-    "losses": 4,
-    "pl_usd": -2.92,
-    "roi_pct": -45.8
+    "losses": 5,
+    "pl_usd": -3.92,
+    "roi_pct": -53.1
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.45,
-   "unrealized_usd": -0.55,
+   "value_usd": 14.47,
+   "unrealized_usd": -0.53,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.74
+   "total_pl_usd": -2.72
   },
   "stocks": {
    "open_n": 15,
-   "value_usd": 115.78,
-   "unrealized_usd": -0.22,
+   "value_usd": 115.83,
+   "unrealized_usd": -0.17,
    "realized_usd": -1.16,
-   "total_pl_usd": -1.38
+   "total_pl_usd": -1.33
   },
   "cash_usd": 199.2493,
   "scanned": 60752,
-  "open_bets_usd": 164.6,
+  "open_bets_usd": 163.6,
   "desk_stats": {
    "FOOTBALL": {
     "n": 39,
@@ -16490,11 +16499,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 6,
+    "n": 7,
     "wins": 2,
-    "losses": 4,
-    "pl_usd": -2.92,
-    "roi_pct": -45.8
+    "losses": 5,
+    "pl_usd": -3.92,
+    "roi_pct": -53.1
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -16519,7 +16528,7 @@
    }
   }
  },
- "last_refresh": "2026-10-16 22:25 (Tbilisi)",
+ "last_refresh": "2026-10-16 23:22 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -17772,7 +17781,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-16 22:25 (Tbilisi)",
+  "updated": "2026-10-16 23:22 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -18555,6 +18564,17 @@
     "better": null
    },
    {
+    "id": "B129",
+    "sport": "Polymarket",
+    "event": "1. FC Nürnberg @ Energie Cottbus",
+    "open": null,
+    "taken": 4.0,
+    "taken_time": "2026-10-16 09:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B033",
     "sport": "NCAAF",
     "event": "Memphis Tigers @ Tulane Green Wave",
@@ -19275,17 +19295,6 @@
     "event": "Charlotte Hornets @ Brooklyn Nets",
     "open": null,
     "taken": 1.847,
-    "taken_time": "2026-10-16 09:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B129",
-    "sport": "Polymarket",
-    "event": "1. FC Nürnberg @ Energie Cottbus",
-    "open": null,
-    "taken": 4.0,
     "taken_time": "2026-10-16 09:07 (Tbilisi)",
     "close": null,
     "close_source": null,
