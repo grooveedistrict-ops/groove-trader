@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 216.3907,
+ "cash_usd": 220.2907,
  "open_bets": [
   {
    "id": "B033",
@@ -2148,36 +2148,6 @@
    "outcome_price": 0.22
   },
   {
-   "id": "B132",
-   "sport": "Football",
-   "league": "soc_chn.1",
-   "event": "Tianjin Jinmen Tiger @ Henan",
-   "kickoff": "2026-10-16 15:35",
-   "selection": "Tianjin Jinmen Tiger",
-   "odds": 3.9,
-   "book": "ESPN-DK",
-   "p": 0.2848,
-   "implied_pct": 25.6,
-   "edge_pct": 11.08,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-16 09:07 (Tbilisi)",
-   "odds_time": "2026-10-16 09:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.33,
-     "EloFD": 0.3231
-    },
-    "mkt": 0.2431,
-    "nbooks": 1,
-    "blend_p": 0.2848,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
-   "reasoning": "scan PASS EV=11.08% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
-   "scan_id": "scan:espn401861477"
-  },
-  {
    "id": "B133",
    "sport": "Polymarket",
    "league": "soc_ita.2",
@@ -3874,6 +3844,47 @@
    "score": "SEA 14–17 DEN (Final/OT; ESPN STATUS_FINAL) — Polymarket resolved Seahawks=0 Broncos=1",
    "closing_odds": null,
    "resolution_source": "ESPN gameId + Polymarket gamma uma resolved"
+  },
+  {
+   "id": "B132",
+   "sport": "Football",
+   "league": "soc_chn.1",
+   "event": "Tianjin Jinmen Tiger @ Henan",
+   "kickoff": "2026-10-16 15:35",
+   "selection": "Tianjin Jinmen Tiger",
+   "odds": 3.9,
+   "book": "ESPN-DK",
+   "p": 0.2848,
+   "implied_pct": 25.6,
+   "edge_pct": 11.08,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-16 09:07 (Tbilisi)",
+   "odds_time": "2026-10-16 09:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.33,
+     "EloFD": 0.3231
+    },
+    "mkt": 0.2431,
+    "nbooks": 1,
+    "blend_p": 0.2848,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
+   "reasoning": "scan PASS EV=11.08% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
+   "scan_id": "scan:espn401861477",
+   "result": "won",
+   "pl_usd": 2.9,
+   "settled_at": "2026-10-16 18:20 (Tbilisi)",
+   "score": "Henan 0–1 Tianjin Jinmen Tiger (FT)",
+   "final_score": "Henan 0–1 Tianjin Jinmen Tiger",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/scoreboard?dates=20261016",
+   "settle_source": "ESPN STATUS_FULL_TIME event 401861477",
+   "closing_odds": 3.7,
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861477",
+   "clv_pct": -0.66,
+   "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +105/+230/+270; no-vig fair 3.926; hourly refresh 2026-10-16 18:20 (Tbilisi)"
   }
  ],
  "positions": [
@@ -3888,7 +3899,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81947.0
+   "last_price": 82255
   },
   {
    "symbol": "SPY",
@@ -3900,7 +3911,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 773.26
+   "last_price": 771.35
   },
   {
    "symbol": "META",
@@ -3912,7 +3923,7 @@
    "stop_loss": 665.62,
    "take_profit": 839.26,
    "thesis": "ძლიერი ტრენდია (30 დღეში +27%, MA-ებზე მაღლა). 60-დღიანი მაქ",
-   "last_price": 739.41
+   "last_price": 724.37
   },
   {
    "symbol": "AAPL",
@@ -3924,7 +3935,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 346.53,
+   "last_price": 345.13,
    "adds": [
     {
      "date": "2026-10-14",
@@ -3946,7 +3957,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 348.56,
+   "last_price": 345.965,
    "adds": [
     {
      "date": "2026-10-13",
@@ -3968,7 +3979,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 177.82,
+   "last_price": 177.29,
    "adds": [
     {
      "date": "2026-10-14",
@@ -3994,7 +4005,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 92.8
+   "last_price": 93.185
   },
   {
    "symbol": "MSFT",
@@ -4002,7 +4013,7 @@
    "qty": 0.01488081,
    "entry_price": 537.6051,
    "cost_usd": 8.0,
-   "last_price": 541.8,
+   "last_price": 537.65,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4011,7 +4022,7 @@
    "qty": 0.01222255,
    "entry_price": 409.08,
    "cost_usd": 5.0,
-   "last_price": 410.97,
+   "last_price": 397.795,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4020,7 +4031,7 @@
    "qty": 0.01263584,
    "entry_price": 395.7,
    "cost_usd": 5.0,
-   "last_price": 401.88,
+   "last_price": 403.27,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4033,7 +4044,7 @@
    "stop_loss": 1189.49,
    "take_profit": 1352.27,
    "thesis": "ორივე MA-ს ზემოთ (SMA20 1173.7 / SMA50 1179.1), დღეს +3.6% — ჯანდაცვის სიძლიერე",
-   "last_price": 1261.8107,
+   "last_price": 1263.77,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4047,7 +4058,7 @@
    "stop_loss": 111.98,
    "take_profit": 127.3,
    "thesis": "ორივე MA-ს ზემოთ (108.9/108.8), დღეს +1.5% — დეფენსიური",
-   "last_price": 118.53,
+   "last_price": 118.83,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4061,7 +4072,7 @@
    "stop_loss": 234.36,
    "take_profit": 266.44,
    "thesis": "ორივე MA-ს ზემოთ (233.1/229.0), დღეს +4.5%",
-   "last_price": 251.2,
+   "last_price": 242.52,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4075,7 +4086,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 980.6,
+   "last_price": 985.968,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -4089,7 +4100,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 527.99,
+   "last_price": 531.18,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -4103,7 +4114,7 @@
    "stop_loss": 190.47,
    "take_profit": 216.54,
    "thesis": "ორივე MA-ს ზემოთ (193/182), მოკლევადიანი იმპულსი",
-   "last_price": 201.63,
+   "last_price": 197.03,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   }
@@ -15147,22 +15158,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 81947.0,
+  "BTC": 82255,
   "NEAR": 5.19,
   "AVAX": 10.07,
-  "SPY": 773.26,
-  "META": 739.41,
-  "AAPL": 346.53,
+  "SPY": 771.35,
+  "META": 724.37,
+  "AAPL": 345.13,
   "NVDA": 217.23,
   "AMZN": 254.76,
   "TSLA": 362.44,
-  "GOOGL": 348.56,
+  "GOOGL": 345.965,
   "QQQ": 728.0,
-  "XLV": 177.82,
-  "MSFT": 541.8,
-  "PLTR": 201.63,
-  "V": 401.88,
-  "BRK-B": 527.99,
+  "XLV": 177.29,
+  "MSFT": 537.65,
+  "PLTR": 197.03,
+  "V": 403.27,
+  "BRK-B": 531.18,
   "ETH": 2440.83,
   "SOL": 105.68,
   "AMD": 562.23,
@@ -15172,16 +15183,16 @@
   "JPM": 335.53,
   "JNJ": 253.28,
   "BAC": 51.7,
-  "UNH": 410.97,
-  "COST": 980.6,
+  "UNH": 397.795,
+  "COST": 985.968,
   "XOM": 174.68,
-  "CRM": 251.2,
-  "KO": 92.8,
+  "CRM": 242.52,
+  "KO": 93.185,
   "NFLX": 72.61,
-  "WMT": 118.53,
+  "WMT": 118.83,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1261.8107,
+  "LLY": 1263.77,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
@@ -15218,20 +15229,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-16 17:28 (Tbilisi)",
-  "total_value": 491.78,
+  "time": "2026-10-16 18:22 (Tbilisi)",
+  "total_value": 494.1,
   "deposits_usd": 500,
-  "vs_deposits_usd": -8.22,
-  "vs_deposits_pct": -1.64,
-  "btc_bench": 497.29,
-  "vs_btc_usd": -5.52,
+  "vs_deposits_usd": -5.9,
+  "vs_deposits_pct": -1.18,
+  "btc_bench": 499.16,
+  "vs_btc_usd": -5.06,
   "bets": {
-   "n": 61,
-   "wins": 26,
+   "n": 62,
+   "wins": 27,
    "losses": 35,
-   "open": 72,
-   "pl_usd": -5.64,
-   "roi_pct": -10.2
+   "open": 71,
+   "pl_usd": -2.74,
+   "roi_pct": -4.9
   },
   "by_sport": {
    "NHL": {
@@ -15256,11 +15267,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 38,
-    "wins": 16,
+    "n": 39,
+    "wins": 17,
     "losses": 22,
-    "pl_usd": -2.84,
-    "roi_pct": -8.6
+    "pl_usd": 0.06,
+    "roi_pct": 0.2
    },
    "NCAAF": {
     "n": 5,
@@ -15286,28 +15297,28 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.57,
-   "unrealized_usd": -0.43,
+   "value_usd": 14.63,
+   "unrealized_usd": -0.37,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.62
+   "total_pl_usd": -2.56
   },
   "stocks": {
    "open_n": 15,
-   "value_usd": 94.96,
-   "unrealized_usd": 0.89,
+   "value_usd": 94.34,
+   "unrealized_usd": 0.27,
    "realized_usd": -0.86,
-   "total_pl_usd": 0.04
+   "total_pl_usd": -0.59
   },
-  "cash_usd": 216.3907,
+  "cash_usd": 220.2907,
   "scanned": 60683,
-  "open_bets_usd": 165.85,
+  "open_bets_usd": 164.85,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 38,
-    "wins": 16,
+    "n": 39,
+    "wins": 17,
     "losses": 22,
-    "pl_usd": -2.84,
-    "roi_pct": -8.6
+    "pl_usd": 0.06,
+    "roi_pct": 0.2
    },
    "BASKETBALL": {
     "n": 1,
@@ -15374,7 +15385,7 @@
    }
   }
  },
- "last_refresh": "2026-10-16 17:28 (Tbilisi)",
+ "last_refresh": "2026-10-16 18:22 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -16627,7 +16638,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-16 17:28 (Tbilisi)",
+  "updated": "2026-10-16 18:22 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -16658,13 +16669,13 @@
     "lean": null
    },
    "Football": {
-    "n": 9,
-    "early_better": 4,
+    "n": 10,
+    "early_better": 5,
     "late_better": 4,
     "equal": 1,
-    "avg_clv_pct": -1.24,
-    "no_close": 43,
-    "lean": null
+    "avg_clv_pct": -0.57,
+    "no_close": 42,
+    "lean": "early"
    },
    "NCAAF": {
     "n": 0,
@@ -17385,6 +17396,18 @@
     "close": null,
     "close_source": null,
     "better": null
+   },
+   {
+    "id": "B132",
+    "sport": "Football",
+    "event": "Tianjin Jinmen Tiger @ Henan",
+    "open": null,
+    "taken": 3.9,
+    "taken_time": "2026-10-16 09:07 (Tbilisi)",
+    "close": 3.7,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/scoreboard?dates=20261016",
+    "clv_pct": 5.41,
+    "better": "early"
    },
    {
     "id": "B033",
@@ -18151,17 +18174,6 @@
     "event": "Catanzaro @ Hellas Verona",
     "open": null,
     "taken": 4.545,
-    "taken_time": "2026-10-16 09:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B132",
-    "sport": "Football",
-    "event": "Tianjin Jinmen Tiger @ Henan",
-    "open": null,
-    "taken": 3.9,
     "taken_time": "2026-10-16 09:07 (Tbilisi)",
     "close": null,
     "close_source": null,
