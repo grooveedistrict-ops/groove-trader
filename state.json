@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 199.2493,
+ "cash_usd": 211.4091,
  "open_bets": [
   {
    "id": "B033",
@@ -1412,37 +1412,6 @@
    "outcome_price": 0.28
   },
   {
-   "id": "B108",
-   "sport": "Polymarket",
-   "league": "seriea",
-   "event": "Sassuolo @ Frosinone Calcio",
-   "kickoff": "2026-10-16 22:45",
-   "selection": "Frosinone Calcio",
-   "odds": 2.632,
-   "book": "Polymarket ask",
-   "p": 0.4029,
-   "implied_pct": 38.0,
-   "edge_pct": 6.03,
-   "stake": 4.62,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4479,
-     "DRatings": 0.393
-    },
-    "mkt": 0.3853,
-    "nbooks": 5,
-    "blend_p": 0.4029,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-fro-sas-2026-10-16-fro",
-   "reasoning": "scan PASS EV=6.03% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:sea-fro-sas-2026-10-16-fro",
-   "polymarket_slug": "sea-fro-sas-2026-10-16-fro",
-   "outcome_price": 0.38
-  },
-  {
    "id": "B109",
    "sport": "Football",
    "league": "mls",
@@ -1844,36 +1813,6 @@
    "tb1_dog_25_40": true
   },
   {
-   "id": "B123",
-   "sport": "Football",
-   "league": "soc_eng.2",
-   "event": "Wolverhampton Wanderers @ Burnley",
-   "kickoff": "2026-10-16 23:00",
-   "selection": "Burnley",
-   "odds": 2.9,
-   "book": "ESPN-DK",
-   "p": 0.3729,
-   "implied_pct": 34.5,
-   "edge_pct": 8.13,
-   "stake": 2.64,
-   "status": "open",
-   "opened_at": "2026-10-16 00:07 (Tbilisi)",
-   "odds_time": "2026-10-16 00:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4167
-    },
-    "mkt": 0.329,
-    "nbooks": 1,
-    "blend_p": 0.3729,
-    "elo_only": true
-   },
-   "odds_source_url": "scan/2026-10-15_2357 id=espn401880218",
-   "reasoning": "scan PASS EV=8.13% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
-   "scan_id": "espn401880218",
-   "elo_only": true
-  },
-  {
    "id": "B124",
    "sport": "Football",
    "league": "mls",
@@ -2024,38 +1963,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
    "reasoning": "scan PASS EV=15.49% models=['ESPN', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
    "scan_id": "scan:295288"
-  },
-  {
-   "id": "B131",
-   "sport": "Polymarket",
-   "league": "soc_ita.2",
-   "event": "Catanzaro @ Hellas Verona",
-   "kickoff": "2026-10-16 22:30",
-   "selection": "Catanzaro",
-   "odds": 4.545,
-   "book": "Polymarket ask",
-   "p": 0.2452,
-   "implied_pct": 22.0,
-   "edge_pct": 11.45,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-16 09:07 (Tbilisi)",
-   "odds_time": "2026-10-16 09:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.24,
-     "EloFD": 0.2791
-    },
-    "mkt": 0.231,
-    "nbooks": 1,
-    "blend_p": 0.2452,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=itsb-ver-cat-2026-10-16-cat",
-   "reasoning": "scan PASS EV=11.45% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
-   "scan_id": "pm:itsb-ver-cat-2026-10-16-cat",
-   "polymarket_slug": "itsb-ver-cat-2026-10-16-cat",
-   "outcome_price": 0.22
   },
   {
    "id": "B133",
@@ -3946,6 +3853,141 @@
    "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +185/+185/+180; no-vig fair 3.018; recorded PM 2026-10-17 00:13 (Tbilisi)",
    "opening_odds": 2.8,
    "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876726 (DraftKings open)"
+  },
+  {
+   "id": "B131",
+   "sport": "Polymarket",
+   "league": "soc_ita.2",
+   "event": "Catanzaro @ Hellas Verona",
+   "kickoff": "2026-10-16 22:30",
+   "selection": "Catanzaro",
+   "odds": 4.545,
+   "book": "Polymarket ask",
+   "p": 0.2452,
+   "implied_pct": 22.0,
+   "edge_pct": 11.45,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-16 09:07 (Tbilisi)",
+   "odds_time": "2026-10-16 09:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.24,
+     "EloFD": 0.2791
+    },
+    "mkt": 0.231,
+    "nbooks": 1,
+    "blend_p": 0.2452,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=itsb-ver-cat-2026-10-16-cat",
+   "reasoning": "scan PASS EV=11.45% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
+   "scan_id": "pm:itsb-ver-cat-2026-10-16-cat",
+   "polymarket_slug": "itsb-ver-cat-2026-10-16-cat",
+   "outcome_price": 0.22,
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-17 00:34 (Tbilisi)",
+   "score": "Hellas Verona 2–2 Catanzaro (FT)",
+   "final_score": "Hellas Verona 2–2 Catanzaro",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard?dates=20261016",
+   "settle_source": "ESPN STATUS_FULL_TIME event 401899595; Polymarket gamma itsb-ver-cat-2026-10-16-cat closed=False uma=proposed outcomePrices=[\"0.0005\", \"0.9995\"]",
+   "closing_odds": 4.5,
+   "closing_fair_odds": 4.744,
+   "clv_pct": -4.19,
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899595",
+   "closing_note": "DraftKings close (ESPN pickcenter) H/D/A -130/+275/+350; no-vig fair 4.744; recorded PM 2026-10-17 00:34 (Tbilisi)",
+   "opening_odds": 3.75,
+   "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899595 (DraftKings open)"
+  },
+  {
+   "id": "B108",
+   "sport": "Polymarket",
+   "league": "seriea",
+   "event": "Sassuolo @ Frosinone Calcio",
+   "kickoff": "2026-10-16 22:45",
+   "selection": "Frosinone Calcio",
+   "odds": 2.632,
+   "book": "Polymarket ask",
+   "p": 0.4029,
+   "implied_pct": 38.0,
+   "edge_pct": 6.03,
+   "stake": 4.62,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4479,
+     "DRatings": 0.393
+    },
+    "mkt": 0.3853,
+    "nbooks": 5,
+    "blend_p": 0.4029,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-fro-sas-2026-10-16-fro",
+   "reasoning": "scan PASS EV=6.03% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:sea-fro-sas-2026-10-16-fro",
+   "polymarket_slug": "sea-fro-sas-2026-10-16-fro",
+   "outcome_price": 0.38,
+   "result": "won",
+   "pl_usd": 7.54,
+   "settled_at": "2026-10-17 00:42 (Tbilisi)",
+   "score": "Frosinone 4–2 Sassuolo (FT)",
+   "final_score": "Frosinone 4–2 Sassuolo",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261016",
+   "settle_source": "ESPN STATUS_FULL_TIME event 401874959; Polymarket gamma sea-fro-sas-2026-10-16-fro closed=False uma=proposed outcomePrices=[\"0.9995\", \"0.0005\"]",
+   "closing_odds": 2.4,
+   "closing_fair_odds": 2.591,
+   "clv_pct": 1.58,
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874959",
+   "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +140/+250/+165; no-vig fair 2.591; recorded PM 2026-10-17 00:42 (Tbilisi)",
+   "opening_odds": 2.35,
+   "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874959 (DraftKings open)"
+  },
+  {
+   "id": "B123",
+   "sport": "Football",
+   "league": "soc_eng.2",
+   "event": "Wolverhampton Wanderers @ Burnley",
+   "kickoff": "2026-10-16 23:00",
+   "selection": "Burnley",
+   "odds": 2.9,
+   "book": "ESPN-DK",
+   "p": 0.3729,
+   "implied_pct": 34.5,
+   "edge_pct": 8.13,
+   "stake": 2.64,
+   "status": "settled",
+   "opened_at": "2026-10-16 00:07 (Tbilisi)",
+   "odds_time": "2026-10-16 00:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4167
+    },
+    "mkt": 0.329,
+    "nbooks": 1,
+    "blend_p": 0.3729,
+    "elo_only": true
+   },
+   "odds_source_url": "scan/2026-10-15_2357 id=espn401880218",
+   "reasoning": "scan PASS EV=8.13% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
+   "scan_id": "espn401880218",
+   "elo_only": true,
+   "result": "lost",
+   "pl_usd": -2.64,
+   "settled_at": "2026-10-17 01:24 (Tbilisi)",
+   "score": "Burnley 1–2 Wolverhampton Wanderers (FT)",
+   "final_score": "Burnley 1–2 Wolverhampton Wanderers",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261016",
+   "settle_source": "ESPN STATUS_FULL_TIME event 401880218",
+   "closing_odds": 2.9,
+   "closing_fair_odds": 3.024,
+   "clv_pct": -4.1,
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880218",
+   "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +190/+245/+145; no-vig fair 3.024; recorded PM 2026-10-17 01:24 (Tbilisi)",
+   "opening_odds": 2.9,
+   "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880218 (DraftKings open)"
   }
  ],
  "positions": [
@@ -3960,7 +4002,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81351
+   "last_price": 81674
   },
   {
    "symbol": "SPY",
@@ -3972,7 +4014,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 762.505
+   "last_price": 763.25
   },
   {
    "symbol": "AAPL",
@@ -3984,7 +4026,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 342.605,
+   "last_price": 343.46,
    "adds": [
     {
      "date": "2026-10-14",
@@ -4006,7 +4048,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 340.185,
+   "last_price": 340.59,
    "adds": [
     {
      "date": "2026-10-13",
@@ -4028,7 +4070,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 176.485,
+   "last_price": 176.71,
    "adds": [
     {
      "date": "2026-10-14",
@@ -4054,7 +4096,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 93.02
+   "last_price": 93.9
   },
   {
    "symbol": "MSFT",
@@ -4062,7 +4104,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 526.044,
+   "last_price": 529.05,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4071,7 +4113,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 402.695,
+   "last_price": 401.43,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4080,7 +4122,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 400.43,
+   "last_price": 402.61,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4093,7 +4135,7 @@
    "stop_loss": 1189.49,
    "take_profit": 1352.27,
    "thesis": "ორივე MA-ს ზემოთ (SMA20 1173.7 / SMA50 1179.1), დღეს +3.6% — ჯანდაცვის სიძლიერე",
-   "last_price": 1255.67,
+   "last_price": 1257.03,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4107,7 +4149,7 @@
    "stop_loss": 111.98,
    "take_profit": 127.3,
    "thesis": "ორივე MA-ს ზემოთ (108.9/108.8), დღეს +1.5% — დეფენსიური",
-   "last_price": 118.5,
+   "last_price": 118.81,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4121,7 +4163,7 @@
    "stop_loss": 234.36,
    "take_profit": 266.44,
    "thesis": "ორივე MA-ს ზემოთ (233.1/229.0), დღეს +4.5%",
-   "last_price": 241.09,
+   "last_price": 240.7,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4135,7 +4177,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 990.515,
+   "last_price": 989.11,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -4149,7 +4191,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 529.39,
+   "last_price": 532.02,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -4163,7 +4205,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 178.39,
+   "last_price": 178.98,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -4177,7 +4219,7 @@
    "stop_loss": 64.0,
    "take_profit": 72.76,
    "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 68.05,
+   "last_price": 68.24,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   }
@@ -16403,22 +16445,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 81351,
+  "BTC": 81674,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 762.505,
+  "SPY": 763.25,
   "META": 721.07,
-  "AAPL": 342.605,
+  "AAPL": 343.46,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
-  "GOOGL": 340.185,
+  "GOOGL": 340.59,
   "QQQ": 717.463,
-  "XLV": 176.485,
-  "MSFT": 526.044,
+  "XLV": 176.71,
+  "MSFT": 529.05,
   "PLTR": 188.823,
-  "V": 400.43,
-  "BRK-B": 529.39,
+  "V": 402.61,
+  "BRK-B": 532.02,
   "ETH": 2396.52,
   "SOL": 102.98,
   "AMD": 542.81,
@@ -16428,23 +16470,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 402.695,
-  "COST": 990.515,
-  "XOM": 178.39,
-  "CRM": 241.09,
-  "KO": 93.02,
+  "UNH": 401.43,
+  "COST": 989.11,
+  "XOM": 178.98,
+  "CRM": 240.7,
+  "KO": 93.9,
   "NFLX": 71.21499633789062,
-  "WMT": 118.5,
+  "WMT": 118.81,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1255.67,
+  "LLY": 1257.03,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 68.05,
+  "XLE": 68.24,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -16481,20 +16523,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-16 23:22 (Tbilisi)",
-  "total_value": 493.15,
+  "time": "2026-10-17 01:24 (Tbilisi)",
+  "total_value": 496.4,
   "deposits_usd": 500,
-  "vs_deposits_usd": -6.85,
-  "vs_deposits_pct": -1.37,
-  "btc_bench": 493.68,
-  "vs_btc_usd": -0.53,
+  "vs_deposits_usd": -3.6,
+  "vs_deposits_pct": -0.72,
+  "btc_bench": 495.64,
+  "vs_btc_usd": 0.77,
   "bets": {
-   "n": 64,
-   "wins": 28,
-   "losses": 36,
-   "open": 70,
-   "pl_usd": -2.8,
-   "roi_pct": -4.8
+   "n": 68,
+   "wins": 29,
+   "losses": 39,
+   "open": 66,
+   "pl_usd": 0.1,
+   "roi_pct": 0.2
   },
   "by_sport": {
    "NHL": {
@@ -16519,11 +16561,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 39,
+    "n": 40,
     "wins": 17,
-    "losses": 22,
-    "pl_usd": 0.06,
-    "roi_pct": 0.2
+    "losses": 23,
+    "pl_usd": -2.58,
+    "roi_pct": -7.0
    },
    "NCAAF": {
     "n": 5,
@@ -16540,37 +16582,37 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 7,
-    "wins": 2,
-    "losses": 5,
-    "pl_usd": -3.92,
-    "roi_pct": -53.1
+    "n": 10,
+    "wins": 3,
+    "losses": 7,
+    "pl_usd": 1.62,
+    "roi_pct": 11.6
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.47,
-   "unrealized_usd": -0.53,
+   "value_usd": 14.52,
+   "unrealized_usd": -0.48,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.72
+   "total_pl_usd": -2.67
   },
   "stocks": {
    "open_n": 15,
-   "value_usd": 115.83,
-   "unrealized_usd": -0.17,
+   "value_usd": 116.13,
+   "unrealized_usd": 0.13,
    "realized_usd": -1.16,
-   "total_pl_usd": -1.33
+   "total_pl_usd": -1.03
   },
-  "cash_usd": 199.2493,
-  "scanned": 60752,
-  "open_bets_usd": 163.6,
+  "cash_usd": 211.4091,
+  "scanned": null,
+  "open_bets_usd": 154.34,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 39,
+    "n": 40,
     "wins": 17,
-    "losses": 22,
-    "pl_usd": 0.06,
-    "roi_pct": 0.2
+    "losses": 23,
+    "pl_usd": -2.58,
+    "roi_pct": -7.0
    },
    "BASKETBALL": {
     "n": 1,
@@ -16608,11 +16650,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 7,
-    "wins": 2,
-    "losses": 5,
-    "pl_usd": -3.92,
-    "roi_pct": -53.1
+    "n": 10,
+    "wins": 3,
+    "losses": 7,
+    "pl_usd": 1.62,
+    "roi_pct": 11.6
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -16637,7 +16679,7 @@
    }
   }
  },
- "last_refresh": "2026-10-16 23:22 (Tbilisi)",
+ "last_refresh": "2026-10-17 01:24 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -17890,7 +17932,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-16 23:22 (Tbilisi)",
+  "updated": "2026-10-17 01:24 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -17921,12 +17963,12 @@
     "lean": null
    },
    "Football": {
-    "n": 10,
+    "n": 11,
     "early_better": 5,
     "late_better": 4,
-    "equal": 1,
-    "avg_clv_pct": -0.57,
-    "no_close": 42,
+    "equal": 2,
+    "avg_clv_pct": -0.52,
+    "no_close": 41,
     "lean": "early"
    },
    "NCAAF": {
@@ -17948,12 +17990,12 @@
     "lean": null
    },
    "Polymarket": {
-    "n": 2,
-    "early_better": 1,
+    "n": 5,
+    "early_better": 4,
     "late_better": 1,
     "equal": 0,
-    "avg_clv_pct": -3.77,
-    "no_close": 40,
+    "avg_clv_pct": 0.67,
+    "no_close": 37,
     "lean": null
    },
    "NFL": {
@@ -18684,6 +18726,54 @@
     "better": null
    },
    {
+    "id": "B130",
+    "sport": "Polymarket",
+    "event": "Boulogne @ Grenoble",
+    "open": 2.8,
+    "taken": 2.857,
+    "taken_time": "2026-10-16 09:07 (Tbilisi)",
+    "close": 2.85,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard?dates=20261016",
+    "clv_pct": 0.25,
+    "better": "early"
+   },
+   {
+    "id": "B131",
+    "sport": "Polymarket",
+    "event": "Catanzaro @ Hellas Verona",
+    "open": 3.75,
+    "taken": 4.545,
+    "taken_time": "2026-10-16 09:07 (Tbilisi)",
+    "close": 4.5,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/scoreboard?dates=20261016",
+    "clv_pct": 1.0,
+    "better": "early"
+   },
+   {
+    "id": "B108",
+    "sport": "Polymarket",
+    "event": "Sassuolo @ Frosinone Calcio",
+    "open": 2.35,
+    "taken": 2.632,
+    "taken_time": null,
+    "close": 2.4,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261016",
+    "clv_pct": 9.67,
+    "better": "early"
+   },
+   {
+    "id": "B123",
+    "sport": "Football",
+    "event": "Wolverhampton Wanderers @ Burnley",
+    "open": 2.9,
+    "taken": 2.9,
+    "taken_time": "2026-10-16 00:07 (Tbilisi)",
+    "close": 2.9,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261016",
+    "clv_pct": 0.0,
+    "better": "equal"
+   },
+   {
     "id": "B033",
     "sport": "NCAAF",
     "event": "Memphis Tigers @ Tulane Green Wave",
@@ -19190,17 +19280,6 @@
     "better": null
    },
    {
-    "id": "B108",
-    "sport": "Polymarket",
-    "event": "Sassuolo @ Frosinone Calcio",
-    "open": null,
-    "taken": 2.632,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B109",
     "sport": "Football",
     "event": "Real Salt Lake @ Sporting Kansas City",
@@ -19344,17 +19423,6 @@
     "better": null
    },
    {
-    "id": "B123",
-    "sport": "Football",
-    "event": "Wolverhampton Wanderers @ Burnley",
-    "open": null,
-    "taken": 2.9,
-    "taken_time": "2026-10-16 00:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B124",
     "sport": "Football",
     "event": "CF Montreal @ Seattle Sounders FC",
@@ -19404,28 +19472,6 @@
     "event": "Charlotte Hornets @ Brooklyn Nets",
     "open": null,
     "taken": 1.847,
-    "taken_time": "2026-10-16 09:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B130",
-    "sport": "Polymarket",
-    "event": "Boulogne @ Grenoble",
-    "open": null,
-    "taken": 2.857,
-    "taken_time": "2026-10-16 09:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B131",
-    "sport": "Polymarket",
-    "event": "Catanzaro @ Hellas Verona",
-    "open": null,
-    "taken": 4.545,
     "taken_time": "2026-10-16 09:07 (Tbilisi)",
     "close": null,
     "close_source": null,
