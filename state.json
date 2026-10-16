@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 197.0593,
+ "cash_usd": 199.2493,
  "open_bets": [
   {
    "id": "B033",
@@ -829,32 +829,6 @@
     "blend": "0.5×წიგნი + 0.5×DRatings"
    },
    "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=epl-ful-hul-2026-10-17-ful ; https://www.dratings.com/predictor/english-premier-league-predictions/",
-   "odds_time": "2026-10-15 09:16 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B087",
-   "sport": "Polymarket",
-   "league": "Crypto (BTC price)",
-   "event": "Will the price of Bitcoin be above $82,000 on October 16?",
-   "kickoff": "2026-10-16 20:00",
-   "selection": "No",
-   "odds": 1.754,
-   "book": "Polymarket gamma (No = 1−bid 0.43)",
-   "p": 0.5959,
-   "implied_pct": 57.0,
-   "edge_pct": 4.54,
-   "stake": 1.25,
-   "outcome_price": 0.57,
-   "polymarket_slug": "bitcoin-above-82k-on-october-16-2026",
-   "reasoning": "BTC $81,220 (CoinGecko), K=$82k, T≈1.45 დღე. ლოგნორმალური მოდელი: 30დ რეალიზებული vol 36.9% → P(No)=63.4%; Deribit DVOL 38.4% → 63.0%. Poly mid No 56% → ნაზავი 59.6%, EV≈4.5% <5% → ნახევარი. ჩვენს BTC ლონგს ნაწილობრივ ჰეჯავს. Paper only.",
-   "model_inputs": {
-    "market_mid_no": 0.56,
-    "lognormal_RV30": 0.6342,
-    "lognormal_DVOL": 0.6293,
-    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bitcoin-above-82k-on-october-16-2026 ; https://www.deribit.com/api/v2/public/get_volatility_index_data?currency=BTC ; https://api.coingecko.com/api/v3/simple/price?ids=bitcoin",
    "odds_time": "2026-10-15 09:16 (Tbilisi)",
    "status": "open"
   },
@@ -3915,6 +3889,40 @@
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861477",
    "clv_pct": -0.66,
    "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +105/+230/+270; no-vig fair 3.926; hourly refresh 2026-10-16 18:20 (Tbilisi)"
+  },
+  {
+   "id": "B087",
+   "sport": "Polymarket",
+   "league": "Crypto (BTC price)",
+   "event": "Will the price of Bitcoin be above $82,000 on October 16?",
+   "kickoff": "2026-10-16 20:00",
+   "selection": "No",
+   "odds": 1.754,
+   "book": "Polymarket gamma (No = 1−bid 0.43)",
+   "p": 0.5959,
+   "implied_pct": 57.0,
+   "edge_pct": 4.54,
+   "stake": 1.25,
+   "outcome_price": 0.57,
+   "polymarket_slug": "bitcoin-above-82k-on-october-16-2026",
+   "reasoning": "BTC $81,220 (CoinGecko), K=$82k, T≈1.45 დღე. ლოგნორმალური მოდელი: 30დ რეალიზებული vol 36.9% → P(No)=63.4%; Deribit DVOL 38.4% → 63.0%. Poly mid No 56% → ნაზავი 59.6%, EV≈4.5% <5% → ნახევარი. ჩვენს BTC ლონგს ნაწილობრივ ჰეჯავს. Paper only.",
+   "model_inputs": {
+    "market_mid_no": 0.56,
+    "lognormal_RV30": 0.6342,
+    "lognormal_DVOL": 0.6293,
+    "blend": "0.5×ბაზარი + 0.5×მოდელების საშუალო"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bitcoin-above-82k-on-october-16-2026 ; https://www.deribit.com/api/v2/public/get_volatility_index_data?currency=BTC ; https://api.coingecko.com/api/v3/simple/price?ids=bitcoin",
+   "odds_time": "2026-10-15 09:16 (Tbilisi)",
+   "status": "settled",
+   "result": "won",
+   "pl_usd": 0.94,
+   "settled_at": "2026-10-16 20:20 (Tbilisi)",
+   "score": "Polymarket resolved Yes=0 No=1 (UMA resolved, closed 2026-10-16 16:12 UTC); Binance BTC/USDT 1m close at 12:00 ET ≈ $81,323 < $82,000",
+   "final_score": "BTC ≈ $81,323 at 12:00 ET (< $82k) → No",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=bitcoin-above-82k-on-october-16-2026&closed=true",
+   "resolution_source": "Polymarket gamma uma resolved + Binance.US BTCUSDT 1m kline 16:00 UTC",
+   "closing_odds": null
   }
  ],
  "positions": [
@@ -3929,7 +3937,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81526
+   "last_price": 81525
   },
   {
    "symbol": "SPY",
@@ -3941,7 +3949,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 769.1
+   "last_price": 767.49
   },
   {
    "symbol": "AAPL",
@@ -3953,7 +3961,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 345.925,
+   "last_price": 344.75,
    "adds": [
     {
      "date": "2026-10-14",
@@ -3975,7 +3983,7 @@
    "take_profit": 407.69,
    "thesis": "როტაცია: ფასი MA20/MA50-ზე ($346.2) მაღლაა, 5 დღეში +2.3%, 3",
    "fill_note": "ბაზარი ღიაა — შესრულება მიმდინარე ფასით",
-   "last_price": 343.615,
+   "last_price": 343.75,
    "adds": [
     {
      "date": "2026-10-13",
@@ -3997,7 +4005,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 177.17,
+   "last_price": 176.79,
    "adds": [
     {
      "date": "2026-10-14",
@@ -4023,7 +4031,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 93.41
+   "last_price": 93.25
   },
   {
    "symbol": "MSFT",
@@ -4031,7 +4039,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 530.945,
+   "last_price": 529.12,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4040,7 +4048,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 399.625,
+   "last_price": 400.73,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4049,7 +4057,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 403.49,
+   "last_price": 402.46,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -4062,7 +4070,7 @@
    "stop_loss": 1189.49,
    "take_profit": 1352.27,
    "thesis": "ორივე MA-ს ზემოთ (SMA20 1173.7 / SMA50 1179.1), დღეს +3.6% — ჯანდაცვის სიძლიერე",
-   "last_price": 1265.09,
+   "last_price": 1260.79,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4076,7 +4084,7 @@
    "stop_loss": 111.98,
    "take_profit": 127.3,
    "thesis": "ორივე MA-ს ზემოთ (108.9/108.8), დღეს +1.5% — დეფენსიური",
-   "last_price": 118.68,
+   "last_price": 118.38,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4090,7 +4098,7 @@
    "stop_loss": 234.36,
    "take_profit": 266.44,
    "thesis": "ორივე MA-ს ზემოთ (233.1/229.0), დღეს +4.5%",
-   "last_price": 239.31,
+   "last_price": 239.81,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -4104,7 +4112,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 987.115,
+   "last_price": 989.41,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -4118,7 +4126,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 530.62,
+   "last_price": 529.7,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -4132,7 +4140,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 176.0,
+   "last_price": 176.764,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -4146,7 +4154,7 @@
    "stop_loss": 64.0,
    "take_profit": 72.76,
    "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 67.33,
+   "last_price": 67.575,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   }
@@ -16277,22 +16285,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 81526,
+  "BTC": 81525,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 769.1,
+  "SPY": 767.49,
   "META": 721.07,
-  "AAPL": 345.925,
+  "AAPL": 344.75,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
-  "GOOGL": 343.615,
+  "GOOGL": 343.75,
   "QQQ": 717.463,
-  "XLV": 177.17,
-  "MSFT": 530.945,
+  "XLV": 176.79,
+  "MSFT": 529.12,
   "PLTR": 188.823,
-  "V": 403.49,
-  "BRK-B": 530.62,
+  "V": 402.46,
+  "BRK-B": 529.7,
   "ETH": 2438.23,
   "SOL": 104.22,
   "AMD": 542.81,
@@ -16302,23 +16310,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 399.625,
-  "COST": 987.115,
-  "XOM": 176.0,
-  "CRM": 239.31,
-  "KO": 93.41,
+  "UNH": 400.73,
+  "COST": 989.41,
+  "XOM": 176.764,
+  "CRM": 239.81,
+  "KO": 93.25,
   "NFLX": 71.21499633789062,
-  "WMT": 118.68,
+  "WMT": 118.38,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1265.09,
+  "LLY": 1260.79,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 67.33,
+  "XLE": 67.575,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -16355,20 +16363,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-16 19:28 (Tbilisi)",
-  "total_value": 493.56,
+  "time": "2026-10-16 20:19 (Tbilisi)",
+  "total_value": 494.38,
   "deposits_usd": 500,
-  "vs_deposits_usd": -6.44,
-  "vs_deposits_pct": -1.29,
-  "btc_bench": 494.74,
-  "vs_btc_usd": -1.18,
+  "vs_deposits_usd": -5.62,
+  "vs_deposits_pct": -1.12,
+  "btc_bench": 494.73,
+  "vs_btc_usd": -0.35,
   "bets": {
-   "n": 62,
-   "wins": 27,
+   "n": 63,
+   "wins": 28,
    "losses": 35,
-   "open": 72,
-   "pl_usd": -2.74,
-   "roi_pct": -4.9
+   "open": 71,
+   "pl_usd": -1.8,
+   "roi_pct": -3.1
   },
   "by_sport": {
    "NHL": {
@@ -16414,11 +16422,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 5,
-    "wins": 1,
+    "n": 6,
+    "wins": 2,
     "losses": 4,
-    "pl_usd": -3.86,
-    "roi_pct": -75.2
+    "pl_usd": -2.92,
+    "roi_pct": -45.8
    }
   },
   "crypto": {
@@ -16430,14 +16438,14 @@
   },
   "stocks": {
    "open_n": 15,
-   "value_usd": 116.16,
-   "unrealized_usd": 0.16,
+   "value_usd": 116.03,
+   "unrealized_usd": 0.03,
    "realized_usd": -1.16,
-   "total_pl_usd": -1.0
+   "total_pl_usd": -1.12
   },
-  "cash_usd": 197.0593,
+  "cash_usd": 199.2493,
   "scanned": 60752,
-  "open_bets_usd": 165.85,
+  "open_bets_usd": 164.6,
   "desk_stats": {
    "FOOTBALL": {
     "n": 39,
@@ -16482,11 +16490,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 5,
-    "wins": 1,
+    "n": 6,
+    "wins": 2,
     "losses": 4,
-    "pl_usd": -3.86,
-    "roi_pct": -75.2
+    "pl_usd": -2.92,
+    "roi_pct": -45.8
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -16511,7 +16519,7 @@
    }
   }
  },
- "last_refresh": "2026-10-16 19:28 (Tbilisi)",
+ "last_refresh": "2026-10-16 20:19 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -17764,7 +17772,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-16 19:28 (Tbilisi)",
+  "updated": "2026-10-16 20:19 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -18536,6 +18544,17 @@
     "better": "early"
    },
    {
+    "id": "B087",
+    "sport": "Polymarket",
+    "event": "Will the price of Bitcoin be above $82,000 on October 16?",
+    "open": null,
+    "taken": 1.754,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B033",
     "sport": "NCAAF",
     "event": "Memphis Tigers @ Tulane Green Wave",
@@ -18827,17 +18846,6 @@
     "event": "Will Fulham FC win on 2026-10-17? (Hull City @ Fulham)",
     "open": null,
     "taken": 1.786,
-    "taken_time": "2026-10-15 09:16 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B087",
-    "sport": "Polymarket",
-    "event": "Will the price of Bitcoin be above $82,000 on October 16?",
-    "open": null,
-    "taken": 1.754,
     "taken_time": "2026-10-15 09:16 (Tbilisi)",
     "close": null,
     "close_source": null,
