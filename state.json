@@ -891,31 +891,6 @@
    "status": "open"
   },
   {
-   "id": "B085",
-   "sport": "Polymarket",
-   "league": "Liga Profesional Argentina",
-   "event": "Will CA Huracán win on 2026-10-15? (Huracán vs Gimnasia La Plata)",
-   "kickoff": "2026-10-16 03:00",
-   "selection": "Yes",
-   "odds": 2.703,
-   "book": "Polymarket gamma (ask 0.37)",
-   "p": 0.3928,
-   "implied_pct": 37.0,
-   "edge_pct": 6.16,
-   "stake": 1.25,
-   "outcome_price": 0.37,
-   "polymarket_slug": "arg-cah-gim-2026-10-15-cah",
-   "reasoning": "Polymarket ask 37¢ (DK საუკეთესო 2.60-ზე უკეთესი). DK no-vig 36.6% + FTS 42% → ნაზავი 39.3%, EV≈6.2%. ერთი მოდელი → ნახევარი. ახალი ლიგა (არგენტინა). Paper only.",
-   "model_inputs": {
-    "book_novig_DK": 0.3656,
-    "FullTimeStats": 0.42,
-    "blend": "0.5×წიგნი + 0.5×FTS"
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=arg-cah-gim-2026-10-15-cah ; https://fulltimestats.com/match/huracan-vs-gimnasia-la-plata-2026-10-18 ; ESPN arg.1 401841622",
-   "odds_time": "2026-10-15 09:16 (Tbilisi)",
-   "status": "open"
-  },
-  {
    "id": "B086",
    "sport": "Polymarket",
    "league": "EPL",
@@ -3628,6 +3603,37 @@
    "clv_pct": -12.23,
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915549",
    "closing_note": "DraftKings close (ESPN pickcenter) H/D/A -120/+285/+320; no-vig fair 4.382; hourly refresh 2026-10-16 01:25 (Tbilisi)"
+  },
+  {
+   "id": "B085",
+   "sport": "Polymarket",
+   "league": "Liga Profesional Argentina",
+   "event": "Will CA Huracán win on 2026-10-15? (Huracán vs Gimnasia La Plata)",
+   "kickoff": "2026-10-16 03:00",
+   "selection": "Yes",
+   "odds": 2.703,
+   "book": "Polymarket gamma (ask 0.37)",
+   "p": 0.3928,
+   "implied_pct": 37.0,
+   "edge_pct": 6.16,
+   "stake": 1.25,
+   "outcome_price": 0.37,
+   "polymarket_slug": "arg-cah-gim-2026-10-15-cah",
+   "reasoning": "Polymarket ask 37¢ (DK საუკეთესო 2.60-ზე უკეთესი). DK no-vig 36.6% + FTS 42% → ნაზავი 39.3%, EV≈6.2%. ერთი მოდელი → ნახევარი. ახალი ლიგა (არგენტინა). Paper only.",
+   "model_inputs": {
+    "book_novig_DK": 0.3656,
+    "FullTimeStats": 0.42,
+    "blend": "0.5×წიგნი + 0.5×FTS"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=arg-cah-gim-2026-10-15-cah ; https://fulltimestats.com/match/huracan-vs-gimnasia-la-plata-2026-10-18 ; ESPN arg.1 401841622",
+   "odds_time": "2026-10-15 09:16 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "score": "Huracán 1–2 Gimnasia La Plata (FT)",
+   "final_score": "Huracán 1–2 Gimnasia La Plata",
+   "settled_at": "2026-10-16 05:28 (Tbilisi)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20261015",
+   "pl_usd": -1.25
   }
  ],
  "positions": [
@@ -3642,7 +3648,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82211.0
+   "last_price": 82199.0
   },
   {
    "symbol": "SPY",
@@ -13635,7 +13641,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 82211.0,
+  "BTC": 82199.0,
   "NEAR": 5.41,
   "AVAX": 10.04,
   "SPY": 771.79,
@@ -13704,20 +13710,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-16 04:22 (Tbilisi)",
-  "total_value": 490.25,
+  "time": "2026-10-16 05:28 (Tbilisi)",
+  "total_value": 489.0,
   "deposits_usd": 500,
-  "vs_deposits_usd": -9.75,
-  "vs_deposits_pct": -1.95,
-  "btc_bench": 498.89,
-  "vs_btc_usd": -8.64,
+  "vs_deposits_usd": -11.0,
+  "vs_deposits_pct": -2.2,
+  "btc_bench": 498.82,
+  "vs_btc_usd": -9.82,
   "bets": {
-   "n": 57,
+   "n": 58,
    "wins": 24,
-   "losses": 33,
-   "open": 69,
-   "pl_usd": -6.61,
-   "roi_pct": -13.1
+   "losses": 34,
+   "open": 68,
+   "pl_usd": -7.86,
+   "roi_pct": -15.1
   },
   "by_sport": {
    "NHL": {
@@ -13763,11 +13769,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 3,
+    "n": 4,
     "wins": 1,
-    "losses": 2,
-    "pl_usd": -2.11,
-    "roi_pct": -62.4
+    "losses": 3,
+    "pl_usd": -3.36,
+    "roi_pct": -72.6
    }
   },
   "crypto": {
@@ -13786,7 +13792,7 @@
   },
   "cash_usd": 232.6682,
   "scanned": 62131,
-  "open_bets_usd": 163.6,
+  "open_bets_usd": 162.35,
   "desk_stats": {
    "FOOTBALL": {
     "n": 38,
@@ -13831,11 +13837,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 3,
+    "n": 4,
     "wins": 1,
-    "losses": 2,
-    "pl_usd": -2.11,
-    "roi_pct": -62.4
+    "losses": 3,
+    "pl_usd": -3.36,
+    "roi_pct": -72.6
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -13860,7 +13866,7 @@
    }
   }
  },
- "last_refresh": "2026-10-16 04:22 (Tbilisi)",
+ "last_refresh": "2026-10-16 05:28 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -15113,7 +15119,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-16 04:22 (Tbilisi)",
+  "updated": "2026-10-16 05:28 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -15829,6 +15835,17 @@
     "better": "late"
    },
    {
+    "id": "B085",
+    "sport": "Polymarket",
+    "event": "Will CA Huracán win on 2026-10-15? (Huracán vs Gimnasia La Plata)",
+    "open": null,
+    "taken": 2.703,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B033",
     "sport": "NCAAF",
     "event": "Memphis Tigers @ Tulane Green Wave",
@@ -16142,17 +16159,6 @@
     "event": "Rayo Vallecano @ Getafe",
     "open": null,
     "taken": 2.7,
-    "taken_time": "2026-10-15 09:16 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B085",
-    "sport": "Polymarket",
-    "event": "Will CA Huracán win on 2026-10-15? (Huracán vs Gimnasia La Plata)",
-    "open": null,
-    "taken": 2.703,
     "taken_time": "2026-10-15 09:16 (Tbilisi)",
     "close": null,
     "close_source": null,
