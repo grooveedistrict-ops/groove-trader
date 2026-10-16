@@ -411,30 +411,6 @@
    }
   },
   {
-   "id": "B067",
-   "sport": "Polymarket",
-   "league": "Polymarket",
-   "event": "NFL: Seahawks vs Broncos",
-   "kickoff": "2026-10-16 04:15",
-   "selection": "Seahawks",
-   "odds": 1.77,
-   "book": "Polymarket",
-   "p": 0.595,
-   "implied_pct": 56.5,
-   "edge_pct": 3.0,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open",
-   "polymarket_slug": "nfl-sea-den-2026-10-16",
-   "outcome_price": 0.565,
-   "odds_mark": 1.77,
-   "clv_mark_am1015": {
-    "price_now": 0.565,
-    "price_bet": 0.565,
-    "slug": "nfl-sea-den-2026-10-16"
-   }
-  },
-  {
    "id": "B070",
    "sport": "NFL",
    "league": "NFL Week 7",
@@ -3650,6 +3626,36 @@
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261015",
    "settle_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261015",
    "closing_odds": null
+  },
+  {
+   "id": "B067",
+   "sport": "Polymarket",
+   "league": "Polymarket",
+   "event": "NFL: Seahawks vs Broncos",
+   "kickoff": "2026-10-16 04:15",
+   "selection": "Seahawks",
+   "odds": 1.77,
+   "book": "Polymarket",
+   "p": 0.595,
+   "implied_pct": 56.5,
+   "edge_pct": 3.0,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "polymarket_slug": "nfl-sea-den-2026-10-16",
+   "outcome_price": 0.565,
+   "odds_mark": 1.77,
+   "clv_mark_am1015": {
+    "price_now": 0.565,
+    "price_bet": 0.565,
+    "slug": "nfl-sea-den-2026-10-16"
+   },
+   "result": "lost",
+   "pl_usd": -0.5,
+   "settled_at": "2026-10-16 08:22 (Tbilisi)",
+   "score": "SEA 14–17 DEN (Final/OT; ESPN STATUS_FINAL) — Polymarket resolved Seahawks=0 Broncos=1",
+   "closing_odds": null,
+   "resolution_source": "ESPN gameId + Polymarket gamma uma resolved"
   }
  ],
  "positions": [
@@ -3664,7 +3670,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82068
+   "last_price": 81967.0
   },
   {
    "symbol": "SPY",
@@ -13657,7 +13663,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 82068,
+  "BTC": 81967.0,
   "NEAR": 5.41,
   "AVAX": 10.04,
   "SPY": 771.79,
@@ -13726,20 +13732,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-16 07:22 (Tbilisi)",
-  "total_value": 491.7,
+  "time": "2026-10-16 08:22 (Tbilisi)",
+  "total_value": 491.18,
   "deposits_usd": 500,
-  "vs_deposits_usd": -8.3,
-  "vs_deposits_pct": -1.66,
-  "btc_bench": 498.03,
-  "vs_btc_usd": -6.33,
+  "vs_deposits_usd": -8.82,
+  "vs_deposits_pct": -1.76,
+  "btc_bench": 497.41,
+  "vs_btc_usd": -6.23,
   "bets": {
-   "n": 60,
+   "n": 61,
    "wins": 26,
-   "losses": 34,
-   "open": 66,
-   "pl_usd": -5.14,
-   "roi_pct": -9.4
+   "losses": 35,
+   "open": 65,
+   "pl_usd": -5.64,
+   "roi_pct": -10.2
   },
   "by_sport": {
    "NHL": {
@@ -13785,19 +13791,19 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 4,
+    "n": 5,
     "wins": 1,
-    "losses": 3,
-    "pl_usd": -3.36,
-    "roi_pct": -72.6
+    "losses": 4,
+    "pl_usd": -3.86,
+    "roi_pct": -75.2
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.59,
-   "unrealized_usd": -0.41,
+   "value_usd": 14.58,
+   "unrealized_usd": -0.42,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.6
+   "total_pl_usd": -2.61
   },
   "stocks": {
    "open_n": 12,
@@ -13808,7 +13814,7 @@
   },
   "cash_usd": 238.3907,
   "scanned": 62131,
-  "open_bets_usd": 159.35,
+  "open_bets_usd": 158.85,
   "desk_stats": {
    "FOOTBALL": {
     "n": 38,
@@ -13853,11 +13859,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 4,
+    "n": 5,
     "wins": 1,
-    "losses": 3,
-    "pl_usd": -3.36,
-    "roi_pct": -72.6
+    "losses": 4,
+    "pl_usd": -3.86,
+    "roi_pct": -75.2
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -13882,7 +13888,7 @@
    }
   }
  },
- "last_refresh": "2026-10-16 07:22 (Tbilisi)",
+ "last_refresh": "2026-10-16 08:22 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -15135,7 +15141,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-16 07:22 (Tbilisi)",
+  "updated": "2026-10-16 08:22 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -15884,6 +15890,17 @@
     "better": null
    },
    {
+    "id": "B067",
+    "sport": "Polymarket",
+    "event": "NFL: Seahawks vs Broncos",
+    "open": null,
+    "taken": 1.77,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B033",
     "sport": "NCAAF",
     "event": "Memphis Tigers @ Tulane Green Wave",
@@ -16021,17 +16038,6 @@
     "event": "Fed Oct 2026: no change in interest rates",
     "open": null,
     "taken": 1.626,
-    "taken_time": "2026-10-14 19:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B067",
-    "sport": "Polymarket",
-    "event": "NFL: Seahawks vs Broncos",
-    "open": null,
-    "taken": 1.77,
     "taken_time": "2026-10-14 19:01 (Tbilisi)",
     "close": null,
     "close_source": null,
