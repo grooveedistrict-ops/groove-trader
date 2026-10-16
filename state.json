@@ -3888,7 +3888,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82117
+   "last_price": 81942
   },
   {
    "symbol": "SPY",
@@ -15147,7 +15147,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 82117,
+  "BTC": 81942,
   "NEAR": 5.19,
   "AVAX": 10.07,
   "SPY": 771.79,
@@ -15218,13 +15218,13 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-16 13:21 (Tbilisi)",
-  "total_value": 491.21,
+  "time": "2026-10-16 14:22 (Tbilisi)",
+  "total_value": 491.17,
   "deposits_usd": 500,
-  "vs_deposits_usd": -8.79,
-  "vs_deposits_pct": -1.76,
-  "btc_bench": 498.32,
-  "vs_btc_usd": -7.12,
+  "vs_deposits_usd": -8.83,
+  "vs_deposits_pct": -1.77,
+  "btc_bench": 497.26,
+  "vs_btc_usd": -6.09,
   "bets": {
    "n": 61,
    "wins": 26,
@@ -15286,10 +15286,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.6,
-   "unrealized_usd": -0.4,
+   "value_usd": 14.57,
+   "unrealized_usd": -0.43,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.59
+   "total_pl_usd": -2.62
   },
   "stocks": {
    "open_n": 15,
@@ -15374,7 +15374,7 @@
    }
   }
  },
- "last_refresh": "2026-10-16 13:21 (Tbilisi)",
+ "last_refresh": "2026-10-16 14:22 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -16627,7 +16627,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-16 13:21 (Tbilisi)",
+  "updated": "2026-10-16 14:22 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
