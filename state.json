@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 217.4791,
+ "cash_usd": 238.7921,
  "open_bets": [
   {
    "id": "B043",
@@ -991,35 +991,6 @@
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
-  },
-  {
-   "id": "B094",
-   "sport": "Football",
-   "league": "soc_eng.2",
-   "event": "Bolton Wanderers @ Southampton",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "Draw (Bolton Wanderers @ Southampton)",
-   "odds": 4.9,
-   "book": "ESPN-DK",
-   "p": 0.2256,
-   "implied_pct": 20.4,
-   "edge_pct": 10.54,
-   "stake": 3.37,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2527,
-     "DRatings": 0.261
-    },
-    "mkt": 0.1943,
-    "nbooks": 1,
-    "blend_p": 0.2256,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_1853 id=espn401880213",
-   "reasoning": "scan PASS EV=10.54% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "espn401880213"
   },
   {
    "id": "B095",
@@ -2125,36 +2096,6 @@
    "scan_id": "scan:289565"
   },
   {
-   "id": "B136",
-   "sport": "Football",
-   "league": "soc_sco.1",
-   "event": "Dundee United @ St Johnstone",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "St Johnstone",
-   "odds": 2.65,
-   "book": "ESPN-DK",
-   "p": 0.4183,
-   "implied_pct": 37.7,
-   "edge_pct": 10.84,
-   "stake": 1.32,
-   "status": "open",
-   "opened_at": "2026-10-17 09:01 (Tbilisi)",
-   "odds_time": "2026-10-17 09:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.46,
-     "EloFD": 0.5004
-    },
-    "mkt": 0.3563,
-    "nbooks": 1,
-    "blend_p": 0.4183,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/summary?event=401878363",
-   "reasoning": "scan PASS EV=10.84% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
-   "scan_id": "espn401878363"
-  },
-  {
    "id": "B137",
    "sport": "NFL",
    "league": "nfl",
@@ -2183,36 +2124,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
    "reasoning": "scan PASS EV=6.9% models=['ESPN', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
    "scan_id": "290919"
-  },
-  {
-   "id": "B138",
-   "sport": "Football",
-   "league": "soc_eng.3",
-   "event": "Huddersfield Town @ Plymouth Argyle",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "Plymouth Argyle",
-   "odds": 2.55,
-   "book": "ESPN-DK",
-   "p": 0.4168,
-   "implied_pct": 39.2,
-   "edge_pct": 6.29,
-   "stake": 1.32,
-   "status": "open",
-   "opened_at": "2026-10-17 09:01 (Tbilisi)",
-   "odds_time": "2026-10-17 09:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.44,
-     "EloFD": 0.4863
-    },
-    "mkt": 0.3705,
-    "nbooks": 1,
-    "blend_p": 0.4168,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880795",
-   "reasoning": "scan PASS EV=6.29% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
-   "scan_id": "espn401880795"
   },
   {
    "id": "B139",
@@ -2274,66 +2185,6 @@
    "scan_id": "295294"
   },
   {
-   "id": "B141",
-   "sport": "Football",
-   "league": "soc_sco.1",
-   "event": "Falkirk @ Hibernian",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "Falkirk",
-   "odds": 4.8,
-   "book": "ESPN-DK",
-   "p": 0.2248,
-   "implied_pct": 20.8,
-   "edge_pct": 7.88,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-17 09:01 (Tbilisi)",
-   "odds_time": "2026-10-17 09:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.26,
-     "EloFD": 0.2453
-    },
-    "mkt": 0.1969,
-    "nbooks": 1,
-    "blend_p": 0.2248,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/summary?event=401878365",
-   "reasoning": "scan PASS EV=7.88% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
-   "scan_id": "espn401878365"
-  },
-  {
-   "id": "B142",
-   "sport": "Football",
-   "league": "soc_eng.3",
-   "event": "AFC Wimbledon @ Sheffield Wednesday",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "Draw (AFC Wimbledon @ Sheffield Wednesday)",
-   "odds": 4.2,
-   "book": "ESPN-DK",
-   "p": 0.2556,
-   "implied_pct": 23.8,
-   "edge_pct": 7.36,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-17 09:01 (Tbilisi)",
-   "odds_time": "2026-10-17 09:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.28,
-     "EloFD": 0.2893
-    },
-    "mkt": 0.2266,
-    "nbooks": 1,
-    "blend_p": 0.2556,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880794",
-   "reasoning": "scan PASS EV=7.36% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
-   "scan_id": "espn401880794"
-  },
-  {
    "id": "B145",
    "sport": "Football",
    "league": "soc_arg.1",
@@ -2362,35 +2213,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/summary?event=401841615",
    "reasoning": "scan PASS EV=6.24% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
    "scan_id": "espn401841615"
-  },
-  {
-   "id": "B146",
-   "sport": "Football",
-   "league": "soc_ned.2",
-   "event": "Almere City @ FC Emmen",
-   "kickoff": "2026-10-17 18:30",
-   "selection": "Almere City",
-   "odds": 2.95,
-   "book": "ESPN-DK",
-   "p": 0.3588,
-   "implied_pct": 33.9,
-   "edge_pct": 5.84,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-17 09:01 (Tbilisi)",
-   "odds_time": "2026-10-17 09:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.4
-    },
-    "mkt": 0.3175,
-    "nbooks": 1,
-    "blend_p": 0.3588,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/summary?event=401875890",
-   "reasoning": "scan PASS EV=5.84% models=['FTS'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
-   "scan_id": "espn401875890"
   },
   {
    "id": "B147",
@@ -4796,6 +4618,256 @@
    "clv_pct": 0.58,
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '+320', 'away': '-120', 'draw': '+255'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899597"
+  },
+  {
+   "id": "B094",
+   "sport": "Football",
+   "league": "soc_eng.2",
+   "event": "Bolton Wanderers @ Southampton",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Draw (Bolton Wanderers @ Southampton)",
+   "odds": 4.9,
+   "book": "ESPN-DK",
+   "p": 0.2256,
+   "implied_pct": 20.4,
+   "edge_pct": 10.54,
+   "stake": 3.37,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2527,
+     "DRatings": 0.261
+    },
+    "mkt": 0.1943,
+    "nbooks": 1,
+    "blend_p": 0.2256,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_1853 id=espn401880213",
+   "reasoning": "scan PASS EV=10.54% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "espn401880213",
+   "result": "won",
+   "pl_usd": 13.14,
+   "settled_at": "2026-10-17 20:26 (Tbilisi)",
+   "score": "Southampton 0, Bolton Wanderers 0 (FT)",
+   "final_score": "Southampton 0, Bolton Wanderers 0",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261017 (event 401880213)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_odds": 5.0,
+   "closing_fair_odds": 5.254,
+   "clv_pct": -6.74,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-230', 'away': '+550', 'draw': '+400'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880213"
+  },
+  {
+   "id": "B136",
+   "sport": "Football",
+   "league": "soc_sco.1",
+   "event": "Dundee United @ St Johnstone",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "St Johnstone",
+   "odds": 2.65,
+   "book": "ESPN-DK",
+   "p": 0.4183,
+   "implied_pct": 37.7,
+   "edge_pct": 10.84,
+   "stake": 1.32,
+   "status": "settled",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.46,
+     "EloFD": 0.5004
+    },
+    "mkt": 0.3563,
+    "nbooks": 1,
+    "blend_p": 0.4183,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/summary?event=401878363",
+   "reasoning": "scan PASS EV=10.84% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401878363",
+   "result": "lost",
+   "pl_usd": -1.32,
+   "settled_at": "2026-10-17 20:26 (Tbilisi)",
+   "score": "St Johnstone 1, Dundee United 1 (FT)",
+   "final_score": "St Johnstone 1, Dundee United 1",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20261017 (event 401878363)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_odds": 2.85,
+   "closing_fair_odds": 3.0271,
+   "clv_pct": -12.46,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+185', 'away': '+135', 'draw': '+250'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/summary?event=401878363"
+  },
+  {
+   "id": "B138",
+   "sport": "Football",
+   "league": "soc_eng.3",
+   "event": "Huddersfield Town @ Plymouth Argyle",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Plymouth Argyle",
+   "odds": 2.55,
+   "book": "ESPN-DK",
+   "p": 0.4168,
+   "implied_pct": 39.2,
+   "edge_pct": 6.29,
+   "stake": 1.32,
+   "status": "settled",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.44,
+     "EloFD": 0.4863
+    },
+    "mkt": 0.3705,
+    "nbooks": 1,
+    "blend_p": 0.4168,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880795",
+   "reasoning": "scan PASS EV=6.29% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401880795",
+   "result": "lost",
+   "pl_usd": -1.32,
+   "settled_at": "2026-10-17 20:26 (Tbilisi)",
+   "score": "Plymouth Argyle 0, Huddersfield Town 2 (FT)",
+   "final_score": "Plymouth Argyle 0, Huddersfield Town 2",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard?dates=20261017 (event 401880795)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_odds": 2.3,
+   "closing_fair_odds": 2.4232,
+   "clv_pct": 5.23,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+130', 'away': '+190', 'draw': '+265'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880795"
+  },
+  {
+   "id": "B141",
+   "sport": "Football",
+   "league": "soc_sco.1",
+   "event": "Falkirk @ Hibernian",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Falkirk",
+   "odds": 4.8,
+   "book": "ESPN-DK",
+   "p": 0.2248,
+   "implied_pct": 20.8,
+   "edge_pct": 7.88,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.26,
+     "EloFD": 0.2453
+    },
+    "mkt": 0.1969,
+    "nbooks": 1,
+    "blend_p": 0.2248,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/summary?event=401878365",
+   "reasoning": "scan PASS EV=7.88% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401878365",
+   "result": "won",
+   "pl_usd": 3.8,
+   "settled_at": "2026-10-17 20:26 (Tbilisi)",
+   "score": "Hibernian 1, Falkirk 2 (FT)",
+   "final_score": "Hibernian 1, Falkirk 2",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20261017 (event 401878365)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_odds": 4.6,
+   "closing_fair_odds": 4.8628,
+   "clv_pct": -1.29,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-140', 'away': '+360', 'draw': '+290'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/summary?event=401878365"
+  },
+  {
+   "id": "B142",
+   "sport": "Football",
+   "league": "soc_eng.3",
+   "event": "AFC Wimbledon @ Sheffield Wednesday",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Draw (AFC Wimbledon @ Sheffield Wednesday)",
+   "odds": 4.2,
+   "book": "ESPN-DK",
+   "p": 0.2556,
+   "implied_pct": 23.8,
+   "edge_pct": 7.36,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.28,
+     "EloFD": 0.2893
+    },
+    "mkt": 0.2266,
+    "nbooks": 1,
+    "blend_p": 0.2556,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880794",
+   "reasoning": "scan PASS EV=7.36% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401880794",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-17 20:26 (Tbilisi)",
+   "score": "Sheffield Wednesday 5, AFC Wimbledon 0 (FT)",
+   "final_score": "Sheffield Wednesday 5, AFC Wimbledon 0",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard?dates=20261017 (event 401880794)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_odds": 4.2,
+   "closing_fair_odds": 4.455,
+   "clv_pct": -5.72,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-165', 'away': '+400', 'draw': '+320'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880794"
+  },
+  {
+   "id": "B146",
+   "sport": "Football",
+   "league": "soc_ned.2",
+   "event": "Almere City @ FC Emmen",
+   "kickoff": "2026-10-17 18:30",
+   "selection": "Almere City",
+   "odds": 2.95,
+   "book": "ESPN-DK",
+   "p": 0.3588,
+   "implied_pct": 33.9,
+   "edge_pct": 5.84,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.4
+    },
+    "mkt": 0.3175,
+    "nbooks": 1,
+    "blend_p": 0.3588,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/summary?event=401875890",
+   "reasoning": "scan PASS EV=5.84% models=['FTS'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401875890",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-17 20:26 (Tbilisi)",
+   "score": "FC Emmen 2, Almere City 1 (FT)",
+   "final_score": "FC Emmen 2, Almere City 1",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20261017 (event 401875890)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_odds": 2.9,
+   "closing_fair_odds": 3.0813,
+   "clv_pct": -4.26,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+120', 'away': '+190', 'draw': '+280'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/summary?event=401875890"
   }
  ],
  "positions": [
@@ -4810,7 +4882,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81416
+   "last_price": 81246
   },
   {
    "symbol": "SPY",
@@ -19963,7 +20035,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81416,
+  "BTC": 81246,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -19979,8 +20051,8 @@
   "PLTR": 188.823,
   "V": 402.61,
   "BRK-B": 532.02,
-  "ETH": 2396.52,
-  "SOL": 102.98,
+  "ETH": 2407.73,
+  "SOL": 103.4,
   "AMD": 542.81,
   "SPY30": 772.44,
   "ORCL": 130.76010131835938,
@@ -20041,20 +20113,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 19:23 (Tbilisi)",
-  "total_value": 499.13,
+  "time": "2026-10-17 20:27 (Tbilisi)",
+  "total_value": 511.4,
   "deposits_usd": 500,
-  "vs_deposits_usd": -0.87,
-  "vs_deposits_pct": -0.17,
-  "btc_bench": 494.07,
-  "vs_btc_usd": 5.06,
+  "vs_deposits_usd": 11.4,
+  "vs_deposits_pct": 2.28,
+  "btc_bench": 493.04,
+  "vs_btc_usd": 18.36,
   "bets": {
-   "n": 76,
-   "wins": 32,
-   "losses": 44,
-   "open": 71,
-   "pl_usd": 2.87,
-   "roi_pct": 3.3
+   "n": 82,
+   "wins": 34,
+   "losses": 48,
+   "open": 65,
+   "pl_usd": 15.17,
+   "roi_pct": 15.9
   },
   "by_sport": {
    "NHL": {
@@ -20079,11 +20151,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 45,
-    "wins": 19,
-    "losses": 26,
-    "pl_usd": 5.77,
-    "roi_pct": 12.1
+    "n": 51,
+    "wins": 21,
+    "losses": 30,
+    "pl_usd": 18.07,
+    "roi_pct": 31.8
    },
    "NCAAF": {
     "n": 6,
@@ -20109,10 +20181,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.48,
-   "unrealized_usd": -0.52,
+   "value_usd": 14.45,
+   "unrealized_usd": -0.55,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.71
+   "total_pl_usd": -2.74
   },
   "stocks": {
    "open_n": 15,
@@ -20121,16 +20193,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 217.4791,
+  "cash_usd": 238.7921,
   "scanned": 52073,
-  "open_bets_usd": 151.04,
+  "open_bets_usd": 142.03,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 45,
-    "wins": 19,
-    "losses": 26,
-    "pl_usd": 5.77,
-    "roi_pct": 12.1
+    "n": 51,
+    "wins": 21,
+    "losses": 30,
+    "pl_usd": 18.07,
+    "roi_pct": 31.8
    },
    "BASKETBALL": {
     "n": 1,
@@ -20197,7 +20269,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 19:23 (Tbilisi)",
+ "last_refresh": "2026-10-17 20:27 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -21450,7 +21522,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 19:23 (Tbilisi)",
+  "updated": "2026-10-17 20:27 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -21481,12 +21553,12 @@
     "lean": null
    },
    "Football": {
-    "n": 16,
-    "early_better": 8,
-    "late_better": 6,
-    "equal": 2,
-    "avg_clv_pct": 1.17,
-    "no_close": 47,
+    "n": 22,
+    "early_better": 11,
+    "late_better": 8,
+    "equal": 3,
+    "avg_clv_pct": 1.21,
+    "no_close": 41,
     "lean": "early"
    },
    "NCAAF": {
@@ -22388,6 +22460,78 @@
     "better": "early"
    },
    {
+    "id": "B094",
+    "sport": "Football",
+    "event": "Bolton Wanderers @ Southampton",
+    "open": null,
+    "taken": 4.9,
+    "taken_time": null,
+    "close": 5.0,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261017 (event 401880213)",
+    "clv_pct": -2.0,
+    "better": "late"
+   },
+   {
+    "id": "B136",
+    "sport": "Football",
+    "event": "Dundee United @ St Johnstone",
+    "open": null,
+    "taken": 2.65,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": 2.85,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20261017 (event 401878363)",
+    "clv_pct": -7.02,
+    "better": "late"
+   },
+   {
+    "id": "B138",
+    "sport": "Football",
+    "event": "Huddersfield Town @ Plymouth Argyle",
+    "open": null,
+    "taken": 2.55,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": 2.3,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard?dates=20261017 (event 401880795)",
+    "clv_pct": 10.87,
+    "better": "early"
+   },
+   {
+    "id": "B141",
+    "sport": "Football",
+    "event": "Falkirk @ Hibernian",
+    "open": null,
+    "taken": 4.8,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": 4.6,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20261017 (event 401878365)",
+    "clv_pct": 4.35,
+    "better": "early"
+   },
+   {
+    "id": "B142",
+    "sport": "Football",
+    "event": "AFC Wimbledon @ Sheffield Wednesday",
+    "open": null,
+    "taken": 4.2,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": 4.2,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard?dates=20261017 (event 401880794)",
+    "clv_pct": 0.0,
+    "better": "equal"
+   },
+   {
+    "id": "B146",
+    "sport": "Football",
+    "event": "Almere City @ FC Emmen",
+    "open": null,
+    "taken": 2.95,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": 2.9,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20261017 (event 401875890)",
+    "clv_pct": 1.72,
+    "better": "early"
+   },
+   {
     "id": "B043",
     "sport": "NCAAF",
     "event": "Cincinnati Bearcats @ West Virginia Mountaineers",
@@ -22712,17 +22856,6 @@
     "event": "Querétaro @ Santos",
     "open": null,
     "taken": 2.857,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B094",
-    "sport": "Football",
-    "event": "Bolton Wanderers @ Southampton",
-    "open": null,
-    "taken": 4.9,
     "taken_time": null,
     "close": null,
     "close_source": null,
@@ -23059,33 +23192,11 @@
     "better": null
    },
    {
-    "id": "B136",
-    "sport": "Football",
-    "event": "Dundee United @ St Johnstone",
-    "open": null,
-    "taken": 2.65,
-    "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B137",
     "sport": "NFL",
     "event": "Baltimore Ravens @ Cleveland Browns",
     "open": null,
     "taken": 2.5,
-    "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B138",
-    "sport": "Football",
-    "event": "Huddersfield Town @ Plymouth Argyle",
-    "open": null,
-    "taken": 2.55,
     "taken_time": "2026-10-17 09:01 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -23114,44 +23225,11 @@
     "better": null
    },
    {
-    "id": "B141",
-    "sport": "Football",
-    "event": "Falkirk @ Hibernian",
-    "open": null,
-    "taken": 4.8,
-    "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B142",
-    "sport": "Football",
-    "event": "AFC Wimbledon @ Sheffield Wednesday",
-    "open": null,
-    "taken": 4.2,
-    "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B145",
     "sport": "Football",
     "event": "Argentinos Juniors @ Banfield",
     "open": null,
     "taken": 4.0,
-    "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B146",
-    "sport": "Football",
-    "event": "Almere City @ FC Emmen",
-    "open": null,
-    "taken": 2.95,
     "taken_time": "2026-10-17 09:01 (Tbilisi)",
     "close": null,
     "close_source": null,
