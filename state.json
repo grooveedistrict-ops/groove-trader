@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 238.7921,
+ "cash_usd": 241.0221,
  "open_bets": [
   {
    "id": "B043",
@@ -810,40 +810,6 @@
    "status": "open"
   },
   {
-   "id": "B086",
-   "sport": "Polymarket",
-   "league": "EPL",
-   "event": "Will Fulham FC win on 2026-10-17? (Hull City @ Fulham)",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "Yes",
-   "odds": 1.786,
-   "book": "Polymarket gamma (ask 0.56)",
-   "p": 0.5905,
-   "implied_pct": 56.0,
-   "edge_pct": 5.45,
-   "stake": 1.25,
-   "outcome_price": 0.56,
-   "polymarket_slug": "epl-ful-hul-2026-10-17-ful",
-   "reasoning": "Polymarket ask 56¢ = 1.786 (წიგნების საუკეთესო 1.741). წიგნების no-vig 55.5% + DRatings 62.6% → ნაზავი 59.1%, EV≈5.5%. ერთი მოდელი → ნახევარი. ლიკვიდობა $149k.",
-   "model_inputs": {
-    "book_novig": 0.5549,
-    "DRatings": 0.626,
-    "blend": "0.5×წიგნი + 0.5×DRatings"
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=epl-ful-hul-2026-10-17-ful ; https://www.dratings.com/predictor/english-premier-league-predictions/",
-   "odds_time": "2026-10-15 09:16 (Tbilisi)",
-   "status": "open",
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Fulham FC vs. Hull City AFC",
-    "pm_league": "ENG1",
-    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B090",
    "sport": "Polymarket",
    "league": "mls",
@@ -1262,46 +1228,6 @@
    }
   },
   {
-   "id": "B104",
-   "sport": "Polymarket",
-   "league": "bundesliga",
-   "event": "Paderborn @ Werder Bremen",
-   "kickoff": "2026-10-17 17:30",
-   "selection": "Paderborn",
-   "odds": 4.348,
-   "book": "Polymarket ask",
-   "p": 0.2483,
-   "implied_pct": 23.0,
-   "edge_pct": 7.96,
-   "stake": 2.97,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2747,
-     "DRatings": 0.24
-    },
-    "mkt": 0.2393,
-    "nbooks": 5,
-    "blend_p": 0.2483,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bun-wer-scp-2026-10-17-scp",
-   "reasoning": "scan PASS EV=7.96% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:bun-wer-scp-2026-10-17-scp",
-   "polymarket_slug": "bun-wer-scp-2026-10-17-scp",
-   "outcome_price": 0.23,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "SV Werder Bremen vs. SC Paderborn 07",
-    "pm_league": "GER1",
-    "pm_kickoff_utc": "2026-10-17 13:30:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B105",
    "sport": "Polymarket",
    "league": "ligue1",
@@ -1337,46 +1263,6 @@
     "pm_title": "Le Havre AC vs. AJ Auxerre",
     "pm_league": "FRA1",
     "pm_kickoff_utc": "2026-10-18 15:15:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
-   "id": "B106",
-   "sport": "Polymarket",
-   "league": "bundesliga",
-   "event": "Mainz 05 @ Schalke 04",
-   "kickoff": "2026-10-17 17:30",
-   "selection": "Schalke 04",
-   "odds": 3.226,
-   "book": "Polymarket ask",
-   "p": 0.3309,
-   "implied_pct": 31.0,
-   "edge_pct": 6.74,
-   "stake": 3.78,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.3537,
-     "DRatings": 0.339
-    },
-    "mkt": 0.3155,
-    "nbooks": 5,
-    "blend_p": 0.3309,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bun-s04-mai-2026-10-17-s04",
-   "reasoning": "scan PASS EV=6.74% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:bun-s04-mai-2026-10-17-s04",
-   "polymarket_slug": "bun-s04-mai-2026-10-17-s04",
-   "outcome_price": 0.31,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "FC Schalke 04 vs. 1. FSV Mainz 05",
-    "pm_league": "GER1",
-    "pm_kickoff_utc": "2026-10-17 13:30:00+00",
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
@@ -2023,47 +1909,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
    "reasoning": "scan PASS EV=15.49% models=['ESPN', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
    "scan_id": "scan:295288"
-  },
-  {
-   "id": "B133",
-   "sport": "Polymarket",
-   "league": "soc_ita.2",
-   "event": "Virtus Entella @ Padova",
-   "kickoff": "2026-10-17 17:00",
-   "selection": "Padova",
-   "odds": 2.632,
-   "book": "Polymarket ask",
-   "p": 0.4123,
-   "implied_pct": 38.0,
-   "edge_pct": 8.5,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-16 09:07 (Tbilisi)",
-   "odds_time": "2026-10-16 09:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4362
-    },
-    "mkt": 0.3885,
-    "nbooks": 1,
-    "blend_p": 0.4123,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=itsb-pad-ent-2026-10-17-pad",
-   "reasoning": "scan PASS EV=8.5% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
-   "scan_id": "pm:itsb-pad-ent-2026-10-17-pad",
-   "polymarket_slug": "itsb-pad-ent-2026-10-17-pad",
-   "outcome_price": 0.3799,
-   "elo_only": true,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Calcio Padova vs. Virtus Entella",
-    "pm_league": "ITA2",
-    "pm_kickoff_utc": "2026-10-17 13:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
   },
   {
    "id": "B134",
@@ -4868,6 +4713,189 @@
    "clv_pct": -4.26,
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '+120', 'away': '+190', 'draw': '+280'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/summary?event=401875890"
+  },
+  {
+   "id": "B086",
+   "sport": "Polymarket",
+   "league": "EPL",
+   "event": "Will Fulham FC win on 2026-10-17? (Hull City @ Fulham)",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Yes",
+   "odds": 1.786,
+   "book": "Polymarket gamma (ask 0.56)",
+   "p": 0.5905,
+   "implied_pct": 56.0,
+   "edge_pct": 5.45,
+   "stake": 1.25,
+   "outcome_price": 0.56,
+   "polymarket_slug": "epl-ful-hul-2026-10-17-ful",
+   "reasoning": "Polymarket ask 56¢ = 1.786 (წიგნების საუკეთესო 1.741). წიგნების no-vig 55.5% + DRatings 62.6% → ნაზავი 59.1%, EV≈5.5%. ერთი მოდელი → ნახევარი. ლიკვიდობა $149k.",
+   "model_inputs": {
+    "book_novig": 0.5549,
+    "DRatings": 0.626,
+    "blend": "0.5×წიგნი + 0.5×DRatings"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=epl-ful-hul-2026-10-17-ful ; https://www.dratings.com/predictor/english-premier-league-predictions/",
+   "odds_time": "2026-10-15 09:16 (Tbilisi)",
+   "status": "settled",
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Fulham FC vs. Hull City AFC",
+    "pm_league": "ENG1",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 0.98,
+   "settled_at": "2026-10-17 21:18 (Tbilisi)",
+   "score": "Fulham 1, Hull City 0 (FT)",
+   "final_score": "Fulham 1, Hull City 0",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=epl-ful-hul-2026-10-17-ful&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"1\",\"0\"] (closed 2026-10-17 16:40 UTC); ESPN eng.1 event 401878770 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B104",
+   "sport": "Polymarket",
+   "league": "bundesliga",
+   "event": "Paderborn @ Werder Bremen",
+   "kickoff": "2026-10-17 17:30",
+   "selection": "Paderborn",
+   "odds": 4.348,
+   "book": "Polymarket ask",
+   "p": 0.2483,
+   "implied_pct": 23.0,
+   "edge_pct": 7.96,
+   "stake": 2.97,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2747,
+     "DRatings": 0.24
+    },
+    "mkt": 0.2393,
+    "nbooks": 5,
+    "blend_p": 0.2483,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bun-wer-scp-2026-10-17-scp",
+   "reasoning": "scan PASS EV=7.96% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:bun-wer-scp-2026-10-17-scp",
+   "polymarket_slug": "bun-wer-scp-2026-10-17-scp",
+   "outcome_price": 0.23,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "SV Werder Bremen vs. SC Paderborn 07",
+    "pm_league": "GER1",
+    "pm_kickoff_utc": "2026-10-17 13:30:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -2.97,
+   "settled_at": "2026-10-17 21:18 (Tbilisi)",
+   "score": "Werder Bremen 2, SC Paderborn 07 2 (FT)",
+   "final_score": "Werder Bremen 2, SC Paderborn 07 2",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=bun-wer-scp-2026-10-17-scp&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"] (closed 2026-10-17 15:42 UTC); ESPN ger.1 event 401884766 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B106",
+   "sport": "Polymarket",
+   "league": "bundesliga",
+   "event": "Mainz 05 @ Schalke 04",
+   "kickoff": "2026-10-17 17:30",
+   "selection": "Schalke 04",
+   "odds": 3.226,
+   "book": "Polymarket ask",
+   "p": 0.3309,
+   "implied_pct": 31.0,
+   "edge_pct": 6.74,
+   "stake": 3.78,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3537,
+     "DRatings": 0.339
+    },
+    "mkt": 0.3155,
+    "nbooks": 5,
+    "blend_p": 0.3309,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bun-s04-mai-2026-10-17-s04",
+   "reasoning": "scan PASS EV=6.74% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:bun-s04-mai-2026-10-17-s04",
+   "polymarket_slug": "bun-s04-mai-2026-10-17-s04",
+   "outcome_price": 0.31,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "FC Schalke 04 vs. 1. FSV Mainz 05",
+    "pm_league": "GER1",
+    "pm_kickoff_utc": "2026-10-17 13:30:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -3.78,
+   "settled_at": "2026-10-17 21:18 (Tbilisi)",
+   "score": "Schalke 04 0, Mainz 1 (FT)",
+   "final_score": "Schalke 04 0, Mainz 1",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=bun-s04-mai-2026-10-17-s04&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"] (closed 2026-10-17 15:51 UTC); ESPN ger.1 event 401884765 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B133",
+   "sport": "Polymarket",
+   "league": "soc_ita.2",
+   "event": "Virtus Entella @ Padova",
+   "kickoff": "2026-10-17 17:00",
+   "selection": "Padova",
+   "odds": 2.632,
+   "book": "Polymarket ask",
+   "p": 0.4123,
+   "implied_pct": 38.0,
+   "edge_pct": 8.5,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-16 09:07 (Tbilisi)",
+   "odds_time": "2026-10-16 09:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4362
+    },
+    "mkt": 0.3885,
+    "nbooks": 1,
+    "blend_p": 0.4123,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=itsb-pad-ent-2026-10-17-pad",
+   "reasoning": "scan PASS EV=8.5% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
+   "scan_id": "pm:itsb-pad-ent-2026-10-17-pad",
+   "polymarket_slug": "itsb-pad-ent-2026-10-17-pad",
+   "outcome_price": 0.3799,
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Calcio Padova vs. Virtus Entella",
+    "pm_league": "ITA2",
+    "pm_kickoff_utc": "2026-10-17 13:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-17 21:18 (Tbilisi)",
+   "score": "Padova 1, Virtus Entella 2 (FT)",
+   "final_score": "Padova 1, Virtus Entella 2",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=itsb-pad-ent-2026-10-17-pad&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"] (closed 2026-10-17 17:09 UTC); ESPN ita.2 event 401899592 STATUS_FULL_TIME"
   }
  ],
  "positions": [
@@ -4882,7 +4910,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81246
+   "last_price": 81190
   },
   {
    "symbol": "SPY",
@@ -20035,7 +20063,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81246,
+  "BTC": 81190,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -20113,20 +20141,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 20:27 (Tbilisi)",
-  "total_value": 511.4,
+  "time": "2026-10-17 21:18 (Tbilisi)",
+  "total_value": 504.62,
   "deposits_usd": 500,
-  "vs_deposits_usd": 11.4,
-  "vs_deposits_pct": 2.28,
-  "btc_bench": 493.04,
-  "vs_btc_usd": 18.36,
+  "vs_deposits_usd": 4.62,
+  "vs_deposits_pct": 0.92,
+  "btc_bench": 492.7,
+  "vs_btc_usd": 11.92,
   "bets": {
-   "n": 82,
-   "wins": 34,
-   "losses": 48,
-   "open": 65,
-   "pl_usd": 15.17,
-   "roi_pct": 15.9
+   "n": 86,
+   "wins": 35,
+   "losses": 51,
+   "open": 61,
+   "pl_usd": 8.4,
+   "roi_pct": 8.1
   },
   "by_sport": {
    "NHL": {
@@ -20172,19 +20200,19 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 12,
-    "wins": 3,
-    "losses": 9,
-    "pl_usd": -5.03,
-    "roi_pct": -24.4
+    "n": 16,
+    "wins": 4,
+    "losses": 12,
+    "pl_usd": -11.8,
+    "roi_pct": -39.8
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.45,
-   "unrealized_usd": -0.55,
+   "value_usd": 14.44,
+   "unrealized_usd": -0.56,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.74
+   "total_pl_usd": -2.75
   },
   "stocks": {
    "open_n": 15,
@@ -20193,9 +20221,9 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 238.7921,
+  "cash_usd": 241.0221,
   "scanned": 52073,
-  "open_bets_usd": 142.03,
+  "open_bets_usd": 133.03,
   "desk_stats": {
    "FOOTBALL": {
     "n": 51,
@@ -20240,11 +20268,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 12,
-    "wins": 3,
-    "losses": 9,
-    "pl_usd": -5.03,
-    "roi_pct": -24.4
+    "n": 16,
+    "wins": 4,
+    "losses": 12,
+    "pl_usd": -11.8,
+    "roi_pct": -39.8
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -20269,7 +20297,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 20:27 (Tbilisi)",
+ "last_refresh": "2026-10-17 21:18 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -21522,7 +21550,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 20:27 (Tbilisi)",
+  "updated": "2026-10-17 21:18 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -22532,6 +22560,50 @@
     "better": "early"
    },
    {
+    "id": "B086",
+    "sport": "Polymarket",
+    "event": "Will Fulham FC win on 2026-10-17? (Hull City @ Fulham)",
+    "open": null,
+    "taken": 1.786,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B104",
+    "sport": "Polymarket",
+    "event": "Paderborn @ Werder Bremen",
+    "open": null,
+    "taken": 4.348,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B106",
+    "sport": "Polymarket",
+    "event": "Mainz 05 @ Schalke 04",
+    "open": null,
+    "taken": 3.226,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B133",
+    "sport": "Polymarket",
+    "event": "Virtus Entella @ Padova",
+    "open": null,
+    "taken": 2.632,
+    "taken_time": "2026-10-16 09:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B043",
     "sport": "NCAAF",
     "event": "Cincinnati Bearcats @ West Virginia Mountaineers",
@@ -22807,17 +22879,6 @@
     "better": null
    },
    {
-    "id": "B086",
-    "sport": "Polymarket",
-    "event": "Will Fulham FC win on 2026-10-17? (Hull City @ Fulham)",
-    "open": null,
-    "taken": 1.786,
-    "taken_time": "2026-10-15 09:16 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B090",
     "sport": "Polymarket",
     "event": "Vancouver Whitecaps @ Austin FC",
@@ -22939,33 +23000,11 @@
     "better": null
    },
    {
-    "id": "B104",
-    "sport": "Polymarket",
-    "event": "Paderborn @ Werder Bremen",
-    "open": null,
-    "taken": 4.348,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B105",
     "sport": "Polymarket",
     "event": "Auxerre @ Le Havre",
     "open": null,
     "taken": 3.333,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B106",
-    "sport": "Polymarket",
-    "event": "Mainz 05 @ Schalke 04",
-    "open": null,
-    "taken": 3.226,
     "taken_time": null,
     "close": null,
     "close_source": null,
@@ -23164,17 +23203,6 @@
     "event": "Charlotte Hornets @ Brooklyn Nets",
     "open": null,
     "taken": 1.847,
-    "taken_time": "2026-10-16 09:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B133",
-    "sport": "Polymarket",
-    "event": "Virtus Entella @ Padova",
-    "open": null,
-    "taken": 2.632,
     "taken_time": "2026-10-16 09:07 (Tbilisi)",
     "close": null,
     "close_source": null,
