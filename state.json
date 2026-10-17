@@ -1520,46 +1520,6 @@
    }
   },
   {
-   "id": "B112",
-   "sport": "Polymarket",
-   "league": "laliga",
-   "event": "Atletico Madrid @ Espanyol",
-   "kickoff": "2026-10-17 16:00",
-   "selection": "Espanyol",
-   "odds": 5.0,
-   "book": "Polymarket ask",
-   "p": 0.2106,
-   "implied_pct": 20.0,
-   "edge_pct": 5.3,
-   "stake": 1.65,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2207,
-     "DRatings": 0.218
-    },
-    "mkt": 0.2019,
-    "nbooks": 5,
-    "blend_p": 0.2106,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=lal-esp-mad-2026-10-17-esp",
-   "reasoning": "scan PASS EV=5.3% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:lal-esp-mad-2026-10-17-esp",
-   "polymarket_slug": "lal-esp-mad-2026-10-17-esp",
-   "outcome_price": 0.2,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "RCD Espanyol de Barcelona vs. Club Atlético de Madrid",
-    "pm_league": "ESP1",
-    "pm_kickoff_utc": "2026-10-17 12:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B113",
    "sport": "Football",
    "league": "mls",
@@ -4695,6 +4655,53 @@
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/scoreboard?dates=20261017 (event 401861511)",
    "settle_source": "ESPN status FT (completed)",
    "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -130, \"spreadOdds\": -140.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc"
+  },
+  {
+   "id": "B112",
+   "sport": "Polymarket",
+   "league": "laliga",
+   "event": "Atletico Madrid @ Espanyol",
+   "kickoff": "2026-10-17 16:00",
+   "selection": "Espanyol",
+   "odds": 5.0,
+   "book": "Polymarket ask",
+   "p": 0.2106,
+   "implied_pct": 20.0,
+   "edge_pct": 5.3,
+   "stake": 1.65,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2207,
+     "DRatings": 0.218
+    },
+    "mkt": 0.2019,
+    "nbooks": 5,
+    "blend_p": 0.2106,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=lal-esp-mad-2026-10-17-esp",
+   "reasoning": "scan PASS EV=5.3% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:lal-esp-mad-2026-10-17-esp",
+   "polymarket_slug": "lal-esp-mad-2026-10-17-esp",
+   "outcome_price": 0.2,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "RCD Espanyol de Barcelona vs. Club Atlético de Madrid",
+    "pm_league": "ESP1",
+    "pm_kickoff_utc": "2026-10-17 12:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -1.65,
+   "settled_at": "2026-10-17 18:25 (Tbilisi)",
+   "score": "Espanyol 0, Atlético Madrid 1 (FT)",
+   "final_score": "Espanyol 0, Atlético Madrid 1",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=lal-esp-mad-2026-10-17-esp&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"] (closed 2026-10-17 14:14 UTC); ESPN esp.1 event 401882843 STATUS_FULL_TIME"
   }
  ],
  "positions": [
@@ -4709,7 +4716,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81388.0
+   "last_price": 81390.0
   },
   {
    "symbol": "SPY",
@@ -18807,7 +18814,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81388.0,
+  "BTC": 81390.0,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -18885,20 +18892,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 17:27 (Tbilisi)",
-  "total_value": 496.15,
+  "time": "2026-10-17 18:22 (Tbilisi)",
+  "total_value": 494.5,
   "deposits_usd": 500,
-  "vs_deposits_usd": -3.85,
-  "vs_deposits_pct": -0.77,
-  "btc_bench": 493.9,
-  "vs_btc_usd": 2.25,
+  "vs_deposits_usd": -5.5,
+  "vs_deposits_pct": -1.1,
+  "btc_bench": 493.91,
+  "vs_btc_usd": 0.59,
   "bets": {
-   "n": 74,
+   "n": 75,
    "wins": 31,
-   "losses": 43,
-   "open": 72,
-   "pl_usd": -0.1,
-   "roi_pct": -0.1
+   "losses": 44,
+   "open": 71,
+   "pl_usd": -1.75,
+   "roi_pct": -2.1
   },
   "by_sport": {
    "NHL": {
@@ -18944,11 +18951,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 11,
+    "n": 12,
     "wins": 3,
-    "losses": 8,
-    "pl_usd": -3.38,
-    "roi_pct": -17.8
+    "losses": 9,
+    "pl_usd": -5.03,
+    "roi_pct": -24.4
    }
   },
   "crypto": {
@@ -18967,7 +18974,7 @@
   },
   "cash_usd": 212.5391,
   "scanned": 50493,
-  "open_bets_usd": 153.01,
+  "open_bets_usd": 151.36,
   "desk_stats": {
    "FOOTBALL": {
     "n": 44,
@@ -19012,11 +19019,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 11,
+    "n": 12,
     "wins": 3,
-    "losses": 8,
-    "pl_usd": -3.38,
-    "roi_pct": -17.8
+    "losses": 9,
+    "pl_usd": -5.03,
+    "roi_pct": -24.4
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -19041,7 +19048,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 17:27 (Tbilisi)",
+ "last_refresh": "2026-10-17 18:22 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -20294,7 +20301,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 17:27 (Tbilisi)",
+  "updated": "2026-10-17 18:22 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -21204,6 +21211,17 @@
     "better": null
    },
    {
+    "id": "B112",
+    "sport": "Polymarket",
+    "event": "Atletico Madrid @ Espanyol",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B043",
     "sport": "NCAAF",
     "event": "Cincinnati Bearcats @ West Virginia Mountaineers",
@@ -21682,17 +21700,6 @@
     "event": "Sunderland @ AFC Bournemouth",
     "open": null,
     "taken": 2.174,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B112",
-    "sport": "Polymarket",
-    "event": "Atletico Madrid @ Espanyol",
-    "open": null,
-    "taken": 5.0,
     "taken_time": null,
     "close": null,
     "close_source": null,
