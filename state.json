@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 212.9791,
+ "cash_usd": 199.0591,
  "open_bets": [
   {
    "id": "B043",
@@ -2221,6 +2221,364 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
    "reasoning": "scan PASS EV=10.84% models=['ESPN', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound → $1)",
    "scan_id": "scan:289565"
+  },
+  {
+   "id": "B135",
+   "sport": "Football",
+   "league": "soc_ita.2",
+   "event": "Modena @ Carrarese",
+   "kickoff": "2026-10-17 17:00",
+   "selection": "Carrarese",
+   "odds": 4.5,
+   "book": "ESPN-DK",
+   "p": 0.2678,
+   "implied_pct": 22.2,
+   "edge_pct": 20.49,
+   "stake": 1.32,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.33,
+     "EloFD": 0.3215
+    },
+    "mkt": 0.2097,
+    "nbooks": 1,
+    "blend_p": 0.2678,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899597",
+   "reasoning": "scan PASS EV=20.49% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401899597"
+  },
+  {
+   "id": "B136",
+   "sport": "Football",
+   "league": "soc_sco.1",
+   "event": "Dundee United @ St Johnstone",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "St Johnstone",
+   "odds": 2.65,
+   "book": "ESPN-DK",
+   "p": 0.4183,
+   "implied_pct": 37.7,
+   "edge_pct": 10.84,
+   "stake": 1.32,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.46,
+     "EloFD": 0.5004
+    },
+    "mkt": 0.3563,
+    "nbooks": 1,
+    "blend_p": 0.4183,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/summary?event=401878363",
+   "reasoning": "scan PASS EV=10.84% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401878363"
+  },
+  {
+   "id": "B137",
+   "sport": "NFL",
+   "league": "nfl",
+   "event": "Baltimore Ravens @ Cleveland Browns",
+   "kickoff": "2026-10-18 21:00",
+   "selection": "Cleveland Browns",
+   "odds": 2.5,
+   "book": "Action Network real book id71",
+   "p": 0.4276,
+   "implied_pct": 40.0,
+   "edge_pct": 6.9,
+   "stake": 1.32,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.443,
+     "DRatings": 0.476
+    },
+    "mkt": 0.3957,
+    "nbooks": 5,
+    "blend_p": 0.4276,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
+   "reasoning": "scan PASS EV=6.9% models=['ESPN', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "290919"
+  },
+  {
+   "id": "B138",
+   "sport": "Football",
+   "league": "soc_eng.3",
+   "event": "Huddersfield Town @ Plymouth Argyle",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Plymouth Argyle",
+   "odds": 2.55,
+   "book": "ESPN-DK",
+   "p": 0.4168,
+   "implied_pct": 39.2,
+   "edge_pct": 6.29,
+   "stake": 1.32,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.44,
+     "EloFD": 0.4863
+    },
+    "mkt": 0.3705,
+    "nbooks": 1,
+    "blend_p": 0.4168,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880795",
+   "reasoning": "scan PASS EV=6.29% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401880795"
+  },
+  {
+   "id": "B139",
+   "sport": "Football",
+   "league": "europa",
+   "event": "Lyon @ Hoffenheim",
+   "kickoff": "2026-10-22 23:00",
+   "selection": "Hoffenheim",
+   "odds": 2.0,
+   "book": "Action Network real book id71",
+   "p": 0.5309,
+   "implied_pct": 50.0,
+   "edge_pct": 6.18,
+   "stake": 1.32,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.587
+    },
+    "mkt": 0.4748,
+    "nbooks": 4,
+    "blend_p": 0.5309,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
+   "reasoning": "scan PASS EV=6.18% models=['DRatings'] nbooks=4; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "296601"
+  },
+  {
+   "id": "B140",
+   "sport": "NBA",
+   "league": "nba",
+   "event": "Sacramento Kings @ Los Angeles Clippers",
+   "kickoff": "2026-10-22 06:30",
+   "selection": "Los Angeles Clippers",
+   "odds": 1.658,
+   "book": "Action Network real book id69",
+   "p": 0.6395,
+   "implied_pct": 60.3,
+   "edge_pct": 6.02,
+   "stake": 1.32,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.65,
+     "DRatings": 0.742
+    },
+    "mkt": 0.583,
+    "nbooks": 5,
+    "blend_p": 0.6395,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
+   "reasoning": "scan PASS EV=6.02% models=['ESPN', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "295294"
+  },
+  {
+   "id": "B141",
+   "sport": "Football",
+   "league": "soc_sco.1",
+   "event": "Falkirk @ Hibernian",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Falkirk",
+   "odds": 4.8,
+   "book": "ESPN-DK",
+   "p": 0.2248,
+   "implied_pct": 20.8,
+   "edge_pct": 7.88,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.26,
+     "EloFD": 0.2453
+    },
+    "mkt": 0.1969,
+    "nbooks": 1,
+    "blend_p": 0.2248,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/summary?event=401878365",
+   "reasoning": "scan PASS EV=7.88% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401878365"
+  },
+  {
+   "id": "B142",
+   "sport": "Football",
+   "league": "soc_eng.3",
+   "event": "AFC Wimbledon @ Sheffield Wednesday",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Draw (AFC Wimbledon @ Sheffield Wednesday)",
+   "odds": 4.2,
+   "book": "ESPN-DK",
+   "p": 0.2556,
+   "implied_pct": 23.8,
+   "edge_pct": 7.36,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.28,
+     "EloFD": 0.2893
+    },
+    "mkt": 0.2266,
+    "nbooks": 1,
+    "blend_p": 0.2556,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880794",
+   "reasoning": "scan PASS EV=7.36% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401880794"
+  },
+  {
+   "id": "B143",
+   "sport": "Football",
+   "league": "soc_eng.3",
+   "event": "Burton Albion @ Peterborough United",
+   "kickoff": "2026-10-17 15:30",
+   "selection": "Burton Albion",
+   "odds": 3.6,
+   "book": "ESPN-DK",
+   "p": 0.296,
+   "implied_pct": 27.8,
+   "edge_pct": 6.55,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.34,
+     "EloFD": 0.3211
+    },
+    "mkt": 0.2614,
+    "nbooks": 1,
+    "blend_p": 0.296,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880796",
+   "reasoning": "scan PASS EV=6.55% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401880796"
+  },
+  {
+   "id": "B144",
+   "sport": "Football",
+   "league": "soc_chn.1",
+   "event": "Chongqing Tonglianglong @ Yunnan Yukun",
+   "kickoff": "2026-10-17 15:35",
+   "selection": "Chongqing Tonglianglong",
+   "odds": 5.0,
+   "book": "ESPN-DK",
+   "p": 0.2126,
+   "implied_pct": 20.0,
+   "edge_pct": 6.28,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.27,
+     "EloFD": 0.2018
+    },
+    "mkt": 0.1892,
+    "nbooks": 1,
+    "blend_p": 0.2126,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861511",
+   "reasoning": "scan PASS EV=6.28% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401861511"
+  },
+  {
+   "id": "B145",
+   "sport": "Football",
+   "league": "soc_arg.1",
+   "event": "Argentinos Juniors @ Banfield",
+   "kickoff": "2026-10-17 22:00",
+   "selection": "Banfield",
+   "odds": 4.0,
+   "book": "ESPN-DK",
+   "p": 0.2656,
+   "implied_pct": 25.0,
+   "edge_pct": 6.24,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.32,
+     "EloFD": 0.2705
+    },
+    "mkt": 0.236,
+    "nbooks": 1,
+    "blend_p": 0.2656,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/summary?event=401841615",
+   "reasoning": "scan PASS EV=6.24% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401841615"
+  },
+  {
+   "id": "B146",
+   "sport": "Football",
+   "league": "soc_ned.2",
+   "event": "Almere City @ FC Emmen",
+   "kickoff": "2026-10-17 18:30",
+   "selection": "Almere City",
+   "odds": 2.95,
+   "book": "ESPN-DK",
+   "p": 0.3588,
+   "implied_pct": 33.9,
+   "edge_pct": 5.84,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.4
+    },
+    "mkt": 0.3175,
+    "nbooks": 1,
+    "blend_p": 0.3588,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/summary?event=401875890",
+   "reasoning": "scan PASS EV=5.84% models=['FTS'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401875890"
   }
  ],
  "settled_bets": [
@@ -4001,8 +4359,18 @@
    "final_score": "Energie Cottbus 1–1 1. FC Nürnberg",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard?dates=20261016",
    "settle_source": "ESPN Full Time 90+5; Polymarket gamma bl2-fce-fcn-2026-10-16-fce umaResolutionStatus=proposed, Yes 0.0005",
-   "closing_odds": null,
-   "clv_pct": null
+   "closing_odds": 3.3,
+   "clv_pct": 14.42,
+   "closing_fair_odds": 3.496,
+   "closing_book": "DraftKings (ESPN pickcenter) Cottbus +230 / Nürnberg −110 / Draw +330",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/summary?event=401885084",
+   "postmortem": {
+    "time": "2026-10-17 09:01 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +14.4% (4.0 vs DK no-vig close 3.496) — price beat the close; 1–1 draw at Cottbus. Variance, not an error.",
+    "lesson": null
+   }
   },
   {
    "id": "B130",
@@ -4048,7 +4416,14 @@
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876726",
    "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +185/+185/+180; no-vig fair 3.018; recorded PM 2026-10-17 00:13 (Tbilisi)",
    "opening_odds": 2.8,
-   "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876726 (DraftKings open)"
+   "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876726 (DraftKings open)",
+   "postmortem": {
+    "time": "2026-10-17 09:01 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -5.3% — Polymarket ask 2.857 worse than DK no-vig close 3.018; FTS 0.40/EloFD 0.489 above market. Lost 0–2 to Boulogne.",
+    "lesson": null
+   }
   },
   {
    "id": "B131",
@@ -4094,7 +4469,14 @@
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899595",
    "closing_note": "DraftKings close (ESPN pickcenter) H/D/A -130/+275/+350; no-vig fair 4.744; recorded PM 2026-10-17 00:34 (Tbilisi)",
    "opening_odds": 3.75,
-   "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899595 (DraftKings open)"
+   "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899595 (DraftKings open)",
+   "postmortem": {
+    "time": "2026-10-17 09:01 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -4.2% — ask 4.545 worse than DK no-vig close 4.744; models FTS 0.24/EloFD 0.279. Drew 2–2 at Verona (lost on ML).",
+    "lesson": null
+   }
   },
   {
    "id": "B108",
@@ -4183,7 +4565,14 @@
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880218",
    "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +190/+245/+145; no-vig fair 3.024; recorded PM 2026-10-17 01:24 (Tbilisi)",
    "opening_odds": 2.9,
-   "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880218 (DraftKings open)"
+   "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880218 (DraftKings open)",
+   "postmortem": {
+    "time": "2026-10-17 09:01 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -4.1% — 2.9 vs DK no-vig close 3.024; Elo-only (0.417, half stake). Burnley lost 1–2 to Wolves.",
+    "lesson": null
+   }
   },
   {
    "id": "B089",
@@ -4224,7 +4613,14 @@
    "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"]",
    "closing_odds": null,
    "clv_pct": null,
-   "mismatch_note": "DATA ERROR: bet was recorded as \"Talleres @ Boca Juniors\" (Argentina, ESPN 401841627, Boca won 2–1) but the Polymarket contract actually held was Boca Juniors de Cali (Colombia Primera B) to win; settled per the real contract held. Scanner team-matching bug (Elo-only) — needs a POST-MORTEM lesson."
+   "mismatch_note": "DATA ERROR: bet was recorded as \"Talleres @ Boca Juniors\" (Argentina, ESPN 401841627, Boca won 2–1) but the Polymarket contract actually held was Boca Juniors de Cali (Colombia Primera B) to win; settled per the real contract held. Scanner team-matching bug (Elo-only) — needs a POST-MORTEM lesson.",
+   "postmortem": {
+    "time": "2026-10-17 09:01 (Tbilisi)",
+    "cause": "rule break (data error)",
+    "clv_sign": null,
+    "note": "Polymarket team-matching DATA ERROR: logged as Talleres @ Boca Juniors (ARG) but the bought contract was col2-boc-atl (Boca Juniors de Cali vs Atlético FC Cali, Colombia Primera B). Model p (EloFD 0.658) was for a different match. No close (null). Fixed by L007 strict matching.",
+    "lesson": "L007"
+   }
   },
   {
    "id": "B033",
@@ -4261,7 +4657,12 @@
    "score": "Memphis Tigers 17–31 Tulane Green Wave (Final)",
    "final_score": "Tulane 31, Memphis 17",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261016&groups=80 (event 401862801)",
-   "settle_source": "ESPN status Final"
+   "settle_source": "ESPN status Final",
+   "closing_odds": 3.1,
+   "closing_fair_odds": 3.2341,
+   "clv_pct": -2.6,
+   "closing_book": "DraftKings (ESPN pickcenter) Tulane +210 / Memphis −258",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862801"
   }
  ],
  "positions": [
@@ -4276,7 +4677,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81443
+   "last_price": 81449
   },
   {
    "symbol": "SPY",
@@ -4909,6 +5310,14 @@
    "total_value": 493.93,
    "cash": 192.3505,
    "btc_bench": 497.58
+  },
+  {
+   "date": "2026-10-17",
+   "slot": "AM",
+   "time": "2026-10-17 09:01 (Tbilisi)",
+   "total_value": 492.43,
+   "cash": 199.0591,
+   "btc_bench": 494.27
   }
  ],
  "benchmarks_start": {
@@ -16548,6 +16957,1608 @@
     "later_by_hourly": "B089 settled 06:23 by the hourly refresh (lost −$5.00, real PM contract col2-boc-atl; see L007)",
     "safeguard": "statelock.py (flock + atomic write) in scan.py/refresh.py/timing.py; cyclelock.py marker → refresh.py --hourly skips while a cycle runs; scan.py re-reads state inside the lock before writing its funnel"
    }
+  },
+  {
+   "date": "2026-10-17",
+   "slot": "AM",
+   "time": "2026-10-17 08:53 (Tbilisi)",
+   "status": "done",
+   "note": "AM: 12 new bets (B135, B136, B137, B138, B139, B140, B141, B142, B143, B144, B145, B146), TITAN blocked 8, settled 0, ledger backfill 2, post-mortems 5, stocks 0 (Sat), tokens 0 (BTC<MA20)",
+   "funnel": {
+    "stamp": "2026-10-17_0853",
+    "time": "2026-10-17 08:53 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 162,
+    "funnel": {
+     "options_AN": 14128,
+     "events_AN": 252,
+     "events_ESPN": 504,
+     "options_ESPN": 1451,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 95,
+     "model_rows_DR": 313,
+     "model_rows_FTS": 225,
+     "events_upcoming": 436,
+     "selections_priced": 1156,
+     "selections_consensus": 986,
+     "with_model": 872,
+     "with_2plus_model": 595,
+     "drop_too_few_books": 142,
+     "drop_nhl_calibration": 28,
+     "elo_matched_events": 179,
+     "with_1_model": 277,
+     "drop_no_model": 114,
+     "gate_ev<3": 715,
+     "gate_dup_open": 27,
+     "gate_PASS": 23,
+     "gate_odds>5": 53,
+     "gate_A3_range": 31,
+     "gate_model_ev<=0": 12,
+     "gate_L004_single_model_gap": 7,
+     "gate_TITAN_elo_disagree>10pt": 4,
+     "options_Polymarket": 34156,
+     "pm_markets": 17078,
+     "pm_liq1k": 3693,
+     "pm_sports_ml": 1261,
+     "pm_drop_L007_league_unmapped": 468,
+     "pm_drop_L007_no_strict_match": 118,
+     "pm_matched_model": 6,
+     "pm_gate_ev<3": 3,
+     "pm_gate_A3_range": 1,
+     "pm_tb1_tagged": 3,
+     "pm_gate_odds>5": 1,
+     "pm_gate_PASS": 1,
+     "pm_tb1_tagged_pass": 1,
+     "final_after_caps": 20,
+     "stake_total": 23.02,
+     "budget_caps": 23.51,
+     "tokens_src_dexscreener_tokens": 80,
+     "tokens_src_gt_pools": 800,
+     "tokens_tokens_unique": 769,
+     "tokens_tokens_with_pairs": 758,
+     "tokens_chain_solana": 217,
+     "tokens_chain_robinhood": 13,
+     "tokens_chain_bsc": 169,
+     "tokens_chain_near": 1,
+     "tokens_chain_ethereum": 186,
+     "tokens_chain_base": 172,
+     "tokens_gate_liquidity": 432,
+     "tokens_gate_too_new": 67,
+     "tokens_gate_pass": 128,
+     "tokens_gate_low_activity": 47,
+     "tokens_gate_thin_liq_fdv": 78,
+     "tokens_gate_pump": 3,
+     "tokens_gate_rug_dump": 3,
+     "tokens_safety_pass": 86,
+     "tokens_safety_fail": 25,
+     "tokens_safety_unverified": 17,
+     "tokens_passed_safety": 86,
+     "options_scanned_total": 50493
+    },
+    "coverage_events_by_sport": {
+     "nfl": 14,
+     "ncaaf": 58,
+     "nhl": 45,
+     "mlb": 2,
+     "nba": 17,
+     "soccer": 284,
+     "wnba": 3,
+     "ufc": 13
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 50493,
+     "candidates": [
+      {
+       "name": "Carrarese",
+       "type": "soccer",
+       "score": 70,
+       "why": "EV 20.49% @4.5 models=['FTS', 'EloFD']"
+      },
+      {
+       "name": "St Johnstone",
+       "type": "soccer",
+       "score": 60,
+       "why": "EV 10.84% @2.65 models=['FTS', 'EloFD']"
+      },
+      {
+       "name": "Massachusetts Minutemen",
+       "type": "ncaaf",
+       "score": 60,
+       "why": "EV 10.63% @3.3 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Ceará",
+       "type": "soccer",
+       "score": 60,
+       "why": "EV 10.34% @2.75 models=['FTS']"
+      },
+      {
+       "name": "Cleveland Browns",
+       "type": "nfl",
+       "score": 56,
+       "why": "EV 6.9% @2.5 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Plymouth Argyle",
+       "type": "soccer",
+       "score": 56,
+       "why": "EV 6.29% @2.55 models=['FTS', 'EloFD']"
+      },
+      {
+       "name": "Hoffenheim",
+       "type": "soccer",
+       "score": 56,
+       "why": "EV 6.18% @2.0 models=['DRatings']"
+      },
+      {
+       "name": "Los Angeles Clippers",
+       "type": "nba",
+       "score": 56,
+       "why": "EV 6.02% @1.658 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Derby County",
+       "type": "soccer",
+       "score": 57,
+       "why": "EV 7.63% @2.9 models=['FTS', 'EloFD', 'DRatings']"
+      },
+      {
+       "name": "1. FC Heidenheim 1846",
+       "type": "soccer",
+       "score": 63,
+       "why": "EV 13.08% @4.7 models=['FTS', 'EloFD']"
+      },
+      {
+       "name": "Draw",
+       "type": "soccer",
+       "score": 60,
+       "why": "EV 10.12% @5.0 models=['FTS', 'EloFD']"
+      },
+      {
+       "name": "Falkirk",
+       "type": "soccer",
+       "score": 57,
+       "why": "EV 7.88% @4.8 models=['FTS', 'EloFD']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 50493,
+      "with_model": 872,
+      "gate_PASS": 23,
+      "pm_gate_PASS": 1,
+      "final_after_caps": 20,
+      "pm_tb1_tagged": 3,
+      "pm_tb1_tagged_pass": 1,
+      "tokens_tokens_unique": 769,
+      "tokens_passed_safety": 86,
+      "stake_total": 23.02,
+      "budget_caps": 23.51
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 81447.49,
+       "tp": 87963.29,
+       "stop": 77375.12,
+       "support": 81447.49,
+       "resistance": 86489.73,
+       "prices": [
+        83479.25,
+        83640.1,
+        83576.13,
+        84841.67,
+        84506.47,
+        84742.79,
+        86489.73,
+        85770.87,
+        85540.09,
+        83282.05,
+        81685.89,
+        82564.29,
+        82917.9,
+        83690.87,
+        81794.85,
+        83115.1,
+        81603.65,
+        82155.54,
+        81523.66,
+        81447.49
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 763.25,
+       "tp": 824.31,
+       "stop": 725.09,
+       "support": 762.63,
+       "resistance": 779.09,
+       "prices": [
+        773.5,
+        773.38,
+        767.81,
+        767.18,
+        771.35,
+        765.61,
+        764.2,
+        762.63,
+        763.99,
+        769.64,
+        774.83,
+        779.09,
+        777.22,
+        773.93,
+        778.57,
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "up",
+       "entry": 529.05,
+       "tp": 571.37,
+       "stop": 502.6,
+       "support": 497.93,
+       "resistance": 543.45,
+       "prices": [
+        501.61,
+        498.0,
+        500.59,
+        497.93,
+        516.17,
+        509.22,
+        508.96,
+        512.9,
+        512.8,
+        517.53,
+        525.18,
+        529.3,
+        529.76,
+        522.61,
+        535.07,
+        541.15,
+        543.45,
+        533.69,
+        539.44,
+        529.05
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 989.11,
+       "tp": 1068.24,
+       "stop": 939.65,
+       "support": 896.48,
+       "resistance": 989.11,
+       "prices": [
+        898.48,
+        899.41,
+        904.7,
+        896.48,
+        922.77,
+        922.92,
+        924.59,
+        910.34,
+        914.94,
+        920.65,
+        923.52,
+        935.68,
+        942.25,
+        947.92,
+        946.92,
+        959.44,
+        954.63,
+        982.0,
+        978.01,
+        989.11
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 532.02,
+       "tp": 574.58,
+       "stop": 505.42,
+       "support": 497.95,
+       "resistance": 532.02,
+       "prices": [
+        502.01,
+        503.49,
+        507.17,
+        505.18,
+        505.48,
+        503.09,
+        502.35,
+        497.95,
+        500.5,
+        502.65,
+        504.26,
+        505.54,
+        506.25,
+        511.05,
+        515.62,
+        517.6,
+        520.59,
+        526.35,
+        525.68,
+        532.02
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "up",
+       "entry": 178.98,
+       "tp": 193.3,
+       "stop": 170.03,
+       "support": 158.3,
+       "resistance": 178.98,
+       "prices": [
+        158.3,
+        158.71,
+        161.23,
+        162.14,
+        160.59,
+        162.52,
+        161.35,
+        162.75,
+        163.82,
+        164.01,
+        164.0,
+        164.48,
+        164.05,
+        168.5,
+        168.94,
+        172.15,
+        174.08,
+        177.01,
+        174.68,
+        178.98
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "Carrarese",
+       "stance": "bullish",
+       "text": "No X posts found on Carrarese/Modena injuries/suspensions (2 queries, Italian keywords) — no finding",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "St Johnstone",
+       "stance": "watch",
+       "text": "Dundee United (opponent): Merghem and Will Ferry likely to miss trip to St Johnstone (Goodwin) — supports our St Johnstone side",
+       "source": "https://x.com/dufcway/status/2110440366453252261"
+      },
+      {
+       "candidate": "Massachusetts Minutemen",
+       "stance": "bearish",
+       "text": "Duplicate of open B051 (UMass ML, same game) — TITAN SKIP on correlation/dup (rule 19); X search found no material injury news",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Ceará",
+       "stance": "bearish",
+       "text": "Ceará: \"terá desfalques por contusão e suspensão\" vs Juventude; doubt in defence (ge CE) — our Ceará side weakened",
+       "source": "https://x.com/ReporterDanilo/status/2111043284843811112"
+      },
+      {
+       "candidate": "Cleveland Browns",
+       "stance": "watch",
+       "text": "Ravens (opponent): Lamar Jackson ruled out vs Browns (ankle), Huntley starts; Browns RB Judkins questionable — net supports our Browns side ",
+       "source": "https://x.com/NFL/status/2111151305800737140"
+      },
+      {
+       "candidate": "Plymouth Argyle",
+       "stance": "watch",
+       "text": "Plymouth: Pepple injury boost (BBC Devon); Huddersfield: Wallace (6–8 wks) & Balker ruled out — supports our Plymouth side",
+       "source": "https://x.com/BBCDevon/status/2110979370999288072"
+      },
+      {
+       "candidate": "Hoffenheim",
+       "stance": "watch",
+       "text": "Hoffenheim: Hajdari out until ~10 Nov (one CB) — minor, no block",
+       "source": "https://x.com/injuryreportst/status/2110648095931306159"
+      },
+      {
+       "candidate": "Los Angeles Clippers",
+       "stance": "bullish",
+       "text": "No Clippers injury news; Kawhi Leonard was traded to Toronto in the summer (Ingram to LA) — roster change pre-dates models, no new negative",
+       "source": "https://x.com/i/trending/2110493030587203897"
+      },
+      {
+       "candidate": "Derby County",
+       "stance": "bearish",
+       "text": "Derby: 9-player injury list incl. Zetterström, Clarke, Cashin, Langås (~13 wks) — \"no defenders available\" (blocked again, as AM/MID 16 Oct)",
+       "source": "https://x.com/Champchatpod24/status/2111004224184258877"
+      },
+      {
+       "candidate": "1. FC Heidenheim 1846",
+       "stance": "bearish",
+       "text": "kicker: Heidenheim \"ohne Vier in Wolfsburg?\" — two strikers already out, two more attackers doubtful — our Heidenheim side weakened",
+       "source": "https://x.com/kickDE/status/2110697102271496383"
+      },
+      {
+       "candidate": "Draw",
+       "stance": "bearish",
+       "text": "\"Rangers tackle injury-hit Dundee\" (Scotsman); Rangers only new absentee McCrorie — draw needs Dundee to hold; model pre-dates news → edge u",
+       "source": "https://x.com/ScotsmanSport/status/2111049530703790313"
+      },
+      {
+       "candidate": "Falkirk",
+       "stance": "watch",
+       "text": "Hibs (opponent): \"double boost but triple setback\" — three new injury concerns (Reedijk) — no negative on our Falkirk side",
+       "source": "https://x.com/HibsObserver_/status/2111112236567507064"
+      },
+      {
+       "candidate": "Draw",
+       "stance": "watch",
+       "text": "Sheff Wed: positive injury round-up (Lowe trained, Al-Hamadi fit; R. Santos likely too soon) — no material negative for the draw",
+       "source": "https://x.com/TheStarOwls/status/2111088288618393789"
+      },
+      {
+       "candidate": "Fluminense",
+       "stance": "bearish",
+       "text": "Fluminense: Marcão expected to rest starters vs Santos (Rádio Tupi); Martinelli (knee) out — Elo-only model pre-dates rotation → edge unreli",
+       "source": "https://x.com/radiotupi/status/2111274206356729960"
+      },
+      {
+       "candidate": "Burton Albion",
+       "stance": "watch",
+       "text": "Peterborough (opponent): Garbett back from injury — minor; no negative found on our Burton side",
+       "source": "https://x.com/BBCCambsSport/status/2111019969333113195"
+      },
+      {
+       "candidate": "Chongqing Tonglianglong",
+       "stance": "bullish",
+       "text": "No relevant X posts found for Chongqing Tonglianglong / Yunnan Yukun — no finding",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Banfield",
+       "stance": "bullish",
+       "text": "Only squad lists (Argentinos convocados) — no material injury/suspension found for Banfield",
+       "source": "https://x.com/LocoxArgentinos/status/2111270297219313684"
+      },
+      {
+       "candidate": "Las Palmas",
+       "stance": "bearish",
+       "text": "La Provincia: \"la UD Las Palmas del definitivo tiene ocho bajas\" (8 absentees) for Castellón — our Las Palmas side weakened",
+       "source": "https://x.com/laprovincia_es/status/2111002216085557438"
+      },
+      {
+       "candidate": "Almere City",
+       "stance": "bullish",
+       "text": "Omroep Flevoland: \"Almere City FC met fitte selectie op bezoek bij FC Emmen\" — fit squad, no negative",
+       "source": "https://x.com/OmroepFlevoland/status/2111103794100461639"
+      },
+      {
+       "candidate": "Cremonese",
+       "stance": "bearish",
+       "text": "\"Per la Cremonese sono sette gli assenti\" at Pisa (7 absentees); Pisa get Caracciolo & Petagna back — our Cremonese side weakened",
+       "source": "https://x.com/paoloangeloRF/status/2111165940847304937"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "Carrarese",
+       "mood": 0.2,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "St Johnstone",
+       "mood": 0.2,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Massachusetts Minutemen",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Ceará",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Cleveland Browns",
+       "mood": 0.2,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Plymouth Argyle",
+       "mood": 0.2,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Hoffenheim",
+       "mood": 0.2,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Los Angeles Clippers",
+       "mood": 0.2,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Derby County",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "1. FC Heidenheim 1846",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": -0.12
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "Carrarese (Modena @ Carrarese)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "St Johnstone (Dundee United @ St Johnstone)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Massachusetts Minutemen (Massachusetts Minutemen @ Buffalo Bulls)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": false,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Duplicate of open B051 (UMass ML, same game) — TITAN SKIP on correlation/dup (rule 19); X search found no material injury news"
+      },
+      {
+       "candidate": "Ceará (Juventude @ Ceará)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Ceará: \"terá desfalques por contusão e suspensão\" vs Juventude; doubt in defence (ge CE) — our Ceará side weakened"
+      },
+      {
+       "candidate": "Cleveland Browns (Baltimore Ravens @ Cleveland Browns)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Plymouth Argyle (Huddersfield Town @ Plymouth Argyle)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Hoffenheim (Lyon @ Hoffenheim)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Los Angeles Clippers (Sacramento Kings @ Los Angeles Clippers)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Derby County (Stoke City @ Derby County)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Derby: 9-player injury list incl. Zetterström, Clarke, Cashin, Langås (~13 wks) — \"no defenders available\" (blocked again, as AM/MID 16 Oct)"
+      },
+      {
+       "candidate": "1. FC Heidenheim 1846 (1. FC Heidenheim 1846 @ VfL Wolfsburg)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "kicker: Heidenheim \"ohne Vier in Wolfsburg?\" — two strikers already out, two more attackers doubtful — our Heidenheim side weakened"
+      },
+      {
+       "candidate": "Draw (Rangers @ Dundee)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "\"Rangers tackle injury-hit Dundee\" (Scotsman); Rangers only new absentee McCrorie — draw needs Dundee to hold; model pre-dates news → edge u"
+      },
+      {
+       "candidate": "Falkirk (Falkirk @ Hibernian)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Draw (AFC Wimbledon @ Sheffield Wednesday)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Fluminense (Santos @ Fluminense)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Fluminense: Marcão expected to rest starters vs Santos (Rádio Tupi); Martinelli (knee) out — Elo-only model pre-dates rotation → edge unreli"
+      },
+      {
+       "candidate": "Burton Albion (Burton Albion @ Peterborough United)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Chongqing Tonglianglong (Chongqing Tonglianglong @ Yunnan Yukun)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Banfield (Argentinos Juniors @ Banfield)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Las Palmas (Castellón @ Las Palmas)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "La Provincia: \"la UD Las Palmas del definitivo tiene ocho bajas\" (8 absentees) for Castellón — our Las Palmas side weakened"
+      },
+      {
+       "candidate": "Almere City (Almere City @ FC Emmen)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "OK — NEWS clear; scan PASS; within caps"
+      },
+      {
+       "candidate": "Cremonese (Cremonese @ Pisa)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "\"Per la Cremonese sono sette gli assenti\" at Pisa (7 absentees); Pisa get Caracciolo & Petagna back — our Cremonese side weakened"
+      }
+     ],
+     "blocked_count": 8
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Carrarese (Modena @ Carrarese)",
+       "action": "BUY",
+       "size_usd": 1.32
+      },
+      {
+       "candidate": "St Johnstone (Dundee United @ St Johnstone)",
+       "action": "BUY",
+       "size_usd": 1.32
+      },
+      {
+       "candidate": "Massachusetts Minutemen (Massachusetts Minutemen @ Buffalo Bu)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Ceará (Juventude @ Ceará)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Cleveland Browns (Baltimore Ravens @ Cleveland Browns)",
+       "action": "BUY",
+       "size_usd": 1.32
+      },
+      {
+       "candidate": "Plymouth Argyle (Huddersfield Town @ Plymouth Argyle)",
+       "action": "BUY",
+       "size_usd": 1.32
+      },
+      {
+       "candidate": "Hoffenheim (Lyon @ Hoffenheim)",
+       "action": "BUY",
+       "size_usd": 1.32
+      },
+      {
+       "candidate": "Los Angeles Clippers (Sacramento Kings @ Los Angeles Clipp)",
+       "action": "BUY",
+       "size_usd": 1.32
+      },
+      {
+       "candidate": "Derby County (Stoke City @ Derby County)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "1. FC Heidenheim 1846 (1. FC Heidenheim 1846 @ VfL Wolfsbur)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Draw (Rangers @ Dundee)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Falkirk (Falkirk @ Hibernian)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Draw (AFC Wimbledon @ Sheffield Wednesday)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Fluminense (Santos @ Fluminense)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Burton Albion (Burton Albion @ Peterborough United)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Chongqing Tonglianglong (Chongqing Tonglianglong @ Yunnan Yuk)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Banfield (Argentinos Juniors @ Banfield)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Las Palmas (Castellón @ Las Palmas)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Almere City (Almere City @ FC Emmen)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Cremonese (Cremonese @ Pisa)",
+       "action": "SKIP",
+       "size_usd": 0
+      }
+     ],
+     "desk_pl_today": 0.0
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 20,
+      "approved": 12,
+      "blocked": 8,
+      "note": "სკანი 50493 ოფცია; PASS 23+PM 1 → caps 20; NEWS/TITAN-ის შემდეგ 12"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 0,
+      "blocked": 0,
+      "note": "რეალური CG/Yahoo ისტორია; შაბათი — აქციები დახურულია"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 20,
+      "approved": 12,
+      "blocked": 8,
+      "note": "X search_posts_all + search_news"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 10,
+      "approved": 12,
+      "blocked": 8,
+      "note": "overall -0.12"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 20,
+      "approved": 12,
+      "blocked": 8,
+      "note": "blocked 8: 7 news (injuries/rotation) + 1 dup B051"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 12,
+      "approved": 12,
+      "blocked": 0,
+      "note": "12 bets $13.92; stocks 0 (Sat, closed); crypto/tokens 0 (BTC<MA20)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 20,
+      "approved": 12,
+      "blocked": 8,
+      "note": "19 x-calls, ≤2/cand"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 5,
+      "approved": 0,
+      "blocked": 0,
+      "note": "B129 variance(+CLV); B130/B131/B123 price+variance; B089 data error→L007 (no duplicate lesson)"
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 3,
+      "approved": 0,
+      "blocked": 0,
+      "note": "backfill B033/B129 (DK close); B089 null; halved=none"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 3, pass 1"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 17,
+      "approved": 10,
+      "blocked": 7,
+      "note": "EloFD rebuilt 08:54"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": ""
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/MLB/NHL",
+      "group": "desk",
+      "proposals": 2,
+      "approved": 1,
+      "blocked": 1,
+      "note": "UMass dup B051"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 81449 < MA20 83418 (>MA50 81326) — no adds; BTC stop 74157.6 not hit"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 86,
+      "approved": 0,
+      "blocked": 86,
+      "note": "769 scanned, 86 passed safety; BTC<MA20 → 0 buys"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "Saturday — US markets closed; stocks act MID/PM only"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 0,
+      "note": "L007 strict: unmapped 468, no strict match 118; PM PASS 1 was not in final candidates (dup/caps)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "Weekend — no CPI/FOMC today; B066 (Fed) still open"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "espn401899597",
+     "event": "Modena @ Carrarese",
+     "sel": "Carrarese",
+     "queries": [
+      "(Carrarese OR Modena) (infortunio OR infortunato OR squalificato OR assente OR indisponibili OR convocati OR formazione)",
+      "(Cremonese OR Pisa OR Carrarese) (infortunio OR infortunati OR squalificato OR squalifica OR assenti OR indisponibili OR convocati)"
+     ],
+     "tool_calls": 2,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "No X posts found on Carrarese/Modena injuries/suspensions (2 queries, Italian keywords) — no finding"
+    },
+    {
+     "candidate": "espn401878363",
+     "event": "Dundee United @ St Johnstone",
+     "sel": "St Johnstone",
+     "queries": [
+      "(\"St Johnstone\" OR \"Dundee United\") (injury OR injured OR \"ruled out\" OR suspended OR \"team news\" OR doubt)"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Dundee United (opponent): Merghem and Will Ferry likely to miss trip to St Johnstone (Goodwin) — supports our St Johnstone side",
+       "source": "https://x.com/dufcway/status/2110440366453252261",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "espn401866442",
+     "event": "Massachusetts Minutemen @ Buffalo Bulls",
+     "sel": "Massachusetts Minutemen",
+     "queries": [
+      "(UMass OR \"Massachusetts Minutemen\" OR \"Buffalo Bulls\") football (injury OR injured OR \"ruled out\" OR QB OR out)"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "Duplicate of open B051 (UMass ML, same game) — TITAN SKIP on correlation/dup (rule 19); X search found no material injury news"
+    },
+    {
+     "candidate": "espn401860392",
+     "event": "Juventude @ Ceará",
+     "sel": "Ceará",
+     "queries": [
+      "(Ceará OR Juventude) (lesão OR lesionado OR desfalque OR desfalques OR suspenso OR escalação OR relacionados)"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Ceará: \"terá desfalques por contusão e suspensão\" vs Juventude; doubt in defence (ge CE) — our Ceará side weakened",
+       "source": "https://x.com/ReporterDanilo/status/2111043284843811112",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "290919",
+     "event": "Baltimore Ravens @ Cleveland Browns",
+     "sel": "Cleveland Browns",
+     "queries": [
+      "(Browns OR Ravens) (injury OR injured OR \"ruled out\" OR questionable OR doubtful OR \"injury report\") -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Ravens (opponent): Lamar Jackson ruled out vs Browns (ankle), Huntley starts; Browns RB Judkins questionable — net supports our Browns side (line may already price it)",
+       "source": "https://x.com/NFL/status/2111151305800737140",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "espn401880795",
+     "event": "Huddersfield Town @ Plymouth Argyle",
+     "sel": "Plymouth Argyle",
+     "queries": [
+      "(\"Plymouth Argyle\" OR #pafc OR Huddersfield) (injury OR injured OR \"ruled out\" OR suspended OR \"team news\")"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Plymouth: Pepple injury boost (BBC Devon); Huddersfield: Wallace (6–8 wks) & Balker ruled out — supports our Plymouth side",
+       "source": "https://x.com/BBCDevon/status/2110979370999288072",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "296601",
+     "event": "Lyon @ Hoffenheim",
+     "sel": "Hoffenheim",
+     "queries": [
+      "(Hoffenheim OR TSG) (verletzt OR Ausfall OR fehlt OR Sperre OR injury OR \"ruled out\")"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Hoffenheim: Hajdari out until ~10 Nov (one CB) — minor, no block",
+       "source": "https://x.com/injuryreportst/status/2110648095931306159",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "295294",
+     "event": "Sacramento Kings @ Los Angeles Clippers",
+     "sel": "Los Angeles Clippers",
+     "queries": [
+      "(Clippers OR \"Kawhi Leonard\" OR Harden) (injury OR injured OR \"ruled out\" OR out OR questionable) -is:retweet",
+      "search_news: Kawhi Leonard Clippers"
+     ],
+     "tool_calls": 2,
+     "findings": [
+      {
+       "type": "none",
+       "text": "No Clippers injury news; Kawhi Leonard was traded to Toronto in the summer (Ingram to LA) — roster change pre-dates models, no new negative",
+       "source": "https://x.com/i/trending/2110493030587203897",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "espn401880217",
+     "event": "Stoke City @ Derby County",
+     "sel": "Derby County",
+     "queries": [
+      "(\"Derby County\" OR #DCFC OR \"Stoke City\") (injury OR injured OR \"ruled out\" OR suspended OR \"team news\")"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Derby: 9-player injury list incl. Zetterström, Clarke, Cashin, Langås (~13 wks) — \"no defenders available\" (blocked again, as AM/MID 16 Oct)",
+       "source": "https://x.com/Champchatpod24/status/2111004224184258877",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "espn401885092",
+     "event": "1. FC Heidenheim 1846 @ VfL Wolfsburg",
+     "sel": "1. FC Heidenheim 1846",
+     "queries": [
+      "(Heidenheim OR Wolfsburg OR FCH OR VfL) (verletzt OR Ausfall OR fehlt OR Sperre OR gesperrt OR Kader)"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "kicker: Heidenheim \"ohne Vier in Wolfsburg?\" — two strikers already out, two more attackers doubtful — our Heidenheim side weakened",
+       "source": "https://x.com/kickDE/status/2110697102271496383",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "espn401878366",
+     "event": "Rangers @ Dundee",
+     "sel": "Draw",
+     "queries": [
+      "((Rangers Dundee) OR (Falkirk Hibernian) OR (Falkirk Hibs)) (injury OR injured OR \"ruled out\" OR suspended OR \"team news\")"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "\"Rangers tackle injury-hit Dundee\" (Scotsman); Rangers only new absentee McCrorie — draw needs Dundee to hold; model pre-dates news → edge unreliable, cannot shrink below $1 → drop",
+       "source": "https://x.com/ScotsmanSport/status/2111049530703790313",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "espn401878365",
+     "event": "Falkirk @ Hibernian",
+     "sel": "Falkirk",
+     "queries": [
+      "((Rangers Dundee) OR (Falkirk Hibernian) OR (Falkirk Hibs)) (injury OR injured OR \"ruled out\" OR suspended OR \"team news\")"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Hibs (opponent): \"double boost but triple setback\" — three new injury concerns (Reedijk) — no negative on our Falkirk side",
+       "source": "https://x.com/HibsObserver_/status/2111112236567507064",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "espn401880794",
+     "event": "AFC Wimbledon @ Sheffield Wednesday",
+     "sel": "Draw",
+     "queries": [
+      "(\"Sheffield Wednesday\" OR #swfc OR \"AFC Wimbledon\" OR \"Burton Albion\" OR Peterborough OR #pufc) (injury OR injured OR \"ruled out\" OR suspended OR \"team news\")"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Sheff Wed: positive injury round-up (Lowe trained, Al-Hamadi fit; R. Santos likely too soon) — no material negative for the draw",
+       "source": "https://x.com/TheStarOwls/status/2111088288618393789",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "espn401841277",
+     "event": "Santos @ Fluminense",
+     "sel": "Fluminense",
+     "queries": [
+      "Fluminense Santos (lesão OR desfalque OR desfalques OR suspenso OR escalação OR poupar OR reservas OR \"time misto\")"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "lineup",
+       "text": "Fluminense: Marcão expected to rest starters vs Santos (Rádio Tupi); Martinelli (knee) out — Elo-only model pre-dates rotation → edge unreliable (as PM 16 Oct)",
+       "source": "https://x.com/radiotupi/status/2111274206356729960",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "espn401880796",
+     "event": "Burton Albion @ Peterborough United",
+     "sel": "Burton Albion",
+     "queries": [
+      "(\"Sheffield Wednesday\" OR #swfc OR \"AFC Wimbledon\" OR \"Burton Albion\" OR Peterborough OR #pufc) (injury OR injured OR \"ruled out\" OR suspended OR \"team news\")"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Peterborough (opponent): Garbett back from injury — minor; no negative found on our Burton side",
+       "source": "https://x.com/BBCCambsSport/status/2111019969333113195",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "espn401861511",
+     "event": "Chongqing Tonglianglong @ Yunnan Yukun",
+     "sel": "Chongqing Tonglianglong",
+     "queries": [
+      "(Chongqing OR Tonglianglong OR 重庆铜梁龙 OR \"Yunnan Yukun\" OR 云南玉昆) (injury OR 伤 OR 伤病 OR 停赛 OR lineup OR 首发)"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "No relevant X posts found for Chongqing Tonglianglong / Yunnan Yukun — no finding"
+    },
+    {
+     "candidate": "espn401841615",
+     "event": "Argentinos Juniors @ Banfield",
+     "sel": "Banfield",
+     "queries": [
+      "(Banfield OR \"Argentinos Juniors\") (lesión OR lesionado OR baja OR bajas OR suspendido OR formación OR convocados)"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Only squad lists (Argentinos convocados) — no material injury/suspension found for Banfield",
+       "source": "https://x.com/LocoxArgentinos/status/2111270297219313684",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "espn401883157",
+     "event": "Castellón @ Las Palmas",
+     "sel": "Las Palmas",
+     "queries": [
+      "(\"UD Las Palmas\" OR \"Las Palmas\" OR Castellón) (lesión OR lesionado OR baja OR bajas OR sancionado OR convocatoria OR convocados)"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "La Provincia: \"la UD Las Palmas del definitivo tiene ocho bajas\" (8 absentees) for Castellón — our Las Palmas side weakened",
+       "source": "https://x.com/laprovincia_es/status/2111002216085557438",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "espn401875890",
+     "event": "Almere City @ FC Emmen",
+     "sel": "Almere City",
+     "queries": [
+      "(\"Almere City\" OR \"FC Emmen\") (blessure OR geblesseerd OR geschorst OR selectie OR opstelling OR injury)"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Omroep Flevoland: \"Almere City FC met fitte selectie op bezoek bij FC Emmen\" — fit squad, no negative",
+       "source": "https://x.com/OmroepFlevoland/status/2111103794100461639",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED"
+    },
+    {
+     "candidate": "espn401899591",
+     "event": "Cremonese @ Pisa",
+     "sel": "Cremonese",
+     "queries": [
+      "(Cremonese OR Pisa OR Carrarese) (infortunio OR infortunati OR squalificato OR squalifica OR assenti OR indisponibili OR convocati)"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "\"Per la Cremonese sono sette gli assenti\" at Pisa (7 absentees); Pisa get Caracciolo & Petagna back — our Cremonese side weakened",
+       "source": "https://x.com/paoloangeloRF/status/2111165940847304937",
+       "time": "2026-10-17 09:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    }
+   ],
+   "ledger": [
+    {
+     "id": "B033",
+     "odds": 3.15,
+     "close": 3.1,
+     "fair": 3.2341,
+     "clv_pct": -2.6
+    },
+    {
+     "id": "B129",
+     "odds": 4.0,
+     "close": 3.3,
+     "fair": 3.496,
+     "clv_pct": 14.42
+    },
+    {
+     "id": "B089",
+     "odds": 2.083,
+     "close": null,
+     "fair": null,
+     "clv_pct": null,
+     "note": "real contract Colombia Primera B (col2-boc-atl) — no book close found; closing_odds stays null"
+    }
+   ],
+   "postmortem": [
+    {
+     "id": "B129",
+     "cause": "variance",
+     "clv_pct": 14.42,
+     "lesson": null
+    },
+    {
+     "id": "B130",
+     "cause": "price+variance",
+     "clv_pct": -5.33,
+     "lesson": null
+    },
+    {
+     "id": "B131",
+     "cause": "price+variance",
+     "clv_pct": -4.19,
+     "lesson": null
+    },
+    {
+     "id": "B123",
+     "cause": "price+variance",
+     "clv_pct": -4.1,
+     "lesson": null
+    },
+    {
+     "id": "B089",
+     "cause": "rule break (data error)",
+     "clv_pct": null,
+     "lesson": "L007"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 80,
+     "src_gt_pools": 800,
+     "tokens_unique": 769,
+     "tokens_with_pairs": 758,
+     "chain_solana": 217,
+     "chain_robinhood": 13,
+     "chain_bsc": 169,
+     "chain_near": 1,
+     "chain_ethereum": 186,
+     "chain_base": 172,
+     "gate_liquidity": 432,
+     "gate_too_new": 67,
+     "gate_pass": 128,
+     "gate_low_activity": 47,
+     "gate_thin_liq_fdv": 78,
+     "gate_pump": 3,
+     "gate_rug_dump": 3,
+     "safety_pass": 86,
+     "safety_fail": 25,
+     "safety_unverified": 17
+    },
+    "passed_n": 86,
+    "bought": [],
+    "why_none": "BTC 81449 < MA20 83418.42"
+   },
+   "research": {
+    "note": "AM paper cycle 2026-10-17 (Saturday)",
+    "btc": 81449,
+    "btc_ma20": 83418.42,
+    "btc_ma50": 81326.28,
+    "tokens_passed": 86,
+    "tokens_bought": 0,
+    "settled": [],
+    "new_bet_ids": [
+     "B135",
+     "B136",
+     "B137",
+     "B138",
+     "B139",
+     "B140",
+     "B141",
+     "B142",
+     "B143",
+     "B144",
+     "B145",
+     "B146"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "titan_blocked": 8,
+    "nova_approved": 12
+   },
+   "analysis": "No open event finished since the 07:25 hourly; LEDGER back-filled DK closes for B033 (CLV -2.60%) and B129 (CLV +14.42%). DOC: B130/B131/B123 lost with negative CLV (price), B129 lost with positive CLV (variance), B089 = Polymarket matching data error (L007). Scan 50493 options → 20 after caps; SHERLOCK/TITAN blocked 8 (injuries/rotation/dup) → 12 bets. BTC below MA20 → no crypto/token buys; Saturday → no stocks.",
+   "plan": "MID 2026-10-17: settle afternoon EU football from ESPN finals + DK closes; stocks closed (weekend); re-check BTC vs MA20 for crypto/tokens; keep open bets ≤35%.",
+   "closed_at": "2026-10-17 09:01 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -16764,7 +18775,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81443,
+  "BTC": 81449,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -16822,8 +18833,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 55.81999969482422,
-  "BTC_MA20": 83592.05,
-  "BTC_MA50": 81263.17,
+  "BTC_MA20": 83418.42,
+  "BTC_MA50": 81326.28,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -16842,18 +18853,18 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 08:21 (Tbilisi)",
+  "time": "2026-10-17 09:01 (Tbilisi)",
   "total_value": 492.43,
   "deposits_usd": 500,
   "vs_deposits_usd": -7.57,
   "vs_deposits_pct": -1.51,
-  "btc_bench": 494.23,
-  "vs_btc_usd": -1.8,
+  "btc_bench": 494.27,
+  "vs_btc_usd": -1.84,
   "bets": {
    "n": 70,
    "wins": 30,
    "losses": 40,
-   "open": 64,
+   "open": 76,
    "pl_usd": -3.83,
    "roi_pct": -5.2
   },
@@ -16922,9 +18933,9 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 212.9791,
-  "scanned": null,
-  "open_bets_usd": 148.84,
+  "cash_usd": 199.0591,
+  "scanned": 50493,
+  "open_bets_usd": 162.76,
   "desk_stats": {
    "FOOTBALL": {
     "n": 40,
@@ -16998,7 +19009,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 08:21 (Tbilisi)",
+ "last_refresh": "2026-10-17 09:01 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -18251,7 +20262,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 08:21 (Tbilisi)",
+  "updated": "2026-10-17 09:01 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -18287,16 +20298,16 @@
     "late_better": 4,
     "equal": 2,
     "avg_clv_pct": -0.52,
-    "no_close": 41,
+    "no_close": 51,
     "lean": "early"
    },
    "NCAAF": {
-    "n": 0,
-    "early_better": 0,
+    "n": 1,
+    "early_better": 1,
     "late_better": 0,
     "equal": 0,
-    "avg_clv_pct": null,
-    "no_close": 19,
+    "avg_clv_pct": 1.61,
+    "no_close": 18,
     "lean": null
    },
    "NBA": {
@@ -18305,16 +20316,16 @@
     "late_better": 0,
     "equal": 0,
     "avg_clv_pct": null,
-    "no_close": 4,
+    "no_close": 5,
     "lean": null
    },
    "Polymarket": {
-    "n": 5,
-    "early_better": 4,
+    "n": 6,
+    "early_better": 5,
     "late_better": 1,
     "equal": 0,
-    "avg_clv_pct": 0.67,
-    "no_close": 37,
+    "avg_clv_pct": 4.1,
+    "no_close": 36,
     "lean": null
    },
    "NFL": {
@@ -18323,7 +20334,7 @@
     "late_better": 0,
     "equal": 0,
     "avg_clv_pct": null,
-    "no_close": 5,
+    "no_close": 6,
     "lean": null
    }
   },
@@ -19040,9 +21051,10 @@
     "open": null,
     "taken": 4.0,
     "taken_time": "2026-10-16 09:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
+    "close": 3.3,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/scoreboard?dates=20261016",
+    "clv_pct": 21.21,
+    "better": "early"
    },
    {
     "id": "B130",
@@ -19110,9 +21122,10 @@
     "open": null,
     "taken": 3.15,
     "taken_time": "2026-10-13 19:14 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
+    "close": 3.1,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261016&groups=80 (event 401862801)",
+    "clv_pct": 1.61,
+    "better": "early"
    },
    {
     "id": "B043",
@@ -19817,18 +21830,154 @@
     "close": null,
     "close_source": null,
     "better": null
+   },
+   {
+    "id": "B135",
+    "sport": "Football",
+    "event": "Modena @ Carrarese",
+    "open": null,
+    "taken": 4.5,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B136",
+    "sport": "Football",
+    "event": "Dundee United @ St Johnstone",
+    "open": null,
+    "taken": 2.65,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B137",
+    "sport": "NFL",
+    "event": "Baltimore Ravens @ Cleveland Browns",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B138",
+    "sport": "Football",
+    "event": "Huddersfield Town @ Plymouth Argyle",
+    "open": null,
+    "taken": 2.55,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B139",
+    "sport": "Football",
+    "event": "Lyon @ Hoffenheim",
+    "open": null,
+    "taken": 2.0,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B140",
+    "sport": "NBA",
+    "event": "Sacramento Kings @ Los Angeles Clippers",
+    "open": null,
+    "taken": 1.658,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B141",
+    "sport": "Football",
+    "event": "Falkirk @ Hibernian",
+    "open": null,
+    "taken": 4.8,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B142",
+    "sport": "Football",
+    "event": "AFC Wimbledon @ Sheffield Wednesday",
+    "open": null,
+    "taken": 4.2,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B143",
+    "sport": "Football",
+    "event": "Burton Albion @ Peterborough United",
+    "open": null,
+    "taken": 3.6,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B144",
+    "sport": "Football",
+    "event": "Chongqing Tonglianglong @ Yunnan Yukun",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B145",
+    "sport": "Football",
+    "event": "Argentinos Juniors @ Banfield",
+    "open": null,
+    "taken": 4.0,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B146",
+    "sport": "Football",
+    "event": "Almere City @ FC Emmen",
+    "open": null,
+    "taken": 2.95,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
    }
   ]
  },
  "ledger_halved_sports": [],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 10,
-   "mean_clv_pct": -4.74
+   "n": 11,
+   "mean_clv_pct": -4.69
   },
   "Polymarket": {
-   "n": 2,
-   "mean_clv_pct": -5.67
+   "n": 6,
+   "mean_clv_pct": -0.81
+  },
+  "NCAAF": {
+   "n": 1,
+   "mean_clv_pct": -2.6
   }
  }
 }
