@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 199.0591,
+ "cash_usd": 212.5391,
  "open_bets": [
   {
    "id": "B043",
@@ -844,35 +844,6 @@
    }
   },
   {
-   "id": "B088",
-   "sport": "Football",
-   "league": "soc_eng.2",
-   "event": "Lincoln City @ Millwall",
-   "kickoff": "2026-10-17 15:30",
-   "selection": "Lincoln City",
-   "odds": 4.9,
-   "book": "ESPN-DK",
-   "p": 0.2616,
-   "implied_pct": 20.4,
-   "edge_pct": 28.19,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.319,
-     "DRatings": 0.338
-    },
-    "mkt": 0.1947,
-    "nbooks": 1,
-    "blend_p": 0.2616,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_1853 id=espn401880215",
-   "reasoning": "scan PASS EV=28.19% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "espn401880215"
-  },
-  {
    "id": "B090",
    "sport": "Polymarket",
    "league": "mls",
@@ -1209,35 +1180,6 @@
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
-  },
-  {
-   "id": "B100",
-   "sport": "Football",
-   "league": "soc_eng.2",
-   "event": "Cardiff City @ Middlesbrough",
-   "kickoff": "2026-10-17 15:30",
-   "selection": "Draw (Cardiff City @ Middlesbrough)",
-   "odds": 4.9,
-   "book": "ESPN-DK",
-   "p": 0.2216,
-   "implied_pct": 20.4,
-   "edge_pct": 8.57,
-   "stake": 2.75,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2657,
-     "DRatings": 0.233
-    },
-    "mkt": 0.1938,
-    "nbooks": 1,
-    "blend_p": 0.2216,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_1853 id=espn401880216",
-   "reasoning": "scan PASS EV=8.57% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "espn401880216"
   },
   {
    "id": "B101",
@@ -2460,66 +2402,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880794",
    "reasoning": "scan PASS EV=7.36% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
    "scan_id": "espn401880794"
-  },
-  {
-   "id": "B143",
-   "sport": "Football",
-   "league": "soc_eng.3",
-   "event": "Burton Albion @ Peterborough United",
-   "kickoff": "2026-10-17 15:30",
-   "selection": "Burton Albion",
-   "odds": 3.6,
-   "book": "ESPN-DK",
-   "p": 0.296,
-   "implied_pct": 27.8,
-   "edge_pct": 6.55,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-17 09:01 (Tbilisi)",
-   "odds_time": "2026-10-17 09:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.34,
-     "EloFD": 0.3211
-    },
-    "mkt": 0.2614,
-    "nbooks": 1,
-    "blend_p": 0.296,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880796",
-   "reasoning": "scan PASS EV=6.55% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
-   "scan_id": "espn401880796"
-  },
-  {
-   "id": "B144",
-   "sport": "Football",
-   "league": "soc_chn.1",
-   "event": "Chongqing Tonglianglong @ Yunnan Yukun",
-   "kickoff": "2026-10-17 15:35",
-   "selection": "Chongqing Tonglianglong",
-   "odds": 5.0,
-   "book": "ESPN-DK",
-   "p": 0.2126,
-   "implied_pct": 20.0,
-   "edge_pct": 6.28,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-17 09:01 (Tbilisi)",
-   "odds_time": "2026-10-17 09:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.27,
-     "EloFD": 0.2018
-    },
-    "mkt": 0.1892,
-    "nbooks": 1,
-    "blend_p": 0.2126,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861511",
-   "reasoning": "scan PASS EV=6.28% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
-   "scan_id": "espn401861511"
   },
   {
    "id": "B145",
@@ -4663,6 +4545,156 @@
    "clv_pct": -2.6,
    "closing_book": "DraftKings (ESPN pickcenter) Tulane +210 / Memphis −258",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862801"
+  },
+  {
+   "id": "B088",
+   "sport": "Football",
+   "league": "soc_eng.2",
+   "event": "Lincoln City @ Millwall",
+   "kickoff": "2026-10-17 15:30",
+   "selection": "Lincoln City",
+   "odds": 4.9,
+   "book": "ESPN-DK",
+   "p": 0.2616,
+   "implied_pct": 20.4,
+   "edge_pct": 28.19,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.319,
+     "DRatings": 0.338
+    },
+    "mkt": 0.1947,
+    "nbooks": 1,
+    "blend_p": 0.2616,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_1853 id=espn401880215",
+   "reasoning": "scan PASS EV=28.19% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "espn401880215",
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-17 17:27 (Tbilisi)",
+   "score": "Millwall 2, Lincoln City 2 (FT)",
+   "final_score": "Millwall 2, Lincoln City 2",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261017 (event 401880215)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -130, \"spreadOdds\": -145.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc"
+  },
+  {
+   "id": "B100",
+   "sport": "Football",
+   "league": "soc_eng.2",
+   "event": "Cardiff City @ Middlesbrough",
+   "kickoff": "2026-10-17 15:30",
+   "selection": "Draw (Cardiff City @ Middlesbrough)",
+   "odds": 4.9,
+   "book": "ESPN-DK",
+   "p": 0.2216,
+   "implied_pct": 20.4,
+   "edge_pct": 8.57,
+   "stake": 2.75,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2657,
+     "DRatings": 0.233
+    },
+    "mkt": 0.1938,
+    "nbooks": 1,
+    "blend_p": 0.2216,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_1853 id=espn401880216",
+   "reasoning": "scan PASS EV=8.57% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "espn401880216",
+   "result": "won",
+   "pl_usd": 10.73,
+   "settled_at": "2026-10-17 17:27 (Tbilisi)",
+   "score": "Middlesbrough 2, Cardiff City 2 (FT)",
+   "final_score": "Middlesbrough 2, Cardiff City 2",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261017 (event 401880216)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -195, \"spreadOdds\": 115.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/socc"
+  },
+  {
+   "id": "B143",
+   "sport": "Football",
+   "league": "soc_eng.3",
+   "event": "Burton Albion @ Peterborough United",
+   "kickoff": "2026-10-17 15:30",
+   "selection": "Burton Albion",
+   "odds": 3.6,
+   "book": "ESPN-DK",
+   "p": 0.296,
+   "implied_pct": 27.8,
+   "edge_pct": 6.55,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.34,
+     "EloFD": 0.3211
+    },
+    "mkt": 0.2614,
+    "nbooks": 1,
+    "blend_p": 0.296,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880796",
+   "reasoning": "scan PASS EV=6.55% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401880796",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-17 17:27 (Tbilisi)",
+   "score": "Peterborough United 2, Burton Albion 2 (FT)",
+   "final_score": "Peterborough United 2, Burton Albion 2",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard?dates=20261017 (event 401880796)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -125, \"spreadOdds\": -135.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc"
+  },
+  {
+   "id": "B144",
+   "sport": "Football",
+   "league": "soc_chn.1",
+   "event": "Chongqing Tonglianglong @ Yunnan Yukun",
+   "kickoff": "2026-10-17 15:35",
+   "selection": "Chongqing Tonglianglong",
+   "odds": 5.0,
+   "book": "ESPN-DK",
+   "p": 0.2126,
+   "implied_pct": 20.0,
+   "edge_pct": 6.28,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.27,
+     "EloFD": 0.2018
+    },
+    "mkt": 0.1892,
+    "nbooks": 1,
+    "blend_p": 0.2126,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861511",
+   "reasoning": "scan PASS EV=6.28% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401861511",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-17 17:27 (Tbilisi)",
+   "score": "Yunnan Yukun 1, Chongqing Tonglianglong 1 (FT)",
+   "final_score": "Yunnan Yukun 1, Chongqing Tonglianglong 1",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/scoreboard?dates=20261017 (event 401861511)",
+   "settle_source": "ESPN status FT (completed)",
+   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -130, \"spreadOdds\": -140.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc"
   }
  ],
  "positions": [
@@ -4677,7 +4709,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81436.0
+   "last_price": 81388.0
   },
   {
    "symbol": "SPY",
@@ -18775,7 +18807,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81436.0,
+  "BTC": 81388.0,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -18853,20 +18885,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 16:26 (Tbilisi)",
-  "total_value": 492.43,
+  "time": "2026-10-17 17:27 (Tbilisi)",
+  "total_value": 496.15,
   "deposits_usd": 500,
-  "vs_deposits_usd": -7.57,
-  "vs_deposits_pct": -1.51,
-  "btc_bench": 494.19,
-  "vs_btc_usd": -1.76,
+  "vs_deposits_usd": -3.85,
+  "vs_deposits_pct": -0.77,
+  "btc_bench": 493.9,
+  "vs_btc_usd": 2.25,
   "bets": {
-   "n": 70,
-   "wins": 30,
-   "losses": 40,
-   "open": 76,
-   "pl_usd": -3.83,
-   "roi_pct": -5.2
+   "n": 74,
+   "wins": 31,
+   "losses": 43,
+   "open": 72,
+   "pl_usd": -0.1,
+   "roi_pct": -0.1
   },
   "by_sport": {
    "NHL": {
@@ -18891,11 +18923,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 40,
-    "wins": 17,
-    "losses": 23,
-    "pl_usd": -2.58,
-    "roi_pct": -7.0
+    "n": 44,
+    "wins": 18,
+    "losses": 26,
+    "pl_usd": 1.15,
+    "roi_pct": 2.5
    },
    "NCAAF": {
     "n": 6,
@@ -18921,10 +18953,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.48,
-   "unrealized_usd": -0.52,
+   "value_usd": 14.47,
+   "unrealized_usd": -0.53,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.71
+   "total_pl_usd": -2.72
   },
   "stocks": {
    "open_n": 15,
@@ -18933,16 +18965,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 199.0591,
+  "cash_usd": 212.5391,
   "scanned": 50493,
-  "open_bets_usd": 162.76,
+  "open_bets_usd": 153.01,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 40,
-    "wins": 17,
-    "losses": 23,
-    "pl_usd": -2.58,
-    "roi_pct": -7.0
+    "n": 44,
+    "wins": 18,
+    "losses": 26,
+    "pl_usd": 1.15,
+    "roi_pct": 2.5
    },
    "BASKETBALL": {
     "n": 1,
@@ -19009,7 +19041,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 16:26 (Tbilisi)",
+ "last_refresh": "2026-10-17 17:27 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -20262,7 +20294,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 16:26 (Tbilisi)",
+  "updated": "2026-10-17 17:27 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -21128,6 +21160,50 @@
     "better": "early"
    },
    {
+    "id": "B088",
+    "sport": "Football",
+    "event": "Lincoln City @ Millwall",
+    "open": null,
+    "taken": 4.9,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B100",
+    "sport": "Football",
+    "event": "Cardiff City @ Middlesbrough",
+    "open": null,
+    "taken": 4.9,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B143",
+    "sport": "Football",
+    "event": "Burton Albion @ Peterborough United",
+    "open": null,
+    "taken": 3.6,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B144",
+    "sport": "Football",
+    "event": "Chongqing Tonglianglong @ Yunnan Yukun",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B043",
     "sport": "NCAAF",
     "event": "Cincinnati Bearcats @ West Virginia Mountaineers",
@@ -21414,17 +21490,6 @@
     "better": null
    },
    {
-    "id": "B088",
-    "sport": "Football",
-    "event": "Lincoln City @ Millwall",
-    "open": null,
-    "taken": 4.9,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B090",
     "sport": "Polymarket",
     "event": "Vancouver Whitecaps @ Austin FC",
@@ -21518,17 +21583,6 @@
     "event": "Barnet @ Tranmere Rovers",
     "open": null,
     "taken": 2.128,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B100",
-    "sport": "Football",
-    "event": "Cardiff City @ Middlesbrough",
-    "open": null,
-    "taken": 4.9,
     "taken_time": null,
     "close": null,
     "close_source": null,
@@ -21914,28 +21968,6 @@
     "event": "AFC Wimbledon @ Sheffield Wednesday",
     "open": null,
     "taken": 4.2,
-    "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B143",
-    "sport": "Football",
-    "event": "Burton Albion @ Peterborough United",
-    "open": null,
-    "taken": 3.6,
-    "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B144",
-    "sport": "Football",
-    "event": "Chongqing Tonglianglong @ Yunnan Yukun",
-    "open": null,
-    "taken": 5.0,
     "taken_time": "2026-10-17 09:01 (Tbilisi)",
     "close": null,
     "close_source": null,
