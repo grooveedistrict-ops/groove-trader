@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 241.0221,
+ "cash_usd": 253.6721,
  "open_bets": [
   {
    "id": "B043",
@@ -1188,46 +1188,6 @@
    "scan_id": 294259
   },
   {
-   "id": "B103",
-   "sport": "Polymarket",
-   "league": "soc_eng.2",
-   "event": "Portsmouth @ Norwich City",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "Portsmouth",
-   "odds": 5.0,
-   "book": "Polymarket ask",
-   "p": 0.2162,
-   "implied_pct": 20.0,
-   "edge_pct": 8.1,
-   "stake": 2.53,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2677,
-     "DRatings": 0.207
-    },
-    "mkt": 0.1951,
-    "nbooks": 1,
-    "blend_p": 0.2162,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=elc-nor-por-2026-10-17-por",
-   "reasoning": "scan PASS EV=8.1% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "pm:elc-nor-por-2026-10-17-por",
-   "polymarket_slug": "elc-nor-por-2026-10-17-por",
-   "outcome_price": 0.2,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Norwich City FC vs. Portsmouth FC",
-    "pm_league": "ENG2",
-    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B105",
    "sport": "Polymarket",
    "league": "ligue1",
@@ -1662,47 +1622,6 @@
     "pm_title": "Fagiano Okayama vs. Vissel Kōbe",
     "pm_league": "JPN1",
     "pm_kickoff_utc": "2026-10-18 04:55:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
-   "id": "B121",
-   "sport": "Polymarket",
-   "league": "soc_eng.4",
-   "event": "York City @ Newport County",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "York City",
-   "odds": 2.0,
-   "book": "Polymarket ask",
-   "p": 0.5458,
-   "implied_pct": 50.0,
-   "edge_pct": 9.16,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-16 00:07 (Tbilisi)",
-   "odds_time": "2026-10-16 00:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5996
-    },
-    "mkt": 0.492,
-    "nbooks": 1,
-    "blend_p": 0.5458,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el2-new-yor-2026-10-17-yor",
-   "reasoning": "scan PASS EV=9.16% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
-   "scan_id": "pm:el2-new-yor-2026-10-17-yor",
-   "polymarket_slug": "el2-new-yor-2026-10-17-yor",
-   "outcome_price": 0.5,
-   "elo_only": true,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Newport County AFC vs. York City FC",
-    "pm_league": "ENG4",
-    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
@@ -4896,6 +4815,101 @@
    "final_score": "Padova 1, Virtus Entella 2",
    "result_source": "https://gamma-api.polymarket.com/markets?slug=itsb-pad-ent-2026-10-17-pad&closed=true",
    "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"] (closed 2026-10-17 17:09 UTC); ESPN ita.2 event 401899592 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B103",
+   "sport": "Polymarket",
+   "league": "soc_eng.2",
+   "event": "Portsmouth @ Norwich City",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Portsmouth",
+   "odds": 5.0,
+   "book": "Polymarket ask",
+   "p": 0.2162,
+   "implied_pct": 20.0,
+   "edge_pct": 8.1,
+   "stake": 2.53,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2677,
+     "DRatings": 0.207
+    },
+    "mkt": 0.1951,
+    "nbooks": 1,
+    "blend_p": 0.2162,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=elc-nor-por-2026-10-17-por",
+   "reasoning": "scan PASS EV=8.1% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "pm:elc-nor-por-2026-10-17-por",
+   "polymarket_slug": "elc-nor-por-2026-10-17-por",
+   "outcome_price": 0.2,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Norwich City FC vs. Portsmouth FC",
+    "pm_league": "ENG2",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 10.12,
+   "settled_at": "2026-10-17 22:19 (Tbilisi)",
+   "score": "Norwich City 0, Portsmouth 1 (FT)",
+   "final_score": "Norwich City 0, Portsmouth 1",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=elc-nor-por-2026-10-17-por&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"1\",\"0\"] (closed 2026-10-17 18:10 UTC); ESPN eng.2 event 401880214 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B121",
+   "sport": "Polymarket",
+   "league": "soc_eng.4",
+   "event": "York City @ Newport County",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "York City",
+   "odds": 2.0,
+   "book": "Polymarket ask",
+   "p": 0.5458,
+   "implied_pct": 50.0,
+   "edge_pct": 9.16,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-16 00:07 (Tbilisi)",
+   "odds_time": "2026-10-16 00:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5996
+    },
+    "mkt": 0.492,
+    "nbooks": 1,
+    "blend_p": 0.5458,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el2-new-yor-2026-10-17-yor",
+   "reasoning": "scan PASS EV=9.16% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
+   "scan_id": "pm:el2-new-yor-2026-10-17-yor",
+   "polymarket_slug": "el2-new-yor-2026-10-17-yor",
+   "outcome_price": 0.5,
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Newport County AFC vs. York City FC",
+    "pm_league": "ENG4",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-17 22:19 (Tbilisi)",
+   "score": "Newport County 1, York City 1 (FT)",
+   "final_score": "Newport County 1, York City 1",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=el2-new-yor-2026-10-17-yor&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"] (closed 2026-10-17 17:35 UTC); ESPN eng.4 event 401881319 STATUS_FULL_TIME"
   }
  ],
  "positions": [
@@ -4910,7 +4924,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81190
+   "last_price": 81444
   },
   {
    "symbol": "SPY",
@@ -20063,7 +20077,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81190,
+  "BTC": 81444,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -20141,20 +20155,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 21:18 (Tbilisi)",
-  "total_value": 504.62,
+  "time": "2026-10-17 22:20 (Tbilisi)",
+  "total_value": 509.78,
   "deposits_usd": 500,
-  "vs_deposits_usd": 4.62,
-  "vs_deposits_pct": 0.92,
-  "btc_bench": 492.7,
-  "vs_btc_usd": 11.92,
+  "vs_deposits_usd": 9.78,
+  "vs_deposits_pct": 1.96,
+  "btc_bench": 494.24,
+  "vs_btc_usd": 15.54,
   "bets": {
-   "n": 86,
-   "wins": 35,
-   "losses": 51,
-   "open": 61,
-   "pl_usd": 8.4,
-   "roi_pct": 8.1
+   "n": 88,
+   "wins": 36,
+   "losses": 52,
+   "open": 59,
+   "pl_usd": 13.52,
+   "roi_pct": 12.1
   },
   "by_sport": {
    "NHL": {
@@ -20200,19 +20214,19 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 16,
-    "wins": 4,
-    "losses": 12,
-    "pl_usd": -11.8,
-    "roi_pct": -39.8
+    "n": 18,
+    "wins": 5,
+    "losses": 13,
+    "pl_usd": -6.68,
+    "roi_pct": -18.0
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.44,
-   "unrealized_usd": -0.56,
+   "value_usd": 14.48,
+   "unrealized_usd": -0.52,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.75
+   "total_pl_usd": -2.71
   },
   "stocks": {
    "open_n": 15,
@@ -20221,9 +20235,9 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 241.0221,
+  "cash_usd": 253.6721,
   "scanned": 52073,
-  "open_bets_usd": 133.03,
+  "open_bets_usd": 125.5,
   "desk_stats": {
    "FOOTBALL": {
     "n": 51,
@@ -20268,11 +20282,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 16,
-    "wins": 4,
-    "losses": 12,
-    "pl_usd": -11.8,
-    "roi_pct": -39.8
+    "n": 18,
+    "wins": 5,
+    "losses": 13,
+    "pl_usd": -6.68,
+    "roi_pct": -18.0
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -20297,7 +20311,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 21:18 (Tbilisi)",
+ "last_refresh": "2026-10-17 22:20 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -21550,7 +21564,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 21:18 (Tbilisi)",
+  "updated": "2026-10-17 22:20 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -22604,6 +22618,28 @@
     "better": null
    },
    {
+    "id": "B103",
+    "sport": "Polymarket",
+    "event": "Portsmouth @ Norwich City",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B121",
+    "sport": "Polymarket",
+    "event": "York City @ Newport County",
+    "open": null,
+    "taken": 2.0,
+    "taken_time": "2026-10-16 00:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B043",
     "sport": "NCAAF",
     "event": "Cincinnati Bearcats @ West Virginia Mountaineers",
@@ -22989,17 +23025,6 @@
     "better": null
    },
    {
-    "id": "B103",
-    "sport": "Polymarket",
-    "event": "Portsmouth @ Norwich City",
-    "open": null,
-    "taken": 5.0,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B105",
     "sport": "Polymarket",
     "event": "Auxerre @ Le Havre",
@@ -23126,17 +23151,6 @@
     "event": "Vissel Kobe @ Fagiano Okayama",
     "open": null,
     "taken": 2.5,
-    "taken_time": "2026-10-16 00:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B121",
-    "sport": "Polymarket",
-    "event": "York City @ Newport County",
-    "open": null,
-    "taken": 2.0,
     "taken_time": "2026-10-16 00:07 (Tbilisi)",
     "close": null,
     "close_source": null,
