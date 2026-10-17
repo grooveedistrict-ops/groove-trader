@@ -862,37 +862,6 @@
    "scan_id": "espn401880215"
   },
   {
-   "id": "B089",
-   "sport": "Polymarket",
-   "league": "soc_arg.1",
-   "event": "Talleres (Córdoba) @ Boca Juniors",
-   "kickoff": "2026-10-17 04:30",
-   "selection": "Boca Juniors",
-   "odds": 2.083,
-   "book": "Polymarket ask",
-   "p": 0.6074,
-   "implied_pct": 48.0,
-   "edge_pct": 26.54,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.6582
-    },
-    "mkt": 0.5567,
-    "nbooks": 1,
-    "blend_p": 0.6074,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=col2-boc-atl-2026-10-16-boc",
-   "reasoning": "scan PASS EV=26.54% models=['EloFD'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "pm:col2-boc-atl-2026-10-16-boc",
-   "polymarket_slug": "col2-boc-atl-2026-10-16-boc",
-   "outcome_price": 0.48,
-   "elo_only": true
-  },
-  {
    "id": "B090",
    "sport": "Polymarket",
    "league": "mls",
@@ -3988,6 +3957,47 @@
    "closing_note": "DraftKings close (ESPN pickcenter) H/D/A +190/+245/+145; no-vig fair 3.024; recorded PM 2026-10-17 01:24 (Tbilisi)",
    "opening_odds": 2.9,
    "opening_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880218 (DraftKings open)"
+  },
+  {
+   "id": "B089",
+   "sport": "Polymarket",
+   "league": "soc_arg.1",
+   "event": "Talleres (Córdoba) @ Boca Juniors",
+   "kickoff": "2026-10-17 04:30",
+   "selection": "Boca Juniors",
+   "odds": 2.083,
+   "book": "Polymarket ask",
+   "p": 0.6074,
+   "implied_pct": 48.0,
+   "edge_pct": 26.54,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.6582
+    },
+    "mkt": 0.5567,
+    "nbooks": 1,
+    "blend_p": 0.6074,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=col2-boc-atl-2026-10-16-boc",
+   "reasoning": "scan PASS EV=26.54% models=['EloFD'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "pm:col2-boc-atl-2026-10-16-boc",
+   "polymarket_slug": "col2-boc-atl-2026-10-16-boc",
+   "outcome_price": 0.48,
+   "elo_only": true,
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-17 06:23 (Tbilisi)",
+   "score": "Polymarket resolved Yes=0 No=1 (closed 2026-10-17 01:56 UTC): Boca Juniors de Cali did not win vs Atletico FC Cali (Colombia Primera B, 2026-10-16 22:00 UTC)",
+   "final_score": "Polymarket col2-boc-atl-2026-10-16-boc resolved No",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=col2-boc-atl-2026-10-16-boc&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"]",
+   "closing_odds": null,
+   "clv_pct": null,
+   "mismatch_note": "DATA ERROR: bet was recorded as \"Talleres @ Boca Juniors\" (Argentina, ESPN 401841627, Boca won 2–1) but the Polymarket contract actually held was Boca Juniors de Cali (Colombia Primera B) to win; settled per the real contract held. Scanner team-matching bug (Elo-only) — needs a POST-MORTEM lesson."
   }
  ],
  "positions": [
@@ -4002,7 +4012,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81448
+   "last_price": 81459
   },
   {
    "symbol": "SPY",
@@ -16445,7 +16455,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81448,
+  "BTC": 81459,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -16523,20 +16533,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 05:24 (Tbilisi)",
-  "total_value": 496.36,
+  "time": "2026-10-17 06:23 (Tbilisi)",
+  "total_value": 491.36,
   "deposits_usd": 500,
-  "vs_deposits_usd": -3.64,
-  "vs_deposits_pct": -0.73,
-  "btc_bench": 494.26,
-  "vs_btc_usd": 2.1,
+  "vs_deposits_usd": -8.64,
+  "vs_deposits_pct": -1.73,
+  "btc_bench": 494.33,
+  "vs_btc_usd": -2.97,
   "bets": {
-   "n": 68,
+   "n": 69,
    "wins": 29,
-   "losses": 39,
-   "open": 66,
-   "pl_usd": 0.1,
-   "roi_pct": 0.2
+   "losses": 40,
+   "open": 65,
+   "pl_usd": -4.9,
+   "roi_pct": -6.7
   },
   "by_sport": {
    "NHL": {
@@ -16582,19 +16592,19 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 10,
+    "n": 11,
     "wins": 3,
-    "losses": 7,
-    "pl_usd": 1.62,
-    "roi_pct": 11.6
+    "losses": 8,
+    "pl_usd": -3.38,
+    "roi_pct": -17.8
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.48,
-   "unrealized_usd": -0.52,
+   "value_usd": 14.49,
+   "unrealized_usd": -0.51,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.71
+   "total_pl_usd": -2.7
   },
   "stocks": {
    "open_n": 15,
@@ -16605,7 +16615,7 @@
   },
   "cash_usd": 211.4091,
   "scanned": null,
-  "open_bets_usd": 154.34,
+  "open_bets_usd": 149.34,
   "desk_stats": {
    "FOOTBALL": {
     "n": 40,
@@ -16650,11 +16660,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 10,
+    "n": 11,
     "wins": 3,
-    "losses": 7,
-    "pl_usd": 1.62,
-    "roi_pct": 11.6
+    "losses": 8,
+    "pl_usd": -3.38,
+    "roi_pct": -17.8
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -16679,7 +16689,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 05:24 (Tbilisi)",
+ "last_refresh": "2026-10-17 06:23 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -17932,7 +17942,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 05:24 (Tbilisi)",
+  "updated": "2026-10-17 06:23 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -18774,6 +18784,17 @@
     "better": "equal"
    },
    {
+    "id": "B089",
+    "sport": "Polymarket",
+    "event": "Talleres (Córdoba) @ Boca Juniors",
+    "open": null,
+    "taken": 2.083,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B033",
     "sport": "NCAAF",
     "event": "Memphis Tigers @ Tulane Green Wave",
@@ -19076,17 +19097,6 @@
     "event": "Lincoln City @ Millwall",
     "open": null,
     "taken": 4.9,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B089",
-    "sport": "Polymarket",
-    "event": "Talleres (Córdoba) @ Boca Juniors",
-    "open": null,
-    "taken": 2.083,
     "taken_time": null,
     "close": null,
     "close_source": null,
