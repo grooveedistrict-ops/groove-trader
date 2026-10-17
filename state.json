@@ -408,6 +408,11 @@
     "price_now": 0.745,
     "price_bet": 0.655,
     "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031"
+   },
+   "match_check": {
+    "status": "n/a",
+    "reason": "non-sports market",
+    "checked": "2026-10-17 06:34 (Tbilisi)"
    }
   },
   {
@@ -615,6 +620,11 @@
     "price_now": 0.53,
     "price_bet": 0.525,
     "slug": "will-the-democrats-win-the-nevada-governor-race-in-2026"
+   },
+   "match_check": {
+    "status": "n/a",
+    "reason": "non-sports market",
+    "checked": "2026-10-17 06:34 (Tbilisi)"
    }
   },
   {
@@ -645,6 +655,11 @@
     "price_now": 0.4395,
     "price_bet": 0.44,
     "slug": "will-marine-le-pen-win-the-2027-french-presidential-election"
+   },
+   "match_check": {
+    "status": "n/a",
+    "reason": "non-sports market",
+    "checked": "2026-10-17 06:34 (Tbilisi)"
    }
   },
   {
@@ -675,6 +690,11 @@
     "price_now": 0.3695,
     "price_bet": 0.383,
     "slug": "will-harry-kane-win-the-2026-ballon-dor"
+   },
+   "match_check": {
+    "status": "n/a",
+    "reason": "non-sports market",
+    "checked": "2026-10-17 06:34 (Tbilisi)"
    }
   },
   {
@@ -705,6 +725,12 @@
     "price_now": 0.39,
     "price_bet": 0.395,
     "slug": "netanyahu-out-before-2027-684-719-226-657"
+   },
+   "match_check": {
+    "status": "n/a",
+    "reason": "non-sports market (gamma slug lookup returned nothing); no team matching applies",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
    }
   },
   {
@@ -735,6 +761,12 @@
     "price_now": 0.375,
     "price_bet": 0.375,
     "slug": "2026-balance-of-power-d-senate-d-house-949"
+   },
+   "match_check": {
+    "status": "n/a",
+    "reason": "non-sports market (gamma slug lookup returned nothing); no team matching applies",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
    }
   },
   {
@@ -830,7 +862,16 @@
    },
    "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=epl-ful-hul-2026-10-17-ful ; https://www.dratings.com/predictor/english-premier-league-predictions/",
    "odds_time": "2026-10-15 09:16 (Tbilisi)",
-   "status": "open"
+   "status": "open",
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Fulham FC vs. Hull City AFC",
+    "pm_league": "ENG1",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B088",
@@ -890,7 +931,16 @@
    "reasoning": "scan PASS EV=22.2% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:mls-aus-vwh-2026-10-17-aus",
    "polymarket_slug": "mls-aus-vwh-2026-10-17-aus",
-   "outcome_price": 0.2
+   "outcome_price": 0.2,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Austin FC vs. Vancouver Whitecaps FC",
+    "pm_league": "USA1",
+    "pm_kickoff_utc": "2026-10-18 00:30:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B091",
@@ -950,7 +1000,16 @@
    "reasoning": "scan PASS EV=16.06% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:sea-par-tor-2026-10-19-par",
    "polymarket_slug": "sea-par-tor-2026-10-19-par",
-   "outcome_price": 0.31
+   "outcome_price": 0.31,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Parma Calcio 1913 vs. Torino FC",
+    "pm_league": "ITA1",
+    "pm_kickoff_utc": "2026-10-19 18:45:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B093",
@@ -981,7 +1040,16 @@
    "scan_id": "pm:mex-san-que-2026-10-17-que",
    "polymarket_slug": "mex-san-que-2026-10-17-que",
    "outcome_price": 0.35,
-   "elo_only": true
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Club Santos Laguna vs. Querétaro FC",
+    "pm_league": "MEX1",
+    "pm_kickoff_utc": "2026-10-17 23:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B094",
@@ -1041,7 +1109,16 @@
    "scan_id": "pm:aut-wac-wsg-2026-10-18-wac",
    "polymarket_slug": "aut-wac-wsg-2026-10-18-wac",
    "outcome_price": 0.4,
-   "elo_only": true
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Wolfsberger AC vs. WSG Tirol",
+    "pm_league": "AUT1",
+    "pm_kickoff_utc": "2026-10-18 12:30:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B096",
@@ -1072,7 +1149,16 @@
    "reasoning": "scan PASS EV=10.36% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:fl1-lor-asm-2026-10-18-lor",
    "polymarket_slug": "fl1-lor-asm-2026-10-18-lor",
-   "outcome_price": 0.25
+   "outcome_price": 0.25,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "FC Lorient vs. AS Monaco FC",
+    "pm_league": "FRA1",
+    "pm_kickoff_utc": "2026-10-18 15:15:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B097",
@@ -1103,7 +1189,16 @@
    "scan_id": "pm:arg-pla-lan-2026-10-17-lan",
    "polymarket_slug": "arg-pla-lan-2026-10-17-lan",
    "outcome_price": 0.34,
-   "elo_only": true
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "CA Platense vs. CA Lanús",
+    "pm_league": "ARG1",
+    "pm_kickoff_utc": "2026-10-17 20:30:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B098",
@@ -1134,7 +1229,16 @@
    "scan_id": "pm:el2-tra-bar-2026-10-17-bar",
    "polymarket_slug": "el2-tra-bar-2026-10-17-bar",
    "outcome_price": 0.47,
-   "elo_only": true
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Tranmere Rovers FC vs. Barnet FC",
+    "pm_league": "ENG4",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B100",
@@ -1194,7 +1298,16 @@
    "reasoning": "scan PASS EV=8.36% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:sea-mil-ata-2026-10-18-ata",
    "polymarket_slug": "sea-mil-ata-2026-10-18-ata",
-   "outcome_price": 0.22
+   "outcome_price": 0.22,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "AC Milan vs. Atalanta BC",
+    "pm_league": "ITA1",
+    "pm_kickoff_utc": "2026-10-18 16:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B102",
@@ -1254,7 +1367,16 @@
    "reasoning": "scan PASS EV=8.1% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
    "scan_id": "pm:elc-nor-por-2026-10-17-por",
    "polymarket_slug": "elc-nor-por-2026-10-17-por",
-   "outcome_price": 0.2
+   "outcome_price": 0.2,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Norwich City FC vs. Portsmouth FC",
+    "pm_league": "ENG2",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B104",
@@ -1285,7 +1407,16 @@
    "reasoning": "scan PASS EV=7.96% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:bun-wer-scp-2026-10-17-scp",
    "polymarket_slug": "bun-wer-scp-2026-10-17-scp",
-   "outcome_price": 0.23
+   "outcome_price": 0.23,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "SV Werder Bremen vs. SC Paderborn 07",
+    "pm_league": "GER1",
+    "pm_kickoff_utc": "2026-10-17 13:30:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B105",
@@ -1316,7 +1447,16 @@
    "reasoning": "scan PASS EV=7.83% models=['EloFD', 'DRatings'] nbooks=4; TITAN BUY after NEWS",
    "scan_id": "pm:fl1-hac-aja-2026-10-18-aja",
    "polymarket_slug": "fl1-hac-aja-2026-10-18-aja",
-   "outcome_price": 0.3
+   "outcome_price": 0.3,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Le Havre AC vs. AJ Auxerre",
+    "pm_league": "FRA1",
+    "pm_kickoff_utc": "2026-10-18 15:15:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B106",
@@ -1347,7 +1487,16 @@
    "reasoning": "scan PASS EV=6.74% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:bun-s04-mai-2026-10-17-s04",
    "polymarket_slug": "bun-s04-mai-2026-10-17-s04",
-   "outcome_price": 0.31
+   "outcome_price": 0.31,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "FC Schalke 04 vs. 1. FSV Mainz 05",
+    "pm_league": "GER1",
+    "pm_kickoff_utc": "2026-10-17 13:30:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B107",
@@ -1378,7 +1527,16 @@
    "reasoning": "scan PASS EV=6.71% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
    "scan_id": "pm:elc-bri-she-2026-10-17-she",
    "polymarket_slug": "elc-bri-she-2026-10-17-she",
-   "outcome_price": 0.28
+   "outcome_price": 0.28,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Bristol City FC vs. Sheffield United FC",
+    "pm_league": "ENG2",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B109",
@@ -1438,7 +1596,16 @@
    "reasoning": "scan PASS EV=5.8% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:epl-bou-sun-2026-10-18-bou",
    "polymarket_slug": "epl-bou-sun-2026-10-18-bou",
-   "outcome_price": 0.46
+   "outcome_price": 0.46,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "AFC Bournemouth vs. Sunderland AFC",
+    "pm_league": "ENG1",
+    "pm_kickoff_utc": "2026-10-18 13:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B112",
@@ -1469,7 +1636,16 @@
    "reasoning": "scan PASS EV=5.3% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:lal-esp-mad-2026-10-17-esp",
    "polymarket_slug": "lal-esp-mad-2026-10-17-esp",
-   "outcome_price": 0.2
+   "outcome_price": 0.2,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "RCD Espanyol de Barcelona vs. Club Atlético de Madrid",
+    "pm_league": "ESP1",
+    "pm_kickoff_utc": "2026-10-17 12:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B113",
@@ -1529,7 +1705,16 @@
    "reasoning": "scan PASS EV=5.11% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:mls-fcc-clb-2026-10-18-fcc",
    "polymarket_slug": "mls-fcc-clb-2026-10-18-fcc",
-   "outcome_price": 0.45
+   "outcome_price": 0.45,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "FC Cincinnati vs. Columbus Crew",
+    "pm_league": "USA1",
+    "pm_kickoff_utc": "2026-10-18 21:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B115",
@@ -1589,7 +1774,16 @@
    "reasoning": "scan PASS EV=4.15% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:fl1-lil-sbr-2026-10-17-lil",
    "polymarket_slug": "fl1-lil-sbr-2026-10-17-lil",
-   "outcome_price": 0.52
+   "outcome_price": 0.52,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Lille OSC vs. Stade Brestois 29",
+    "pm_league": "FRA1",
+    "pm_kickoff_utc": "2026-10-17 18:45:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B117",
@@ -1649,7 +1843,16 @@
    "reasoning": "scan PASS EV=3.13% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": "pm:lal-cel-ala-2026-10-18-cel",
    "polymarket_slug": "lal-cel-ala-2026-10-18-cel",
-   "outcome_price": 0.45
+   "outcome_price": 0.45,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "RC Celta de Vigo vs. Deportivo Alavés",
+    "pm_league": "ESP1",
+    "pm_kickoff_utc": "2026-10-18 14:15:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B119",
@@ -1682,7 +1885,16 @@
    "polymarket_slug": "es2-bur-sab-2026-10-18-bur",
    "outcome_price": 0.37,
    "elo_only": true,
-   "tb1_dog_25_40": true
+   "tb1_dog_25_40": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Burgos CF vs. CE Sabadell FC",
+    "pm_league": "ESP2",
+    "pm_kickoff_utc": "2026-10-18 19:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B120",
@@ -1714,7 +1926,16 @@
    "scan_id": "pm:jap-fag-vis-2026-10-18-vis",
    "polymarket_slug": "jap-fag-vis-2026-10-18-vis",
    "outcome_price": 0.4,
-   "elo_only": true
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Fagiano Okayama vs. Vissel Kōbe",
+    "pm_league": "JPN1",
+    "pm_kickoff_utc": "2026-10-18 04:55:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B121",
@@ -1746,7 +1967,16 @@
    "scan_id": "pm:el2-new-yor-2026-10-17-yor",
    "polymarket_slug": "el2-new-yor-2026-10-17-yor",
    "outcome_price": 0.5,
-   "elo_only": true
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Newport County AFC vs. York City FC",
+    "pm_league": "ENG4",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B122",
@@ -1779,7 +2009,16 @@
    "polymarket_slug": "fr2-raf-mon-2026-10-19-raf",
    "outcome_price": 0.34,
    "elo_only": true,
-   "tb1_dog_25_40": true
+   "tb1_dog_25_40": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Rodez Aveyron Football vs. Montpellier HSC",
+    "pm_league": "FRA2",
+    "pm_kickoff_utc": "2026-10-19 18:45:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B124",
@@ -1871,7 +2110,16 @@
    "scan_id": "pm:nor-san-lil-2026-10-18-lil",
    "polymarket_slug": "nor-san-lil-2026-10-18-lil",
    "outcome_price": 0.38,
-   "tb1_dog_25_40": true
+   "tb1_dog_25_40": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Sandefjord Fotball vs. Lillestrøm SK",
+    "pm_league": "NOR1",
+    "pm_kickoff_utc": "2026-10-18 15:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B127",
@@ -1963,7 +2211,16 @@
    "scan_id": "pm:itsb-pad-ent-2026-10-17-pad",
    "polymarket_slug": "itsb-pad-ent-2026-10-17-pad",
    "outcome_price": 0.3799,
-   "elo_only": true
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Calcio Padova vs. Virtus Entella",
+    "pm_league": "ITA2",
+    "pm_kickoff_utc": "2026-10-17 13:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   }
   },
   {
    "id": "B134",
@@ -4424,119 +4681,136 @@
    "slot": "AM",
    "total_value": 99.97,
    "cash": 71.0,
-   "btc_bench": 100.0
+   "btc_bench": 100.0,
+   "time": null
   },
   {
    "date": "2026-10-07",
    "slot": "PM",
    "total_value": 99.54,
    "cash": 71.0,
-   "btc_bench": 98.65
+   "btc_bench": 98.65,
+   "time": null
   },
   {
    "date": "2026-10-07",
    "slot": "PM2",
    "total_value": 99.49,
    "cash": 38.32,
-   "btc_bench": 98.62
+   "btc_bench": 98.62,
+   "time": null
   },
   {
    "date": "2026-10-07",
    "slot": "PM",
    "total_value": 99.54,
    "cash": 30.32,
-   "btc_bench": 98.89
+   "btc_bench": 98.89,
+   "time": null
   },
   {
    "date": "2026-10-08",
    "slot": "AM",
    "total_value": 98.66,
    "cash": 15.11,
-   "btc_bench": 97.95
+   "btc_bench": 97.95,
+   "time": null
   },
   {
    "date": "2026-10-08",
    "slot": "PM",
    "total_value": 98.34,
    "cash": 18.38,
-   "btc_bench": 96.93
+   "btc_bench": 96.93,
+   "time": null
   },
   {
    "date": "2026-10-09",
    "slot": "AM",
    "total_value": 98.81,
    "cash": 20.68,
-   "btc_bench": 97.56
+   "btc_bench": 97.56,
+   "time": null
   },
   {
    "date": "2026-10-09",
    "slot": "PM",
    "total_value": 98.63,
    "cash": 20.68,
-   "btc_bench": 97.68
+   "btc_bench": 97.68,
+   "time": null
   },
   {
    "date": "2026-10-10",
    "slot": "AM",
    "total_value": 98.81,
    "cash": 20.68,
-   "btc_bench": 98.02
+   "btc_bench": 98.02,
+   "time": null
   },
   {
    "date": "2026-10-10",
    "slot": "PM",
    "total_value": 101.07,
    "cash": 24.88,
-   "btc_bench": 98.51
+   "btc_bench": 98.51,
+   "time": null
   },
   {
    "date": "2026-10-11",
    "slot": "AM",
    "total_value": 101.84,
    "cash": 26.77,
-   "btc_bench": 98.41
+   "btc_bench": 98.41,
+   "time": null
   },
   {
    "date": "2026-10-11",
    "slot": "PM",
    "total_value": 104.84,
    "cash": 34.47,
-   "btc_bench": 99.28
+   "btc_bench": 99.28,
+   "time": null
   },
   {
    "date": "2026-10-12",
    "slot": "AM",
    "total_value": 105.1,
    "cash": 34.47,
-   "btc_bench": 99.67
+   "btc_bench": 99.67,
+   "time": null
   },
   {
    "date": "2026-10-12",
    "slot": "LIVE",
    "total_value": 105.03,
    "cash": 13.1,
-   "btc_bench": 99.86
+   "btc_bench": 99.86,
+   "time": null
   },
   {
    "date": "2026-10-12",
    "slot": "MID",
    "total_value": 104.32,
    "cash": 15.61,
-   "btc_bench": 97.83
+   "btc_bench": 97.83,
+   "time": null
   },
   {
    "date": "2026-10-12",
    "slot": "PM",
    "total_value": 104.11,
    "cash": 11.07,
-   "btc_bench": 98.12
+   "btc_bench": 98.12,
+   "time": null
   },
   {
    "date": "2026-10-13",
    "slot": "AM",
    "total_value": 102.19,
    "cash": 17.15,
-   "btc_bench": 98.12
+   "btc_bench": 98.12,
+   "time": null
   },
   {
    "date": "2026-10-13",
@@ -16159,7 +16433,7 @@
    "date": "2026-10-16",
    "slot": "PM",
    "time": "2026-10-17 00:02 (Tbilisi)",
-   "note": "PM cycle (fired 2026-10-16 23:59) — in progress",
+   "note": "PM cycle (fired 2026-10-16 23:59) — INTERRUPTED: scan + 3 settlements only; no new bets/trades/desk/history entry",
    "funnel": {
     "stamp": "2026-10-17_0002",
     "time": "2026-10-17 00:02 (Tbilisi)",
@@ -16248,6 +16522,24 @@
      "ufc": 13
     },
     "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "status": "interrupted",
+   "closed_at": "2026-10-17 06:34 (Tbilisi)",
+   "interrupted": {
+    "did": [
+     "scan.py 2026-10-17 00:02→00:08 (fetch 401s): funnel kept below; 8 candidates after caps (scan/2026-10-17_0002/candidates.json)",
+     "settle_pm.py: B130 lost −$1.00 (settled 00:13), B131 lost −$1.00 (00:34), B108 won +$7.54 (00:42); CLV recorded from DK close (ESPN pickcenter)",
+     "B123 lost −$2.64 settled 01:24 by the same settle_pm.py, in the same minute as the 01:24 hourly refresh",
+     "weekly.py wrote pm1016/weekly_review_2026-10-12_16.md (00:16)"
+    ],
+    "not_done": [
+     "update_pm.py was run once at 00:15 as a test (/tmp/state_before_update_test.json backup) and its state.json write was rolled back; the real run never happened",
+     "so NOT applied: would-be bets B135 Plymouth, B136 76ers, B137 Eibar; stock adds BRK-B/COST/KO/XOM/XLE/V; GOOGL sell; desk/news_check/TITAN; L007(CLV) draft (pm1016/pm_meta.json keeps the draft)",
+     "no PM history snapshot (history stays at 2026-10-16 MID); not back-filled because no real snapshot was taken"
+    ],
+    "likely_cause": "not the scan (6 min). The cycle stayed open ~1.5h waiting for late kick-offs (B108 22:45, B123 23:00 Tbilisi) to finish before running update_pm.py for real; the session ended before that step, and the hourly refresh then kept running over a half-open run (no lock between them).",
+    "later_by_hourly": "B089 settled 06:23 by the hourly refresh (lost −$5.00, real PM contract col2-boc-atl; see L007)",
+    "safeguard": "statelock.py (flock + atomic write) in scan.py/refresh.py/timing.py; cyclelock.py marker → refresh.py --hourly skips while a cycle runs; scan.py re-reads state inside the lock before writing its funnel"
    }
   }
  ],
@@ -16452,6 +16744,16 @@
     "B099"
    ],
    "status": "hypothesis"
+  },
+  {
+   "id": "L007",
+   "date": "2026-10-17",
+   "sport_or_asset": "Polymarket / მონაცემთა ხარისხი (მატჩის იდენტიფიკაცია)",
+   "lesson": "B089 ჩაიწერა როგორც „Talleres @ Boca Juniors“ (არგენტინა, ESPN), მაგრამ რეალურად ნაყიდი Polymarket კონტრაქტი იყო col2-boc-atl-2026-10-16-boc — Boca Juniors de Cali vs Atlético FC Cali (კოლუმბია, Primera B); ფსონი წაგებულად დასახლდა რეალური კონტრაქტით (−$5.00). მიზეზი: სკანერი ადარებდა მხოლოდ ერთ გუნდის სახელს substring-მსგავსებით (0.95) და არ ამოწმებდა ლიგას და მეტოქეს. იმავე ხარვეზით ძველი სკანი ასევე აწყვილებდა მაგ. Tigres UANL→Tigre (ARG), Charlotte FC→Charlotte 49ers (NCAAF), WSL ქალთა მატჩებს→EPL. წესი (მხოლოდ გამკაცრება): Polymarket ბაზარი მიება ბუქმეიკერ/მოდელის რიგს მხოლოდ თუ (1) ლიგა ემთხვევა (slug-პრეფიქსი/seriesSlug → ლიგა; უცნობი პრეფიქსი → უარი; col=კონფერენციის ლიგა, col1/col2=კოლუმბია), (2) დაწყების თარიღი ±1 დღე (და ძველი 3სთ წესიც რჩება), (3) ორივე გუნდი ემთხვევა (ნორმალიზებული სახელი + ალიასების ცხრილი, ქალთა/რეზერვის ნიშნით განსხვავება = უარი), (4) ერთადერთი შესაბამისი მატჩი — ორაზროვანი → უარი. რეალიზებულია scan.py + models/pm_match.py; ღია Polymarket ფსონები შემოწმდა (match_check).",
+   "source_ids": [
+    "B089"
+   ],
+   "status": "rule"
   }
  ],
  "last_prices": {
@@ -16533,7 +16835,7 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 06:23 (Tbilisi)",
+  "time": "2026-10-17 06:38 (Tbilisi)",
   "total_value": 491.36,
   "deposits_usd": 500,
   "vs_deposits_usd": -8.64,
@@ -16689,7 +16991,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 06:23 (Tbilisi)",
+ "last_refresh": "2026-10-17 06:38 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -17942,7 +18244,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 06:23 (Tbilisi)",
+  "updated": "2026-10-17 06:38 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
