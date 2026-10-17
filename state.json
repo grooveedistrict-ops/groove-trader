@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 212.5391,
+ "cash_usd": 217.4791,
  "open_bets": [
   {
    "id": "B043",
@@ -2125,36 +2125,6 @@
    "scan_id": "scan:289565"
   },
   {
-   "id": "B135",
-   "sport": "Football",
-   "league": "soc_ita.2",
-   "event": "Modena @ Carrarese",
-   "kickoff": "2026-10-17 17:00",
-   "selection": "Carrarese",
-   "odds": 4.5,
-   "book": "ESPN-DK",
-   "p": 0.2678,
-   "implied_pct": 22.2,
-   "edge_pct": 20.49,
-   "stake": 1.32,
-   "status": "open",
-   "opened_at": "2026-10-17 09:01 (Tbilisi)",
-   "odds_time": "2026-10-17 09:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.33,
-     "EloFD": 0.3215
-    },
-    "mkt": 0.2097,
-    "nbooks": 1,
-    "blend_p": 0.2678,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899597",
-   "reasoning": "scan PASS EV=20.49% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
-   "scan_id": "espn401899597"
-  },
-  {
    "id": "B136",
    "sport": "Football",
    "league": "soc_sco.1",
@@ -2421,6 +2391,35 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/summary?event=401875890",
    "reasoning": "scan PASS EV=5.84% models=['FTS'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
    "scan_id": "espn401875890"
+  },
+  {
+   "id": "B147",
+   "sport": "Football",
+   "league": "soc_chn.1",
+   "event": "Shanghai Shenhua @ Wuhan Three Towns",
+   "kickoff": "2026-10-18 14:00",
+   "selection": "Shanghai Shenhua",
+   "odds": 2.2,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.4769,
+   "implied_pct": 45.5,
+   "edge_pct": 4.92,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-17 19:05 (Tbilisi)",
+   "odds_time": "2026-10-17 19:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5239
+    },
+    "mkt": 0.4298,
+    "nbooks": 1,
+    "blend_p": 0.4769,
+    "elo_only": true
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861480",
+   "reasoning": "scan PASS EV=4.92% models=['EloFD'] (Elo-only half stake per TITAN rule); NEWS shrink (Assué knock + midweek ACL2 travel) → TITAN APPROVED at $1.00 (scan stake $1.15)",
+   "scan_id": "espn401861480"
   }
  ],
  "settled_bets": [
@@ -4541,7 +4540,19 @@
    "final_score": "Millwall 2, Lincoln City 2",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261017 (event 401880215)",
    "settle_source": "ESPN status FT (completed)",
-   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -130, \"spreadOdds\": -145.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc"
+   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -130, \"spreadOdds\": -145.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc",
+   "closing_odds": 4.8,
+   "closing_fair_odds": 5.0104,
+   "clv_pct": -2.2,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-130', 'away': '+380', 'draw': '+270'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880215",
+   "postmortem": {
+    "time": "2026-10-17 19:05 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -2.20% (4.9 vs DraftKings no-vig close 5.0104); final Millwall 2, Lincoln City 2. Market moved against us before kick-off (price), then lost — no rule break. Away/underdog ML lost to a draw (covered by A3/rule 18 longshot discipline; no new lesson).",
+    "lesson": null
+   }
   },
   {
    "id": "B100",
@@ -4578,7 +4589,12 @@
    "final_score": "Middlesbrough 2, Cardiff City 2",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261017 (event 401880216)",
    "settle_source": "ESPN status FT (completed)",
-   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -195, \"spreadOdds\": 115.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/socc"
+   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -195, \"spreadOdds\": 115.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/socc",
+   "closing_odds": 5.0,
+   "closing_fair_odds": 5.2575,
+   "clv_pct": -6.8,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-195', 'away': '+425', 'draw': '+400'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880216"
   },
   {
    "id": "B143",
@@ -4616,7 +4632,19 @@
    "final_score": "Peterborough United 2, Burton Albion 2",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard?dates=20261017 (event 401880796)",
    "settle_source": "ESPN status FT (completed)",
-   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -125, \"spreadOdds\": -135.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc"
+   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -125, \"spreadOdds\": -135.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc",
+   "closing_odds": 3.9,
+   "closing_fair_odds": 4.1417,
+   "clv_pct": -13.08,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-125', 'away': '+290', 'draw': '+300'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/summary?event=401880796",
+   "postmortem": {
+    "time": "2026-10-17 19:05 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -13.08% (3.6 vs DraftKings no-vig close 4.1417); final Peterborough United 2, Burton Albion 2. Market moved against us before kick-off (price), then lost — no rule break. Away/underdog ML lost to a draw (covered by A3/rule 18 longshot discipline; no new lesson).",
+    "lesson": null
+   }
   },
   {
    "id": "B144",
@@ -4654,7 +4682,19 @@
    "final_score": "Yunnan Yukun 1, Chongqing Tonglianglong 1",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/scoreboard?dates=20261017 (event 401861511)",
    "settle_source": "ESPN status FT (completed)",
-   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -130, \"spreadOdds\": -140.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc"
+   "closing_note": "ESPN pickcenter at settle: {\"provider\": {\"id\": \"100\", \"name\": \"DraftKings\", \"priority\": 1, \"logos\": [{\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Light.svg\", \"rel\": [\"light\"]}, {\"href\": \"https://a.espncdn.com/i/betting/Draftkings_Dark.svg\", \"rel\": [\"dark\"]}]}, \"homeTeamOdds\": {\"favorite\": true, \"underdog\": false, \"moneyLine\": -130, \"spreadOdds\": -140.0, \"team\": {\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/soc",
+   "closing_odds": 4.0,
+   "closing_fair_odds": 4.2365,
+   "clv_pct": 18.02,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-130', 'away': '+300', 'draw': '+310'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861511",
+   "postmortem": {
+    "time": "2026-10-17 19:05 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +18.02% (5.0 vs DraftKings no-vig close 4.2365); final Yunnan Yukun 1, Chongqing Tonglianglong 1. Price beat the close — loss is variance. Away/underdog ML lost to a draw (covered by A3/rule 18 longshot discipline; no new lesson).",
+    "lesson": null
+   }
   },
   {
    "id": "B112",
@@ -4701,7 +4741,61 @@
    "score": "Espanyol 0, Atlético Madrid 1 (FT)",
    "final_score": "Espanyol 0, Atlético Madrid 1",
    "result_source": "https://gamma-api.polymarket.com/markets?slug=lal-esp-mad-2026-10-17-esp&closed=true",
-   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"] (closed 2026-10-17 14:14 UTC); ESPN esp.1 event 401882843 STATUS_FULL_TIME"
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"] (closed 2026-10-17 14:14 UTC); ESPN esp.1 event 401882843 STATUS_FULL_TIME",
+   "closing_odds": 4.9,
+   "closing_fair_odds": 5.1249,
+   "clv_pct": -2.44,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+390', 'away': '-145', 'draw': '+300'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882843",
+   "postmortem": {
+    "time": "2026-10-17 19:05 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -2.44% (5.0 vs DraftKings no-vig close 5.1249); final Espanyol 0, Atlético Madrid 1. Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B135",
+   "sport": "Football",
+   "league": "soc_ita.2",
+   "event": "Modena @ Carrarese",
+   "kickoff": "2026-10-17 17:00",
+   "selection": "Carrarese",
+   "odds": 4.5,
+   "book": "ESPN-DK",
+   "p": 0.2678,
+   "implied_pct": 22.2,
+   "edge_pct": 20.49,
+   "stake": 1.32,
+   "status": "settled",
+   "opened_at": "2026-10-17 09:01 (Tbilisi)",
+   "odds_time": "2026-10-17 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.33,
+     "EloFD": 0.3215
+    },
+    "mkt": 0.2097,
+    "nbooks": 1,
+    "blend_p": 0.2678,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899597",
+   "reasoning": "scan PASS EV=20.49% models=['FTS', 'EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
+   "scan_id": "espn401899597",
+   "result": "won",
+   "pl_usd": 4.62,
+   "settled_at": "2026-10-17 19:05 (Tbilisi)",
+   "final_score": "Carrarese 2, Modena 1",
+   "score": "Carrarese 2, Modena 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899597",
+   "settle_source": "ESPN STATUS_FULL_TIME https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899597",
+   "closing_odds": 4.2,
+   "closing_fair_odds": 4.474,
+   "clv_pct": 0.58,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+320', 'away': '-120', 'draw': '+255'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899597"
   }
  ],
  "positions": [
@@ -4716,7 +4810,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81390.0
+   "last_price": 81485
   },
   {
    "symbol": "SPY",
@@ -5357,6 +5451,14 @@
    "total_value": 492.43,
    "cash": 199.0591,
    "btc_bench": 494.27
+  },
+  {
+   "date": "2026-10-17",
+   "slot": "MID",
+   "time": "2026-10-17 19:05 (Tbilisi)",
+   "total_value": 499.14,
+   "cash": 217.4791,
+   "btc_bench": 494.49
   }
  ],
  "benchmarks_start": {
@@ -18598,6 +18700,1053 @@
    "analysis": "No open event finished since the 07:25 hourly; LEDGER back-filled DK closes for B033 (CLV -2.60%) and B129 (CLV +14.42%). DOC: B130/B131/B123 lost with negative CLV (price), B129 lost with positive CLV (variance), B089 = Polymarket matching data error (L007). Scan 50493 options → 20 after caps; SHERLOCK/TITAN blocked 8 (injuries/rotation/dup) → 12 bets. BTC below MA20 → no crypto/token buys; Saturday → no stocks.",
    "plan": "MID 2026-10-17: settle afternoon EU football from ESPN finals + DK closes; stocks closed (weekend); re-check BTC vs MA20 for crypto/tokens; keep open bets ≤35%.",
    "closed_at": "2026-10-17 09:01 (Tbilisi)"
+  },
+  {
+   "date": "2026-10-17",
+   "slot": "MID",
+   "time": "2026-10-17 18:57 (Tbilisi)",
+   "status": "done",
+   "note": "MID: 1 new bet (B147), TITAN blocked 6, settled 1, ledger 6, post-mortems 4, stocks 0 (Sat), tokens 0 (BTC<MA20)",
+   "funnel": {
+    "stamp": "2026-10-17_1857",
+    "time": "2026-10-17 18:57 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 229,
+    "funnel": {
+     "options_AN": 14478,
+     "events_AN": 252,
+     "events_ESPN": 504,
+     "options_ESPN": 1319,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 96,
+     "model_rows_DR": 287,
+     "model_rows_FTS": 206,
+     "events_upcoming": 360,
+     "selections_priced": 928,
+     "selections_consensus": 788,
+     "with_model": 650,
+     "with_2plus_model": 385,
+     "drop_nhl_calibration": 28,
+     "drop_too_few_books": 112,
+     "with_1_model": 265,
+     "drop_no_model": 138,
+     "elo_matched_events": 112,
+     "gate_ev<3": 532,
+     "gate_dup_open": 26,
+     "gate_PASS": 8,
+     "gate_model_ev<=0": 12,
+     "gate_odds>5": 37,
+     "gate_A3_range": 28,
+     "gate_L004_single_model_gap": 6,
+     "gate_TITAN_elo_disagree>10pt": 1,
+     "options_Polymarket": 35530,
+     "pm_markets": 17765,
+     "pm_liq1k": 1657,
+     "pm_sports_ml": 1064,
+     "pm_drop_L007_league_unmapped": 340,
+     "pm_drop_L007_no_strict_match": 143,
+     "pm_matched_model": 6,
+     "pm_gate_ev<3": 4,
+     "pm_gate_A3_range": 1,
+     "pm_tb1_tagged": 3,
+     "pm_gate_odds>5": 1,
+     "final_after_caps": 7,
+     "stake_total": 20.61,
+     "budget_caps": 21.71,
+     "tokens_src_dexscreener_tokens": 80,
+     "tokens_src_gt_pools": 800,
+     "tokens_tokens_unique": 777,
+     "tokens_tokens_with_pairs": 746,
+     "tokens_chain_solana": 222,
+     "tokens_chain_robinhood": 9,
+     "tokens_chain_avalanche": 1,
+     "tokens_chain_bsc": 152,
+     "tokens_chain_ethereum": 190,
+     "tokens_chain_base": 172,
+     "tokens_gate_liquidity": 425,
+     "tokens_gate_pass": 125,
+     "tokens_gate_too_new": 58,
+     "tokens_gate_rug_dump": 2,
+     "tokens_gate_pump": 1,
+     "tokens_gate_thin_liq_fdv": 77,
+     "tokens_gate_low_activity": 58,
+     "tokens_safety_pass": 88,
+     "tokens_safety_fail": 21,
+     "tokens_safety_unverified": 16,
+     "tokens_passed_safety": 88,
+     "options_scanned_total": 52073
+    },
+    "coverage_events_by_sport": {
+     "nfl": 14,
+     "nba": 17,
+     "nhl": 45,
+     "ncaaf": 58,
+     "mlb": 2,
+     "wnba": 3,
+     "soccer": 208,
+     "ufc": 13
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 52073,
+     "candidates": [
+      {
+       "name": "Massachusetts Minutemen",
+       "type": "ncaaf",
+       "score": 60,
+       "why": "EV 10.63% @3.3 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "LA Clippers",
+       "type": "nba",
+       "score": 55,
+       "why": "EV 5.21% @1.645 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Fluminense",
+       "type": "soccer",
+       "score": 57,
+       "why": "EV 7.06% @2.3 models=['EloFD']"
+      },
+      {
+       "name": "Draw",
+       "type": "soccer",
+       "score": 60,
+       "why": "EV 10.04% @5.0 models=['FTS', 'EloFD']"
+      },
+      {
+       "name": "Cremonese",
+       "type": "soccer",
+       "score": 56,
+       "why": "EV 6.41% @3.65 models=['FTS', 'EloFD']"
+      },
+      {
+       "name": "Philadelphia Eagles",
+       "type": "nfl",
+       "score": 54,
+       "why": "EV 4.84% @2.55 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Shanghai Shenhua",
+       "type": "soccer",
+       "score": 54,
+       "why": "EV 4.92% @2.2 models=['EloFD']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 52073,
+      "with_model": 650,
+      "gate_PASS": 8,
+      "pm_gate_PASS": null,
+      "final_after_caps": 7,
+      "pm_tb1_tagged": 3,
+      "pm_tb1_tagged_pass": null,
+      "tokens_tokens_unique": 777,
+      "tokens_passed_safety": 88,
+      "stake_total": 20.61,
+      "budget_caps": 21.71
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 81484.86,
+       "tp": 88003.65,
+       "stop": 77410.62,
+       "support": 81484.86,
+       "resistance": 86489.73,
+       "prices": [
+        83479.25,
+        83640.1,
+        83576.13,
+        84841.67,
+        84506.47,
+        84742.79,
+        86489.73,
+        85770.87,
+        85540.09,
+        83282.05,
+        81685.89,
+        82564.29,
+        82917.9,
+        83690.87,
+        81794.85,
+        83115.1,
+        81603.65,
+        82155.54,
+        81523.66,
+        81484.86
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 763.25,
+       "tp": 824.31,
+       "stop": 725.09,
+       "support": 762.63,
+       "resistance": 779.09,
+       "prices": [
+        773.5,
+        773.38,
+        767.81,
+        767.18,
+        771.35,
+        765.61,
+        764.2,
+        762.63,
+        763.99,
+        769.64,
+        774.83,
+        779.09,
+        777.22,
+        773.93,
+        778.57,
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "up",
+       "entry": 529.05,
+       "tp": 571.37,
+       "stop": 502.6,
+       "support": 497.93,
+       "resistance": 543.45,
+       "prices": [
+        501.61,
+        498.0,
+        500.59,
+        497.93,
+        516.17,
+        509.22,
+        508.96,
+        512.9,
+        512.8,
+        517.53,
+        525.18,
+        529.3,
+        529.76,
+        522.61,
+        535.07,
+        541.15,
+        543.45,
+        533.69,
+        539.44,
+        529.05
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 989.11,
+       "tp": 1068.24,
+       "stop": 939.65,
+       "support": 896.48,
+       "resistance": 989.11,
+       "prices": [
+        898.48,
+        899.41,
+        904.7,
+        896.48,
+        922.77,
+        922.92,
+        924.59,
+        910.34,
+        914.94,
+        920.65,
+        923.52,
+        935.68,
+        942.25,
+        947.92,
+        946.92,
+        959.44,
+        954.63,
+        982.0,
+        978.01,
+        989.11
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 532.02,
+       "tp": 574.58,
+       "stop": 505.42,
+       "support": 497.95,
+       "resistance": 532.02,
+       "prices": [
+        502.01,
+        503.49,
+        507.17,
+        505.18,
+        505.48,
+        503.09,
+        502.35,
+        497.95,
+        500.5,
+        502.65,
+        504.26,
+        505.54,
+        506.25,
+        511.05,
+        515.62,
+        517.6,
+        520.59,
+        526.35,
+        525.68,
+        532.02
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "up",
+       "entry": 178.98,
+       "tp": 193.3,
+       "stop": 170.03,
+       "support": 158.3,
+       "resistance": 178.98,
+       "prices": [
+        158.3,
+        158.71,
+        161.23,
+        162.14,
+        160.59,
+        162.52,
+        161.35,
+        162.75,
+        163.82,
+        164.01,
+        164.0,
+        164.48,
+        164.05,
+        168.5,
+        168.94,
+        172.15,
+        174.08,
+        177.01,
+        174.68,
+        178.98
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "Massachusetts Minutemen",
+       "stance": "bearish",
+       "text": "Duplicate of open B051 (UMass ML, same game) — TITAN SKIP (dup/correlation, rule 19). X also: \"Minutemen face quarterback uncertainty ahead ",
+       "source": "https://x.com/TheCursiveU/status/2111049529357111577"
+      },
+      {
+       "candidate": "LA Clippers",
+       "stance": "bearish",
+       "text": "Duplicate of open B140 (Clippers ML vs Kings, same game; name variant \"LA Clippers\") — TITAN SKIP dup (rule 19); no material Clippers injury",
+       "source": "x search (no material result)"
+      },
+      {
+       "candidate": "Fluminense",
+       "stance": "bearish",
+       "text": "Fluminense: \"Marcão vai poupar titulares contra o Santos\" (reserve team before Libertadores semi); Santos with Neymar back — Elo-only model ",
+       "source": "https://x.com/ExploTricolor/status/2111439917611921491"
+      },
+      {
+       "candidate": "Draw",
+       "stance": "bearish",
+       "text": "Dundee injury-hit (Scotsman); Rangers: McCrorie ~3 wks out, another starter out until early Nov (McInnes \"mixed team news\") — draw needs dep",
+       "source": "https://x.com/spflmysportstab/status/2111461517686345929"
+      },
+      {
+       "candidate": "Cremonese",
+       "stance": "bearish",
+       "text": "\"Per la Cremonese sono sette gli assenti\" at Pisa; Pisa get Caracciolo & Petagna back — our Cremonese side weakened (blocked as AM)",
+       "source": "https://x.com/paoloangeloRF/status/2111165940847304937"
+      },
+      {
+       "candidate": "Philadelphia Eagles",
+       "stance": "bearish",
+       "text": "Eagles: Jalen Hurts ruled out (calf blood clot), Saquon Barkley OUT (hamstring); Tanner McKee starts — material negative on our Eagles side;",
+       "source": "https://x.com/FOX29philly/status/2111272263668391982"
+      },
+      {
+       "candidate": "Shanghai Shenhua",
+       "stance": "watch",
+       "text": "Shenhua: Assué forced off injured (lacerated brow) in 0–0 ACL2 away draw at Svay Rieng (Cambodia) on 15 Oct — midweek travel + knock; Elo-on",
+       "source": "https://x.com/shenhuayjj/status/2110751106959860156"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "Massachusetts Minutemen",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "LA Clippers",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Fluminense",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Draw",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Cremonese",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Philadelphia Eagles",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Shanghai Shenhua",
+       "mood": -0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": -0.53
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "Massachusetts Minutemen (Massachusetts Minutemen @ Buffalo Bulls)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": false,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Duplicate of open B051 (UMass ML, same game) — TITAN SKIP (dup/correlation, rule 19). X also: \"Minutemen face quarterback uncertainty ahead "
+      },
+      {
+       "candidate": "LA Clippers (Sacramento Kings @ LA Clippers)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": false,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Duplicate of open B140 (Clippers ML vs Kings, same game; name variant \"LA Clippers\") — TITAN SKIP dup (rule 19); no material Clippers injury"
+      },
+      {
+       "candidate": "Fluminense (Santos @ Fluminense)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Fluminense: \"Marcão vai poupar titulares contra o Santos\" (reserve team before Libertadores semi); Santos with Neymar back — Elo-only model "
+      },
+      {
+       "candidate": "Draw (Rangers @ Dundee)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Dundee injury-hit (Scotsman); Rangers: McCrorie ~3 wks out, another starter out until early Nov (McInnes \"mixed team news\") — draw needs dep"
+      },
+      {
+       "candidate": "Cremonese (Cremonese @ Pisa)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "\"Per la Cremonese sono sette gli assenti\" at Pisa; Pisa get Caracciolo & Petagna back — our Cremonese side weakened (blocked as AM)"
+      },
+      {
+       "candidate": "Philadelphia Eagles (Carolina Panthers @ Philadelphia Eagles)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Eagles: Jalen Hurts ruled out (calf blood clot), Saquon Barkley OUT (hamstring); Tanner McKee starts — material negative on our Eagles side;"
+      },
+      {
+       "candidate": "Shanghai Shenhua (Shanghai Shenhua @ Wuhan Three Towns)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Shenhua: Assué forced off injured (lacerated brow) in 0–0 ACL2 away draw at Svay Rieng (Cambodia) on 15 Oct — midweek travel + knock; Elo-on"
+      }
+     ],
+     "blocked_count": 6
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Massachusetts Minutemen (Massachusetts Minutemen @ Buffalo Bu)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "LA Clippers (Sacramento Kings @ LA Clippers)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Fluminense (Santos @ Fluminense)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Draw (Rangers @ Dundee)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Cremonese (Cremonese @ Pisa)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Philadelphia Eagles (Carolina Panthers @ Philadelphia Eag)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Shanghai Shenhua (Shanghai Shenhua @ Wuhan Three Towns)",
+       "action": "BUY",
+       "size_usd": 1.0
+      }
+     ],
+     "desk_pl_today": 4.62
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 7,
+      "approved": 1,
+      "blocked": 6,
+      "note": "სკანი 52073 ოფცია; PASS 8+PM 0 → caps 7; NEWS/TITAN-ის შემდეგ 1"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo რეალური ისტორია; შაბათი — პარასკევის დახურვა, სტოპი/TP არ შეხებია"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 7,
+      "approved": 1,
+      "blocked": 6,
+      "note": "X search_posts_all"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 7,
+      "approved": 1,
+      "blocked": 6,
+      "note": "overall -0.53"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 7,
+      "approved": 1,
+      "blocked": 6,
+      "note": "blocked 6: 4 news (Hurts/Barkley out, Fluminense rotation, Cremonese 7 out, Dundee injuries) + 2 dups (B051, B140); 1 shrink"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "1 bet $1.0; stocks 0 (Sat, closed); crypto/tokens 0 (BTC<MA20)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 7,
+      "approved": 1,
+      "blocked": 6,
+      "note": "6 x-calls (batched), ≤2/cand; 1 shrink"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 4,
+      "approved": 0,
+      "blocked": 0,
+      "note": "B088 price+variance, B143 price+variance, B144 variance, B112 price+variance; no new lesson"
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 6,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close (ESPN pickcenter) for 6; halved=none; Football n=16"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 3, pass 0; LX1 testing only"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 4,
+      "approved": 1,
+      "blocked": 3,
+      "note": "settled 1 (1W) P/L $4.62"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 1,
+      "note": "Clippers = dup of B140"
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/MLB/NHL",
+      "group": "desk",
+      "proposals": 2,
+      "approved": 0,
+      "blocked": 2,
+      "note": "UMass dup B051; Eagles: Hurts+Barkley out"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 81485 < MA20 83420 (>MA50 81327); ETH/SOL below MA20 & MA50 — no adds; BTC stop 74157.6 not hit"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 88,
+      "approved": 0,
+      "blocked": 88,
+      "note": "777 scanned, 88 passed safety; BTC<MA20 → 0 buys"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "Saturday — US markets closed (Fri 16 Oct close); no stop/TP hit; no action justified"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "L007 strict: unmapped 340, no strict match 143, matched 6; 0 PM PASS; no MISMATCH"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "Weekend — no CPI/FOMC; B066 (Fed) still open"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "espn401866442",
+     "event": "Massachusetts Minutemen @ Buffalo Bulls",
+     "sel": "Massachusetts Minutemen",
+     "queries": [
+      "((UMass OR Minutemen) Buffalo football) OR (Clippers (injury OR \"ruled out\" OR questionable)) -is:retweet since:2026-10-16"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Duplicate of open B051 (UMass ML, same game) — TITAN SKIP (dup/correlation, rule 19). X also: \"Minutemen face quarterback uncertainty ahead of Buffalo matchup\" (Cursive U)",
+       "source": "https://x.com/TheCursiveU/status/2111049529357111577",
+       "time": "2026-10-16 15:00 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "espn401909842",
+     "event": "Sacramento Kings @ LA Clippers",
+     "sel": "LA Clippers",
+     "queries": [
+      "((UMass OR Minutemen) Buffalo football) OR (Clippers (injury OR \"ruled out\" OR questionable)) -is:retweet since:2026-10-16"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "Duplicate of open B140 (Clippers ML vs Kings, same game; name variant \"LA Clippers\") — TITAN SKIP dup (rule 19); no material Clippers injury post found"
+    },
+    {
+     "candidate": "espn401841277",
+     "event": "Santos @ Fluminense",
+     "sel": "Fluminense",
+     "queries": [
+      "Fluminense Santos (lesão OR desfalque OR desfalques OR suspenso OR escalação OR poupar OR reservas OR \"time misto\") since:2026-10-16"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "lineup",
+       "text": "Fluminense: \"Marcão vai poupar titulares contra o Santos\" (reserve team before Libertadores semi); Santos with Neymar back — Elo-only model pre-dates rotation (blocked as AM)",
+       "source": "https://x.com/ExploTricolor/status/2111439917611921491",
+       "time": "2026-10-17 16:51 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "espn401878366",
+     "event": "Rangers @ Dundee",
+     "sel": "Draw",
+     "queries": [
+      "(Rangers Dundee) (injury OR injured OR \"ruled out\" OR suspended OR \"team news\" OR lineup) since:2026-10-16"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Dundee injury-hit (Scotsman); Rangers: McCrorie ~3 wks out, another starter out until early Nov (McInnes \"mixed team news\") — draw needs depleted Dundee to hold; model pre-dates news → edge unreliable (blocked as AM)",
+       "source": "https://x.com/spflmysportstab/status/2111461517686345929",
+       "time": "2026-10-17 18:17 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "espn401899591",
+     "event": "Cremonese @ Pisa",
+     "sel": "Cremonese",
+     "queries": [
+      "(Cremonese OR Pisa) (infortunio OR infortunati OR squalificato OR assenti OR indisponibili OR convocati OR formazione) since:2026-10-16"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "\"Per la Cremonese sono sette gli assenti\" at Pisa; Pisa get Caracciolo & Petagna back — our Cremonese side weakened (blocked as AM)",
+       "source": "https://x.com/paoloangeloRF/status/2111165940847304937",
+       "time": "2026-10-16 22:42 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "290923",
+     "event": "Carolina Panthers @ Philadelphia Eagles",
+     "sel": "Philadelphia Eagles",
+     "queries": [
+      "(Eagles OR Panthers) (injury OR \"ruled out\" OR questionable OR doubtful OR \"injury report\" OR out) (Hurts OR Philadelphia OR Carolina) -is:retweet since:2026-10-16"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Eagles: Jalen Hurts ruled out (calf blood clot), Saquon Barkley OUT (hamstring); Tanner McKee starts — material negative on our Eagles side; models may pre-date → REJECT",
+       "source": "https://x.com/FOX29philly/status/2111272263668391982",
+       "time": "2026-10-17 05:45 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED"
+    },
+    {
+     "candidate": "espn401861480",
+     "event": "Shanghai Shenhua @ Wuhan Three Towns",
+     "sel": "Shanghai Shenhua",
+     "queries": [
+      "(\"Shanghai Shenhua\" OR 上海申花 OR \"Wuhan Three Towns\" OR 武汉三镇) (injury OR 伤 OR 伤病 OR 停赛 OR lineup OR 首发 OR 名单) since:2026-10-15"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Shenhua: Assué forced off injured (lacerated brow) in 0–0 ACL2 away draw at Svay Rieng (Cambodia) on 15 Oct — midweek travel + knock; Elo-only pick → shrink to $1.00",
+       "source": "https://x.com/shenhuayjj/status/2110751106959860156",
+       "time": "2026-10-15 19:14 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED"
+    }
+   ],
+   "ledger": [
+    {
+     "id": "B135",
+     "odds": 4.5,
+     "close": 4.2,
+     "fair": 4.474,
+     "clv_pct": 0.58
+    },
+    {
+     "id": "B088",
+     "odds": 4.9,
+     "close": 4.8,
+     "fair": 5.0104,
+     "clv_pct": -2.2,
+     "backfill": true
+    },
+    {
+     "id": "B100",
+     "odds": 4.9,
+     "close": 5.0,
+     "fair": 5.2575,
+     "clv_pct": -6.8,
+     "backfill": true
+    },
+    {
+     "id": "B143",
+     "odds": 3.6,
+     "close": 3.9,
+     "fair": 4.1417,
+     "clv_pct": -13.08,
+     "backfill": true
+    },
+    {
+     "id": "B144",
+     "odds": 5.0,
+     "close": 4.0,
+     "fair": 4.2365,
+     "clv_pct": 18.02,
+     "backfill": true
+    },
+    {
+     "id": "B112",
+     "odds": 5.0,
+     "close": 4.9,
+     "fair": 5.1249,
+     "clv_pct": -2.44,
+     "backfill": true
+    }
+   ],
+   "postmortem": [
+    {
+     "id": "B088",
+     "cause": "price+variance",
+     "clv_pct": -2.2,
+     "lesson": null
+    },
+    {
+     "id": "B143",
+     "cause": "price+variance",
+     "clv_pct": -13.08,
+     "lesson": null
+    },
+    {
+     "id": "B144",
+     "cause": "variance",
+     "clv_pct": 18.02,
+     "lesson": null
+    },
+    {
+     "id": "B112",
+     "cause": "price+variance",
+     "clv_pct": -2.44,
+     "lesson": null
+    }
+   ],
+   "pm_unresolved": [
+    {
+     "id": "B133",
+     "event": "Virtus Entella @ Padova",
+     "pm_closed": false,
+     "pm_prices": "[\"0.0005\", \"0.9995\"]",
+     "espn": "STATUS_FULL_TIME Padova 1–2 Virtus Entella"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 80,
+     "src_gt_pools": 800,
+     "tokens_unique": 777,
+     "tokens_with_pairs": 746,
+     "chain_solana": 222,
+     "chain_robinhood": 9,
+     "chain_avalanche": 1,
+     "chain_bsc": 152,
+     "chain_ethereum": 190,
+     "chain_base": 172,
+     "gate_liquidity": 425,
+     "gate_pass": 125,
+     "gate_too_new": 58,
+     "gate_rug_dump": 2,
+     "gate_pump": 1,
+     "gate_thin_liq_fdv": 77,
+     "gate_low_activity": 58,
+     "safety_pass": 88,
+     "safety_fail": 21,
+     "safety_unverified": 16
+    },
+    "passed_n": 88,
+    "bought": [],
+    "why_none": "BTC 81485 < MA20 83420.29"
+   },
+   "research": {
+    "note": "MID paper cycle 2026-10-17 (Saturday)",
+    "btc": 81485,
+    "btc_ma20": 83420.29,
+    "btc_ma50": 81327.03,
+    "tokens_passed": 88,
+    "tokens_bought": 0,
+    "settled": [
+     {
+      "id": "B135",
+      "event": "Modena @ Carrarese",
+      "sel": "Carrarese",
+      "odds": 4.5,
+      "stake": 1.32,
+      "result": "won",
+      "pl_usd": 4.62,
+      "score": "Carrarese 2, Modena 1"
+     }
+    ],
+    "new_bet_ids": [
+     "B147"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "titan_blocked": 6,
+    "nova_approved": 1
+   },
+   "analysis": "Settled 1 final(s): B135 won +4.62. PM unresolved left open: B133. LEDGER: DK closes for B135 +0.58%, B088 -2.20%, B100 -6.80%, B143 -13.08%, B144 +18.02%, B112 -2.44%; halved=none. Scan 52073 options → 7 PASS after caps; SHERLOCK/TITAN blocked 6 (4 news, 2 dups), 1 shrunk → 1 bet. BTC 81485 < MA20 83420 → no crypto/token buys; Saturday → no stocks.",
+   "plan": "PM 2026-10-17/18: settle evening EU football (17:30–20:00 KOs) + B133 once Polymarket resolves; NCAAF finals; stocks closed until Monday; re-check BTC vs MA20.",
+   "closed_at": "2026-10-17 19:05 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -18814,7 +19963,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81390.0,
+  "BTC": 81485,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -18872,8 +20021,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 55.81999969482422,
-  "BTC_MA20": 83418.42,
-  "BTC_MA50": 81326.28,
+  "BTC_MA20": 83420.29,
+  "BTC_MA50": 81327.03,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -18892,20 +20041,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 18:22 (Tbilisi)",
-  "total_value": 494.5,
+  "time": "2026-10-17 19:05 (Tbilisi)",
+  "total_value": 499.14,
   "deposits_usd": 500,
-  "vs_deposits_usd": -5.5,
-  "vs_deposits_pct": -1.1,
-  "btc_bench": 493.91,
-  "vs_btc_usd": 0.59,
+  "vs_deposits_usd": -0.86,
+  "vs_deposits_pct": -0.17,
+  "btc_bench": 494.49,
+  "vs_btc_usd": 4.65,
   "bets": {
-   "n": 75,
-   "wins": 31,
+   "n": 76,
+   "wins": 32,
    "losses": 44,
    "open": 71,
-   "pl_usd": -1.75,
-   "roi_pct": -2.1
+   "pl_usd": 2.87,
+   "roi_pct": 3.3
   },
   "by_sport": {
    "NHL": {
@@ -18930,11 +20079,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 44,
-    "wins": 18,
+    "n": 45,
+    "wins": 19,
     "losses": 26,
-    "pl_usd": 1.15,
-    "roi_pct": 2.5
+    "pl_usd": 5.77,
+    "roi_pct": 12.1
    },
    "NCAAF": {
     "n": 6,
@@ -18960,10 +20109,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.47,
-   "unrealized_usd": -0.53,
+   "value_usd": 14.49,
+   "unrealized_usd": -0.51,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.72
+   "total_pl_usd": -2.7
   },
   "stocks": {
    "open_n": 15,
@@ -18972,16 +20121,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 212.5391,
-  "scanned": 50493,
-  "open_bets_usd": 151.36,
+  "cash_usd": 217.4791,
+  "scanned": 52073,
+  "open_bets_usd": 151.04,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 44,
-    "wins": 18,
+    "n": 45,
+    "wins": 19,
     "losses": 26,
-    "pl_usd": 1.15,
-    "roi_pct": 2.5
+    "pl_usd": 5.77,
+    "roi_pct": 12.1
    },
    "BASKETBALL": {
     "n": 1,
@@ -19048,7 +20197,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 18:22 (Tbilisi)",
+ "last_refresh": "2026-10-17 19:05 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -20301,7 +21450,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 18:22 (Tbilisi)",
+  "updated": "2026-10-17 19:05 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -20332,12 +21481,12 @@
     "lean": null
    },
    "Football": {
-    "n": 11,
-    "early_better": 5,
-    "late_better": 4,
+    "n": 16,
+    "early_better": 8,
+    "late_better": 6,
     "equal": 2,
-    "avg_clv_pct": -0.52,
-    "no_close": 51,
+    "avg_clv_pct": 1.17,
+    "no_close": 47,
     "lean": "early"
    },
    "NCAAF": {
@@ -20359,12 +21508,12 @@
     "lean": null
    },
    "Polymarket": {
-    "n": 6,
-    "early_better": 5,
+    "n": 7,
+    "early_better": 6,
     "late_better": 1,
     "equal": 0,
-    "avg_clv_pct": 4.1,
-    "no_close": 36,
+    "avg_clv_pct": 3.8,
+    "no_close": 35,
     "lean": null
    },
    "NFL": {
@@ -21173,9 +22322,10 @@
     "open": null,
     "taken": 4.9,
     "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
+    "close": 4.8,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261017 (event 401880215)",
+    "clv_pct": 2.08,
+    "better": "early"
    },
    {
     "id": "B100",
@@ -21184,9 +22334,10 @@
     "open": null,
     "taken": 4.9,
     "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
+    "close": 5.0,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261017 (event 401880216)",
+    "clv_pct": -2.0,
+    "better": "late"
    },
    {
     "id": "B143",
@@ -21195,9 +22346,10 @@
     "open": null,
     "taken": 3.6,
     "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
+    "close": 3.9,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/scoreboard?dates=20261017 (event 401880796)",
+    "clv_pct": -7.69,
+    "better": "late"
    },
    {
     "id": "B144",
@@ -21206,9 +22358,10 @@
     "open": null,
     "taken": 5.0,
     "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
+    "close": 4.0,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/scoreboard?dates=20261017 (event 401861511)",
+    "clv_pct": 25.0,
+    "better": "early"
    },
    {
     "id": "B112",
@@ -21217,9 +22370,22 @@
     "open": null,
     "taken": 5.0,
     "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
+    "close": 4.9,
+    "close_source": "https://gamma-api.polymarket.com/markets?slug=lal-esp-mad-2026-10-17-esp&closed=true",
+    "clv_pct": 2.04,
+    "better": "early"
+   },
+   {
+    "id": "B135",
+    "sport": "Football",
+    "event": "Modena @ Carrarese",
+    "open": null,
+    "taken": 4.5,
+    "taken_time": "2026-10-17 09:01 (Tbilisi)",
+    "close": 4.2,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899597",
+    "clv_pct": 7.14,
+    "better": "early"
    },
    {
     "id": "B043",
@@ -21893,17 +23059,6 @@
     "better": null
    },
    {
-    "id": "B135",
-    "sport": "Football",
-    "event": "Modena @ Carrarese",
-    "open": null,
-    "taken": 4.5,
-    "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B136",
     "sport": "Football",
     "event": "Dundee United @ St Johnstone",
@@ -22001,18 +23156,29 @@
     "close": null,
     "close_source": null,
     "better": null
+   },
+   {
+    "id": "B147",
+    "sport": "Football",
+    "event": "Shanghai Shenhua @ Wuhan Three Towns",
+    "open": null,
+    "taken": 2.2,
+    "taken_time": "2026-10-17 19:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
    }
   ]
  },
  "ledger_halved_sports": [],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 11,
-   "mean_clv_pct": -4.69
+   "n": 16,
+   "mean_clv_pct": -3.44
   },
   "Polymarket": {
-   "n": 6,
-   "mean_clv_pct": -0.81
+   "n": 7,
+   "mean_clv_pct": -1.04
   },
   "NCAAF": {
    "n": 1,
