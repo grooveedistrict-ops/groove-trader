@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 274.6021,
+ "cash_usd": 287.8041,
  "open_bets": [
   {
    "id": "B044",
@@ -201,35 +201,6 @@
     "best_now": 2.9,
     "fair_now": 3.008,
     "clv_pct": -0.91
-   }
-  },
-  {
-   "id": "B051",
-   "sport": "NCAAF",
-   "league": "MAC (Week 8, Saturday)",
-   "event": "UMass Minutemen @ Buffalo Bulls",
-   "kickoff": "2026-10-17 21:00",
-   "selection": "UMass Minutemen (moneyline)",
-   "odds": 3.0,
-   "book": "Action Network best (+200)",
-   "p": 0.372,
-   "implied_pct": 33.3,
-   "edge_pct": 11.6,
-   "stake": 0.5,
-   "reasoning": "FPI 41.1% vs ბაზარი 33.3% @3.00. ნაზავი 37.2%, EV≈11.6%.",
-   "model_inputs": {
-    "market_novig": 0.333,
-    "ESPN FPI": 0.411,
-    "blend": "0.5×ბაზარი + 0.5×FPI"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866442",
-   "odds_time": "2026-10-14 09:05 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 3.0,
-    "best_now": 3.05,
-    "fair_now": 3.105,
-    "clv_pct": -3.37
    }
   },
   {
@@ -995,35 +966,6 @@
    }
   },
   {
-   "id": "B102",
-   "sport": "Football",
-   "league": "mls",
-   "event": "Charlotte FC @ Philadelphia Union",
-   "kickoff": "2026-10-17 22:30",
-   "selection": "Draw (Charlotte FC @ Philadelphia Union)",
-   "odds": 4.6,
-   "book": "69",
-   "p": 0.2354,
-   "implied_pct": 21.7,
-   "edge_pct": 8.29,
-   "stake": 2.87,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2719,
-     "DRatings": 0.25
-    },
-    "mkt": 0.2099,
-    "nbooks": 5,
-    "blend_p": 0.2354,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_1853 id=294259",
-   "reasoning": "scan PASS EV=8.29% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": 294259
-  },
-  {
    "id": "B105",
    "sport": "Polymarket",
    "league": "ligue1",
@@ -1229,46 +1171,6 @@
    "odds_source_url": "scan/2026-10-15_1853 id=294263",
    "reasoning": "scan PASS EV=5.09% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": 294263
-  },
-  {
-   "id": "B116",
-   "sport": "Polymarket",
-   "league": "ligue1",
-   "event": "Brest @ Lille",
-   "kickoff": "2026-10-17 22:45",
-   "selection": "Lille",
-   "odds": 1.923,
-   "book": "Polymarket ask",
-   "p": 0.5416,
-   "implied_pct": 52.0,
-   "edge_pct": 4.15,
-   "stake": 2.81,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.6022,
-     "DRatings": 0.527
-    },
-    "mkt": 0.5186,
-    "nbooks": 5,
-    "blend_p": 0.5416,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-lil-sbr-2026-10-17-lil",
-   "reasoning": "scan PASS EV=4.15% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:fl1-lil-sbr-2026-10-17-lil",
-   "polymarket_slug": "fl1-lil-sbr-2026-10-17-lil",
-   "outcome_price": 0.52,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Lille OSC vs. Stade Brestois 29",
-    "pm_league": "FRA1",
-    "pm_kickoff_utc": "2026-10-17 18:45:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
   },
   {
    "id": "B117",
@@ -5167,6 +5069,125 @@
     "note": "CLV +12.57% (4.0 vs DraftKings no-vig close 3.5535); final Banfield 0, Argentinos Juniors 1. Price beat the close — loss is variance.",
     "lesson": null
    }
+  },
+  {
+   "id": "B051",
+   "sport": "NCAAF",
+   "league": "MAC (Week 8, Saturday)",
+   "event": "UMass Minutemen @ Buffalo Bulls",
+   "kickoff": "2026-10-17 21:00",
+   "selection": "UMass Minutemen (moneyline)",
+   "odds": 3.0,
+   "book": "Action Network best (+200)",
+   "p": 0.372,
+   "implied_pct": 33.3,
+   "edge_pct": 11.6,
+   "stake": 0.5,
+   "reasoning": "FPI 41.1% vs ბაზარი 33.3% @3.00. ნაზავი 37.2%, EV≈11.6%.",
+   "model_inputs": {
+    "market_novig": 0.333,
+    "ESPN FPI": 0.411,
+    "blend": "0.5×ბაზარი + 0.5×FPI"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866442",
+   "odds_time": "2026-10-14 09:05 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 3.0,
+    "best_now": 3.05,
+    "fair_now": 3.105,
+    "clv_pct": -3.37
+   },
+   "result": "lost",
+   "pl_usd": -0.5,
+   "settled_at": "2026-10-18 01:25 (Tbilisi)",
+   "final_score": "Buffalo Bulls 25, Massachusetts Minutemen 18 (Final)",
+   "score": "Buffalo Bulls 25, Massachusetts Minutemen 18 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866442",
+   "settle_source": "ESPN STATUS_FINAL event 401866442"
+  },
+  {
+   "id": "B102",
+   "sport": "Football",
+   "league": "mls",
+   "event": "Charlotte FC @ Philadelphia Union",
+   "kickoff": "2026-10-17 22:30",
+   "selection": "Draw (Charlotte FC @ Philadelphia Union)",
+   "odds": 4.6,
+   "book": "69",
+   "p": 0.2354,
+   "implied_pct": 21.7,
+   "edge_pct": 8.29,
+   "stake": 2.87,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2719,
+     "DRatings": 0.25
+    },
+    "mkt": 0.2099,
+    "nbooks": 5,
+    "blend_p": 0.2354,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_1853 id=294259",
+   "reasoning": "scan PASS EV=8.29% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": 294259,
+   "result": "won",
+   "pl_usd": 10.33,
+   "settled_at": "2026-10-18 01:25 (Tbilisi)",
+   "final_score": "Philadelphia Union 2, Charlotte FC 2 (FT)",
+   "score": "Philadelphia Union 2, Charlotte FC 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761875",
+   "settle_source": "ESPN STATUS_FULL_TIME event 761875"
+  },
+  {
+   "id": "B116",
+   "sport": "Polymarket",
+   "league": "ligue1",
+   "event": "Brest @ Lille",
+   "kickoff": "2026-10-17 22:45",
+   "selection": "Lille",
+   "odds": 1.923,
+   "book": "Polymarket ask",
+   "p": 0.5416,
+   "implied_pct": 52.0,
+   "edge_pct": 4.15,
+   "stake": 2.81,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.6022,
+     "DRatings": 0.527
+    },
+    "mkt": 0.5186,
+    "nbooks": 5,
+    "blend_p": 0.5416,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-lil-sbr-2026-10-17-lil",
+   "reasoning": "scan PASS EV=4.15% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:fl1-lil-sbr-2026-10-17-lil",
+   "polymarket_slug": "fl1-lil-sbr-2026-10-17-lil",
+   "outcome_price": 0.52,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Lille OSC vs. Stade Brestois 29",
+    "pm_league": "FRA1",
+    "pm_kickoff_utc": "2026-10-17 18:45:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -2.81,
+   "settled_at": "2026-10-18 01:25 (Tbilisi)",
+   "final_score": "Lille 1, Brest 1 (FT)",
+   "score": "Lille 1, Brest 1 (FT)",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=fl1-lil-sbr-2026-10-17-lil&closed=true",
+   "settle_source": "Polymarket resolved (Lille Yes=0); ESPN fra.1 FT 1–1"
   }
  ],
  "positions": [
@@ -5181,7 +5202,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81528
+   "last_price": 81546
   },
   {
    "symbol": "SPY",
@@ -21292,7 +21313,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81528,
+  "BTC": 81546,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -21370,20 +21391,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 00:19 (Tbilisi)",
-  "total_value": 521.66,
+  "time": "2026-10-18 01:22 (Tbilisi)",
+  "total_value": 528.68,
   "deposits_usd": 500,
-  "vs_deposits_usd": 21.66,
-  "vs_deposits_pct": 4.33,
-  "btc_bench": 494.75,
-  "vs_btc_usd": 26.91,
+  "vs_deposits_usd": 28.68,
+  "vs_deposits_pct": 5.74,
+  "btc_bench": 494.86,
+  "vs_btc_usd": 33.83,
   "bets": {
-   "n": 95,
-   "wins": 39,
-   "losses": 56,
-   "open": 54,
-   "pl_usd": 25.38,
-   "roi_pct": 20.6
+   "n": 98,
+   "wins": 40,
+   "losses": 58,
+   "open": 51,
+   "pl_usd": 32.4,
+   "roi_pct": 25.1
   },
   "by_sport": {
    "NHL": {
@@ -21408,18 +21429,18 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 52,
-    "wins": 21,
+    "n": 53,
+    "wins": 22,
     "losses": 31,
-    "pl_usd": 17.07,
-    "roi_pct": 29.5
+    "pl_usd": 27.4,
+    "roi_pct": 45.1
    },
    "NCAAF": {
-    "n": 10,
+    "n": 11,
     "wins": 5,
-    "losses": 5,
-    "pl_usd": 2.3,
-    "roi_pct": 32.9
+    "losses": 6,
+    "pl_usd": 1.8,
+    "roi_pct": 24.0
    },
    "NBA": {
     "n": 1,
@@ -21429,11 +21450,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 20,
+    "n": 21,
     "wins": 7,
-    "losses": 13,
-    "pl_usd": 7.32,
-    "roi_pct": 16.1
+    "losses": 14,
+    "pl_usd": 4.51,
+    "roi_pct": 9.3
    }
   },
   "crypto": {
@@ -21450,16 +21471,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 274.6021,
+  "cash_usd": 287.8041,
   "scanned": 51603,
-  "open_bets_usd": 116.43,
+  "open_bets_usd": 110.25,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 52,
-    "wins": 21,
+    "n": 53,
+    "wins": 22,
     "losses": 31,
-    "pl_usd": 17.07,
-    "roi_pct": 29.5
+    "pl_usd": 27.4,
+    "roi_pct": 45.1
    },
    "BASKETBALL": {
     "n": 1,
@@ -21469,11 +21490,11 @@
     "roi_pct": 136.0
    },
    "US SPORTS": {
-    "n": 21,
+    "n": 22,
     "wins": 10,
-    "losses": 11,
-    "pl_usd": 1.31,
-    "roi_pct": 7.2
+    "losses": 12,
+    "pl_usd": 0.81,
+    "roi_pct": 4.4
    },
    "TENNIS": {
     "n": 1,
@@ -21497,11 +21518,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 20,
+    "n": 21,
     "wins": 7,
-    "losses": 13,
-    "pl_usd": 7.32,
-    "roi_pct": 16.1
+    "losses": 14,
+    "pl_usd": 4.51,
+    "roi_pct": 9.3
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -21526,7 +21547,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 00:19 (Tbilisi)",
+ "last_refresh": "2026-10-18 01:22 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -22779,7 +22800,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 00:19 (Tbilisi)",
+  "updated": "2026-10-18 01:22 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -23945,6 +23966,39 @@
     "better": "early"
    },
    {
+    "id": "B051",
+    "sport": "NCAAF",
+    "event": "UMass Minutemen @ Buffalo Bulls",
+    "open": null,
+    "taken": 3.0,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B102",
+    "sport": "Football",
+    "event": "Charlotte FC @ Philadelphia Union",
+    "open": null,
+    "taken": 4.6,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B116",
+    "sport": "Polymarket",
+    "event": "Brest @ Lille",
+    "open": null,
+    "taken": 1.923,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B044",
     "sport": "NCAAF",
     "event": "Arkansas State Red Wolves @ Southern Miss Golden Eagles",
@@ -24005,17 +24059,6 @@
     "event": "Arkansas Razorbacks @ Vanderbilt Commodores",
     "open": null,
     "taken": 2.98,
-    "taken_time": "2026-10-14 09:05 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B051",
-    "sport": "NCAAF",
-    "event": "UMass Minutemen @ Buffalo Bulls",
-    "open": null,
-    "taken": 3.0,
     "taken_time": "2026-10-14 09:05 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -24264,17 +24307,6 @@
     "better": null
    },
    {
-    "id": "B102",
-    "sport": "Football",
-    "event": "Charlotte FC @ Philadelphia Union",
-    "open": null,
-    "taken": 4.6,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B105",
     "sport": "Polymarket",
     "event": "Auxerre @ Le Havre",
@@ -24335,17 +24367,6 @@
     "event": "Chicago Fire @ New England Revolution",
     "open": null,
     "taken": 4.0,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B116",
-    "sport": "Polymarket",
-    "event": "Brest @ Lille",
-    "open": null,
-    "taken": 1.923,
     "taken_time": null,
     "close": null,
     "close_source": null,
