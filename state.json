@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 253.6721,
+ "cash_usd": 276.7821,
  "open_bets": [
   {
    "id": "B043",
@@ -325,35 +325,6 @@
     "best_now": 2.5,
     "fair_now": 2.565,
     "clv_pct": -2.55
-   }
-  },
-  {
-   "id": "B053",
-   "sport": "NCAAF",
-   "league": "AAC (Week 8, Saturday)",
-   "event": "Florida Atlantic Owls @ Army Black Knights",
-   "kickoff": "2026-10-17 20:00",
-   "selection": "Army Black Knights (moneyline)",
-   "odds": 1.73,
-   "book": "Action Network best (−137)",
-   "p": 0.633,
-   "implied_pct": 57.8,
-   "edge_pct": 9.4,
-   "stake": 0.5,
-   "reasoning": "FPI 68.7% vs ბაზარი 57.8% @1.73. ნაზავი 63.3% (<65% L001 ზღვარი), EV≈9.4%.",
-   "model_inputs": {
-    "market_novig": 0.578,
-    "ESPN FPI": 0.687,
-    "blend": "0.5×ბაზარი + 0.5×FPI"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862802",
-   "odds_time": "2026-10-14 09:05 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 1.73,
-    "best_now": 1.73,
-    "fair_now": 1.777,
-    "clv_pct": -2.64
    }
   },
   {
@@ -1079,46 +1050,6 @@
    }
   },
   {
-   "id": "B098",
-   "sport": "Polymarket",
-   "league": "soc_eng.4",
-   "event": "Barnet @ Tranmere Rovers",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "Barnet",
-   "odds": 2.128,
-   "book": "Polymarket ask",
-   "p": 0.5151,
-   "implied_pct": 47.0,
-   "edge_pct": 9.6,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5719
-    },
-    "mkt": 0.4584,
-    "nbooks": 1,
-    "blend_p": 0.5151,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el2-tra-bar-2026-10-17-bar",
-   "reasoning": "scan PASS EV=9.6% models=['EloFD'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "pm:el2-tra-bar-2026-10-17-bar",
-   "polymarket_slug": "el2-tra-bar-2026-10-17-bar",
-   "outcome_price": 0.47,
-   "elo_only": true,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Tranmere Rovers FC vs. Barnet FC",
-    "pm_league": "ENG4",
-    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B101",
    "sport": "Polymarket",
    "league": "seriea",
@@ -1223,46 +1154,6 @@
     "pm_title": "Le Havre AC vs. AJ Auxerre",
     "pm_league": "FRA1",
     "pm_kickoff_utc": "2026-10-18 15:15:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
-   "id": "B107",
-   "sport": "Polymarket",
-   "league": "soc_eng.2",
-   "event": "Sheffield United @ Bristol City",
-   "kickoff": "2026-10-17 18:00",
-   "selection": "Sheffield United",
-   "odds": 3.571,
-   "book": "Polymarket ask",
-   "p": 0.2988,
-   "implied_pct": 28.0,
-   "edge_pct": 6.71,
-   "stake": 3.25,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.308,
-     "DRatings": 0.336
-    },
-    "mkt": 0.2756,
-    "nbooks": 1,
-    "blend_p": 0.2988,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=elc-bri-she-2026-10-17-she",
-   "reasoning": "scan PASS EV=6.71% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "pm:elc-bri-she-2026-10-17-she",
-   "polymarket_slug": "elc-bri-she-2026-10-17-she",
-   "outcome_price": 0.28,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Bristol City FC vs. Sheffield United FC",
-    "pm_league": "ENG2",
-    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
@@ -4910,6 +4801,136 @@
    "final_score": "Newport County 1, York City 1",
    "result_source": "https://gamma-api.polymarket.com/markets?slug=el2-new-yor-2026-10-17-yor&closed=true",
    "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"0\",\"1\"] (closed 2026-10-17 17:35 UTC); ESPN eng.4 event 401881319 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B053",
+   "sport": "NCAAF",
+   "league": "AAC (Week 8, Saturday)",
+   "event": "Florida Atlantic Owls @ Army Black Knights",
+   "kickoff": "2026-10-17 20:00",
+   "selection": "Army Black Knights (moneyline)",
+   "odds": 1.73,
+   "book": "Action Network best (−137)",
+   "p": 0.633,
+   "implied_pct": 57.8,
+   "edge_pct": 9.4,
+   "stake": 0.5,
+   "reasoning": "FPI 68.7% vs ბაზარი 57.8% @1.73. ნაზავი 63.3% (<65% L001 ზღვარი), EV≈9.4%.",
+   "model_inputs": {
+    "market_novig": 0.578,
+    "ESPN FPI": 0.687,
+    "blend": "0.5×ბაზარი + 0.5×FPI"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862802",
+   "odds_time": "2026-10-14 09:05 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 1.73,
+    "best_now": 1.73,
+    "fair_now": 1.777,
+    "clv_pct": -2.64
+   },
+   "result": "won",
+   "pl_usd": 0.36,
+   "settled_at": "2026-10-17 23:27 (Tbilisi)",
+   "score": "Florida Atlantic Owls 24–56 Army Black Knights (Final)",
+   "final_score": "Army 56, Florida Atlantic 24",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862802",
+   "settle_source": "ESPN status Final (Army winner=True)"
+  },
+  {
+   "id": "B098",
+   "sport": "Polymarket",
+   "league": "soc_eng.4",
+   "event": "Barnet @ Tranmere Rovers",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Barnet",
+   "odds": 2.128,
+   "book": "Polymarket ask",
+   "p": 0.5151,
+   "implied_pct": 47.0,
+   "edge_pct": 9.6,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5719
+    },
+    "mkt": 0.4584,
+    "nbooks": 1,
+    "blend_p": 0.5151,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el2-tra-bar-2026-10-17-bar",
+   "reasoning": "scan PASS EV=9.6% models=['EloFD'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "pm:el2-tra-bar-2026-10-17-bar",
+   "polymarket_slug": "el2-tra-bar-2026-10-17-bar",
+   "outcome_price": 0.47,
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Tranmere Rovers FC vs. Barnet FC",
+    "pm_league": "ENG4",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 5.64,
+   "settled_at": "2026-10-17 23:27 (Tbilisi)",
+   "score": "Tranmere Rovers 1, Barnet 2 (FT)",
+   "final_score": "Tranmere Rovers 1, Barnet 2",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=el2-tra-bar-2026-10-17-bar&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"1\",\"0\"]; ESPN eng.4 event 401881313 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B107",
+   "sport": "Polymarket",
+   "league": "soc_eng.2",
+   "event": "Sheffield United @ Bristol City",
+   "kickoff": "2026-10-17 18:00",
+   "selection": "Sheffield United",
+   "odds": 3.571,
+   "book": "Polymarket ask",
+   "p": 0.2988,
+   "implied_pct": 28.0,
+   "edge_pct": 6.71,
+   "stake": 3.25,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.308,
+     "DRatings": 0.336
+    },
+    "mkt": 0.2756,
+    "nbooks": 1,
+    "blend_p": 0.2988,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=elc-bri-she-2026-10-17-she",
+   "reasoning": "scan PASS EV=6.71% models=['EloFD', 'DRatings'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "pm:elc-bri-she-2026-10-17-she",
+   "polymarket_slug": "elc-bri-she-2026-10-17-she",
+   "outcome_price": 0.28,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Bristol City FC vs. Sheffield United FC",
+    "pm_league": "ENG2",
+    "pm_kickoff_utc": "2026-10-17 14:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 8.36,
+   "settled_at": "2026-10-17 23:27 (Tbilisi)",
+   "score": "Bristol City 0, Sheffield United 1 (FT)",
+   "final_score": "Bristol City 0, Sheffield United 1",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=elc-bri-she-2026-10-17-she&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices=[\"1\",\"0\"]; ESPN eng.2 event 401880219 STATUS_FULL_TIME"
   }
  ],
  "positions": [
@@ -4924,7 +4945,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81444
+   "last_price": 81453
   },
   {
    "symbol": "SPY",
@@ -20077,7 +20098,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81444,
+  "BTC": 81453,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -20155,20 +20176,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-17 22:20 (Tbilisi)",
-  "total_value": 509.78,
+  "time": "2026-10-17 23:26 (Tbilisi)",
+  "total_value": 524.15,
   "deposits_usd": 500,
-  "vs_deposits_usd": 9.78,
-  "vs_deposits_pct": 1.96,
-  "btc_bench": 494.24,
-  "vs_btc_usd": 15.54,
+  "vs_deposits_usd": 24.15,
+  "vs_deposits_pct": 4.83,
+  "btc_bench": 494.29,
+  "vs_btc_usd": 29.85,
   "bets": {
-   "n": 88,
-   "wins": 36,
+   "n": 91,
+   "wins": 39,
    "losses": 52,
-   "open": 59,
-   "pl_usd": 13.52,
-   "roi_pct": 12.1
+   "open": 56,
+   "pl_usd": 27.88,
+   "roi_pct": 23.2
   },
   "by_sport": {
    "NHL": {
@@ -20200,11 +20221,11 @@
     "roi_pct": 31.8
    },
    "NCAAF": {
-    "n": 6,
-    "wins": 4,
+    "n": 7,
+    "wins": 5,
     "losses": 2,
-    "pl_usd": 3.44,
-    "roi_pct": 68.8
+    "pl_usd": 3.8,
+    "roi_pct": 69.1
    },
    "NBA": {
     "n": 1,
@@ -20214,11 +20235,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 18,
-    "wins": 5,
+    "n": 20,
+    "wins": 7,
     "losses": 13,
-    "pl_usd": -6.68,
-    "roi_pct": -18.0
+    "pl_usd": 7.32,
+    "roi_pct": 16.1
    }
   },
   "crypto": {
@@ -20235,9 +20256,9 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 253.6721,
+  "cash_usd": 276.7821,
   "scanned": 52073,
-  "open_bets_usd": 125.5,
+  "open_bets_usd": 116.75,
   "desk_stats": {
    "FOOTBALL": {
     "n": 51,
@@ -20254,11 +20275,11 @@
     "roi_pct": 136.0
    },
    "US SPORTS": {
-    "n": 17,
-    "wins": 9,
+    "n": 18,
+    "wins": 10,
     "losses": 8,
-    "pl_usd": 2.45,
-    "roi_pct": 15.2
+    "pl_usd": 2.81,
+    "roi_pct": 16.9
    },
    "TENNIS": {
     "n": 1,
@@ -20282,11 +20303,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 18,
-    "wins": 5,
+    "n": 20,
+    "wins": 7,
     "losses": 13,
-    "pl_usd": -6.68,
-    "roi_pct": -18.0
+    "pl_usd": 7.32,
+    "roi_pct": 16.1
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -20311,7 +20332,7 @@
    }
   }
  },
- "last_refresh": "2026-10-17 22:20 (Tbilisi)",
+ "last_refresh": "2026-10-17 23:26 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -21564,7 +21585,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-17 22:20 (Tbilisi)",
+  "updated": "2026-10-17 23:26 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -22640,6 +22661,39 @@
     "better": null
    },
    {
+    "id": "B053",
+    "sport": "NCAAF",
+    "event": "Florida Atlantic Owls @ Army Black Knights",
+    "open": null,
+    "taken": 1.73,
+    "taken_time": "2026-10-14 09:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B098",
+    "sport": "Polymarket",
+    "event": "Barnet @ Tranmere Rovers",
+    "open": null,
+    "taken": 2.128,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B107",
+    "sport": "Polymarket",
+    "event": "Sheffield United @ Bristol City",
+    "open": null,
+    "taken": 3.571,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B043",
     "sport": "NCAAF",
     "event": "Cincinnati Bearcats @ West Virginia Mountaineers",
@@ -22744,17 +22798,6 @@
     "event": "Ohio State Buckeyes @ Indiana Hoosiers",
     "open": null,
     "taken": 2.5,
-    "taken_time": "2026-10-14 09:05 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B053",
-    "sport": "NCAAF",
-    "event": "Florida Atlantic Owls @ Army Black Knights",
-    "open": null,
-    "taken": 1.73,
     "taken_time": "2026-10-14 09:05 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -22992,17 +23035,6 @@
     "better": null
    },
    {
-    "id": "B098",
-    "sport": "Polymarket",
-    "event": "Barnet @ Tranmere Rovers",
-    "open": null,
-    "taken": 2.128,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B101",
     "sport": "Polymarket",
     "event": "Atalanta @ AC Milan",
@@ -23030,17 +23062,6 @@
     "event": "Auxerre @ Le Havre",
     "open": null,
     "taken": 3.333,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B107",
-    "sport": "Polymarket",
-    "event": "Sheffield United @ Bristol City",
-    "open": null,
-    "taken": 3.571,
     "taken_time": null,
     "close": null,
     "close_source": null,
