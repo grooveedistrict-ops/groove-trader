@@ -452,46 +452,6 @@
    }
   },
   {
-   "id": "B095",
-   "sport": "Polymarket",
-   "league": "soc_aut.1",
-   "event": "WSG Swarovski Tirol @ Wolfsberger",
-   "kickoff": "2026-10-18 16:30",
-   "selection": "Wolfsberger",
-   "odds": 2.5,
-   "book": "Polymarket ask",
-   "p": 0.442,
-   "implied_pct": 40.0,
-   "edge_pct": 10.5,
-   "stake": 4.37,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4857
-    },
-    "mkt": 0.3983,
-    "nbooks": 1,
-    "blend_p": 0.442,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=aut-wac-wsg-2026-10-18-wac",
-   "reasoning": "scan PASS EV=10.5% models=['EloFD'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "pm:aut-wac-wsg-2026-10-18-wac",
-   "polymarket_slug": "aut-wac-wsg-2026-10-18-wac",
-   "outcome_price": 0.4,
-   "elo_only": true,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Wolfsberger AC vs. WSG Tirol",
-    "pm_league": "AUT1",
-    "pm_kickoff_utc": "2026-10-18 12:30:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B096",
    "sport": "Polymarket",
    "league": "ligue1",
@@ -5914,6 +5874,53 @@
    "score": "Wuhan Three Towns 1, Shanghai Shenhua 3 (FT)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861480",
    "settle_source": "ESPN chn.1 event 401861480 STATUS_FULL_TIME, Shanghai Shenhua winner"
+  },
+  {
+   "id": "B095",
+   "sport": "Polymarket",
+   "league": "soc_aut.1",
+   "event": "WSG Swarovski Tirol @ Wolfsberger",
+   "kickoff": "2026-10-18 16:30",
+   "selection": "Wolfsberger",
+   "odds": 2.5,
+   "book": "Polymarket ask",
+   "p": 0.442,
+   "implied_pct": 40.0,
+   "edge_pct": 10.5,
+   "stake": 4.37,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4857
+    },
+    "mkt": 0.3983,
+    "nbooks": 1,
+    "blend_p": 0.442,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=aut-wac-wsg-2026-10-18-wac",
+   "reasoning": "scan PASS EV=10.5% models=['EloFD'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "pm:aut-wac-wsg-2026-10-18-wac",
+   "polymarket_slug": "aut-wac-wsg-2026-10-18-wac",
+   "outcome_price": 0.4,
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Wolfsberger AC vs. WSG Tirol",
+    "pm_league": "AUT1",
+    "pm_kickoff_utc": "2026-10-18 12:30:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -4.37,
+   "settled_at": "2026-10-18 18:24 (Tbilisi)",
+   "final_score": "Wolfsberger 0, WSG Swarovski Tirol 2 (FT)",
+   "score": "Wolfsberger 0, WSG Swarovski Tirol 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/summary?event=401881769",
+   "settle_source": "ESPN aut.1 event 401881769 STATUS_FULL_TIME, WSG Tirol winner; Polymarket Wolfsberger Yes trading 0.0055 (UMA resolution pending)"
   }
  ],
  "positions": [
@@ -5928,7 +5935,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81835.0
+   "last_price": 81316.0
   },
   {
    "symbol": "SPY",
@@ -23647,7 +23654,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81835.0,
+  "BTC": 81316.0,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -23725,20 +23732,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 17:22 (Tbilisi)",
-  "total_value": 528.74,
+  "time": "2026-10-18 18:24 (Tbilisi)",
+  "total_value": 524.28,
   "deposits_usd": 500,
-  "vs_deposits_usd": 28.74,
-  "vs_deposits_pct": 5.75,
-  "btc_bench": 496.61,
-  "vs_btc_usd": 32.13,
+  "vs_deposits_usd": 24.28,
+  "vs_deposits_pct": 4.86,
+  "btc_bench": 493.46,
+  "vs_btc_usd": 30.81,
   "bets": {
-   "n": 118,
+   "n": 119,
    "wins": 47,
-   "losses": 71,
-   "open": 43,
-   "pl_usd": 32.4,
-   "roi_pct": 19.2
+   "losses": 72,
+   "open": 42,
+   "pl_usd": 28.03,
+   "roi_pct": 16.2
   },
   "by_sport": {
    "NHL": {
@@ -23784,19 +23791,19 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 25,
+    "n": 26,
     "wins": 9,
-    "losses": 16,
-    "pl_usd": 7.33,
-    "roi_pct": 11.4
+    "losses": 17,
+    "pl_usd": 2.96,
+    "roi_pct": 4.3
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.55,
-   "unrealized_usd": -0.45,
+   "value_usd": 14.46,
+   "unrealized_usd": -0.54,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.64
+   "total_pl_usd": -2.73
   },
   "stocks": {
    "open_n": 15,
@@ -23807,7 +23814,7 @@
   },
   "cash_usd": 305.8281,
   "scanned": 50227,
-  "open_bets_usd": 92.23,
+  "open_bets_usd": 87.86,
   "desk_stats": {
    "FOOTBALL": {
     "n": 61,
@@ -23852,11 +23859,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 25,
+    "n": 26,
     "wins": 9,
-    "losses": 16,
-    "pl_usd": 7.33,
-    "roi_pct": 11.4
+    "losses": 17,
+    "pl_usd": 2.96,
+    "roi_pct": 4.3
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -23881,7 +23888,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 17:22 (Tbilisi)",
+ "last_refresh": "2026-10-18 18:24 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -25134,7 +25141,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 17:22 (Tbilisi)",
+  "updated": "2026-10-18 18:24 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -26573,6 +26580,17 @@
     "better": null
    },
    {
+    "id": "B095",
+    "sport": "Polymarket",
+    "event": "WSG Swarovski Tirol @ Wolfsberger",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -26710,17 +26728,6 @@
     "event": "Torino @ Parma Calcio 1913",
     "open": null,
     "taken": 3.226,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B095",
-    "sport": "Polymarket",
-    "event": "WSG Swarovski Tirol @ Wolfsberger",
-    "open": null,
-    "taken": 2.5,
     "taken_time": null,
     "close": null,
     "close_source": null,
