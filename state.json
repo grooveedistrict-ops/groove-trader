@@ -415,46 +415,6 @@
    }
   },
   {
-   "id": "B101",
-   "sport": "Polymarket",
-   "league": "seriea",
-   "event": "Atalanta @ AC Milan",
-   "kickoff": "2026-10-18 20:00",
-   "selection": "Atalanta",
-   "odds": 4.545,
-   "book": "Polymarket ask",
-   "p": 0.2384,
-   "implied_pct": 22.0,
-   "edge_pct": 8.36,
-   "stake": 2.94,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2573,
-     "DRatings": 0.239
-    },
-    "mkt": 0.2287,
-    "nbooks": 5,
-    "blend_p": 0.2384,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-mil-ata-2026-10-18-ata",
-   "reasoning": "scan PASS EV=8.36% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:sea-mil-ata-2026-10-18-ata",
-   "polymarket_slug": "sea-mil-ata-2026-10-18-ata",
-   "outcome_price": 0.22,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "AC Milan vs. Atalanta BC",
-    "pm_league": "ITA1",
-    "pm_kickoff_utc": "2026-10-18 16:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B114",
    "sport": "Polymarket",
    "league": "mls",
@@ -6294,6 +6254,53 @@
    "score": "Cesena 1, US Avellino 1 (FT)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899596",
    "settle_source": "ESPN ita.2 event 401899596 STATUS_FULL_TIME, draw (not Avellino); Polymarket Avellino Yes 0.0005 (UMA proposed)"
+  },
+  {
+   "id": "B101",
+   "sport": "Polymarket",
+   "league": "seriea",
+   "event": "Atalanta @ AC Milan",
+   "kickoff": "2026-10-18 20:00",
+   "selection": "Atalanta",
+   "odds": 4.545,
+   "book": "Polymarket ask",
+   "p": 0.2384,
+   "implied_pct": 22.0,
+   "edge_pct": 8.36,
+   "stake": 2.94,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2573,
+     "DRatings": 0.239
+    },
+    "mkt": 0.2287,
+    "nbooks": 5,
+    "blend_p": 0.2384,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-mil-ata-2026-10-18-ata",
+   "reasoning": "scan PASS EV=8.36% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:sea-mil-ata-2026-10-18-ata",
+   "polymarket_slug": "sea-mil-ata-2026-10-18-ata",
+   "outcome_price": 0.22,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "AC Milan vs. Atalanta BC",
+    "pm_league": "ITA1",
+    "pm_kickoff_utc": "2026-10-18 16:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -2.94,
+   "settled_at": "2026-10-18 22:24 (Tbilisi)",
+   "final_score": "AC Milan 3, Atalanta 2 (FT)",
+   "score": "AC Milan 3, Atalanta 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874978",
+   "settle_source": "ESPN ita.1 event 401874978 STATUS_FULL_TIME, AC Milan winner; Polymarket Atalanta Yes 0.0005 (UMA proposed)"
   }
  ],
  "positions": [
@@ -6308,7 +6315,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81117
+   "last_price": 81064
   },
   {
    "symbol": "SPY",
@@ -25174,7 +25181,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81117,
+  "BTC": 81064,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -25252,20 +25259,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 21:27 (Tbilisi)",
-  "total_value": 548.19,
+  "time": "2026-10-18 22:20 (Tbilisi)",
+  "total_value": 545.24,
   "deposits_usd": 500,
-  "vs_deposits_usd": 48.19,
-  "vs_deposits_pct": 9.64,
-  "btc_bench": 492.26,
-  "vs_btc_usd": 55.94,
+  "vs_deposits_usd": 45.24,
+  "vs_deposits_pct": 9.05,
+  "btc_bench": 491.93,
+  "vs_btc_usd": 53.31,
   "bets": {
-   "n": 130,
+   "n": 131,
    "wins": 53,
-   "losses": 77,
-   "open": 38,
-   "pl_usd": 51.98,
-   "roi_pct": 25.7
+   "losses": 78,
+   "open": 37,
+   "pl_usd": 49.04,
+   "roi_pct": 23.9
   },
   "by_sport": {
    "NHL": {
@@ -25311,11 +25318,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 32,
+    "n": 33,
     "wins": 14,
-    "losses": 18,
-    "pl_usd": 30.75,
-    "roi_pct": 34.1
+    "losses": 19,
+    "pl_usd": 27.81,
+    "roi_pct": 29.8
    },
    "NFL": {
     "n": 1,
@@ -25327,10 +25334,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.42,
-   "unrealized_usd": -0.58,
+   "value_usd": 14.41,
+   "unrealized_usd": -0.59,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.77
+   "total_pl_usd": -2.78
   },
   "stocks": {
    "open_n": 15,
@@ -25341,7 +25348,7 @@
   },
   "cash_usd": 335.3381,
   "scanned": 54777,
-  "open_bets_usd": 82.3,
+  "open_bets_usd": 79.36,
   "desk_stats": {
    "FOOTBALL": {
     "n": 65,
@@ -25386,11 +25393,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 32,
+    "n": 33,
     "wins": 14,
-    "losses": 18,
-    "pl_usd": 30.75,
-    "roi_pct": 34.1
+    "losses": 19,
+    "pl_usd": 27.81,
+    "roi_pct": 29.8
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -25415,7 +25422,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 21:27 (Tbilisi)",
+ "last_refresh": "2026-10-18 22:20 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -26668,7 +26675,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 21:27 (Tbilisi)",
+  "updated": "2026-10-18 22:20 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -28241,6 +28248,17 @@
     "better": null
    },
    {
+    "id": "B101",
+    "sport": "Polymarket",
+    "event": "Atalanta @ AC Milan",
+    "open": null,
+    "taken": 4.545,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -28367,17 +28385,6 @@
     "event": "Torino @ Parma Calcio 1913",
     "open": null,
     "taken": 3.226,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B101",
-    "sport": "Polymarket",
-    "event": "Atalanta @ AC Milan",
-    "open": null,
-    "taken": 4.545,
     "taken_time": null,
     "close": null,
     "close_source": null,
