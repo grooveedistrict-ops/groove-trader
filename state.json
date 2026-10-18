@@ -602,46 +602,6 @@
    }
   },
   {
-   "id": "B093",
-   "sport": "Polymarket",
-   "league": "soc_mex.1",
-   "event": "Querétaro @ Santos",
-   "kickoff": "2026-10-18 03:00",
-   "selection": "Querétaro",
-   "odds": 2.857,
-   "book": "Polymarket ask",
-   "p": 0.3933,
-   "implied_pct": 35.0,
-   "edge_pct": 12.37,
-   "stake": 4.15,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4454
-    },
-    "mkt": 0.3411,
-    "nbooks": 1,
-    "blend_p": 0.3933,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mex-san-que-2026-10-17-que",
-   "reasoning": "scan PASS EV=12.37% models=['EloFD'] nbooks=1; TITAN BUY after NEWS",
-   "scan_id": "pm:mex-san-que-2026-10-17-que",
-   "polymarket_slug": "mex-san-que-2026-10-17-que",
-   "outcome_price": 0.35,
-   "elo_only": true,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Club Santos Laguna vs. Querétaro FC",
-    "pm_league": "MEX1",
-    "pm_kickoff_utc": "2026-10-17 23:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B095",
    "sport": "Polymarket",
    "league": "soc_aut.1",
@@ -5237,6 +5197,53 @@
    "score": "Virginia Tech Hokies 34, Georgia Tech Yellow Jackets 24 (Final)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858264",
    "settle_source": "ESPN STATUS_FINAL event 401858264"
+  },
+  {
+   "id": "B093",
+   "sport": "Polymarket",
+   "league": "soc_mex.1",
+   "event": "Querétaro @ Santos",
+   "kickoff": "2026-10-18 03:00",
+   "selection": "Querétaro",
+   "odds": 2.857,
+   "book": "Polymarket ask",
+   "p": 0.3933,
+   "implied_pct": 35.0,
+   "edge_pct": 12.37,
+   "stake": 4.15,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4454
+    },
+    "mkt": 0.3411,
+    "nbooks": 1,
+    "blend_p": 0.3933,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mex-san-que-2026-10-17-que",
+   "reasoning": "scan PASS EV=12.37% models=['EloFD'] nbooks=1; TITAN BUY after NEWS",
+   "scan_id": "pm:mex-san-que-2026-10-17-que",
+   "polymarket_slug": "mex-san-que-2026-10-17-que",
+   "outcome_price": 0.35,
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Club Santos Laguna vs. Querétaro FC",
+    "pm_league": "MEX1",
+    "pm_kickoff_utc": "2026-10-17 23:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -4.15,
+   "settled_at": "2026-10-18 05:22 (Tbilisi)",
+   "final_score": "Santos 5, Querétaro 0 (FT)",
+   "score": "Santos 5, Querétaro 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/summary?event=401876942",
+   "settle_source": "ESPN mex.1 event 401876942 STATUS_FULL_TIME 90'+8' Santos 5–0; Polymarket Querétaro Yes 0.0005 (not yet formally closed)"
   }
  ],
  "positions": [
@@ -5251,7 +5258,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81422
+   "last_price": 81516
   },
   {
    "symbol": "SPY",
@@ -21362,7 +21369,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81422,
+  "BTC": 81516,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -21440,20 +21447,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 04:25 (Tbilisi)",
-  "total_value": 536.68,
+  "time": "2026-10-18 05:19 (Tbilisi)",
+  "total_value": 532.55,
   "deposits_usd": 500,
-  "vs_deposits_usd": 36.68,
-  "vs_deposits_pct": 7.34,
-  "btc_bench": 494.11,
-  "vs_btc_usd": 42.58,
+  "vs_deposits_usd": 32.55,
+  "vs_deposits_pct": 6.51,
+  "btc_bench": 494.68,
+  "vs_btc_usd": 37.87,
   "bets": {
-   "n": 105,
+   "n": 106,
    "wins": 43,
-   "losses": 62,
-   "open": 44,
-   "pl_usd": 40.42,
-   "roi_pct": 29.6
+   "losses": 63,
+   "open": 43,
+   "pl_usd": 36.27,
+   "roi_pct": 25.8
   },
   "by_sport": {
    "NHL": {
@@ -21499,19 +21506,19 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 22,
+    "n": 23,
     "wins": 8,
-    "losses": 14,
-    "pl_usd": 10.66,
-    "roi_pct": 20.7
+    "losses": 15,
+    "pl_usd": 6.51,
+    "roi_pct": 11.7
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.48,
-   "unrealized_usd": -0.52,
+   "value_usd": 14.5,
+   "unrealized_usd": -0.5,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.71
+   "total_pl_usd": -2.69
   },
   "stocks": {
    "open_n": 15,
@@ -21522,7 +21529,7 @@
   },
   "cash_usd": 303.2441,
   "scanned": 51603,
-  "open_bets_usd": 102.83,
+  "open_bets_usd": 98.68,
   "desk_stats": {
    "FOOTBALL": {
     "n": 53,
@@ -21567,11 +21574,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 22,
+    "n": 23,
     "wins": 8,
-    "losses": 14,
-    "pl_usd": 10.66,
-    "roi_pct": 20.7
+    "losses": 15,
+    "pl_usd": 6.51,
+    "roi_pct": 11.7
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -21596,7 +21603,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 04:25 (Tbilisi)",
+ "last_refresh": "2026-10-18 05:19 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -22849,7 +22856,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 04:25 (Tbilisi)",
+  "updated": "2026-10-18 05:19 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -24125,6 +24132,17 @@
     "better": null
    },
    {
+    "id": "B093",
+    "sport": "Polymarket",
+    "event": "Querétaro @ Santos",
+    "open": null,
+    "taken": 2.857,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B044",
     "sport": "NCAAF",
     "event": "Arkansas State Red Wolves @ Southern Miss Golden Eagles",
@@ -24317,17 +24335,6 @@
     "event": "Torino @ Parma Calcio 1913",
     "open": null,
     "taken": 3.226,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B093",
-    "sport": "Polymarket",
-    "event": "Querétaro @ Santos",
-    "open": null,
-    "taken": 2.857,
     "taken_time": null,
     "close": null,
     "close_source": null,
