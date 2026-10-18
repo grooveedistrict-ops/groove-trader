@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 335.3381,
+ "cash_usd": 345.7101,
  "open_bets": [
   {
    "id": "B066",
@@ -866,36 +866,6 @@
    "scan_id": "espn401881306"
   },
   {
-   "id": "B156",
-   "sport": "Football",
-   "league": "soc_ita.2",
-   "event": "Arezzo @ Sampdoria",
-   "kickoff": "2026-10-18 21:30",
-   "selection": "Arezzo",
-   "odds": 4.2,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.2549,
-   "implied_pct": 23.8,
-   "edge_pct": 7.05,
-   "stake": 1.42,
-   "status": "open",
-   "opened_at": "2026-10-18 09:09 (Tbilisi)",
-   "odds_time": "2026-10-18 09:09 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.28,
-     "EloFD": 0.2863
-    },
-    "mkt": 0.2266,
-    "nbooks": 1,
-    "blend_p": 0.2549,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899590",
-   "reasoning": "scan PASS EV=7.05% models=['FTS', 'EloFD']; scan stake $1.42 (raw 1.42; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.42",
-   "scan_id": "espn401899590"
-  },
-  {
    "id": "B157",
    "sport": "Football",
    "league": "soc_mex.1",
@@ -923,36 +893,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/summary?event=401876936",
    "reasoning": "scan PASS EV=6.59% models=['EloFD']; scan stake $1.18 (raw 1.18; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.18",
    "scan_id": "espn401876936"
-  },
-  {
-   "id": "B158",
-   "sport": "Football",
-   "league": "soc_esp.2",
-   "event": "Eldense @ Real Valladolid",
-   "kickoff": "2026-10-18 20:30",
-   "selection": "Eldense",
-   "odds": 3.8,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.2764,
-   "implied_pct": 26.3,
-   "edge_pct": 5.02,
-   "stake": 1.16,
-   "status": "open",
-   "opened_at": "2026-10-18 09:09 (Tbilisi)",
-   "odds_time": "2026-10-18 09:09 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.32,
-     "EloFD": 0.2883
-    },
-    "mkt": 0.2486,
-    "nbooks": 1,
-    "blend_p": 0.2764,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883154",
-   "reasoning": "scan PASS EV=5.02% models=['FTS', 'EloFD']; scan stake $1.16 (raw 1.16; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.16",
-   "scan_id": "espn401883154"
   },
   {
    "id": "B159",
@@ -6301,6 +6241,80 @@
    "score": "AC Milan 3, Atalanta 2 (FT)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874978",
    "settle_source": "ESPN ita.1 event 401874978 STATUS_FULL_TIME, AC Milan winner; Polymarket Atalanta Yes 0.0005 (UMA proposed)"
+  },
+  {
+   "id": "B156",
+   "sport": "Football",
+   "league": "soc_ita.2",
+   "event": "Arezzo @ Sampdoria",
+   "kickoff": "2026-10-18 21:30",
+   "selection": "Arezzo",
+   "odds": 4.2,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.2549,
+   "implied_pct": 23.8,
+   "edge_pct": 7.05,
+   "stake": 1.42,
+   "status": "settled",
+   "opened_at": "2026-10-18 09:09 (Tbilisi)",
+   "odds_time": "2026-10-18 09:09 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.28,
+     "EloFD": 0.2863
+    },
+    "mkt": 0.2266,
+    "nbooks": 1,
+    "blend_p": 0.2549,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899590",
+   "reasoning": "scan PASS EV=7.05% models=['FTS', 'EloFD']; scan stake $1.42 (raw 1.42; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.42",
+   "scan_id": "espn401899590",
+   "result": "won",
+   "pl_usd": 4.54,
+   "settled_at": "2026-10-18 23:28 (Tbilisi)",
+   "final_score": "Sampdoria 1, Arezzo 2 (FT)",
+   "score": "Sampdoria 1, Arezzo 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899590",
+   "settle_source": "ESPN ita.2 event 401899590 STATUS_FULL_TIME, Arezzo winner"
+  },
+  {
+   "id": "B158",
+   "sport": "Football",
+   "league": "soc_esp.2",
+   "event": "Eldense @ Real Valladolid",
+   "kickoff": "2026-10-18 20:30",
+   "selection": "Eldense",
+   "odds": 3.8,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.2764,
+   "implied_pct": 26.3,
+   "edge_pct": 5.02,
+   "stake": 1.16,
+   "status": "settled",
+   "opened_at": "2026-10-18 09:09 (Tbilisi)",
+   "odds_time": "2026-10-18 09:09 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.32,
+     "EloFD": 0.2883
+    },
+    "mkt": 0.2486,
+    "nbooks": 1,
+    "blend_p": 0.2764,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883154",
+   "reasoning": "scan PASS EV=5.02% models=['FTS', 'EloFD']; scan stake $1.16 (raw 1.16; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.16",
+   "scan_id": "espn401883154",
+   "result": "won",
+   "pl_usd": 3.25,
+   "settled_at": "2026-10-18 23:28 (Tbilisi)",
+   "final_score": "Real Valladolid 2, Eldense 3 (FT)",
+   "score": "Real Valladolid 2, Eldense 3 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883154",
+   "settle_source": "ESPN esp.2 event 401883154 STATUS_FULL_TIME, Eldense winner"
   }
  ],
  "positions": [
@@ -6315,7 +6329,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81064
+   "last_price": 81003
   },
   {
    "symbol": "SPY",
@@ -25181,7 +25195,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81064,
+  "BTC": 81003,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -25259,20 +25273,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 22:20 (Tbilisi)",
-  "total_value": 545.24,
+  "time": "2026-10-18 23:27 (Tbilisi)",
+  "total_value": 553.02,
   "deposits_usd": 500,
-  "vs_deposits_usd": 45.24,
-  "vs_deposits_pct": 9.05,
-  "btc_bench": 491.93,
-  "vs_btc_usd": 53.31,
+  "vs_deposits_usd": 53.02,
+  "vs_deposits_pct": 10.6,
+  "btc_bench": 491.56,
+  "vs_btc_usd": 61.46,
   "bets": {
-   "n": 131,
-   "wins": 53,
+   "n": 133,
+   "wins": 55,
    "losses": 78,
-   "open": 37,
-   "pl_usd": 49.04,
-   "roi_pct": 23.9
+   "open": 35,
+   "pl_usd": 56.83,
+   "roi_pct": 27.4
   },
   "by_sport": {
    "NHL": {
@@ -25297,11 +25311,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 65,
-    "wins": 25,
+    "n": 67,
+    "wins": 27,
     "losses": 40,
-    "pl_usd": 20.88,
-    "roi_pct": 24.8
+    "pl_usd": 28.67,
+    "roi_pct": 33.1
    },
    "NCAAF": {
     "n": 19,
@@ -25334,10 +25348,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.41,
-   "unrealized_usd": -0.59,
+   "value_usd": 14.4,
+   "unrealized_usd": -0.6,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.78
+   "total_pl_usd": -2.79
   },
   "stocks": {
    "open_n": 15,
@@ -25346,16 +25360,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 335.3381,
+  "cash_usd": 345.7101,
   "scanned": 54777,
-  "open_bets_usd": 79.36,
+  "open_bets_usd": 76.78,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 65,
-    "wins": 25,
+    "n": 67,
+    "wins": 27,
     "losses": 40,
-    "pl_usd": 20.88,
-    "roi_pct": 24.8
+    "pl_usd": 28.67,
+    "roi_pct": 33.1
    },
    "BASKETBALL": {
     "n": 1,
@@ -25422,7 +25436,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 22:20 (Tbilisi)",
+ "last_refresh": "2026-10-18 23:27 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -26675,7 +26689,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 22:20 (Tbilisi)",
+  "updated": "2026-10-18 23:27 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -28259,6 +28273,28 @@
     "better": null
    },
    {
+    "id": "B156",
+    "sport": "Football",
+    "event": "Arezzo @ Sampdoria",
+    "open": null,
+    "taken": 4.2,
+    "taken_time": "2026-10-18 09:09 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B158",
+    "sport": "Football",
+    "event": "Eldense @ Real Valladolid",
+    "open": null,
+    "taken": 3.8,
+    "taken_time": "2026-10-18 09:09 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -28545,33 +28581,11 @@
     "better": null
    },
    {
-    "id": "B156",
-    "sport": "Football",
-    "event": "Arezzo @ Sampdoria",
-    "open": null,
-    "taken": 4.2,
-    "taken_time": "2026-10-18 09:09 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B157",
     "sport": "Football",
     "event": "Atlante @ FC Juárez",
     "open": null,
     "taken": 2.8,
-    "taken_time": "2026-10-18 09:09 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B158",
-    "sport": "Football",
-    "event": "Eldense @ Real Valladolid",
-    "open": null,
-    "taken": 3.8,
     "taken_time": "2026-10-18 09:09 (Tbilisi)",
     "close": null,
     "close_source": null,
