@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 293.9281,
+ "cash_usd": 303.6281,
  "open_bets": [
   {
    "id": "B066",
@@ -798,47 +798,6 @@
     "pm_title": "Burgos CF vs. CE Sabadell FC",
     "pm_league": "ESP2",
     "pm_kickoff_utc": "2026-10-18 19:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
-   "id": "B120",
-   "sport": "Polymarket",
-   "league": "soc_jpn.1",
-   "event": "Vissel Kobe @ Fagiano Okayama",
-   "kickoff": "2026-10-18 08:55",
-   "selection": "Vissel Kobe",
-   "odds": 2.5,
-   "book": "Polymarket ask",
-   "p": 0.4377,
-   "implied_pct": 40.0,
-   "edge_pct": 9.42,
-   "stake": 3.88,
-   "status": "open",
-   "opened_at": "2026-10-16 00:07 (Tbilisi)",
-   "odds_time": "2026-10-16 00:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4874
-    },
-    "mkt": 0.388,
-    "nbooks": 1,
-    "blend_p": 0.4377,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=jap-fag-vis-2026-10-18-vis",
-   "reasoning": "scan PASS EV=9.42% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
-   "scan_id": "pm:jap-fag-vis-2026-10-18-vis",
-   "polymarket_slug": "jap-fag-vis-2026-10-18-vis",
-   "outcome_price": 0.4,
-   "elo_only": true,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Fagiano Okayama vs. Vissel Kōbe",
-    "pm_league": "JPN1",
-    "pm_kickoff_utc": "2026-10-18 04:55:00+00",
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
@@ -5900,6 +5859,54 @@
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '-270', 'away': '+600', 'draw': '+390'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761885",
    "closing_note": "DraftKings close via ESPN pickcenter {'home': '-270', 'away': '+600', 'draw': '+390'}; no-vig fair 5.2756; recorded AM 2026-10-18 09:02 (Tbilisi)"
+  },
+  {
+   "id": "B120",
+   "sport": "Polymarket",
+   "league": "soc_jpn.1",
+   "event": "Vissel Kobe @ Fagiano Okayama",
+   "kickoff": "2026-10-18 08:55",
+   "selection": "Vissel Kobe",
+   "odds": 2.5,
+   "book": "Polymarket ask",
+   "p": 0.4377,
+   "implied_pct": 40.0,
+   "edge_pct": 9.42,
+   "stake": 3.88,
+   "status": "settled",
+   "opened_at": "2026-10-16 00:07 (Tbilisi)",
+   "odds_time": "2026-10-16 00:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4874
+    },
+    "mkt": 0.388,
+    "nbooks": 1,
+    "blend_p": 0.4377,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=jap-fag-vis-2026-10-18-vis",
+   "reasoning": "scan PASS EV=9.42% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
+   "scan_id": "pm:jap-fag-vis-2026-10-18-vis",
+   "polymarket_slug": "jap-fag-vis-2026-10-18-vis",
+   "outcome_price": 0.4,
+   "elo_only": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Fagiano Okayama vs. Vissel Kōbe",
+    "pm_league": "JPN1",
+    "pm_kickoff_utc": "2026-10-18 04:55:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 5.82,
+   "settled_at": "2026-10-18 11:18 (Tbilisi)",
+   "final_score": "Fagiano Okayama 0, Vissel Kobe 3 (FT)",
+   "score": "Fagiano Okayama 0, Vissel Kobe 3 (FT)",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=jap-fag-vis-2026-10-18-vis",
+   "settle_source": "Polymarket resolved Yes=1 No=0 (umaResolutionStatus resolved); ESPN jpn.1 event 401877598 STATUS_FULL_TIME"
   }
  ],
  "positions": [
@@ -5914,7 +5921,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81646
+   "last_price": 81640
   },
   {
    "symbol": "SPY",
@@ -23633,7 +23640,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81646,
+  "BTC": 81640,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -23711,20 +23718,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 10:21 (Tbilisi)",
-  "total_value": 521.69,
+  "time": "2026-10-18 11:18 (Tbilisi)",
+  "total_value": 527.51,
   "deposits_usd": 500,
-  "vs_deposits_usd": 21.69,
-  "vs_deposits_pct": 4.34,
-  "btc_bench": 495.47,
-  "vs_btc_usd": 26.22,
+  "vs_deposits_usd": 27.51,
+  "vs_deposits_pct": 5.5,
+  "btc_bench": 495.43,
+  "vs_btc_usd": 32.08,
   "bets": {
-   "n": 116,
-   "wins": 45,
+   "n": 117,
+   "wins": 46,
    "losses": 71,
-   "open": 45,
-   "pl_usd": 25.38,
-   "roi_pct": 15.5
+   "open": 44,
+   "pl_usd": 31.2,
+   "roi_pct": 18.6
   },
   "by_sport": {
    "NHL": {
@@ -23770,11 +23777,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 24,
-    "wins": 8,
+    "n": 25,
+    "wins": 9,
     "losses": 16,
-    "pl_usd": 1.51,
-    "roi_pct": 2.5
+    "pl_usd": 7.33,
+    "roi_pct": 11.4
    }
   },
   "crypto": {
@@ -23791,9 +23798,9 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 293.9281,
+  "cash_usd": 303.6281,
   "scanned": 50227,
-  "open_bets_usd": 97.11,
+  "open_bets_usd": 93.23,
   "desk_stats": {
    "FOOTBALL": {
     "n": 60,
@@ -23838,11 +23845,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 24,
-    "wins": 8,
+    "n": 25,
+    "wins": 9,
     "losses": 16,
-    "pl_usd": 1.51,
-    "roi_pct": 2.5
+    "pl_usd": 7.33,
+    "roi_pct": 11.4
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -23867,7 +23874,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 10:21 (Tbilisi)",
+ "last_refresh": "2026-10-18 11:18 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -25120,7 +25127,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 10:21 (Tbilisi)",
+  "updated": "2026-10-18 11:18 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -26537,6 +26544,17 @@
     "better": "equal"
    },
    {
+    "id": "B120",
+    "sport": "Polymarket",
+    "event": "Vissel Kobe @ Fagiano Okayama",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": "2026-10-16 00:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -26773,17 +26791,6 @@
     "event": "CD Sabadell @ Burgos",
     "open": null,
     "taken": 2.703,
-    "taken_time": "2026-10-16 00:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B120",
-    "sport": "Polymarket",
-    "event": "Vissel Kobe @ Fagiano Okayama",
-    "open": null,
-    "taken": 2.5,
     "taken_time": "2026-10-16 00:07 (Tbilisi)",
     "close": null,
     "close_source": null,
