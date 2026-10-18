@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 292.8781,
+ "cash_usd": 296.4081,
  "open_bets": [
   {
    "id": "B066",
@@ -641,46 +641,6 @@
    "scan_id": 295138
   },
   {
-   "id": "B118",
-   "sport": "Polymarket",
-   "league": "laliga",
-   "event": "Deportivo Alaves @ Celta Vigo",
-   "kickoff": "2026-10-18 18:15",
-   "selection": "Celta Vigo",
-   "odds": 2.222,
-   "book": "Polymarket ask",
-   "p": 0.4641,
-   "implied_pct": 45.0,
-   "edge_pct": 3.13,
-   "stake": 1.59,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.476,
-     "DRatings": 0.482
-    },
-    "mkt": 0.4493,
-    "nbooks": 5,
-    "blend_p": 0.4641,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=lal-cel-ala-2026-10-18-cel",
-   "reasoning": "scan PASS EV=3.13% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:lal-cel-ala-2026-10-18-cel",
-   "polymarket_slug": "lal-cel-ala-2026-10-18-cel",
-   "outcome_price": 0.45,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "RC Celta de Vigo vs. Deportivo Alavés",
-    "pm_league": "ESP1",
-    "pm_kickoff_utc": "2026-10-18 14:15:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B119",
    "sport": "Polymarket",
    "league": "soc_esp.2",
@@ -984,36 +944,6 @@
    "scan_id": "espn401877593"
   },
   {
-   "id": "B150",
-   "sport": "Football",
-   "league": "soc_swe.1",
-   "event": "BK Häcken @ Malmö FF",
-   "kickoff": "2026-10-18 18:30",
-   "selection": "Malmö FF",
-   "odds": 2.65,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.4687,
-   "implied_pct": 37.7,
-   "edge_pct": 24.21,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-18 09:09 (Tbilisi)",
-   "odds_time": "2026-10-18 09:09 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.39,
-     "DRatings": 0.767
-    },
-    "mkt": 0.3589,
-    "nbooks": 1,
-    "blend_p": 0.4687,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842844",
-   "reasoning": "scan PASS EV=24.21% models=['FTS', 'DRatings']; scan stake $5.0 (raw 9.44; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "espn401842844"
-  },
-  {
    "id": "B151",
    "sport": "Football",
    "league": "soc_arg.1",
@@ -1280,36 +1210,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876717",
    "reasoning": "scan PASS EV=6.45% models=['EloFD']; scan stake $1.09 (raw 1.09; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.09",
    "scan_id": "espn401876717"
-  },
-  {
-   "id": "B160",
-   "sport": "Football",
-   "league": "soc_swe.1",
-   "event": "GAIS @ Örgryte IS",
-   "kickoff": "2026-10-18 18:30",
-   "selection": "Draw (GAIS @ Örgryte IS)",
-   "odds": 4.4,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.2391,
-   "implied_pct": 22.7,
-   "edge_pct": 5.19,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-18 09:09 (Tbilisi)",
-   "odds_time": "2026-10-18 09:09 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.27,
-     "DRatings": 0.256
-    },
-    "mkt": 0.2151,
-    "nbooks": 1,
-    "blend_p": 0.2391,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842849",
-   "reasoning": "scan PASS EV=5.19% models=['FTS', 'DRatings']; scan stake $1.0 (raw 0.98; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "espn401842849"
   },
   {
    "id": "B161",
@@ -6231,6 +6131,127 @@
     "note": "CLV -7.54% (4.75 vs DraftKings no-vig close 5.1374); final Brighton & Hove Albion 5, Crystal Palace 0 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B118",
+   "sport": "Polymarket",
+   "league": "laliga",
+   "event": "Deportivo Alaves @ Celta Vigo",
+   "kickoff": "2026-10-18 18:15",
+   "selection": "Celta Vigo",
+   "odds": 2.222,
+   "book": "Polymarket ask",
+   "p": 0.4641,
+   "implied_pct": 45.0,
+   "edge_pct": 3.13,
+   "stake": 1.59,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.476,
+     "DRatings": 0.482
+    },
+    "mkt": 0.4493,
+    "nbooks": 5,
+    "blend_p": 0.4641,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=lal-cel-ala-2026-10-18-cel",
+   "reasoning": "scan PASS EV=3.13% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:lal-cel-ala-2026-10-18-cel",
+   "polymarket_slug": "lal-cel-ala-2026-10-18-cel",
+   "outcome_price": 0.45,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "RC Celta de Vigo vs. Deportivo Alavés",
+    "pm_league": "ESP1",
+    "pm_kickoff_utc": "2026-10-18 14:15:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 1.94,
+   "settled_at": "2026-10-18 20:28 (Tbilisi)",
+   "final_score": "Celta Vigo 2, Alavés 1 (FT)",
+   "score": "Celta Vigo 2, Alavés 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882845",
+   "settle_source": "ESPN esp.1 event 401882845 STATUS_FULL_TIME, Celta Vigo winner; Polymarket Celta Yes trading 0.9995 (UMA resolution proposed)"
+  },
+  {
+   "id": "B150",
+   "sport": "Football",
+   "league": "soc_swe.1",
+   "event": "BK Häcken @ Malmö FF",
+   "kickoff": "2026-10-18 18:30",
+   "selection": "Malmö FF",
+   "odds": 2.65,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.4687,
+   "implied_pct": 37.7,
+   "edge_pct": 24.21,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-18 09:09 (Tbilisi)",
+   "odds_time": "2026-10-18 09:09 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.39,
+     "DRatings": 0.767
+    },
+    "mkt": 0.3589,
+    "nbooks": 1,
+    "blend_p": 0.4687,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842844",
+   "reasoning": "scan PASS EV=24.21% models=['FTS', 'DRatings']; scan stake $5.0 (raw 9.44; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "espn401842844",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-18 20:28 (Tbilisi)",
+   "final_score": "Malmö FF 0, BK Häcken 1 (FT)",
+   "score": "Malmö FF 0, BK Häcken 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842844",
+   "settle_source": "ESPN swe.1 event 401842844 STATUS_FULL_TIME, BK Häcken winner"
+  },
+  {
+   "id": "B160",
+   "sport": "Football",
+   "league": "soc_swe.1",
+   "event": "GAIS @ Örgryte IS",
+   "kickoff": "2026-10-18 18:30",
+   "selection": "Draw (GAIS @ Örgryte IS)",
+   "odds": 4.4,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.2391,
+   "implied_pct": 22.7,
+   "edge_pct": 5.19,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-18 09:09 (Tbilisi)",
+   "odds_time": "2026-10-18 09:09 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.27,
+     "DRatings": 0.256
+    },
+    "mkt": 0.2151,
+    "nbooks": 1,
+    "blend_p": 0.2391,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842849",
+   "reasoning": "scan PASS EV=5.19% models=['FTS', 'DRatings']; scan stake $1.0 (raw 0.98; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "espn401842849",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-18 20:28 (Tbilisi)",
+   "final_score": "Örgryte IS 4, GAIS 2 (FT)",
+   "score": "Örgryte IS 4, GAIS 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842849",
+   "settle_source": "ESPN swe.1 event 401842849 STATUS_FULL_TIME, Örgryte IS winner (not a draw)"
   }
  ],
  "positions": [
@@ -6245,7 +6266,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81110
+   "last_price": 81021
   },
   {
    "symbol": "SPY",
@@ -25111,7 +25132,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81110,
+  "BTC": 81021,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -25189,20 +25210,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 19:21 (Tbilisi)",
-  "total_value": 528.93,
+  "time": "2026-10-18 20:24 (Tbilisi)",
+  "total_value": 528.86,
   "deposits_usd": 500,
-  "vs_deposits_usd": 28.93,
-  "vs_deposits_pct": 5.79,
-  "btc_bench": 492.21,
-  "vs_btc_usd": 36.72,
+  "vs_deposits_usd": 28.86,
+  "vs_deposits_pct": 5.77,
+  "btc_bench": 491.67,
+  "vs_btc_usd": 37.18,
   "bets": {
-   "n": 121,
-   "wins": 48,
-   "losses": 73,
-   "open": 47,
-   "pl_usd": 32.72,
-   "roi_pct": 18.3
+   "n": 124,
+   "wins": 49,
+   "losses": 75,
+   "open": 44,
+   "pl_usd": 32.66,
+   "roi_pct": 17.9
   },
   "by_sport": {
    "NHL": {
@@ -25227,11 +25248,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 62,
+    "n": 64,
     "wins": 24,
-    "losses": 38,
-    "pl_usd": 21.04,
-    "roi_pct": 26.4
+    "losses": 40,
+    "pl_usd": 19.04,
+    "roi_pct": 23.3
    },
    "NCAAF": {
     "n": 19,
@@ -25248,19 +25269,19 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 27,
-    "wins": 10,
+    "n": 28,
+    "wins": 11,
     "losses": 17,
-    "pl_usd": 8.83,
-    "roi_pct": 12.0
+    "pl_usd": 10.77,
+    "roi_pct": 14.3
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.42,
-   "unrealized_usd": -0.58,
+   "value_usd": 14.41,
+   "unrealized_usd": -0.59,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.77
+   "total_pl_usd": -2.78
   },
   "stocks": {
    "open_n": 15,
@@ -25269,16 +25290,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 292.8781,
+  "cash_usd": 296.4081,
   "scanned": 54777,
-  "open_bets_usd": 105.5,
+  "open_bets_usd": 101.91,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 62,
+    "n": 64,
     "wins": 24,
-    "losses": 38,
-    "pl_usd": 21.04,
-    "roi_pct": 26.4
+    "losses": 40,
+    "pl_usd": 19.04,
+    "roi_pct": 23.3
    },
    "BASKETBALL": {
     "n": 1,
@@ -25316,11 +25337,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 27,
-    "wins": 10,
+    "n": 28,
+    "wins": 11,
     "losses": 17,
-    "pl_usd": 8.83,
-    "roi_pct": 12.0
+    "pl_usd": 10.77,
+    "roi_pct": 14.3
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -25345,7 +25366,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 19:21 (Tbilisi)",
+ "last_refresh": "2026-10-18 20:24 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -26598,7 +26619,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 19:21 (Tbilisi)",
+  "updated": "2026-10-18 20:24 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -28072,6 +28093,39 @@
     "better": "late"
    },
    {
+    "id": "B118",
+    "sport": "Polymarket",
+    "event": "Deportivo Alaves @ Celta Vigo",
+    "open": null,
+    "taken": 2.222,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B150",
+    "sport": "Football",
+    "event": "BK Häcken @ Malmö FF",
+    "open": null,
+    "taken": 2.65,
+    "taken_time": "2026-10-18 09:09 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B160",
+    "sport": "Football",
+    "event": "GAIS @ Örgryte IS",
+    "open": null,
+    "taken": 4.4,
+    "taken_time": "2026-10-18 09:09 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -28270,17 +28324,6 @@
     "better": null
    },
    {
-    "id": "B118",
-    "sport": "Polymarket",
-    "event": "Deportivo Alaves @ Celta Vigo",
-    "open": null,
-    "taken": 2.222,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B119",
     "sport": "Polymarket",
     "event": "CD Sabadell @ Burgos",
@@ -28380,17 +28423,6 @@
     "better": null
    },
    {
-    "id": "B150",
-    "sport": "Football",
-    "event": "BK Häcken @ Malmö FF",
-    "open": null,
-    "taken": 2.65,
-    "taken_time": "2026-10-18 09:09 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B151",
     "sport": "Football",
     "event": "River Plate @ Belgrano (Córdoba)",
@@ -28484,17 +28516,6 @@
     "event": "Guingamp @ Clermont Foot",
     "open": null,
     "taken": 2.9,
-    "taken_time": "2026-10-18 09:09 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B160",
-    "sport": "Football",
-    "event": "GAIS @ Örgryte IS",
-    "open": null,
-    "taken": 4.4,
     "taken_time": "2026-10-18 09:09 (Tbilisi)",
     "close": null,
     "close_source": null,
