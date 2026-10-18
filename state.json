@@ -312,46 +312,6 @@
    }
   },
   {
-   "id": "B114",
-   "sport": "Polymarket",
-   "league": "mls",
-   "event": "Columbus Crew @ FC Cincinnati",
-   "kickoff": "2026-10-19 01:00",
-   "selection": "FC Cincinnati",
-   "odds": 2.222,
-   "book": "Polymarket ask",
-   "p": 0.473,
-   "implied_pct": 45.0,
-   "edge_pct": 5.11,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4846,
-     "DRatings": 0.529
-    },
-    "mkt": 0.4391,
-    "nbooks": 5,
-    "blend_p": 0.473,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mls-fcc-clb-2026-10-18-fcc",
-   "reasoning": "scan PASS EV=5.11% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:mls-fcc-clb-2026-10-18-fcc",
-   "polymarket_slug": "mls-fcc-clb-2026-10-18-fcc",
-   "outcome_price": 0.45,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "FC Cincinnati vs. Columbus Crew",
-    "pm_league": "USA1",
-    "pm_kickoff_utc": "2026-10-18 21:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B117",
    "sport": "NBA",
    "league": "nba",
@@ -6524,6 +6484,53 @@
    "score": "Lyon 2, Nice 1 (FT)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876434",
    "settle_source": "ESPN fra.1 event 401876434 STATUS_FULL_TIME, Lyon winner"
+  },
+  {
+   "id": "B114",
+   "sport": "Polymarket",
+   "league": "mls",
+   "event": "Columbus Crew @ FC Cincinnati",
+   "kickoff": "2026-10-19 01:00",
+   "selection": "FC Cincinnati",
+   "odds": 2.222,
+   "book": "Polymarket ask",
+   "p": 0.473,
+   "implied_pct": 45.0,
+   "edge_pct": 5.11,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4846,
+     "DRatings": 0.529
+    },
+    "mkt": 0.4391,
+    "nbooks": 5,
+    "blend_p": 0.473,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mls-fcc-clb-2026-10-18-fcc",
+   "reasoning": "scan PASS EV=5.11% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:mls-fcc-clb-2026-10-18-fcc",
+   "polymarket_slug": "mls-fcc-clb-2026-10-18-fcc",
+   "outcome_price": 0.45,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "FC Cincinnati vs. Columbus Crew",
+    "pm_league": "USA1",
+    "pm_kickoff_utc": "2026-10-18 21:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-19 03:21 (Tbilisi)",
+   "final_score": "FC Cincinnati 0, Columbus Crew 2 (FT)",
+   "score": "FC Cincinnati 0, Columbus Crew 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761889",
+   "settle_source": "ESPN usa.1 event 761889 STATUS_FULL_TIME, Columbus Crew winner; Polymarket Cincinnati Yes 0.0005 (UMA proposed)"
   }
  ],
  "positions": [
@@ -6538,7 +6545,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81574
+   "last_price": 81718
   },
   {
    "symbol": "SPY",
@@ -26450,7 +26457,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81574,
+  "BTC": 81718,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -26528,20 +26535,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-19 02:26 (Tbilisi)",
-  "total_value": 566.67,
+  "time": "2026-10-19 03:22 (Tbilisi)",
+  "total_value": 561.69,
   "deposits_usd": 500,
-  "vs_deposits_usd": 66.67,
-  "vs_deposits_pct": 13.33,
-  "btc_bench": 495.03,
-  "vs_btc_usd": 71.64,
+  "vs_deposits_usd": 61.69,
+  "vs_deposits_pct": 12.34,
+  "btc_bench": 495.9,
+  "vs_btc_usd": 65.79,
   "bets": {
-   "n": 140,
+   "n": 141,
    "wins": 61,
-   "losses": 79,
-   "open": 32,
-   "pl_usd": 70.37,
-   "roi_pct": 31.4
+   "losses": 80,
+   "open": 31,
+   "pl_usd": 65.37,
+   "roi_pct": 28.5
   },
   "by_sport": {
    "NHL": {
@@ -26587,11 +26594,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 35,
+    "n": 36,
     "wins": 15,
-    "losses": 20,
-    "pl_usd": 30.74,
-    "roi_pct": 30.8
+    "losses": 21,
+    "pl_usd": 25.74,
+    "roi_pct": 24.5
    },
    "NFL": {
     "n": 5,
@@ -26603,10 +26610,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.51,
-   "unrealized_usd": -0.49,
+   "value_usd": 14.53,
+   "unrealized_usd": -0.47,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.68
+   "total_pl_usd": -2.66
   },
   "stocks": {
    "open_n": 15,
@@ -26617,7 +26624,7 @@
   },
   "cash_usd": 371.59294,
   "scanned": 55300,
-  "open_bets_usd": 64.44,
+  "open_bets_usd": 59.44,
   "desk_stats": {
    "FOOTBALL": {
     "n": 68,
@@ -26662,11 +26669,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 35,
+    "n": 36,
     "wins": 15,
-    "losses": 20,
-    "pl_usd": 30.74,
-    "roi_pct": 30.8
+    "losses": 21,
+    "pl_usd": 25.74,
+    "roi_pct": 24.5
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -26691,7 +26698,7 @@
    }
   }
  },
- "last_refresh": "2026-10-19 02:26 (Tbilisi)",
+ "last_refresh": "2026-10-19 03:22 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -27944,7 +27951,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-19 02:26 (Tbilisi)",
+  "updated": "2026-10-19 03:22 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -29629,6 +29636,17 @@
     "better": null
    },
    {
+    "id": "B114",
+    "sport": "Polymarket",
+    "event": "Columbus Crew @ FC Cincinnati",
+    "open": null,
+    "taken": 2.222,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -29722,17 +29740,6 @@
     "event": "Torino @ Parma Calcio 1913",
     "open": null,
     "taken": 3.226,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B114",
-    "sport": "Polymarket",
-    "event": "Columbus Crew @ FC Cincinnati",
-    "open": null,
-    "taken": 2.222,
     "taken_time": null,
     "close": null,
     "close_source": null,
