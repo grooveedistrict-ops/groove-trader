@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 296.4081,
+ "cash_usd": 335.3381,
  "open_bets": [
   {
    "id": "B066",
@@ -170,43 +170,6 @@
     "book30": 2.42,
     "real_books_max_now": 2.02,
     "over_real_pct": 19.8,
-    "checked": "2026-10-15 09:16 (Tbilisi)",
-    "lesson": "L005"
-   }
-  },
-  {
-   "id": "B074",
-   "sport": "NFL",
-   "league": "NFL Week 7 (London)",
-   "event": "Houston Texans @ Jacksonville Jaguars",
-   "kickoff": "2026-10-18 17:30",
-   "selection": "Jacksonville Jaguars (moneyline)",
-   "odds": 1.909,
-   "book": "Action Network best (-110)",
-   "p": 0.554,
-   "implied_pct": 52.4,
-   "edge_pct": 5.8,
-   "stake": 2.5,
-   "reasoning": "ESPN home 58.4% vs ბაზარი 52.4% @1.909. ნაზავი 55.4%, EV≈5.8%. ლონდონის თამაში.",
-   "model_inputs": {
-    "market_novig": 0.524,
-    "ESPN predictor": 0.584,
-    "blend": "0.5×ბაზარი + 0.5×ESPN"
-   },
-   "odds_source_url": "AN nfl + ESPN summary 401872996",
-   "odds_time": "2026-10-15 00:06 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 1.909,
-    "best_now": 1.746,
-    "fair_now": 1.775,
-    "clv_pct": 7.57
-   },
-   "odds_check": {
-    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
-    "book30": 1.909,
-    "real_books_max_now": 1.746,
-    "over_real_pct": 9.3,
     "checked": "2026-10-15 09:16 (Tbilisi)",
     "lesson": "L005"
    }
@@ -452,46 +415,6 @@
    }
   },
   {
-   "id": "B096",
-   "sport": "Polymarket",
-   "league": "ligue1",
-   "event": "Monaco @ Lorient",
-   "kickoff": "2026-10-18 19:15",
-   "selection": "Lorient",
-   "odds": 4.0,
-   "book": "Polymarket ask",
-   "p": 0.2759,
-   "implied_pct": 25.0,
-   "edge_pct": 10.36,
-   "stake": 4.31,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.3114,
-     "DRatings": 0.261
-    },
-    "mkt": 0.2656,
-    "nbooks": 5,
-    "blend_p": 0.2759,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-lor-asm-2026-10-18-lor",
-   "reasoning": "scan PASS EV=10.36% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:fl1-lor-asm-2026-10-18-lor",
-   "polymarket_slug": "fl1-lor-asm-2026-10-18-lor",
-   "outcome_price": 0.25,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "FC Lorient vs. AS Monaco FC",
-    "pm_league": "FRA1",
-    "pm_kickoff_utc": "2026-10-18 15:15:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B101",
    "sport": "Polymarket",
    "league": "seriea",
@@ -527,46 +450,6 @@
     "pm_title": "AC Milan vs. Atalanta BC",
     "pm_league": "ITA1",
     "pm_kickoff_utc": "2026-10-18 16:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
-   "id": "B105",
-   "sport": "Polymarket",
-   "league": "ligue1",
-   "event": "Auxerre @ Le Havre",
-   "kickoff": "2026-10-18 19:15",
-   "selection": "Auxerre",
-   "odds": 3.333,
-   "book": "Polymarket ask",
-   "p": 0.3235,
-   "implied_pct": 30.0,
-   "edge_pct": 7.83,
-   "stake": 4.18,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.3351,
-     "DRatings": 0.339
-    },
-    "mkt": 0.31,
-    "nbooks": 4,
-    "blend_p": 0.3235,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-hac-aja-2026-10-18-aja",
-   "reasoning": "scan PASS EV=7.83% models=['EloFD', 'DRatings'] nbooks=4; TITAN BUY after NEWS",
-   "scan_id": "pm:fl1-hac-aja-2026-10-18-aja",
-   "polymarket_slug": "fl1-hac-aja-2026-10-18-aja",
-   "outcome_price": 0.3,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Le Havre AC vs. AJ Auxerre",
-    "pm_league": "FRA1",
-    "pm_kickoff_utc": "2026-10-18 15:15:00+00",
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
@@ -720,47 +603,6 @@
     "pm_title": "Rodez Aveyron Football vs. Montpellier HSC",
     "pm_league": "FRA2",
     "pm_kickoff_utc": "2026-10-19 18:45:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
-   "id": "B126",
-   "sport": "Polymarket",
-   "league": "soc_nor.1",
-   "event": "Lillestrom @ Sandefjord",
-   "kickoff": "2026-10-18 19:00",
-   "selection": "Lillestrom",
-   "odds": 2.632,
-   "book": "Polymarket ask",
-   "p": 0.3941,
-   "implied_pct": 38.0,
-   "edge_pct": 3.71,
-   "stake": 1.41,
-   "status": "open",
-   "opened_at": "2026-10-16 00:07 (Tbilisi)",
-   "odds_time": "2026-10-16 00:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "DRatings": 0.413
-    },
-    "mkt": 0.3751,
-    "nbooks": 1,
-    "blend_p": 0.3941,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=nor-san-lil-2026-10-18-lil",
-   "reasoning": "scan PASS EV=3.71% models=['DRatings'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ A4",
-   "scan_id": "pm:nor-san-lil-2026-10-18-lil",
-   "polymarket_slug": "nor-san-lil-2026-10-18-lil",
-   "outcome_price": 0.38,
-   "tb1_dog_25_40": true,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Sandefjord Fotball vs. Lillestrøm SK",
-    "pm_league": "NOR1",
-    "pm_kickoff_utc": "2026-10-18 15:00:00+00",
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
@@ -1004,36 +846,6 @@
    "scan_id": "295290"
   },
   {
-   "id": "B153",
-   "sport": "Football",
-   "league": "soc_aut.1",
-   "event": "Grazer AK @ SK Sturm Graz",
-   "kickoff": "2026-10-18 19:00",
-   "selection": "SK Sturm Graz",
-   "odds": 1.833,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.5768,
-   "implied_pct": 54.6,
-   "edge_pct": 5.74,
-   "stake": 2.21,
-   "status": "open",
-   "opened_at": "2026-10-18 09:09 (Tbilisi)",
-   "odds_time": "2026-10-18 09:09 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.59,
-     "EloFD": 0.6833
-    },
-    "mkt": 0.5169,
-    "nbooks": 1,
-    "blend_p": 0.5768,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/summary?event=401881773",
-   "reasoning": "scan PASS EV=5.74% models=['FTS', 'EloFD']; scan stake $4.42 (raw 4.42; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.21; NEWS shrink → TITAN APPROVED at $2.21",
-   "scan_id": "espn401881773"
-  },
-  {
    "id": "B154",
    "sport": "Football",
    "league": "ligue1",
@@ -1239,48 +1051,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.4/summary?event=401881310",
    "reasoning": "scan PASS EV=4.95% models=['EloFD']; scan stake $1.0 (raw 0.42; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
    "scan_id": "espn401881310"
-  },
-  {
-   "id": "B162",
-   "sport": "Polymarket",
-   "league": "soc_ita.2",
-   "event": "US Avellino @ Cesena",
-   "kickoff": "2026-10-18 19:15",
-   "selection": "US Avellino",
-   "odds": 3.448,
-   "book": "Polymarket ask",
-   "p": 0.3186,
-   "implied_pct": 29.0,
-   "edge_pct": 9.86,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-18 19:00 (Tbilisi)",
-   "odds_time": "2026-10-18 19:00 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.35,
-     "EloFD": 0.3348
-    },
-    "mkt": 0.2949,
-    "nbooks": 1,
-    "blend_p": 0.3186,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=itsb-ces-ave-2026-10-18-ave",
-   "reasoning": "scan PASS EV=9.86% models=['FTS', 'EloFD']; scan stake $5.0 (raw 5.28; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
-   "scan_id": "pm:itsb-ces-ave-2026-10-18-ave",
-   "polymarket_slug": "itsb-ces-ave-2026-10-18-ave",
-   "outcome_price": 0.29,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Cesena FC vs. US Avellino 1912",
-    "pm_league": "ITA2",
-    "pm_kickoff_utc": "2026-10-18T15:15Z",
-    "checked": "2026-10-18 19:00 (Tbilisi)",
-    "rule": "L007"
-   },
-   "tb1_dog_25_40": true
   },
   {
    "id": "B163",
@@ -6252,6 +6022,278 @@
    "score": "Örgryte IS 4, GAIS 2 (FT)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842849",
    "settle_source": "ESPN swe.1 event 401842849 STATUS_FULL_TIME, Örgryte IS winner (not a draw)"
+  },
+  {
+   "id": "B074",
+   "sport": "NFL",
+   "league": "NFL Week 7 (London)",
+   "event": "Houston Texans @ Jacksonville Jaguars",
+   "kickoff": "2026-10-18 17:30",
+   "selection": "Jacksonville Jaguars (moneyline)",
+   "odds": 1.909,
+   "book": "Action Network best (-110)",
+   "p": 0.554,
+   "implied_pct": 52.4,
+   "edge_pct": 5.8,
+   "stake": 2.5,
+   "reasoning": "ESPN home 58.4% vs ბაზარი 52.4% @1.909. ნაზავი 55.4%, EV≈5.8%. ლონდონის თამაში.",
+   "model_inputs": {
+    "market_novig": 0.524,
+    "ESPN predictor": 0.584,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "AN nfl + ESPN summary 401872996",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 1.909,
+    "best_now": 1.746,
+    "fair_now": 1.775,
+    "clv_pct": 7.57
+   },
+   "odds_check": {
+    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
+    "book30": 1.909,
+    "real_books_max_now": 1.746,
+    "over_real_pct": 9.3,
+    "checked": "2026-10-15 09:16 (Tbilisi)",
+    "lesson": "L005"
+   },
+   "result": "lost",
+   "pl_usd": -2.5,
+   "settled_at": "2026-10-18 21:30 (Tbilisi)",
+   "final_score": "Jacksonville Jaguars 31, Houston Texans 34 (Final)",
+   "score": "Jacksonville Jaguars 31, Houston Texans 34 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+   "settle_source": "ESPN nfl event 401872996 STATUS_FINAL, Houston Texans winner"
+  },
+  {
+   "id": "B096",
+   "sport": "Polymarket",
+   "league": "ligue1",
+   "event": "Monaco @ Lorient",
+   "kickoff": "2026-10-18 19:15",
+   "selection": "Lorient",
+   "odds": 4.0,
+   "book": "Polymarket ask",
+   "p": 0.2759,
+   "implied_pct": 25.0,
+   "edge_pct": 10.36,
+   "stake": 4.31,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3114,
+     "DRatings": 0.261
+    },
+    "mkt": 0.2656,
+    "nbooks": 5,
+    "blend_p": 0.2759,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-lor-asm-2026-10-18-lor",
+   "reasoning": "scan PASS EV=10.36% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:fl1-lor-asm-2026-10-18-lor",
+   "polymarket_slug": "fl1-lor-asm-2026-10-18-lor",
+   "outcome_price": 0.25,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "FC Lorient vs. AS Monaco FC",
+    "pm_league": "FRA1",
+    "pm_kickoff_utc": "2026-10-18 15:15:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 12.93,
+   "settled_at": "2026-10-18 21:30 (Tbilisi)",
+   "final_score": "Lorient 1, AS Monaco 0 (FT)",
+   "score": "Lorient 1, AS Monaco 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876435",
+   "settle_source": "ESPN fra.1 event 401876435 STATUS_FULL_TIME, Lorient winner; Polymarket Lorient Yes 0.9995 (UMA proposed)"
+  },
+  {
+   "id": "B105",
+   "sport": "Polymarket",
+   "league": "ligue1",
+   "event": "Auxerre @ Le Havre",
+   "kickoff": "2026-10-18 19:15",
+   "selection": "Auxerre",
+   "odds": 3.333,
+   "book": "Polymarket ask",
+   "p": 0.3235,
+   "implied_pct": 30.0,
+   "edge_pct": 7.83,
+   "stake": 4.18,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3351,
+     "DRatings": 0.339
+    },
+    "mkt": 0.31,
+    "nbooks": 4,
+    "blend_p": 0.3235,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-hac-aja-2026-10-18-aja",
+   "reasoning": "scan PASS EV=7.83% models=['EloFD', 'DRatings'] nbooks=4; TITAN BUY after NEWS",
+   "scan_id": "pm:fl1-hac-aja-2026-10-18-aja",
+   "polymarket_slug": "fl1-hac-aja-2026-10-18-aja",
+   "outcome_price": 0.3,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Le Havre AC vs. AJ Auxerre",
+    "pm_league": "FRA1",
+    "pm_kickoff_utc": "2026-10-18 15:15:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 9.75,
+   "settled_at": "2026-10-18 21:30 (Tbilisi)",
+   "final_score": "Le Havre AC 1, AJ Auxerre 3 (FT)",
+   "score": "Le Havre AC 1, AJ Auxerre 3 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876438",
+   "settle_source": "ESPN fra.1 event 401876438 STATUS_FULL_TIME, AJ Auxerre winner; Polymarket Auxerre Yes 0.9995 (UMA proposed)"
+  },
+  {
+   "id": "B126",
+   "sport": "Polymarket",
+   "league": "soc_nor.1",
+   "event": "Lillestrom @ Sandefjord",
+   "kickoff": "2026-10-18 19:00",
+   "selection": "Lillestrom",
+   "odds": 2.632,
+   "book": "Polymarket ask",
+   "p": 0.3941,
+   "implied_pct": 38.0,
+   "edge_pct": 3.71,
+   "stake": 1.41,
+   "status": "settled",
+   "opened_at": "2026-10-16 00:07 (Tbilisi)",
+   "odds_time": "2026-10-16 00:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.413
+    },
+    "mkt": 0.3751,
+    "nbooks": 1,
+    "blend_p": 0.3941,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=nor-san-lil-2026-10-18-lil",
+   "reasoning": "scan PASS EV=3.71% models=['DRatings'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ A4",
+   "scan_id": "pm:nor-san-lil-2026-10-18-lil",
+   "polymarket_slug": "nor-san-lil-2026-10-18-lil",
+   "outcome_price": 0.38,
+   "tb1_dog_25_40": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Sandefjord Fotball vs. Lillestrøm SK",
+    "pm_league": "NOR1",
+    "pm_kickoff_utc": "2026-10-18 15:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 2.3,
+   "settled_at": "2026-10-18 21:30 (Tbilisi)",
+   "final_score": "Sandefjord 0, Lillestrom 2 (FT)",
+   "score": "Sandefjord 0, Lillestrom 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/summary?event=401843462",
+   "settle_source": "ESPN nor.1 event 401843462 STATUS_FULL_TIME, Lillestrom winner; Polymarket Lillestrom Yes 0.9995 (UMA proposed)"
+  },
+  {
+   "id": "B153",
+   "sport": "Football",
+   "league": "soc_aut.1",
+   "event": "Grazer AK @ SK Sturm Graz",
+   "kickoff": "2026-10-18 19:00",
+   "selection": "SK Sturm Graz",
+   "odds": 1.833,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5768,
+   "implied_pct": 54.6,
+   "edge_pct": 5.74,
+   "stake": 2.21,
+   "status": "settled",
+   "opened_at": "2026-10-18 09:09 (Tbilisi)",
+   "odds_time": "2026-10-18 09:09 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.59,
+     "EloFD": 0.6833
+    },
+    "mkt": 0.5169,
+    "nbooks": 1,
+    "blend_p": 0.5768,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/summary?event=401881773",
+   "reasoning": "scan PASS EV=5.74% models=['FTS', 'EloFD']; scan stake $4.42 (raw 4.42; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.21; NEWS shrink → TITAN APPROVED at $2.21",
+   "scan_id": "espn401881773",
+   "result": "won",
+   "pl_usd": 1.84,
+   "settled_at": "2026-10-18 21:30 (Tbilisi)",
+   "final_score": "SK Sturm Graz 6, Grazer AK 1 (FT)",
+   "score": "SK Sturm Graz 6, Grazer AK 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/summary?event=401881773",
+   "settle_source": "ESPN aut.1 event 401881773 STATUS_FULL_TIME, SK Sturm Graz winner"
+  },
+  {
+   "id": "B162",
+   "sport": "Polymarket",
+   "league": "soc_ita.2",
+   "event": "US Avellino @ Cesena",
+   "kickoff": "2026-10-18 19:15",
+   "selection": "US Avellino",
+   "odds": 3.448,
+   "book": "Polymarket ask",
+   "p": 0.3186,
+   "implied_pct": 29.0,
+   "edge_pct": 9.86,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-18 19:00 (Tbilisi)",
+   "odds_time": "2026-10-18 19:00 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.35,
+     "EloFD": 0.3348
+    },
+    "mkt": 0.2949,
+    "nbooks": 1,
+    "blend_p": 0.3186,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=itsb-ces-ave-2026-10-18-ave",
+   "reasoning": "scan PASS EV=9.86% models=['FTS', 'EloFD']; scan stake $5.0 (raw 5.28; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "pm:itsb-ces-ave-2026-10-18-ave",
+   "polymarket_slug": "itsb-ces-ave-2026-10-18-ave",
+   "outcome_price": 0.29,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Cesena FC vs. US Avellino 1912",
+    "pm_league": "ITA2",
+    "pm_kickoff_utc": "2026-10-18T15:15Z",
+    "checked": "2026-10-18 19:00 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-18 21:30 (Tbilisi)",
+   "final_score": "Cesena 1, US Avellino 1 (FT)",
+   "score": "Cesena 1, US Avellino 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/summary?event=401899596",
+   "settle_source": "ESPN ita.2 event 401899596 STATUS_FULL_TIME, draw (not Avellino); Polymarket Avellino Yes 0.0005 (UMA proposed)"
   }
  ],
  "positions": [
@@ -6266,7 +6308,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81021
+   "last_price": 81117
   },
   {
    "symbol": "SPY",
@@ -25132,7 +25174,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81021,
+  "BTC": 81117,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -25210,20 +25252,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 20:24 (Tbilisi)",
-  "total_value": 528.86,
+  "time": "2026-10-18 21:27 (Tbilisi)",
+  "total_value": 548.19,
   "deposits_usd": 500,
-  "vs_deposits_usd": 28.86,
-  "vs_deposits_pct": 5.77,
-  "btc_bench": 491.67,
-  "vs_btc_usd": 37.18,
+  "vs_deposits_usd": 48.19,
+  "vs_deposits_pct": 9.64,
+  "btc_bench": 492.26,
+  "vs_btc_usd": 55.94,
   "bets": {
-   "n": 124,
-   "wins": 49,
-   "losses": 75,
-   "open": 44,
-   "pl_usd": 32.66,
-   "roi_pct": 17.9
+   "n": 130,
+   "wins": 53,
+   "losses": 77,
+   "open": 38,
+   "pl_usd": 51.98,
+   "roi_pct": 25.7
   },
   "by_sport": {
    "NHL": {
@@ -25248,11 +25290,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 64,
-    "wins": 24,
+    "n": 65,
+    "wins": 25,
     "losses": 40,
-    "pl_usd": 19.04,
-    "roi_pct": 23.3
+    "pl_usd": 20.88,
+    "roi_pct": 24.8
    },
    "NCAAF": {
     "n": 19,
@@ -25269,19 +25311,26 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 28,
-    "wins": 11,
-    "losses": 17,
-    "pl_usd": 10.77,
-    "roi_pct": 14.3
+    "n": 32,
+    "wins": 14,
+    "losses": 18,
+    "pl_usd": 30.75,
+    "roi_pct": 34.1
+   },
+   "NFL": {
+    "n": 1,
+    "wins": 0,
+    "losses": 1,
+    "pl_usd": -2.5,
+    "roi_pct": -100.0
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.41,
-   "unrealized_usd": -0.59,
+   "value_usd": 14.42,
+   "unrealized_usd": -0.58,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.78
+   "total_pl_usd": -2.77
   },
   "stocks": {
    "open_n": 15,
@@ -25290,16 +25339,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 296.4081,
+  "cash_usd": 335.3381,
   "scanned": 54777,
-  "open_bets_usd": 101.91,
+  "open_bets_usd": 82.3,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 64,
-    "wins": 24,
+    "n": 65,
+    "wins": 25,
     "losses": 40,
-    "pl_usd": 19.04,
-    "roi_pct": 23.3
+    "pl_usd": 20.88,
+    "roi_pct": 24.8
    },
    "BASKETBALL": {
     "n": 1,
@@ -25309,11 +25358,11 @@
     "roi_pct": 136.0
    },
    "US SPORTS": {
-    "n": 30,
+    "n": 31,
     "wins": 13,
-    "losses": 17,
-    "pl_usd": 3.17,
-    "roi_pct": 13.3
+    "losses": 18,
+    "pl_usd": 0.67,
+    "roi_pct": 2.5
    },
    "TENNIS": {
     "n": 1,
@@ -25337,11 +25386,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 28,
-    "wins": 11,
-    "losses": 17,
-    "pl_usd": 10.77,
-    "roi_pct": 14.3
+    "n": 32,
+    "wins": 14,
+    "losses": 18,
+    "pl_usd": 30.75,
+    "roi_pct": 34.1
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -25366,7 +25415,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 20:24 (Tbilisi)",
+ "last_refresh": "2026-10-18 21:27 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -26619,7 +26668,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 20:24 (Tbilisi)",
+  "updated": "2026-10-18 21:27 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -28126,6 +28175,72 @@
     "better": null
    },
    {
+    "id": "B074",
+    "sport": "NFL",
+    "event": "Houston Texans @ Jacksonville Jaguars",
+    "open": null,
+    "taken": 1.909,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B096",
+    "sport": "Polymarket",
+    "event": "Monaco @ Lorient",
+    "open": null,
+    "taken": 4.0,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B105",
+    "sport": "Polymarket",
+    "event": "Auxerre @ Le Havre",
+    "open": null,
+    "taken": 3.333,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B126",
+    "sport": "Polymarket",
+    "event": "Lillestrom @ Sandefjord",
+    "open": null,
+    "taken": 2.632,
+    "taken_time": "2026-10-16 00:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B153",
+    "sport": "Football",
+    "event": "Grazer AK @ SK Sturm Graz",
+    "open": null,
+    "taken": 1.833,
+    "taken_time": "2026-10-18 09:09 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B162",
+    "sport": "Polymarket",
+    "event": "US Avellino @ Cesena",
+    "open": null,
+    "taken": 3.448,
+    "taken_time": "2026-10-18 19:00 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -28175,17 +28290,6 @@
     "event": "Dallas Cowboys @ Green Bay Packers",
     "open": null,
     "taken": 2.42,
-    "taken_time": "2026-10-15 00:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B074",
-    "sport": "NFL",
-    "event": "Houston Texans @ Jacksonville Jaguars",
-    "open": null,
-    "taken": 1.909,
     "taken_time": "2026-10-15 00:06 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -28269,33 +28373,11 @@
     "better": null
    },
    {
-    "id": "B096",
-    "sport": "Polymarket",
-    "event": "Monaco @ Lorient",
-    "open": null,
-    "taken": 4.0,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B101",
     "sport": "Polymarket",
     "event": "Atalanta @ AC Milan",
     "open": null,
     "taken": 4.545,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B105",
-    "sport": "Polymarket",
-    "event": "Auxerre @ Le Havre",
-    "open": null,
-    "taken": 3.333,
     "taken_time": null,
     "close": null,
     "close_source": null,
@@ -28340,17 +28422,6 @@
     "event": "Montpellier @ Rodez Aveyron",
     "open": null,
     "taken": 2.941,
-    "taken_time": "2026-10-16 00:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B126",
-    "sport": "Polymarket",
-    "event": "Lillestrom @ Sandefjord",
-    "open": null,
-    "taken": 2.632,
     "taken_time": "2026-10-16 00:07 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -28445,17 +28516,6 @@
     "better": null
    },
    {
-    "id": "B153",
-    "sport": "Football",
-    "event": "Grazer AK @ SK Sturm Graz",
-    "open": null,
-    "taken": 1.833,
-    "taken_time": "2026-10-18 09:09 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B154",
     "sport": "Football",
     "event": "Nice @ Lyon",
@@ -28528,17 +28588,6 @@
     "open": null,
     "taken": 2.9,
     "taken_time": "2026-10-18 09:09 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B162",
-    "sport": "Polymarket",
-    "event": "US Avellino @ Cesena",
-    "open": null,
-    "taken": 3.448,
-    "taken_time": "2026-10-18 19:00 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
