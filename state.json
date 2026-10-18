@@ -3,66 +3,8 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 303.2441,
+ "cash_usd": 304.7341,
  "open_bets": [
-  {
-   "id": "B044",
-   "sport": "NCAAF",
-   "league": "Sun Belt (Week 8, Saturday)",
-   "event": "Arkansas State Red Wolves @ Southern Miss Golden Eagles",
-   "kickoff": "2026-10-18 03:00",
-   "selection": "Southern Miss Golden Eagles (moneyline)",
-   "odds": 3.2,
-   "book": "Action Network best (+220)",
-   "p": 0.387,
-   "implied_pct": 31.2,
-   "edge_pct": 23.9,
-   "stake": 0.5,
-   "reasoning": "FPI 46.2% vs ბაზარი 31.2% @3.20. ნაზავი 38.7%, EV≈23.9%. შინ ანდერდოგი ≤5.0.",
-   "model_inputs": {
-    "market_novig": 0.312,
-    "ESPN FPI": 0.462,
-    "blend": "0.5×ბაზარი + 0.5×FPI"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869934",
-   "odds_time": "2026-10-14 09:05 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 3.2,
-    "best_now": 3.25,
-    "fair_now": 3.287,
-    "clv_pct": -2.66
-   }
-  },
-  {
-   "id": "B050",
-   "sport": "NCAAF",
-   "league": "SEC (Week 8, Saturday)",
-   "event": "Arkansas Razorbacks @ Vanderbilt Commodores",
-   "kickoff": "2026-10-18 03:00",
-   "selection": "Arkansas Razorbacks (moneyline)",
-   "odds": 2.98,
-   "book": "Action Network best (+198)",
-   "p": 0.383,
-   "implied_pct": 33.6,
-   "edge_pct": 14.2,
-   "stake": 0.5,
-   "reasoning": "FPI 43.1% vs ბაზარი 33.6% @2.98. ნაზავი 38.3%, EV≈14.2%.",
-   "model_inputs": {
-    "market_novig": 0.336,
-    "ESPN FPI": 0.431,
-    "blend": "0.5×ბაზარი + 0.5×FPI"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856726",
-   "odds_time": "2026-10-14 09:05 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 2.98,
-    "best_now": 2.9,
-    "fair_now": 3.008,
-    "clv_pct": -0.91
-   }
-  },
   {
    "id": "B066",
    "sport": "Polymarket",
@@ -533,35 +475,6 @@
    }
   },
   {
-   "id": "B091",
-   "sport": "Football",
-   "league": "mls",
-   "event": "Los Angeles FC @ New York City FC",
-   "kickoff": "2026-10-18 03:30",
-   "selection": "New York City FC",
-   "odds": 2.7,
-   "book": "68",
-   "p": 0.4321,
-   "implied_pct": 37.0,
-   "edge_pct": 16.66,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4906,
-     "DRatings": 0.544
-    },
-    "mkt": 0.3469,
-    "nbooks": 5,
-    "blend_p": 0.4321,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_1853 id=294939",
-   "reasoning": "scan PASS EV=16.66% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": 294939
-  },
-  {
    "id": "B092",
    "sport": "Polymarket",
    "league": "seriea",
@@ -831,35 +744,6 @@
    }
   },
   {
-   "id": "B113",
-   "sport": "Football",
-   "league": "mls",
-   "event": "Toronto FC @ New York Red Bulls",
-   "kickoff": "2026-10-18 03:30",
-   "selection": "Draw (Toronto FC @ New York Red Bulls)",
-   "odds": 4.1,
-   "book": "69",
-   "p": 0.2565,
-   "implied_pct": 24.4,
-   "edge_pct": 5.18,
-   "stake": 2.08,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2786,
-     "DRatings": 0.269
-    },
-    "mkt": 0.2393,
-    "nbooks": 5,
-    "blend_p": 0.2565,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_1853 id=294262",
-   "reasoning": "scan PASS EV=5.18% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": 294262
-  },
-  {
    "id": "B114",
    "sport": "Polymarket",
    "league": "mls",
@@ -898,35 +782,6 @@
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
-  },
-  {
-   "id": "B115",
-   "sport": "Football",
-   "league": "mls",
-   "event": "Chicago Fire @ New England Revolution",
-   "kickoff": "2026-10-18 03:30",
-   "selection": "Draw (Chicago Fire @ New England Revolution)",
-   "odds": 4.0,
-   "book": "69",
-   "p": 0.2627,
-   "implied_pct": 25.0,
-   "edge_pct": 5.09,
-   "stake": 2.11,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2896,
-     "DRatings": 0.27
-    },
-    "mkt": 0.2457,
-    "nbooks": 5,
-    "blend_p": 0.2627,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_1853 id=294263",
-   "reasoning": "scan PASS EV=5.09% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": 294263
   },
   {
    "id": "B117",
@@ -1151,36 +1006,6 @@
    "odds_source_url": "scan/2026-10-15_2357 id=294268",
    "reasoning": "scan PASS EV=6.81% models=['EloFD', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5",
    "scan_id": 294268
-  },
-  {
-   "id": "B125",
-   "sport": "Football",
-   "league": "mls",
-   "event": "Inter Miami CF @ Atlanta United",
-   "kickoff": "2026-10-18 03:30",
-   "selection": "Draw (Inter Miami CF @ Atlanta United)",
-   "odds": 4.4,
-   "book": "69",
-   "p": 0.2389,
-   "implied_pct": 22.7,
-   "edge_pct": 5.13,
-   "stake": 1.86,
-   "status": "open",
-   "opened_at": "2026-10-16 00:07 (Tbilisi)",
-   "odds_time": "2026-10-16 00:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2476,
-     "DRatings": 0.267
-    },
-    "mkt": 0.2206,
-    "nbooks": 5,
-    "blend_p": 0.2389,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_2357 id=294264",
-   "reasoning": "scan PASS EV=5.13% models=['EloFD', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5",
-   "scan_id": 294264
   },
   {
    "id": "B126",
@@ -5244,6 +5069,223 @@
    "score": "Santos 5, Querétaro 0 (FT)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/summary?event=401876942",
    "settle_source": "ESPN mex.1 event 401876942 STATUS_FULL_TIME 90'+8' Santos 5–0; Polymarket Querétaro Yes 0.0005 (not yet formally closed)"
+  },
+  {
+   "id": "B044",
+   "sport": "NCAAF",
+   "league": "Sun Belt (Week 8, Saturday)",
+   "event": "Arkansas State Red Wolves @ Southern Miss Golden Eagles",
+   "kickoff": "2026-10-18 03:00",
+   "selection": "Southern Miss Golden Eagles (moneyline)",
+   "odds": 3.2,
+   "book": "Action Network best (+220)",
+   "p": 0.387,
+   "implied_pct": 31.2,
+   "edge_pct": 23.9,
+   "stake": 0.5,
+   "reasoning": "FPI 46.2% vs ბაზარი 31.2% @3.20. ნაზავი 38.7%, EV≈23.9%. შინ ანდერდოგი ≤5.0.",
+   "model_inputs": {
+    "market_novig": 0.312,
+    "ESPN FPI": 0.462,
+    "blend": "0.5×ბაზარი + 0.5×FPI"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869934",
+   "odds_time": "2026-10-14 09:05 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 3.2,
+    "best_now": 3.25,
+    "fair_now": 3.287,
+    "clv_pct": -2.66
+   },
+   "result": "lost",
+   "pl_usd": -0.5,
+   "settled_at": "2026-10-18 06:30 (Tbilisi)",
+   "final_score": "Arkansas State Red Wolves 23, Southern Miss Golden Eagles 13 (Final)",
+   "score": "Arkansas State Red Wolves 23, Southern Miss Golden Eagles 13 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869934",
+   "settle_source": "ESPN STATUS_FINAL event 401869934"
+  },
+  {
+   "id": "B050",
+   "sport": "NCAAF",
+   "league": "SEC (Week 8, Saturday)",
+   "event": "Arkansas Razorbacks @ Vanderbilt Commodores",
+   "kickoff": "2026-10-18 03:00",
+   "selection": "Arkansas Razorbacks (moneyline)",
+   "odds": 2.98,
+   "book": "Action Network best (+198)",
+   "p": 0.383,
+   "implied_pct": 33.6,
+   "edge_pct": 14.2,
+   "stake": 0.5,
+   "reasoning": "FPI 43.1% vs ბაზარი 33.6% @2.98. ნაზავი 38.3%, EV≈14.2%.",
+   "model_inputs": {
+    "market_novig": 0.336,
+    "ESPN FPI": 0.431,
+    "blend": "0.5×ბაზარი + 0.5×FPI"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf ; https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856726",
+   "odds_time": "2026-10-14 09:05 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 2.98,
+    "best_now": 2.9,
+    "fair_now": 3.008,
+    "clv_pct": -0.91
+   },
+   "result": "won",
+   "pl_usd": 0.99,
+   "settled_at": "2026-10-18 06:30 (Tbilisi)",
+   "final_score": "Arkansas Razorbacks 31, Vanderbilt Commodores 21 (Final)",
+   "score": "Arkansas Razorbacks 31, Vanderbilt Commodores 21 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856726",
+   "settle_source": "ESPN STATUS_FINAL event 401856726"
+  },
+  {
+   "id": "B091",
+   "sport": "Football",
+   "league": "mls",
+   "event": "Los Angeles FC @ New York City FC",
+   "kickoff": "2026-10-18 03:30",
+   "selection": "New York City FC",
+   "odds": 2.7,
+   "book": "68",
+   "p": 0.4321,
+   "implied_pct": 37.0,
+   "edge_pct": 16.66,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4906,
+     "DRatings": 0.544
+    },
+    "mkt": 0.3469,
+    "nbooks": 5,
+    "blend_p": 0.4321,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_1853 id=294939",
+   "reasoning": "scan PASS EV=16.66% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": 294939,
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-18 06:30 (Tbilisi)",
+   "final_score": "New York City FC 1, LAFC 1 (FT)",
+   "score": "New York City FC 1, LAFC 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761877",
+   "settle_source": "ESPN usa.1 event 761877 STATUS_FULL_TIME 90'+4'"
+  },
+  {
+   "id": "B113",
+   "sport": "Football",
+   "league": "mls",
+   "event": "Toronto FC @ New York Red Bulls",
+   "kickoff": "2026-10-18 03:30",
+   "selection": "Draw (Toronto FC @ New York Red Bulls)",
+   "odds": 4.1,
+   "book": "69",
+   "p": 0.2565,
+   "implied_pct": 24.4,
+   "edge_pct": 5.18,
+   "stake": 2.08,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2786,
+     "DRatings": 0.269
+    },
+    "mkt": 0.2393,
+    "nbooks": 5,
+    "blend_p": 0.2565,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_1853 id=294262",
+   "reasoning": "scan PASS EV=5.18% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": 294262,
+   "result": "lost",
+   "pl_usd": -2.08,
+   "settled_at": "2026-10-18 06:30 (Tbilisi)",
+   "final_score": "Red Bull New York 0, Toronto FC 2 (FT)",
+   "score": "Red Bull New York 0, Toronto FC 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761878",
+   "settle_source": "ESPN usa.1 event 761878 STATUS_FULL_TIME 90'+6'"
+  },
+  {
+   "id": "B115",
+   "sport": "Football",
+   "league": "mls",
+   "event": "Chicago Fire @ New England Revolution",
+   "kickoff": "2026-10-18 03:30",
+   "selection": "Draw (Chicago Fire @ New England Revolution)",
+   "odds": 4.0,
+   "book": "69",
+   "p": 0.2627,
+   "implied_pct": 25.0,
+   "edge_pct": 5.09,
+   "stake": 2.11,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2896,
+     "DRatings": 0.27
+    },
+    "mkt": 0.2457,
+    "nbooks": 5,
+    "blend_p": 0.2627,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_1853 id=294263",
+   "reasoning": "scan PASS EV=5.09% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": 294263,
+   "result": "lost",
+   "pl_usd": -2.11,
+   "settled_at": "2026-10-18 06:30 (Tbilisi)",
+   "final_score": "New England Revolution 1, Chicago Fire FC 0 (FT)",
+   "score": "New England Revolution 1, Chicago Fire FC 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761879",
+   "settle_source": "ESPN usa.1 event 761879 STATUS_FULL_TIME 90'+5'"
+  },
+  {
+   "id": "B125",
+   "sport": "Football",
+   "league": "mls",
+   "event": "Inter Miami CF @ Atlanta United",
+   "kickoff": "2026-10-18 03:30",
+   "selection": "Draw (Inter Miami CF @ Atlanta United)",
+   "odds": 4.4,
+   "book": "69",
+   "p": 0.2389,
+   "implied_pct": 22.7,
+   "edge_pct": 5.13,
+   "stake": 1.86,
+   "status": "settled",
+   "opened_at": "2026-10-16 00:07 (Tbilisi)",
+   "odds_time": "2026-10-16 00:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2476,
+     "DRatings": 0.267
+    },
+    "mkt": 0.2206,
+    "nbooks": 5,
+    "blend_p": 0.2389,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_2357 id=294264",
+   "reasoning": "scan PASS EV=5.13% models=['EloFD', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5",
+   "scan_id": 294264,
+   "result": "lost",
+   "pl_usd": -1.86,
+   "settled_at": "2026-10-18 06:30 (Tbilisi)",
+   "final_score": "Atlanta United FC 1, Inter Miami CF 3 (FT)",
+   "score": "Atlanta United FC 1, Inter Miami CF 3 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761880",
+   "settle_source": "ESPN usa.1 event 761880 STATUS_FULL_TIME 90'+9'"
   }
  ],
  "positions": [
@@ -5258,7 +5300,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81516
+   "last_price": 81653
   },
   {
    "symbol": "SPY",
@@ -21369,7 +21411,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81516,
+  "BTC": 81653,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -21447,20 +21489,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 05:20 (Tbilisi)",
-  "total_value": 532.55,
+  "time": "2026-10-18 06:28 (Tbilisi)",
+  "total_value": 522.01,
   "deposits_usd": 500,
-  "vs_deposits_usd": 32.55,
-  "vs_deposits_pct": 6.51,
-  "btc_bench": 494.68,
-  "vs_btc_usd": 37.87,
+  "vs_deposits_usd": 22.01,
+  "vs_deposits_pct": 4.4,
+  "btc_bench": 495.51,
+  "vs_btc_usd": 26.51,
   "bets": {
-   "n": 106,
-   "wins": 43,
-   "losses": 63,
-   "open": 43,
-   "pl_usd": 36.27,
-   "roi_pct": 25.8
+   "n": 112,
+   "wins": 44,
+   "losses": 68,
+   "open": 37,
+   "pl_usd": 25.71,
+   "roi_pct": 16.8
   },
   "by_sport": {
    "NHL": {
@@ -21485,18 +21527,18 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 53,
+    "n": 57,
     "wins": 22,
-    "losses": 31,
-    "pl_usd": 27.4,
-    "roi_pct": 45.1
+    "losses": 35,
+    "pl_usd": 16.35,
+    "roi_pct": 22.8
    },
    "NCAAF": {
-    "n": 17,
-    "wins": 7,
-    "losses": 10,
-    "pl_usd": 3.67,
-    "roi_pct": 31.3
+    "n": 19,
+    "wins": 8,
+    "losses": 11,
+    "pl_usd": 4.16,
+    "roi_pct": 32.6
    },
    "NBA": {
     "n": 1,
@@ -21515,10 +21557,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.5,
-   "unrealized_usd": -0.5,
+   "value_usd": 14.52,
+   "unrealized_usd": -0.48,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.69
+   "total_pl_usd": -2.67
   },
   "stocks": {
    "open_n": 15,
@@ -21527,16 +21569,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 303.2441,
+  "cash_usd": 304.7341,
   "scanned": 51603,
-  "open_bets_usd": 98.68,
+  "open_bets_usd": 86.63,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 53,
+    "n": 57,
     "wins": 22,
-    "losses": 31,
-    "pl_usd": 27.4,
-    "roi_pct": 45.1
+    "losses": 35,
+    "pl_usd": 16.35,
+    "roi_pct": 22.8
    },
    "BASKETBALL": {
     "n": 1,
@@ -21546,11 +21588,11 @@
     "roi_pct": 136.0
    },
    "US SPORTS": {
-    "n": 28,
-    "wins": 12,
-    "losses": 16,
-    "pl_usd": 2.68,
-    "roi_pct": 11.7
+    "n": 30,
+    "wins": 13,
+    "losses": 17,
+    "pl_usd": 3.17,
+    "roi_pct": 13.3
    },
    "TENNIS": {
     "n": 1,
@@ -21603,7 +21645,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 05:20 (Tbilisi)",
+ "last_refresh": "2026-10-18 06:28 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -22856,7 +22898,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 05:20 (Tbilisi)",
+  "updated": "2026-10-18 06:28 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -24165,6 +24207,50 @@
     "better": null
    },
    {
+    "id": "B091",
+    "sport": "Football",
+    "event": "Los Angeles FC @ New York City FC",
+    "open": null,
+    "taken": 2.7,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B113",
+    "sport": "Football",
+    "event": "Toronto FC @ New York Red Bulls",
+    "open": null,
+    "taken": 4.1,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B115",
+    "sport": "Football",
+    "event": "Chicago Fire @ New England Revolution",
+    "open": null,
+    "taken": 4.0,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B125",
+    "sport": "Football",
+    "event": "Inter Miami CF @ Atlanta United",
+    "open": null,
+    "taken": 4.4,
+    "taken_time": "2026-10-16 00:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -24319,17 +24405,6 @@
     "better": null
    },
    {
-    "id": "B091",
-    "sport": "Football",
-    "event": "Los Angeles FC @ New York City FC",
-    "open": null,
-    "taken": 2.7,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B092",
     "sport": "Polymarket",
     "event": "Torino @ Parma Calcio 1913",
@@ -24407,33 +24482,11 @@
     "better": null
    },
    {
-    "id": "B113",
-    "sport": "Football",
-    "event": "Toronto FC @ New York Red Bulls",
-    "open": null,
-    "taken": 4.1,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B114",
     "sport": "Polymarket",
     "event": "Columbus Crew @ FC Cincinnati",
     "open": null,
     "taken": 2.222,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B115",
-    "sport": "Football",
-    "event": "Chicago Fire @ New England Revolution",
-    "open": null,
-    "taken": 4.0,
     "taken_time": null,
     "close": null,
     "close_source": null,
@@ -24500,17 +24553,6 @@
     "event": "CF Montreal @ Seattle Sounders FC",
     "open": null,
     "taken": 4.9,
-    "taken_time": "2026-10-16 00:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B125",
-    "sport": "Football",
-    "event": "Inter Miami CF @ Atlanta United",
-    "open": null,
-    "taken": 4.4,
     "taken_time": "2026-10-16 00:07 (Tbilisi)",
     "close": null,
     "close_source": null,
