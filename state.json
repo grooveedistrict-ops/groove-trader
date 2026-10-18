@@ -435,46 +435,6 @@
    "status": "open"
   },
   {
-   "id": "B090",
-   "sport": "Polymarket",
-   "league": "mls",
-   "event": "Vancouver Whitecaps @ Austin FC",
-   "kickoff": "2026-10-18 04:30",
-   "selection": "Austin FC",
-   "odds": 5.0,
-   "book": "Polymarket ask",
-   "p": 0.2444,
-   "implied_pct": 20.0,
-   "edge_pct": 22.2,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2569,
-     "DRatings": 0.323
-    },
-    "mkt": 0.1987,
-    "nbooks": 5,
-    "blend_p": 0.2444,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mls-aus-vwh-2026-10-17-aus",
-   "reasoning": "scan PASS EV=22.2% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:mls-aus-vwh-2026-10-17-aus",
-   "polymarket_slug": "mls-aus-vwh-2026-10-17-aus",
-   "outcome_price": 0.2,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Austin FC vs. Vancouver Whitecaps FC",
-    "pm_league": "USA1",
-    "pm_kickoff_utc": "2026-10-18 00:30:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B092",
    "sport": "Polymarket",
    "league": "seriea",
@@ -673,35 +633,6 @@
     "checked": "2026-10-17 06:34 (Tbilisi)",
     "rule": "L007"
    }
-  },
-  {
-   "id": "B109",
-   "sport": "Football",
-   "league": "mls",
-   "event": "Real Salt Lake @ Sporting Kansas City",
-   "kickoff": "2026-10-18 04:30",
-   "selection": "Draw (Real Salt Lake @ Sporting Kansas City)",
-   "odds": 4.0,
-   "book": "69",
-   "p": 0.265,
-   "implied_pct": 25.0,
-   "edge_pct": 6.0,
-   "stake": 2.5,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2895,
-     "DRatings": 0.281
-    },
-    "mkt": 0.2447,
-    "nbooks": 5,
-    "blend_p": 0.265,
-    "elo_only": false
-   },
-   "odds_source_url": "scan/2026-10-15_1853 id=294265",
-   "reasoning": "scan PASS EV=6.0% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": 294265
   },
   {
    "id": "B110",
@@ -5286,6 +5217,89 @@
    "score": "Atlanta United FC 1, Inter Miami CF 3 (FT)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761880",
    "settle_source": "ESPN usa.1 event 761880 STATUS_FULL_TIME 90'+9'"
+  },
+  {
+   "id": "B090",
+   "sport": "Polymarket",
+   "league": "mls",
+   "event": "Vancouver Whitecaps @ Austin FC",
+   "kickoff": "2026-10-18 04:30",
+   "selection": "Austin FC",
+   "odds": 5.0,
+   "book": "Polymarket ask",
+   "p": 0.2444,
+   "implied_pct": 20.0,
+   "edge_pct": 22.2,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2569,
+     "DRatings": 0.323
+    },
+    "mkt": 0.1987,
+    "nbooks": 5,
+    "blend_p": 0.2444,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mls-aus-vwh-2026-10-17-aus",
+   "reasoning": "scan PASS EV=22.2% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:mls-aus-vwh-2026-10-17-aus",
+   "polymarket_slug": "mls-aus-vwh-2026-10-17-aus",
+   "outcome_price": 0.2,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Austin FC vs. Vancouver Whitecaps FC",
+    "pm_league": "USA1",
+    "pm_kickoff_utc": "2026-10-18 00:30:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-18 07:25 (Tbilisi)",
+   "final_score": "Austin FC 1, Vancouver Whitecaps 2 (FT)",
+   "score": "Austin FC 1, Vancouver Whitecaps 2 (FT)",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=mls-aus-vwh-2026-10-17-aus",
+   "settle_source": "Polymarket resolved Yes=0 No=1 (umaResolutionStatus resolved); ESPN usa.1 event 761882 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B109",
+   "sport": "Football",
+   "league": "mls",
+   "event": "Real Salt Lake @ Sporting Kansas City",
+   "kickoff": "2026-10-18 04:30",
+   "selection": "Draw (Real Salt Lake @ Sporting Kansas City)",
+   "odds": 4.0,
+   "book": "69",
+   "p": 0.265,
+   "implied_pct": 25.0,
+   "edge_pct": 6.0,
+   "stake": 2.5,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2895,
+     "DRatings": 0.281
+    },
+    "mkt": 0.2447,
+    "nbooks": 5,
+    "blend_p": 0.265,
+    "elo_only": false
+   },
+   "odds_source_url": "scan/2026-10-15_1853 id=294265",
+   "reasoning": "scan PASS EV=6.0% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": 294265,
+   "result": "lost",
+   "pl_usd": -2.5,
+   "settled_at": "2026-10-18 07:25 (Tbilisi)",
+   "final_score": "Sporting Kansas City 1, Real Salt Lake 3 (FT)",
+   "score": "Sporting Kansas City 1, Real Salt Lake 3 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761884",
+   "settle_source": "ESPN usa.1 event 761884 STATUS_FULL_TIME"
   }
  ],
  "positions": [
@@ -5300,7 +5314,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81653
+   "last_price": 81749
   },
   {
    "symbol": "SPY",
@@ -21411,7 +21425,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81653,
+  "BTC": 81749,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -21489,20 +21503,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 06:28 (Tbilisi)",
-  "total_value": 522.01,
+  "time": "2026-10-18 07:24 (Tbilisi)",
+  "total_value": 514.53,
   "deposits_usd": 500,
-  "vs_deposits_usd": 22.01,
-  "vs_deposits_pct": 4.4,
-  "btc_bench": 495.51,
-  "vs_btc_usd": 26.51,
+  "vs_deposits_usd": 14.53,
+  "vs_deposits_pct": 2.91,
+  "btc_bench": 496.09,
+  "vs_btc_usd": 18.44,
   "bets": {
-   "n": 112,
+   "n": 114,
    "wins": 44,
-   "losses": 68,
-   "open": 37,
-   "pl_usd": 25.71,
-   "roi_pct": 16.8
+   "losses": 70,
+   "open": 35,
+   "pl_usd": 18.21,
+   "roi_pct": 11.4
   },
   "by_sport": {
    "NHL": {
@@ -21527,11 +21541,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 57,
+    "n": 58,
     "wins": 22,
-    "losses": 35,
-    "pl_usd": 16.35,
-    "roi_pct": 22.8
+    "losses": 36,
+    "pl_usd": 13.85,
+    "roi_pct": 18.7
    },
    "NCAAF": {
     "n": 19,
@@ -21548,19 +21562,19 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 23,
+    "n": 24,
     "wins": 8,
-    "losses": 15,
-    "pl_usd": 6.51,
-    "roi_pct": 11.7
+    "losses": 16,
+    "pl_usd": 1.51,
+    "roi_pct": 2.5
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.52,
-   "unrealized_usd": -0.48,
+   "value_usd": 14.54,
+   "unrealized_usd": -0.46,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.67
+   "total_pl_usd": -2.65
   },
   "stocks": {
    "open_n": 15,
@@ -21571,14 +21585,14 @@
   },
   "cash_usd": 304.7341,
   "scanned": 51603,
-  "open_bets_usd": 86.63,
+  "open_bets_usd": 79.13,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 57,
+    "n": 58,
     "wins": 22,
-    "losses": 35,
-    "pl_usd": 16.35,
-    "roi_pct": 22.8
+    "losses": 36,
+    "pl_usd": 13.85,
+    "roi_pct": 18.7
    },
    "BASKETBALL": {
     "n": 1,
@@ -21616,11 +21630,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 23,
+    "n": 24,
     "wins": 8,
-    "losses": 15,
-    "pl_usd": 6.51,
-    "roi_pct": 11.7
+    "losses": 16,
+    "pl_usd": 1.51,
+    "roi_pct": 2.5
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -21645,7 +21659,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 06:28 (Tbilisi)",
+ "last_refresh": "2026-10-18 07:24 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -22898,7 +22912,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 06:28 (Tbilisi)",
+  "updated": "2026-10-18 07:24 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -24251,6 +24265,28 @@
     "better": null
    },
    {
+    "id": "B090",
+    "sport": "Polymarket",
+    "event": "Vancouver Whitecaps @ Austin FC",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B109",
+    "sport": "Football",
+    "event": "Real Salt Lake @ Sporting Kansas City",
+    "open": null,
+    "taken": 4.0,
+    "taken_time": null,
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -24394,17 +24430,6 @@
     "better": null
    },
    {
-    "id": "B090",
-    "sport": "Polymarket",
-    "event": "Vancouver Whitecaps @ Austin FC",
-    "open": null,
-    "taken": 5.0,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B092",
     "sport": "Polymarket",
     "event": "Torino @ Parma Calcio 1913",
@@ -24454,17 +24479,6 @@
     "event": "Auxerre @ Le Havre",
     "open": null,
     "taken": 3.333,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B109",
-    "sport": "Football",
-    "event": "Real Salt Lake @ Sporting Kansas City",
-    "open": null,
-    "taken": 4.0,
     "taken_time": null,
     "close": null,
     "close_source": null,
