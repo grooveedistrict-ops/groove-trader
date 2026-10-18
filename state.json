@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 345.0101,
+ "cash_usd": 371.59294,
  "open_bets": [
   {
    "id": "B066",
@@ -32,109 +32,6 @@
     "status": "n/a",
     "reason": "non-sports market",
     "checked": "2026-10-17 06:34 (Tbilisi)"
-   }
-  },
-  {
-   "id": "B070",
-   "sport": "NFL",
-   "league": "NFL Week 7",
-   "event": "Chicago Bears @ Atlanta Falcons",
-   "kickoff": "2026-10-18 21:00",
-   "selection": "Chicago Bears (moneyline)",
-   "odds": 1.82,
-   "book": "Action Network best (-122)",
-   "p": 0.5755,
-   "implied_pct": 54.9,
-   "edge_pct": 4.7,
-   "stake": 1.25,
-   "reasoning": "ESPN predictor away 60.2% vs ბაზარი 54.9% (AN CHI 1.82). ნაზავი 57.55%, EV≈4.7%<5% → ნახევარი ზომა (A4).",
-   "model_inputs": {
-    "market_novig": 0.549,
-    "ESPN predictor": 0.602,
-    "blend": "0.5×ბაზარი + 0.5×ESPN"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl?date=20261016 ; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
-   "odds_time": "2026-10-15 00:06 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 1.82,
-    "best_now": 1.87,
-    "fair_now": 1.936,
-    "clv_pct": -6.02
-   }
-  },
-  {
-   "id": "B071",
-   "sport": "NFL",
-   "league": "NFL Week 7",
-   "event": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
-   "kickoff": "2026-10-18 21:00",
-   "selection": "Pittsburgh Steelers (moneyline)",
-   "odds": 2.05,
-   "book": "Action Network best (+105)",
-   "p": 0.5435,
-   "implied_pct": 48.8,
-   "edge_pct": 11.4,
-   "stake": 2.5,
-   "reasoning": "ESPN 59.9% vs ბაზარი 48.8% @2.05. ნაზავი 54.35%, EV≈11.4%. სტანდარტი 1.70–2.99.",
-   "model_inputs": {
-    "market_novig": 0.488,
-    "ESPN predictor": 0.599,
-    "blend": "0.5×ბაზარი + 0.5×ESPN"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl?date=20261016 ; ESPN summary 401873002",
-   "odds_time": "2026-10-15 00:06 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 2.05,
-    "best_now": 1.73,
-    "fair_now": 1.775,
-    "clv_pct": 15.52
-   },
-   "odds_check": {
-    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
-    "book30": 2.05,
-    "real_books_max_now": 1.73,
-    "over_real_pct": 18.5,
-    "checked": "2026-10-15 09:16 (Tbilisi)",
-    "lesson": "L005"
-   }
-  },
-  {
-   "id": "B072",
-   "sport": "NFL",
-   "league": "NFL Week 7",
-   "event": "New Orleans Saints @ New York Giants",
-   "kickoff": "2026-10-18 21:00",
-   "selection": "New Orleans Saints (moneyline)",
-   "odds": 2.2,
-   "book": "Action Network best (+120)",
-   "p": 0.497,
-   "implied_pct": 45.5,
-   "edge_pct": 9.3,
-   "stake": 2.5,
-   "reasoning": "ESPN away 53.9% vs ბაზარი 45.5% @2.20. ნაზავი 49.7%, EV≈9.3%.",
-   "model_inputs": {
-    "market_novig": 0.455,
-    "ESPN predictor": 0.539,
-    "blend": "0.5×ბაზარი + 0.5×ESPN"
-   },
-   "odds_source_url": "AN nfl + ESPN summary 401873000",
-   "odds_time": "2026-10-15 00:06 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 2.2,
-    "best_now": 1.893,
-    "fair_now": 1.965,
-    "clv_pct": 11.94
-   },
-   "odds_check": {
-    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
-    "book30": 2.2,
-    "real_books_max_now": 1.893,
-    "over_real_pct": 16.2,
-    "checked": "2026-10-15 09:16 (Tbilisi)",
-    "lesson": "L005"
    }
   },
   {
@@ -484,48 +381,6 @@
    "scan_id": 295138
   },
   {
-   "id": "B119",
-   "sport": "Polymarket",
-   "league": "soc_esp.2",
-   "event": "CD Sabadell @ Burgos",
-   "kickoff": "2026-10-18 23:00",
-   "selection": "Burgos",
-   "odds": 2.703,
-   "book": "Polymarket ask",
-   "p": 0.4063,
-   "implied_pct": 37.0,
-   "edge_pct": 9.81,
-   "stake": 3.56,
-   "status": "open",
-   "opened_at": "2026-10-16 00:07 (Tbilisi)",
-   "odds_time": "2026-10-16 00:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4591
-    },
-    "mkt": 0.3534,
-    "nbooks": 1,
-    "blend_p": 0.4063,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=es2-bur-sab-2026-10-18-bur",
-   "reasoning": "scan PASS EV=9.81% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
-   "scan_id": "pm:es2-bur-sab-2026-10-18-bur",
-   "polymarket_slug": "es2-bur-sab-2026-10-18-bur",
-   "outcome_price": 0.37,
-   "elo_only": true,
-   "tb1_dog_25_40": true,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Burgos CF vs. CE Sabadell FC",
-    "pm_league": "ESP2",
-    "pm_kickoff_utc": "2026-10-18 19:00:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B122",
    "sport": "Polymarket",
    "league": "soc_fra.2",
@@ -774,37 +629,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-10-18_0902 id=295290)",
    "reasoning": "scan PASS EV=8.73% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 11.58; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.5; NEWS shrink → TITAN APPROVED at $2.5",
    "scan_id": "295290"
-  },
-  {
-   "id": "B154",
-   "sport": "Football",
-   "league": "ligue1",
-   "event": "Nice @ Lyon",
-   "kickoff": "2026-10-18 22:45",
-   "selection": "Lyon",
-   "odds": 1.952,
-   "book": "Action Network real book id68",
-   "p": 0.5439,
-   "implied_pct": 51.2,
-   "edge_pct": 6.19,
-   "stake": 2.08,
-   "status": "open",
-   "opened_at": "2026-10-18 09:09 (Tbilisi)",
-   "odds_time": "2026-10-18 09:09 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.57,
-     "EloFD": 0.6009,
-     "DRatings": 0.583
-    },
-    "mkt": 0.5032,
-    "nbooks": 5,
-    "blend_p": 0.5439,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-10-18_0902 id=294252)",
-   "reasoning": "scan PASS EV=6.19% models=['FTS', 'EloFD', 'DRatings']; scan stake $4.17 (raw 4.17; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.08; NEWS shrink → TITAN APPROVED at $2.08",
-   "scan_id": "294252"
   },
   {
    "id": "B155",
@@ -6489,6 +6313,217 @@
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '+140', 'away': '-166'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997",
    "closing_note": "DraftKings close via ESPN pickcenter {'home': '+140', 'away': '-166'}; no-vig fair 2.4978; recorded PM 2026-10-19 00:01 (Tbilisi)"
+  },
+  {
+   "id": "B070",
+   "sport": "NFL",
+   "league": "NFL Week 7",
+   "event": "Chicago Bears @ Atlanta Falcons",
+   "kickoff": "2026-10-18 21:00",
+   "selection": "Chicago Bears (moneyline)",
+   "odds": 1.82,
+   "book": "Action Network best (-122)",
+   "p": 0.5755,
+   "implied_pct": 54.9,
+   "edge_pct": 4.7,
+   "stake": 1.25,
+   "reasoning": "ESPN predictor away 60.2% vs ბაზარი 54.9% (AN CHI 1.82). ნაზავი 57.55%, EV≈4.7%<5% → ნახევარი ზომა (A4).",
+   "model_inputs": {
+    "market_novig": 0.549,
+    "ESPN predictor": 0.602,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl?date=20261016 ; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 1.82,
+    "best_now": 1.87,
+    "fair_now": 1.936,
+    "clv_pct": -6.02
+   },
+   "result": "won",
+   "pl_usd": 1.03,
+   "settled_at": "2026-10-19 01:25 (Tbilisi)",
+   "final_score": "Atlanta Falcons 23, Chicago Bears 31 (Final)",
+   "score": "Atlanta Falcons 23, Chicago Bears 31 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+   "settle_source": "ESPN nfl event 401872999 STATUS_FINAL, Chicago Bears winner"
+  },
+  {
+   "id": "B071",
+   "sport": "NFL",
+   "league": "NFL Week 7",
+   "event": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
+   "kickoff": "2026-10-18 21:00",
+   "selection": "Pittsburgh Steelers (moneyline)",
+   "odds": 2.05,
+   "book": "Action Network best (+105)",
+   "p": 0.5435,
+   "implied_pct": 48.8,
+   "edge_pct": 11.4,
+   "stake": 2.5,
+   "reasoning": "ESPN 59.9% vs ბაზარი 48.8% @2.05. ნაზავი 54.35%, EV≈11.4%. სტანდარტი 1.70–2.99.",
+   "model_inputs": {
+    "market_novig": 0.488,
+    "ESPN predictor": 0.599,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl?date=20261016 ; ESPN summary 401873002",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 2.05,
+    "best_now": 1.73,
+    "fair_now": 1.775,
+    "clv_pct": 15.52
+   },
+   "odds_check": {
+    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
+    "book30": 2.05,
+    "real_books_max_now": 1.73,
+    "over_real_pct": 18.5,
+    "checked": "2026-10-15 09:16 (Tbilisi)",
+    "lesson": "L005"
+   },
+   "result": "won",
+   "pl_usd": 2.62,
+   "settled_at": "2026-10-19 01:25 (Tbilisi)",
+   "final_score": "Tampa Bay Buccaneers 19, Pittsburgh Steelers 26 (Final)",
+   "score": "Tampa Bay Buccaneers 19, Pittsburgh Steelers 26 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002",
+   "settle_source": "ESPN nfl event 401873002 STATUS_FINAL, Pittsburgh Steelers winner"
+  },
+  {
+   "id": "B072",
+   "sport": "NFL",
+   "league": "NFL Week 7",
+   "event": "New Orleans Saints @ New York Giants",
+   "kickoff": "2026-10-18 21:00",
+   "selection": "New Orleans Saints (moneyline)",
+   "odds": 2.2,
+   "book": "Action Network best (+120)",
+   "p": 0.497,
+   "implied_pct": 45.5,
+   "edge_pct": 9.3,
+   "stake": 2.5,
+   "reasoning": "ESPN away 53.9% vs ბაზარი 45.5% @2.20. ნაზავი 49.7%, EV≈9.3%.",
+   "model_inputs": {
+    "market_novig": 0.455,
+    "ESPN predictor": 0.539,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "AN nfl + ESPN summary 401873000",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 2.2,
+    "best_now": 1.893,
+    "fair_now": 1.965,
+    "clv_pct": 11.94
+   },
+   "odds_check": {
+    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
+    "book30": 2.2,
+    "real_books_max_now": 1.893,
+    "over_real_pct": 16.2,
+    "checked": "2026-10-15 09:16 (Tbilisi)",
+    "lesson": "L005"
+   },
+   "result": "won",
+   "pl_usd": 3.0,
+   "settled_at": "2026-10-19 01:25 (Tbilisi)",
+   "final_score": "New York Giants 27, New Orleans Saints 34 (Final)",
+   "score": "New York Giants 27, New Orleans Saints 34 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+   "settle_source": "ESPN nfl event 401873000 STATUS_FINAL, New Orleans Saints winner"
+  },
+  {
+   "id": "B119",
+   "sport": "Polymarket",
+   "league": "soc_esp.2",
+   "event": "CD Sabadell @ Burgos",
+   "kickoff": "2026-10-18 23:00",
+   "selection": "Burgos",
+   "odds": 2.703,
+   "book": "Polymarket ask",
+   "p": 0.4063,
+   "implied_pct": 37.0,
+   "edge_pct": 9.81,
+   "stake": 3.56,
+   "status": "settled",
+   "opened_at": "2026-10-16 00:07 (Tbilisi)",
+   "odds_time": "2026-10-16 00:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4591
+    },
+    "mkt": 0.3534,
+    "nbooks": 1,
+    "blend_p": 0.4063,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=es2-bur-sab-2026-10-18-bur",
+   "reasoning": "scan PASS EV=9.81% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
+   "scan_id": "pm:es2-bur-sab-2026-10-18-bur",
+   "polymarket_slug": "es2-bur-sab-2026-10-18-bur",
+   "outcome_price": 0.37,
+   "elo_only": true,
+   "tb1_dog_25_40": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Burgos CF vs. CE Sabadell FC",
+    "pm_league": "ESP2",
+    "pm_kickoff_utc": "2026-10-18 19:00:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 6.06,
+   "settled_at": "2026-10-19 01:25 (Tbilisi)",
+   "final_score": "Burgos 1, CD Sabadell 0 (FT)",
+   "score": "Burgos 1, CD Sabadell 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883180",
+   "settle_source": "ESPN esp.2 event 401883180 STATUS_FULL_TIME, Burgos winner; Polymarket Burgos Yes 0.9995 (UMA proposed)"
+  },
+  {
+   "id": "B154",
+   "sport": "Football",
+   "league": "ligue1",
+   "event": "Nice @ Lyon",
+   "kickoff": "2026-10-18 22:45",
+   "selection": "Lyon",
+   "odds": 1.952,
+   "book": "Action Network real book id68",
+   "p": 0.5439,
+   "implied_pct": 51.2,
+   "edge_pct": 6.19,
+   "stake": 2.08,
+   "status": "settled",
+   "opened_at": "2026-10-18 09:09 (Tbilisi)",
+   "odds_time": "2026-10-18 09:09 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.57,
+     "EloFD": 0.6009,
+     "DRatings": 0.583
+    },
+    "mkt": 0.5032,
+    "nbooks": 5,
+    "blend_p": 0.5439,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-10-18_0902 id=294252)",
+   "reasoning": "scan PASS EV=6.19% models=['FTS', 'EloFD', 'DRatings']; scan stake $4.17 (raw 4.17; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.08; NEWS shrink → TITAN APPROVED at $2.08",
+   "scan_id": "294252",
+   "result": "won",
+   "pl_usd": 1.98,
+   "settled_at": "2026-10-19 01:25 (Tbilisi)",
+   "final_score": "Lyon 2, Nice 1 (FT)",
+   "score": "Lyon 2, Nice 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876434",
+   "settle_source": "ESPN fra.1 event 401876434 STATUS_FULL_TIME, Lyon winner"
   }
  ],
  "positions": [
@@ -6503,7 +6538,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 80856
+   "last_price": 80977
   },
   {
    "symbol": "SPY",
@@ -26415,7 +26450,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 80856,
+  "BTC": 80977,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -26493,20 +26528,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-19 00:18 (Tbilisi)",
-  "total_value": 551.85,
+  "time": "2026-10-19 01:25 (Tbilisi)",
+  "total_value": 566.56,
   "deposits_usd": 500,
-  "vs_deposits_usd": 51.85,
-  "vs_deposits_pct": 10.37,
-  "btc_bench": 490.67,
-  "vs_btc_usd": 61.18,
+  "vs_deposits_usd": 66.56,
+  "vs_deposits_pct": 13.31,
+  "btc_bench": 491.41,
+  "vs_btc_usd": 75.16,
   "bets": {
-   "n": 135,
-   "wins": 56,
+   "n": 140,
+   "wins": 61,
    "losses": 79,
-   "open": 37,
-   "pl_usd": 55.68,
-   "roi_pct": 26.2
+   "open": 32,
+   "pl_usd": 70.37,
+   "roi_pct": 31.4
   },
   "by_sport": {
    "NHL": {
@@ -26531,11 +26566,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 67,
-    "wins": 27,
+    "n": 68,
+    "wins": 28,
     "losses": 40,
-    "pl_usd": 28.67,
-    "roi_pct": 33.1
+    "pl_usd": 30.65,
+    "roi_pct": 34.6
    },
    "NCAAF": {
     "n": 19,
@@ -26552,26 +26587,26 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 34,
-    "wins": 14,
+    "n": 35,
+    "wins": 15,
     "losses": 20,
-    "pl_usd": 24.68,
-    "roi_pct": 25.6
+    "pl_usd": 30.74,
+    "roi_pct": 30.8
    },
    "NFL": {
-    "n": 2,
-    "wins": 1,
+    "n": 5,
+    "wins": 4,
     "losses": 1,
-    "pl_usd": -0.52,
-    "roi_pct": -13.6
+    "pl_usd": 6.13,
+    "roi_pct": 60.9
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.38,
-   "unrealized_usd": -0.62,
+   "value_usd": 14.4,
+   "unrealized_usd": -0.6,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.81
+   "total_pl_usd": -2.79
   },
   "stocks": {
    "open_n": 15,
@@ -26580,16 +26615,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 345.0101,
+  "cash_usd": 371.59294,
   "scanned": 55300,
-  "open_bets_usd": 76.33,
+  "open_bets_usd": 64.44,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 67,
-    "wins": 27,
+    "n": 68,
+    "wins": 28,
     "losses": 40,
-    "pl_usd": 28.67,
-    "roi_pct": 33.1
+    "pl_usd": 30.65,
+    "roi_pct": 34.6
    },
    "BASKETBALL": {
     "n": 1,
@@ -26599,11 +26634,11 @@
     "roi_pct": 136.0
    },
    "US SPORTS": {
-    "n": 32,
-    "wins": 14,
+    "n": 35,
+    "wins": 17,
     "losses": 18,
-    "pl_usd": 2.65,
-    "roi_pct": 9.6
+    "pl_usd": 9.3,
+    "roi_pct": 27.4
    },
    "TENNIS": {
     "n": 1,
@@ -26627,11 +26662,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 34,
-    "wins": 14,
+    "n": 35,
+    "wins": 15,
     "losses": 20,
-    "pl_usd": 24.68,
-    "roi_pct": 25.6
+    "pl_usd": 30.74,
+    "roi_pct": 30.8
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -26656,7 +26691,7 @@
    }
   }
  },
- "last_refresh": "2026-10-19 00:18 (Tbilisi)",
+ "last_refresh": "2026-10-19 01:25 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -27909,7 +27944,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-19 00:18 (Tbilisi)",
+  "updated": "2026-10-19 01:25 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -29539,17 +29574,6 @@
     "better": "early"
    },
    {
-    "id": "B066",
-    "sport": "Polymarket",
-    "event": "Fed Oct 2026: no change in interest rates",
-    "open": null,
-    "taken": 1.626,
-    "taken_time": "2026-10-14 19:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B070",
     "sport": "NFL",
     "event": "Chicago Bears @ Atlanta Falcons",
@@ -29578,6 +29602,39 @@
     "open": null,
     "taken": 2.2,
     "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B119",
+    "sport": "Polymarket",
+    "event": "CD Sabadell @ Burgos",
+    "open": null,
+    "taken": 2.703,
+    "taken_time": "2026-10-16 00:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B154",
+    "sport": "Football",
+    "event": "Nice @ Lyon",
+    "open": null,
+    "taken": 1.952,
+    "taken_time": "2026-10-18 09:09 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B066",
+    "sport": "Polymarket",
+    "event": "Fed Oct 2026: no change in interest rates",
+    "open": null,
+    "taken": 1.626,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -29693,17 +29750,6 @@
     "better": null
    },
    {
-    "id": "B119",
-    "sport": "Polymarket",
-    "event": "CD Sabadell @ Burgos",
-    "open": null,
-    "taken": 2.703,
-    "taken_time": "2026-10-16 00:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B122",
     "sport": "Polymarket",
     "event": "Montpellier @ Rodez Aveyron",
@@ -29786,17 +29832,6 @@
     "event": "Utah Jazz @ Memphis Grizzlies",
     "open": null,
     "taken": 1.971,
-    "taken_time": "2026-10-18 09:09 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B154",
-    "sport": "Football",
-    "event": "Nice @ Lyon",
-    "open": null,
-    "taken": 1.952,
     "taken_time": "2026-10-18 09:09 (Tbilisi)",
     "close": null,
     "close_source": null,
