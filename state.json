@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 303.6281,
+ "cash_usd": 305.8281,
  "open_bets": [
   {
    "id": "B066",
@@ -1033,35 +1033,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard",
    "reasoning": "scan PASS EV=6.02% models=['ESPN', 'DRatings'] nbooks=5; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 (caps bound)",
    "scan_id": "295294"
-  },
-  {
-   "id": "B147",
-   "sport": "Football",
-   "league": "soc_chn.1",
-   "event": "Shanghai Shenhua @ Wuhan Three Towns",
-   "kickoff": "2026-10-18 14:00",
-   "selection": "Shanghai Shenhua",
-   "odds": 2.2,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.4769,
-   "implied_pct": 45.5,
-   "edge_pct": 4.92,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-17 19:05 (Tbilisi)",
-   "odds_time": "2026-10-17 19:05 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5239
-    },
-    "mkt": 0.4298,
-    "nbooks": 1,
-    "blend_p": 0.4769,
-    "elo_only": true
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861480",
-   "reasoning": "scan PASS EV=4.92% models=['EloFD'] (Elo-only half stake per TITAN rule); NEWS shrink (Assué knock + midweek ACL2 travel) → TITAN APPROVED at $1.00 (scan stake $1.15)",
-   "scan_id": "espn401861480"
   },
   {
    "id": "B148",
@@ -5907,6 +5878,42 @@
    "score": "Fagiano Okayama 0, Vissel Kobe 3 (FT)",
    "result_source": "https://gamma-api.polymarket.com/markets?slug=jap-fag-vis-2026-10-18-vis",
    "settle_source": "Polymarket resolved Yes=1 No=0 (umaResolutionStatus resolved); ESPN jpn.1 event 401877598 STATUS_FULL_TIME"
+  },
+  {
+   "id": "B147",
+   "sport": "Football",
+   "league": "soc_chn.1",
+   "event": "Shanghai Shenhua @ Wuhan Three Towns",
+   "kickoff": "2026-10-18 14:00",
+   "selection": "Shanghai Shenhua",
+   "odds": 2.2,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.4769,
+   "implied_pct": 45.5,
+   "edge_pct": 4.92,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-17 19:05 (Tbilisi)",
+   "odds_time": "2026-10-17 19:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5239
+    },
+    "mkt": 0.4298,
+    "nbooks": 1,
+    "blend_p": 0.4769,
+    "elo_only": true
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861480",
+   "reasoning": "scan PASS EV=4.92% models=['EloFD'] (Elo-only half stake per TITAN rule); NEWS shrink (Assué knock + midweek ACL2 travel) → TITAN APPROVED at $1.00 (scan stake $1.15)",
+   "scan_id": "espn401861480",
+   "result": "won",
+   "pl_usd": 1.2,
+   "settled_at": "2026-10-18 16:25 (Tbilisi)",
+   "final_score": "Wuhan Three Towns 1, Shanghai Shenhua 3 (FT)",
+   "score": "Wuhan Three Towns 1, Shanghai Shenhua 3 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/summary?event=401861480",
+   "settle_source": "ESPN chn.1 event 401861480 STATUS_FULL_TIME, Shanghai Shenhua winner"
   }
  ],
  "positions": [
@@ -5921,7 +5928,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82037
+   "last_price": 81943
   },
   {
    "symbol": "SPY",
@@ -23640,7 +23647,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 82037,
+  "BTC": 81943,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -23718,20 +23725,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-18 15:24 (Tbilisi)",
-  "total_value": 527.58,
+  "time": "2026-10-18 16:25 (Tbilisi)",
+  "total_value": 528.76,
   "deposits_usd": 500,
-  "vs_deposits_usd": 27.58,
-  "vs_deposits_pct": 5.52,
-  "btc_bench": 497.84,
-  "vs_btc_usd": 29.74,
+  "vs_deposits_usd": 28.76,
+  "vs_deposits_pct": 5.75,
+  "btc_bench": 497.27,
+  "vs_btc_usd": 31.49,
   "bets": {
-   "n": 117,
-   "wins": 46,
+   "n": 118,
+   "wins": 47,
    "losses": 71,
-   "open": 44,
-   "pl_usd": 31.2,
-   "roi_pct": 18.6
+   "open": 43,
+   "pl_usd": 32.4,
+   "roi_pct": 19.2
   },
   "by_sport": {
    "NHL": {
@@ -23756,11 +23763,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 60,
-    "wins": 23,
+    "n": 61,
+    "wins": 24,
     "losses": 37,
-    "pl_usd": 21.02,
-    "roi_pct": 27.1
+    "pl_usd": 22.22,
+    "roi_pct": 28.3
    },
    "NCAAF": {
     "n": 19,
@@ -23786,10 +23793,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.59,
-   "unrealized_usd": -0.41,
+   "value_usd": 14.57,
+   "unrealized_usd": -0.43,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.6
+   "total_pl_usd": -2.62
   },
   "stocks": {
    "open_n": 15,
@@ -23798,16 +23805,16 @@
    "realized_usd": -1.16,
    "total_pl_usd": -1.03
   },
-  "cash_usd": 303.6281,
+  "cash_usd": 305.8281,
   "scanned": 50227,
-  "open_bets_usd": 93.23,
+  "open_bets_usd": 92.23,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 60,
-    "wins": 23,
+    "n": 61,
+    "wins": 24,
     "losses": 37,
-    "pl_usd": 21.02,
-    "roi_pct": 27.1
+    "pl_usd": 22.22,
+    "roi_pct": 28.3
    },
    "BASKETBALL": {
     "n": 1,
@@ -23874,7 +23881,7 @@
    }
   }
  },
- "last_refresh": "2026-10-18 15:24 (Tbilisi)",
+ "last_refresh": "2026-10-18 16:25 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -25127,7 +25134,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-18 15:24 (Tbilisi)",
+  "updated": "2026-10-18 16:25 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -26555,6 +26562,17 @@
     "better": null
    },
    {
+    "id": "B147",
+    "sport": "Football",
+    "event": "Shanghai Shenhua @ Wuhan Three Towns",
+    "open": null,
+    "taken": 2.2,
+    "taken_time": "2026-10-17 19:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -26869,17 +26887,6 @@
     "open": null,
     "taken": 1.658,
     "taken_time": "2026-10-17 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B147",
-    "sport": "Football",
-    "event": "Shanghai Shenhua @ Wuhan Three Towns",
-    "open": null,
-    "taken": 2.2,
-    "taken_time": "2026-10-17 19:05 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
