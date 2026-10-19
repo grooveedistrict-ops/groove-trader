@@ -531,36 +531,6 @@
    "scan_id": "espn401877593"
   },
   {
-   "id": "B151",
-   "sport": "Football",
-   "league": "soc_arg.1",
-   "event": "River Plate @ Belgrano (Córdoba)",
-   "kickoff": "2026-10-19 03:15",
-   "selection": "Belgrano (Córdoba)",
-   "odds": 3.5,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.3496,
-   "implied_pct": 28.6,
-   "edge_pct": 22.35,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-18 09:09 (Tbilisi)",
-   "odds_time": "2026-10-18 09:09 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.43,
-     "EloFD": 0.428
-    },
-    "mkt": 0.2701,
-    "nbooks": 1,
-    "blend_p": 0.3496,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/summary?event=401841628",
-   "reasoning": "scan PASS EV=22.35% models=['FTS', 'EloFD']; scan stake $5.0 (raw 5.75; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
-   "scan_id": "espn401841628"
-  },
-  {
    "id": "B152",
    "sport": "NBA",
    "league": "nba",
@@ -6545,6 +6515,43 @@
    "score": "Kansas City Chiefs 22, Los Angeles Chargers 6 (Final)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
    "settle_source": "ESPN nfl event 401873006 STATUS_FINAL, Kansas City Chiefs winner"
+  },
+  {
+   "id": "B151",
+   "sport": "Football",
+   "league": "soc_arg.1",
+   "event": "River Plate @ Belgrano (Córdoba)",
+   "kickoff": "2026-10-19 03:15",
+   "selection": "Belgrano (Córdoba)",
+   "odds": 3.5,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.3496,
+   "implied_pct": 28.6,
+   "edge_pct": 22.35,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-18 09:09 (Tbilisi)",
+   "odds_time": "2026-10-18 09:09 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.43,
+     "EloFD": 0.428
+    },
+    "mkt": 0.2701,
+    "nbooks": 1,
+    "blend_p": 0.3496,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/summary?event=401841628",
+   "reasoning": "scan PASS EV=22.35% models=['FTS', 'EloFD']; scan stake $5.0 (raw 5.75; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "espn401841628",
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-19 05:21 (Tbilisi)",
+   "final_score": "Belgrano (Córdoba) 0, River Plate 3 (Full Time)",
+   "score": "Belgrano (Córdoba) 0, River Plate 3 (Full Time)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/summary?event=401841628",
+   "settle_source": "ESPN arg.1 event 401841628 STATUS_FULL_TIME, River Plate winner"
   }
  ],
  "positions": [
@@ -6559,7 +6566,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81998
+   "last_price": 82416
   },
   {
    "symbol": "SPY",
@@ -26471,7 +26478,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81998,
+  "BTC": 82416,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -26549,20 +26556,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-19 04:22 (Tbilisi)",
-  "total_value": 555.74,
+  "time": "2026-10-19 05:21 (Tbilisi)",
+  "total_value": 550.82,
   "deposits_usd": 500,
-  "vs_deposits_usd": 55.74,
-  "vs_deposits_pct": 11.15,
-  "btc_bench": 497.6,
-  "vs_btc_usd": 58.14,
+  "vs_deposits_usd": 50.82,
+  "vs_deposits_pct": 10.16,
+  "btc_bench": 500.14,
+  "vs_btc_usd": 50.68,
   "bets": {
-   "n": 143,
+   "n": 144,
    "wins": 61,
-   "losses": 82,
-   "open": 29,
-   "pl_usd": 59.37,
-   "roi_pct": 25.3
+   "losses": 83,
+   "open": 28,
+   "pl_usd": 54.37,
+   "roi_pct": 22.6
   },
   "by_sport": {
    "NHL": {
@@ -26587,11 +26594,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 68,
+    "n": 69,
     "wins": 28,
-    "losses": 40,
-    "pl_usd": 30.65,
-    "roi_pct": 34.6
+    "losses": 41,
+    "pl_usd": 25.65,
+    "roi_pct": 27.4
    },
    "NCAAF": {
     "n": 19,
@@ -26624,10 +26631,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.58,
-   "unrealized_usd": -0.42,
+   "value_usd": 14.66,
+   "unrealized_usd": -0.34,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.61
+   "total_pl_usd": -2.53
   },
   "stocks": {
    "open_n": 15,
@@ -26638,14 +26645,14 @@
   },
   "cash_usd": 371.59294,
   "scanned": 55300,
-  "open_bets_usd": 53.44,
+  "open_bets_usd": 48.44,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 68,
+    "n": 69,
     "wins": 28,
-    "losses": 40,
-    "pl_usd": 30.65,
-    "roi_pct": 34.6
+    "losses": 41,
+    "pl_usd": 25.65,
+    "roi_pct": 27.4
    },
    "BASKETBALL": {
     "n": 1,
@@ -26712,7 +26719,7 @@
    }
   }
  },
- "last_refresh": "2026-10-19 04:22 (Tbilisi)",
+ "last_refresh": "2026-10-19 05:21 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -27965,7 +27972,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-19 04:22 (Tbilisi)",
+  "updated": "2026-10-19 05:21 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -29683,6 +29690,17 @@
     "better": null
    },
    {
+    "id": "B151",
+    "sport": "Football",
+    "event": "River Plate @ Belgrano (Córdoba)",
+    "open": null,
+    "taken": 3.5,
+    "taken_time": "2026-10-18 09:09 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -29854,17 +29872,6 @@
     "open": null,
     "taken": 1.833,
     "taken_time": "2026-10-18 00:08 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B151",
-    "sport": "Football",
-    "event": "River Plate @ Belgrano (Córdoba)",
-    "open": null,
-    "taken": 3.5,
-    "taken_time": "2026-10-18 09:09 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
