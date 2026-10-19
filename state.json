@@ -707,36 +707,6 @@
    "scan_id": "espn401881310"
   },
   {
-   "id": "B163",
-   "sport": "MLB",
-   "league": "mlb",
-   "event": "Tampa Bay Rays @ Cleveland Guardians",
-   "kickoff": "2026-10-19 01:08",
-   "selection": "Cleveland Guardians",
-   "odds": 2.17,
-   "book": "Action Network real book id71",
-   "p": 0.4924,
-   "implied_pct": 46.1,
-   "edge_pct": 6.85,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-18 19:00 (Tbilisi)",
-   "odds_time": "2026-10-18 19:00 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.563,
-     "DRatings": 0.5
-    },
-    "mkt": 0.4533,
-    "nbooks": 5,
-    "blend_p": 0.4924,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/mlb (scan/2026-10-18_1852 id=303591)",
-   "reasoning": "scan PASS EV=6.85% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 7.67; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
-   "scan_id": "303591"
-  },
-  {
    "id": "B164",
    "sport": "Polymarket",
    "league": "champions",
@@ -898,36 +868,6 @@
     "rule": "L007"
    },
    "elo_only": true
-  },
-  {
-   "id": "B169",
-   "sport": "NFL",
-   "league": "nfl",
-   "event": "Los Angeles Chargers @ Kansas City Chiefs",
-   "kickoff": "2026-10-19 00:25",
-   "selection": "Los Angeles Chargers",
-   "odds": 4.5,
-   "book": "Action Network real book id68",
-   "p": 0.2336,
-   "implied_pct": 22.2,
-   "edge_pct": 5.11,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-19 00:01 (Tbilisi)",
-   "odds_time": "2026-10-19 00:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.254,
-     "DRatings": 0.225
-    },
-    "mkt": 0.2277,
-    "nbooks": 5,
-    "blend_p": 0.2336,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl (scan/2026-10-18_2355 id=290927)",
-   "reasoning": "scan PASS EV=5.11% models=['ESPN', 'DRatings']; scan stake $2.02 (raw 2.02; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "290927"
   },
   {
    "id": "B170",
@@ -6531,6 +6471,80 @@
    "score": "FC Cincinnati 0, Columbus Crew 2 (FT)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761889",
    "settle_source": "ESPN usa.1 event 761889 STATUS_FULL_TIME, Columbus Crew winner; Polymarket Cincinnati Yes 0.0005 (UMA proposed)"
+  },
+  {
+   "id": "B163",
+   "sport": "MLB",
+   "league": "mlb",
+   "event": "Tampa Bay Rays @ Cleveland Guardians",
+   "kickoff": "2026-10-19 01:08",
+   "selection": "Cleveland Guardians",
+   "odds": 2.17,
+   "book": "Action Network real book id71",
+   "p": 0.4924,
+   "implied_pct": 46.1,
+   "edge_pct": 6.85,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-18 19:00 (Tbilisi)",
+   "odds_time": "2026-10-18 19:00 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.563,
+     "DRatings": 0.5
+    },
+    "mkt": 0.4533,
+    "nbooks": 5,
+    "blend_p": 0.4924,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/mlb (scan/2026-10-18_1852 id=303591)",
+   "reasoning": "scan PASS EV=6.85% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 7.67; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "303591",
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-19 04:25 (Tbilisi)",
+   "final_score": "Cleveland Guardians 1, Tampa Bay Rays 3 (Final)",
+   "score": "Cleveland Guardians 1, Tampa Bay Rays 3 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401930515",
+   "settle_source": "ESPN mlb event 401930515 STATUS_FINAL, Tampa Bay Rays winner"
+  },
+  {
+   "id": "B169",
+   "sport": "NFL",
+   "league": "nfl",
+   "event": "Los Angeles Chargers @ Kansas City Chiefs",
+   "kickoff": "2026-10-19 00:25",
+   "selection": "Los Angeles Chargers",
+   "odds": 4.5,
+   "book": "Action Network real book id68",
+   "p": 0.2336,
+   "implied_pct": 22.2,
+   "edge_pct": 5.11,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-19 00:01 (Tbilisi)",
+   "odds_time": "2026-10-19 00:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.254,
+     "DRatings": 0.225
+    },
+    "mkt": 0.2277,
+    "nbooks": 5,
+    "blend_p": 0.2336,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl (scan/2026-10-18_2355 id=290927)",
+   "reasoning": "scan PASS EV=5.11% models=['ESPN', 'DRatings']; scan stake $2.02 (raw 2.02; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "290927",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-19 04:25 (Tbilisi)",
+   "final_score": "Kansas City Chiefs 22, Los Angeles Chargers 6 (Final)",
+   "score": "Kansas City Chiefs 22, Los Angeles Chargers 6 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+   "settle_source": "ESPN nfl event 401873006 STATUS_FINAL, Kansas City Chiefs winner"
   }
  ],
  "positions": [
@@ -6545,7 +6559,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81718
+   "last_price": 81998
   },
   {
    "symbol": "SPY",
@@ -26457,7 +26471,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81718,
+  "BTC": 81998,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -26535,20 +26549,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-19 03:22 (Tbilisi)",
-  "total_value": 561.69,
+  "time": "2026-10-19 04:22 (Tbilisi)",
+  "total_value": 555.74,
   "deposits_usd": 500,
-  "vs_deposits_usd": 61.69,
-  "vs_deposits_pct": 12.34,
-  "btc_bench": 495.9,
-  "vs_btc_usd": 65.79,
+  "vs_deposits_usd": 55.74,
+  "vs_deposits_pct": 11.15,
+  "btc_bench": 497.6,
+  "vs_btc_usd": 58.14,
   "bets": {
-   "n": 141,
+   "n": 143,
    "wins": 61,
-   "losses": 80,
-   "open": 31,
-   "pl_usd": 65.37,
-   "roi_pct": 28.5
+   "losses": 82,
+   "open": 29,
+   "pl_usd": 59.37,
+   "roi_pct": 25.3
   },
   "by_sport": {
    "NHL": {
@@ -26559,11 +26573,11 @@
     "roi_pct": -12.2
    },
    "MLB": {
-    "n": 5,
+    "n": 6,
     "wins": 2,
-    "losses": 3,
-    "pl_usd": -0.27,
-    "roi_pct": -5.1
+    "losses": 4,
+    "pl_usd": -5.27,
+    "roi_pct": -51.4
    },
    "Tennis": {
     "n": 1,
@@ -26601,19 +26615,19 @@
     "roi_pct": 24.5
    },
    "NFL": {
-    "n": 5,
+    "n": 6,
     "wins": 4,
-    "losses": 1,
-    "pl_usd": 6.13,
-    "roi_pct": 60.9
+    "losses": 2,
+    "pl_usd": 5.13,
+    "roi_pct": 46.3
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.53,
-   "unrealized_usd": -0.47,
+   "value_usd": 14.58,
+   "unrealized_usd": -0.42,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.66
+   "total_pl_usd": -2.61
   },
   "stocks": {
    "open_n": 15,
@@ -26624,7 +26638,7 @@
   },
   "cash_usd": 371.59294,
   "scanned": 55300,
-  "open_bets_usd": 59.44,
+  "open_bets_usd": 53.44,
   "desk_stats": {
    "FOOTBALL": {
     "n": 68,
@@ -26641,11 +26655,11 @@
     "roi_pct": 136.0
    },
    "US SPORTS": {
-    "n": 35,
+    "n": 37,
     "wins": 17,
-    "losses": 18,
-    "pl_usd": 9.3,
-    "roi_pct": 27.4
+    "losses": 20,
+    "pl_usd": 3.3,
+    "roi_pct": 8.3
    },
    "TENNIS": {
     "n": 1,
@@ -26698,7 +26712,7 @@
    }
   }
  },
- "last_refresh": "2026-10-19 03:22 (Tbilisi)",
+ "last_refresh": "2026-10-19 04:22 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -27951,7 +27965,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-19 03:22 (Tbilisi)",
+  "updated": "2026-10-19 04:22 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -29647,6 +29661,28 @@
     "better": null
    },
    {
+    "id": "B163",
+    "sport": "MLB",
+    "event": "Tampa Bay Rays @ Cleveland Guardians",
+    "open": null,
+    "taken": 2.17,
+    "taken_time": "2026-10-18 19:00 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B169",
+    "sport": "NFL",
+    "event": "Los Angeles Chargers @ Kansas City Chiefs",
+    "open": null,
+    "taken": 4.5,
+    "taken_time": "2026-10-19 00:01 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -29889,17 +29925,6 @@
     "better": null
    },
    {
-    "id": "B163",
-    "sport": "MLB",
-    "event": "Tampa Bay Rays @ Cleveland Guardians",
-    "open": null,
-    "taken": 2.17,
-    "taken_time": "2026-10-18 19:00 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B164",
     "sport": "Polymarket",
     "event": "Slavia Prague @ Fenerbahce",
@@ -29939,17 +29964,6 @@
     "open": null,
     "taken": 2.174,
     "taken_time": "2026-10-18 19:00 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B169",
-    "sport": "NFL",
-    "event": "Los Angeles Chargers @ Kansas City Chiefs",
-    "open": null,
-    "taken": 4.5,
-    "taken_time": "2026-10-19 00:01 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
