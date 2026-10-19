@@ -212,69 +212,6 @@
    }
   },
   {
-   "id": "B084",
-   "sport": "Football",
-   "league": "La Liga",
-   "event": "Rayo Vallecano @ Getafe",
-   "kickoff": "2026-10-19 23:00",
-   "selection": "Rayo Vallecano (1X2 — მოგება)",
-   "odds": 2.7,
-   "book": "Action Network real book id69 (+170)",
-   "p": 0.3913,
-   "implied_pct": 37.0,
-   "edge_pct": 5.65,
-   "stake": 1.25,
-   "reasoning": "DRatings 42.7% vs no-vig 35.6% (5 წიგნი) @2.70. ნაზავი 39.1%, EV≈5.7%. ერთი მოდელი → ნახევარი.",
-   "model_inputs": {
-    "market_novig": 0.3556,
-    "DRatings": 0.427,
-    "blend": "0.5×ბაზარი + 0.5×DRatings"
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261019 ; https://www.dratings.com/predictor/spain-la-liga-predictions/upcoming/3",
-   "odds_time": "2026-10-15 09:16 (Tbilisi)",
-   "status": "open"
-  },
-  {
-   "id": "B092",
-   "sport": "Polymarket",
-   "league": "seriea",
-   "event": "Torino @ Parma Calcio 1913",
-   "kickoff": "2026-10-19 22:45",
-   "selection": "Parma Calcio 1913",
-   "odds": 3.226,
-   "book": "Polymarket ask",
-   "p": 0.3598,
-   "implied_pct": 31.0,
-   "edge_pct": 16.06,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-10-15 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.3938,
-     "DRatings": 0.425
-    },
-    "mkt": 0.3101,
-    "nbooks": 5,
-    "blend_p": 0.3598,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-par-tor-2026-10-19-par",
-   "reasoning": "scan PASS EV=16.06% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
-   "scan_id": "pm:sea-par-tor-2026-10-19-par",
-   "polymarket_slug": "sea-par-tor-2026-10-19-par",
-   "outcome_price": 0.31,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Parma Calcio 1913 vs. Torino FC",
-    "pm_league": "ITA1",
-    "pm_kickoff_utc": "2026-10-19 18:45:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B117",
    "sport": "NBA",
    "league": "nba",
@@ -302,48 +239,6 @@
    "odds_source_url": "scan/2026-10-15_1853 id=295138",
    "reasoning": "scan PASS EV=3.82% models=['ESPN', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
    "scan_id": 295138
-  },
-  {
-   "id": "B122",
-   "sport": "Polymarket",
-   "league": "soc_fra.2",
-   "event": "Montpellier @ Rodez Aveyron",
-   "kickoff": "2026-10-19 22:45",
-   "selection": "Rodez Aveyron",
-   "odds": 2.941,
-   "book": "Polymarket ask",
-   "p": 0.3696,
-   "implied_pct": 34.0,
-   "edge_pct": 8.71,
-   "stake": 2.77,
-   "status": "open",
-   "opened_at": "2026-10-16 00:07 (Tbilisi)",
-   "odds_time": "2026-10-16 00:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4139
-    },
-    "mkt": 0.3253,
-    "nbooks": 1,
-    "blend_p": 0.3696,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fr2-raf-mon-2026-10-19-raf",
-   "reasoning": "scan PASS EV=8.71% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
-   "scan_id": "pm:fr2-raf-mon-2026-10-19-raf",
-   "polymarket_slug": "fr2-raf-mon-2026-10-19-raf",
-   "outcome_price": 0.34,
-   "elo_only": true,
-   "tb1_dog_25_40": true,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Rodez Aveyron Football vs. Montpellier HSC",
-    "pm_league": "FRA2",
-    "pm_kickoff_utc": "2026-10-19 18:45:00+00",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
   },
   {
    "id": "B127",
@@ -7962,6 +7857,150 @@
     "note": "CLV -4.36% (2.128 vs DraftKings no-vig close 2.225); final Jong PSV 0, FC Dordrecht 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B084",
+   "sport": "Football",
+   "league": "La Liga",
+   "event": "Rayo Vallecano @ Getafe",
+   "kickoff": "2026-10-19 23:00",
+   "selection": "Rayo Vallecano (1X2 — მოგება)",
+   "odds": 2.7,
+   "book": "Action Network real book id69 (+170)",
+   "p": 0.3913,
+   "implied_pct": 37.0,
+   "edge_pct": 5.65,
+   "stake": 1.25,
+   "reasoning": "DRatings 42.7% vs no-vig 35.6% (5 წიგნი) @2.70. ნაზავი 39.1%, EV≈5.7%. ერთი მოდელი → ნახევარი.",
+   "model_inputs": {
+    "market_novig": 0.3556,
+    "DRatings": 0.427,
+    "blend": "0.5×ბაზარი + 0.5×DRatings"
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer?date=20261019 ; https://www.dratings.com/predictor/spain-la-liga-predictions/upcoming/3",
+   "odds_time": "2026-10-15 09:16 (Tbilisi)",
+   "status": "settled",
+   "result": "lost",
+   "pl_usd": -1.25,
+   "settled_at": "2026-10-20 01:25 (Tbilisi)",
+   "final_score": "Getafe 1, Rayo Vallecano 1 (FT)",
+   "score": "Getafe 1, Rayo Vallecano 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882842",
+   "settle_source": "ESPN esp.1 event 401882842 STATUS_FULL_TIME, draw; 1X2 Rayo win lost on draw",
+   "closing_odds": 2.65,
+   "closing_fair_odds": 2.7826,
+   "clv_pct": -2.97,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+205', 'away': '+165', 'draw': '+190'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882842",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+205', 'away': '+165', 'draw': '+190'}; no-vig fair 2.7826; recorded HOURLY 2026-10-20 01:25 (Tbilisi)"
+  },
+  {
+   "id": "B092",
+   "sport": "Polymarket",
+   "league": "seriea",
+   "event": "Torino @ Parma Calcio 1913",
+   "kickoff": "2026-10-19 22:45",
+   "selection": "Parma Calcio 1913",
+   "odds": 3.226,
+   "book": "Polymarket ask",
+   "p": 0.3598,
+   "implied_pct": 31.0,
+   "edge_pct": 16.06,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3938,
+     "DRatings": 0.425
+    },
+    "mkt": 0.3101,
+    "nbooks": 5,
+    "blend_p": 0.3598,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-par-tor-2026-10-19-par",
+   "reasoning": "scan PASS EV=16.06% models=['EloFD', 'DRatings'] nbooks=5; TITAN BUY after NEWS",
+   "scan_id": "pm:sea-par-tor-2026-10-19-par",
+   "polymarket_slug": "sea-par-tor-2026-10-19-par",
+   "outcome_price": 0.31,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Parma Calcio 1913 vs. Torino FC",
+    "pm_league": "ITA1",
+    "pm_kickoff_utc": "2026-10-19 18:45:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-10-20 01:25 (Tbilisi)",
+   "final_score": "Parma Calcio 1913 0, Torino 3 (FT)",
+   "score": "Parma Calcio 1913 0, Torino 3 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874784",
+   "settle_source": "ESPN ita.1 event 401874784 STATUS_FULL_TIME, Torino winner; Polymarket Parma market not returned by gamma slug query; ESPN final used",
+   "closing_odds": 3.4,
+   "closing_fair_odds": 3.6637,
+   "clv_pct": -11.95,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+240', 'away': '+125', 'draw': '+195'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874784",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+240', 'away': '+125', 'draw': '+195'}; no-vig fair 3.6637; recorded HOURLY 2026-10-20 01:25 (Tbilisi)"
+  },
+  {
+   "id": "B122",
+   "sport": "Polymarket",
+   "league": "soc_fra.2",
+   "event": "Montpellier @ Rodez Aveyron",
+   "kickoff": "2026-10-19 22:45",
+   "selection": "Rodez Aveyron",
+   "odds": 2.941,
+   "book": "Polymarket ask",
+   "p": 0.3696,
+   "implied_pct": 34.0,
+   "edge_pct": 8.71,
+   "stake": 2.77,
+   "status": "settled",
+   "opened_at": "2026-10-16 00:07 (Tbilisi)",
+   "odds_time": "2026-10-16 00:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4139
+    },
+    "mkt": 0.3253,
+    "nbooks": 1,
+    "blend_p": 0.3696,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fr2-raf-mon-2026-10-19-raf",
+   "reasoning": "scan PASS EV=8.71% models=['EloFD'] nbooks=1; NEWS clear; TITAN BUY; stake ¼-Kelly clamp $1–$5 ×½ Elo-only",
+   "scan_id": "pm:fr2-raf-mon-2026-10-19-raf",
+   "polymarket_slug": "fr2-raf-mon-2026-10-19-raf",
+   "outcome_price": 0.34,
+   "elo_only": true,
+   "tb1_dog_25_40": true,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Rodez Aveyron Football vs. Montpellier HSC",
+    "pm_league": "FRA2",
+    "pm_kickoff_utc": "2026-10-19 18:45:00+00",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -2.77,
+   "settled_at": "2026-10-20 01:25 (Tbilisi)",
+   "final_score": "Rodez Aveyron 0, Montpellier 3 (FT)",
+   "score": "Rodez Aveyron 0, Montpellier 3 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876719",
+   "settle_source": "ESPN fra.2 event 401876719 STATUS_FULL_TIME, Montpellier winner; Polymarket Rodez Yes 0.0005 (UMA proposed)",
+   "closing_odds": 2.95,
+   "closing_fair_odds": 3.1255,
+   "clv_pct": -5.9,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+195', 'away': '+130', 'draw': '+250'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876719",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+195', 'away': '+130', 'draw': '+250'}; no-vig fair 3.1255; recorded HOURLY 2026-10-20 01:25 (Tbilisi)"
   }
  ],
  "positions": [
@@ -7976,7 +8015,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81778
+   "last_price": 82042
   },
   {
    "symbol": "SPY",
@@ -7988,7 +8027,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 766.7
+   "last_price": 766.48
   },
   {
    "symbol": "AAPL",
@@ -8000,7 +8039,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 343.0,
+   "last_price": 342.94,
    "adds": [
     {
      "date": "2026-10-14",
@@ -8044,7 +8083,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 175.72,
+   "last_price": 175.65,
    "adds": [
     {
      "date": "2026-10-14",
@@ -8070,7 +8109,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 93.39
+   "last_price": 93.42
   },
   {
    "symbol": "MSFT",
@@ -8078,7 +8117,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 533.48,
+   "last_price": 533.52,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -8087,7 +8126,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 407.19,
+   "last_price": 406.88,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -8096,7 +8135,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 402.99,
+   "last_price": 402.92,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -8109,7 +8148,7 @@
    "stop_loss": 1189.49,
    "take_profit": 1352.27,
    "thesis": "ორივე MA-ს ზემოთ (SMA20 1173.7 / SMA50 1179.1), დღეს +3.6% — ჯანდაცვის სიძლიერე",
-   "last_price": 1242.98,
+   "last_price": 1240.34,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -8137,7 +8176,7 @@
    "stop_loss": 234.36,
    "take_profit": 266.44,
    "thesis": "ორივე MA-ს ზემოთ (233.1/229.0), დღეს +4.5%",
-   "last_price": 242.71,
+   "last_price": 242.45,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -8151,7 +8190,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 995.76,
+   "last_price": 995.53,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -8165,7 +8204,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 532.06,
+   "last_price": 532.23,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -8179,7 +8218,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 178.38,
+   "last_price": 178.28,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -8193,7 +8232,7 @@
    "stop_loss": 64.0,
    "take_profit": 72.76,
    "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 67.86,
+   "last_price": 67.8,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   }
@@ -32027,22 +32066,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 81778,
+  "BTC": 82042,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 766.7,
+  "SPY": 766.48,
   "META": 721.07,
-  "AAPL": 343.0,
+  "AAPL": 342.94,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
   "GOOGL": 344.18,
   "QQQ": 717.463,
-  "XLV": 175.72,
-  "MSFT": 533.48,
+  "XLV": 175.65,
+  "MSFT": 533.52,
   "PLTR": 188.823,
-  "V": 402.99,
-  "BRK-B": 532.06,
+  "V": 402.92,
+  "BRK-B": 532.23,
   "ETH": 2397.14,
   "SOL": 103.93,
   "AMD": 542.81,
@@ -32052,23 +32091,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 407.19,
-  "COST": 995.76,
-  "XOM": 178.38,
-  "CRM": 242.71,
-  "KO": 93.39,
+  "UNH": 406.88,
+  "COST": 995.53,
+  "XOM": 178.28,
+  "CRM": 242.45,
+  "KO": 93.42,
   "NFLX": 71.21499633789062,
   "WMT": 118.7,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1242.98,
+  "LLY": 1240.34,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 67.86,
+  "XLE": 67.8,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -32105,20 +32144,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-20 00:18 (Tbilisi)",
-  "total_value": 540.29,
+  "time": "2026-10-20 01:26 (Tbilisi)",
+  "total_value": 531.28,
   "deposits_usd": 500,
-  "vs_deposits_usd": 40.29,
-  "vs_deposits_pct": 8.06,
-  "btc_bench": 496.27,
-  "vs_btc_usd": 44.02,
+  "vs_deposits_usd": 31.28,
+  "vs_deposits_pct": 6.26,
+  "btc_bench": 497.87,
+  "vs_btc_usd": 33.41,
   "bets": {
-   "n": 147,
+   "n": 150,
    "wins": 61,
-   "losses": 86,
-   "open": 58,
-   "pl_usd": 43.76,
-   "roi_pct": 17.5
+   "losses": 89,
+   "open": 55,
+   "pl_usd": 34.74,
+   "roi_pct": 13.4
   },
   "by_sport": {
    "NHL": {
@@ -32143,11 +32182,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 69,
+    "n": 70,
     "wins": 28,
-    "losses": 41,
-    "pl_usd": 25.65,
-    "roi_pct": 27.4
+    "losses": 42,
+    "pl_usd": 24.4,
+    "roi_pct": 25.7
    },
    "NCAAF": {
     "n": 19,
@@ -32164,11 +32203,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 38,
+    "n": 40,
     "wins": 15,
-    "losses": 23,
-    "pl_usd": 17.63,
-    "roi_pct": 15.6
+    "losses": 25,
+    "pl_usd": 9.86,
+    "roi_pct": 8.2
    },
    "NFL": {
     "n": 7,
@@ -32180,28 +32219,28 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.54,
-   "unrealized_usd": -0.46,
+   "value_usd": 14.59,
+   "unrealized_usd": -0.41,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.65
+   "total_pl_usd": -2.6
   },
   "stocks": {
    "open_n": 15,
-   "value_usd": 116.32,
-   "unrealized_usd": 0.32,
+   "value_usd": 116.29,
+   "unrealized_usd": 0.29,
    "realized_usd": -1.16,
-   "total_pl_usd": -0.84
+   "total_pl_usd": -0.87
   },
   "cash_usd": 295.8029,
   "scanned": 58615,
-  "open_bets_usd": 113.62,
+  "open_bets_usd": 104.6,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 69,
+    "n": 70,
     "wins": 28,
-    "losses": 41,
-    "pl_usd": 25.65,
-    "roi_pct": 27.4
+    "losses": 42,
+    "pl_usd": 24.4,
+    "roi_pct": 25.7
    },
    "BASKETBALL": {
     "n": 1,
@@ -32239,11 +32278,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 38,
+    "n": 40,
     "wins": 15,
-    "losses": 23,
-    "pl_usd": 17.63,
-    "roi_pct": 15.6
+    "losses": 25,
+    "pl_usd": 9.86,
+    "roi_pct": 8.2
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -32268,7 +32307,7 @@
    }
   }
  },
- "last_refresh": "2026-10-20 00:18 (Tbilisi)",
+ "last_refresh": "2026-10-20 01:26 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -33521,7 +33560,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-20 00:18 (Tbilisi)",
+  "updated": "2026-10-20 01:26 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -33552,12 +33591,12 @@
     "lean": null
    },
    "Football": {
-    "n": 40,
-    "early_better": 18,
+    "n": 41,
+    "early_better": 19,
     "late_better": 17,
     "equal": 5,
     "avg_clv_pct": 1.85,
-    "no_close": 46,
+    "no_close": 45,
     "lean": "early"
    },
    "NCAAF": {
@@ -33579,12 +33618,12 @@
     "lean": null
    },
    "Polymarket": {
-    "n": 31,
+    "n": 33,
     "early_better": 19,
-    "late_better": 12,
+    "late_better": 14,
     "equal": 0,
-    "avg_clv_pct": 1.41,
-    "no_close": 33,
+    "avg_clv_pct": 1.16,
+    "no_close": 31,
     "lean": "early"
    },
    "NFL": {
@@ -35309,6 +35348,42 @@
     "better": "early"
    },
    {
+    "id": "B084",
+    "sport": "Football",
+    "event": "Rayo Vallecano @ Getafe",
+    "open": null,
+    "taken": 2.7,
+    "taken_time": "2026-10-15 09:16 (Tbilisi)",
+    "close": 2.65,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882842",
+    "clv_pct": 1.89,
+    "better": "early"
+   },
+   {
+    "id": "B092",
+    "sport": "Polymarket",
+    "event": "Torino @ Parma Calcio 1913",
+    "open": null,
+    "taken": 3.226,
+    "taken_time": null,
+    "close": 3.4,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874784",
+    "clv_pct": -5.12,
+    "better": "late"
+   },
+   {
+    "id": "B122",
+    "sport": "Polymarket",
+    "event": "Montpellier @ Rodez Aveyron",
+    "open": null,
+    "taken": 2.941,
+    "taken_time": "2026-10-16 00:07 (Tbilisi)",
+    "close": 2.95,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876719",
+    "clv_pct": -0.31,
+    "better": "late"
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -35375,45 +35450,12 @@
     "better": null
    },
    {
-    "id": "B084",
-    "sport": "Football",
-    "event": "Rayo Vallecano @ Getafe",
-    "open": null,
-    "taken": 2.7,
-    "taken_time": "2026-10-15 09:16 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B092",
-    "sport": "Polymarket",
-    "event": "Torino @ Parma Calcio 1913",
-    "open": null,
-    "taken": 3.226,
-    "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B117",
     "sport": "NBA",
     "event": "Oklahoma City Thunder @ San Antonio Spurs",
     "open": null,
     "taken": 2.15,
     "taken_time": null,
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B122",
-    "sport": "Polymarket",
-    "event": "Montpellier @ Rodez Aveyron",
-    "open": null,
-    "taken": 2.941,
-    "taken_time": "2026-10-16 00:07 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -35954,12 +35996,12 @@
  ],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 40,
-   "mean_clv_pct": -3.7
+   "n": 41,
+   "mean_clv_pct": -3.68
   },
   "Polymarket": {
-   "n": 31,
-   "mean_clv_pct": -4.13
+   "n": 33,
+   "mean_clv_pct": -4.42
   },
   "NCAAF": {
    "n": 14,
