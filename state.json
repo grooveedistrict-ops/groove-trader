@@ -35,43 +35,6 @@
    }
   },
   {
-   "id": "B073",
-   "sport": "NFL",
-   "league": "NFL Week 7",
-   "event": "Dallas Cowboys @ Green Bay Packers",
-   "kickoff": "2026-10-19 04:20",
-   "selection": "Dallas Cowboys (moneyline)",
-   "odds": 2.42,
-   "book": "Action Network best (+142)",
-   "p": 0.4655,
-   "implied_pct": 41.3,
-   "edge_pct": 12.7,
-   "stake": 2.5,
-   "reasoning": "ESPN 51.8% vs ბაზარი 41.3% @2.42. ნაზავი 46.55%, EV≈12.7%.",
-   "model_inputs": {
-    "market_novig": 0.413,
-    "ESPN predictor": 0.518,
-    "blend": "0.5×ბაზარი + 0.5×ESPN"
-   },
-   "odds_source_url": "AN nfl + ESPN summary 401873007",
-   "odds_time": "2026-10-15 00:06 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "odds_bet": 2.42,
-    "best_now": 2.02,
-    "fair_now": 2.088,
-    "clv_pct": 15.89
-   },
-   "odds_check": {
-    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
-    "book30": 2.42,
-    "real_books_max_now": 2.02,
-    "over_real_pct": 19.8,
-    "checked": "2026-10-15 09:16 (Tbilisi)",
-    "lesson": "L005"
-   }
-  },
-  {
    "id": "B076",
    "sport": "Polymarket",
    "league": "US Midterms 2026",
@@ -6552,6 +6515,50 @@
    "score": "Belgrano (Córdoba) 0, River Plate 3 (Full Time)",
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/summary?event=401841628",
    "settle_source": "ESPN arg.1 event 401841628 STATUS_FULL_TIME, River Plate winner"
+  },
+  {
+   "id": "B073",
+   "sport": "NFL",
+   "league": "NFL Week 7",
+   "event": "Dallas Cowboys @ Green Bay Packers",
+   "kickoff": "2026-10-19 04:20",
+   "selection": "Dallas Cowboys (moneyline)",
+   "odds": 2.42,
+   "book": "Action Network best (+142)",
+   "p": 0.4655,
+   "implied_pct": 41.3,
+   "edge_pct": 12.7,
+   "stake": 2.5,
+   "reasoning": "ESPN 51.8% vs ბაზარი 41.3% @2.42. ნაზავი 46.55%, EV≈12.7%.",
+   "model_inputs": {
+    "market_novig": 0.413,
+    "ESPN predictor": 0.518,
+    "blend": "0.5×ბაზარი + 0.5×ESPN"
+   },
+   "odds_source_url": "AN nfl + ESPN summary 401873007",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "odds_bet": 2.42,
+    "best_now": 2.02,
+    "fair_now": 2.088,
+    "clv_pct": 15.89
+   },
+   "odds_check": {
+    "flag": "recorded odds equal Action Network book 30 (Open line), not a live book",
+    "book30": 2.42,
+    "real_books_max_now": 2.02,
+    "over_real_pct": 19.8,
+    "checked": "2026-10-15 09:16 (Tbilisi)",
+    "lesson": "L005"
+   },
+   "result": "lost",
+   "pl_usd": -2.5,
+   "settled_at": "2026-10-19 08:21 (Tbilisi)",
+   "final_score": "Green Bay Packers 23, Dallas Cowboys 13 (Final)",
+   "score": "Green Bay Packers 23, Dallas Cowboys 13 (Final)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+   "settle_source": "ESPN nfl event 401873007 STATUS_FINAL, Green Bay Packers winner"
   }
  ],
  "positions": [
@@ -6566,7 +6573,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 82519
+   "last_price": 82412
   },
   {
    "symbol": "SPY",
@@ -26478,7 +26485,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 82519,
+  "BTC": 82412,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 763.25,
@@ -26556,20 +26563,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-19 07:20 (Tbilisi)",
-  "total_value": 550.84,
+  "time": "2026-10-19 08:21 (Tbilisi)",
+  "total_value": 548.32,
   "deposits_usd": 500,
-  "vs_deposits_usd": 50.84,
-  "vs_deposits_pct": 10.17,
-  "btc_bench": 500.76,
-  "vs_btc_usd": 50.07,
+  "vs_deposits_usd": 48.32,
+  "vs_deposits_pct": 9.66,
+  "btc_bench": 500.11,
+  "vs_btc_usd": 48.2,
   "bets": {
-   "n": 144,
+   "n": 145,
    "wins": 61,
-   "losses": 83,
-   "open": 28,
-   "pl_usd": 54.37,
-   "roi_pct": 22.6
+   "losses": 84,
+   "open": 27,
+   "pl_usd": 51.87,
+   "roi_pct": 21.4
   },
   "by_sport": {
    "NHL": {
@@ -26622,19 +26629,19 @@
     "roi_pct": 24.5
    },
    "NFL": {
-    "n": 6,
+    "n": 7,
     "wins": 4,
-    "losses": 2,
-    "pl_usd": 5.13,
-    "roi_pct": 46.3
+    "losses": 3,
+    "pl_usd": 2.63,
+    "roi_pct": 19.4
    }
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.67,
-   "unrealized_usd": -0.33,
+   "value_usd": 14.65,
+   "unrealized_usd": -0.35,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.52
+   "total_pl_usd": -2.54
   },
   "stocks": {
    "open_n": 15,
@@ -26645,7 +26652,7 @@
   },
   "cash_usd": 371.59294,
   "scanned": 55300,
-  "open_bets_usd": 48.44,
+  "open_bets_usd": 45.94,
   "desk_stats": {
    "FOOTBALL": {
     "n": 69,
@@ -26662,11 +26669,11 @@
     "roi_pct": 136.0
    },
    "US SPORTS": {
-    "n": 37,
+    "n": 38,
     "wins": 17,
-    "losses": 20,
-    "pl_usd": 3.3,
-    "roi_pct": 8.3
+    "losses": 21,
+    "pl_usd": 0.8,
+    "roi_pct": 1.9
    },
    "TENNIS": {
     "n": 1,
@@ -26719,7 +26726,7 @@
    }
   }
  },
- "last_refresh": "2026-10-19 07:20 (Tbilisi)",
+ "last_refresh": "2026-10-19 08:21 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -27972,7 +27979,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-19 07:20 (Tbilisi)",
+  "updated": "2026-10-19 08:21 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -29701,23 +29708,23 @@
     "better": null
    },
    {
-    "id": "B066",
-    "sport": "Polymarket",
-    "event": "Fed Oct 2026: no change in interest rates",
-    "open": null,
-    "taken": 1.626,
-    "taken_time": "2026-10-14 19:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B073",
     "sport": "NFL",
     "event": "Dallas Cowboys @ Green Bay Packers",
     "open": null,
     "taken": 2.42,
     "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B066",
+    "sport": "Polymarket",
+    "event": "Fed Oct 2026: no change in interest rates",
+    "open": null,
+    "taken": 1.626,
+    "taken_time": "2026-10-14 19:01 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
