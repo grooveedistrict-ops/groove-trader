@@ -1360,48 +1360,6 @@
    "scan_id": "295292"
   },
   {
-   "id": "B192",
-   "sport": "Polymarket",
-   "league": "soc_arg.1",
-   "event": "Barracas Central @ Sarmiento (Junín)",
-   "kickoff": "2026-10-20 02:00",
-   "selection": "Barracas Central",
-   "odds": 3.846,
-   "book": "Polymarket ask",
-   "p": 0.2892,
-   "implied_pct": 26.0,
-   "edge_pct": 11.23,
-   "stake": 2.7,
-   "status": "open",
-   "opened_at": "2026-10-19 19:10 (Tbilisi)",
-   "odds_time": "2026-10-19 19:10 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.29,
-     "EloFD": 0.3168
-    },
-    "mkt": 0.2749,
-    "nbooks": 1,
-    "blend_p": 0.2892,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=arg-cas-bar-2026-10-19-bar",
-   "reasoning": "scan PASS EV=11.23% models=['FTS', 'EloFD']; scan stake $2.7 (raw 2.7; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.7",
-   "scan_id": "pm:arg-cas-bar-2026-10-19-bar",
-   "polymarket_slug": "arg-cas-bar-2026-10-19-bar",
-   "outcome_price": 0.26,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "CA Sarmiento vs. CA Barracas Central",
-    "pm_league": "ARG1",
-    "pm_kickoff_utc": "2026-10-19T22:00Z",
-    "checked": "2026-10-19 19:10 (Tbilisi)",
-    "rule": "L007"
-   },
-   "tb1_dog_25_40": true
-  },
-  {
    "id": "B193",
    "sport": "NCAAF",
    "league": "ncaaf",
@@ -8001,6 +7959,61 @@
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '+195', 'away': '+130', 'draw': '+250'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876719",
    "closing_note": "DraftKings close via ESPN pickcenter {'home': '+195', 'away': '+130', 'draw': '+250'}; no-vig fair 3.1255; recorded HOURLY 2026-10-20 01:25 (Tbilisi)"
+  },
+  {
+   "id": "B192",
+   "sport": "Polymarket",
+   "league": "soc_arg.1",
+   "event": "Barracas Central @ Sarmiento (Junín)",
+   "kickoff": "2026-10-20 02:00",
+   "selection": "Barracas Central",
+   "odds": 3.846,
+   "book": "Polymarket ask",
+   "p": 0.2892,
+   "implied_pct": 26.0,
+   "edge_pct": 11.23,
+   "stake": 2.7,
+   "status": "settled",
+   "opened_at": "2026-10-19 19:10 (Tbilisi)",
+   "odds_time": "2026-10-19 19:10 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.29,
+     "EloFD": 0.3168
+    },
+    "mkt": 0.2749,
+    "nbooks": 1,
+    "blend_p": 0.2892,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=arg-cas-bar-2026-10-19-bar",
+   "reasoning": "scan PASS EV=11.23% models=['FTS', 'EloFD']; scan stake $2.7 (raw 2.7; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.7",
+   "scan_id": "pm:arg-cas-bar-2026-10-19-bar",
+   "polymarket_slug": "arg-cas-bar-2026-10-19-bar",
+   "outcome_price": 0.26,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "CA Sarmiento vs. CA Barracas Central",
+    "pm_league": "ARG1",
+    "pm_kickoff_utc": "2026-10-19T22:00Z",
+    "checked": "2026-10-19 19:10 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -2.7,
+   "settled_at": "2026-10-20 04:18 (Tbilisi)",
+   "final_score": "Sarmiento (Junín) 1, Barracas Central 1 (FT)",
+   "score": "Sarmiento (Junín) 1, Barracas Central 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/summary?event=401841617",
+   "settle_source": "ESPN arg.1 event 401841617 STATUS_FULL_TIME, 1-1 draw (no winner); Polymarket Barracas Central Yes 0.0005 (UMA proposed)",
+   "closing_odds": 3.3,
+   "closing_fair_odds": 3.475,
+   "clv_pct": 10.68,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+140', 'away': '+230', 'draw': '+200'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/summary?event=401841617",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+140', 'away': '+230', 'draw': '+200'}; no-vig fair 3.475; recorded HOURLY 2026-10-20 04:18 (Tbilisi)"
   }
  ],
  "positions": [
@@ -8015,7 +8028,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 81963
+   "last_price": 81709
   },
   {
    "symbol": "SPY",
@@ -32066,7 +32079,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 81963,
+  "BTC": 81709,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 766.48,
@@ -32144,20 +32157,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-20 03:27 (Tbilisi)",
-  "total_value": 531.26,
+  "time": "2026-10-20 04:19 (Tbilisi)",
+  "total_value": 528.52,
   "deposits_usd": 500,
-  "vs_deposits_usd": 31.26,
-  "vs_deposits_pct": 6.25,
-  "btc_bench": 497.39,
-  "vs_btc_usd": 33.87,
+  "vs_deposits_usd": 28.52,
+  "vs_deposits_pct": 5.7,
+  "btc_bench": 495.85,
+  "vs_btc_usd": 32.67,
   "bets": {
-   "n": 150,
+   "n": 151,
    "wins": 61,
-   "losses": 89,
-   "open": 55,
-   "pl_usd": 34.74,
-   "roi_pct": 13.4
+   "losses": 90,
+   "open": 54,
+   "pl_usd": 32.04,
+   "roi_pct": 12.2
   },
   "by_sport": {
    "NHL": {
@@ -32203,11 +32216,11 @@
     "roi_pct": 136.0
    },
    "Polymarket": {
-    "n": 40,
+    "n": 41,
     "wins": 15,
-    "losses": 25,
-    "pl_usd": 9.86,
-    "roi_pct": 8.2
+    "losses": 26,
+    "pl_usd": 7.16,
+    "roi_pct": 5.8
    },
    "NFL": {
     "n": 7,
@@ -32219,10 +32232,10 @@
   },
   "crypto": {
    "open_n": 1,
-   "value_usd": 14.57,
-   "unrealized_usd": -0.43,
+   "value_usd": 14.53,
+   "unrealized_usd": -0.47,
    "realized_usd": -2.19,
-   "total_pl_usd": -2.62
+   "total_pl_usd": -2.66
   },
   "stocks": {
    "open_n": 15,
@@ -32233,7 +32246,7 @@
   },
   "cash_usd": 295.8029,
   "scanned": 58615,
-  "open_bets_usd": 104.6,
+  "open_bets_usd": 101.9,
   "desk_stats": {
    "FOOTBALL": {
     "n": 70,
@@ -32278,11 +32291,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 40,
+    "n": 41,
     "wins": 15,
-    "losses": 25,
-    "pl_usd": 9.86,
-    "roi_pct": 8.2
+    "losses": 26,
+    "pl_usd": 7.16,
+    "roi_pct": 5.8
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -32307,7 +32320,7 @@
    }
   }
  },
- "last_refresh": "2026-10-20 03:27 (Tbilisi)",
+ "last_refresh": "2026-10-20 04:19 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -33560,7 +33573,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-20 03:27 (Tbilisi)",
+  "updated": "2026-10-20 04:19 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -33618,12 +33631,12 @@
     "lean": null
    },
    "Polymarket": {
-    "n": 33,
-    "early_better": 19,
+    "n": 34,
+    "early_better": 20,
     "late_better": 14,
     "equal": 0,
-    "avg_clv_pct": 1.16,
-    "no_close": 31,
+    "avg_clv_pct": 1.61,
+    "no_close": 30,
     "lean": "early"
    },
    "NFL": {
@@ -35384,6 +35397,18 @@
     "better": "late"
    },
    {
+    "id": "B192",
+    "sport": "Polymarket",
+    "event": "Barracas Central @ Sarmiento (Junín)",
+    "open": null,
+    "taken": 3.846,
+    "taken_time": "2026-10-19 19:10 (Tbilisi)",
+    "close": 3.3,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/summary?event=401841617",
+    "clv_pct": 16.55,
+    "better": "early"
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -35835,17 +35860,6 @@
     "better": null
    },
    {
-    "id": "B192",
-    "sport": "Polymarket",
-    "event": "Barracas Central @ Sarmiento (Junín)",
-    "open": null,
-    "taken": 3.846,
-    "taken_time": "2026-10-19 19:10 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B193",
     "sport": "NCAAF",
     "event": "Oklahoma Sooners @ Mississippi State Bulldogs",
@@ -36000,8 +36014,8 @@
    "mean_clv_pct": -3.68
   },
   "Polymarket": {
-   "n": 33,
-   "mean_clv_pct": -4.42
+   "n": 34,
+   "mean_clv_pct": -3.97
   },
   "NCAAF": {
    "n": 14,
