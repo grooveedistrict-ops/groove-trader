@@ -39539,7 +39539,7 @@
     "titan_blocked": 0,
     "titan_shrunk": 2,
     "nova_approved": 7,
-    "x_calls": 7,
+    "x_calls": 8,
     "stops_hit": [],
     "tp_hit": [],
     "pm_mismatch": [],
@@ -40144,7 +40144,7 @@
       "proposals": 7,
       "approved": 7,
       "blocked": 0,
-      "note": "7 x-calls for 7 candidates (batched, ≤2/cand); 5 clear, 2 shrink, 0 block"
+      "note": "8 x-calls for 7 candidates (batched, ≤2/cand); 5 clear, 2 shrink, 0 block"
      },
      {
       "id": "POSTMORTEM",
@@ -40378,7 +40378,7 @@
       "(\"Vissel Kobe\" OR \"Machida Zelvia\" OR \"Qingdao West Coast\" OR \"Yunnan Yukun\") (injury OR injured OR \"ruled out\" OR suspended OR sacked OR coach) -is:retweet start_time:2026-10-19T00:00:00Z",
       "search_news \"Vissel Kobe\" (96h)"
      ],
-     "tool_calls": 1,
+     "tool_calls": 2,
      "findings": [],
      "verdict": "clear",
      "titan": "APPROVED",
@@ -40806,7 +40806,7 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-22 00:06 (Tbilisi)",
+  "time": "2026-10-22 00:09 (Tbilisi)",
   "total_value": 524.89,
   "deposits_usd": 500,
   "vs_deposits_usd": 24.89,
@@ -40969,7 +40969,7 @@
    }
   }
  },
- "last_refresh": "2026-10-22 00:06 (Tbilisi)",
+ "last_refresh": "2026-10-22 00:09 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -42222,7 +42222,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-22 00:06 (Tbilisi)",
+  "updated": "2026-10-22 00:09 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
