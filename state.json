@@ -42401,7 +42401,7 @@
    "slot": "MID",
    "time": "2026-10-22 18:52 (Tbilisi)",
    "status": "complete",
-   "note": "MID: 12 new bets (B254, B255, B256, B257, B258, B259, B260, B261, B262, B263, B264, B265), TITAN blocked 2, shrunk 4, settled 0, ledger 0, post-mortems 0, Football+Polymarket halved, BTC no buy (<MA20), stocks 0, tokens 0 (gate closed)",
+   "note": "MID: 12 new bets (B254, B255, B256, B257, B258, B259, B260, B261, B262, B263, B264, B265), TITAN blocked 2, shrunk 4, settled 0, ledger 0, post-mortems 0, Football+Polymarket halved, BTC no buy (<MA20), stocks 0, tokens 0 (gate closed); x-calls 14",
    "funnel": {
     "stamp": "2026-10-22_1853",
     "time": "2026-10-22 18:53 (Tbilisi)",
@@ -43507,7 +43507,7 @@
       "(Hornets OR Hawks OR Pistons OR Heat OR Timberwolves OR Magic) (\"injury report\" OR \"ruled out\" OR questionable OR doubtful OR \"will not play\") -is:retweet lang:en start_time:2026-10-22",
       "search_news \"NBA injury report Hornets Hawks Pistons Heat Timberwolves Magic\" (36h)"
      ],
-     "tool_calls": 0,
+     "tool_calls": 1,
      "findings": [
       {
        "type": "lineup",
@@ -43778,7 +43778,7 @@
      "queries": [
       "(Blackpool OR \"Mansfield Town\" OR #BFC OR #Stags) (injury OR injured OR suspended OR \"ruled out\" OR sacked OR \"team news\") -is:retweet lang:en start_time:2026-10-20"
      ],
-     "tool_calls": 0,
+     "tool_calls": 1,
      "findings": [],
      "verdict": "clear",
      "titan": "APPROVED",
@@ -43840,7 +43840,7 @@
     "titan_blocked": 2,
     "titan_shrunk": 4,
     "nova_approved": 12,
-    "x_calls": 12,
+    "x_calls": 14,
     "stops_hit": [],
     "tp_hit": [],
     "pm_mismatch": [],
@@ -44163,7 +44163,7 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-22 19:02 (Tbilisi)",
+  "time": "2026-10-22 19:05 (Tbilisi)",
   "total_value": 510.55,
   "deposits_usd": 500,
   "vs_deposits_usd": 10.55,
@@ -44333,7 +44333,7 @@
    }
   }
  },
- "last_refresh": "2026-10-22 19:02 (Tbilisi)",
+ "last_refresh": "2026-10-22 19:05 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -45586,7 +45586,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-22 19:02 (Tbilisi)",
+  "updated": "2026-10-22 19:05 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
