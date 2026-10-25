@@ -343,89 +343,6 @@
    "scan_id": "290935"
   },
   {
-   "id": "B219",
-   "sport": "Polymarket",
-   "league": "ligue1",
-   "event": "Lille @ Monaco",
-   "kickoff": "2026-10-25 18:00",
-   "selection": "Lille",
-   "odds": 3.846,
-   "book": "Polymarket ask",
-   "p": 0.2836,
-   "implied_pct": 26.0,
-   "edge_pct": 9.08,
-   "stake": 2.11,
-   "status": "open",
-   "opened_at": "2026-10-20 19:02 (Tbilisi)",
-   "odds_time": "2026-10-20 19:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2893,
-     "DRatings": 0.276
-    },
-    "mkt": 0.2846,
-    "nbooks": 5,
-    "blend_p": 0.2836,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-asm-lil-2026-10-25-lil",
-   "reasoning": "scan PASS EV=9.08% models=['EloFD', 'DRatings']; scan stake $2.11 (raw 2.11; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.11",
-   "scan_id": "pm:fl1-asm-lil-2026-10-25-lil",
-   "polymarket_slug": "fl1-asm-lil-2026-10-25-lil",
-   "outcome_price": 0.26,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "AS Monaco FC vs. Lille OSC",
-    "pm_league": "FRA1",
-    "pm_kickoff_utc": "2026-10-25T14:00:00.000Z",
-    "checked": "2026-10-20 19:02 (Tbilisi)",
-    "rule": "L007"
-   },
-   "tb1_dog_25_40": true
-  },
-  {
-   "id": "B229",
-   "sport": "Polymarket",
-   "league": "seriea",
-   "event": "Frosinone Calcio @ Atalanta",
-   "kickoff": "2026-10-25 18:00",
-   "selection": "Atalanta",
-   "odds": 1.887,
-   "book": "Polymarket ask",
-   "p": 0.5572,
-   "implied_pct": 53.0,
-   "edge_pct": 5.13,
-   "stake": 2.5,
-   "status": "open",
-   "opened_at": "2026-10-21 13:30 (Tbilisi)",
-   "odds_time": "2026-10-21 13:30 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5443,
-     "DRatings": 0.618
-    },
-    "mkt": 0.5334,
-    "nbooks": 5,
-    "blend_p": 0.5572,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-ata-fro-2026-10-25-ata",
-   "reasoning": "scan PASS EV=5.13% models=['EloFD', 'DRatings']; scan stake $2.5 (raw 3.84; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.5",
-   "scan_id": "pm:sea-ata-fro-2026-10-25-ata",
-   "polymarket_slug": "sea-ata-fro-2026-10-25-ata",
-   "outcome_price": 0.5299,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Atalanta BC vs. Frosinone Calcio",
-    "pm_league": "ITA1",
-    "pm_kickoff_utc": "2026-10-25T14:00:00.000Z",
-    "checked": "2026-10-21 13:30 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B230",
    "sport": "Polymarket",
    "league": "ligue1",
@@ -622,47 +539,6 @@
    }
   },
   {
-   "id": "B257",
-   "sport": "Polymarket",
-   "league": "epl",
-   "event": "Brentford @ Hull City",
-   "kickoff": "2026-10-25 18:00",
-   "selection": "Hull City",
-   "odds": 5.0,
-   "book": "Polymarket ask",
-   "p": 0.2279,
-   "implied_pct": 20.0,
-   "edge_pct": 13.95,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-22 19:02 (Tbilisi)",
-   "odds_time": "2026-10-22 19:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2907,
-     "DRatings": 0.209
-    },
-    "mkt": 0.206,
-    "nbooks": 5,
-    "blend_p": 0.2279,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=epl-hul-bre-2026-10-25-hul",
-   "reasoning": "scan PASS EV=13.95% models=['EloFD', 'DRatings']; scan stake $2.22 (raw 2.22; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "pm:epl-hul-bre-2026-10-25-hul",
-   "polymarket_slug": "epl-hul-bre-2026-10-25-hul",
-   "outcome_price": 0.2,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Hull City AFC vs. Brentford FC",
-    "pm_league": "ENG1",
-    "pm_kickoff_utc": "2026-10-25T14:00:00.000Z",
-    "checked": "2026-10-22 19:02 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B259",
    "sport": "Polymarket",
    "league": "soc_mex.1",
@@ -702,47 +578,6 @@
     "rule": "L007"
    },
    "elo_only": true
-  },
-  {
-   "id": "B261",
-   "sport": "Polymarket",
-   "league": "soc_ned.1",
-   "event": "Feyenoord Rotterdam @ PSV Eindhoven",
-   "kickoff": "2026-10-25 17:30",
-   "selection": "PSV Eindhoven",
-   "odds": 2.128,
-   "book": "Polymarket ask",
-   "p": 0.4867,
-   "implied_pct": 47.0,
-   "edge_pct": 3.55,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-22 19:02 (Tbilisi)",
-   "odds_time": "2026-10-22 19:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5366,
-     "DRatings": 0.472
-    },
-    "mkt": 0.4691,
-    "nbooks": 1,
-    "blend_p": 0.4867,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=ere-psv-fey-2026-10-25-psv",
-   "reasoning": "scan PASS EV=3.55% models=['EloFD', 'DRatings']; scan stake $1.01 (raw 1.01; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "pm:ere-psv-fey-2026-10-25-psv",
-   "polymarket_slug": "ere-psv-fey-2026-10-25-psv",
-   "outcome_price": 0.4699,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "PSV vs. Feyenoord Rotterdam",
-    "pm_league": "NED1",
-    "pm_kickoff_utc": "2026-10-25T13:30Z",
-    "checked": "2026-10-22 19:02 (Tbilisi)",
-    "rule": "L007"
-   }
   },
   {
    "id": "B269",
@@ -941,88 +776,6 @@
    "tb1_dog_25_40": true
   },
   {
-   "id": "B284",
-   "sport": "Polymarket",
-   "league": "soc_swe.1",
-   "event": "IFK Göteborg @ GAIS",
-   "kickoff": "2026-10-25 17:00",
-   "selection": "GAIS",
-   "odds": 2.5,
-   "book": "Polymarket ask",
-   "p": 0.4234,
-   "implied_pct": 40.0,
-   "edge_pct": 5.85,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-24 00:02 (Tbilisi)",
-   "odds_time": "2026-10-24 00:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "DRatings": 0.447
-    },
-    "mkt": 0.3998,
-    "nbooks": 1,
-    "blend_p": 0.4234,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=swe-gais-ifk-2026-10-25-gais",
-   "reasoning": "scan PASS EV=5.85% models=['DRatings']; scan stake $1.0 (raw 2.49; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "pm:swe-gais-ifk-2026-10-25-gais",
-   "polymarket_slug": "swe-gais-ifk-2026-10-25-gais",
-   "outcome_price": 0.4,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "GAIS vs. IFK Goteborg",
-    "pm_league": "SWE1",
-    "pm_kickoff_utc": "2026-10-25T13:00Z",
-    "checked": "2026-10-24 00:02 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
-   "id": "B285",
-   "sport": "Polymarket",
-   "league": "laliga",
-   "event": "Real Betis @ Celta Vigo",
-   "kickoff": "2026-10-25 19:15",
-   "selection": "Celta Vigo",
-   "odds": 3.226,
-   "book": "Polymarket ask",
-   "p": 0.3264,
-   "implied_pct": 31.0,
-   "edge_pct": 5.29,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-24 00:02 (Tbilisi)",
-   "odds_time": "2026-10-24 00:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.3385,
-     "DRatings": 0.344
-    },
-    "mkt": 0.3115,
-    "nbooks": 5,
-    "blend_p": 0.3264,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=lal-cel-bet-2026-10-25-cel",
-   "reasoning": "scan PASS EV=5.29% models=['EloFD', 'DRatings']; scan stake $1.0 (raw 1.52; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "pm:lal-cel-bet-2026-10-25-cel",
-   "polymarket_slug": "lal-cel-bet-2026-10-25-cel",
-   "outcome_price": 0.31,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "RC Celta de Vigo vs. Real Betis Balompié",
-    "pm_league": "ESP1",
-    "pm_kickoff_utc": "2026-10-25T15:15:00.000Z",
-    "checked": "2026-10-24 00:02 (Tbilisi)",
-    "rule": "L007"
-   },
-   "tb1_dog_25_40": true
-  },
-  {
    "id": "B294",
    "sport": "Football",
    "league": "soc_sco.2",
@@ -1051,36 +804,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/summary?event=401878541",
    "reasoning": "scan PASS EV=8.44% models=['FTS', 'EloFD']; scan stake $1.75 (raw 2.33; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.75",
    "scan_id": "espn401878541"
-  },
-  {
-   "id": "B301",
-   "sport": "Football",
-   "league": "soc_ned.1",
-   "event": "Ajax Amsterdam @ Sparta Rotterdam",
-   "kickoff": "2026-10-25 19:45",
-   "selection": "Draw (Ajax Amsterdam @ Sparta Rotterdam)",
-   "odds": 5.0,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.2143,
-   "implied_pct": 20.0,
-   "edge_pct": 7.17,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-24 09:00 (Tbilisi)",
-   "odds_time": "2026-10-24 09:00 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2549,
-     "DRatings": 0.229
-    },
-    "mkt": 0.1868,
-    "nbooks": 1,
-    "blend_p": 0.2143,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875567",
-   "reasoning": "scan PASS EV=7.17% models=['EloFD', 'DRatings']; scan stake $1.0 (raw 1.14; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "espn401875567"
   },
   {
    "id": "B307",
@@ -1380,36 +1103,6 @@
    "elo_only": true
   },
   {
-   "id": "B318",
-   "sport": "Football",
-   "league": "soc_esp.2",
-   "event": "Ceuta @ Cádiz",
-   "kickoff": "2026-10-25 19:15",
-   "selection": "Ceuta",
-   "odds": 4.0,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.2656,
-   "implied_pct": 25.0,
-   "edge_pct": 6.26,
-   "stake": 1.3,
-   "status": "open",
-   "opened_at": "2026-10-25 09:01 (Tbilisi)",
-   "odds_time": "2026-10-25 09:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.27,
-     "EloFD": 0.3207
-    },
-    "mkt": 0.236,
-    "nbooks": 1,
-    "blend_p": 0.2656,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883130",
-   "reasoning": "scan PASS EV=6.26% models=['FTS', 'EloFD']; scan stake $1.3 (raw 1.3; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.3",
-   "scan_id": "espn401883130"
-  },
-  {
    "id": "B319",
    "sport": "NBA",
    "league": "nba",
@@ -1498,36 +1191,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-10-25_1854 id=294665)",
    "reasoning": "scan PASS EV=8.13% models=['EloFD', 'DRatings']; scan stake $1.34 (raw 1.34; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.34",
    "scan_id": "294665"
-  },
-  {
-   "id": "B322",
-   "sport": "Football",
-   "league": "soc_swe.1",
-   "event": "Hammarby IF @ Mjällby AIF",
-   "kickoff": "2026-10-25 19:30",
-   "selection": "Draw (Hammarby IF @ Mjällby AIF)",
-   "odds": 5.0,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.2148,
-   "implied_pct": 20.0,
-   "edge_pct": 7.42,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-25 19:00 (Tbilisi)",
-   "odds_time": "2026-10-25 19:00 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.25,
-     "DRatings": 0.231
-    },
-    "mkt": 0.1892,
-    "nbooks": 1,
-    "blend_p": 0.2148,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842854",
-   "reasoning": "scan PASS EV=7.42% models=['FTS', 'DRatings']; scan stake $1.1 (raw 1.1; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "espn401842854"
   },
   {
    "id": "B323",
@@ -14361,6 +14024,523 @@
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '-115', 'away': '+280', 'draw': '+290'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/summary?event=401877569",
    "closing_note": "DraftKings close via ESPN pickcenter {'home': '-115', 'away': '+280', 'draw': '+290'}; no-vig fair 1.9714; recorded AM 2026-10-25 18:55 (Tbilisi)"
+  },
+  {
+   "id": "B219",
+   "sport": "Polymarket",
+   "league": "ligue1",
+   "event": "Lille @ Monaco",
+   "kickoff": "2026-10-25 18:00",
+   "selection": "Lille",
+   "odds": 3.846,
+   "book": "Polymarket ask",
+   "p": 0.2836,
+   "implied_pct": 26.0,
+   "edge_pct": 9.08,
+   "stake": 2.11,
+   "status": "settled",
+   "opened_at": "2026-10-20 19:02 (Tbilisi)",
+   "odds_time": "2026-10-20 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2893,
+     "DRatings": 0.276
+    },
+    "mkt": 0.2846,
+    "nbooks": 5,
+    "blend_p": 0.2836,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-asm-lil-2026-10-25-lil",
+   "reasoning": "scan PASS EV=9.08% models=['EloFD', 'DRatings']; scan stake $2.11 (raw 2.11; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.11",
+   "scan_id": "pm:fl1-asm-lil-2026-10-25-lil",
+   "polymarket_slug": "fl1-asm-lil-2026-10-25-lil",
+   "outcome_price": 0.26,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "AS Monaco FC vs. Lille OSC",
+    "pm_league": "FRA1",
+    "pm_kickoff_utc": "2026-10-25T14:00:00.000Z",
+    "checked": "2026-10-20 19:02 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -2.11,
+   "settled_at": "2026-10-25 21:52 (Tbilisi)",
+   "final_score": "AS Monaco 1, Lille 1 (FT)",
+   "score": "AS Monaco 1, Lille 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876425",
+   "settle_source": "ESPN fra.1 event 401876425 STATUS_FULL_TIME, draw; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 4.1,
+   "closing_fair_odds": 4.2865,
+   "clv_pct": -10.28,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-110', 'away': '+310', 'draw': '+260'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876425",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-110', 'away': '+310', 'draw': '+260'}; no-vig fair 4.2865; recorded HOURLY 2026-10-25 21:52 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-10-25 21:52 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -10.28% (3.846 vs DraftKings no-vig close 4.2865); final AS Monaco 1, Lille 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B229",
+   "sport": "Polymarket",
+   "league": "seriea",
+   "event": "Frosinone Calcio @ Atalanta",
+   "kickoff": "2026-10-25 18:00",
+   "selection": "Atalanta",
+   "odds": 1.887,
+   "book": "Polymarket ask",
+   "p": 0.5572,
+   "implied_pct": 53.0,
+   "edge_pct": 5.13,
+   "stake": 2.5,
+   "status": "settled",
+   "opened_at": "2026-10-21 13:30 (Tbilisi)",
+   "odds_time": "2026-10-21 13:30 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5443,
+     "DRatings": 0.618
+    },
+    "mkt": 0.5334,
+    "nbooks": 5,
+    "blend_p": 0.5572,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-ata-fro-2026-10-25-ata",
+   "reasoning": "scan PASS EV=5.13% models=['EloFD', 'DRatings']; scan stake $2.5 (raw 3.84; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "pm:sea-ata-fro-2026-10-25-ata",
+   "polymarket_slug": "sea-ata-fro-2026-10-25-ata",
+   "outcome_price": 0.5299,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Atalanta BC vs. Frosinone Calcio",
+    "pm_league": "ITA1",
+    "pm_kickoff_utc": "2026-10-25T14:00:00.000Z",
+    "checked": "2026-10-21 13:30 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -2.5,
+   "settled_at": "2026-10-25 21:52 (Tbilisi)",
+   "final_score": "Atalanta 4, Frosinone 4 (FT)",
+   "score": "Atalanta 4, Frosinone 4 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874972",
+   "settle_source": "ESPN ita.1 event 401874972 STATUS_FULL_TIME, draw; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 1.9091,
+   "closing_fair_odds": 2.0532,
+   "clv_pct": -8.09,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-110', 'away': '+235', 'draw': '+295'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874972",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-110', 'away': '+235', 'draw': '+295'}; no-vig fair 2.0532; recorded HOURLY 2026-10-25 21:52 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-10-25 21:52 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -8.09% (1.887 vs DraftKings no-vig close 2.0532); final Atalanta 4, Frosinone 4 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B257",
+   "sport": "Polymarket",
+   "league": "epl",
+   "event": "Brentford @ Hull City",
+   "kickoff": "2026-10-25 18:00",
+   "selection": "Hull City",
+   "odds": 5.0,
+   "book": "Polymarket ask",
+   "p": 0.2279,
+   "implied_pct": 20.0,
+   "edge_pct": 13.95,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-22 19:02 (Tbilisi)",
+   "odds_time": "2026-10-22 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2907,
+     "DRatings": 0.209
+    },
+    "mkt": 0.206,
+    "nbooks": 5,
+    "blend_p": 0.2279,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=epl-hul-bre-2026-10-25-hul",
+   "reasoning": "scan PASS EV=13.95% models=['EloFD', 'DRatings']; scan stake $2.22 (raw 2.22; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "pm:epl-hul-bre-2026-10-25-hul",
+   "polymarket_slug": "epl-hul-bre-2026-10-25-hul",
+   "outcome_price": 0.2,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Hull City AFC vs. Brentford FC",
+    "pm_league": "ENG1",
+    "pm_kickoff_utc": "2026-10-25T14:00:00.000Z",
+    "checked": "2026-10-22 19:02 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-25 21:52 (Tbilisi)",
+   "final_score": "Hull City 1, Brentford 1 (FT)",
+   "score": "Hull City 1, Brentford 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878766",
+   "settle_source": "ESPN eng.1 event 401878766 STATUS_FULL_TIME, draw; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 5.0,
+   "closing_fair_odds": 5.2195,
+   "clv_pct": -4.21,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+400', 'away': '-150', 'draw': '+310'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878766",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+400', 'away': '-150', 'draw': '+310'}; no-vig fair 5.2195; recorded HOURLY 2026-10-25 21:52 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-10-25 21:52 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -4.21% (5.0 vs DraftKings no-vig close 5.2195); final Hull City 1, Brentford 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B261",
+   "sport": "Polymarket",
+   "league": "soc_ned.1",
+   "event": "Feyenoord Rotterdam @ PSV Eindhoven",
+   "kickoff": "2026-10-25 17:30",
+   "selection": "PSV Eindhoven",
+   "odds": 2.128,
+   "book": "Polymarket ask",
+   "p": 0.4867,
+   "implied_pct": 47.0,
+   "edge_pct": 3.55,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-22 19:02 (Tbilisi)",
+   "odds_time": "2026-10-22 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5366,
+     "DRatings": 0.472
+    },
+    "mkt": 0.4691,
+    "nbooks": 1,
+    "blend_p": 0.4867,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=ere-psv-fey-2026-10-25-psv",
+   "reasoning": "scan PASS EV=3.55% models=['EloFD', 'DRatings']; scan stake $1.01 (raw 1.01; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "pm:ere-psv-fey-2026-10-25-psv",
+   "polymarket_slug": "ere-psv-fey-2026-10-25-psv",
+   "outcome_price": 0.4699,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "PSV vs. Feyenoord Rotterdam",
+    "pm_league": "NED1",
+    "pm_kickoff_utc": "2026-10-25T13:30Z",
+    "checked": "2026-10-22 19:02 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-25 21:52 (Tbilisi)",
+   "final_score": "PSV Eindhoven 1, Feyenoord Rotterdam 1 (FT)",
+   "score": "PSV Eindhoven 1, Feyenoord Rotterdam 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875568",
+   "settle_source": "ESPN ned.1 event 401875568 STATUS_FULL_TIME, draw; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 2.05,
+   "closing_fair_odds": 2.1721,
+   "clv_pct": -2.03,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+105', 'away': '+205', 'draw': '+310'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875568",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+105', 'away': '+205', 'draw': '+310'}; no-vig fair 2.1721; recorded HOURLY 2026-10-25 21:52 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-10-25 21:52 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -2.03% (2.128 vs DraftKings no-vig close 2.1721); final PSV Eindhoven 1, Feyenoord Rotterdam 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B284",
+   "sport": "Polymarket",
+   "league": "soc_swe.1",
+   "event": "IFK Göteborg @ GAIS",
+   "kickoff": "2026-10-25 17:00",
+   "selection": "GAIS",
+   "odds": 2.5,
+   "book": "Polymarket ask",
+   "p": 0.4234,
+   "implied_pct": 40.0,
+   "edge_pct": 5.85,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-24 00:02 (Tbilisi)",
+   "odds_time": "2026-10-24 00:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.447
+    },
+    "mkt": 0.3998,
+    "nbooks": 1,
+    "blend_p": 0.4234,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=swe-gais-ifk-2026-10-25-gais",
+   "reasoning": "scan PASS EV=5.85% models=['DRatings']; scan stake $1.0 (raw 2.49; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:swe-gais-ifk-2026-10-25-gais",
+   "polymarket_slug": "swe-gais-ifk-2026-10-25-gais",
+   "outcome_price": 0.4,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "GAIS vs. IFK Goteborg",
+    "pm_league": "SWE1",
+    "pm_kickoff_utc": "2026-10-25T13:00Z",
+    "checked": "2026-10-24 00:02 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-25 21:52 (Tbilisi)",
+   "final_score": "GAIS 1, IFK Göteborg 1 (FT)",
+   "score": "GAIS 1, IFK Göteborg 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842857",
+   "settle_source": "ESPN swe.1 event 401842857 STATUS_FULL_TIME, draw; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 2.4,
+   "closing_fair_odds": 2.548,
+   "clv_pct": -1.88,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+140', 'away': '+185', 'draw': '+240'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842857",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+140', 'away': '+185', 'draw': '+240'}; no-vig fair 2.548; recorded HOURLY 2026-10-25 21:52 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-10-25 21:52 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -1.88% (2.5 vs DraftKings no-vig close 2.548); final GAIS 1, IFK Göteborg 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B285",
+   "sport": "Polymarket",
+   "league": "laliga",
+   "event": "Real Betis @ Celta Vigo",
+   "kickoff": "2026-10-25 19:15",
+   "selection": "Celta Vigo",
+   "odds": 3.226,
+   "book": "Polymarket ask",
+   "p": 0.3264,
+   "implied_pct": 31.0,
+   "edge_pct": 5.29,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-24 00:02 (Tbilisi)",
+   "odds_time": "2026-10-24 00:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3385,
+     "DRatings": 0.344
+    },
+    "mkt": 0.3115,
+    "nbooks": 5,
+    "blend_p": 0.3264,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=lal-cel-bet-2026-10-25-cel",
+   "reasoning": "scan PASS EV=5.29% models=['EloFD', 'DRatings']; scan stake $1.0 (raw 1.52; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:lal-cel-bet-2026-10-25-cel",
+   "polymarket_slug": "lal-cel-bet-2026-10-25-cel",
+   "outcome_price": 0.31,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "RC Celta de Vigo vs. Real Betis Balompié",
+    "pm_league": "ESP1",
+    "pm_kickoff_utc": "2026-10-25T15:15:00.000Z",
+    "checked": "2026-10-24 00:02 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-25 21:52 (Tbilisi)",
+   "final_score": "Celta Vigo 0, Real Betis 0 (FT)",
+   "score": "Celta Vigo 0, Real Betis 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882833",
+   "settle_source": "ESPN esp.1 event 401882833 STATUS_FULL_TIME, draw; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 2.65,
+   "closing_fair_odds": 2.7667,
+   "clv_pct": 16.6,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+165', 'away': '+175', 'draw': '+230'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882833",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+165', 'away': '+175', 'draw': '+230'}; no-vig fair 2.7667; recorded HOURLY 2026-10-25 21:52 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-10-25 21:52 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +16.60% (3.226 vs DraftKings no-vig close 2.7667); final Celta Vigo 0, Real Betis 0 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B301",
+   "sport": "Football",
+   "league": "soc_ned.1",
+   "event": "Ajax Amsterdam @ Sparta Rotterdam",
+   "kickoff": "2026-10-25 19:45",
+   "selection": "Draw (Ajax Amsterdam @ Sparta Rotterdam)",
+   "odds": 5.0,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.2143,
+   "implied_pct": 20.0,
+   "edge_pct": 7.17,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-24 09:00 (Tbilisi)",
+   "odds_time": "2026-10-24 09:00 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2549,
+     "DRatings": 0.229
+    },
+    "mkt": 0.1868,
+    "nbooks": 1,
+    "blend_p": 0.2143,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875567",
+   "reasoning": "scan PASS EV=7.17% models=['EloFD', 'DRatings']; scan stake $1.0 (raw 1.14; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "espn401875567",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-25 21:52 (Tbilisi)",
+   "final_score": "Sparta Rotterdam 1, Ajax Amsterdam 2 (FT)",
+   "score": "Sparta Rotterdam 1, Ajax Amsterdam 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875567",
+   "settle_source": "ESPN ned.1 event 401875567 STATUS_FULL_TIME, Ajax Amsterdam winner",
+   "closing_odds": 4.8,
+   "closing_fair_odds": 5.0727,
+   "clv_pct": -1.43,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+450', 'away': '-200', 'draw': '+380'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875567",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+450', 'away': '-200', 'draw': '+380'}; no-vig fair 5.0727; recorded HOURLY 2026-10-25 21:52 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-10-25 21:52 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -1.43% (5.0 vs DraftKings no-vig close 5.0727); final Sparta Rotterdam 1, Ajax Amsterdam 2 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B318",
+   "sport": "Football",
+   "league": "soc_esp.2",
+   "event": "Ceuta @ Cádiz",
+   "kickoff": "2026-10-25 19:15",
+   "selection": "Ceuta",
+   "odds": 4.0,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.2656,
+   "implied_pct": 25.0,
+   "edge_pct": 6.26,
+   "stake": 1.3,
+   "status": "settled",
+   "opened_at": "2026-10-25 09:01 (Tbilisi)",
+   "odds_time": "2026-10-25 09:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.27,
+     "EloFD": 0.3207
+    },
+    "mkt": 0.236,
+    "nbooks": 1,
+    "blend_p": 0.2656,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883130",
+   "reasoning": "scan PASS EV=6.26% models=['FTS', 'EloFD']; scan stake $1.3 (raw 1.3; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.3",
+   "scan_id": "espn401883130",
+   "result": "lost",
+   "pl_usd": -1.3,
+   "settled_at": "2026-10-25 21:52 (Tbilisi)",
+   "final_score": "Cádiz 3, Ceuta 1 (FT)",
+   "score": "Cádiz 3, Ceuta 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883130",
+   "settle_source": "ESPN esp.2 event 401883130 STATUS_FULL_TIME, Cádiz winner",
+   "closing_odds": 3.9,
+   "closing_fair_odds": 4.1118,
+   "clv_pct": -2.72,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-105', 'away': '+290', 'draw': '+250'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883130",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-105', 'away': '+290', 'draw': '+250'}; no-vig fair 4.1118; recorded HOURLY 2026-10-25 21:52 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-10-25 21:52 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -2.72% (4.0 vs DraftKings no-vig close 4.1118); final Cádiz 3, Ceuta 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B322",
+   "sport": "Football",
+   "league": "soc_swe.1",
+   "event": "Hammarby IF @ Mjällby AIF",
+   "kickoff": "2026-10-25 19:30",
+   "selection": "Draw (Hammarby IF @ Mjällby AIF)",
+   "odds": 5.0,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.2148,
+   "implied_pct": 20.0,
+   "edge_pct": 7.42,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-25 19:00 (Tbilisi)",
+   "odds_time": "2026-10-25 19:00 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.25,
+     "DRatings": 0.231
+    },
+    "mkt": 0.1892,
+    "nbooks": 1,
+    "blend_p": 0.2148,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842854",
+   "reasoning": "scan PASS EV=7.42% models=['FTS', 'DRatings']; scan stake $1.1 (raw 1.1; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "espn401842854",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-25 21:52 (Tbilisi)",
+   "final_score": "Mjällby AIF 0, Hammarby IF 2 (FT)",
+   "score": "Mjällby AIF 0, Hammarby IF 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842854",
+   "settle_source": "ESPN swe.1 event 401842854 STATUS_FULL_TIME, Hammarby IF winner",
+   "closing_odds": 4.7,
+   "closing_fair_odds": 4.9685,
+   "clv_pct": 0.63,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+600', 'away': '-235', 'draw': '+370'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842854",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+600', 'away': '-235', 'draw': '+370'}; no-vig fair 4.9685; recorded HOURLY 2026-10-25 21:52 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-10-25 21:52 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +0.63% (5.0 vs DraftKings no-vig close 4.9685); final Mjällby AIF 0, Hammarby IF 2 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -14375,7 +14555,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 80447
+   "last_price": 80722
   },
   {
    "symbol": "SPY",
@@ -14584,7 +14764,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 80447,
+   "last_price": 80722,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -59481,7 +59661,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 80447,
+  "BTC": 80722,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 759.97,
@@ -59559,20 +59739,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-25 19:00 (Tbilisi)",
-  "total_value": 474.44,
+  "time": "2026-10-25 21:52 (Tbilisi)",
+  "total_value": 462.61,
   "deposits_usd": 500,
-  "vs_deposits_usd": -25.56,
-  "vs_deposits_pct": -5.11,
-  "btc_bench": 488.19,
-  "vs_btc_usd": -13.75,
+  "vs_deposits_usd": -37.39,
+  "vs_deposits_pct": -7.48,
+  "btc_bench": 489.86,
+  "vs_btc_usd": -27.25,
   "bets": {
-   "n": 278,
+   "n": 287,
    "wins": 102,
-   "losses": 176,
-   "open": 45,
-   "pl_usd": -22.19,
-   "roi_pct": -4.5
+   "losses": 185,
+   "open": 36,
+   "pl_usd": -34.1,
+   "roi_pct": -6.8
   },
   "by_sport": {
    "NHL": {
@@ -59597,11 +59777,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 112,
+    "n": 115,
     "wins": 36,
-    "losses": 76,
-    "pl_usd": -6.73,
-    "roi_pct": -4.3
+    "losses": 79,
+    "pl_usd": -10.03,
+    "roi_pct": -6.3
    },
    "NCAAF": {
     "n": 33,
@@ -59618,11 +59798,11 @@
     "roi_pct": -8.2
    },
    "Polymarket": {
-    "n": 90,
+    "n": 96,
     "wins": 31,
-    "losses": 59,
-    "pl_usd": -0.57,
-    "roi_pct": -0.3
+    "losses": 65,
+    "pl_usd": -9.18,
+    "roi_pct": -4.6
    },
    "NFL": {
     "n": 7,
@@ -59648,10 +59828,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.83,
-   "unrealized_usd": -1.17,
+   "value_usd": 23.91,
+   "unrealized_usd": -1.09,
    "realized_usd": -2.19,
-   "total_pl_usd": -3.36
+   "total_pl_usd": -3.28
   },
   "stocks": {
    "open_n": 14,
@@ -59662,14 +59842,14 @@
   },
   "cash_usd": 259.0267,
   "scanned": 49846,
-  "open_bets_usd": 79.92,
+  "open_bets_usd": 68.01,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 112,
+    "n": 115,
     "wins": 36,
-    "losses": 76,
-    "pl_usd": -6.73,
-    "roi_pct": -4.3
+    "losses": 79,
+    "pl_usd": -10.03,
+    "roi_pct": -6.3
    },
    "BASKETBALL": {
     "n": 18,
@@ -59707,11 +59887,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 90,
+    "n": 96,
     "wins": 31,
-    "losses": 59,
-    "pl_usd": -0.57,
-    "roi_pct": -0.3
+    "losses": 65,
+    "pl_usd": -9.18,
+    "roi_pct": -4.6
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -59736,7 +59916,7 @@
    }
   }
  },
- "last_refresh": "2026-10-25 19:00 (Tbilisi)",
+ "last_refresh": "2026-10-25 21:52 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -60989,7 +61169,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-25 19:00 (Tbilisi)",
+  "updated": "2026-10-25 21:52 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -61020,12 +61200,12 @@
     "lean": null
    },
    "Football": {
-    "n": 83,
-    "early_better": 42,
+    "n": 86,
+    "early_better": 45,
     "late_better": 33,
     "equal": 8,
-    "avg_clv_pct": 1.25,
-    "no_close": 40,
+    "avg_clv_pct": 1.36,
+    "no_close": 37,
     "lean": "early"
    },
    "NCAAF": {
@@ -61047,12 +61227,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 83,
-    "early_better": 49,
-    "late_better": 33,
-    "equal": 1,
-    "avg_clv_pct": 2.78,
-    "no_close": 29,
+    "n": 89,
+    "early_better": 52,
+    "late_better": 35,
+    "equal": 2,
+    "avg_clv_pct": 2.85,
+    "no_close": 23,
     "lean": "early"
    },
    "NFL": {
@@ -64363,6 +64543,114 @@
     "better": "early"
    },
    {
+    "id": "B219",
+    "sport": "Polymarket",
+    "event": "Lille @ Monaco",
+    "open": null,
+    "taken": 3.846,
+    "taken_time": "2026-10-20 19:02 (Tbilisi)",
+    "close": 4.1,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876425",
+    "clv_pct": -6.2,
+    "better": "late"
+   },
+   {
+    "id": "B229",
+    "sport": "Polymarket",
+    "event": "Frosinone Calcio @ Atalanta",
+    "open": null,
+    "taken": 1.887,
+    "taken_time": "2026-10-21 13:30 (Tbilisi)",
+    "close": 1.9091,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874972",
+    "clv_pct": -1.16,
+    "better": "late"
+   },
+   {
+    "id": "B257",
+    "sport": "Polymarket",
+    "event": "Brentford @ Hull City",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": "2026-10-22 19:02 (Tbilisi)",
+    "close": 5.0,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401878766",
+    "clv_pct": 0.0,
+    "better": "equal"
+   },
+   {
+    "id": "B261",
+    "sport": "Polymarket",
+    "event": "Feyenoord Rotterdam @ PSV Eindhoven",
+    "open": null,
+    "taken": 2.128,
+    "taken_time": "2026-10-22 19:02 (Tbilisi)",
+    "close": 2.05,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875568",
+    "clv_pct": 3.8,
+    "better": "early"
+   },
+   {
+    "id": "B284",
+    "sport": "Polymarket",
+    "event": "IFK Göteborg @ GAIS",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": "2026-10-24 00:02 (Tbilisi)",
+    "close": 2.4,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842857",
+    "clv_pct": 4.17,
+    "better": "early"
+   },
+   {
+    "id": "B285",
+    "sport": "Polymarket",
+    "event": "Real Betis @ Celta Vigo",
+    "open": null,
+    "taken": 3.226,
+    "taken_time": "2026-10-24 00:02 (Tbilisi)",
+    "close": 2.65,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882833",
+    "clv_pct": 21.74,
+    "better": "early"
+   },
+   {
+    "id": "B301",
+    "sport": "Football",
+    "event": "Ajax Amsterdam @ Sparta Rotterdam",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": "2026-10-24 09:00 (Tbilisi)",
+    "close": 4.8,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875567",
+    "clv_pct": 4.17,
+    "better": "early"
+   },
+   {
+    "id": "B318",
+    "sport": "Football",
+    "event": "Ceuta @ Cádiz",
+    "open": null,
+    "taken": 4.0,
+    "taken_time": "2026-10-25 09:01 (Tbilisi)",
+    "close": 3.9,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883130",
+    "clv_pct": 2.56,
+    "better": "early"
+   },
+   {
+    "id": "B322",
+    "sport": "Football",
+    "event": "Hammarby IF @ Mjällby AIF",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": "2026-10-25 19:00 (Tbilisi)",
+    "close": 4.7,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842854",
+    "clv_pct": 6.38,
+    "better": "early"
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -64473,28 +64761,6 @@
     "better": null
    },
    {
-    "id": "B219",
-    "sport": "Polymarket",
-    "event": "Lille @ Monaco",
-    "open": null,
-    "taken": 3.846,
-    "taken_time": "2026-10-20 19:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B229",
-    "sport": "Polymarket",
-    "event": "Frosinone Calcio @ Atalanta",
-    "open": null,
-    "taken": 1.887,
-    "taken_time": "2026-10-21 13:30 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B230",
     "sport": "Polymarket",
     "event": "Lorient @ Angers",
@@ -64550,33 +64816,11 @@
     "better": null
    },
    {
-    "id": "B257",
-    "sport": "Polymarket",
-    "event": "Brentford @ Hull City",
-    "open": null,
-    "taken": 5.0,
-    "taken_time": "2026-10-22 19:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B259",
     "sport": "Polymarket",
     "event": "Santos @ Tijuana",
     "open": null,
     "taken": 2.041,
-    "taken_time": "2026-10-22 19:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B261",
-    "sport": "Polymarket",
-    "event": "Feyenoord Rotterdam @ PSV Eindhoven",
-    "open": null,
-    "taken": 2.128,
     "taken_time": "2026-10-22 19:02 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -64638,44 +64882,11 @@
     "better": null
    },
    {
-    "id": "B284",
-    "sport": "Polymarket",
-    "event": "IFK Göteborg @ GAIS",
-    "open": null,
-    "taken": 2.5,
-    "taken_time": "2026-10-24 00:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B285",
-    "sport": "Polymarket",
-    "event": "Real Betis @ Celta Vigo",
-    "open": null,
-    "taken": 3.226,
-    "taken_time": "2026-10-24 00:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B294",
     "sport": "Football",
     "event": "Ayr United @ Greenock Morton",
     "open": null,
     "taken": 3.3,
-    "taken_time": "2026-10-24 09:00 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B301",
-    "sport": "Football",
-    "event": "Ajax Amsterdam @ Sparta Rotterdam",
-    "open": null,
-    "taken": 5.0,
     "taken_time": "2026-10-24 09:00 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -64792,17 +65003,6 @@
     "better": null
    },
    {
-    "id": "B318",
-    "sport": "Football",
-    "event": "Ceuta @ Cádiz",
-    "open": null,
-    "taken": 4.0,
-    "taken_time": "2026-10-25 09:01 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B319",
     "sport": "NBA",
     "event": "Detroit Pistons @ Philadelphia 76ers",
@@ -64836,17 +65036,6 @@
     "better": null
    },
    {
-    "id": "B322",
-    "sport": "Football",
-    "event": "Hammarby IF @ Mjällby AIF",
-    "open": null,
-    "taken": 5.0,
-    "taken_time": "2026-10-25 19:00 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B323",
     "sport": "Football",
     "event": "Real Salt Lake @ Austin FC",
@@ -64865,12 +65054,12 @@
  ],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 83,
-   "mean_clv_pct": -4.46
+   "n": 86,
+   "mean_clv_pct": -4.34
   },
   "Polymarket": {
-   "n": 83,
-   "mean_clv_pct": -2.81
+   "n": 89,
+   "mean_clv_pct": -2.73
   },
   "NCAAF": {
    "n": 28,
