@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 243.7817,
+ "cash_usd": 245.8227,
  "open_bets": [
   {
    "id": "B066",
@@ -292,47 +292,6 @@
     "checked": "2026-10-22 00:06 (Tbilisi)",
     "rule": "L007"
    }
-  },
-  {
-   "id": "B259",
-   "sport": "Polymarket",
-   "league": "soc_mex.1",
-   "event": "Santos @ Tijuana",
-   "kickoff": "2026-10-26 07:10",
-   "selection": "Tijuana",
-   "odds": 2.041,
-   "book": "Polymarket ask",
-   "p": 0.5178,
-   "implied_pct": 49.0,
-   "edge_pct": 5.67,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-22 19:02 (Tbilisi)",
-   "odds_time": "2026-10-22 19:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5695
-    },
-    "mkt": 0.4662,
-    "nbooks": 1,
-    "blend_p": 0.5178,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mex-tij-san-2026-10-25-tij",
-   "reasoning": "scan PASS EV=5.67% models=['EloFD']; scan stake $1.74 (raw 1.74; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "pm:mex-tij-san-2026-10-25-tij",
-   "polymarket_slug": "mex-tij-san-2026-10-25-tij",
-   "outcome_price": 0.49,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Club Tijuana vs. Club Santos Laguna",
-    "pm_league": "MEX1",
-    "pm_kickoff_utc": "2026-10-26T03:10Z",
-    "checked": "2026-10-22 19:02 (Tbilisi)",
-    "rule": "L007"
-   },
-   "elo_only": true
   },
   {
    "id": "B269",
@@ -15509,6 +15468,60 @@
     "note": "CLV -8.55% (2.0 vs DraftKings no-vig close 2.187); final Philadelphia 76ers 93, Detroit Pistons 106 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B259",
+   "sport": "Polymarket",
+   "league": "soc_mex.1",
+   "event": "Santos @ Tijuana",
+   "kickoff": "2026-10-26 07:10",
+   "selection": "Tijuana",
+   "odds": 2.041,
+   "book": "Polymarket ask",
+   "p": 0.5178,
+   "implied_pct": 49.0,
+   "edge_pct": 5.67,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-22 19:02 (Tbilisi)",
+   "odds_time": "2026-10-22 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5695
+    },
+    "mkt": 0.4662,
+    "nbooks": 1,
+    "blend_p": 0.5178,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mex-tij-san-2026-10-25-tij",
+   "reasoning": "scan PASS EV=5.67% models=['EloFD']; scan stake $1.74 (raw 1.74; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "pm:mex-tij-san-2026-10-25-tij",
+   "polymarket_slug": "mex-tij-san-2026-10-25-tij",
+   "outcome_price": 0.49,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Club Tijuana vs. Club Santos Laguna",
+    "pm_league": "MEX1",
+    "pm_kickoff_utc": "2026-10-26T03:10Z",
+    "checked": "2026-10-22 19:02 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "result": "won",
+   "pl_usd": 1.04,
+   "settled_at": "2026-10-26 10:54 (Tbilisi)",
+   "final_score": "Tijuana 4, Santos 1 (FT)",
+   "score": "Tijuana 4, Santos 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/summary?event=401876920",
+   "settle_source": "ESPN mex.1 event 401876920 STATUS_FULL_TIME, Tijuana winner; Polymarket Tijuana Yes trading 0.9995 (UMA resolution pending)",
+   "closing_odds": 2.1,
+   "closing_fair_odds": 2.2316,
+   "clv_pct": -8.54,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+110', 'away': '+220', 'draw': '+265'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/summary?event=401876920",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+110', 'away': '+220', 'draw': '+265'}; no-vig fair 2.2316; recorded HOURLY 2026-10-26 10:54 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome"
   }
  ],
  "positions": [
@@ -15523,7 +15536,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 79978
+   "last_price": 79987
   },
   {
    "symbol": "SPY",
@@ -15732,7 +15745,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 79978,
+   "last_price": 79987,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -63493,7 +63506,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 79978,
+  "BTC": 79987,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 759.97,
@@ -63571,20 +63584,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-26 09:04 (Tbilisi)",
-  "total_value": 451.49,
+  "time": "2026-10-26 10:54 (Tbilisi)",
+  "total_value": 452.53,
   "deposits_usd": 500,
-  "vs_deposits_usd": -48.51,
-  "vs_deposits_pct": -9.7,
-  "btc_bench": 485.34,
-  "vs_btc_usd": -33.86,
+  "vs_deposits_usd": -47.47,
+  "vs_deposits_pct": -9.49,
+  "btc_bench": 485.4,
+  "vs_btc_usd": -32.87,
   "bets": {
-   "n": 302,
-   "wins": 105,
+   "n": 303,
+   "wins": 106,
    "losses": 197,
-   "open": 39,
-   "pl_usd": -45.0,
-   "roi_pct": -8.5
+   "open": 38,
+   "pl_usd": -43.96,
+   "roi_pct": -8.3
   },
   "by_sport": {
    "NHL": {
@@ -63630,11 +63643,11 @@
     "roi_pct": -18.9
    },
    "Polymarket": {
-    "n": 100,
-    "wins": 31,
+    "n": 101,
+    "wins": 32,
     "losses": 69,
-    "pl_usd": -14.92,
-    "roi_pct": -7.3
+    "pl_usd": -13.88,
+    "roi_pct": -6.8
    },
    "NFL": {
     "n": 12,
@@ -63672,9 +63685,9 @@
    "realized_usd": -1.66,
    "total_pl_usd": 0.01
   },
-  "cash_usd": 243.7817,
+  "cash_usd": 245.8227,
   "scanned": 54620,
-  "open_bets_usd": 72.35,
+  "open_bets_usd": 71.35,
   "desk_stats": {
    "FOOTBALL": {
     "n": 117,
@@ -63719,11 +63732,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 100,
-    "wins": 31,
+    "n": 101,
+    "wins": 32,
     "losses": 69,
-    "pl_usd": -14.92,
-    "roi_pct": -7.3
+    "pl_usd": -13.88,
+    "roi_pct": -6.8
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -63748,7 +63761,7 @@
    }
   }
  },
- "last_refresh": "2026-10-26 09:04 (Tbilisi)",
+ "last_refresh": "2026-10-26 10:54 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -65001,7 +65014,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-26 09:04 (Tbilisi)",
+  "updated": "2026-10-26 10:54 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -65059,12 +65072,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 93,
+    "n": 94,
     "early_better": 55,
-    "late_better": 36,
+    "late_better": 37,
     "equal": 2,
-    "avg_clv_pct": 3.11,
-    "no_close": 32,
+    "avg_clv_pct": 3.05,
+    "no_close": 31,
     "lean": "early"
    },
    "NFL": {
@@ -68663,6 +68676,18 @@
     "better": "late"
    },
    {
+    "id": "B259",
+    "sport": "Polymarket",
+    "event": "Santos @ Tijuana",
+    "open": null,
+    "taken": 2.041,
+    "taken_time": "2026-10-22 19:02 (Tbilisi)",
+    "close": 2.1,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/summary?event=401876920",
+    "clv_pct": -2.81,
+    "better": "late"
+   },
+   {
     "id": "B066",
     "sport": "Polymarket",
     "event": "Fed Oct 2026: no change in interest rates",
@@ -68746,17 +68771,6 @@
     "open": null,
     "taken": 4.348,
     "taken_time": "2026-10-22 00:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B259",
-    "sport": "Polymarket",
-    "event": "Santos @ Tijuana",
-    "open": null,
-    "taken": 2.041,
-    "taken_time": "2026-10-22 19:02 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -69103,8 +69117,8 @@
    "mean_clv_pct": -4.3
   },
   "Polymarket": {
-   "n": 93,
-   "mean_clv_pct": -2.46
+   "n": 94,
+   "mean_clv_pct": -2.53
   },
   "NCAAF": {
    "n": 28,
