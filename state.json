@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 239.2627,
+ "cash_usd": 236.2627,
  "open_bets": [
   {
    "id": "B066",
@@ -1556,6 +1556,129 @@
     "rule": "L007"
    },
    "elo_only": true
+  },
+  {
+   "id": "B347",
+   "sport": "Polymarket",
+   "league": "soc_eng.3",
+   "event": "Huddersfield Town @ Bradford City",
+   "kickoff": "2026-10-31 16:30",
+   "selection": "Bradford City",
+   "odds": 2.778,
+   "book": "Polymarket ask",
+   "p": 0.3938,
+   "implied_pct": 36.0,
+   "edge_pct": 9.39,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-27 00:02 (Tbilisi)",
+   "odds_time": "2026-10-27 00:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4325
+    },
+    "mkt": 0.3551,
+    "nbooks": 1,
+    "blend_p": 0.3938,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el1-bra-hud-2026-10-31-bra",
+   "reasoning": "scan PASS EV=9.39% models=['EloFD']; scan stake $1.49 (raw 1.49; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "pm:el1-bra-hud-2026-10-31-bra",
+   "polymarket_slug": "el1-bra-hud-2026-10-31-bra",
+   "outcome_price": 0.36,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Bradford City AFC vs. Huddersfield Town AFC",
+    "pm_league": "ENG3",
+    "pm_kickoff_utc": "2026-10-31T12:30Z",
+    "checked": "2026-10-27 00:02 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "tb1_dog_25_40": true
+  },
+  {
+   "id": "B348",
+   "sport": "Polymarket",
+   "league": "soc_bra.1",
+   "event": "Internacional @ Fluminense",
+   "kickoff": "2026-10-29 02:30",
+   "selection": "Fluminense",
+   "odds": 1.923,
+   "book": "Polymarket ask",
+   "p": 0.5457,
+   "implied_pct": 52.0,
+   "edge_pct": 4.94,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-27 00:02 (Tbilisi)",
+   "odds_time": "2026-10-27 00:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5821
+    },
+    "mkt": 0.5093,
+    "nbooks": 1,
+    "blend_p": 0.5457,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bra-flu-int-2026-10-28-flu",
+   "reasoning": "scan PASS EV=4.94% models=['EloFD']; scan stake $1.0 (raw 0.76; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:bra-flu-int-2026-10-28-flu",
+   "polymarket_slug": "bra-flu-int-2026-10-28-flu",
+   "outcome_price": 0.52,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Fluminense FC vs. SC Internacional",
+    "pm_league": "BRA1",
+    "pm_kickoff_utc": "2026-10-28T22:30Z",
+    "checked": "2026-10-27 00:02 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true
+  },
+  {
+   "id": "B349",
+   "sport": "Polymarket",
+   "league": "soc_swe.1",
+   "event": "Mjällby AIF @ Örgryte IS",
+   "kickoff": "2026-10-29 22:00",
+   "selection": "Mjällby AIF",
+   "odds": 2.439,
+   "book": "Polymarket ask",
+   "p": 0.4257,
+   "implied_pct": 41.0,
+   "edge_pct": 3.83,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-27 00:02 (Tbilisi)",
+   "odds_time": "2026-10-27 00:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.438
+    },
+    "mkt": 0.4134,
+    "nbooks": 1,
+    "blend_p": 0.4257,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=swe-org-mja-2026-10-29-mja",
+   "reasoning": "scan PASS EV=3.83% models=['DRatings']; scan stake $1.0 (raw 0.75; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:swe-org-mja-2026-10-29-mja",
+   "polymarket_slug": "swe-org-mja-2026-10-29-mja",
+   "outcome_price": 0.41,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Orgryte IS vs. Mjallby AIF",
+    "pm_league": "SWE1",
+    "pm_kickoff_utc": "2026-10-29T18:00Z",
+    "checked": "2026-10-27 00:02 (Tbilisi)",
+    "rule": "L007"
+   }
   }
  ],
  "settled_bets": [
@@ -15719,7 +15842,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 80111
+   "last_price": 79884
   },
   {
    "symbol": "SPY",
@@ -15731,7 +15854,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 766.15
+   "last_price": 765.09
   },
   {
    "symbol": "AAPL",
@@ -15743,7 +15866,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 343.33,
+   "last_price": 343.93,
    "adds": [
     {
      "date": "2026-10-14",
@@ -15765,7 +15888,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 178.82,
+   "last_price": 179.18,
    "adds": [
     {
      "date": "2026-10-14",
@@ -15791,7 +15914,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 92.62
+   "last_price": 92.69
   },
   {
    "symbol": "MSFT",
@@ -15799,7 +15922,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 531.1,
+   "last_price": 532.49,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -15808,7 +15931,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 409.39,
+   "last_price": 410.54,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -15817,7 +15940,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 404.26,
+   "last_price": 404.31,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -15830,7 +15953,7 @@
    "stop_loss": 1189.49,
    "take_profit": 1352.27,
    "thesis": "ორივე MA-ს ზემოთ (SMA20 1173.7 / SMA50 1179.1), დღეს +3.6% — ჯანდაცვის სიძლიერე",
-   "last_price": 1281.63,
+   "last_price": 1278.56,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -15844,7 +15967,7 @@
    "stop_loss": 111.98,
    "take_profit": 127.3,
    "thesis": "ორივე MA-ს ზემოთ (108.9/108.8), დღეს +1.5% — დეფენსიური",
-   "last_price": 119.71,
+   "last_price": 120.41,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -15858,7 +15981,7 @@
    "stop_loss": 234.36,
    "take_profit": 266.44,
    "thesis": "ორივე MA-ს ზემოთ (233.1/229.0), დღეს +4.5%",
-   "last_price": 244.34,
+   "last_price": 247.68,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -15872,7 +15995,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 1000.6,
+   "last_price": 1005.38,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -15886,7 +16009,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 545.88,
+   "last_price": 548.25,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -15900,7 +16023,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 184.2,
+   "last_price": 184.34,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -15914,7 +16037,7 @@
    "stop_loss": 64.0,
    "take_profit": 72.76,
    "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 69.61,
+   "last_price": 69.58,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -15928,7 +16051,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 80111,
+   "last_price": 79884,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -16586,6 +16709,14 @@
    "total_value": 452.72,
    "cash": 239.2627,
    "btc_bench": 485.75
+  },
+  {
+   "date": "2026-10-26",
+   "slot": "PM",
+   "time": "2026-10-27 00:02 (Tbilisi)",
+   "total_value": 452.48,
+   "cash": 236.2627,
+   "btc_bench": 484.77
   }
  ],
  "benchmarks_start": {
@@ -64429,6 +64560,1129 @@
    "plan": "PM 2026-10-26: საღამოს მატჩები (B269 გალატასარაი 22:30 და სხვა) დასახლდება საათობრივ განახლებაზე/PM-ზე რეალური საბოლოო შედეგებით; B294 (გადაიდო) ღიაა; BTC < MA20 და SMA50 → კარიბჭე დახურულია; აქციები — მხოლოდ სტოპ/TP მონიტორინგი.",
    "settle_note": "ESPN/gamma finals: 0 settled 0W/0L +0.0 — . Left open (in play / B294 postponed): B294.",
    "closed_at": "2026-10-26 19:00 (Tbilisi)"
+  },
+  {
+   "date": "2026-10-26",
+   "slot": "PM",
+   "time": "2026-10-26 23:57 (Tbilisi)",
+   "status": "complete",
+   "note": "PM: 3 new bets (scan 7 PASS), TITAN blocked 4, shrunk 1, settled 0 (+0.0), ledger 0, post-mortems 0, no new lessons, Football+Polymarket halved, BTC no buy (<MA20), stocks 0 (no tested entry rule), tokens 0 (gate closed)",
+   "ledger": [],
+   "postmortem": [],
+   "not_final_left_open": [
+    {
+     "id": "B234",
+     "event": "Stade de Reims @ Boulogne",
+     "espn": "STATUS_IN_PROGRESS"
+    },
+    {
+     "id": "B269",
+     "event": "Fenerbahce @ Galatasaray",
+     "espn": "STATUS_SECOND_HALF"
+    },
+    {
+     "id": "B294",
+     "event": "Ayr United @ Greenock Morton",
+     "espn": "STATUS_POSTPONED"
+    },
+    {
+     "id": "B327",
+     "event": "Burgos @ FC Andorra",
+     "espn": "STATUS_FIRST_HALF"
+    }
+   ],
+   "research": {
+    "settled": [],
+    "note": "PM paper cycle 2026-10-26 (started 23:56 Tbilisi)",
+    "btc_hold": "NO BUY: BTC 79884 < MA20 81992 (below SMA50 81803) → trend gate closed; hold existing 2 lots (stops 74157.6/74350.3 not hit); crypto $23.66",
+    "btc": 79884,
+    "btc_ma20": 81992.48,
+    "btc_ma50": 81802.91,
+    "tokens_passed": 83,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B347",
+     "B348",
+     "B349"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 4,
+    "titan_shrunk": 1,
+    "nova_approved": 3,
+    "x_calls": 7,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-10-26_2357",
+    "time": "2026-10-26 23:57 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 206,
+    "funnel": {
+     "options_AN": 10394,
+     "events_AN": 240,
+     "events_ESPN": 523,
+     "options_ESPN": 1263,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 111,
+     "model_rows_DR": 254,
+     "model_rows_FTS": 26,
+     "events_upcoming": 402,
+     "selections_priced": 1040,
+     "selections_consensus": 826,
+     "with_model": 704,
+     "with_2plus_model": 254,
+     "drop_too_few_books": 186,
+     "with_1_model": 450,
+     "elo_matched_events": 165,
+     "drop_nhl_calibration": 28,
+     "drop_no_model": 122,
+     "gate_ev<3": 609,
+     "gate_dup_open": 10,
+     "gate_A3_range": 40,
+     "gate_L004_single_model_gap": 6,
+     "gate_PASS": 3,
+     "gate_odds>5": 30,
+     "gate_model_ev<=0": 5,
+     "gate_TITAN_elo_disagree>10pt": 1,
+     "options_Polymarket": 45146,
+     "pm_markets": 22573,
+     "pm_liq1k": 5508,
+     "pm_sports_ml": 2870,
+     "pm_drop_L007_league_unmapped": 501,
+     "pm_drop_L007_no_strict_match": 757,
+     "pm_matched_model": 325,
+     "pm_gate_ev<3": 246,
+     "pm_gate_A3_range": 21,
+     "pm_tb1_tagged": 101,
+     "pm_gate_PASS": 8,
+     "pm_gate_odds>5": 26,
+     "pm_gate_dup_open": 13,
+     "pm_gate_L004_single_model_gap": 3,
+     "pm_tb1_tagged_pass": 3,
+     "pm_gate_model_ev<=0": 5,
+     "pm_gate_TITAN_elo_disagree>10pt": 3,
+     "dup_open": 23,
+     "drop_same_event": 1,
+     "prior_veto": 3,
+     "prior_veto_list_24h": 4,
+     "final_after_caps": 7,
+     "stake_total": 7.49,
+     "budget_caps": 80.39,
+     "tokens_src_dexscreener_tokens": 74,
+     "tokens_src_gt_pools": 800,
+     "tokens_tokens_unique": 758,
+     "tokens_tokens_with_pairs": 746,
+     "tokens_chain_solana": 205,
+     "tokens_chain_robinhood": 7,
+     "tokens_chain_base": 174,
+     "tokens_chain_bsc": 171,
+     "tokens_chain_arc": 1,
+     "tokens_chain_ethereum": 188,
+     "tokens_gate_liquidity": 438,
+     "tokens_gate_pass": 127,
+     "tokens_gate_pump": 3,
+     "tokens_gate_rug_dump": 2,
+     "tokens_gate_too_new": 50,
+     "tokens_gate_thin_liq_fdv": 77,
+     "tokens_gate_low_activity": 49,
+     "tokens_safety_fail": 21,
+     "tokens_safety_pass": 83,
+     "tokens_safety_unverified": 23,
+     "tokens_passed_safety": 83,
+     "options_scanned_total": 57549
+    },
+    "coverage_events_by_sport": {
+     "nba": 45,
+     "nhl": 42,
+     "ncaaf": 57,
+     "nfl": 2,
+     "wnba": 3,
+     "soccer": 236,
+     "ufc": 15,
+     "mlb": 2
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 57549,
+     "candidates": [
+      {
+       "name": "Bradford City",
+       "type": "Polymarket",
+       "score": 59,
+       "why": "EV 9.39% @2.778 models=['EloFD']"
+      },
+      {
+       "name": "Torino",
+       "type": "soccer",
+       "score": 56,
+       "why": "EV 6.51% @4.9 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Kaiserslautern",
+       "type": "Polymarket",
+       "score": 55,
+       "why": "EV 5.53% @2.941 models=['EloFD']"
+      },
+      {
+       "name": "Botafogo",
+       "type": "Polymarket",
+       "score": 55,
+       "why": "EV 5.3% @2.5 models=['EloFD']"
+      },
+      {
+       "name": "Blackburn Rovers",
+       "type": "Polymarket",
+       "score": 55,
+       "why": "EV 5.1% @5.0 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Fluminense",
+       "type": "Polymarket",
+       "score": 54,
+       "why": "EV 4.94% @1.923 models=['EloFD']"
+      },
+      {
+       "name": "Mjällby AIF",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.83% @2.439 models=['DRatings']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 57549,
+      "with_model": 704,
+      "gate_PASS": 3,
+      "pm_gate_PASS": 8,
+      "dup_open": 23,
+      "prior_veto": 3,
+      "final_after_caps": 7,
+      "pm_tb1_tagged": 101,
+      "pm_tb1_tagged_pass": 3,
+      "tokens_tokens_unique": 758,
+      "tokens_passed_safety": 83,
+      "stake_total": 7.49,
+      "budget_caps": 80.39
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 79896.48,
+       "tp": 86288.2,
+       "stop": 75901.66,
+       "support": 79896.48,
+       "resistance": 84082.27,
+       "prices": [
+        83282.05,
+        81685.89,
+        82564.29,
+        82917.9,
+        83690.87,
+        81794.85,
+        83115.1,
+        81603.65,
+        82155.54,
+        81523.66,
+        81408.35,
+        82019.58,
+        81875.26,
+        82943.83,
+        84082.27,
+        81328.21,
+        81102.31,
+        80810.57,
+        80048.85,
+        79896.48
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 765.09,
+       "tp": 826.3,
+       "stop": 726.84,
+       "support": 759.97,
+       "resistance": 779.09,
+       "prices": [
+        764.2,
+        762.63,
+        763.99,
+        769.64,
+        774.83,
+        779.09,
+        777.22,
+        773.93,
+        778.57,
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.09
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "up",
+       "entry": 532.49,
+       "tp": 575.09,
+       "stop": 505.87,
+       "support": 508.96,
+       "resistance": 543.45,
+       "prices": [
+        508.96,
+        512.9,
+        512.8,
+        517.53,
+        525.18,
+        529.3,
+        529.76,
+        522.61,
+        535.07,
+        541.15,
+        543.45,
+        533.69,
+        539.44,
+        529.05,
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.49
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1005.38,
+       "tp": 1085.81,
+       "stop": 955.11,
+       "support": 910.34,
+       "resistance": 1018.21,
+       "prices": [
+        924.59,
+        910.34,
+        914.94,
+        920.65,
+        923.52,
+        935.68,
+        942.25,
+        947.92,
+        946.92,
+        959.44,
+        954.63,
+        982.0,
+        978.01,
+        989.11,
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.38
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 548.25,
+       "tp": 592.11,
+       "stop": 520.84,
+       "support": 497.95,
+       "resistance": 548.25,
+       "prices": [
+        502.35,
+        497.95,
+        500.5,
+        502.65,
+        504.26,
+        505.54,
+        506.25,
+        511.05,
+        515.62,
+        517.6,
+        520.59,
+        526.35,
+        525.68,
+        532.02,
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.25
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "up",
+       "entry": 184.35,
+       "tp": 199.1,
+       "stop": 175.13,
+       "support": 161.35,
+       "resistance": 184.35,
+       "prices": [
+        161.35,
+        162.75,
+        163.82,
+        164.01,
+        164.0,
+        164.48,
+        164.05,
+        168.5,
+        168.94,
+        172.15,
+        174.08,
+        177.01,
+        174.68,
+        178.98,
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.35
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "up",
+       "entry": 247.68,
+       "tp": 267.49,
+       "stop": 235.3,
+       "support": 224.56,
+       "resistance": 250.29,
+       "prices": [
+        225.31,
+        229.57,
+        236.69,
+        234.69,
+        229.79,
+        224.99,
+        224.56,
+        227.8,
+        229.13,
+        233.92,
+        238.01,
+        235.95,
+        246.74,
+        240.7,
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.68
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1278.56,
+       "tp": 1380.84,
+       "stop": 1214.63,
+       "support": 1142.85,
+       "resistance": 1306.69,
+       "prices": [
+        1184.63,
+        1157.08,
+        1149.85,
+        1142.85,
+        1143.12,
+        1157.49,
+        1188.72,
+        1169.6,
+        1179.27,
+        1182.62,
+        1166.51,
+        1208.74,
+        1251.61,
+        1257.03,
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1278.56
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "Bradford City",
+       "stance": "watch",
+       "text": "Bradford fan asks whether Connolly is suspended for the Huddersfield or Peterborough game (unconfirmed)",
+       "source": "https://x.com/odsalbantam/status/2114046629808349596"
+      },
+      {
+       "candidate": "Torino",
+       "stance": "bearish",
+       "text": "Torino: midfielder Rolando Mandragora out injured (hamstring) for the home game vs Como and the next away game at Frosinone",
+       "source": "https://x.com/CalcioNews24/status/2114294066426827136"
+      },
+      {
+       "candidate": "Kaiserslautern",
+       "stance": "bearish",
+       "text": "Kaiserslautern scorer Erencan Yardimci injured in the win at Nürnberg (Oct 24); coach Lieberknecht \"a bit shocked\"",
+       "source": "https://x.com/kickDE/status/2114114594025152905"
+      },
+      {
+       "candidate": "Botafogo",
+       "stance": "bearish",
+       "text": "Botafogo without Álvaro Montoro vs Remo (third yellow card suspension)",
+       "source": "https://x.com/BolavipBR/status/2114761710527508857"
+      },
+      {
+       "candidate": "Blackburn Rovers",
+       "stance": "bearish",
+       "text": "Blackburn: Morishita, Montgomery and Jørgensen missed the Wrexham game (\"triple injury blow\")",
+       "source": "https://x.com/Rovers/status/2113975065578528838"
+      },
+      {
+       "candidate": "Fluminense",
+       "stance": "watch",
+       "text": "Fluminense: no players lost to suspension for the next round (10 on yellow-card warning)",
+       "source": "https://x.com/NETFLU/status/2114534707174019414"
+      },
+      {
+       "candidate": "Mjällby AIF",
+       "stance": "watch",
+       "text": "Örgryte rallying fans for Thursday home game vs Mjällby; no injury/suspension news found for either side",
+       "source": "https://x.com/OrgryteFotboll/status/2114743772798218436"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "Bradford City",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Torino",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Kaiserslautern",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Botafogo",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Blackburn Rovers",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Fluminense",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Mjällby AIF",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": -0.36
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "Bradford City (Huddersfield Town @ Bradford City)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Possible Connolly suspension (unconfirmed), cup game midweek, Huddersfield get Balker back; Polymarket single book, Elo-only → TITAN shrink $1.49 → $1.00"
+      },
+      {
+       "candidate": "Torino (Como @ Torino)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Our Torino side loses key midfielder Mandragora (not in Elo inputs); EloFD 25.8% vs DRatings 20.7% (big Elo-only edge, DR edge only +1.4%); Football LEDGER-halv"
+      },
+      {
+       "candidate": "Kaiserslautern (Hertha Berlin @ Kaiserslautern)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Our Kaiserslautern side: goalscorer Yardimci injured (severity unknown, not in Elo); Polymarket single book, Elo-only; stake already $1 min → shrink impossible "
+      },
+      {
+       "candidate": "Botafogo (Botafogo @ Remo)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Our Botafogo side: attacking midfielder Montoro suspended + heavy 0–3 defeat; Polymarket single book, Elo-only; stake $1 min → TITAN BLOCK"
+      },
+      {
+       "candidate": "Blackburn Rovers (Blackburn Rovers @ Swansea City)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Our Blackburn side has 3 absences; underdog @5.0 at the odds cap; models agree with market (edge thin, 5.1%); stake $1 min → TITAN BLOCK"
+      },
+      {
+       "candidate": "Fluminense (Internacional @ Fluminense)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Fluminense absences are long-standing (already in recent results); no new suspensions; nothing new against our side → clear at $1"
+      },
+      {
+       "candidate": "Mjällby AIF (Mjällby AIF @ Örgryte IS)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "No injury/suspension news against Mjällby (DRatings model, not Elo-only) → clear at $1"
+      }
+     ],
+     "blocked_count": 4
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Bradford City (Huddersfield Town @ Bradford City)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Torino (Como @ Torino)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Kaiserslautern (Hertha Berlin @ Kaiserslautern)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Botafogo (Botafogo @ Remo)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Blackburn Rovers (Blackburn Rovers @ Swansea City)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Fluminense (Internacional @ Fluminense)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Mjällby AIF (Mjällby AIF @ Örgryte IS)",
+       "action": "BUY",
+       "size_usd": 1.0
+      }
+     ],
+     "desk_pl_today": 0.0
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 7,
+      "approved": 3,
+      "blocked": 4,
+      "note": "სკანი 57549 ოფცია; with_model 704; PASS 3+PM 8 → caps 7 (dup_open 23, prior_veto 3); NEWS/TITAN-ის შემდეგ 3"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 79884 vs MA20 81992 & SMA50 81803 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 7,
+      "approved": 3,
+      "blocked": 4,
+      "note": "X search_posts_all ×7 (ტორინო, ბრედფორდი, კაიზერსლაუტერნი, ბოტაფოგო, ბლექბერნი, ფლუმინენსე, მიელბი)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 7,
+      "approved": 3,
+      "blocked": 4,
+      "note": "overall -0.36"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 7,
+      "approved": 3,
+      "blocked": 4,
+      "note": "ფსონები: სკანის 7 PASS → 4 ვეტო (ტორინო — მანდრაგორა ტრავმირებულია; კაიზერსლაუტერნი — იარდიმჯი ტრავმირებულია; ბოტაფოგო — მონტორო დისკვალიფიცირებულია, 0–3 ინტერთან; ბლექბერნი — 3 ტრავმა, @5.0; ყველა $1 მინიმუმზეა → შემცირება შეუძლებელია), 1 შემცირება (ბრედფორდი $1.49→$1); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 3,
+      "approved": 3,
+      "blocked": 0,
+      "note": "3 ფსონი (B347 Bradford City @2.778 $1.0, B348 Fluminense @1.923 $1.0, B349 Mjällby AIF @2.439 $1.0); ბიუჯეტი ქეპებში $80.39 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 7,
+      "approved": 3,
+      "blocked": 4,
+      "note": "7 PASS კანდიდატი → 7 x-call (search_posts_all): 4 ბლოკი (ტორინო, კაიზერსლაუტერნი, ბოტაფოგო, ბლექბერნი), 1 შემცირება (ბრედფორდი — კონოლის შესაძლო დისკვალიფიკაცია, დაუდასტურებელი), 2 სუფთა (ფლუმინენსე, მიელბი)"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 post-mortem: none; ახალი გაკვეთილი არა (L008–L011 აგროვებს მაგალითებს)"
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 0/0; Football n=88 mean -4.3%; Polymarket n=94 mean -2.53%; halved=['Football', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 101, pass 3"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 1,
+      "note": "დასახლდა 0, P/L $0.0; ღიად დარჩა (მიმდინარე/გადადებული): B234, B269, B294, B327; 1 PASS (ტორინო) TITAN-მა დაბლოკა; ფეხბურთი ×½ (LEDGER)"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "NBA PASS არ არის; ღია NBA ფსონები (B325/B326, 27 ოქტ. ღამე) ელოდება შედეგს"
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/MLB/NHL",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "NFL/NCAAF/MLB/NHL PASS არ არის; ღია ფსონები ელოდება შედეგს"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "UFC PASS არ არის"
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 79884 < MA20 81992 (-2.6%), < SMA50 81803 → no buy, hold 2 lots; ETH 2316 (MA20 2435, SMA50 2539), SOL 100.41 (SMA50 109.47) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "758 scanned, 83 passed safety; buying needs BTC>MA20 → gate closed → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "ორშაბათი — აშშ ბაზარი ღიაა; 14 პოზიცია Yahoo-ს რეალური ფასებით; stop არა, TP არა; ტესტირებული შესვლის წესი არ არის → 0 ტრეიდი"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 6,
+      "approved": 3,
+      "blocked": 3,
+      "note": "L007: unmapped 501, no strict 757, matched 325; PM PASS 8; TB1 pass 3; MISMATCH none; Polymarket stakes ×½"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "FOMC 28–29 ოქტ. (ოთხშაბათი) → ახალი ფსონი/ტრეიდი არ არის დამოკიდებული; კორექცია არა"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "pm:el1-bra-hud-2026-10-31-bra",
+     "event": "Huddersfield Town @ Bradford City",
+     "sel": "Bradford City",
+     "queries": [
+      "(\"Bradford City\" OR Huddersfield) (injury OR injured OR suspended OR sacked OR \"team news\") -is:retweet since:2026-10-24"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "suspension",
+       "text": "Bradford fan asks whether Connolly is suspended for the Huddersfield or Peterborough game (unconfirmed)",
+       "source": "https://x.com/odsalbantam/status/2114046629808349596",
+       "time": "2026-10-24T17:29:28Z"
+      },
+      {
+       "type": "context",
+       "text": "Bradford play Peterborough in the cup on Oct 27 (midweek game before the league match on Oct 31)",
+       "source": "https://x.com/UnpopularPosh/status/2114752142334386439",
+       "time": "2026-10-26T16:12:55Z"
+      },
+      {
+       "type": "team",
+       "text": "Huddersfield: Radinio Balker back from injury on the bench",
+       "source": "https://x.com/BBCWYS/status/2113939008615309790",
+       "time": "2026-10-24T10:21:49Z"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Possible Connolly suspension (unconfirmed), cup game midweek, Huddersfield get Balker back; Polymarket single book, Elo-only → TITAN shrink $1.49 → $1.00"
+    },
+    {
+     "candidate": "294592",
+     "event": "Como @ Torino",
+     "sel": "Torino",
+     "queries": [
+      "Torino (injury OR injured OR suspended OR squalificato OR infortunio OR Como) -is:retweet lang:it since:2026-10-24"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Torino: midfielder Rolando Mandragora out injured (hamstring) for the home game vs Como and the next away game at Frosinone",
+       "source": "https://x.com/CalcioNews24/status/2114294066426827136",
+       "time": "2026-10-25T09:52:41Z"
+      },
+      {
+       "type": "injury",
+       "text": "Mandragora not available vs Como (confirmed by L’Angolo del Tifoso)",
+       "source": "https://x.com/L_ADT_/status/2114335925945704957",
+       "time": "2026-10-25T12:39:01Z"
+      },
+      {
+       "type": "form",
+       "text": "Como described as in a \"golden moment\" before the trip to Turin",
+       "source": "https://x.com/Toro_News/status/2114601185521143890",
+       "time": "2026-10-26T06:13:04Z"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "Our Torino side loses key midfielder Mandragora (not in Elo inputs); EloFD 25.8% vs DRatings 20.7% (big Elo-only edge, DR edge only +1.4%); Football LEDGER-halved; stake already $1 min → shrink impossible → TITAN BLOCK"
+    },
+    {
+     "candidate": "pm:bl2-fck-ber-2026-10-31-fck",
+     "event": "Hertha Berlin @ Kaiserslautern",
+     "sel": "Kaiserslautern",
+     "queries": [
+      "(Kaiserslautern OR FCK OR Hertha) (Verletzung OR verletzt OR gesperrt OR Ausfall OR injury OR suspended) -is:retweet since:2026-10-24"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Kaiserslautern scorer Erencan Yardimci injured in the win at Nürnberg (Oct 24); coach Lieberknecht \"a bit shocked\"",
+       "source": "https://x.com/kickDE/status/2114114594025152905",
+       "time": "2026-10-24T21:59:32Z"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "Our Kaiserslautern side: goalscorer Yardimci injured (severity unknown, not in Elo); Polymarket single book, Elo-only; stake already $1 min → shrink impossible → TITAN BLOCK"
+    },
+    {
+     "candidate": "pm:bra-cre-bot-2026-10-28-bot",
+     "event": "Botafogo @ Remo",
+     "sel": "Botafogo",
+     "queries": [
+      "Botafogo (Remo OR lesão OR lesionado OR suspenso OR desfalque OR desfalques) -is:retweet since:2026-10-24"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "suspension",
+       "text": "Botafogo without Álvaro Montoro vs Remo (third yellow card suspension)",
+       "source": "https://x.com/BolavipBR/status/2114761710527508857",
+       "time": "2026-10-26T16:50:56Z"
+      },
+      {
+       "type": "form",
+       "text": "Botafogo lost 0–3 at Internacional on Oct 24 (\"humiliated\")",
+       "source": "https://x.com/informafogo/status/2114100066684227705",
+       "time": "2026-10-24T21:01:48Z"
+      },
+      {
+       "type": "team",
+       "text": "Remo: defender Zé Ivaldo suspended, but Tchamba and Taliari return",
+       "source": "https://x.com/remo100porcento/status/2114780431056826485",
+       "time": "2026-10-26T18:05:20Z"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "Our Botafogo side: attacking midfielder Montoro suspended + heavy 0–3 defeat; Polymarket single book, Elo-only; stake $1 min → TITAN BLOCK"
+    },
+    {
+     "candidate": "pm:elc-swa-bbr-2026-10-31-bbr",
+     "event": "Blackburn Rovers @ Swansea City",
+     "sel": "Blackburn Rovers",
+     "queries": [
+      "(Blackburn OR Rovers OR Swansea) (injury OR injured OR suspended OR sacked OR \"team news\") -is:retweet since:2026-10-24"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Blackburn: Morishita, Montgomery and Jørgensen missed the Wrexham game (\"triple injury blow\")",
+       "source": "https://x.com/Rovers/status/2113975065578528838",
+       "time": "2026-10-24T12:45:06Z"
+      },
+      {
+       "type": "form",
+       "text": "Swansea have won 4 of 5 away games this season",
+       "source": "https://x.com/qprfansandplay1/status/2113993491550196115",
+       "time": "2026-10-24T13:58:19Z"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "Our Blackburn side has 3 absences; underdog @5.0 at the odds cap; models agree with market (edge thin, 5.1%); stake $1 min → TITAN BLOCK"
+    },
+    {
+     "candidate": "pm:bra-flu-int-2026-10-28-flu",
+     "event": "Internacional @ Fluminense",
+     "sel": "Fluminense",
+     "queries": [
+      "Fluminense (Internacional OR lesão OR lesionado OR suspenso OR desfalque OR desfalques) -is:retweet since:2026-10-24"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "team",
+       "text": "Fluminense: no players lost to suspension for the next round (10 on yellow-card warning)",
+       "source": "https://x.com/NETFLU/status/2114534707174019414",
+       "time": "2026-10-26T01:48:55Z"
+      },
+      {
+       "type": "injury",
+       "text": "Fluminense long-term absences known: John Kennedy, Millán, Martinelli, Soteldo (already out before)",
+       "source": "https://x.com/FluminenseStuff/status/2114110936604639705",
+       "time": "2026-10-24T21:45:00Z"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Fluminense absences are long-standing (already in recent results); no new suspensions; nothing new against our side → clear at $1"
+    },
+    {
+     "candidate": "pm:swe-org-mja-2026-10-29-mja",
+     "event": "Mjällby AIF @ Örgryte IS",
+     "sel": "Mjällby AIF",
+     "queries": [
+      "(Mjällby OR Örgryte OR Orgryte) -is:retweet since:2026-10-22"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "context",
+       "text": "Örgryte rallying fans for Thursday home game vs Mjällby; no injury/suspension news found for either side",
+       "source": "https://x.com/OrgryteFotboll/status/2114743772798218436",
+       "time": "2026-10-26T15:39:40Z"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "No injury/suspension news against Mjällby (DRatings model, not Elo-only) → clear at $1"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 74,
+     "src_gt_pools": 800,
+     "tokens_unique": 758,
+     "tokens_with_pairs": 746,
+     "chain_solana": 205,
+     "chain_robinhood": 7,
+     "chain_base": 174,
+     "chain_bsc": 171,
+     "chain_arc": 1,
+     "chain_ethereum": 188,
+     "gate_liquidity": 438,
+     "gate_pass": 127,
+     "gate_pump": 3,
+     "gate_rug_dump": 2,
+     "gate_too_new": 50,
+     "gate_thin_liq_fdv": 77,
+     "gate_low_activity": 49,
+     "safety_fail": 21,
+     "safety_pass": 83,
+     "safety_unverified": 23
+    },
+    "passed_n": 83,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 0 final(s): none (P/L +0.0). Not final → left open for the hourly refresh: B234, B269, B294, B327. LEDGER: DK closes 0/0; Football n=88 mean CLV -4.3% → ×½; Polymarket n=94 mean -2.53% → ×½. DOC: 0 post-mortems. Scan 57549 options → with_model 704 → PASS 3+PM 8 → 7 after dedup/caps (prior_veto 3); SHERLOCK/TITAN: 4 blocked, 1 shrunk → 3 bets. NO BUY: BTC 79884 < MA20 81992 (below SMA50 81803) → trend gate closed; hold existing 2 lots (stops 74157.6/74350.3 not hit); crypto $23.66; tokens: BTC gate closed → 0; stocks: Monday, no tested entry rule → 0.",
+   "plan": "AM 2026-10-27: B234 რეიმსი, B269 გალატასარაი, B327 ბურგოსი, B245/B329 და NBA B325/B326 დასახლდება რეალური საბოლოო შედეგებით; B294 (გადაიდო) ღიაა; BTC < MA20 და SMA50 → კარიბჭე დახურულია; FOMC 28–29 ოქტ.",
+   "settle_note": "ESPN/gamma finals: 0 settled 0W/0L +0.0 — . Left open (in play / B294 postponed): B234, B269, B294, B327.",
+   "closed_at": "2026-10-27 00:02 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -64706,22 +65960,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 80111,
+  "BTC": 79884,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 766.15,
+  "SPY": 765.09,
   "META": 721.07,
-  "AAPL": 343.33,
+  "AAPL": 343.93,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
-  "GOOGL": 318.44,
+  "GOOGL": 316.98,
   "QQQ": 717.463,
-  "XLV": 178.82,
-  "MSFT": 531.1,
+  "XLV": 179.18,
+  "MSFT": 532.49,
   "PLTR": 188.823,
-  "V": 404.26,
-  "BRK-B": 545.88,
+  "V": 404.31,
+  "BRK-B": 548.25,
   "ETH": 2397.14,
   "SOL": 103.93,
   "AMD": 542.81,
@@ -64731,23 +65985,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 409.39,
-  "COST": 1000.6,
-  "XOM": 184.2,
-  "CRM": 244.34,
-  "KO": 92.62,
+  "UNH": 410.54,
+  "COST": 1005.38,
+  "XOM": 184.34,
+  "CRM": 247.68,
+  "KO": 92.69,
   "NFLX": 71.21499633789062,
-  "WMT": 119.71,
+  "WMT": 120.41,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1281.63,
+  "LLY": 1278.56,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 69.61,
+  "XLE": 69.58,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -64764,8 +66018,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 55.81999969482422,
-  "BTC_MA20": 82002.34,
-  "BTC_MA50": 81806.85,
+  "BTC_MA20": 81992.48,
+  "BTC_MA50": 81802.91,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -64784,18 +66038,18 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-26 21:56 (Tbilisi)",
-  "total_value": 452.29,
+  "time": "2026-10-27 00:02 (Tbilisi)",
+  "total_value": 452.48,
   "deposits_usd": 500,
-  "vs_deposits_usd": -47.71,
-  "vs_deposits_pct": -9.54,
-  "btc_bench": 486.15,
-  "vs_btc_usd": -33.86,
+  "vs_deposits_usd": -47.52,
+  "vs_deposits_pct": -9.5,
+  "btc_bench": 484.77,
+  "vs_btc_usd": -32.29,
   "bets": {
    "n": 303,
    "wins": 106,
    "losses": 197,
-   "open": 43,
+   "open": 46,
    "pl_usd": -43.96,
    "roi_pct": -8.3
   },
@@ -64873,21 +66127,21 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.73,
-   "unrealized_usd": -1.27,
+   "value_usd": 23.66,
+   "unrealized_usd": -1.34,
    "realized_usd": -2.19,
-   "total_pl_usd": -3.46
+   "total_pl_usd": -3.53
   },
   "stocks": {
    "open_n": 14,
-   "value_usd": 111.39,
-   "unrealized_usd": 1.39,
+   "value_usd": 111.65,
+   "unrealized_usd": 1.65,
    "realized_usd": -1.66,
-   "total_pl_usd": -0.27
+   "total_pl_usd": -0.02
   },
-  "cash_usd": 239.2627,
-  "scanned": 56997,
-  "open_bets_usd": 77.91,
+  "cash_usd": 236.2627,
+  "scanned": 57549,
+  "open_bets_usd": 80.91,
   "desk_stats": {
    "FOOTBALL": {
     "n": 117,
@@ -64961,7 +66215,7 @@
    }
   }
  },
- "last_refresh": "2026-10-26 21:56 (Tbilisi)",
+ "last_refresh": "2026-10-27 00:02 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -66214,7 +67468,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-26 21:56 (Tbilisi)",
+  "updated": "2026-10-27 00:02 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -66277,7 +67531,7 @@
     "late_better": 37,
     "equal": 2,
     "avg_clv_pct": 3.05,
-    "no_close": 34,
+    "no_close": 37,
     "lean": "early"
    },
    "NFL": {
@@ -70356,6 +71610,39 @@
     "open": null,
     "taken": 2.174,
     "taken_time": "2026-10-26 19:00 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B347",
+    "sport": "Polymarket",
+    "event": "Huddersfield Town @ Bradford City",
+    "open": null,
+    "taken": 2.778,
+    "taken_time": "2026-10-27 00:02 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B348",
+    "sport": "Polymarket",
+    "event": "Internacional @ Fluminense",
+    "open": null,
+    "taken": 1.923,
+    "taken_time": "2026-10-27 00:02 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B349",
+    "sport": "Polymarket",
+    "event": "Mjällby AIF @ Örgryte IS",
+    "open": null,
+    "taken": 2.439,
+    "taken_time": "2026-10-27 00:02 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
