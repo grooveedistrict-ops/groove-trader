@@ -3,37 +3,8 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 165.8004,
+ "cash_usd": 166.6134,
  "open_bets": [
-  {
-   "id": "B066",
-   "sport": "Polymarket",
-   "league": "Polymarket",
-   "event": "Fed Oct 2026: no change in interest rates",
-   "kickoff": "2026-10-29 07:59",
-   "selection": "Yes (no change)",
-   "odds": 1.626,
-   "book": "Polymarket",
-   "p": 0.66,
-   "implied_pct": 61.5,
-   "edge_pct": 4.5,
-   "stake": 0.5,
-   "odds_time": "2026-10-14 19:01 (Tbilisi)",
-   "status": "open",
-   "polymarket_slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
-   "outcome_price": 0.655,
-   "odds_mark": 1.527,
-   "clv_mark_am1015": {
-    "price_now": 0.745,
-    "price_bet": 0.655,
-    "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031"
-   },
-   "match_check": {
-    "status": "n/a",
-    "reason": "non-sports market",
-    "checked": "2026-10-17 06:34 (Tbilisi)"
-   }
-  },
   {
    "id": "B076",
    "sport": "Polymarket",
@@ -19188,6 +19159,42 @@
     "note": "CLV -4.04% (3.35 vs DraftKings no-vig close 3.4911); final Detroit Pistons 97, Charlotte Hornets 89 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B066",
+   "sport": "Polymarket",
+   "league": "Polymarket",
+   "event": "Fed Oct 2026: no change in interest rates",
+   "kickoff": "2026-10-29 07:59",
+   "selection": "Yes (no change)",
+   "odds": 1.626,
+   "book": "Polymarket",
+   "p": 0.66,
+   "implied_pct": 61.5,
+   "edge_pct": 4.5,
+   "stake": 0.5,
+   "odds_time": "2026-10-14 19:01 (Tbilisi)",
+   "status": "settled",
+   "polymarket_slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
+   "outcome_price": 0.655,
+   "odds_mark": 1.527,
+   "clv_mark_am1015": {
+    "price_now": 0.745,
+    "price_bet": 0.655,
+    "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031"
+   },
+   "match_check": {
+    "status": "n/a",
+    "reason": "non-sports market",
+    "checked": "2026-10-17 06:34 (Tbilisi)"
+   },
+   "result": "won",
+   "pl_usd": 0.31,
+   "settled_at": "2026-10-29 11:00 (Tbilisi)",
+   "final_score": "Fed held rates at the Oct 2026 meeting (Polymarket resolved Yes=1)",
+   "result_source": "https://polymarket.com/market/will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
+   "settle_source": "Polymarket gamma API: closed=True, umaResolutionStatus resolved, outcomePrices Yes=1/No=0 (end 2026-10-29T03:59Z)",
+   "closing_odds": null
   }
  ],
  "positions": [
@@ -19202,7 +19209,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 80066
+   "last_price": 79875
   },
   {
    "symbol": "SPY",
@@ -19411,7 +19418,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 80066,
+   "last_price": 79875,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -80066,7 +80073,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 80066,
+  "BTC": 79875,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 772.31,
@@ -80144,20 +80151,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-29 09:03 (Tbilisi)",
-  "total_value": 428.72,
+  "time": "2026-10-29 11:00 (Tbilisi)",
+  "total_value": 428.98,
   "deposits_usd": 500,
-  "vs_deposits_usd": -71.28,
-  "vs_deposits_pct": -14.26,
-  "btc_bench": 485.88,
-  "vs_btc_usd": -57.16,
+  "vs_deposits_usd": -71.02,
+  "vs_deposits_pct": -14.2,
+  "btc_bench": 484.72,
+  "vs_btc_usd": -55.74,
   "bets": {
-   "n": 351,
-   "wins": 121,
+   "n": 352,
+   "wins": 122,
    "losses": 230,
-   "open": 66,
-   "pl_usd": -67.06,
-   "roi_pct": -10.8
+   "open": 65,
+   "pl_usd": -66.75,
+   "roi_pct": -10.7
   },
   "by_sport": {
    "NHL": {
@@ -80203,11 +80210,11 @@
     "roi_pct": -37.2
    },
    "Polymarket": {
-    "n": 131,
-    "wins": 43,
+    "n": 132,
+    "wins": 44,
     "losses": 88,
-    "pl_usd": -15.18,
-    "roi_pct": -6.0
+    "pl_usd": -14.87,
+    "roi_pct": -5.8
    },
    "NFL": {
     "n": 12,
@@ -80233,10 +80240,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.71,
-   "unrealized_usd": -1.29,
+   "value_usd": 23.66,
+   "unrealized_usd": -1.34,
    "realized_usd": -2.19,
-   "total_pl_usd": -3.48
+   "total_pl_usd": -3.53
   },
   "stocks": {
    "open_n": 14,
@@ -80245,9 +80252,9 @@
    "realized_usd": -1.66,
    "total_pl_usd": -0.74
   },
-  "cash_usd": 165.8004,
+  "cash_usd": 166.6134,
   "scanned": 64357,
-  "open_bets_usd": 128.28,
+  "open_bets_usd": 127.78,
   "desk_stats": {
    "FOOTBALL": {
     "n": 128,
@@ -80292,11 +80299,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 131,
-    "wins": 43,
+    "n": 132,
+    "wins": 44,
     "losses": 88,
-    "pl_usd": -15.18,
-    "roi_pct": -6.0
+    "pl_usd": -14.87,
+    "roi_pct": -5.8
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -80321,7 +80328,7 @@
    }
   }
  },
- "last_refresh": "2026-10-29 09:03 (Tbilisi)",
+ "last_refresh": "2026-10-29 11:00 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -81574,7 +81581,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-29 09:03 (Tbilisi)",
+  "updated": "2026-10-29 11:00 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
