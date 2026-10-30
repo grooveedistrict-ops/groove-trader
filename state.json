@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 159.768,
+ "cash_usd": 158.768,
  "open_bets": [
   {
    "id": "B076",
@@ -2934,6 +2934,49 @@
     "rule": "L007"
    },
    "elo_only": true,
+   "tb1_dog_25_40": true
+  },
+  {
+   "id": "B439",
+   "sport": "Polymarket",
+   "league": "bundesliga",
+   "event": "Mainz 05 @ Elversberg",
+   "kickoff": "2026-10-30 23:30",
+   "selection": "Elversberg",
+   "odds": 3.448,
+   "book": "Polymarket ask",
+   "p": 0.328,
+   "implied_pct": 29.0,
+   "edge_pct": 13.1,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-30 19:12 (Tbilisi)",
+   "odds_time": "2026-10-30 19:12 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.41,
+     "EloFD": 0.3804,
+     "DRatings": 0.297
+    },
+    "mkt": 0.2935,
+    "nbooks": 5,
+    "blend_p": 0.328,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bun-elv-mai-2026-10-30-elv",
+   "reasoning": "scan PASS EV=13.1% models=['FTS', 'EloFD', 'DRatings']; scan stake $1.0 (raw 5.84; A4 applied in scan.py; LEDGER halving OFF); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:bun-elv-mai-2026-10-30-elv",
+   "polymarket_slug": "bun-elv-mai-2026-10-30-elv",
+   "outcome_price": 0.29,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "SV 07 Elversberg vs. 1. FSV Mainz 05",
+    "pm_league": "GER1",
+    "pm_kickoff_utc": "2026-10-30T19:30:00.000Z",
+    "checked": "2026-10-30 19:12 (Tbilisi)",
+    "rule": "L007"
+   },
    "tb1_dog_25_40": true
   }
  ],
@@ -20102,7 +20145,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 78522
+   "last_price": 77080
   },
   {
    "symbol": "SPY",
@@ -20114,7 +20157,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 769.36
+   "last_price": 759.6
   },
   {
    "symbol": "AAPL",
@@ -20126,7 +20169,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 348.91,
+   "last_price": 348.5,
    "adds": [
     {
      "date": "2026-10-14",
@@ -20148,7 +20191,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 184.04,
+   "last_price": 186.04,
    "adds": [
     {
      "date": "2026-10-14",
@@ -20174,7 +20217,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 92.82
+   "last_price": 94.47
   },
   {
    "symbol": "MSFT",
@@ -20182,7 +20225,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 530.14,
+   "last_price": 522.05,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -20191,7 +20234,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 410.91,
+   "last_price": 407.78,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -20200,7 +20243,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 410.54,
+   "last_price": 414.37,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -20213,7 +20256,7 @@
    "stop_loss": 111.98,
    "take_profit": 127.3,
    "thesis": "ორივე MA-ს ზემოთ (108.9/108.8), დღეს +1.5% — დეფენსიური",
-   "last_price": 121.25,
+   "last_price": 123.19,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -20227,7 +20270,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 996.08,
+   "last_price": 1010.63,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -20241,7 +20284,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 541.96,
+   "last_price": 546.2,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -20255,7 +20298,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 183.29,
+   "last_price": 184.84,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -20269,7 +20312,7 @@
    "stop_loss": 64.0,
    "take_profit": 72.76,
    "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 68.71,
+   "last_price": 69.56,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -20283,7 +20326,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 78522,
+   "last_price": 77080,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -21065,6 +21108,14 @@
    "total_value": 436.67,
    "cash": 159.768,
    "btc_bench": 474.84
+  },
+  {
+   "date": "2026-10-30",
+   "slot": "MID",
+   "time": "2026-10-30 19:13 (Tbilisi)",
+   "total_value": 436.66,
+   "cash": 158.768,
+   "btc_bench": 467.76
   }
  ],
  "benchmarks_start": {
@@ -84153,6 +84204,745 @@
    "plan": "MID 2026-10-30: დღევანდელი მატჩები (ნიუპორტი, გრენობლი, ჰარტბერგი, ნანტი–კლერმონი, ფილადელფია–ნიკსი) დასახლდება რეალური საბოლოო შედეგებით; B294 (გადაიდო) ღიაა; BTC < MA20 და SMA50 → კარიბჭე დახურულია; აქციები — სტოპ/TP მონიტორინგი MID-ში; ფეხბურთის/Polymarket/NBA დესკები ცალკე იზომება.",
    "settle_note": "ESPN/gamma finals: 3 settled 1W/2L -0.76 — B328 Atalanta lost (Fiorentina 2, Atalanta 2); B349 Mjällby AIF won (Örgryte IS 1, Mjällby AIF 2); B356 Newcastle United lost (Everton 3, Newcastle United 1). Left open (in play / B294 postponed): none.",
    "closed_at": "2026-10-30 09:03 (Tbilisi)"
+  },
+  {
+   "date": "2026-10-30",
+   "slot": "MID",
+   "time": "2026-10-30 19:01 (Tbilisi)",
+   "status": "complete",
+   "note": "MID: 1 new bets (scan 1 PASS), TITAN blocked 0, shrunk 0, settled 0 (+0.0), ledger 0, post-mortems 0, no new lessons, halving OFF (owner 02:44) — Football/Polymarket/NBA tracked separately, BTC no buy (<MA20/SMA50), stocks 0 (US session open, no tested entry rule), tokens 0 (gate closed); post-unhalve: Football 0W/0L +0.00 (6 open $11.09), Polymarket 2W/6L +10.60 (31 open $51.55), NBA 0W/3L -4.31 (4 open $6.77)",
+   "ledger": [],
+   "postmortem": [],
+   "not_final_left_open": [],
+   "research": {
+    "settled": [],
+    "note": "MID paper cycle 2026-10-30 (Friday evening)",
+    "btc_hold": "NO BUY: BTC 77080 < MA20 81326 (below SMA50 81898) → trend gate closed; hold existing 2 lots (stops 74157.6/74350.3 not hit); crypto $22.83",
+    "btc": 77080,
+    "btc_ma20": 81326.2,
+    "btc_ma50": 81897.75,
+    "tokens_passed": 79,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B439"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 0,
+    "titan_shrunk": 0,
+    "nova_approved": 1,
+    "x_calls": 2,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-10-30_1901",
+    "time": "2026-10-30 19:01 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 450,
+    "funnel": {
+     "options_AN": 16229,
+     "events_AN": 526,
+     "events_ESPN": 1794,
+     "options_ESPN": 2004,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 943,
+     "model_rows_DR": 473,
+     "model_rows_FTS": 66,
+     "events_upcoming": 817,
+     "selections_priced": 2062,
+     "selections_consensus": 1413,
+     "with_model": 1182,
+     "with_2plus_model": 491,
+     "drop_too_few_books": 643,
+     "with_1_model": 691,
+     "drop_no_model": 231,
+     "elo_matched_events": 252,
+     "drop_nhl_calibration": 6,
+     "gate_ev<3": 994,
+     "gate_odds>5": 56,
+     "gate_dup_open": 35,
+     "gate_model_ev<=0": 11,
+     "gate_PASS": 2,
+     "gate_A3_range": 70,
+     "gate_L004_single_model_gap": 12,
+     "gate_TITAN_elo_disagree>10pt": 2,
+     "options_Polymarket": 45564,
+     "pm_markets": 22782,
+     "pm_liq1k": 7218,
+     "pm_sports_ml": 3191,
+     "pm_drop_L007_league_unmapped": 680,
+     "pm_drop_L007_no_strict_match": 485,
+     "pm_matched_model": 563,
+     "pm_gate_odds>5": 47,
+     "pm_gate_ev<3": 404,
+     "pm_tb1_tagged": 157,
+     "pm_gate_L004_single_model_gap": 11,
+     "pm_gate_A3_range": 51,
+     "pm_gate_dup_open": 29,
+     "pm_gate_PASS": 7,
+     "pm_gate_model_ev<=0": 11,
+     "pm_gate_TITAN_elo_disagree>10pt": 3,
+     "pm_tb1_tagged_pass": 3,
+     "dup_open": 64,
+     "prior_veto": 1,
+     "prior_veto_list_24h": 2,
+     "ledger_halve_suppressed": 7,
+     "final_after_caps": 1,
+     "stake_total": 1.0,
+     "budget_caps": 1.17,
+     "tokens_src_dexscreener_tokens": 68,
+     "tokens_src_gt_pools": 800,
+     "tokens_tokens_unique": 733,
+     "tokens_tokens_with_pairs": 723,
+     "tokens_chain_solana": 221,
+     "tokens_chain_robinhood": 8,
+     "tokens_chain_bsc": 173,
+     "tokens_chain_base": 166,
+     "tokens_chain_ethereum": 155,
+     "tokens_gate_liquidity": 408,
+     "tokens_gate_pass": 132,
+     "tokens_gate_too_new": 53,
+     "tokens_gate_pump": 3,
+     "tokens_gate_rug_dump": 2,
+     "tokens_gate_thin_liq_fdv": 101,
+     "tokens_gate_low_activity": 24,
+     "tokens_safety_pass": 79,
+     "tokens_safety_fail": 31,
+     "tokens_safety_unverified": 22,
+     "tokens_passed_safety": 79,
+     "options_scanned_total": 64520
+    },
+    "coverage_events_by_sport": {
+     "ncaaf": 64,
+     "nba": 104,
+     "nfl": 26,
+     "soccer": 428,
+     "ncaab": 71,
+     "nhl": 96,
+     "ufc": 27,
+     "wnba": 1
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 64520,
+     "candidates": [
+      {
+       "name": "Elversberg",
+       "type": "Polymarket",
+       "score": 63,
+       "why": "EV 13.1% @3.448 models=['FTS', 'EloFD', 'DRatings']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 64520,
+      "with_model": 1182,
+      "gate_PASS": 2,
+      "pm_gate_PASS": 7,
+      "dup_open": 64,
+      "prior_veto": 1,
+      "final_after_caps": 1,
+      "pm_tb1_tagged": 157,
+      "pm_tb1_tagged_pass": 3,
+      "tokens_tokens_unique": 733,
+      "tokens_passed_safety": 79,
+      "stake_total": 1.0,
+      "budget_caps": 1.17
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 77077.58,
+       "tp": 83243.79,
+       "stop": 73223.7,
+       "support": 77077.58,
+       "resistance": 84082.27,
+       "prices": [
+        83690.87,
+        81794.85,
+        83115.1,
+        81603.65,
+        82155.54,
+        81523.66,
+        81408.35,
+        82019.58,
+        81875.26,
+        82943.83,
+        84082.27,
+        81328.21,
+        81102.31,
+        80810.57,
+        80048.85,
+        80029.43,
+        80800.83,
+        81274.37,
+        77838.81,
+        77077.58
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 759.6,
+       "tp": 820.37,
+       "stop": 721.62,
+       "support": 759.6,
+       "resistance": 779.09,
+       "prices": [
+        774.83,
+        779.09,
+        777.22,
+        773.93,
+        778.57,
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        759.6
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "down",
+       "entry": 522.05,
+       "tp": 563.81,
+       "stop": 495.95,
+       "support": 521.08,
+       "resistance": 543.45,
+       "prices": [
+        525.18,
+        529.3,
+        529.76,
+        522.61,
+        535.07,
+        541.15,
+        543.45,
+        533.69,
+        539.44,
+        529.05,
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        522.05
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1010.64,
+       "tp": 1091.49,
+       "stop": 960.11,
+       "support": 923.52,
+       "resistance": 1018.21,
+       "prices": [
+        923.52,
+        935.68,
+        942.25,
+        947.92,
+        946.92,
+        959.44,
+        954.63,
+        982.0,
+        978.01,
+        989.11,
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1010.64
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 546.2,
+       "tp": 589.9,
+       "stop": 518.89,
+       "support": 504.26,
+       "resistance": 548.56,
+       "prices": [
+        504.26,
+        505.54,
+        506.25,
+        511.05,
+        515.62,
+        517.6,
+        520.59,
+        526.35,
+        525.68,
+        532.02,
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        546.2
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "up",
+       "entry": 184.85,
+       "tp": 199.64,
+       "stop": 175.61,
+       "support": 164.0,
+       "resistance": 184.85,
+       "prices": [
+        164.0,
+        164.48,
+        164.05,
+        168.5,
+        168.94,
+        172.15,
+        174.08,
+        177.01,
+        174.68,
+        178.98,
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        184.85
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 232.33,
+       "tp": 250.92,
+       "stop": 220.71,
+       "support": 224.56,
+       "resistance": 250.29,
+       "prices": [
+        229.79,
+        224.99,
+        224.56,
+        227.8,
+        229.13,
+        233.92,
+        238.01,
+        235.95,
+        246.74,
+        240.7,
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        232.33
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1432.49,
+       "tp": 1547.09,
+       "stop": 1360.87,
+       "support": 1143.12,
+       "resistance": 1432.49,
+       "prices": [
+        1143.12,
+        1157.49,
+        1188.72,
+        1169.6,
+        1179.27,
+        1182.62,
+        1166.51,
+        1208.74,
+        1251.61,
+        1257.03,
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1432.49
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "Elversberg",
+       "stance": "watch",
+       "text": "Opponent Mainz 05: Nadiem Amiri out (knee problems), return unknown",
+       "source": "https://x.com/i/status/2115202603021930856"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "Elversberg",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": 0.1
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "Elversberg (Mainz 05 @ Elversberg)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "No injury/suspension against our Elversberg side; opponent Mainz without Amiri; tipster posts ignored (PLAYBOOK 15); 3 models, EV 13.1% ≥5% for odds ≥3 → clear "
+      }
+     ],
+     "blocked_count": 0
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Elversberg (Mainz 05 @ Elversberg)",
+       "action": "BUY",
+       "size_usd": 1.0
+      }
+     ],
+     "desk_pl_today": 0.0
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "სკანი 64520 ოფცია; with_model 1182; PASS 2+PM 7 → caps 1 (dup_open 64, prior_veto 1); NEWS/TITAN-ის შემდეგ 1"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 77080 vs MA20 81326 & SMA50 81898 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "X search_posts_all only (2 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "overall 0.1"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "ფსონები: სკანის 1 PASS → 0 ვეტო, 0 შემცირება (ერთადერთი PASS — ელვერსბერგი–მაინცი: სიახლე სუფთაა; ქეპების ბიუჯეტი $1.17); ტოკენები: BTC კარიბჭე დახურული"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "1 ფსონი (B439 Elversberg @3.448 $1.0); ბიუჯეტი ქეპებში $1.14 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "1 PASS კანდიდატი → 2 x-call (search_posts_all): 0 ბლოკი, 0 შემცირება; დანარჩენი clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 post-mortem: none — ახალი წაგება არ არის; ახალი გაკვეთილი არა"
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 0/0; Football n=100 mean -4.52%; Polymarket n=128 mean -2.67%; halving OFF — reporting only (['Football', 'NBA', 'Polymarket'])"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 157, pass 3"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა ამ ციკლში: 0 (დღევანდელი მატჩები 20:00-ის შემდეგ იწყება; B294 გადაიდო); ახალი: ელვერსბერგი (Polymarket); halving OFF — ახალი კოჰორტა ცალკე ითვლება (unhalve_tracking.json)"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "NBA: ამ სკანში PASS კანდიდატი არ არის (ღია ქეპი ~35%); halving OFF"
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/MLB/NHL",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "ამ ციკლში ახალი კანდიდატი არ არის (კანზას სტეიტი — prior_veto 24სთ); ღია NCAAF/NFL ფსონები შაბათ-კვირას"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 77080 < MA20 81326 (-5.2%), < SMA50 81898 → no buy, hold 2 lots; ETH 2235 (MA20 2393, SMA50 2526), SOL 94.45 (SMA50 109.20) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "733 scanned, 79 passed safety; buying needs BTC>MA20 → gate closed → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი იხსნება 17:30-ზე თბ. — ახლა ღიაა (პარასკევი, SPY 759.6 Yahoo); 12 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; ტესტირებული შესვლის წესი არ არის → 0 ვაჭრობა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "L007: unmapped 680, no strict 485, matched 563; PM PASS 7; TB1 pass 3; MISMATCH none; Polymarket halving OFF (owner 02:44)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "FOMC უკვე გავიდა (29 ოქტ.); დღეს დიდი მაკრო რელიზი არ ელის ფსონებს → ზომის ცვლილება არა"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "pm:bun-elv-mai-2026-10-30-elv",
+     "event": "Mainz 05 @ Elversberg",
+     "sel": "Elversberg",
+     "queries": [
+      "(Elversberg OR \"SVE\" OR \"Mainz 05\" OR Mainz) (verletzt OR Verletzung OR fehlt OR fehlen OR gesperrt OR Ausfall OR Sperre OR Aufstellung OR injury OR lineup) -is:retweet since:2026-10-27",
+      "(\"SV Elversberg\" OR \"SV 07 Elversberg\" OR @SVElversberg) (Mainz OR Pokal OR Darmstadt OR Kader OR fehlt OR verletzt OR Trainer) -is:retweet since:2026-10-27"
+     ],
+     "tool_calls": 2,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Opponent Mainz 05: Nadiem Amiri out (knee problems), return unknown",
+       "source": "https://x.com/i/status/2115202603021930856",
+       "time": "2026-10-28 02:02 (Tbilisi)"
+      },
+      {
+       "type": "lineup",
+       "text": "Expected lineup Elversberg vs Mainz: no changes for Mainz; Elversberg 1 change (Sirch in, Gyamerah out)",
+       "source": "https://x.com/i/status/2115804556747534393",
+       "time": "2026-10-29 17:54 (Tbilisi)"
+      },
+      {
+       "type": "schedule",
+       "text": "Both sides played DFB-Pokal midweek (Elversberg at Darmstadt Oct 27, Mainz vs Bochum Oct 27) — equal rest",
+       "source": "https://x.com/i/status/2115155151606448636",
+       "time": "2026-10-27 22:54 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "No injury/suspension against our Elversberg side; opponent Mainz without Amiri; tipster posts ignored (PLAYBOOK 15); 3 models, EV 13.1% ≥5% for odds ≥3 → clear at $1.0 (caps budget $1.17)"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 68,
+     "src_gt_pools": 800,
+     "tokens_unique": 733,
+     "tokens_with_pairs": 723,
+     "chain_solana": 221,
+     "chain_robinhood": 8,
+     "chain_bsc": 173,
+     "chain_base": 166,
+     "chain_ethereum": 155,
+     "gate_liquidity": 408,
+     "gate_pass": 132,
+     "gate_too_new": 53,
+     "gate_pump": 3,
+     "gate_rug_dump": 2,
+     "gate_thin_liq_fdv": 101,
+     "gate_low_activity": 24,
+     "safety_pass": 79,
+     "safety_fail": 31,
+     "safety_unverified": 22
+    },
+    "passed_n": 79,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 0 final(s): none (P/L +0.0). Not final → left open for the hourly refresh: none. LEDGER: DK closes 0/0; Football n=100 mean CLV -4.52% (halving OFF); Polymarket n=128 mean -2.67% (halving OFF). DOC: 0 post-mortems. Scan 64520 options → with_model 1182 → PASS 2+PM 7 → 1 after dedup/caps (prior_veto 1); SHERLOCK/TITAN: 0 blocked, 0 shrunk → 1 bets. NO BUY: BTC 77080 < MA20 81326 (below SMA50 81898) → trend gate closed; hold existing 2 lots (stops 74157.6/74350.3 not hit); crypto $22.83; tokens: BTC gate closed → 0; stocks: US session open (Yahoo live 19:01), no stop/TP hit, no tested entry rule → 0.",
+   "plan": "PM 2026-10-30: ამაღამინდელი მატჩები (B078 ბალონ დ'ორი 20:00, B372 კონია–გალათასარაი 21:00, B357 21:30, B436 22:30, B430/B435/B437 23:00, B434 23:45, B406 ლილი 00:05, ახალი ელვერსბერგი 23:30) დასახლდება რეალური საბოლოო შედეგებით; B294 (გადაიდო) ღიაა; stop/TP არ შეხებია; BTC < MA20 და SMA50 → კარიბჭე დახურული; halving OFF — ფეხბ./Polymarket/NBA ცალკე P/L",
+   "settle_note": "ESPN/gamma finals: 0 settled 0W/0L +0.0 — . Left open (in play / B294 postponed): none.",
+   "closed_at": "2026-10-30 19:12 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -84448,22 +85238,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 78522,
+  "BTC": 77080,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 769.36,
+  "SPY": 759.6,
   "META": 721.07,
-  "AAPL": 348.91,
+  "AAPL": 348.5,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
-  "GOOGL": 283.82,
+  "GOOGL": 281.51,
   "QQQ": 717.463,
-  "XLV": 184.04,
-  "MSFT": 530.14,
+  "XLV": 186.04,
+  "MSFT": 522.05,
   "PLTR": 188.823,
-  "V": 410.54,
-  "BRK-B": 541.96,
+  "V": 414.37,
+  "BRK-B": 546.2,
   "ETH": 2397.14,
   "SOL": 103.93,
   "AMD": 542.81,
@@ -84473,23 +85263,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 410.91,
-  "COST": 996.08,
-  "XOM": 183.29,
-  "CRM": 230.9,
-  "KO": 92.82,
+  "UNH": 407.78,
+  "COST": 1010.63,
+  "XOM": 184.84,
+  "CRM": 232.33,
+  "KO": 94.47,
   "NFLX": 71.21499633789062,
-  "WMT": 121.25,
+  "WMT": 123.19,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1373.7,
+  "LLY": 1432.49,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 68.71,
+  "XLE": 69.56,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -84506,8 +85296,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 55.81999969482422,
-  "BTC_MA20": 81384.39,
-  "BTC_MA50": 81921.03,
+  "BTC_MA20": 81326.2,
+  "BTC_MA50": 81897.75,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -84526,18 +85316,18 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-30 10:59 (Tbilisi)",
-  "total_value": 436.75,
+  "time": "2026-10-30 19:13 (Tbilisi)",
+  "total_value": 436.66,
   "deposits_usd": 500,
-  "vs_deposits_usd": -63.25,
-  "vs_deposits_pct": -12.65,
-  "btc_bench": 476.51,
-  "vs_btc_usd": -39.76,
+  "vs_deposits_usd": -63.34,
+  "vs_deposits_pct": -12.67,
+  "btc_bench": 467.76,
+  "vs_btc_usd": -31.09,
   "bets": {
    "n": 358,
    "wins": 124,
    "losses": 234,
-   "open": 80,
+   "open": 81,
    "pl_usd": -59.82,
    "roi_pct": -9.4
   },
@@ -84615,21 +85405,21 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.26,
-   "unrealized_usd": -1.74,
+   "value_usd": 22.83,
+   "unrealized_usd": -2.17,
    "realized_usd": -2.19,
-   "total_pl_usd": -3.93
+   "total_pl_usd": -4.36
   },
   "stocks": {
    "open_n": 12,
-   "value_usd": 102.04,
-   "unrealized_usd": 2.04,
+   "value_usd": 102.38,
+   "unrealized_usd": 2.38,
    "realized_usd": -1.53,
-   "total_pl_usd": 0.51
+   "total_pl_usd": 0.85
   },
-  "cash_usd": 159.768,
-  "scanned": 63839,
-  "open_bets_usd": 151.69,
+  "cash_usd": 158.768,
+  "scanned": 64520,
+  "open_bets_usd": 152.69,
   "desk_stats": {
    "FOOTBALL": {
     "n": 129,
@@ -84703,7 +85493,7 @@
    }
   }
  },
- "last_refresh": "2026-10-30 10:59 (Tbilisi)",
+ "last_refresh": "2026-10-30 19:13 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -85956,7 +86746,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-30 10:59 (Tbilisi)",
+  "updated": "2026-10-30 19:13 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -86019,7 +86809,7 @@
     "late_better": 50,
     "equal": 2,
     "avg_clv_pct": 3.1,
-    "no_close": 58,
+    "no_close": 59,
     "lean": "early"
    },
    "NFL": {
@@ -91173,6 +91963,17 @@
     "open": null,
     "taken": 2.778,
     "taken_time": "2026-10-30 09:03 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B439",
+    "sport": "Polymarket",
+    "event": "Mainz 05 @ Elversberg",
+    "open": null,
+    "taken": 3.448,
+    "taken_time": "2026-10-30 19:12 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
