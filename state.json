@@ -76,41 +76,6 @@
    }
   },
   {
-   "id": "B078",
-   "sport": "Polymarket",
-   "league": "Ballon d'Or 2026",
-   "event": "Will Harry Kane win the 2026 Ballon d'Or?",
-   "kickoff": "2026-10-30 20:00",
-   "selection": "No",
-   "odds": 2.611,
-   "book": "Polymarket gamma",
-   "p": 0.42,
-   "implied_pct": 38.3,
-   "edge_pct": 5.1,
-   "stake": 2.5,
-   "outcome_price": 0.383,
-   "polymarket_slug": "will-harry-kane-win-the-2026-ballon-dor",
-   "reasoning": "Kane Yes≈61.7¢ — ევროპული კონსენსუსი ხშირად გადაჭარბებულია ადრეულ ციკლში; No prior 42% vs 38.3% → EV≈5.1%.",
-   "model_inputs": {
-    "market_no": 0.383,
-    "soft_prior_no": 0.42,
-    "blend": "0.5×ბაზარი + 0.5×prior"
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets",
-   "odds_time": "2026-10-15 00:06 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "price_now": 0.3695,
-    "price_bet": 0.383,
-    "slug": "will-harry-kane-win-the-2026-ballon-dor"
-   },
-   "match_check": {
-    "status": "n/a",
-    "reason": "non-sports market",
-    "checked": "2026-10-17 06:34 (Tbilisi)"
-   }
-  },
-  {
    "id": "B079",
    "sport": "Polymarket",
    "league": "Geopolitics",
@@ -20131,6 +20096,48 @@
     "note": "CLV +16.20% (3.448 vs DraftKings no-vig close 2.9673); final Everton 3, Newcastle United 1 (FT). Price beat the close — loss is variance.",
     "lesson": null
    }
+  },
+  {
+   "id": "B078",
+   "sport": "Polymarket",
+   "league": "Ballon d'Or 2026",
+   "event": "Will Harry Kane win the 2026 Ballon d'Or?",
+   "kickoff": "2026-10-30 20:00",
+   "selection": "No",
+   "odds": 2.611,
+   "book": "Polymarket gamma",
+   "p": 0.42,
+   "implied_pct": 38.3,
+   "edge_pct": 5.1,
+   "stake": 2.5,
+   "outcome_price": 0.383,
+   "polymarket_slug": "will-harry-kane-win-the-2026-ballon-dor",
+   "reasoning": "Kane Yes≈61.7¢ — ევროპული კონსენსუსი ხშირად გადაჭარბებულია ადრეულ ციკლში; No prior 42% vs 38.3% → EV≈5.1%.",
+   "model_inputs": {
+    "market_no": 0.383,
+    "soft_prior_no": 0.42,
+    "blend": "0.5×ბაზარი + 0.5×prior"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "price_now": 0.3695,
+    "price_bet": 0.383,
+    "slug": "will-harry-kane-win-the-2026-ballon-dor"
+   },
+   "match_check": {
+    "status": "n/a",
+    "reason": "non-sports market",
+    "checked": "2026-10-17 06:34 (Tbilisi)"
+   },
+   "result": "lost",
+   "pl_usd": -2.5,
+   "settled_at": "2026-10-30 22:00 (Tbilisi)",
+   "final_score": "Harry Kane won the 2026 Ballon d'Or (Polymarket resolved Yes=1); our pick No lost",
+   "result_source": "https://polymarket.com/market/will-harry-kane-win-the-2026-ballon-dor",
+   "settle_source": "Polymarket gamma API: closed=True, umaResolutionStatus resolved, outcomePrices Yes=1/No=0 (end 2026-10-27T03:59Z)",
+   "closing_odds": null
   }
  ],
  "positions": [
@@ -20145,7 +20152,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 77080
+   "last_price": 77167
   },
   {
    "symbol": "SPY",
@@ -20157,7 +20164,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 759.6
+   "last_price": 755.3
   },
   {
    "symbol": "AAPL",
@@ -20169,7 +20176,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 348.5,
+   "last_price": 344.94,
    "adds": [
     {
      "date": "2026-10-14",
@@ -20191,7 +20198,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 186.04,
+   "last_price": 185.76,
    "adds": [
     {
      "date": "2026-10-14",
@@ -20217,7 +20224,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 94.47
+   "last_price": 94.5
   },
   {
    "symbol": "MSFT",
@@ -20225,7 +20232,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 522.05,
+   "last_price": 521.08,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -20234,7 +20241,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 407.78,
+   "last_price": 409.74,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -20243,7 +20250,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 414.37,
+   "last_price": 415.73,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -20256,7 +20263,7 @@
    "stop_loss": 111.98,
    "take_profit": 127.3,
    "thesis": "ორივე MA-ს ზემოთ (108.9/108.8), დღეს +1.5% — დეფენსიური",
-   "last_price": 123.19,
+   "last_price": 123.75,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -20270,7 +20277,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 1010.63,
+   "last_price": 1019.07,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -20284,7 +20291,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 546.2,
+   "last_price": 545.67,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -20298,7 +20305,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 184.84,
+   "last_price": 186.34,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -20312,7 +20319,7 @@
    "stop_loss": 64.0,
    "take_profit": 72.76,
    "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 69.56,
+   "last_price": 69.67,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -20326,7 +20333,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 77080,
+   "last_price": 77167,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -85238,22 +85245,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 77080,
+  "BTC": 77167,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 759.6,
+  "SPY": 755.3,
   "META": 721.07,
-  "AAPL": 348.5,
+  "AAPL": 344.94,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
-  "GOOGL": 281.51,
+  "GOOGL": 278.81,
   "QQQ": 717.463,
-  "XLV": 186.04,
-  "MSFT": 522.05,
+  "XLV": 185.76,
+  "MSFT": 521.08,
   "PLTR": 188.823,
-  "V": 414.37,
-  "BRK-B": 546.2,
+  "V": 415.73,
+  "BRK-B": 545.67,
   "ETH": 2397.14,
   "SOL": 103.93,
   "AMD": 542.81,
@@ -85263,23 +85270,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 407.78,
-  "COST": 1010.63,
-  "XOM": 184.84,
-  "CRM": 232.33,
-  "KO": 94.47,
+  "UNH": 409.74,
+  "COST": 1019.07,
+  "XOM": 186.34,
+  "CRM": 229.44,
+  "KO": 94.5,
   "NFLX": 71.21499633789062,
-  "WMT": 123.19,
+  "WMT": 123.75,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1432.49,
+  "LLY": 1425.88,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 69.56,
+  "XLE": 69.67,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -85316,20 +85323,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-30 19:13 (Tbilisi)",
-  "total_value": 436.66,
+  "time": "2026-10-30 21:57 (Tbilisi)",
+  "total_value": 434.19,
   "deposits_usd": 500,
-  "vs_deposits_usd": -63.34,
-  "vs_deposits_pct": -12.67,
-  "btc_bench": 467.76,
-  "vs_btc_usd": -31.09,
+  "vs_deposits_usd": -65.81,
+  "vs_deposits_pct": -13.16,
+  "btc_bench": 468.28,
+  "vs_btc_usd": -34.09,
   "bets": {
-   "n": 358,
+   "n": 359,
    "wins": 124,
-   "losses": 234,
-   "open": 81,
-   "pl_usd": -59.82,
-   "roi_pct": -9.4
+   "losses": 235,
+   "open": 80,
+   "pl_usd": -62.32,
+   "roi_pct": -9.8
   },
   "by_sport": {
    "NHL": {
@@ -85375,11 +85382,11 @@
     "roi_pct": -37.2
    },
    "Polymarket": {
-    "n": 136,
+    "n": 137,
     "wins": 46,
-    "losses": 90,
-    "pl_usd": -5.48,
-    "roi_pct": -2.1
+    "losses": 91,
+    "pl_usd": -7.98,
+    "roi_pct": -3.0
    },
    "NFL": {
     "n": 12,
@@ -85405,10 +85412,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 22.83,
-   "unrealized_usd": -2.17,
+   "value_usd": 22.86,
+   "unrealized_usd": -2.14,
    "realized_usd": -2.19,
-   "total_pl_usd": -4.36
+   "total_pl_usd": -4.33
   },
   "stocks": {
    "open_n": 12,
@@ -85419,7 +85426,7 @@
   },
   "cash_usd": 158.768,
   "scanned": 64520,
-  "open_bets_usd": 152.69,
+  "open_bets_usd": 150.19,
   "desk_stats": {
    "FOOTBALL": {
     "n": 129,
@@ -85464,11 +85471,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 136,
+    "n": 137,
     "wins": 46,
-    "losses": 90,
-    "pl_usd": -5.48,
-    "roi_pct": -2.1
+    "losses": 91,
+    "pl_usd": -7.98,
+    "roi_pct": -3.0
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -85493,7 +85500,7 @@
    }
   }
  },
- "last_refresh": "2026-10-30 19:13 (Tbilisi)",
+ "last_refresh": "2026-10-30 21:57 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -86746,7 +86753,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-30 19:13 (Tbilisi)",
+  "updated": "2026-10-30 21:57 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -91088,6 +91095,17 @@
     "better": "early"
    },
    {
+    "id": "B078",
+    "sport": "Polymarket",
+    "event": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "open": null,
+    "taken": 2.611,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B076",
     "sport": "Polymarket",
     "event": "Will the Democrats win the Nevada governor race in 2026?",
@@ -91104,17 +91122,6 @@
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
     "open": null,
     "taken": 2.275,
-    "taken_time": "2026-10-15 00:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B078",
-    "sport": "Polymarket",
-    "event": "Will Harry Kane win the 2026 Ballon d'Or?",
-    "open": null,
-    "taken": 2.611,
     "taken_time": "2026-10-15 00:06 (Tbilisi)",
     "close": null,
     "close_source": null,
