@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 158.768,
+ "cash_usd": 158.6468,
  "open_bets": [
   {
    "id": "B076",
@@ -629,48 +629,6 @@
    "tb1_dog_25_40": true
   },
   {
-   "id": "B357",
-   "sport": "Polymarket",
-   "league": "soc_ger.2",
-   "event": "VfL Bochum @ Energie Cottbus",
-   "kickoff": "2026-10-30 21:30",
-   "selection": "Energie Cottbus",
-   "odds": 2.941,
-   "book": "Polymarket ask",
-   "p": 0.3676,
-   "implied_pct": 34.0,
-   "edge_pct": 8.12,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-27 08:59 (Tbilisi)",
-   "odds_time": "2026-10-27 08:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.3968
-    },
-    "mkt": 0.3383,
-    "nbooks": 1,
-    "blend_p": 0.3676,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bl2-fce-boc-2026-10-30-fce",
-   "reasoning": "scan PASS EV=8.12% models=['EloFD']; scan stake $1.18 (raw 1.18; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "pm:bl2-fce-boc-2026-10-30-fce",
-   "polymarket_slug": "bl2-fce-boc-2026-10-30-fce",
-   "outcome_price": 0.34,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "FC Energie Cottbus vs. VfL Bochum",
-    "pm_league": "GER2",
-    "pm_kickoff_utc": "2026-10-30T17:30Z",
-    "checked": "2026-10-27 08:59 (Tbilisi)",
-    "rule": "L007"
-   },
-   "elo_only": true,
-   "tb1_dog_25_40": true
-  },
-  {
    "id": "B358",
    "sport": "Football",
    "league": "soc_jpn.1",
@@ -914,47 +872,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl (scan/2026-10-27_2358 id=290946)",
    "reasoning": "scan PASS EV=5.71% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 8.24; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
    "scan_id": "290946"
-  },
-  {
-   "id": "B372",
-   "sport": "Polymarket",
-   "league": "soc_tur.1",
-   "event": "Galatasaray @ Konyaspor",
-   "kickoff": "2026-10-30 21:00",
-   "selection": "Galatasaray",
-   "odds": 1.695,
-   "book": "Polymarket ask",
-   "p": 0.6212,
-   "implied_pct": 59.0,
-   "edge_pct": 5.29,
-   "stake": 1.25,
-   "status": "open",
-   "opened_at": "2026-10-28 00:04 (Tbilisi)",
-   "odds_time": "2026-10-28 00:04 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.6657,
-     "DRatings": 0.677
-    },
-    "mkt": 0.571,
-    "nbooks": 1,
-    "blend_p": 0.6212,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=tur-kon-gal-2026-10-30-gal",
-   "reasoning": "scan PASS EV=5.29% models=['EloFD', 'DRatings']; scan stake $2.5 (raw 4.24; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.25; NEWS shrink → TITAN APPROVED at $1.25",
-   "scan_id": "pm:tur-kon-gal-2026-10-30-gal",
-   "polymarket_slug": "tur-kon-gal-2026-10-30-gal",
-   "outcome_price": 0.59,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Konyaspor vs. Galatasaray SK",
-    "pm_league": "TUR1",
-    "pm_kickoff_utc": "2026-10-30T17:00Z",
-    "checked": "2026-10-28 00:04 (Tbilisi)",
-    "rule": "L007"
-   }
   },
   {
    "id": "B373",
@@ -2940,6 +2857,78 @@
     "pm_league": "GER1",
     "pm_kickoff_utc": "2026-10-30T19:30:00.000Z",
     "checked": "2026-10-30 19:12 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true
+  },
+  {
+   "id": "B440",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Colorado State Rams @ Utah State Aggies",
+   "kickoff": "2026-10-31 23:30",
+   "selection": "Colorado State Rams",
+   "odds": 3.35,
+   "book": "Action Network real book id69",
+   "p": 0.3314,
+   "implied_pct": 29.9,
+   "edge_pct": 11.01,
+   "stake": 1.24,
+   "status": "open",
+   "opened_at": "2026-10-31 00:04 (Tbilisi)",
+   "odds_time": "2026-10-31 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.316,
+     "DRatings": 0.401
+    },
+    "mkt": 0.3042,
+    "nbooks": 5,
+    "blend_p": 0.3314,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-10-30_2359 id=289760)",
+   "reasoning": "scan PASS EV=11.01% models=['ESPN', 'DRatings']; scan stake $1.24 (raw 5.09; A4 applied in scan.py; LEDGER halving OFF); NEWS clear → TITAN APPROVED at $1.24",
+   "scan_id": "289760"
+  },
+  {
+   "id": "B441",
+   "sport": "Polymarket",
+   "league": "soc_por.1",
+   "event": "Santa Clara @ Maritimo",
+   "kickoff": "2026-11-01 22:00",
+   "selection": "Maritimo",
+   "odds": 3.704,
+   "book": "Polymarket ask",
+   "p": 0.2861,
+   "implied_pct": 27.0,
+   "edge_pct": 5.96,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-10-31 00:04 (Tbilisi)",
+   "odds_time": "2026-10-31 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2862,
+     "DRatings": 0.315
+    },
+    "mkt": 0.2717,
+    "nbooks": 1,
+    "blend_p": 0.2861,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=por-csm-cds-2026-11-01-csm",
+   "reasoning": "scan PASS EV=5.96% models=['EloFD', 'DRatings']; scan stake $1.0 (raw 2.4; A4 applied in scan.py; LEDGER halving OFF); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:por-csm-cds-2026-11-01-csm",
+   "polymarket_slug": "por-csm-cds-2026-11-01-csm",
+   "outcome_price": 0.27,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "CS Marítimo vs. CD Santa Clara",
+    "pm_league": "POR1",
+    "pm_kickoff_utc": "2026-11-01T18:00Z",
+    "checked": "2026-10-31 00:04 (Tbilisi)",
     "rule": "L007"
    },
    "tb1_dog_25_40": true
@@ -20138,6 +20127,122 @@
    "result_source": "https://polymarket.com/market/will-harry-kane-win-the-2026-ballon-dor",
    "settle_source": "Polymarket gamma API: closed=True, umaResolutionStatus resolved, outcomePrices Yes=1/No=0 (end 2026-10-27T03:59Z)",
    "closing_odds": null
+  },
+  {
+   "id": "B357",
+   "sport": "Polymarket",
+   "league": "soc_ger.2",
+   "event": "VfL Bochum @ Energie Cottbus",
+   "kickoff": "2026-10-30 21:30",
+   "selection": "Energie Cottbus",
+   "odds": 2.941,
+   "book": "Polymarket ask",
+   "p": 0.3676,
+   "implied_pct": 34.0,
+   "edge_pct": 8.12,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-27 08:59 (Tbilisi)",
+   "odds_time": "2026-10-27 08:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3968
+    },
+    "mkt": 0.3383,
+    "nbooks": 1,
+    "blend_p": 0.3676,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bl2-fce-boc-2026-10-30-fce",
+   "reasoning": "scan PASS EV=8.12% models=['EloFD']; scan stake $1.18 (raw 1.18; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "pm:bl2-fce-boc-2026-10-30-fce",
+   "polymarket_slug": "bl2-fce-boc-2026-10-30-fce",
+   "outcome_price": 0.34,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "FC Energie Cottbus vs. VfL Bochum",
+    "pm_league": "GER2",
+    "pm_kickoff_utc": "2026-10-30T17:30Z",
+    "checked": "2026-10-27 08:59 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-10-30 23:59 (Tbilisi)",
+   "final_score": "Energie Cottbus 1, VfL Bochum 2 (FT)",
+   "score": "Energie Cottbus 1, VfL Bochum 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/summary?event=401885066",
+   "settle_source": "ESPN ger.2 event 401885066 STATUS_FULL_TIME, VfL Bochum winner; Polymarket Energie Cottbus Yes trading 0.0005 (UMA resolution pending)",
+   "closing_odds": 3.15,
+   "closing_fair_odds": 3.3289,
+   "clv_pct": -11.65,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+215', 'away': '+110', 'draw': '+280'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/summary?event=401885066",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+215', 'away': '+110', 'draw': '+280'}; no-vig fair 3.3289; recorded PM 2026-10-30 23:59 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-10-30 23:59 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -11.65% (2.941 vs DraftKings no-vig close 3.3289); final Energie Cottbus 1, VfL Bochum 2 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B372",
+   "sport": "Polymarket",
+   "league": "soc_tur.1",
+   "event": "Galatasaray @ Konyaspor",
+   "kickoff": "2026-10-30 21:00",
+   "selection": "Galatasaray",
+   "odds": 1.695,
+   "book": "Polymarket ask",
+   "p": 0.6212,
+   "implied_pct": 59.0,
+   "edge_pct": 5.29,
+   "stake": 1.25,
+   "status": "settled",
+   "opened_at": "2026-10-28 00:04 (Tbilisi)",
+   "odds_time": "2026-10-28 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.6657,
+     "DRatings": 0.677
+    },
+    "mkt": 0.571,
+    "nbooks": 1,
+    "blend_p": 0.6212,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=tur-kon-gal-2026-10-30-gal",
+   "reasoning": "scan PASS EV=5.29% models=['EloFD', 'DRatings']; scan stake $2.5 (raw 4.24; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.25; NEWS shrink → TITAN APPROVED at $1.25",
+   "scan_id": "pm:tur-kon-gal-2026-10-30-gal",
+   "polymarket_slug": "tur-kon-gal-2026-10-30-gal",
+   "outcome_price": 0.59,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Konyaspor vs. Galatasaray SK",
+    "pm_league": "TUR1",
+    "pm_kickoff_utc": "2026-10-30T17:00Z",
+    "checked": "2026-10-28 00:04 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 0.87,
+   "settled_at": "2026-10-30 23:59 (Tbilisi)",
+   "final_score": "Konyaspor 0, Galatasaray 4 (FT)",
+   "score": "Konyaspor 0, Galatasaray 4 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/summary?event=401888259",
+   "settle_source": "ESPN tur.1 event 401888259 STATUS_FULL_TIME, Galatasaray winner; Polymarket Galatasaray Yes trading 0.9995 (UMA resolution pending)",
+   "closing_odds": 1.5405,
+   "closing_fair_odds": 1.6283,
+   "clv_pct": 4.1,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+425', 'away': '-185', 'draw': '+360'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/summary?event=401888259",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+425', 'away': '-185', 'draw': '+360'}; no-vig fair 1.6283; recorded PM 2026-10-30 23:59 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome"
   }
  ],
  "positions": [
@@ -20152,7 +20257,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 77167
+   "last_price": 76841
   },
   {
    "symbol": "SPY",
@@ -20164,7 +20269,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 755.3
+   "last_price": 751.53
   },
   {
    "symbol": "AAPL",
@@ -20176,7 +20281,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 344.94,
+   "last_price": 344.03,
    "adds": [
     {
      "date": "2026-10-14",
@@ -20198,7 +20303,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 185.76,
+   "last_price": 185.09,
    "adds": [
     {
      "date": "2026-10-14",
@@ -20224,7 +20329,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 94.5
+   "last_price": 94.17
   },
   {
    "symbol": "MSFT",
@@ -20232,7 +20337,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 521.08,
+   "last_price": 523.5,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -20241,7 +20346,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 409.74,
+   "last_price": 407.33,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -20250,7 +20355,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 415.73,
+   "last_price": 413.26,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -20263,7 +20368,7 @@
    "stop_loss": 111.98,
    "take_profit": 127.3,
    "thesis": "ორივე MA-ს ზემოთ (108.9/108.8), დღეს +1.5% — დეფენსიური",
-   "last_price": 123.75,
+   "last_price": 123.57,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -20277,7 +20382,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 1019.07,
+   "last_price": 1017.88,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -20291,7 +20396,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 545.67,
+   "last_price": 542.51,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -20305,7 +20410,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 186.34,
+   "last_price": 187.26,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -20319,7 +20424,7 @@
    "stop_loss": 64.0,
    "take_profit": 72.76,
    "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 69.67,
+   "last_price": 70.05,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -20333,7 +20438,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 77167,
+   "last_price": 76841,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -21123,6 +21228,14 @@
    "total_value": 436.66,
    "cash": 158.768,
    "btc_bench": 467.76
+  },
+  {
+   "date": "2026-10-30",
+   "slot": "PM",
+   "time": "2026-10-31 00:04 (Tbilisi)",
+   "total_value": 433.77,
+   "cash": 158.6468,
+   "btc_bench": 466.31
   }
  ],
  "benchmarks_start": {
@@ -84950,6 +85063,936 @@
    "plan": "PM 2026-10-30: ამაღამინდელი მატჩები (B078 ბალონ დ'ორი 20:00, B372 კონია–გალათასარაი 21:00, B357 21:30, B436 22:30, B430/B435/B437 23:00, B434 23:45, B406 ლილი 00:05, ახალი ელვერსბერგი 23:30) დასახლდება რეალური საბოლოო შედეგებით; B294 (გადაიდო) ღიაა; stop/TP არ შეხებია; BTC < MA20 და SMA50 → კარიბჭე დახურული; halving OFF — ფეხბ./Polymarket/NBA ცალკე P/L",
    "settle_note": "ESPN/gamma finals: 0 settled 0W/0L +0.0 — . Left open (in play / B294 postponed): none.",
    "closed_at": "2026-10-30 19:12 (Tbilisi)"
+  },
+  {
+   "date": "2026-10-30",
+   "slot": "PM",
+   "time": "2026-10-30 23:58 (Tbilisi)",
+   "status": "complete",
+   "note": "PM: 2 new bets (scan 3 PASS), TITAN blocked 1, shrunk 0, settled 2 (-0.13), ledger 2, post-mortems 1, no new lessons, halving OFF (owner 02:44) — Football/Polymarket/NBA tracked separately, BTC no buy (<MA20/SMA50), stocks 0 (US closed, no tested entry rule), tokens 0 (gate closed); post-unhalve cohort (since 10-28 02:44): Polymarket 2W/6L +$10.60, NBA 0W/3L −$4.31, Football 0 settled (6 open)",
+   "ledger": [
+    {
+     "id": "B357",
+     "odds": 2.941,
+     "close": 3.15,
+     "fair": 3.3289,
+     "clv_pct": -11.65,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/summary?event=401885066"
+    },
+    {
+     "id": "B372",
+     "odds": 1.695,
+     "close": 1.5405,
+     "fair": 1.6283,
+     "clv_pct": 4.1,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/summary?event=401888259"
+    }
+   ],
+   "postmortem": [
+    {
+     "id": "B357",
+     "cause": "price+variance",
+     "clv_pct": -11.65,
+     "note": "CLV -11.65% (2.941 vs DraftKings no-vig close 3.3289); final Energie Cottbus 1, VfL Bochum 2 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
+    }
+   ],
+   "not_final_left_open": [
+    {
+     "id": "B430",
+     "event": "Pau @ Metz",
+     "espn": "STATUS_HALFTIME"
+    },
+    {
+     "id": "B434",
+     "event": "Chesterfield @ Newport County",
+     "espn": "STATUS_FIRST_HALF"
+    },
+    {
+     "id": "B435",
+     "event": "Dijon FCO @ Grenoble",
+     "espn": "STATUS_HALFTIME"
+    },
+    {
+     "id": "B436",
+     "event": "TSV Hartberg @ Grazer AK",
+     "espn": "STATUS_SECOND_HALF"
+    },
+    {
+     "id": "B437",
+     "event": "Clermont Foot @ Nantes",
+     "espn": "STATUS_HALFTIME"
+    },
+    {
+     "id": "B439",
+     "event": "Mainz 05 @ Elversberg",
+     "espn": "STATUS_FIRST_HALF"
+    }
+   ],
+   "research": {
+    "settled": [
+     {
+      "id": "B357",
+      "event": "VfL Bochum @ Energie Cottbus",
+      "sel": "Energie Cottbus",
+      "odds": 2.941,
+      "stake": 1.0,
+      "result": "lost",
+      "pl_usd": -1.0,
+      "score": "Energie Cottbus 1, VfL Bochum 2",
+      "sport": "Polymarket"
+     },
+     {
+      "id": "B372",
+      "event": "Galatasaray @ Konyaspor",
+      "sel": "Galatasaray",
+      "odds": 1.695,
+      "stake": 1.25,
+      "result": "won",
+      "pl_usd": 0.87,
+      "score": "Konyaspor 0, Galatasaray 4",
+      "sport": "Polymarket"
+     }
+    ],
+    "note": "PM paper cycle 2026-10-30 (Friday night)",
+    "btc_hold": "NO BUY: BTC 76841 < MA20 81314 (below SMA50 81893) → trend gate closed; hold existing 2 lots (stops 74157.6/74350.3 not hit); crypto $22.76",
+    "btc": 76841,
+    "btc_ma20": 81314.35,
+    "btc_ma50": 81893.02,
+    "tokens_passed": 8,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B440",
+     "B441"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 1,
+    "titan_shrunk": 0,
+    "nova_approved": 2,
+    "x_calls": 3,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-10-30_2359",
+    "time": "2026-10-30 23:59 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 250,
+    "funnel": {
+     "options_AN": 16793,
+     "events_AN": 526,
+     "events_ESPN": 1794,
+     "options_ESPN": 2016,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 943,
+     "model_rows_DR": 466,
+     "model_rows_FTS": 50,
+     "events_upcoming": 791,
+     "selections_priced": 1984,
+     "selections_consensus": 1335,
+     "with_model": 1101,
+     "with_2plus_model": 434,
+     "drop_too_few_books": 623,
+     "with_1_model": 667,
+     "drop_no_model": 234,
+     "elo_matched_events": 232,
+     "drop_nhl_calibration": 26,
+     "gate_ev<3": 921,
+     "gate_A3_range": 67,
+     "gate_odds>5": 53,
+     "gate_dup_open": 33,
+     "gate_model_ev<=0": 9,
+     "gate_PASS": 4,
+     "gate_L004_single_model_gap": 12,
+     "gate_TITAN_elo_disagree>10pt": 2,
+     "options_Polymarket": 45674,
+     "pm_markets": 22837,
+     "pm_liq1k": 5724,
+     "pm_sports_ml": 3023,
+     "pm_drop_L007_league_unmapped": 707,
+     "pm_drop_L007_no_strict_match": 410,
+     "pm_matched_model": 518,
+     "pm_gate_odds>5": 46,
+     "pm_gate_ev<3": 369,
+     "pm_tb1_tagged": 142,
+     "pm_gate_L004_single_model_gap": 11,
+     "pm_gate_A3_range": 53,
+     "pm_gate_PASS": 3,
+     "pm_gate_dup_open": 23,
+     "pm_gate_model_ev<=0": 10,
+     "pm_tb1_tagged_pass": 1,
+     "pm_gate_TITAN_elo_disagree>10pt": 3,
+     "dup_open": 56,
+     "prior_veto": 1,
+     "prior_veto_list_24h": 2,
+     "ledger_halve_suppressed": 4,
+     "final_after_caps": 3,
+     "stake_total": 3.48,
+     "budget_caps": 4.03,
+     "tokens_src_dexscreener_tokens": 70,
+     "tokens_src_gt_pools": 120,
+     "tokens_tokens_unique": 178,
+     "tokens_tokens_with_pairs": 117,
+     "tokens_chain_solana": 22,
+     "tokens_chain_robinhood": 4,
+     "tokens_chain_hyperevm": 1,
+     "tokens_chain_bsc": 14,
+     "tokens_chain_base": 39,
+     "tokens_chain_ethereum": 37,
+     "tokens_gate_pass": 14,
+     "tokens_gate_liquidity": 73,
+     "tokens_gate_too_new": 8,
+     "tokens_gate_thin_liq_fdv": 21,
+     "tokens_gate_rug_dump": 1,
+     "tokens_safety_pass": 8,
+     "tokens_safety_fail": 2,
+     "tokens_safety_unverified": 4,
+     "tokens_passed_safety": 8,
+     "options_scanned_total": 64600
+    },
+    "coverage_events_by_sport": {
+     "ncaaf": 64,
+     "nba": 104,
+     "nfl": 26,
+     "soccer": 402,
+     "ncaab": 71,
+     "nhl": 96,
+     "ufc": 27,
+     "wnba": 1
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 64600,
+     "candidates": [
+      {
+       "name": "Colorado State Rams",
+       "type": "ncaaf",
+       "score": 61,
+       "why": "EV 11.01% @3.35 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Ohio State Buckeyes",
+       "type": "ncaaf",
+       "score": 56,
+       "why": "EV 6.77% @1.455 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Maritimo",
+       "type": "Polymarket",
+       "score": 55,
+       "why": "EV 5.96% @3.704 models=['EloFD', 'DRatings']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 64600,
+      "with_model": 1101,
+      "gate_PASS": 4,
+      "pm_gate_PASS": 3,
+      "dup_open": 56,
+      "prior_veto": 1,
+      "final_after_caps": 3,
+      "pm_tb1_tagged": 142,
+      "pm_tb1_tagged_pass": 1,
+      "tokens_tokens_unique": 178,
+      "tokens_passed_safety": 8,
+      "stake_total": 3.48,
+      "budget_caps": 4.03
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 76840.71,
+       "tp": 82987.97,
+       "stop": 72998.67,
+       "support": 76840.71,
+       "resistance": 84082.27,
+       "prices": [
+        83690.87,
+        81794.85,
+        83115.1,
+        81603.65,
+        82155.54,
+        81523.66,
+        81408.35,
+        82019.58,
+        81875.26,
+        82943.83,
+        84082.27,
+        81328.21,
+        81102.31,
+        80810.57,
+        80048.85,
+        80029.43,
+        80800.83,
+        81274.37,
+        77838.81,
+        76840.71
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 751.53,
+       "tp": 811.65,
+       "stop": 713.95,
+       "support": 751.53,
+       "resistance": 779.09,
+       "prices": [
+        774.83,
+        779.09,
+        777.22,
+        773.93,
+        778.57,
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        751.53
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "down",
+       "entry": 523.51,
+       "tp": 565.39,
+       "stop": 497.33,
+       "support": 521.08,
+       "resistance": 543.45,
+       "prices": [
+        525.18,
+        529.3,
+        529.76,
+        522.61,
+        535.07,
+        541.15,
+        543.45,
+        533.69,
+        539.44,
+        529.05,
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        523.51
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1017.88,
+       "tp": 1099.31,
+       "stop": 966.99,
+       "support": 923.52,
+       "resistance": 1018.21,
+       "prices": [
+        923.52,
+        935.68,
+        942.25,
+        947.92,
+        946.92,
+        959.44,
+        954.63,
+        982.0,
+        978.01,
+        989.11,
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1017.88
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 542.51,
+       "tp": 585.91,
+       "stop": 515.38,
+       "support": 504.26,
+       "resistance": 548.56,
+       "prices": [
+        504.26,
+        505.54,
+        506.25,
+        511.05,
+        515.62,
+        517.6,
+        520.59,
+        526.35,
+        525.68,
+        532.02,
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        542.51
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "up",
+       "entry": 187.26,
+       "tp": 202.24,
+       "stop": 177.9,
+       "support": 164.0,
+       "resistance": 187.26,
+       "prices": [
+        164.0,
+        164.48,
+        164.05,
+        168.5,
+        168.94,
+        172.15,
+        174.08,
+        177.01,
+        174.68,
+        178.98,
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        187.26
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 229.41,
+       "tp": 247.76,
+       "stop": 217.94,
+       "support": 224.56,
+       "resistance": 250.29,
+       "prices": [
+        229.79,
+        224.99,
+        224.56,
+        227.8,
+        229.13,
+        233.92,
+        238.01,
+        235.95,
+        246.74,
+        240.7,
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        229.41
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1415.16,
+       "tp": 1528.37,
+       "stop": 1344.4,
+       "support": 1143.12,
+       "resistance": 1415.16,
+       "prices": [
+        1143.12,
+        1157.49,
+        1188.72,
+        1169.6,
+        1179.27,
+        1182.62,
+        1166.51,
+        1208.74,
+        1251.61,
+        1257.03,
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1415.16
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "Colorado State Rams",
+       "stance": "watch",
+       "text": "Colorado State: leading WR RJ Vick probable, RB Mel Brown questionable on initial injury report for Utah State",
+       "source": "https://x.com/i/status/2115626245572702391"
+      },
+      {
+       "candidate": "Ohio State Buckeyes",
+       "stance": "bearish",
+       "text": "Ohio State starting QB Julian Sayin out (arm injury vs Indiana); Ryan Day has not named a starter (Fahey or St. Clair)",
+       "source": "https://x.com/i/status/2116167013492310219"
+      },
+      {
+       "candidate": "Maritimo",
+       "stance": "watch",
+       "text": "Opponent Santa Clara: Gonçalo Paciência injured; Pedro Ferreira out (return unknown)",
+       "source": "https://x.com/i/status/2114840483780325730"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "Colorado State Rams",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Ohio State Buckeyes",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Maritimo",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": -0.13
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "Colorado State Rams (Colorado State Rams @ Utah State Aggies)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Our Colorado State side: starting QB healthy, only RB Mel Brown questionable (minor); no suspension/coach news; tipster posts ignored → clear"
+      },
+      {
+       "candidate": "Ohio State Buckeyes (Ohio State Buckeyes @ USC Trojans)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Our Ohio State side: starting QB Julian Sayin OUT, backup unnamed, 10 players ruled out; models disagree (ESPN 0.827 vs DRatings 0.748) → material negative → TI"
+      },
+      {
+       "candidate": "Maritimo (Santa Clara @ Maritimo)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "No injury/suspension found against our Marítimo side; opponent Santa Clara missing Paciência and Pedro Ferreira; tipster posts ignored → clear at $1.0"
+      }
+     ],
+     "blocked_count": 1
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Colorado State Rams (Colorado State Rams @ Utah State Agg)",
+       "action": "BUY",
+       "size_usd": 1.24
+      },
+      {
+       "candidate": "Ohio State Buckeyes (Ohio State Buckeyes @ USC Trojans)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Maritimo (Santa Clara @ Maritimo)",
+       "action": "BUY",
+       "size_usd": 1.0
+      }
+     ],
+     "desk_pl_today": -0.13
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 3,
+      "approved": 2,
+      "blocked": 1,
+      "note": "სკანი 64600 ოფცია; with_model 1101; PASS 4+PM 3 → caps 3 (dup_open 56, prior_veto 1); NEWS/TITAN-ის შემდეგ 2"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 76841 vs MA20 81314 & SMA50 81893 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 3,
+      "approved": 2,
+      "blocked": 1,
+      "note": "X search_posts_all only (3 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 3,
+      "approved": 2,
+      "blocked": 1,
+      "note": "overall -0.13"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 3,
+      "approved": 2,
+      "blocked": 1,
+      "note": "ფსონები: სკანის 3 PASS → 1 ვეტო, 0 შემცირება (ოჰაიო სტეიტი დაბლოკა — სტარტერი QB Sayin out; კოლორადო სტეიტი და მარიტიმო სუფთაა; ქეპების ბიუჯეტი $4.03); ტოკენები: BTC კარიბჭე დახურული"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 2,
+      "approved": 2,
+      "blocked": 0,
+      "note": "2 ფსონი (B440 Colorado State Rams @3.35 $1.24, B441 Maritimo @3.704 $1.0); ბიუჯეტი ქეპებში $3.88 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 3,
+      "approved": 2,
+      "blocked": 1,
+      "note": "3 PASS კანდიდატი → 3 x-call (search_posts_all): 1 ბლოკი, 0 შემცირება; დანარჩენი clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 0,
+      "note": "1 post-mortem: B357 price+variance; ახალი გაკვეთილი არა"
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 2,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 2/2; Football n=100 mean -4.52%; Polymarket n=130 mean -2.69%; halving OFF — reporting only (['Football', 'NBA', 'Polymarket'])"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 142, pass 1"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა ამ ციკლში: B357 კოტბუსი წააგო, B372 გალათასარაი მოიგო (Polymarket); B430/B434/B435/B436/B437/B439 ჯერ მიმდინარეობს → საათობრივ განახლებაზე; B294 გადაიდო; ახალი: მარიტიმო (Polymarket); halving OFF — ახალი კოჰორტა ცალკე ითვლება (unhalve_tracking.json)"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "NBA: ამ სკანში PASS კანდიდატი არ არის (ღია ქეპი ~35%); halving OFF"
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/MLB/NHL",
+      "group": "desk",
+      "proposals": 2,
+      "approved": 1,
+      "blocked": 1,
+      "note": "NCAAF: კოლორადო სტეიტი დამტკიცდა, ოჰაიო სტეიტი დაიბლოკა (QB Sayin out); კანზას სტეიტი — prior_veto 24სთ"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 76841 < MA20 81314 (-5.5%), < SMA50 81893 → no buy, hold 2 lots; ETH 2237 (MA20 2393, SMA50 2526), SOL 94.77 (SMA50 109.21) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "178 scanned, 8 passed safety; buying needs BTC>MA20 → gate closed → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი დაიხურა (პარასკევი, SPY 751.53 Yahoo close); 12 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; ტესტირებული შესვლის წესი არ არის → 0 ვაჭრობა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "L007: unmapped 707, no strict 410, matched 518; PM PASS 3; TB1 pass 1; MISMATCH none; Polymarket halving OFF (owner 02:44)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "FOMC უკვე გავიდა (29 ოქტ.); დღეს დიდი მაკრო რელიზი არ ელის ფსონებს → ზომის ცვლილება არა"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "289760",
+     "event": "Colorado State Rams @ Utah State Aggies",
+     "sel": "Colorado State Rams",
+     "queries": [
+      "(\"Colorado State\" OR CSURams) (injury OR injured OR out OR quarterback OR QB OR suspended OR \"ruled out\") -is:retweet since:2026-10-26"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Colorado State: leading WR RJ Vick probable, RB Mel Brown questionable on initial injury report for Utah State",
+       "source": "https://x.com/i/status/2115626245572702391",
+       "time": "2026-10-29 06:06 (Tbilisi)"
+      },
+      {
+       "type": "form",
+       "text": "CSU QB Hauss Hejny named national player of the week (week 8) — starter healthy",
+       "source": "https://x.com/i/status/2115154973130629515",
+       "time": "2026-10-27 22:53 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Our Colorado State side: starting QB healthy, only RB Mel Brown questionable (minor); no suspension/coach news; tipster posts ignored → clear"
+    },
+    {
+     "candidate": "289807",
+     "event": "Ohio State Buckeyes @ USC Trojans",
+     "sel": "Ohio State Buckeyes",
+     "queries": [
+      "(\"Ohio State\" OR Buckeyes) (USC OR Trojans) (injury OR injured OR out OR questionable OR \"ruled out\" OR suspended) -is:retweet since:2026-10-26"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Ohio State starting QB Julian Sayin out (arm injury vs Indiana); Ryan Day has not named a starter (Fahey or St. Clair)",
+       "source": "https://x.com/i/status/2116167013492310219",
+       "time": "2026-10-30 17:55 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "10 Buckeyes ruled out for USC (incl. WR Brock Boyd, LB Eli Lee); Timmons and Inniss questionable",
+       "source": "https://x.com/i/status/2115958994845966694",
+       "time": "2026-10-30 04:08 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "Our Ohio State side: starting QB Julian Sayin OUT, backup unnamed, 10 players ruled out; models disagree (ESPN 0.827 vs DRatings 0.748) → material negative → TITAN BLOCK (same rule as Kansas State QB veto)"
+    },
+    {
+     "candidate": "pm:por-csm-cds-2026-11-01-csm",
+     "event": "Santa Clara @ Maritimo",
+     "sel": "Maritimo",
+     "queries": [
+      "(Marítimo OR Maritimo OR \"Santa Clara\") (lesão OR lesionado OR castigado OR suspenso OR convocados OR baixa OR injury) -is:retweet since:2026-10-26"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Opponent Santa Clara: Gonçalo Paciência injured; Pedro Ferreira out (return unknown)",
+       "source": "https://x.com/i/status/2114840483780325730",
+       "time": "2026-10-27 02:03 (Tbilisi)"
+      },
+      {
+       "type": "discipline",
+       "text": "Santa Clara assistant coach Tiago Pinto suspended 15 days after Benfica game; Fernando not suspended (process opened)",
+       "source": "https://x.com/i/status/2115834006654566816",
+       "time": "2026-10-29 19:51 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "No injury/suspension found against our Marítimo side; opponent Santa Clara missing Paciência and Pedro Ferreira; tipster posts ignored → clear at $1.0"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 70,
+     "src_gt_pools": 120,
+     "tokens_unique": 178,
+     "tokens_with_pairs": 117,
+     "chain_solana": 22,
+     "chain_robinhood": 4,
+     "chain_hyperevm": 1,
+     "chain_bsc": 14,
+     "chain_base": 39,
+     "chain_ethereum": 37,
+     "gate_pass": 14,
+     "gate_liquidity": 73,
+     "gate_too_new": 8,
+     "gate_thin_liq_fdv": 21,
+     "gate_rug_dump": 1,
+     "safety_pass": 8,
+     "safety_fail": 2,
+     "safety_unverified": 4
+    },
+    "passed_n": 8,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 2 final(s): B357 lost -1.0, B372 won +0.87 (P/L -0.13). Not final → left open for the hourly refresh: B430, B434, B435, B436, B437, B439. LEDGER: DK closes 2/2; Football n=100 mean CLV -4.52% (halving OFF); Polymarket n=130 mean -2.69% (halving OFF). DOC: 1 post-mortems. Scan 64600 options → with_model 1101 → PASS 4+PM 3 → 3 after dedup/caps (prior_veto 1); SHERLOCK/TITAN: 1 blocked, 0 shrunk → 2 bets. NO BUY: BTC 76841 < MA20 81314 (below SMA50 81893) → trend gate closed; hold existing 2 lots (stops 74157.6/74350.3 not hit); crypto $22.76; tokens: BTC gate closed → 0; stocks: US session closed (Yahoo Friday close), no stop/TP hit, no tested entry rule → 0.",
+   "plan": "AM 2026-10-31: ამაღამინდელი მატჩები (B430/B435/B437 ფრანგ. ლიგა 2, B434 ნიუპორტი, B436 ჰარტბერგი, B439 ელვერსბერგი, B406 ლილი) დასახლდება რეალური საბოლოო შედეგებით საათობრივ/AM ციკლზე; B294 (გადაიდო) ღიაა; შაბათს NCAAF (კოლორადო სტეიტი), ევრო ფეხბურთი; stop/TP არ შეხებია; BTC < MA20 და SMA50 → კარიბჭე დახურული; halving OFF — ფეხბ./Polymarket/NBA ცალკე P/L",
+   "settle_note": "ESPN/gamma finals: 2 settled 1W/1L -0.13 — B357 Energie Cottbus lost (Energie Cottbus 1, VfL Bochum 2); B372 Galatasaray won (Konyaspor 0, Galatasaray 4). Left open (in play / B294 postponed): B430, B434, B435, B436, B437, B439.",
+   "closed_at": "2026-10-31 00:04 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -85245,22 +86288,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 77167,
+  "BTC": 76841,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 755.3,
+  "SPY": 751.53,
   "META": 721.07,
-  "AAPL": 344.94,
+  "AAPL": 344.03,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
-  "GOOGL": 278.81,
+  "GOOGL": 279.05,
   "QQQ": 717.463,
-  "XLV": 185.76,
-  "MSFT": 521.08,
+  "XLV": 185.09,
+  "MSFT": 523.5,
   "PLTR": 188.823,
-  "V": 415.73,
-  "BRK-B": 545.67,
+  "V": 413.26,
+  "BRK-B": 542.51,
   "ETH": 2397.14,
   "SOL": 103.93,
   "AMD": 542.81,
@@ -85270,23 +86313,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 409.74,
-  "COST": 1019.07,
-  "XOM": 186.34,
-  "CRM": 229.44,
-  "KO": 94.5,
+  "UNH": 407.33,
+  "COST": 1017.88,
+  "XOM": 187.26,
+  "CRM": 229.41,
+  "KO": 94.17,
   "NFLX": 71.21499633789062,
-  "WMT": 123.75,
+  "WMT": 123.57,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1425.88,
+  "LLY": 1415.16,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 69.67,
+  "XLE": 70.05,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -85303,8 +86346,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 55.81999969482422,
-  "BTC_MA20": 81326.2,
-  "BTC_MA50": 81897.75,
+  "BTC_MA20": 81314.35,
+  "BTC_MA50": 81893.02,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -85323,19 +86366,19 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-10-30 21:57 (Tbilisi)",
-  "total_value": 434.19,
+  "time": "2026-10-31 00:05 (Tbilisi)",
+  "total_value": 433.77,
   "deposits_usd": 500,
-  "vs_deposits_usd": -65.81,
-  "vs_deposits_pct": -13.16,
-  "btc_bench": 468.28,
-  "vs_btc_usd": -34.09,
+  "vs_deposits_usd": -66.23,
+  "vs_deposits_pct": -13.25,
+  "btc_bench": 466.31,
+  "vs_btc_usd": -32.54,
   "bets": {
-   "n": 359,
-   "wins": 124,
-   "losses": 235,
+   "n": 361,
+   "wins": 125,
+   "losses": 236,
    "open": 80,
-   "pl_usd": -62.32,
+   "pl_usd": -62.45,
    "roi_pct": -9.8
   },
   "by_sport": {
@@ -85382,10 +86425,10 @@
     "roi_pct": -37.2
    },
    "Polymarket": {
-    "n": 137,
-    "wins": 46,
-    "losses": 91,
-    "pl_usd": -7.98,
+    "n": 139,
+    "wins": 47,
+    "losses": 92,
+    "pl_usd": -8.11,
     "roi_pct": -3.0
    },
    "NFL": {
@@ -85412,21 +86455,21 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 22.86,
-   "unrealized_usd": -2.14,
+   "value_usd": 22.76,
+   "unrealized_usd": -2.24,
    "realized_usd": -2.19,
-   "total_pl_usd": -4.33
+   "total_pl_usd": -4.43
   },
   "stocks": {
    "open_n": 12,
-   "value_usd": 102.38,
-   "unrealized_usd": 2.38,
+   "value_usd": 102.18,
+   "unrealized_usd": 2.18,
    "realized_usd": -1.53,
-   "total_pl_usd": 0.85
+   "total_pl_usd": 0.65
   },
-  "cash_usd": 158.768,
-  "scanned": 64520,
-  "open_bets_usd": 150.19,
+  "cash_usd": 158.6468,
+  "scanned": 64600,
+  "open_bets_usd": 150.18,
   "desk_stats": {
    "FOOTBALL": {
     "n": 129,
@@ -85471,10 +86514,10 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 137,
-    "wins": 46,
-    "losses": 91,
-    "pl_usd": -7.98,
+    "n": 139,
+    "wins": 47,
+    "losses": 92,
+    "pl_usd": -8.11,
     "roi_pct": -3.0
    },
    "CRYPTO MAJORS": {
@@ -85500,7 +86543,7 @@
    }
   }
  },
- "last_refresh": "2026-10-30 21:57 (Tbilisi)",
+ "last_refresh": "2026-10-31 00:05 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -86753,7 +87796,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-10-30 21:57 (Tbilisi)",
+  "updated": "2026-10-31 00:05 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -86798,7 +87841,7 @@
     "late_better": 4,
     "equal": 1,
     "avg_clv_pct": 9.73,
-    "no_close": 12,
+    "no_close": 13,
     "lean": "early"
    },
    "NBA": {
@@ -86811,12 +87854,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 128,
-    "early_better": 76,
-    "late_better": 50,
+    "n": 130,
+    "early_better": 77,
+    "late_better": 51,
     "equal": 2,
-    "avg_clv_pct": 3.1,
-    "no_close": 59,
+    "avg_clv_pct": 3.08,
+    "no_close": 58,
     "lean": "early"
    },
    "NFL": {
@@ -91106,6 +92149,30 @@
     "better": null
    },
    {
+    "id": "B357",
+    "sport": "Polymarket",
+    "event": "VfL Bochum @ Energie Cottbus",
+    "open": null,
+    "taken": 2.941,
+    "taken_time": "2026-10-27 08:59 (Tbilisi)",
+    "close": 3.15,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/summary?event=401885066",
+    "clv_pct": -6.63,
+    "better": "late"
+   },
+   {
+    "id": "B372",
+    "sport": "Polymarket",
+    "event": "Galatasaray @ Konyaspor",
+    "open": null,
+    "taken": 1.695,
+    "taken_time": "2026-10-28 00:04 (Tbilisi)",
+    "close": 1.5405,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/summary?event=401888259",
+    "clv_pct": 10.03,
+    "better": "early"
+   },
+   {
     "id": "B076",
     "sport": "Polymarket",
     "event": "Will the Democrats win the Nevada governor race in 2026?",
@@ -91293,17 +92360,6 @@
     "better": null
    },
    {
-    "id": "B357",
-    "sport": "Polymarket",
-    "event": "VfL Bochum @ Energie Cottbus",
-    "open": null,
-    "taken": 2.941,
-    "taken_time": "2026-10-27 08:59 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B358",
     "sport": "Football",
     "event": "Kawasaki Frontale @ Yokohama F. Marinos",
@@ -91375,17 +92431,6 @@
     "event": "Atlanta Falcons @ Tampa Bay Buccaneers",
     "open": null,
     "taken": 1.769,
-    "taken_time": "2026-10-28 00:04 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B372",
-    "sport": "Polymarket",
-    "event": "Galatasaray @ Konyaspor",
-    "open": null,
-    "taken": 1.695,
     "taken_time": "2026-10-28 00:04 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -91984,6 +93029,28 @@
     "close": null,
     "close_source": null,
     "better": null
+   },
+   {
+    "id": "B440",
+    "sport": "NCAAF",
+    "event": "Colorado State Rams @ Utah State Aggies",
+    "open": null,
+    "taken": 3.35,
+    "taken_time": "2026-10-31 00:04 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B441",
+    "sport": "Polymarket",
+    "event": "Santa Clara @ Maritimo",
+    "open": null,
+    "taken": 3.704,
+    "taken_time": "2026-10-31 00:04 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
    }
   ]
  },
@@ -91998,8 +93065,8 @@
    "mean_clv_pct": -4.52
   },
   "Polymarket": {
-   "n": 128,
-   "mean_clv_pct": -2.67
+   "n": 130,
+   "mean_clv_pct": -2.69
   },
   "NCAAF": {
    "n": 30,
