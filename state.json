@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 163.2377,
+ "cash_usd": 166.1877,
  "open_bets": [
   {
    "id": "B076",
@@ -262,36 +262,6 @@
     "rule": "L007"
    },
    "tb1_dog_25_40": true
-  },
-  {
-   "id": "B358",
-   "sport": "Football",
-   "league": "soc_jpn.1",
-   "event": "Kawasaki Frontale @ Yokohama F. Marinos",
-   "kickoff": "2026-11-01 08:00",
-   "selection": "Yokohama F. Marinos",
-   "odds": 2.95,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.3656,
-   "implied_pct": 33.9,
-   "edge_pct": 7.84,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-10-27 08:59 (Tbilisi)",
-   "odds_time": "2026-10-27 08:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4178
-    },
-    "mkt": 0.3133,
-    "nbooks": 1,
-    "blend_p": 0.3656,
-    "elo_only": true
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/summary?event=401877580",
-   "reasoning": "scan PASS EV=7.84% models=['EloFD']; scan stake $1.14 (raw 1.14; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "espn401877580",
-   "elo_only": true
   },
   {
    "id": "B359",
@@ -22299,6 +22269,49 @@
    "settle_source": "ESPN UFC event 600061420 bout 401931555 STATUS_FINAL, Cody Durden winner",
    "closing_odds": null,
    "closing_note": "no real close recorded (UFC; ESPN pickcenter n/a)"
+  },
+  {
+   "id": "B358",
+   "sport": "Football",
+   "league": "soc_jpn.1",
+   "event": "Kawasaki Frontale @ Yokohama F. Marinos",
+   "kickoff": "2026-11-01 08:00",
+   "selection": "Yokohama F. Marinos",
+   "odds": 2.95,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.3656,
+   "implied_pct": 33.9,
+   "edge_pct": 7.84,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-10-27 08:59 (Tbilisi)",
+   "odds_time": "2026-10-27 08:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4178
+    },
+    "mkt": 0.3133,
+    "nbooks": 1,
+    "blend_p": 0.3656,
+    "elo_only": true
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/summary?event=401877580",
+   "reasoning": "scan PASS EV=7.84% models=['EloFD']; scan stake $1.14 (raw 1.14; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "espn401877580",
+   "elo_only": true,
+   "result": "won",
+   "pl_usd": 1.95,
+   "settled_at": "2026-11-01 10:57 (Tbilisi)",
+   "final_score": "Yokohama F. Marinos 4, Kawasaki Frontale 2 (FT)",
+   "score": "Yokohama F. Marinos 4, Kawasaki Frontale 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/summary?event=401877580",
+   "settle_source": "ESPN jpn.1 event 401877580 STATUS_FULL_TIME, Yokohama F. Marinos winner",
+   "closing_odds": 3.15,
+   "closing_fair_odds": 3.3443,
+   "clv_pct": -11.79,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+215', 'away': '+105', 'draw': '+290'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/summary?event=401877580",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+215', 'away': '+105', 'draw': '+290'}; no-vig fair 3.3443; recorded HOURLY 2026-11-01 10:57 (Tbilisi)"
   }
  ],
  "positions": [
@@ -22313,7 +22326,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 77754
+   "last_price": 77924
   },
   {
    "symbol": "SPY",
@@ -22494,7 +22507,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 77754,
+   "last_price": 77924,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -94330,7 +94343,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 77754,
+  "BTC": 77924,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 755.72,
@@ -94408,20 +94421,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-01 09:08 (Tbilisi)",
-  "total_value": 431.96,
+  "time": "2026-11-01 10:57 (Tbilisi)",
+  "total_value": 433.96,
   "deposits_usd": 500,
-  "vs_deposits_usd": -68.04,
-  "vs_deposits_pct": -13.61,
-  "btc_bench": 471.85,
-  "vs_btc_usd": -39.88,
+  "vs_deposits_usd": -66.04,
+  "vs_deposits_pct": -13.21,
+  "btc_bench": 472.88,
+  "vs_btc_usd": -38.92,
   "bets": {
-   "n": 417,
-   "wins": 144,
+   "n": 418,
+   "wins": 145,
    "losses": 273,
-   "open": 59,
-   "pl_usd": -64.48,
-   "roi_pct": -8.9
+   "open": 58,
+   "pl_usd": -62.53,
+   "roi_pct": -8.6
   },
   "by_sport": {
    "NHL": {
@@ -94446,11 +94459,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 141,
-    "wins": 43,
+    "n": 142,
+    "wins": 44,
     "losses": 98,
-    "pl_usd": -14.44,
-    "roi_pct": -7.5
+    "pl_usd": -12.49,
+    "roi_pct": -6.4
    },
    "NCAAF": {
     "n": 44,
@@ -94497,10 +94510,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.03,
-   "unrealized_usd": -1.97,
+   "value_usd": 23.08,
+   "unrealized_usd": -1.92,
    "realized_usd": -2.19,
-   "total_pl_usd": -4.16
+   "total_pl_usd": -4.11
   },
   "stocks": {
    "open_n": 12,
@@ -94509,16 +94522,16 @@
    "realized_usd": -1.53,
    "total_pl_usd": 0.62
   },
-  "cash_usd": 163.2377,
+  "cash_usd": 166.1877,
   "scanned": 52148,
-  "open_bets_usd": 143.55,
+  "open_bets_usd": 142.55,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 141,
-    "wins": 43,
+    "n": 142,
+    "wins": 44,
     "losses": 98,
-    "pl_usd": -14.44,
-    "roi_pct": -7.5
+    "pl_usd": -12.49,
+    "roi_pct": -6.4
    },
    "BASKETBALL": {
     "n": 36,
@@ -94585,7 +94598,7 @@
    }
   }
  },
- "last_refresh": "2026-11-01 09:08 (Tbilisi)",
+ "last_refresh": "2026-11-01 10:57 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -95838,7 +95851,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-01 09:08 (Tbilisi)",
+  "updated": "2026-11-01 10:57 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -95869,12 +95882,12 @@
     "lean": null
    },
    "Football": {
-    "n": 112,
+    "n": 113,
     "early_better": 59,
-    "late_better": 42,
+    "late_better": 43,
     "equal": 11,
-    "avg_clv_pct": 1.22,
-    "no_close": 44,
+    "avg_clv_pct": 1.15,
+    "no_close": 43,
     "lean": "early"
    },
    "NCAAF": {
@@ -100886,6 +100899,18 @@
     "better": null
    },
    {
+    "id": "B358",
+    "sport": "Football",
+    "event": "Kawasaki Frontale @ Yokohama F. Marinos",
+    "open": null,
+    "taken": 2.95,
+    "taken_time": "2026-10-27 08:59 (Tbilisi)",
+    "close": 3.15,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/summary?event=401877580",
+    "clv_pct": -6.35,
+    "better": "late"
+   },
+   {
     "id": "B076",
     "sport": "Polymarket",
     "event": "Will the Democrats win the Nevada governor race in 2026?",
@@ -100957,17 +100982,6 @@
     "event": "Sevilla @ Getafe",
     "open": null,
     "taken": 3.226,
-    "taken_time": "2026-10-27 08:59 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B358",
-    "sport": "Football",
-    "event": "Kawasaki Frontale @ Yokohama F. Marinos",
-    "open": null,
-    "taken": 2.95,
     "taken_time": "2026-10-27 08:59 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -101542,8 +101556,8 @@
  ],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 112,
-   "mean_clv_pct": -4.57
+   "n": 113,
+   "mean_clv_pct": -4.63
   },
   "Polymarket": {
    "n": 156,
