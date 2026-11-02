@@ -633,48 +633,6 @@
    "elo_only": true
   },
   {
-   "id": "B418",
-   "sport": "Polymarket",
-   "league": "mls",
-   "event": "Houston Dynamo FC @ Portland Timbers",
-   "kickoff": "2026-11-02 06:45",
-   "selection": "Houston Dynamo FC",
-   "odds": 4.0,
-   "book": "Polymarket ask",
-   "p": 0.2782,
-   "implied_pct": 25.0,
-   "edge_pct": 11.28,
-   "stake": 4.03,
-   "status": "open",
-   "opened_at": "2026-10-29 19:01 (Tbilisi)",
-   "odds_time": "2026-10-29 19:01 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.3282,
-     "DRatings": 0.282
-    },
-    "mkt": 0.2514,
-    "nbooks": 4,
-    "blend_p": 0.2782,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mls-por-hou-2026-11-01-hou",
-   "reasoning": "scan PASS EV=11.28% models=['EloFD', 'DRatings']; scan stake $4.03 (raw 4.03; A4 applied in scan.py; LEDGER halving OFF); NEWS clear → TITAN APPROVED at $4.03",
-   "scan_id": "pm:mls-por-hou-2026-11-01-hou",
-   "polymarket_slug": "mls-por-hou-2026-11-01-hou",
-   "outcome_price": 0.25,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Portland Timbers vs. Houston Dynamo",
-    "pm_league": "USA1",
-    "pm_kickoff_utc": "2026-11-02T02:45:00.000Z",
-    "checked": "2026-10-29 19:01 (Tbilisi)",
-    "rule": "L007"
-   },
-   "tb1_dog_25_40": true
-  },
-  {
    "id": "B424",
    "sport": "Football",
    "league": "europa",
@@ -23756,6 +23714,68 @@
     "note": "CLV -10.19% (2.0 vs DraftKings no-vig close 2.2269); final Londrina 1, América Mineiro 3 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B418",
+   "sport": "Polymarket",
+   "league": "mls",
+   "event": "Houston Dynamo FC @ Portland Timbers",
+   "kickoff": "2026-11-02 06:45",
+   "selection": "Houston Dynamo FC",
+   "odds": 4.0,
+   "book": "Polymarket ask",
+   "p": 0.2782,
+   "implied_pct": 25.0,
+   "edge_pct": 11.28,
+   "stake": 4.03,
+   "status": "settled",
+   "opened_at": "2026-10-29 19:01 (Tbilisi)",
+   "odds_time": "2026-10-29 19:01 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3282,
+     "DRatings": 0.282
+    },
+    "mkt": 0.2514,
+    "nbooks": 4,
+    "blend_p": 0.2782,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=mls-por-hou-2026-11-01-hou",
+   "reasoning": "scan PASS EV=11.28% models=['EloFD', 'DRatings']; scan stake $4.03 (raw 4.03; A4 applied in scan.py; LEDGER halving OFF); NEWS clear → TITAN APPROVED at $4.03",
+   "scan_id": "pm:mls-por-hou-2026-11-01-hou",
+   "polymarket_slug": "mls-por-hou-2026-11-01-hou",
+   "outcome_price": 0.25,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Portland Timbers vs. Houston Dynamo",
+    "pm_league": "USA1",
+    "pm_kickoff_utc": "2026-11-02T02:45:00.000Z",
+    "checked": "2026-10-29 19:01 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -4.03,
+   "settled_at": "2026-11-02 10:54 (Tbilisi)",
+   "final_score": "Portland Timbers 3, Houston Dynamo FC 1 (FT)",
+   "score": "Portland Timbers 3, Houston Dynamo FC 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761933",
+   "settle_source": "ESPN usa.1 event 761933 STATUS_FULL_TIME, Portland Timbers winner; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 4.2,
+   "closing_fair_odds": 4.5552,
+   "clv_pct": -12.19,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-140', 'away': '+320', 'draw': '+280'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761933",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-140', 'away': '+320', 'draw': '+280'}; no-vig fair 4.5552; recorded HOURLY 2026-11-02 10:54 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-02 10:54 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -12.19% (4.0 vs DraftKings no-vig close 4.5552); final Portland Timbers 3, Houston Dynamo FC 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -23770,7 +23790,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 78439
+   "last_price": 78116
   },
   {
    "symbol": "SPY",
@@ -23951,7 +23971,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 78439,
+   "last_price": 78116,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -100252,7 +100272,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 78439,
+  "BTC": 78116,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 755.72,
@@ -100330,20 +100350,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-02 09:03 (Tbilisi)",
-  "total_value": 429.48,
+  "time": "2026-11-02 10:54 (Tbilisi)",
+  "total_value": 425.35,
   "deposits_usd": 500,
-  "vs_deposits_usd": -70.52,
-  "vs_deposits_pct": -14.1,
-  "btc_bench": 476.0,
-  "vs_btc_usd": -46.53,
+  "vs_deposits_usd": -74.65,
+  "vs_deposits_pct": -14.93,
+  "btc_bench": 474.04,
+  "vs_btc_usd": -48.69,
   "bets": {
-   "n": 439,
+   "n": 440,
    "wins": 152,
-   "losses": 287,
-   "open": 70,
-   "pl_usd": -67.17,
-   "roi_pct": -8.7
+   "losses": 288,
+   "open": 69,
+   "pl_usd": -71.2,
+   "roi_pct": -9.2
   },
   "by_sport": {
    "NHL": {
@@ -100389,11 +100409,11 @@
     "roi_pct": -31.9
    },
    "Polymarket": {
-    "n": 176,
+    "n": 177,
     "wins": 59,
-    "losses": 117,
-    "pl_usd": -15.7,
-    "roi_pct": -4.9
+    "losses": 118,
+    "pl_usd": -19.73,
+    "roi_pct": -6.1
    },
    "NFL": {
     "n": 15,
@@ -100419,10 +100439,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.23,
-   "unrealized_usd": -1.77,
+   "value_usd": 23.14,
+   "unrealized_usd": -1.86,
    "realized_usd": -2.19,
-   "total_pl_usd": -3.96
+   "total_pl_usd": -4.05
   },
   "stocks": {
    "open_n": 12,
@@ -100433,7 +100453,7 @@
   },
   "cash_usd": 157.1493,
   "scanned": 59607,
-  "open_bets_usd": 146.95,
+  "open_bets_usd": 142.92,
   "desk_stats": {
    "FOOTBALL": {
     "n": 147,
@@ -100478,11 +100498,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 176,
+    "n": 177,
     "wins": 59,
-    "losses": 117,
-    "pl_usd": -15.7,
-    "roi_pct": -4.9
+    "losses": 118,
+    "pl_usd": -19.73,
+    "roi_pct": -6.1
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -100507,7 +100527,7 @@
    }
   }
  },
- "last_refresh": "2026-11-02 09:03 (Tbilisi)",
+ "last_refresh": "2026-11-02 10:54 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -101760,7 +101780,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-02 09:03 (Tbilisi)",
+  "updated": "2026-11-02 10:54 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -101818,12 +101838,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 167,
+    "n": 168,
     "early_better": 98,
-    "late_better": 66,
+    "late_better": 67,
     "equal": 3,
-    "avg_clv_pct": 3.51,
-    "no_close": 31,
+    "avg_clv_pct": 3.46,
+    "no_close": 30,
     "lean": "early"
    },
    "NFL": {
@@ -107072,6 +107092,18 @@
     "better": "late"
    },
    {
+    "id": "B418",
+    "sport": "Polymarket",
+    "event": "Houston Dynamo FC @ Portland Timbers",
+    "open": null,
+    "taken": 4.0,
+    "taken_time": "2026-10-29 19:01 (Tbilisi)",
+    "close": 4.2,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=761933",
+    "clv_pct": -4.76,
+    "better": "late"
+   },
+   {
     "id": "B076",
     "sport": "Polymarket",
     "event": "Will the Democrats win the Nevada governor race in 2026?",
@@ -107265,17 +107297,6 @@
     "open": null,
     "taken": 2.6,
     "taken_time": "2026-10-29 09:03 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B418",
-    "sport": "Polymarket",
-    "event": "Houston Dynamo FC @ Portland Timbers",
-    "open": null,
-    "taken": 4.0,
-    "taken_time": "2026-10-29 19:01 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -107853,8 +107874,8 @@
    "mean_clv_pct": -4.88
   },
   "Polymarket": {
-   "n": 167,
-   "mean_clv_pct": -2.36
+   "n": 168,
+   "mean_clv_pct": -2.42
   },
   "NCAAF": {
    "n": 39,
