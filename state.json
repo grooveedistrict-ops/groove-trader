@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 166.3076,
+ "cash_usd": 173.0686,
  "open_bets": [
   {
    "id": "B076",
@@ -779,47 +779,6 @@
     "pm_league": "GRE1",
     "pm_kickoff_utc": "2026-11-02T17:30Z",
     "checked": "2026-10-31 19:14 (Tbilisi)",
-    "rule": "L007"
-   },
-   "elo_only": true
-  },
-  {
-   "id": "B456",
-   "sport": "Polymarket",
-   "league": "soc_gre.1",
-   "event": "Volos NFC @ Atromitos",
-   "kickoff": "2026-11-02 20:00",
-   "selection": "Atromitos",
-   "odds": 1.961,
-   "book": "Polymarket ask",
-   "p": 0.5274,
-   "implied_pct": 51.0,
-   "edge_pct": 3.41,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-01 00:11 (Tbilisi)",
-   "odds_time": "2026-11-01 00:11 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5561
-    },
-    "mkt": 0.4988,
-    "nbooks": 1,
-    "blend_p": 0.5274,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=gre1-atr-vol-2026-11-02-atr",
-   "reasoning": "scan PASS EV=3.41% models=['EloFD']; scan stake $1.0 (raw 0.97; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "pm:gre1-atr-vol-2026-11-02-atr",
-   "polymarket_slug": "gre1-atr-vol-2026-11-02-atr",
-   "outcome_price": 0.5099,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Atromitos Athinon vs. Volos NPS",
-    "pm_league": "GRE1",
-    "pm_kickoff_utc": "2026-11-02T16:00Z",
-    "checked": "2026-11-01 00:11 (Tbilisi)",
     "rule": "L007"
    },
    "elo_only": true
@@ -2029,36 +1988,6 @@
     "rule": "L007"
    },
    "tb1_dog_25_40": true
-  },
-  {
-   "id": "B505",
-   "sport": "Football",
-   "league": "soc_esp.2",
-   "event": "Las Palmas @ Real Oviedo",
-   "kickoff": "2026-11-02 19:15",
-   "selection": "Las Palmas",
-   "odds": 4.8,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.2295,
-   "implied_pct": 20.8,
-   "edge_pct": 10.14,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-02 09:02 (Tbilisi)",
-   "odds_time": "2026-11-02 09:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.25,
-     "EloFD": 0.2747
-    },
-    "mkt": 0.1966,
-    "nbooks": 1,
-    "blend_p": 0.2295,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883146",
-   "reasoning": "scan PASS EV=10.14% models=['FTS', 'EloFD']; scan stake $1.01 (raw 2.87; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "espn401883146"
   },
   {
    "id": "B506",
@@ -24056,6 +23985,103 @@
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '+142', 'away': '-170'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401921422",
    "closing_note": "DraftKings close via ESPN pickcenter {'home': '+142', 'away': '-170'}; no-vig fair 2.5237; recorded MID 2026-11-02 18:59 (Tbilisi)"
+  },
+  {
+   "id": "B456",
+   "sport": "Polymarket",
+   "league": "soc_gre.1",
+   "event": "Volos NFC @ Atromitos",
+   "kickoff": "2026-11-02 20:00",
+   "selection": "Atromitos",
+   "odds": 1.961,
+   "book": "Polymarket ask",
+   "p": 0.5274,
+   "implied_pct": 51.0,
+   "edge_pct": 3.41,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-01 00:11 (Tbilisi)",
+   "odds_time": "2026-11-01 00:11 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5561
+    },
+    "mkt": 0.4988,
+    "nbooks": 1,
+    "blend_p": 0.5274,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=gre1-atr-vol-2026-11-02-atr",
+   "reasoning": "scan PASS EV=3.41% models=['EloFD']; scan stake $1.0 (raw 0.97; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:gre1-atr-vol-2026-11-02-atr",
+   "polymarket_slug": "gre1-atr-vol-2026-11-02-atr",
+   "outcome_price": 0.5099,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Atromitos Athinon vs. Volos NPS",
+    "pm_league": "GRE1",
+    "pm_kickoff_utc": "2026-11-02T16:00Z",
+    "checked": "2026-11-01 00:11 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "result": "won",
+   "pl_usd": 0.96,
+   "settled_at": "2026-11-02 21:52 (Tbilisi)",
+   "final_score": "Atromitos 3, Volos NFC 0 (FT)",
+   "score": "Atromitos 3, Volos NFC 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/summary?event=401896739",
+   "settle_source": "ESPN gre.1 event 401896739 STATUS_FULL_TIME, Atromitos winner; Polymarket Atromitos Yes trading 0.995 (UMA resolution pending)",
+   "closing_odds": 1.8,
+   "closing_fair_odds": 1.9118,
+   "clv_pct": 2.57,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-125', 'away': '+330', 'draw': '+265'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/summary?event=401896739",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-125', 'away': '+330', 'draw': '+265'}; no-vig fair 1.9118; recorded HOURLY 2026-11-02 21:52 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome"
+  },
+  {
+   "id": "B505",
+   "sport": "Football",
+   "league": "soc_esp.2",
+   "event": "Las Palmas @ Real Oviedo",
+   "kickoff": "2026-11-02 19:15",
+   "selection": "Las Palmas",
+   "odds": 4.8,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.2295,
+   "implied_pct": 20.8,
+   "edge_pct": 10.14,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-02 09:02 (Tbilisi)",
+   "odds_time": "2026-11-02 09:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.25,
+     "EloFD": 0.2747
+    },
+    "mkt": 0.1966,
+    "nbooks": 1,
+    "blend_p": 0.2295,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883146",
+   "reasoning": "scan PASS EV=10.14% models=['FTS', 'EloFD']; scan stake $1.01 (raw 2.87; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "espn401883146",
+   "result": "won",
+   "pl_usd": 3.8,
+   "settled_at": "2026-11-02 21:52 (Tbilisi)",
+   "final_score": "Real Oviedo 2, Las Palmas 3 (FT)",
+   "score": "Real Oviedo 2, Las Palmas 3 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883146",
+   "settle_source": "ESPN esp.2 event 401883146 STATUS_FULL_TIME, Las Palmas winner",
+   "closing_odds": 4.8,
+   "closing_fair_odds": 5.0875,
+   "clv_pct": -5.65,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-145', 'away': '+380', 'draw': '+285'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883146",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-145', 'away': '+380', 'draw': '+285'}; no-vig fair 5.0875; recorded HOURLY 2026-11-02 21:52 (Tbilisi)"
   }
  ],
  "positions": [
@@ -24070,7 +24096,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 77714
+   "last_price": 77010
   },
   {
    "symbol": "SPY",
@@ -24082,7 +24108,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 760.26
+   "last_price": 758.07
   },
   {
    "symbol": "AAPL",
@@ -24094,7 +24120,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 340.8,
+   "last_price": 338.52,
    "adds": [
     {
      "date": "2026-10-14",
@@ -24116,7 +24142,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 184.35,
+   "last_price": 184.26,
    "adds": [
     {
      "date": "2026-10-14",
@@ -24142,7 +24168,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 94.95
+   "last_price": 95.5
   },
   {
    "symbol": "MSFT",
@@ -24150,7 +24176,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 526.45,
+   "last_price": 521.03,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -24159,7 +24185,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 399.88,
+   "last_price": 396.54,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -24168,7 +24194,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 421.71,
+   "last_price": 426.06,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -24181,7 +24207,7 @@
    "stop_loss": 111.98,
    "take_profit": 127.3,
    "thesis": "ორივე MA-ს ზემოთ (108.9/108.8), დღეს +1.5% — დეფენსიური",
-   "last_price": 125.8,
+   "last_price": 126.84,
    "opened_at": "2026-10-16 00:07 (Tbilisi)",
    "source": "yahoo finance close 2026-10-15"
   },
@@ -24195,7 +24221,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 1029.21,
+   "last_price": 1037.67,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -24209,7 +24235,7 @@
    "stop_loss": 499.4,
    "take_profit": 567.73,
    "thesis": "ორივე MA-ს ზემოთ — ახალი სახელი, დივერსიფიკაცია",
-   "last_price": 549.22,
+   "last_price": 554.52,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -24223,7 +24249,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 181.66,
+   "last_price": 181.33,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -24237,7 +24263,7 @@
    "stop_loss": 64.0,
    "take_profit": 72.76,
    "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 68.13,
+   "last_price": 67.83,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -24251,7 +24277,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 77714,
+   "last_price": 77010,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -101681,22 +101707,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 77714,
+  "BTC": 77010,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 760.26,
+  "SPY": 758.07,
   "META": 721.07,
-  "AAPL": 340.8,
+  "AAPL": 338.52,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
-  "GOOGL": 286.58,
+  "GOOGL": 282.86,
   "QQQ": 717.463,
-  "XLV": 184.35,
-  "MSFT": 526.45,
+  "XLV": 184.26,
+  "MSFT": 521.03,
   "PLTR": 188.823,
-  "V": 421.71,
-  "BRK-B": 549.22,
+  "V": 426.06,
+  "BRK-B": 554.52,
   "ETH": 2397.14,
   "SOL": 103.93,
   "AMD": 542.81,
@@ -101706,23 +101732,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 399.88,
-  "COST": 1029.21,
-  "XOM": 181.66,
-  "CRM": 231.3,
-  "KO": 94.95,
+  "UNH": 396.54,
+  "COST": 1037.67,
+  "XOM": 181.33,
+  "CRM": 232.41,
+  "KO": 95.5,
   "NFLX": 71.21499633789062,
-  "WMT": 125.8,
+  "WMT": 126.84,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1409.42,
+  "LLY": 1405.12,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 68.13,
+  "XLE": 67.83,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -101759,20 +101785,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-02 19:09 (Tbilisi)",
-  "total_value": 440.8,
+  "time": "2026-11-02 21:52 (Tbilisi)",
+  "total_value": 445.32,
   "deposits_usd": 500,
-  "vs_deposits_usd": -59.2,
-  "vs_deposits_pct": -11.84,
-  "btc_bench": 471.6,
-  "vs_btc_usd": -30.81,
+  "vs_deposits_usd": -54.68,
+  "vs_deposits_pct": -10.94,
+  "btc_bench": 467.33,
+  "vs_btc_usd": -22.02,
   "bets": {
-   "n": 442,
-   "wins": 154,
+   "n": 444,
+   "wins": 156,
    "losses": 288,
-   "open": 74,
-   "pl_usd": -55.73,
-   "roi_pct": -7.1
+   "open": 72,
+   "pl_usd": -50.97,
+   "roi_pct": -6.5
   },
   "by_sport": {
    "NHL": {
@@ -101797,11 +101823,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 147,
-    "wins": 45,
+    "n": 148,
+    "wins": 46,
     "losses": 102,
-    "pl_usd": -14.67,
-    "roi_pct": -7.2
+    "pl_usd": -10.87,
+    "roi_pct": -5.3
    },
    "NCAAF": {
     "n": 44,
@@ -101818,11 +101844,11 @@
     "roi_pct": -31.9
    },
    "Polymarket": {
-    "n": 177,
-    "wins": 59,
+    "n": 178,
+    "wins": 60,
     "losses": 118,
-    "pl_usd": -19.73,
-    "roi_pct": -6.1
+    "pl_usd": -18.77,
+    "roi_pct": -5.8
    },
    "NFL": {
     "n": 15,
@@ -101855,28 +101881,28 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.02,
-   "unrealized_usd": -1.98,
+   "value_usd": 22.81,
+   "unrealized_usd": -2.19,
    "realized_usd": -2.19,
-   "total_pl_usd": -4.17
+   "total_pl_usd": -4.38
   },
   "stocks": {
    "open_n": 12,
-   "value_usd": 102.24,
-   "unrealized_usd": 2.24,
+   "value_usd": 102.21,
+   "unrealized_usd": 2.21,
    "realized_usd": -1.53,
-   "total_pl_usd": 0.71
+   "total_pl_usd": 0.68
   },
-  "cash_usd": 166.3076,
+  "cash_usd": 173.0686,
   "scanned": 62187,
-  "open_bets_usd": 149.23,
+  "open_bets_usd": 147.23,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 147,
-    "wins": 45,
+    "n": 148,
+    "wins": 46,
     "losses": 102,
-    "pl_usd": -14.67,
-    "roi_pct": -7.2
+    "pl_usd": -10.87,
+    "roi_pct": -5.3
    },
    "BASKETBALL": {
     "n": 38,
@@ -101914,11 +101940,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 177,
-    "wins": 59,
+    "n": 178,
+    "wins": 60,
     "losses": 118,
-    "pl_usd": -19.73,
-    "roi_pct": -6.1
+    "pl_usd": -18.77,
+    "roi_pct": -5.8
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -101943,7 +101969,7 @@
    }
   }
  },
- "last_refresh": "2026-11-02 19:09 (Tbilisi)",
+ "last_refresh": "2026-11-02 21:52 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -103196,7 +103222,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-02 19:09 (Tbilisi)",
+  "updated": "2026-11-02 21:52 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -103227,12 +103253,12 @@
     "lean": null
    },
    "Football": {
-    "n": 118,
+    "n": 119,
     "early_better": 59,
     "late_better": 48,
-    "equal": 11,
+    "equal": 12,
     "avg_clv_pct": 0.88,
-    "no_close": 46,
+    "no_close": 45,
     "lean": "early"
    },
    "NCAAF": {
@@ -103254,12 +103280,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 168,
-    "early_better": 98,
+    "n": 169,
+    "early_better": 99,
     "late_better": 67,
     "equal": 3,
-    "avg_clv_pct": 3.46,
-    "no_close": 34,
+    "avg_clv_pct": 3.49,
+    "no_close": 33,
     "lean": "early"
    },
    "NFL": {
@@ -108544,6 +108570,30 @@
     "better": "equal"
    },
    {
+    "id": "B456",
+    "sport": "Polymarket",
+    "event": "Volos NFC @ Atromitos",
+    "open": null,
+    "taken": 1.961,
+    "taken_time": "2026-11-01 00:11 (Tbilisi)",
+    "close": 1.8,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/summary?event=401896739",
+    "clv_pct": 8.94,
+    "better": "early"
+   },
+   {
+    "id": "B505",
+    "sport": "Football",
+    "event": "Las Palmas @ Real Oviedo",
+    "open": null,
+    "taken": 4.8,
+    "taken_time": "2026-11-02 09:02 (Tbilisi)",
+    "close": 4.8,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883146",
+    "clv_pct": 0.0,
+    "better": "equal"
+   },
+   {
     "id": "B076",
     "sport": "Polymarket",
     "event": "Will the Democrats win the Nevada governor race in 2026?",
@@ -108781,17 +108831,6 @@
     "open": null,
     "taken": 2.5,
     "taken_time": "2026-10-31 19:14 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B456",
-    "sport": "Polymarket",
-    "event": "Volos NFC @ Atromitos",
-    "open": null,
-    "taken": 1.961,
-    "taken_time": "2026-11-01 00:11 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -109226,17 +109265,6 @@
     "better": null
    },
    {
-    "id": "B505",
-    "sport": "Football",
-    "event": "Las Palmas @ Real Oviedo",
-    "open": null,
-    "taken": 4.8,
-    "taken_time": "2026-11-02 09:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B506",
     "sport": "Polymarket",
     "event": "Sanfrecce Hiroshima @ Machida Zelvia",
@@ -109365,12 +109393,12 @@
  ],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 118,
-   "mean_clv_pct": -4.88
+   "n": 119,
+   "mean_clv_pct": -4.89
   },
   "Polymarket": {
-   "n": 168,
-   "mean_clv_pct": -2.42
+   "n": 169,
+   "mean_clv_pct": -2.39
   },
   "NCAAF": {
    "n": 39,
