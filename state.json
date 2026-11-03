@@ -1048,36 +1048,6 @@
    "scan_id": "289907"
   },
   {
-   "id": "B496",
-   "sport": "NBA",
-   "league": "nba",
-   "event": "Phoenix Suns @ Golden State Warriors",
-   "kickoff": "2026-11-03 07:00",
-   "selection": "Phoenix Suns",
-   "odds": 2.52,
-   "book": "Action Network real book id49",
-   "p": 0.4658,
-   "implied_pct": 39.7,
-   "edge_pct": 17.39,
-   "stake": 1.76,
-   "status": "open",
-   "opened_at": "2026-11-02 09:02 (Tbilisi)",
-   "odds_time": "2026-11-02 09:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.448,
-     "DRatings": 0.652
-    },
-    "mkt": 0.3817,
-    "nbooks": 5,
-    "blend_p": 0.4658,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-02_0856 id=295372)",
-   "reasoning": "scan PASS EV=17.39% models=['ESPN', 'DRatings']; scan stake $1.76 (raw 12.28; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.76",
-   "scan_id": "295372"
-  },
-  {
    "id": "B499",
    "sport": "NCAAF",
    "league": "ncaaf",
@@ -1105,36 +1075,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-02_0856 id=289912)",
    "reasoning": "scan PASS EV=5.65% models=['ESPN']; scan stake $1.76 (raw 5.41; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.76",
    "scan_id": "289912"
-  },
-  {
-   "id": "B503",
-   "sport": "NBA",
-   "league": "nba",
-   "event": "Toronto Raptors @ Los Angeles Clippers",
-   "kickoff": "2026-11-03 07:00",
-   "selection": "Los Angeles Clippers",
-   "odds": 2.64,
-   "book": "Action Network real book id68",
-   "p": 0.4049,
-   "implied_pct": 37.9,
-   "edge_pct": 6.89,
-   "stake": 1.59,
-   "status": "open",
-   "opened_at": "2026-11-02 09:02 (Tbilisi)",
-   "odds_time": "2026-11-02 09:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.405,
-     "DRatings": 0.477
-    },
-    "mkt": 0.3688,
-    "nbooks": 4,
-    "blend_p": 0.4049,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-02_0856 id=295371)",
-   "reasoning": "scan PASS EV=6.89% models=['ESPN', 'DRatings']; scan stake $1.59 (raw 4.51; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.59",
-   "scan_id": "295371"
   },
   {
    "id": "B504",
@@ -25157,6 +25097,106 @@
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '-105', 'away': '-115'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401920690",
    "closing_note": "DraftKings close via ESPN pickcenter {'home': '-105', 'away': '-115'}; no-vig fair 2.0443; recorded AM 2026-11-03 09:02 (Tbilisi)"
+  },
+  {
+   "id": "B496",
+   "sport": "NBA",
+   "league": "nba",
+   "event": "Phoenix Suns @ Golden State Warriors",
+   "kickoff": "2026-11-03 07:00",
+   "selection": "Phoenix Suns",
+   "odds": 2.52,
+   "book": "Action Network real book id49",
+   "p": 0.4658,
+   "implied_pct": 39.7,
+   "edge_pct": 17.39,
+   "stake": 1.76,
+   "status": "settled",
+   "opened_at": "2026-11-02 09:02 (Tbilisi)",
+   "odds_time": "2026-11-02 09:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.448,
+     "DRatings": 0.652
+    },
+    "mkt": 0.3817,
+    "nbooks": 5,
+    "blend_p": 0.4658,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-02_0856 id=295372)",
+   "reasoning": "scan PASS EV=17.39% models=['ESPN', 'DRatings']; scan stake $1.76 (raw 12.28; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.76",
+   "scan_id": "295372",
+   "result": "lost",
+   "pl_usd": -1.76,
+   "settled_at": "2026-11-03 11:01 (Tbilisi)",
+   "final_score": "Golden State Warriors 116, Phoenix Suns 113 (FT)",
+   "score": "Golden State Warriors 116, Phoenix Suns 113 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909919",
+   "settle_source": "ESPN nba event 401909919 STATUS_FINAL, Golden State Warriors winner",
+   "closing_odds": 2.15,
+   "closing_fair_odds": 2.239,
+   "clv_pct": 12.55,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-136', 'away': '+115'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909919",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-136', 'away': '+115'}; no-vig fair 2.239; recorded HOURLY 2026-11-03 11:01 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-03 11:01 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +12.55% (2.52 vs DraftKings no-vig close 2.239); final Golden State Warriors 116, Phoenix Suns 113 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B503",
+   "sport": "NBA",
+   "league": "nba",
+   "event": "Toronto Raptors @ Los Angeles Clippers",
+   "kickoff": "2026-11-03 07:00",
+   "selection": "Los Angeles Clippers",
+   "odds": 2.64,
+   "book": "Action Network real book id68",
+   "p": 0.4049,
+   "implied_pct": 37.9,
+   "edge_pct": 6.89,
+   "stake": 1.59,
+   "status": "settled",
+   "opened_at": "2026-11-02 09:02 (Tbilisi)",
+   "odds_time": "2026-11-02 09:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.405,
+     "DRatings": 0.477
+    },
+    "mkt": 0.3688,
+    "nbooks": 4,
+    "blend_p": 0.4049,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-02_0856 id=295371)",
+   "reasoning": "scan PASS EV=6.89% models=['ESPN', 'DRatings']; scan stake $1.59 (raw 4.51; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.59",
+   "scan_id": "295371",
+   "result": "lost",
+   "pl_usd": -1.59,
+   "settled_at": "2026-11-03 11:01 (Tbilisi)",
+   "final_score": "LA Clippers 118, Toronto Raptors 125 (FT)",
+   "score": "LA Clippers 118, Toronto Raptors 125 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909920",
+   "settle_source": "ESPN nba event 401909920 STATUS_FINAL, Toronto Raptors winner",
+   "closing_odds": 2.89,
+   "closing_fair_odds": 3.0116,
+   "clv_pct": -12.34,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+189', 'away': '-229'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909920",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+189', 'away': '-229'}; no-vig fair 3.0116; recorded HOURLY 2026-11-03 11:01 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-03 11:01 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -12.34% (2.64 vs DraftKings no-vig close 3.0116); final LA Clippers 118, Toronto Raptors 125 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -25171,7 +25211,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 76844
+   "last_price": 76473
   },
   {
    "symbol": "SPY",
@@ -25338,7 +25378,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 76844,
+   "last_price": 76473,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -105954,7 +105994,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 76844,
+  "BTC": 76473,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 752.1,
@@ -106032,20 +106072,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-03 09:10 (Tbilisi)",
-  "total_value": 465.18,
+  "time": "2026-11-03 11:01 (Tbilisi)",
+  "total_value": 461.72,
   "deposits_usd": 500,
-  "vs_deposits_usd": -34.82,
-  "vs_deposits_pct": -6.96,
-  "btc_bench": 466.32,
-  "vs_btc_usd": -1.14,
+  "vs_deposits_usd": -38.28,
+  "vs_deposits_pct": -7.66,
+  "btc_bench": 464.07,
+  "vs_btc_usd": -2.35,
   "bets": {
-   "n": 472,
+   "n": 474,
    "wins": 171,
-   "losses": 301,
-   "open": 61,
-   "pl_usd": -30.79,
-   "roi_pct": -3.6
+   "losses": 303,
+   "open": 59,
+   "pl_usd": -34.14,
+   "roi_pct": -4.0
   },
   "by_sport": {
    "NHL": {
@@ -106084,11 +106124,11 @@
     "roi_pct": -15.3
    },
    "NBA": {
-    "n": 38,
+    "n": 40,
     "wins": 14,
-    "losses": 24,
-    "pl_usd": -26.67,
-    "roi_pct": -30.8
+    "losses": 26,
+    "pl_usd": -30.02,
+    "roi_pct": -33.3
    },
    "Polymarket": {
     "n": 187,
@@ -106128,10 +106168,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 22.76,
-   "unrealized_usd": -2.24,
+   "value_usd": 22.65,
+   "unrealized_usd": -2.35,
    "realized_usd": -2.19,
-   "total_pl_usd": -4.43
+   "total_pl_usd": -4.54
   },
   "stocks": {
    "open_n": 11,
@@ -106142,7 +106182,7 @@
   },
   "cash_usd": 237.5357,
   "scanned": 61879,
-  "open_bets_usd": 111.6,
+  "open_bets_usd": 108.25,
   "desk_stats": {
    "FOOTBALL": {
     "n": 148,
@@ -106152,11 +106192,11 @@
     "roi_pct": -5.3
    },
    "BASKETBALL": {
-    "n": 41,
+    "n": 43,
     "wins": 15,
-    "losses": 26,
-    "pl_usd": -25.11,
-    "roi_pct": -27.4
+    "losses": 28,
+    "pl_usd": -28.46,
+    "roi_pct": -30.0
    },
    "US SPORTS": {
     "n": 90,
@@ -106216,7 +106256,7 @@
    }
   }
  },
- "last_refresh": "2026-11-03 09:10 (Tbilisi)",
+ "last_refresh": "2026-11-03 11:01 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -107469,7 +107509,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-03 09:10 (Tbilisi)",
+  "updated": "2026-11-03 11:01 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -107518,12 +107558,12 @@
     "lean": "early"
    },
    "NBA": {
-    "n": 37,
-    "early_better": 24,
-    "late_better": 12,
+    "n": 39,
+    "early_better": 25,
+    "late_better": 13,
     "equal": 1,
-    "avg_clv_pct": 4.4,
-    "no_close": 3,
+    "avg_clv_pct": 4.39,
+    "no_close": 1,
     "lean": "early"
    },
    "Polymarket": {
@@ -113177,6 +113217,30 @@
     "better": "late"
    },
    {
+    "id": "B496",
+    "sport": "NBA",
+    "event": "Phoenix Suns @ Golden State Warriors",
+    "open": null,
+    "taken": 2.52,
+    "taken_time": "2026-11-02 09:02 (Tbilisi)",
+    "close": 2.15,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909919",
+    "clv_pct": 17.21,
+    "better": "early"
+   },
+   {
+    "id": "B503",
+    "sport": "NBA",
+    "event": "Toronto Raptors @ Los Angeles Clippers",
+    "open": null,
+    "taken": 2.64,
+    "taken_time": "2026-11-02 09:02 (Tbilisi)",
+    "close": 2.89,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909920",
+    "clv_pct": -8.65,
+    "better": "late"
+   },
+   {
     "id": "B076",
     "sport": "Polymarket",
     "event": "Will the Democrats win the Nevada governor race in 2026?",
@@ -113540,33 +113604,11 @@
     "better": null
    },
    {
-    "id": "B496",
-    "sport": "NBA",
-    "event": "Phoenix Suns @ Golden State Warriors",
-    "open": null,
-    "taken": 2.52,
-    "taken_time": "2026-11-02 09:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B499",
     "sport": "NCAAF",
     "event": "Penn State Nittany Lions @ Washington Huskies",
     "open": null,
     "taken": 2.12,
-    "taken_time": "2026-11-02 09:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B503",
-    "sport": "NBA",
-    "event": "Toronto Raptors @ Los Angeles Clippers",
-    "open": null,
-    "taken": 2.64,
     "taken_time": "2026-11-02 09:02 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -113875,7 +113917,7 @@
    "mean_clv_pct": -1.25
   },
   "NBA": {
-   "n": 37,
+   "n": 39,
    "mean_clv_pct": 0.11
   },
   "Basketball": {
