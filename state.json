@@ -25763,7 +25763,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 77139
+   "last_price": 77927
   },
   {
    "symbol": "SPY",
@@ -25930,7 +25930,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 77139,
+   "last_price": 77927,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -109794,7 +109794,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 77139,
+  "BTC": 77927,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 754.35,
@@ -109872,13 +109872,13 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-04 09:04 (Tbilisi)",
-  "total_value": 457.75,
+  "time": "2026-11-04 10:59 (Tbilisi)",
+  "total_value": 457.98,
   "deposits_usd": 500,
-  "vs_deposits_usd": -42.25,
-  "vs_deposits_pct": -8.45,
-  "btc_bench": 468.11,
-  "vs_btc_usd": -10.37,
+  "vs_deposits_usd": -42.02,
+  "vs_deposits_pct": -8.4,
+  "btc_bench": 472.9,
+  "vs_btc_usd": -14.91,
   "bets": {
    "n": 484,
    "wins": 176,
@@ -109968,10 +109968,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 22.85,
-   "unrealized_usd": -2.15,
+   "value_usd": 23.08,
+   "unrealized_usd": -1.92,
    "realized_usd": -2.19,
-   "total_pl_usd": -4.34
+   "total_pl_usd": -4.11
   },
   "stocks": {
    "open_n": 11,
@@ -110056,7 +110056,7 @@
    }
   }
  },
- "last_refresh": "2026-11-04 09:04 (Tbilisi)",
+ "last_refresh": "2026-11-04 10:59 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -111309,7 +111309,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-04 09:04 (Tbilisi)",
+  "updated": "2026-11-04 10:59 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
