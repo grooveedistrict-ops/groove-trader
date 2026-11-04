@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 205.4158,
+ "cash_usd": 210.087,
  "open_bets": [
   {
    "id": "B077",
@@ -68,42 +68,6 @@
     "price_now": 0.39,
     "price_bet": 0.395,
     "slug": "netanyahu-out-before-2027-684-719-226-657"
-   },
-   "match_check": {
-    "status": "n/a",
-    "reason": "non-sports market (gamma slug lookup returned nothing); no team matching applies",
-    "checked": "2026-10-17 06:34 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
-   "id": "B080",
-   "sport": "Polymarket",
-   "league": "US Midterms 2026",
-   "event": "2026 Balance of Power: D Senate, D House",
-   "kickoff": "2026-11-04 08:00",
-   "selection": "No",
-   "odds": 2.667,
-   "book": "Polymarket gamma",
-   "p": 0.405,
-   "implied_pct": 37.5,
-   "edge_pct": 3.0,
-   "stake": 1.25,
-   "outcome_price": 0.375,
-   "polymarket_slug": "2026-balance-of-power-d-senate-d-house",
-   "reasoning": "Yes D/D ≈62.5¢ — ისტორიულად midterm პრეზიდენტის პარტია ზარალდება; No prior 40.5% vs 37.5% → EV≈3%.",
-   "model_inputs": {
-    "market_no": 0.375,
-    "soft_prior_no": 0.405,
-    "blend": "0.5×ბაზარი + 0.5×prior"
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets",
-   "odds_time": "2026-10-15 00:06 (Tbilisi)",
-   "status": "open",
-   "clv_mark_am1015": {
-    "price_now": 0.375,
-    "price_bet": 0.375,
-    "slug": "2026-balance-of-power-d-senate-d-house-949"
    },
    "match_check": {
     "status": "n/a",
@@ -26274,6 +26238,58 @@
    "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices ['1', '0']",
    "closing_odds": null,
    "closing_note": "no real book close for a political market; not guessed"
+  },
+  {
+   "id": "B080",
+   "sport": "Polymarket",
+   "league": "US Midterms 2026",
+   "event": "2026 Balance of Power: D Senate, D House",
+   "kickoff": "2026-11-04 08:00",
+   "selection": "No",
+   "odds": 2.667,
+   "book": "Polymarket gamma",
+   "p": 0.405,
+   "implied_pct": 37.5,
+   "edge_pct": 3.0,
+   "stake": 1.25,
+   "outcome_price": 0.375,
+   "polymarket_slug": "2026-balance-of-power-d-senate-d-house",
+   "reasoning": "Yes D/D ≈62.5¢ — ისტორიულად midterm პრეზიდენტის პარტია ზარალდება; No prior 40.5% vs 37.5% → EV≈3%.",
+   "model_inputs": {
+    "market_no": 0.375,
+    "soft_prior_no": 0.405,
+    "blend": "0.5×ბაზარი + 0.5×prior"
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets",
+   "odds_time": "2026-10-15 00:06 (Tbilisi)",
+   "status": "settled",
+   "clv_mark_am1015": {
+    "price_now": 0.375,
+    "price_bet": 0.375,
+    "slug": "2026-balance-of-power-d-senate-d-house-949"
+   },
+   "match_check": {
+    "status": "n/a",
+    "reason": "non-sports market (gamma slug lookup returned nothing); no team matching applies",
+    "checked": "2026-10-17 06:34 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -1.25,
+   "settled_at": "2026-11-04 22:00 (Tbilisi)",
+   "final_score": "Polymarket resolved Yes=1 (closedTime 2026-11-04 17:47:20.261817+00 UTC)",
+   "score": "2026 Balance of Power: Democrats won Senate and House (Polymarket UMA resolved Yes)",
+   "result_source": "https://gamma-api.polymarket.com/markets?slug=2026-balance-of-power-d-senate-d-house-949&closed=true",
+   "settle_source": "Polymarket gamma closed=True umaResolutionStatus=resolved outcomePrices ['1', '0']",
+   "closing_odds": null,
+   "closing_note": "no real book close for a political market; not guessed",
+   "postmortem": {
+    "time": "2026-11-04 22:00 (Tbilisi)",
+    "cause": "variance (no close)",
+    "clv_sign": null,
+    "note": "No real close recorded; Democrats took both chambers.",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -26288,7 +26304,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 79157
+   "last_price": 80366
   },
   {
    "symbol": "SPY",
@@ -26300,7 +26316,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 766.12
+   "last_price": 768.83
   },
   {
    "symbol": "AAPL",
@@ -26312,7 +26328,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 351.16,
+   "last_price": 353.9,
    "adds": [
     {
      "date": "2026-10-14",
@@ -26334,7 +26350,7 @@
    "take_profit": 190.57,
    "thesis": "ჯანდაცვის სექტორის ETF — დივერსიფიკაცია ტექნოლოგიებიდან: ფასი MA20 ($169.02) და MA50 ($169.26) ზემოთაა, RSI 53.6, 5 დღეში +1.8%; სტოპი −7%, TP +12%",
    "fill_note": "ბაზარი ღიაა — Yahoo მიმდინარე ფასით (19:25)",
-   "last_price": 187.64,
+   "last_price": 188.94,
    "adds": [
     {
      "date": "2026-10-14",
@@ -26360,7 +26376,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 94.99
+   "last_price": 95.68
   },
   {
    "symbol": "MSFT",
@@ -26368,7 +26384,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 551.55,
+   "last_price": 552.72,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -26377,7 +26393,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 397.44,
+   "last_price": 408.81,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -26386,7 +26402,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 427.3,
+   "last_price": 431.83,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -26399,7 +26415,7 @@
    "stop_loss": 929.11,
    "take_profit": 1056.25,
    "thesis": "ორივე MA-ს ზემოთ (SMA20/50), დეფენსიური რიტეილი",
-   "last_price": 1041.17,
+   "last_price": 1046.92,
    "opened_at": "2026-10-16 09:07 (Tbilisi)",
    "source": "yahoo finance AM 2026-10-16"
   },
@@ -26413,21 +26429,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 171.22,
-   "opened_at": "2026-10-16 19:02 (Tbilisi)",
-   "source": "yahoo finance MID 2026-10-16"
-  },
-  {
-   "symbol": "XLE",
-   "type": "stock",
-   "qty": 0.07421701,
-   "entry_price": 67.37000274658203,
-   "entry_date": "2026-10-16",
-   "cost_usd": 5.0,
-   "stop_loss": 64.0,
-   "take_profit": 72.76,
-   "thesis": "ახალი — ენერგიის ETF ორივე MA-ს ზემოთ",
-   "last_price": 64.2,
+   "last_price": 167.79,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -26441,7 +26443,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 79157,
+   "last_price": 80366,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -26718,6 +26720,24 @@
    "proceeds_usd": 5.4011,
    "pl_pct": 8.02,
    "source": "yahoo finance live quote fetched MID 2026-11-04 ~18:57 Tbilisi (TP 567.73 touched)"
+  },
+  {
+   "symbol": "XLE",
+   "side": "sell",
+   "qty": 0.07421701,
+   "price": 62.94,
+   "pl_usd": -0.3288,
+   "reason": "stop_loss",
+   "closed_at": "2026-11-04 21:59 (Tbilisi)",
+   "paper": true,
+   "type": "stock",
+   "hit": "stop_loss",
+   "entry_price": 67.37000274658203,
+   "exit_price": 62.94,
+   "cost_usd": 5.0,
+   "proceeds_usd": 4.6712,
+   "pl_pct": -6.58,
+   "source": "yahoo finance/coingecko live quote fetched HOURLY 2026-11-04 21:59 (Tbilisi) (SL 64.0 touched)"
   }
  ],
  "history": [
@@ -111835,22 +111855,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 79157,
+  "BTC": 80366,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 766.12,
+  "SPY": 768.83,
   "META": 721.07,
-  "AAPL": 351.16,
+  "AAPL": 353.9,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
-  "GOOGL": 290.84,
+  "GOOGL": 292.12,
   "QQQ": 717.463,
-  "XLV": 187.64,
-  "MSFT": 551.55,
+  "XLV": 188.94,
+  "MSFT": 552.72,
   "PLTR": 188.823,
-  "V": 427.3,
-  "BRK-B": 567.85,
+  "V": 431.83,
+  "BRK-B": 572.96,
   "ETH": 2397.14,
   "SOL": 103.93,
   "AMD": 542.81,
@@ -111860,23 +111880,23 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 397.44,
-  "COST": 1041.17,
-  "XOM": 171.22,
-  "CRM": 229.69,
-  "KO": 94.99,
+  "UNH": 408.81,
+  "COST": 1046.92,
+  "XOM": 167.79,
+  "CRM": 226.09,
+  "KO": 95.68,
   "NFLX": 71.21499633789062,
-  "WMT": 128.29,
+  "WMT": 129.97,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1428.15,
+  "LLY": 1421.14,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.3399963378906,
-  "XLE": 64.2,
+  "XLE": 62.94,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -111893,8 +111913,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 55.81999969482422,
-  "BTC_MA20": 80172.22,
-  "BTC_MA50": 81982.41,
+  "BTC_MA20": 80231.88,
+  "BTC_MA50": 82006.27,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -111913,20 +111933,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-04 19:06 (Tbilisi)",
-  "total_value": 461.12,
+  "time": "2026-11-04 22:00 (Tbilisi)",
+  "total_value": 460.76,
   "deposits_usd": 500,
-  "vs_deposits_usd": -38.88,
-  "vs_deposits_pct": -7.78,
-  "btc_bench": 480.36,
-  "vs_btc_usd": -19.24,
+  "vs_deposits_usd": -39.24,
+  "vs_deposits_pct": -7.85,
+  "btc_bench": 487.7,
+  "vs_btc_usd": -26.94,
   "bets": {
-   "n": 485,
+   "n": 486,
    "wins": 177,
-   "losses": 308,
-   "open": 72,
-   "pl_usd": -36.95,
-   "roi_pct": -4.2
+   "losses": 309,
+   "open": 71,
+   "pl_usd": -38.2,
+   "roi_pct": -4.3
   },
   "by_sport": {
    "NHL": {
@@ -111972,11 +111992,11 @@
     "roi_pct": -33.3
    },
    "Polymarket": {
-    "n": 194,
+    "n": 195,
     "wins": 68,
-    "losses": 126,
-    "pl_usd": -22.14,
-    "roi_pct": -6.3
+    "losses": 127,
+    "pl_usd": -23.39,
+    "roi_pct": -6.6
    },
    "NFL": {
     "n": 16,
@@ -112009,21 +112029,21 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.44,
-   "unrealized_usd": -1.56,
+   "value_usd": 23.8,
+   "unrealized_usd": -1.2,
    "realized_usd": -2.19,
-   "total_pl_usd": -3.75
+   "total_pl_usd": -3.39
   },
   "stocks": {
-   "open_n": 10,
-   "value_usd": 89.3,
-   "unrealized_usd": 2.3,
-   "realized_usd": -0.48,
-   "total_pl_usd": 1.82
+   "open_n": 9,
+   "value_usd": 85.16,
+   "unrealized_usd": 3.16,
+   "realized_usd": -0.81,
+   "total_pl_usd": 2.35
   },
-  "cash_usd": 205.4158,
+  "cash_usd": 210.087,
   "scanned": 61409,
-  "open_bets_usd": 142.96,
+  "open_bets_usd": 141.71,
   "desk_stats": {
    "FOOTBALL": {
     "n": 152,
@@ -112068,11 +112088,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 194,
+    "n": 195,
     "wins": 68,
-    "losses": 126,
-    "pl_usd": -22.14,
-    "roi_pct": -6.3
+    "losses": 127,
+    "pl_usd": -23.39,
+    "roi_pct": -6.6
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -112089,15 +112109,15 @@
     "roi_pct": -7.5
    },
    "EQUITIES": {
-    "n": 15,
+    "n": 16,
     "wins": 6,
-    "losses": 9,
-    "pl_usd": -0.48,
-    "roi_pct": -0.7
+    "losses": 10,
+    "pl_usd": -0.81,
+    "roi_pct": -1.1
    }
   }
  },
- "last_refresh": "2026-11-04 19:06 (Tbilisi)",
+ "last_refresh": "2026-11-04 22:00 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -113350,7 +113370,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-04 19:06 (Tbilisi)",
+  "updated": "2026-11-04 22:00 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -119213,6 +119233,17 @@
     "better": null
    },
    {
+    "id": "B080",
+    "sport": "Polymarket",
+    "event": "2026 Balance of Power: D Senate, D House",
+    "open": null,
+    "taken": 2.667,
+    "taken_time": "2026-10-15 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -119229,17 +119260,6 @@
     "event": "Netanyahu out by end of 2026?",
     "open": null,
     "taken": 2.532,
-    "taken_time": "2026-10-15 00:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B080",
-    "sport": "Polymarket",
-    "event": "2026 Balance of Power: D Senate, D House",
-    "open": null,
-    "taken": 2.667,
     "taken_time": "2026-10-15 00:06 (Tbilisi)",
     "close": null,
     "close_source": null,
