@@ -27215,7 +27215,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 78741
+   "last_price": 75680
   },
   {
    "symbol": "SPY",
@@ -27227,7 +27227,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 755.29
+   "last_price": 735.41
   },
   {
    "symbol": "AAPL",
@@ -27239,7 +27239,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 352.33,
+   "last_price": 343.48,
    "adds": [
     {
      "date": "2026-10-14",
@@ -27260,7 +27260,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 96.55
+   "last_price": 95.84
   },
   {
    "symbol": "MSFT",
@@ -27268,7 +27268,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 546.57,
+   "last_price": 537.43,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -27277,7 +27277,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 410.1,
+   "last_price": 398.05,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -27286,7 +27286,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 438.69,
+   "last_price": 426.28,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -27299,7 +27299,7 @@
    "stop_loss": 167.29,
    "take_profit": 190.18,
    "thesis": "ახალი — ორივე MA-ს ზემოთ, ენერგია",
-   "last_price": 172.78,
+   "last_price": 169.52,
    "opened_at": "2026-10-16 19:02 (Tbilisi)",
    "source": "yahoo finance MID 2026-10-16"
   },
@@ -27313,7 +27313,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 78741,
+   "last_price": 75680,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -116504,21 +116504,21 @@
   }
  ],
  "last_prices": {
-  "BTC": 78741,
+  "BTC": 75680,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 755.29,
+  "SPY": 735.41,
   "META": 721.07,
-  "AAPL": 352.33,
+  "AAPL": 343.48,
   "NVDA": 216.61,
   "AMZN": 253.62,
   "TSLA": 358.43,
   "GOOGL": 287.12,
   "QQQ": 717.463,
   "XLV": 191.07,
-  "MSFT": 546.57,
+  "MSFT": 537.43,
   "PLTR": 188.823,
-  "V": 438.69,
+  "V": 426.28,
   "BRK-B": 585.65,
   "ETH": 2397.14,
   "SOL": 103.93,
@@ -116529,11 +116529,11 @@
   "JPM": 343.2200012207031,
   "JNJ": 256.510009765625,
   "BAC": 52.45500183105469,
-  "UNH": 410.1,
+  "UNH": 398.05,
   "COST": 1070.27,
-  "XOM": 172.78,
+  "XOM": 169.52,
   "CRM": 223.98,
-  "KO": 96.55,
+  "KO": 95.84,
   "NFLX": 71.21499633789062,
   "WMT": 131.05,
   "INTC": 98.12,
@@ -116562,8 +116562,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 55.81999969482422,
-  "BTC_MA20": 80094.44,
-  "BTC_MA50": 82058.83,
+  "BTC_MA20": 79943.7,
+  "BTC_MA50": 81998.54,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -116582,13 +116582,13 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-05 18:59 (Tbilisi)",
-  "total_value": 484.67,
+  "time": "2026-11-05 22:12 (Tbilisi)",
+  "total_value": 482.28,
   "deposits_usd": 500,
-  "vs_deposits_usd": -15.33,
-  "vs_deposits_pct": -3.07,
-  "btc_bench": 477.84,
-  "vs_btc_usd": 6.84,
+  "vs_deposits_usd": -17.72,
+  "vs_deposits_pct": -3.54,
+  "btc_bench": 459.26,
+  "vs_btc_usd": 23.02,
   "bets": {
    "n": 496,
    "wins": 182,
@@ -116678,17 +116678,17 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.32,
-   "unrealized_usd": -1.68,
+   "value_usd": 22.41,
+   "unrealized_usd": -2.59,
    "realized_usd": -2.19,
-   "total_pl_usd": -3.87
+   "total_pl_usd": -4.78
   },
   "stocks": {
    "open_n": 7,
-   "value_usd": 67.41,
-   "unrealized_usd": 1.91,
+   "value_usd": 65.92,
+   "unrealized_usd": 0.42,
    "realized_usd": 0.79,
-   "total_pl_usd": 2.7
+   "total_pl_usd": 1.21
   },
   "cash_usd": 227.3539,
   "scanned": 61633,
@@ -116766,7 +116766,7 @@
    }
   }
  },
- "last_refresh": "2026-11-05 18:59 (Tbilisi)",
+ "last_refresh": "2026-11-05 22:12 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -118019,7 +118019,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-05 18:59 (Tbilisi)",
+  "updated": "2026-11-05 22:12 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
