@@ -1704,36 +1704,6 @@
    "scan_id": "289862"
   },
   {
-   "id": "B541",
-   "sport": "NBA",
-   "league": "nba",
-   "event": "Miami Heat @ Los Angeles Clippers",
-   "kickoff": "2026-11-05 07:30",
-   "selection": "Los Angeles Clippers",
-   "odds": 2.8,
-   "book": "Action Network real book id68",
-   "p": 0.3939,
-   "implied_pct": 35.7,
-   "edge_pct": 10.29,
-   "stake": 2.5,
-   "status": "open",
-   "opened_at": "2026-11-04 09:04 (Tbilisi)",
-   "odds_time": "2026-11-04 09:04 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.416,
-     "DRatings": 0.449
-    },
-    "mkt": 0.3553,
-    "nbooks": 5,
-    "blend_p": 0.3939,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-04_0855 id=295387)",
-   "reasoning": "scan PASS EV=10.29% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 6.54; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.5; NEWS shrink → TITAN APPROVED at $2.5",
-   "scan_id": "295387"
-  },
-  {
    "id": "B543",
    "sport": "NCAAF",
    "league": "ncaaf",
@@ -26684,6 +26654,56 @@
     "note": "CLV -19.37% (2.128 vs DraftKings no-vig close 2.6391); final Athletico Paranaense 1, Vasco da Gama 3 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B541",
+   "sport": "NBA",
+   "league": "nba",
+   "event": "Miami Heat @ Los Angeles Clippers",
+   "kickoff": "2026-11-05 07:30",
+   "selection": "Los Angeles Clippers",
+   "odds": 2.8,
+   "book": "Action Network real book id68",
+   "p": 0.3939,
+   "implied_pct": 35.7,
+   "edge_pct": 10.29,
+   "stake": 2.5,
+   "status": "settled",
+   "opened_at": "2026-11-04 09:04 (Tbilisi)",
+   "odds_time": "2026-11-04 09:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.416,
+     "DRatings": 0.449
+    },
+    "mkt": 0.3553,
+    "nbooks": 5,
+    "blend_p": 0.3939,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-04_0855 id=295387)",
+   "reasoning": "scan PASS EV=10.29% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 6.54; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.5; NEWS shrink → TITAN APPROVED at $2.5",
+   "scan_id": "295387",
+   "result": "lost",
+   "pl_usd": -2.5,
+   "settled_at": "2026-11-05 10:57 (Tbilisi)",
+   "final_score": "LA Clippers 116, Miami Heat 117 (FT)",
+   "score": "LA Clippers 116, Miami Heat 117 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909935",
+   "settle_source": "ESPN nba event 401909935 STATUS_FINAL, Miami Heat winner",
+   "closing_odds": 2.8,
+   "closing_fair_odds": 2.9139,
+   "clv_pct": -3.91,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+180', 'away': '-216'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909935",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+180', 'away': '-216'}; no-vig fair 2.9139; recorded HOURLY 2026-11-05 10:57 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-05 10:57 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -3.91% (2.8 vs DraftKings no-vig close 2.9139); final LA Clippers 116, Miami Heat 117 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -26698,7 +26718,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 80529
+   "last_price": 80578
   },
   {
    "symbol": "SPY",
@@ -26837,7 +26857,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 80529,
+   "last_price": 80578,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -114397,7 +114417,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 80529,
+  "BTC": 80578,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 766.81,
@@ -114455,8 +114475,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 55.81999969482422,
-  "BTC_MA20": 80185.51,
-  "BTC_MA50": 82095.26,
+  "BTC_MA20": 80188.51,
+  "BTC_MA50": 82096.46,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -114475,20 +114495,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-05 08:58 (Tbilisi)",
-  "total_value": 487.49,
+  "time": "2026-11-05 10:57 (Tbilisi)",
+  "total_value": 485.0,
   "deposits_usd": 500,
-  "vs_deposits_usd": -12.51,
-  "vs_deposits_pct": -2.5,
-  "btc_bench": 488.69,
-  "vs_btc_usd": -1.2,
+  "vs_deposits_usd": -15.0,
+  "vs_deposits_pct": -3.0,
+  "btc_bench": 488.98,
+  "vs_btc_usd": -3.98,
   "bets": {
-   "n": 495,
+   "n": 496,
    "wins": 182,
-   "losses": 313,
-   "open": 70,
-   "pl_usd": -11.64,
-   "roi_pct": -1.3
+   "losses": 314,
+   "open": 69,
+   "pl_usd": -14.14,
+   "roi_pct": -1.6
   },
   "by_sport": {
    "NHL": {
@@ -114527,11 +114547,11 @@
     "roi_pct": -13.9
    },
    "NBA": {
-    "n": 42,
+    "n": 43,
     "wins": 15,
-    "losses": 27,
-    "pl_usd": -29.01,
-    "roi_pct": -30.7
+    "losses": 28,
+    "pl_usd": -31.51,
+    "roi_pct": -32.5
    },
    "Polymarket": {
     "n": 199,
@@ -114571,10 +114591,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 23.85,
-   "unrealized_usd": -1.15,
+   "value_usd": 23.87,
+   "unrealized_usd": -1.13,
    "realized_usd": -2.19,
-   "total_pl_usd": -3.34
+   "total_pl_usd": -3.32
   },
   "stocks": {
    "open_n": 9,
@@ -114585,7 +114605,7 @@
   },
   "cash_usd": 226.3178,
   "scanned": 19108,
-  "open_bets_usd": 152.03,
+  "open_bets_usd": 149.53,
   "desk_stats": {
    "FOOTBALL": {
     "n": 154,
@@ -114595,11 +114615,11 @@
     "roi_pct": 1.9
    },
    "BASKETBALL": {
-    "n": 45,
+    "n": 46,
     "wins": 16,
-    "losses": 29,
-    "pl_usd": -27.45,
-    "roi_pct": -27.6
+    "losses": 30,
+    "pl_usd": -29.95,
+    "roi_pct": -29.4
    },
    "US SPORTS": {
     "n": 91,
@@ -114659,7 +114679,7 @@
    }
   }
  },
- "last_refresh": "2026-11-05 08:58 (Tbilisi)",
+ "last_refresh": "2026-11-05 10:57 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -115912,7 +115932,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-05 08:58 (Tbilisi)",
+  "updated": "2026-11-05 10:57 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -115961,12 +115981,12 @@
     "lean": "early"
    },
    "NBA": {
-    "n": 41,
+    "n": 42,
     "early_better": 27,
     "late_better": 13,
-    "equal": 1,
-    "avg_clv_pct": 4.32,
-    "no_close": 2,
+    "equal": 2,
+    "avg_clv_pct": 4.22,
+    "no_close": 1,
     "lean": "early"
    },
    "Polymarket": {
@@ -121894,6 +121914,18 @@
     "better": "late"
    },
    {
+    "id": "B541",
+    "sport": "NBA",
+    "event": "Miami Heat @ Los Angeles Clippers",
+    "open": null,
+    "taken": 2.8,
+    "taken_time": "2026-11-04 09:04 (Tbilisi)",
+    "close": 2.8,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909935",
+    "clv_pct": 0.0,
+    "better": "equal"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -122444,17 +122476,6 @@
     "better": null
    },
    {
-    "id": "B541",
-    "sport": "NBA",
-    "event": "Miami Heat @ Los Angeles Clippers",
-    "open": null,
-    "taken": 2.8,
-    "taken_time": "2026-11-04 09:04 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B543",
     "sport": "NCAAF",
     "event": "Texas Longhorns @ Missouri Tigers",
@@ -122667,6 +122688,7 @@
  },
  "ledger_halved_sports": [
   "Football",
+  "NBA",
   "Polymarket"
  ],
  "ledger_clv_by_sport": {
@@ -122691,8 +122713,8 @@
    "mean_clv_pct": -1.25
   },
   "NBA": {
-   "n": 41,
-   "mean_clv_pct": 0.05
+   "n": 42,
+   "mean_clv_pct": -0.05
   },
   "Basketball": {
    "n": 3,
