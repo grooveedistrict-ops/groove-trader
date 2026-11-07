@@ -2639,36 +2639,6 @@
    }
   },
   {
-   "id": "B600",
-   "sport": "NCAAB",
-   "league": "ncaab",
-   "event": "Tarleton State Texans @ San Diego Toreros",
-   "kickoff": "2026-11-07 06:30",
-   "selection": "Tarleton State Texans",
-   "odds": 3.45,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.3215,
-   "implied_pct": 29.0,
-   "edge_pct": 10.9,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-07 00:06 (Tbilisi)",
-   "odds_time": "2026-11-07 00:06 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.425,
-     "DRatings": 0.305
-    },
-    "mkt": 0.2779,
-    "nbooks": 1,
-    "blend_p": 0.3215,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401917515",
-   "reasoning": "scan PASS EV=10.9% models=['ESPN', 'DRatings']; scan stake $1.0 (raw 5.32; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "espn401917515"
-  },
-  {
    "id": "B601",
    "sport": "NCAAF",
    "league": "ncaaf",
@@ -29121,6 +29091,51 @@
     "note": "CLV 11.26; final Sevilla 0, Alavés 0.",
     "lesson": null
    }
+  },
+  {
+   "id": "B600",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "Tarleton State Texans @ San Diego Toreros",
+   "kickoff": "2026-11-07 06:30",
+   "selection": "Tarleton State Texans",
+   "odds": 3.45,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.3215,
+   "implied_pct": 29.0,
+   "edge_pct": 10.9,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-07 00:06 (Tbilisi)",
+   "odds_time": "2026-11-07 00:06 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.425,
+     "DRatings": 0.305
+    },
+    "mkt": 0.2779,
+    "nbooks": 1,
+    "blend_p": 0.3215,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401917515",
+   "reasoning": "scan PASS EV=10.9% models=['ESPN', 'DRatings']; scan stake $1.0 (raw 5.32; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "espn401917515",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-11-07 10:59 (Tbilisi)",
+   "final_score": "San Diego Toreros 96, Tarleton State Texans 90 (FT)",
+   "score": "San Diego Toreros 96, Tarleton State Texans 90 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401917515",
+   "settle_source": "ESPN ncaab event 401917515 STATUS_FINAL, San Diego Toreros winner",
+   "closing_odds": null,
+   "postmortem": {
+    "time": "2026-11-07 10:59 (Tbilisi)",
+    "cause": "variance (no close)",
+    "clv_sign": null,
+    "note": "No real close recorded; final San Diego Toreros 96, Tarleton State Texans 90 (FT).",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -29135,7 +29150,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 75831
+   "last_price": 75973
   },
   {
    "symbol": "SPY",
@@ -29219,7 +29234,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 75831,
+   "last_price": 75973,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -124435,7 +124450,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 75831,
+  "BTC": 75973,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 735.29,
@@ -124493,8 +124508,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 79368.51,
-  "BTC_MA50": 81892.12,
+  "BTC_MA20": 79375.77,
+  "BTC_MA50": 81895.03,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -124513,20 +124528,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-07 09:03 (Tbilisi)",
-  "total_value": 458.61,
+  "time": "2026-11-07 10:59 (Tbilisi)",
+  "total_value": 457.65,
   "deposits_usd": 500,
-  "vs_deposits_usd": -41.39,
-  "vs_deposits_pct": -8.28,
-  "btc_bench": 460.18,
-  "vs_btc_usd": -1.57,
+  "vs_deposits_usd": -42.35,
+  "vs_deposits_pct": -8.47,
+  "btc_bench": 461.04,
+  "vs_btc_usd": -3.39,
   "bets": {
-   "n": 526,
+   "n": 527,
    "wins": 190,
-   "losses": 336,
-   "open": 93,
-   "pl_usd": -37.32,
-   "roi_pct": -3.8
+   "losses": 337,
+   "open": 92,
+   "pl_usd": -38.32,
+   "roi_pct": -3.9
   },
   "by_sport": {
    "NHL": {
@@ -124600,19 +124615,19 @@
     "roi_pct": 8.5
    },
    "NCAAB": {
-    "n": 26,
+    "n": 27,
     "wins": 14,
-    "losses": 12,
-    "pl_usd": 24.95,
-    "roi_pct": 33.2
+    "losses": 13,
+    "pl_usd": 23.95,
+    "roi_pct": 31.4
    }
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 22.46,
-   "unrealized_usd": -2.54,
+   "value_usd": 22.5,
+   "unrealized_usd": -2.5,
    "realized_usd": -2.19,
-   "total_pl_usd": -4.73
+   "total_pl_usd": -4.69
   },
   "stocks": {
    "open_n": 6,
@@ -124623,7 +124638,7 @@
   },
   "cash_usd": 216.7218,
   "scanned": 48037,
-  "open_bets_usd": 158.73,
+  "open_bets_usd": 157.73,
   "desk_stats": {
    "FOOTBALL": {
     "n": 161,
@@ -124640,11 +124655,11 @@
     "roi_pct": -31.9
    },
    "US SPORTS": {
-    "n": 102,
+    "n": 103,
     "wins": 48,
-    "losses": 54,
-    "pl_usd": 19.93,
-    "roi_pct": 8.9
+    "losses": 55,
+    "pl_usd": 18.93,
+    "roi_pct": 8.4
    },
    "TENNIS": {
     "n": 1,
@@ -124697,7 +124712,7 @@
    }
   }
  },
- "last_refresh": "2026-11-07 09:03 (Tbilisi)",
+ "last_refresh": "2026-11-07 10:59 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -125950,7 +125965,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-07 09:03 (Tbilisi)",
+  "updated": "2026-11-07 10:59 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -132303,6 +132318,17 @@
     "better": "early"
    },
    {
+    "id": "B600",
+    "sport": "NCAAB",
+    "event": "Tarleton State Texans @ San Diego Toreros",
+    "open": null,
+    "taken": 3.45,
+    "taken_time": "2026-11-07 00:06 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -133111,17 +133137,6 @@
     "event": "AFC Bournemouth @ Ipswich Town",
     "open": null,
     "taken": 4.167,
-    "taken_time": "2026-11-07 00:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B600",
-    "sport": "NCAAB",
-    "event": "Tarleton State Texans @ San Diego Toreros",
-    "open": null,
-    "taken": 3.45,
     "taken_time": "2026-11-07 00:06 (Tbilisi)",
     "close": null,
     "close_source": null,
