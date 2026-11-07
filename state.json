@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 259.0911,
+ "cash_usd": 247.4474,
  "open_bets": [
   {
    "id": "B077",
@@ -251,36 +251,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876694",
    "reasoning": "scan PASS EV=4.81% models=['EloFD']; scan stake $1.0 (raw 0.67; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
    "scan_id": "espn401876694",
-   "elo_only": true
-  },
-  {
-   "id": "B487",
-   "sport": "Football",
-   "league": "ligue1",
-   "event": "Paris FC @ Auxerre",
-   "kickoff": "2026-11-07 20:15",
-   "selection": "Paris FC",
-   "odds": 1.909,
-   "book": "Action Network real book id75",
-   "p": 0.5642,
-   "implied_pct": 52.4,
-   "edge_pct": 7.72,
-   "stake": 1.26,
-   "status": "open",
-   "opened_at": "2026-11-02 00:06 (Tbilisi)",
-   "odds_time": "2026-11-02 00:06 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.6196
-    },
-    "mkt": 0.5089,
-    "nbooks": 5,
-    "blend_p": 0.5642,
-    "elo_only": true
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-01_2356 id=295019)",
-   "reasoning": "scan PASS EV=7.72% models=['EloFD']; scan stake $1.49 (raw 4.58; A4/LEDGER applied in scan.py); open-cap 35% binding (live bank $423.53): pro-rata ×0.85 floor $1 → $1.26; NEWS clear → TITAN APPROVED at $1.26",
-   "scan_id": "295019",
    "elo_only": true
   },
   {
@@ -571,48 +541,6 @@
    "elo_only": true
   },
   {
-   "id": "B509",
-   "sport": "Polymarket",
-   "league": "soc_ned.1",
-   "event": "Sparta Rotterdam @ ADO Den Haag",
-   "kickoff": "2026-11-07 21:45",
-   "selection": "Sparta Rotterdam",
-   "odds": 2.703,
-   "book": "Polymarket ask",
-   "p": 0.3922,
-   "implied_pct": 37.0,
-   "edge_pct": 6.0,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-02 09:02 (Tbilisi)",
-   "odds_time": "2026-11-02 09:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.4278
-    },
-    "mkt": 0.3566,
-    "nbooks": 1,
-    "blend_p": 0.3922,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=ere-ado-spa-2026-11-07-spa",
-   "reasoning": "scan PASS EV=6.0% models=['EloFD']; scan stake $1.0 (raw 1.9; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "pm:ere-ado-spa-2026-11-07-spa",
-   "polymarket_slug": "ere-ado-spa-2026-11-07-spa",
-   "outcome_price": 0.37,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "ADO Den Haag vs. Sparta Rotterdam",
-    "pm_league": "NED1",
-    "pm_kickoff_utc": "2026-11-07T17:45Z",
-    "checked": "2026-11-02 09:02 (Tbilisi)",
-    "rule": "L007"
-   },
-   "elo_only": true,
-   "tb1_dog_25_40": true
-  },
-  {
    "id": "B511",
    "sport": "NFL",
    "league": "nfl",
@@ -753,47 +681,6 @@
    },
    "elo_only": true,
    "tb1_dog_25_40": true
-  },
-  {
-   "id": "B518",
-   "sport": "Polymarket",
-   "league": "seriea",
-   "event": "Bologna @ Parma Calcio 1913",
-   "kickoff": "2026-11-07 21:00",
-   "selection": "Parma Calcio 1913",
-   "odds": 4.762,
-   "book": "Polymarket ask",
-   "p": 0.2318,
-   "implied_pct": 21.0,
-   "edge_pct": 10.38,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-03 00:03 (Tbilisi)",
-   "odds_time": "2026-11-03 00:03 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.2775,
-     "DRatings": 0.219
-    },
-    "mkt": 0.2153,
-    "nbooks": 4,
-    "blend_p": 0.2318,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-par-bol-2026-11-07-par",
-   "reasoning": "scan PASS EV=10.38% models=['EloFD', 'DRatings']; scan stake $1.22 (raw 3.04; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "pm:sea-par-bol-2026-11-07-par",
-   "polymarket_slug": "sea-par-bol-2026-11-07-par",
-   "outcome_price": 0.21,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Parma Calcio 1913 vs. Bologna FC 1909",
-    "pm_league": "ITA1",
-    "pm_kickoff_utc": "2026-11-07T17:00:00.000Z",
-    "checked": "2026-11-03 00:03 (Tbilisi)",
-    "rule": "L007"
-   }
   },
   {
    "id": "B520",
@@ -1534,46 +1421,6 @@
    "tb1_dog_25_40": true
   },
   {
-   "id": "B569",
-   "sport": "Polymarket",
-   "league": "soc_swe.1",
-   "event": "GAIS @ Degerfors IF",
-   "kickoff": "2026-11-07 20:30",
-   "selection": "GAIS",
-   "odds": 2.381,
-   "book": "Polymarket ask",
-   "p": 0.4584,
-   "implied_pct": 42.0,
-   "edge_pct": 9.14,
-   "stake": 1.42,
-   "status": "open",
-   "opened_at": "2026-11-05 18:59 (Tbilisi)",
-   "odds_time": "2026-11-05 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "DRatings": 0.511
-    },
-    "mkt": 0.4058,
-    "nbooks": 1,
-    "blend_p": 0.4584,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=swe-deg-gais-2026-11-07-gais",
-   "reasoning": "scan PASS EV=9.14% models=['DRatings']; scan stake $1.42 (raw 8.02; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.42",
-   "scan_id": "pm:swe-deg-gais-2026-11-07-gais",
-   "polymarket_slug": "swe-deg-gais-2026-11-07-gais",
-   "outcome_price": 0.42,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Degerfors IF vs. GAIS",
-    "pm_league": "SWE1",
-    "pm_kickoff_utc": "2026-11-07T16:30Z",
-    "checked": "2026-11-05 18:59 (Tbilisi)",
-    "rule": "L007"
-   }
-  },
-  {
    "id": "B572",
    "sport": "NCAAF",
    "league": "ncaaf",
@@ -1712,48 +1559,6 @@
     "checked": "2026-11-06 09:03 (Tbilisi)",
     "rule": "L007"
    }
-  },
-  {
-   "id": "B589",
-   "sport": "Polymarket",
-   "league": "soc_den.1",
-   "event": "Viborg FF @ Odense Boldklub",
-   "kickoff": "2026-11-07 21:00",
-   "selection": "Odense Boldklub",
-   "odds": 2.941,
-   "book": "Polymarket ask",
-   "p": 0.3617,
-   "implied_pct": 34.0,
-   "edge_pct": 6.38,
-   "stake": 1.88,
-   "status": "open",
-   "opened_at": "2026-11-06 09:03 (Tbilisi)",
-   "odds_time": "2026-11-06 09:03 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.3402,
-     "DRatings": 0.426
-    },
-    "mkt": 0.3403,
-    "nbooks": 1,
-    "blend_p": 0.3617,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=den-ode-vib-2026-11-07-ode",
-   "reasoning": "scan PASS EV=6.38% models=['EloFD', 'DRatings']; scan stake $1.88 (raw 3.87; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.88",
-   "scan_id": "pm:den-ode-vib-2026-11-07-ode",
-   "polymarket_slug": "den-ode-vib-2026-11-07-ode",
-   "outcome_price": 0.34,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Odense BK vs. Viborg FF",
-    "pm_league": "DEN1",
-    "pm_kickoff_utc": "2026-11-07T17:00Z",
-    "checked": "2026-11-06 09:03 (Tbilisi)",
-    "rule": "L007"
-   },
-   "tb1_dog_25_40": true
   },
   {
    "id": "B591",
@@ -2411,36 +2216,6 @@
    "scan_id": "espn401924951"
   },
   {
-   "id": "B615",
-   "sport": "Football",
-   "league": "soc_gre.1",
-   "event": "Panetolikos @ Aris",
-   "kickoff": "2026-11-07 21:30",
-   "selection": "Draw (Panetolikos @ Aris)",
-   "odds": 4.7,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.24,
-   "implied_pct": 21.3,
-   "edge_pct": 12.8,
-   "stake": 1.56,
-   "status": "open",
-   "opened_at": "2026-11-07 09:03 (Tbilisi)",
-   "odds_time": "2026-11-07 09:03 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.27,
-     "EloFD": 0.2891
-    },
-    "mkt": 0.2004,
-    "nbooks": 1,
-    "blend_p": 0.24,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/summary?event=401896732",
-   "reasoning": "scan PASS EV=12.8% models=['FTS', 'EloFD']; scan stake $1.56 (raw 3.97; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.56",
-   "scan_id": "espn401896732"
-  },
-  {
    "id": "B617",
    "sport": "Football",
    "league": "soc_aut.1",
@@ -2532,36 +2307,6 @@
    "scan_id": "espn401909760"
   },
   {
-   "id": "B621",
-   "sport": "Football",
-   "league": "laliga",
-   "event": "Athletic Bilbao @ Osasuna",
-   "kickoff": "2026-11-07 21:30",
-   "selection": "Osasuna",
-   "odds": 3.9,
-   "book": "Action Network real book id69",
-   "p": 0.2806,
-   "implied_pct": 25.6,
-   "edge_pct": 9.42,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-07 18:59 (Tbilisi)",
-   "odds_time": "2026-11-07 18:59 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.31,
-     "DRatings": 0.288
-    },
-    "mkt": 0.2621,
-    "nbooks": 5,
-    "blend_p": 0.2806,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-07_1854 id=295095)",
-   "reasoning": "scan PASS EV=9.42% models=['FTS', 'DRatings']; scan stake $1.0 (raw 3.73; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "295095"
-  },
-  {
    "id": "B622",
    "sport": "NCAAB",
    "league": "ncaab",
@@ -2590,6 +2335,183 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401918977",
    "reasoning": "scan PASS EV=8.31% models=['ESPN', 'DRatings']; scan stake $1.0 (raw 5.6; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
    "scan_id": "espn401918977"
+  },
+  {
+   "id": "B623",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "Pacific Tigers @ Bradley Braves",
+   "kickoff": "2026-11-08 05:00",
+   "selection": "Bradley Braves",
+   "odds": 1.87,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5652,
+   "implied_pct": 53.5,
+   "edge_pct": 5.66,
+   "stake": 5.0,
+   "status": "open",
+   "opened_at": "2026-11-08 00:05 (Tbilisi)",
+   "odds_time": "2026-11-08 00:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.7,
+     "DRatings": 0.539
+    },
+    "mkt": 0.5108,
+    "nbooks": 1,
+    "blend_p": 0.5652,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401917518",
+   "reasoning": "scan PASS EV=5.66% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 7.71; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "espn401917518"
+  },
+  {
+   "id": "B624",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "SE Louisiana Lions @ Little Rock Trojans",
+   "kickoff": "2026-11-08 05:00",
+   "selection": "SE Louisiana Lions",
+   "odds": 4.8,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.2332,
+   "implied_pct": 20.8,
+   "edge_pct": 11.96,
+   "stake": 3.7,
+   "status": "open",
+   "opened_at": "2026-11-08 00:05 (Tbilisi)",
+   "odds_time": "2026-11-08 00:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.227,
+     "DRatings": 0.306
+    },
+    "mkt": 0.2,
+    "nbooks": 1,
+    "blend_p": 0.2332,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401920816",
+   "reasoning": "scan PASS EV=11.96% models=['ESPN', 'DRatings']; scan stake $3.7 (raw 3.7; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $3.7",
+   "scan_id": "espn401920816"
+  },
+  {
+   "id": "B625",
+   "sport": "Football",
+   "league": "soc_esp.2",
+   "event": "Eldense @ Las Palmas",
+   "kickoff": "2026-11-08 21:30",
+   "selection": "Las Palmas",
+   "odds": 2.05,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5148,
+   "implied_pct": 48.8,
+   "edge_pct": 5.53,
+   "stake": 3.11,
+   "status": "open",
+   "opened_at": "2026-11-08 00:05 (Tbilisi)",
+   "odds_time": "2026-11-08 00:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5691
+    },
+    "mkt": 0.4605,
+    "nbooks": 1,
+    "blend_p": 0.5148,
+    "elo_only": true
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883140",
+   "reasoning": "scan PASS EV=5.53% models=['EloFD']; scan stake $3.11 (raw 3.11; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $3.11",
+   "scan_id": "espn401883140",
+   "elo_only": true
+  },
+  {
+   "id": "B626",
+   "sport": "NFL",
+   "league": "nfl",
+   "event": "Los Angeles Chargers @ Baltimore Ravens",
+   "kickoff": "2026-11-17 05:15",
+   "selection": "Los Angeles Chargers",
+   "odds": 1.98,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5268,
+   "implied_pct": 50.5,
+   "edge_pct": 4.33,
+   "stake": 2.59,
+   "status": "open",
+   "opened_at": "2026-11-08 00:05 (Tbilisi)",
+   "odds_time": "2026-11-08 00:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.571
+    },
+    "mkt": 0.4826,
+    "nbooks": 1,
+    "blend_p": 0.5268,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nfl/summary?event=401873065",
+   "reasoning": "scan PASS EV=4.33% models=['ESPN']; scan stake $2.59 (raw 2.59; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.59",
+   "scan_id": "espn401873065"
+  },
+  {
+   "id": "B627",
+   "sport": "Football",
+   "league": "soc_bra.2",
+   "event": "Criciúma @ Vila Nova",
+   "kickoff": "2026-11-08 03:00",
+   "selection": "Vila Nova",
+   "odds": 2.55,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.4102,
+   "implied_pct": 39.2,
+   "edge_pct": 4.59,
+   "stake": 1.75,
+   "status": "open",
+   "opened_at": "2026-11-08 00:05 (Tbilisi)",
+   "odds_time": "2026-11-08 00:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.45
+    },
+    "mkt": 0.3703,
+    "nbooks": 1,
+    "blend_p": 0.4102,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/summary?event=401860424",
+   "reasoning": "scan PASS EV=4.59% models=['FTS']; scan stake $1.75 (raw 1.75; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.75",
+   "scan_id": "espn401860424"
+  },
+  {
+   "id": "B628",
+   "sport": "UFC",
+   "league": "ufc",
+   "event": "Jose Henrique Souza @ Jonny Parsons",
+   "kickoff": "2026-11-08 02:00",
+   "selection": "Jonny Parsons",
+   "odds": 2.9,
+   "book": "Action Network real book id49",
+   "p": 0.3591,
+   "implied_pct": 34.5,
+   "edge_pct": 4.14,
+   "stake": 1.28,
+   "status": "open",
+   "opened_at": "2026-11-08 00:05 (Tbilisi)",
+   "odds_time": "2026-11-08 00:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.383
+    },
+    "mkt": 0.3352,
+    "nbooks": 4,
+    "blend_p": 0.3591,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ufc (scan/2026-11-07_2359 id=114513)",
+   "reasoning": "scan PASS EV=4.14% models=['DRatings']; scan stake $1.28 (raw 1.28; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.28",
+   "scan_id": "114513"
   }
  ],
  "settled_bets": [
@@ -29549,6 +29471,387 @@
     "note": "CLV -4.11% (4.9 vs DraftKings no-vig close 5.1101); final Milton Keynes Dons 2, Swindon Town 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B487",
+   "sport": "Football",
+   "league": "ligue1",
+   "event": "Paris FC @ Auxerre",
+   "kickoff": "2026-11-07 20:15",
+   "selection": "Paris FC",
+   "odds": 1.909,
+   "book": "Action Network real book id75",
+   "p": 0.5642,
+   "implied_pct": 52.4,
+   "edge_pct": 7.72,
+   "stake": 1.26,
+   "status": "settled",
+   "opened_at": "2026-11-02 00:06 (Tbilisi)",
+   "odds_time": "2026-11-02 00:06 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.6196
+    },
+    "mkt": 0.5089,
+    "nbooks": 5,
+    "blend_p": 0.5642,
+    "elo_only": true
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-01_2356 id=295019)",
+   "reasoning": "scan PASS EV=7.72% models=['EloFD']; scan stake $1.49 (raw 4.58; A4/LEDGER applied in scan.py); open-cap 35% binding (live bank $423.53): pro-rata ×0.85 floor $1 → $1.26; NEWS clear → TITAN APPROVED at $1.26",
+   "scan_id": "295019",
+   "elo_only": true,
+   "result": "won",
+   "pl_usd": 1.15,
+   "settled_at": "2026-11-07 23:58 (Tbilisi)",
+   "final_score": "AJ Auxerre 0, Paris FC 1 (FT)",
+   "score": "AJ Auxerre 0, Paris FC 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876411",
+   "settle_source": "ESPN fra.1 event 401876411 STATUS_FULL_TIME, Paris FC winner",
+   "closing_odds": 1.5882,
+   "closing_fair_odds": 1.6669,
+   "clv_pct": 14.52,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+450', 'away': '-170', 'draw': '+320'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876411",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+450', 'away': '-170', 'draw': '+320'}; no-vig fair 1.6669; recorded PM 2026-11-07 23:58 (Tbilisi)"
+  },
+  {
+   "id": "B509",
+   "sport": "Polymarket",
+   "league": "soc_ned.1",
+   "event": "Sparta Rotterdam @ ADO Den Haag",
+   "kickoff": "2026-11-07 21:45",
+   "selection": "Sparta Rotterdam",
+   "odds": 2.703,
+   "book": "Polymarket ask",
+   "p": 0.3922,
+   "implied_pct": 37.0,
+   "edge_pct": 6.0,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-02 09:02 (Tbilisi)",
+   "odds_time": "2026-11-02 09:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4278
+    },
+    "mkt": 0.3566,
+    "nbooks": 1,
+    "blend_p": 0.3922,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=ere-ado-spa-2026-11-07-spa",
+   "reasoning": "scan PASS EV=6.0% models=['EloFD']; scan stake $1.0 (raw 1.9; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:ere-ado-spa-2026-11-07-spa",
+   "polymarket_slug": "ere-ado-spa-2026-11-07-spa",
+   "outcome_price": 0.37,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "ADO Den Haag vs. Sparta Rotterdam",
+    "pm_league": "NED1",
+    "pm_kickoff_utc": "2026-11-07T17:45Z",
+    "checked": "2026-11-02 09:02 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-11-07 23:58 (Tbilisi)",
+   "final_score": "ADO Den Haag 3, Sparta Rotterdam 1 (FT)",
+   "score": "ADO Den Haag 3, Sparta Rotterdam 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875552",
+   "settle_source": "ESPN ned.1 event 401875552 STATUS_FULL_TIME, ADO Den Haag winner; Polymarket Sparta Rotterdam Yes trading 0.0005 (UMA resolution pending)",
+   "closing_odds": 2.45,
+   "closing_fair_odds": 2.5956,
+   "clv_pct": 4.14,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+160', 'away': '+145', 'draw': '+275'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875552",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+160', 'away': '+145', 'draw': '+275'}; no-vig fair 2.5956; recorded PM 2026-11-07 23:58 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-07 23:58 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +4.14% (2.703 vs DraftKings no-vig close 2.5956); final ADO Den Haag 3, Sparta Rotterdam 1 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B518",
+   "sport": "Polymarket",
+   "league": "seriea",
+   "event": "Bologna @ Parma Calcio 1913",
+   "kickoff": "2026-11-07 21:00",
+   "selection": "Parma Calcio 1913",
+   "odds": 4.762,
+   "book": "Polymarket ask",
+   "p": 0.2318,
+   "implied_pct": 21.0,
+   "edge_pct": 10.38,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-03 00:03 (Tbilisi)",
+   "odds_time": "2026-11-03 00:03 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2775,
+     "DRatings": 0.219
+    },
+    "mkt": 0.2153,
+    "nbooks": 4,
+    "blend_p": 0.2318,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-par-bol-2026-11-07-par",
+   "reasoning": "scan PASS EV=10.38% models=['EloFD', 'DRatings']; scan stake $1.22 (raw 3.04; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "pm:sea-par-bol-2026-11-07-par",
+   "polymarket_slug": "sea-par-bol-2026-11-07-par",
+   "outcome_price": 0.21,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Parma Calcio 1913 vs. Bologna FC 1909",
+    "pm_league": "ITA1",
+    "pm_kickoff_utc": "2026-11-07T17:00:00.000Z",
+    "checked": "2026-11-03 00:03 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-11-07 23:58 (Tbilisi)",
+   "final_score": "Parma 1, Bologna 2 (FT)",
+   "score": "Parma 1, Bologna 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874974",
+   "settle_source": "ESPN ita.1 event 401874974 STATUS_FULL_TIME, Bologna winner; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 5.25,
+   "closing_fair_odds": 5.6941,
+   "clv_pct": -16.37,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+425', 'away': '-150', 'draw': '+240'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874974",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+425', 'away': '-150', 'draw': '+240'}; no-vig fair 5.6941; recorded PM 2026-11-07 23:58 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-07 23:58 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -16.37% (4.762 vs DraftKings no-vig close 5.6941); final Parma 1, Bologna 2 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B569",
+   "sport": "Polymarket",
+   "league": "soc_swe.1",
+   "event": "GAIS @ Degerfors IF",
+   "kickoff": "2026-11-07 20:30",
+   "selection": "GAIS",
+   "odds": 2.381,
+   "book": "Polymarket ask",
+   "p": 0.4584,
+   "implied_pct": 42.0,
+   "edge_pct": 9.14,
+   "stake": 1.42,
+   "status": "settled",
+   "opened_at": "2026-11-05 18:59 (Tbilisi)",
+   "odds_time": "2026-11-05 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.511
+    },
+    "mkt": 0.4058,
+    "nbooks": 1,
+    "blend_p": 0.4584,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=swe-deg-gais-2026-11-07-gais",
+   "reasoning": "scan PASS EV=9.14% models=['DRatings']; scan stake $1.42 (raw 8.02; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.42",
+   "scan_id": "pm:swe-deg-gais-2026-11-07-gais",
+   "polymarket_slug": "swe-deg-gais-2026-11-07-gais",
+   "outcome_price": 0.42,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Degerfors IF vs. GAIS",
+    "pm_league": "SWE1",
+    "pm_kickoff_utc": "2026-11-07T16:30Z",
+    "checked": "2026-11-05 18:59 (Tbilisi)",
+    "rule": "L007"
+   },
+   "result": "won",
+   "pl_usd": 1.96,
+   "settled_at": "2026-11-07 23:58 (Tbilisi)",
+   "final_score": "Degerfors IF 1, GAIS 2 (FT)",
+   "score": "Degerfors IF 1, GAIS 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842878",
+   "settle_source": "ESPN swe.1 event 401842878 STATUS_FULL_TIME, GAIS winner; Polymarket GAIS Yes trading 0.9995 (UMA resolution pending)",
+   "closing_odds": 2.25,
+   "closing_fair_odds": 2.3929,
+   "clv_pct": -0.5,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+200', 'away': '+125', 'draw': '+250'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842878",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+200', 'away': '+125', 'draw': '+250'}; no-vig fair 2.3929; recorded PM 2026-11-07 23:58 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome"
+  },
+  {
+   "id": "B589",
+   "sport": "Polymarket",
+   "league": "soc_den.1",
+   "event": "Viborg FF @ Odense Boldklub",
+   "kickoff": "2026-11-07 21:00",
+   "selection": "Odense Boldklub",
+   "odds": 2.941,
+   "book": "Polymarket ask",
+   "p": 0.3617,
+   "implied_pct": 34.0,
+   "edge_pct": 6.38,
+   "stake": 1.88,
+   "status": "settled",
+   "opened_at": "2026-11-06 09:03 (Tbilisi)",
+   "odds_time": "2026-11-06 09:03 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3402,
+     "DRatings": 0.426
+    },
+    "mkt": 0.3403,
+    "nbooks": 1,
+    "blend_p": 0.3617,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=den-ode-vib-2026-11-07-ode",
+   "reasoning": "scan PASS EV=6.38% models=['EloFD', 'DRatings']; scan stake $1.88 (raw 3.87; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.88",
+   "scan_id": "pm:den-ode-vib-2026-11-07-ode",
+   "polymarket_slug": "den-ode-vib-2026-11-07-ode",
+   "outcome_price": 0.34,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Odense BK vs. Viborg FF",
+    "pm_league": "DEN1",
+    "pm_kickoff_utc": "2026-11-07T17:00Z",
+    "checked": "2026-11-06 09:03 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -1.88,
+   "settled_at": "2026-11-07 23:58 (Tbilisi)",
+   "final_score": "Odense Boldklub 1, Viborg FF 2 (FT)",
+   "score": "Odense Boldklub 1, Viborg FF 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/summary?event=401874499",
+   "settle_source": "ESPN den.1 event 401874499 STATUS_FULL_TIME, Viborg FF winner; Polymarket Odense Boldklub Yes trading 0.0005 (UMA resolution pending)",
+   "closing_odds": 2.85,
+   "closing_fair_odds": 3.0167,
+   "clv_pct": -2.51,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+185', 'away': '+125', 'draw': '+280'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/summary?event=401874499",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+185', 'away': '+125', 'draw': '+280'}; no-vig fair 3.0167; recorded PM 2026-11-07 23:58 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-07 23:58 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -2.51% (2.941 vs DraftKings no-vig close 3.0167); final Odense Boldklub 1, Viborg FF 2 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B615",
+   "sport": "Football",
+   "league": "soc_gre.1",
+   "event": "Panetolikos @ Aris",
+   "kickoff": "2026-11-07 21:30",
+   "selection": "Draw (Panetolikos @ Aris)",
+   "odds": 4.7,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.24,
+   "implied_pct": 21.3,
+   "edge_pct": 12.8,
+   "stake": 1.56,
+   "status": "settled",
+   "opened_at": "2026-11-07 09:03 (Tbilisi)",
+   "odds_time": "2026-11-07 09:03 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.27,
+     "EloFD": 0.2891
+    },
+    "mkt": 0.2004,
+    "nbooks": 1,
+    "blend_p": 0.24,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/summary?event=401896732",
+   "reasoning": "scan PASS EV=12.8% models=['FTS', 'EloFD']; scan stake $1.56 (raw 3.97; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.56",
+   "scan_id": "espn401896732",
+   "result": "lost",
+   "pl_usd": -1.56,
+   "settled_at": "2026-11-07 23:58 (Tbilisi)",
+   "final_score": "Aris 3, Panetolikos 0 (FT)",
+   "score": "Aris 3, Panetolikos 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/summary?event=401896732",
+   "settle_source": "ESPN gre.1 event 401896732 STATUS_FULL_TIME, Aris winner",
+   "closing_odds": 5.0,
+   "closing_fair_odds": 5.2726,
+   "clv_pct": -10.86,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-280', 'away': '+750', 'draw': '+400'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/summary?event=401896732",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-280', 'away': '+750', 'draw': '+400'}; no-vig fair 5.2726; recorded PM 2026-11-07 23:58 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-07 23:58 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -10.86% (4.7 vs DraftKings no-vig close 5.2726); final Aris 3, Panetolikos 0 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B621",
+   "sport": "Football",
+   "league": "laliga",
+   "event": "Athletic Bilbao @ Osasuna",
+   "kickoff": "2026-11-07 21:30",
+   "selection": "Osasuna",
+   "odds": 3.9,
+   "book": "Action Network real book id69",
+   "p": 0.2806,
+   "implied_pct": 25.6,
+   "edge_pct": 9.42,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-07 18:59 (Tbilisi)",
+   "odds_time": "2026-11-07 18:59 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.31,
+     "DRatings": 0.288
+    },
+    "mkt": 0.2621,
+    "nbooks": 5,
+    "blend_p": 0.2806,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-07_1854 id=295095)",
+   "reasoning": "scan PASS EV=9.42% models=['FTS', 'DRatings']; scan stake $1.0 (raw 3.73; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "295095",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-11-07 23:58 (Tbilisi)",
+   "final_score": "Osasuna 1, Athletic Club 1 (FT)",
+   "score": "Osasuna 1, Athletic Club 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882811",
+   "settle_source": "ESPN esp.1 event 401882811 STATUS_FULL_TIME, draw",
+   "closing_odds": 3.9,
+   "closing_fair_odds": 4.1142,
+   "clv_pct": -5.21,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+290', 'away': '+100', 'draw': '+235'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882811",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+290', 'away': '+100', 'draw': '+235'}; no-vig fair 4.1142; recorded PM 2026-11-07 23:58 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-07 23:58 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -5.21% (3.9 vs DraftKings no-vig close 4.1142); final Osasuna 1, Athletic Club 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -29563,7 +29866,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 75795
+   "last_price": 75720
   },
   {
    "symbol": "SPY",
@@ -29647,7 +29950,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 75795,
+   "last_price": 75720,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -30729,6 +31032,14 @@
    "total_value": 458.91,
    "cash": 215.9948,
    "btc_bench": 460.67
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "PM",
+   "time": "2026-11-08 00:05 (Tbilisi)",
+   "total_value": 471.35,
+   "cash": 247.4474,
+   "btc_bench": 459.5
   }
  ],
  "benchmarks_start": {
@@ -125408,6 +125719,1241 @@
    "plan": "PM 2026-11-07: შაბათის საღამოს მატჩები (EPL/ჩემპიონშიპი/FA თასი 19:00, ლა ლიგა, სერია A, NCAAF/NCAAB ღამით) დასახლდება მხოლოდ რეალური საბოლოო შედეგებით; B294 გადაიდო; B415 (Iowa@Northwestern) ESPN-ზე ჯერ SCHEDULED; BTC < MA20 და SMA50 → კარიბჭე დახურულია; Football/Polymarket/NBA დესკები ცალკე იზომება.",
    "settle_note": "ESPN/gamma finals: 1 settled 1W/0L +1.27 — B539 Kashiwa Reysol won (Kashiwa Reysol 2, Kawasaki Frontale 1). Left open (not final / B294 postponed): B405, B415, B552.",
    "closed_at": "2026-11-07 18:59 (Tbilisi)"
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "PM",
+   "time": "2026-11-07 23:58 (Tbilisi)",
+   "status": "complete",
+   "note": "PM: 6 new bets (scan 6 PASS), TITAN blocked 0, shrunk 0, settled 7 (-3.33), ledger 7, post-mortems 5, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: 0 SL/TP, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 16W/24L +20.20, Polymarket 30W/48L +4.29, NBA 6W/17L -16.14",
+   "ledger": [
+    {
+     "id": "B487",
+     "odds": 1.909,
+     "close": 1.5882,
+     "fair": 1.6669,
+     "clv_pct": 14.52,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876411"
+    },
+    {
+     "id": "B509",
+     "odds": 2.703,
+     "close": 2.45,
+     "fair": 2.5956,
+     "clv_pct": 4.14,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875552"
+    },
+    {
+     "id": "B518",
+     "odds": 4.762,
+     "close": 5.25,
+     "fair": 5.6941,
+     "clv_pct": -16.37,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874974"
+    },
+    {
+     "id": "B569",
+     "odds": 2.381,
+     "close": 2.25,
+     "fair": 2.3929,
+     "clv_pct": -0.5,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842878"
+    },
+    {
+     "id": "B589",
+     "odds": 2.941,
+     "close": 2.85,
+     "fair": 3.0167,
+     "clv_pct": -2.51,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/summary?event=401874499"
+    },
+    {
+     "id": "B615",
+     "odds": 4.7,
+     "close": 5.0,
+     "fair": 5.2726,
+     "clv_pct": -10.86,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/summary?event=401896732"
+    },
+    {
+     "id": "B621",
+     "odds": 3.9,
+     "close": 3.9,
+     "fair": 4.1142,
+     "clv_pct": -5.21,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882811"
+    }
+   ],
+   "postmortem": [
+    {
+     "id": "B509",
+     "cause": "variance",
+     "clv_pct": 4.14,
+     "note": "CLV +4.14% (2.703 vs DraftKings no-vig close 2.5956); final ADO Den Haag 3, Sparta Rotterdam 1 (FT). Price beat the close — loss is variance.",
+     "lesson": null
+    },
+    {
+     "id": "B518",
+     "cause": "price+variance",
+     "clv_pct": -16.37,
+     "note": "CLV -16.37% (4.762 vs DraftKings no-vig close 5.6941); final Parma 1, Bologna 2 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
+    },
+    {
+     "id": "B589",
+     "cause": "price+variance",
+     "clv_pct": -2.51,
+     "note": "CLV -2.51% (2.941 vs DraftKings no-vig close 3.0167); final Odense Boldklub 1, Viborg FF 2 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
+    },
+    {
+     "id": "B615",
+     "cause": "price+variance",
+     "clv_pct": -10.86,
+     "note": "CLV -10.86% (4.7 vs DraftKings no-vig close 5.2726); final Aris 3, Panetolikos 0 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
+    },
+    {
+     "id": "B621",
+     "cause": "price+variance",
+     "clv_pct": -5.21,
+     "note": "CLV -5.21% (3.9 vs DraftKings no-vig close 4.1142); final Osasuna 1, Athletic Club 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
+    }
+   ],
+   "not_final_left_open": [
+    {
+     "id": "B415",
+     "event": "Iowa Hawkeyes @ Northwestern Wildcats",
+     "espn": "STATUS_SCHEDULED"
+    },
+    {
+     "id": "B476",
+     "event": "Nantes @ Pau",
+     "espn": "STATUS_HALFTIME"
+    },
+    {
+     "id": "B491",
+     "event": "Tulsa Golden Hurricane @ Tulane Green Wave",
+     "espn": "STATUS_IN_PROGRESS"
+    },
+    {
+     "id": "B543",
+     "event": "Texas Longhorns @ Missouri Tigers",
+     "espn": "STATUS_IN_PROGRESS"
+    },
+    {
+     "id": "B551",
+     "event": "Académico de Viseu @ C.D. Nacional",
+     "espn": "STATUS_POSTPONED"
+    },
+    {
+     "id": "B558",
+     "event": "North Carolina Tar Heels @ UConn Huskies",
+     "espn": "STATUS_IN_PROGRESS"
+    },
+    {
+     "id": "B606",
+     "event": "Independiente Rivadavia @ Gimnasia (Mendoza)",
+     "espn": "STATUS_FULL_TIME",
+     "why": "Polymarket not decided/inconsistent yes=0.035 closed=False uma=None"
+    },
+    {
+     "id": "B617",
+     "event": "LASK Linz @ SV Josko Ried",
+     "espn": "STATUS_SECOND_HALF"
+    },
+    {
+     "id": "B622",
+     "event": "UNC Wilmington Seahawks @ East Carolina Pirates",
+     "espn": "STATUS_IN_PROGRESS"
+    }
+   ],
+   "research": {
+    "settled": [
+     {
+      "id": "B487",
+      "event": "Paris FC @ Auxerre",
+      "sel": "Paris FC",
+      "odds": 1.909,
+      "stake": 1.26,
+      "result": "won",
+      "pl_usd": 1.15,
+      "score": "AJ Auxerre 0, Paris FC 1",
+      "sport": "Football"
+     },
+     {
+      "id": "B509",
+      "event": "Sparta Rotterdam @ ADO Den Haag",
+      "sel": "Sparta Rotterdam",
+      "odds": 2.703,
+      "stake": 1.0,
+      "result": "lost",
+      "pl_usd": -1.0,
+      "score": "ADO Den Haag 3, Sparta Rotterdam 1",
+      "sport": "Polymarket"
+     },
+     {
+      "id": "B518",
+      "event": "Bologna @ Parma Calcio 1913",
+      "sel": "Parma Calcio 1913",
+      "odds": 4.762,
+      "stake": 1.0,
+      "result": "lost",
+      "pl_usd": -1.0,
+      "score": "Parma 1, Bologna 2",
+      "sport": "Polymarket"
+     },
+     {
+      "id": "B569",
+      "event": "GAIS @ Degerfors IF",
+      "sel": "GAIS",
+      "odds": 2.381,
+      "stake": 1.42,
+      "result": "won",
+      "pl_usd": 1.96,
+      "score": "Degerfors IF 1, GAIS 2",
+      "sport": "Polymarket"
+     },
+     {
+      "id": "B589",
+      "event": "Viborg FF @ Odense Boldklub",
+      "sel": "Odense Boldklub",
+      "odds": 2.941,
+      "stake": 1.88,
+      "result": "lost",
+      "pl_usd": -1.88,
+      "score": "Odense Boldklub 1, Viborg FF 2",
+      "sport": "Polymarket"
+     },
+     {
+      "id": "B615",
+      "event": "Panetolikos @ Aris",
+      "sel": "Draw (Panetolikos @ Aris)",
+      "odds": 4.7,
+      "stake": 1.56,
+      "result": "lost",
+      "pl_usd": -1.56,
+      "score": "Aris 3, Panetolikos 0",
+      "sport": "Football"
+     },
+     {
+      "id": "B621",
+      "event": "Athletic Bilbao @ Osasuna",
+      "sel": "Osasuna",
+      "odds": 3.9,
+      "stake": 1.0,
+      "result": "lost",
+      "pl_usd": -1.0,
+      "score": "Osasuna 1, Athletic Club 1",
+      "sport": "Football"
+     }
+    ],
+    "note": "PM paper cycle 2026-11-07 (Saturday night)",
+    "btc_hold": "NO BUY: BTC 75720 < MA20 79363 (below SMA50 81890) → trend gate closed; hold existing crypto lots (stops not hit); crypto $22.43",
+    "btc": 75720,
+    "btc_ma20": 79363.13,
+    "btc_ma50": 81889.97,
+    "tokens_passed": 85,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B623",
+     "B624",
+     "B625",
+     "B626",
+     "B627",
+     "B628"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 0,
+    "titan_shrunk": 0,
+    "nova_approved": 6,
+    "x_calls": 5,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-11-07_2359",
+    "time": "2026-11-07 23:59 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 170,
+    "funnel": {
+     "options_AN": 12526,
+     "events_AN": 441,
+     "events_ESPN": 1621,
+     "options_ESPN": 1195,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 976,
+     "model_rows_DR": 296,
+     "model_rows_FTS": 134,
+     "events_upcoming": 552,
+     "selections_priced": 1258,
+     "drop_too_few_books": 537,
+     "selections_consensus": 689,
+     "with_model": 580,
+     "with_2plus_model": 359,
+     "with_1_model": 221,
+     "drop_no_model": 109,
+     "elo_matched_events": 94,
+     "drop_nhl_calibration": 32,
+     "gate_ev<3": 470,
+     "gate_dup_open": 31,
+     "gate_A3_range": 25,
+     "gate_odds>5": 37,
+     "gate_PASS": 7,
+     "gate_model_ev<=0": 6,
+     "gate_L004_single_model_gap": 3,
+     "gate_TITAN_elo_disagree>10pt": 1,
+     "options_Polymarket": 35218,
+     "pm_markets": 17609,
+     "pm_liq1k": 1475,
+     "pm_sports_ml": 381,
+     "pm_matched_model": 17,
+     "pm_gate_odds>5": 5,
+     "pm_gate_ev<3": 10,
+     "pm_drop_L007_no_strict_match": 62,
+     "pm_drop_L007_league_unmapped": 99,
+     "pm_gate_dup_open": 1,
+     "pm_tb1_tagged": 1,
+     "pm_gate_A3_range": 1,
+     "dup_open": 32,
+     "bank_live": 471.35,
+     "bank_stale_overall_report": 474.71,
+     "prior_veto": 1,
+     "prior_veto_list_24h": 1,
+     "ledger_halve_suppressed": 4,
+     "final_after_caps": 6,
+     "stake_total": 17.43,
+     "budget_caps": 41.62,
+     "tokens_src_dexscreener_tokens": 67,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 1,
+     "tokens_gt_fetch_seconds": 91,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 780,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 762,
+     "tokens_chain_solana": 220,
+     "tokens_chain_ethereum": 178,
+     "tokens_chain_bsc": 180,
+     "tokens_chain_robinhood": 9,
+     "tokens_chain_base": 175,
+     "tokens_gate_liquidity": 433,
+     "tokens_gate_too_new": 67,
+     "tokens_gate_pass": 131,
+     "tokens_gate_thin_liq_fdv": 71,
+     "tokens_gate_low_activity": 57,
+     "tokens_gate_rug_dump": 2,
+     "tokens_gate_pump": 1,
+     "tokens_safety_pass": 85,
+     "tokens_safety_fail": 20,
+     "tokens_safety_unverified": 26,
+     "tokens_passed_safety": 85,
+     "options_scanned_total": 49701
+    },
+    "coverage_events_by_sport": {
+     "nba": 103,
+     "ncaaf": 37,
+     "nfl": 27,
+     "ncaab": 112,
+     "nhl": 92,
+     "ufc": 27,
+     "soccer": 154
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 49701,
+     "candidates": [
+      {
+       "name": "Bradley Braves",
+       "type": "ncaab",
+       "score": 55,
+       "why": "EV 5.66% @1.87 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "SE Louisiana Lions",
+       "type": "ncaab",
+       "score": 61,
+       "why": "EV 11.96% @4.8 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Las Palmas",
+       "type": "soccer",
+       "score": 55,
+       "why": "EV 5.53% @2.05 models=['EloFD']"
+      },
+      {
+       "name": "Los Angeles Chargers",
+       "type": "nfl",
+       "score": 54,
+       "why": "EV 4.33% @1.98 models=['ESPN']"
+      },
+      {
+       "name": "Vila Nova",
+       "type": "soccer",
+       "score": 54,
+       "why": "EV 4.59% @2.55 models=['FTS']"
+      },
+      {
+       "name": "Jonny Parsons",
+       "type": "ufc",
+       "score": 54,
+       "why": "EV 4.14% @2.9 models=['DRatings']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 49701,
+      "with_model": 580,
+      "gate_PASS": 7,
+      "pm_gate_PASS": null,
+      "dup_open": 32,
+      "prior_veto": 1,
+      "final_after_caps": 6,
+      "pm_tb1_tagged": 1,
+      "pm_tb1_tagged_pass": null,
+      "tokens_tokens_unique": 780,
+      "tokens_passed_safety": 85,
+      "stake_total": 17.43,
+      "budget_caps": 41.62
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 75720.56,
+       "tp": 81778.2,
+       "stop": 71934.53,
+       "support": 75720.56,
+       "resistance": 84082.27,
+       "prices": [
+        81875.26,
+        82943.83,
+        84082.27,
+        81328.21,
+        81102.31,
+        80810.57,
+        80048.85,
+        80029.43,
+        80800.83,
+        81274.37,
+        77838.81,
+        77275.05,
+        77520.89,
+        78293.84,
+        76709.41,
+        77384.59,
+        80442.71,
+        76005.51,
+        75775.28,
+        75720.56
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 735.29,
+       "tp": 794.11,
+       "stop": 698.53,
+       "support": 733.0,
+       "resistance": 778.1,
+       "prices": [
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "down",
+       "entry": 530.61,
+       "tp": 573.06,
+       "stop": 504.08,
+       "support": 507.12,
+       "resistance": 555.8,
+       "prices": [
+        541.15,
+        543.45,
+        533.69,
+        539.44,
+        529.05,
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1053.56,
+       "tp": 1137.84,
+       "stop": 1000.88,
+       "support": 954.63,
+       "resistance": 1065.59,
+       "prices": [
+        959.44,
+        954.63,
+        982.0,
+        978.01,
+        989.11,
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 570.89,
+       "tp": 616.56,
+       "stop": 542.35,
+       "support": 517.6,
+       "resistance": 579.09,
+       "prices": [
+        517.6,
+        520.59,
+        526.35,
+        525.68,
+        532.02,
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 165.87,
+       "tp": 179.14,
+       "stop": 157.58,
+       "support": 165.3,
+       "resistance": 187.25,
+       "prices": [
+        172.15,
+        174.08,
+        177.01,
+        174.68,
+        178.98,
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 213.65,
+       "tp": 230.74,
+       "stop": 202.97,
+       "support": 213.65,
+       "resistance": 250.29,
+       "prices": [
+        233.92,
+        238.01,
+        235.95,
+        246.74,
+        240.7,
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1354.0,
+       "tp": 1462.32,
+       "stop": 1286.3,
+       "support": 1166.51,
+       "resistance": 1417.99,
+       "prices": [
+        1182.62,
+        1166.51,
+        1208.74,
+        1251.61,
+        1257.03,
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "Bradley Braves",
+       "stance": "watch",
+       "text": "Bradley women's player Claire McDougall out for season — women's team, not the men's Pacific @ Bradley game",
+       "source": "https://x.com/pjstar/status/2118380351739286014"
+      },
+      {
+       "candidate": "SE Louisiana Lions",
+       "stance": "bullish",
+       "text": "X search: no SE Louisiana / Little Rock men's injury or suspension news (only SELA football and a 92-59 loss at Auburn on Nov 4) → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Las Palmas",
+       "stance": "watch",
+       "text": "Eldense: David Ruiz returns to the squad Sunday after hamstring injury; Carlos Guirao recovered",
+       "source": "https://x.com/RuizAlejandroo/status/2118828537574744370"
+      },
+      {
+       "candidate": "Los Angeles Chargers",
+       "stance": "watch",
+       "text": "Ravens QB Lamar Jackson placed on injured reserve (thumb) — opponent side; Jacoby Brissett expected to start",
+       "source": "https://x.com/prophetshares/status/2119149697914851810"
+      },
+      {
+       "candidate": "Vila Nova",
+       "stance": "bullish",
+       "text": "X search: no Vila Nova / Criciúma injury or suspension news found → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Jonny Parsons",
+       "stance": "watch",
+       "text": "Jonny Parsons returns after a ~3-year (1,204-day) layoff; both made weight at the official weigh-in (public before the line)",
+       "source": "https://x.com/LastRoundPicks/status/2118798353408414069"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "Bradley Braves",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "SE Louisiana Lions",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Las Palmas",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Los Angeles Chargers",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Vila Nova",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Jonny Parsons",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": 0.1
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "Bradley Braves (Pacific Tigers @ Bradley Braves)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Only injury found is on Bradley WOMEN's team (not this game); nothing on Pacific/Bradley men → clear"
+      },
+      {
+       "candidate": "SE Louisiana Lions (SE Louisiana Lions @ Little Rock Trojans)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "X search: no SE Louisiana / Little Rock men's injury or suspension news (only SELA football and a 92-59 loss at Auburn on Nov 4) → clear"
+      },
+      {
+       "candidate": "Las Palmas (Eldense @ Las Palmas)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Opponent Eldense gets two players back (small negative, already public before close); Las Palmas only routine 2 injuries; no material new absence → clear (Elo-o"
+      },
+      {
+       "candidate": "Los Angeles Chargers (Los Angeles Chargers @ Baltimore Ravens)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Key absence is on the opponent (Lamar on IR); Herbert ankle claim unsourced → 0 weight; game is Nov 17 (9 days) → clear; re-check before kickoff if line moves"
+      },
+      {
+       "candidate": "Vila Nova (Criciúma @ Vila Nova)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "X search: no Vila Nova / Criciúma injury or suspension news found → clear"
+      },
+      {
+       "candidate": "Jonny Parsons (Jose Henrique Souza @ Jonny Parsons)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Fight confirmed at weigh-in; layoff is old public info (priced) → clear at scan stake"
+      }
+     ],
+     "blocked_count": 0
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Bradley Braves (Pacific Tigers @ Bradley Braves)",
+       "action": "BUY",
+       "size_usd": 5.0
+      },
+      {
+       "candidate": "SE Louisiana Lions (SE Louisiana Lions @ Little Rock Tro)",
+       "action": "BUY",
+       "size_usd": 3.7
+      },
+      {
+       "candidate": "Las Palmas (Eldense @ Las Palmas)",
+       "action": "BUY",
+       "size_usd": 3.11
+      },
+      {
+       "candidate": "Los Angeles Chargers (Los Angeles Chargers @ Baltimore Rav)",
+       "action": "BUY",
+       "size_usd": 2.59
+      },
+      {
+       "candidate": "Vila Nova (Criciúma @ Vila Nova)",
+       "action": "BUY",
+       "size_usd": 1.75
+      },
+      {
+       "candidate": "Jonny Parsons (Jose Henrique Souza @ Jonny Parsons)",
+       "action": "BUY",
+       "size_usd": 1.28
+      }
+     ],
+     "desk_pl_today": -3.33
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 6,
+      "blocked": 0,
+      "note": "სკანი 49701 ოფცია; with_model 580; PASS 7+PM 0 → caps 6 (dup_open 32, prior_veto 1); NEWS/TITAN-ის შემდეგ 6"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 75720 vs MA20 79363 & SMA50 81890 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 6,
+      "blocked": 0,
+      "note": "X search_posts_all (5 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 6,
+      "blocked": 0,
+      "note": "overall 0.1"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 6,
+      "blocked": 0,
+      "note": "ფსონები: სკანის 6 PASS → 0 ვეტო (არა), 0 შემცირება (არა); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 6,
+      "blocked": 0,
+      "note": "6 ფსონი (B623 Bradley Braves @1.87 $5.0, B624 SE Louisiana Lions @4.8 $3.7, B625 Las Palmas @2.05 $3.11, B626 Los Angeles Chargers @1.98 $2.59, B627 Vila Nova @2.55 $1.75, B628 Jonny Parsons @2.9 $1.28); ბიუჯეტი ქეპებში $41.62 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 6,
+      "approved": 6,
+      "blocked": 0,
+      "note": "6 PASS კანდიდატი → 5 x-call (search_posts_all): 0 ბლოკი, 0 შემცირება, 6 clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 5,
+      "approved": 0,
+      "blocked": 0,
+      "note": "5 post-mortem: B509 variance, B518 price+variance, B589 price+variance, B615 price+variance, B621 price+variance; ახალი გაკვეთილი არ არის: 5 წაგება — B509 CLV+ (ვარიანსი), B518/B589/B615/B621 ფასი საწყისზე უარესი დახურვამდე (CLV−), წესის დარღვევა არ ყოფილა; Football/Polymarket-ის CLV−-ის ტრენდი რჩება (ჰალვინგი გამორთულია მფლობელის ბრძანებით, მხოლოდ აღრიცხვა)"
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 7,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 7/7; Football n=143 mean -5.06%; Polymarket n=213 mean -2.25%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 1, pass 0"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 2,
+      "approved": 2,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): B487 Paris FC +1.15, B509 Sparta Rotterdam -1.00, B518 Parma Calcio 1913 -1.00, B569 GAIS +1.96, B589 Odense Boldklub -1.88, B615 Draw (Panetolikos @ Aris) -1.56, B621 Osasuna -1.00"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 3,
+      "approved": 3,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 75720 < MA20 79363 (-4.6%), < SMA50 81890 → no buy, hold 2 lots; ETH 2233 (MA20 2324, SMA50 2491), SOL 89.57 (SMA50 107.70) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "780 scanned, 85 passed safety; buying needs BTC>MA20 → gate closed → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი დახურულია (შაბათი; პარასკევის დახურვა SPY 735.29 Yahoo); 6 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; stop/TP არ მოხვდა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "L007: unmapped 99, no strict 62, matched 17; PM PASS None; TB1 pass None; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "შაბათი ღამე / კვირა 8 ნოემბერი — CPI/FOMC არ არის, აშშ ბაზარი დახურულია; ზომის შემცირება არა"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "espn401917518",
+     "event": "Pacific Tigers @ Bradley Braves",
+     "sel": "Bradley Braves",
+     "queries": [
+      "(\"SE Louisiana\" OR \"Southeastern Louisiana\" OR \"Little Rock Trojans\" OR \"Pacific Tigers\" OR \"Bradley Braves\" OR \"Bradley basketball\") (injury OR injured OR out OR suspended OR \"ruled out\" OR questionable) -is:retweet since:2026-11-04"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Bradley women's player Claire McDougall out for season — women's team, not the men's Pacific @ Bradley game",
+       "source": "https://x.com/pjstar/status/2118380351739286014",
+       "time": "2026-11-05 20:30 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Only injury found is on Bradley WOMEN's team (not this game); nothing on Pacific/Bradley men → clear"
+    },
+    {
+     "candidate": "espn401920816",
+     "event": "SE Louisiana Lions @ Little Rock Trojans",
+     "sel": "SE Louisiana Lions",
+     "queries": [
+      "(\"SE Louisiana\" OR \"Southeastern Louisiana\" OR \"Little Rock Trojans\" OR \"Pacific Tigers\" OR \"Bradley Braves\" OR \"Bradley basketball\") (injury OR injured OR out OR suspended OR \"ruled out\" OR questionable) -is:retweet since:2026-11-04"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "X search: no SE Louisiana / Little Rock men's injury or suspension news (only SELA football and a 92-59 loss at Auburn on Nov 4) → clear"
+    },
+    {
+     "candidate": "espn401883140",
+     "event": "Eldense @ Las Palmas",
+     "sel": "Las Palmas",
+     "queries": [
+      "(\"Las Palmas\" OR \"UD Las Palmas\" OR Eldense OR \"Vila Nova\" OR Criciúma) (lesión OR lesionado OR baja OR bajas OR sancionado OR convocatoria OR lesão OR desfalque OR suspenso OR injury) -is:retweet since:2026-11-04"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "lineup",
+       "text": "Eldense: David Ruiz returns to the squad Sunday after hamstring injury; Carlos Guirao recovered",
+       "source": "https://x.com/RuizAlejandroo/status/2118828537574744370",
+       "time": "2026-11-07 02:11 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "LaLiga 2 injury list: Las Palmas 2 injured (no new absence named)",
+       "source": "https://x.com/AISportPredicts/status/2118455524517621898",
+       "time": "2026-11-06 01:28 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Opponent Eldense gets two players back (small negative, already public before close); Las Palmas only routine 2 injuries; no material new absence → clear (Elo-only half stake already applied by scan.py)"
+    },
+    {
+     "candidate": "espn401873065",
+     "event": "Los Angeles Chargers @ Baltimore Ravens",
+     "sel": "Los Angeles Chargers",
+     "queries": [
+      "(Chargers OR Ravens OR \"Jonny Parsons\" OR \"Jose Henrique Souza\") (injury OR injured OR \"ruled out\" OR doubtful OR questionable OR IR OR withdrawn OR replacement OR \"out of\") -is:retweet since:2026-11-05",
+      "(\"Justin Herbert\" OR Herbert) (ankle OR injury OR status OR questionable OR out) Chargers -is:retweet since:2026-11-05"
+     ],
+     "tool_calls": 2,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Ravens QB Lamar Jackson placed on injured reserve (thumb) — opponent side; Jacoby Brissett expected to start",
+       "source": "https://x.com/prophetshares/status/2119149697914851810",
+       "time": "2026-11-07 23:27 (Tbilisi)"
+      },
+      {
+       "type": "none",
+       "text": "Unverified reply (AI account) mentions Justin Herbert high-ankle sprain; no team/insider source found in a dedicated Herbert search → 0 weight (PLAYBOOK rule 12)",
+       "source": "https://x.com/grok/status/2119151904794050972",
+       "time": "2026-11-07 23:36 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Key absence is on the opponent (Lamar on IR); Herbert ankle claim unsourced → 0 weight; game is Nov 17 (9 days) → clear; re-check before kickoff if line moves"
+    },
+    {
+     "candidate": "espn401860424",
+     "event": "Criciúma @ Vila Nova",
+     "sel": "Vila Nova",
+     "queries": [
+      "(\"Las Palmas\" OR \"UD Las Palmas\" OR Eldense OR \"Vila Nova\" OR Criciúma) (lesión OR lesionado OR baja OR bajas OR sancionado OR convocatoria OR lesão OR desfalque OR suspenso OR injury) -is:retweet since:2026-11-04"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "X search: no Vila Nova / Criciúma injury or suspension news found → clear"
+    },
+    {
+     "candidate": "114513",
+     "event": "Jose Henrique Souza @ Jonny Parsons",
+     "sel": "Jonny Parsons",
+     "queries": [
+      "(Chargers OR Ravens OR \"Jonny Parsons\" OR \"Jose Henrique Souza\") (injury OR injured OR \"ruled out\" OR doubtful OR questionable OR IR OR withdrawn OR replacement OR \"out of\") -is:retweet since:2026-11-05",
+      "(\"Jonny Parsons\" OR \"Henrique Souza\" OR \"Jose Henrique\") UFC -is:retweet since:2026-11-03"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Jonny Parsons returns after a ~3-year (1,204-day) layoff; both made weight at the official weigh-in (public before the line)",
+       "source": "https://x.com/LastRoundPicks/status/2118798353408414069",
+       "time": "2026-11-07 00:11 (Tbilisi)"
+      },
+      {
+       "type": "none",
+       "text": "Official weigh-in: Parsons vs Souza confirmed at welterweight",
+       "source": "https://x.com/darioferrariMMA/status/2118785388961521793",
+       "time": "2026-11-06 23:19 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Fight confirmed at weigh-in; layoff is old public info (priced) → clear at scan stake"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 67,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 1,
+     "gt_fetch_seconds": 91,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 780,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 762,
+     "chain_solana": 220,
+     "chain_ethereum": 178,
+     "chain_bsc": 180,
+     "chain_robinhood": 9,
+     "chain_base": 175,
+     "gate_liquidity": 433,
+     "gate_too_new": 67,
+     "gate_pass": 131,
+     "gate_thin_liq_fdv": 71,
+     "gate_low_activity": 57,
+     "gate_rug_dump": 2,
+     "gate_pump": 1,
+     "safety_pass": 85,
+     "safety_fail": 20,
+     "safety_unverified": 26
+    },
+    "passed_n": 85,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 7 final(s): B487 won +1.15, B509 lost -1.0, B518 lost -1.0, B569 won +1.96, B589 lost -1.88, B615 lost -1.56, B621 lost -1.0 (P/L -3.33). Not final → left open for AM: B415, B476, B491, B543, B551, B558, B606, B617, B622. LEDGER: DK closes 7/7; Football n=143 mean CLV -5.06%; Polymarket n=213 mean -2.25% (halving OFF by owner order 2026-10-28; tracked only). DOC: 5 post-mortems. Scan 49701 options → with_model 580 → PASS 7+PM None → 6 after dedup/caps (prior_veto 1); SHERLOCK/TITAN: 0 blocked, 0 shrunk → 6 bets. NO BUY: BTC 75720 < MA20 79363 (below SMA50 81890) → trend gate closed; hold existing crypto lots (stops not hit); crypto $22.43; tokens: BTC gate closed → 0; stocks: US market closed (Saturday; Friday close from Yahoo); no SL/TP hits this PM; no tested entry rule → 0 new buys.",
+   "plan": "AM 2026-11-08: ღამის NCAAF/NCAAB/UFC/ბრაზილიის მატჩები (B415, B491, B492, B543, B558, B622 და ახალი ფსონები) დასახლდება მხოლოდ რეალური საბოლოო შედეგით; B606 PM-ის რეზოლუციას ელოდება; B551 გადაიდო; BTC < MA20 და SMA50 → კარიბჭე დახურულია; NBA post-unhalve კვლავ მინუსშია — მფლობელს ეცნობება.",
+   "settle_note": "ESPN/gamma finals: 7 settled 2W/5L -3.33 — B487 Paris FC won (AJ Auxerre 0, Paris FC 1); B509 Sparta Rotterdam lost (ADO Den Haag 3, Sparta Rotterdam 1); B518 Parma Calcio 1913 lost (Parma 1, Bologna 2); B569 GAIS won (Degerfors IF 1, GAIS 2); B589 Odense Boldklub lost (Odense Boldklub 1, Viborg FF 2); B615 Draw (Panetolikos @ Aris) lost (Aris 3, Panetolikos 0); B621 Osasuna lost (Osasuna 1, Athletic Club 1). Left open (not final / B551 postponed / B598 no ESPN final): B415, B476, B491, B543, B551, B558, B606, B617, B622.",
+   "closed_at": "2026-11-08 00:05 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -125748,7 +127294,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 75795,
+  "BTC": 75720,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 735.29,
@@ -125806,8 +127352,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 79366.84,
-  "BTC_MA50": 81891.45,
+  "BTC_MA20": 79363.13,
+  "BTC_MA50": 81889.97,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -125826,20 +127372,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-07 22:01 (Tbilisi)",
-  "total_value": 474.71,
+  "time": "2026-11-08 00:05 (Tbilisi)",
+  "total_value": 471.35,
   "deposits_usd": 500,
-  "vs_deposits_usd": -25.29,
-  "vs_deposits_pct": -5.06,
-  "btc_bench": 459.96,
-  "vs_btc_usd": 14.75,
+  "vs_deposits_usd": -28.65,
+  "vs_deposits_pct": -5.73,
+  "btc_bench": 459.5,
+  "vs_btc_usd": 11.85,
   "bets": {
-   "n": 547,
-   "wins": 201,
-   "losses": 346,
-   "open": 75,
-   "pl_usd": -21.23,
-   "roi_pct": -2.1
+   "n": 554,
+   "wins": 203,
+   "losses": 351,
+   "open": 74,
+   "pl_usd": -24.56,
+   "roi_pct": -2.4
   },
   "by_sport": {
    "NHL": {
@@ -125864,11 +127410,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 170,
-    "wins": 56,
-    "losses": 114,
-    "pl_usd": 8.82,
-    "roi_pct": 3.5
+    "n": 173,
+    "wins": 57,
+    "losses": 116,
+    "pl_usd": 7.41,
+    "roi_pct": 2.9
    },
    "NCAAF": {
     "n": 46,
@@ -125885,11 +127431,11 @@
     "roi_pct": -35.0
    },
    "Polymarket": {
-    "n": 220,
-    "wins": 78,
-    "losses": 142,
-    "pl_usd": -15.99,
-    "roi_pct": -4.0
+    "n": 224,
+    "wins": 79,
+    "losses": 145,
+    "pl_usd": -17.91,
+    "roi_pct": -4.5
    },
    "NFL": {
     "n": 17,
@@ -125922,10 +127468,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 22.45,
-   "unrealized_usd": -2.55,
+   "value_usd": 22.43,
+   "unrealized_usd": -2.57,
    "realized_usd": -2.19,
-   "total_pl_usd": -4.74
+   "total_pl_usd": -4.76
   },
   "stocks": {
    "open_n": 6,
@@ -125934,16 +127480,16 @@
    "realized_usd": 0.48,
    "total_pl_usd": 0.68
   },
-  "cash_usd": 259.0911,
-  "scanned": 34335,
-  "open_bets_usd": 132.47,
+  "cash_usd": 247.4474,
+  "scanned": 49701,
+  "open_bets_usd": 140.78,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 170,
-    "wins": 56,
-    "losses": 114,
-    "pl_usd": 8.82,
-    "roi_pct": 3.5
+    "n": 173,
+    "wins": 57,
+    "losses": 116,
+    "pl_usd": 7.41,
+    "roi_pct": 2.9
    },
    "BASKETBALL": {
     "n": 48,
@@ -125981,11 +127527,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 220,
-    "wins": 78,
-    "losses": 142,
-    "pl_usd": -15.99,
-    "roi_pct": -4.0
+    "n": 224,
+    "wins": 79,
+    "losses": 145,
+    "pl_usd": -17.91,
+    "roi_pct": -4.5
    },
    "CRYPTO MAJORS": {
     "n": 3,
@@ -126010,7 +127556,7 @@
    }
   }
  },
- "last_refresh": "2026-11-07 22:01 (Tbilisi)",
+ "last_refresh": "2026-11-08 00:05 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -127263,7 +128809,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-07 22:01 (Tbilisi)",
+  "updated": "2026-11-08 00:05 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -127294,12 +128840,12 @@
     "lean": null
    },
    "Football": {
-    "n": 140,
-    "early_better": 64,
-    "late_better": 60,
-    "equal": 16,
-    "avg_clv_pct": 0.46,
-    "no_close": 44,
+    "n": 143,
+    "early_better": 65,
+    "late_better": 61,
+    "equal": 17,
+    "avg_clv_pct": 0.55,
+    "no_close": 43,
     "lean": "early"
    },
    "NCAAF": {
@@ -127321,12 +128867,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 209,
-    "early_better": 125,
-    "late_better": 81,
+    "n": 213,
+    "early_better": 128,
+    "late_better": 82,
     "equal": 3,
-    "avg_clv_pct": 3.56,
-    "no_close": 43,
+    "avg_clv_pct": 3.54,
+    "no_close": 39,
     "lean": "early"
    },
    "NFL": {
@@ -127335,7 +128881,7 @@
     "late_better": 6,
     "equal": 0,
     "avg_clv_pct": 11.85,
-    "no_close": 4,
+    "no_close": 5,
     "lean": "early"
    },
    "Basketball": {
@@ -127353,7 +128899,7 @@
     "late_better": 0,
     "equal": 0,
     "avg_clv_pct": null,
-    "no_close": 7,
+    "no_close": 8,
     "lean": null
    },
    "NCAAB": {
@@ -127362,7 +128908,7 @@
     "late_better": 11,
     "equal": 3,
     "avg_clv_pct": -1.21,
-    "no_close": 5,
+    "no_close": 7,
     "lean": "early"
    }
   },
@@ -133867,6 +135413,90 @@
     "better": "equal"
    },
    {
+    "id": "B487",
+    "sport": "Football",
+    "event": "Paris FC @ Auxerre",
+    "open": null,
+    "taken": 1.909,
+    "taken_time": "2026-11-02 00:06 (Tbilisi)",
+    "close": 1.5882,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876411",
+    "clv_pct": 20.2,
+    "better": "early"
+   },
+   {
+    "id": "B509",
+    "sport": "Polymarket",
+    "event": "Sparta Rotterdam @ ADO Den Haag",
+    "open": null,
+    "taken": 2.703,
+    "taken_time": "2026-11-02 09:02 (Tbilisi)",
+    "close": 2.45,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875552",
+    "clv_pct": 10.33,
+    "better": "early"
+   },
+   {
+    "id": "B518",
+    "sport": "Polymarket",
+    "event": "Bologna @ Parma Calcio 1913",
+    "open": null,
+    "taken": 4.762,
+    "taken_time": "2026-11-03 00:03 (Tbilisi)",
+    "close": 5.25,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874974",
+    "clv_pct": -9.3,
+    "better": "late"
+   },
+   {
+    "id": "B569",
+    "sport": "Polymarket",
+    "event": "GAIS @ Degerfors IF",
+    "open": null,
+    "taken": 2.381,
+    "taken_time": "2026-11-05 18:59 (Tbilisi)",
+    "close": 2.25,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842878",
+    "clv_pct": 5.82,
+    "better": "early"
+   },
+   {
+    "id": "B589",
+    "sport": "Polymarket",
+    "event": "Viborg FF @ Odense Boldklub",
+    "open": null,
+    "taken": 2.941,
+    "taken_time": "2026-11-06 09:03 (Tbilisi)",
+    "close": 2.85,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/summary?event=401874499",
+    "clv_pct": 3.19,
+    "better": "early"
+   },
+   {
+    "id": "B615",
+    "sport": "Football",
+    "event": "Panetolikos @ Aris",
+    "open": null,
+    "taken": 4.7,
+    "taken_time": "2026-11-07 09:03 (Tbilisi)",
+    "close": 5.0,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/summary?event=401896732",
+    "clv_pct": -6.0,
+    "better": "late"
+   },
+   {
+    "id": "B621",
+    "sport": "Football",
+    "event": "Athletic Bilbao @ Osasuna",
+    "open": null,
+    "taken": 3.9,
+    "taken_time": "2026-11-07 18:59 (Tbilisi)",
+    "close": 3.9,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882811",
+    "clv_pct": 0.0,
+    "better": "equal"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -133950,17 +135580,6 @@
     "open": null,
     "taken": 2.95,
     "taken_time": "2026-11-01 09:08 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B487",
-    "sport": "Football",
-    "event": "Paris FC @ Auxerre",
-    "open": null,
-    "taken": 1.909,
-    "taken_time": "2026-11-02 00:06 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -134065,17 +135684,6 @@
     "better": null
    },
    {
-    "id": "B509",
-    "sport": "Polymarket",
-    "event": "Sparta Rotterdam @ ADO Den Haag",
-    "open": null,
-    "taken": 2.703,
-    "taken_time": "2026-11-02 09:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B511",
     "sport": "NFL",
     "event": "Tampa Bay Buccaneers @ Chicago Bears",
@@ -134115,17 +135723,6 @@
     "open": null,
     "taken": 2.941,
     "taken_time": "2026-11-02 19:08 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B518",
-    "sport": "Polymarket",
-    "event": "Bologna @ Parma Calcio 1913",
-    "open": null,
-    "taken": 4.762,
-    "taken_time": "2026-11-03 00:03 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -134362,17 +135959,6 @@
     "better": null
    },
    {
-    "id": "B569",
-    "sport": "Polymarket",
-    "event": "GAIS @ Degerfors IF",
-    "open": null,
-    "taken": 2.381,
-    "taken_time": "2026-11-05 18:59 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B572",
     "sport": "NCAAF",
     "event": "Wyoming Cowboys @ UNLV Rebels",
@@ -134411,17 +135997,6 @@
     "event": "Aalesund @ Lillestrom",
     "open": null,
     "taken": 1.818,
-    "taken_time": "2026-11-06 09:03 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B589",
-    "sport": "Polymarket",
-    "event": "Viborg FF @ Odense Boldklub",
-    "open": null,
-    "taken": 2.941,
     "taken_time": "2026-11-06 09:03 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -134626,17 +136201,6 @@
     "better": null
    },
    {
-    "id": "B615",
-    "sport": "Football",
-    "event": "Panetolikos @ Aris",
-    "open": null,
-    "taken": 4.7,
-    "taken_time": "2026-11-07 09:03 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B617",
     "sport": "Football",
     "event": "LASK Linz @ SV Josko Ried",
@@ -134670,23 +136234,78 @@
     "better": null
    },
    {
-    "id": "B621",
-    "sport": "Football",
-    "event": "Athletic Bilbao @ Osasuna",
-    "open": null,
-    "taken": 3.9,
-    "taken_time": "2026-11-07 18:59 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B622",
     "sport": "NCAAB",
     "event": "UNC Wilmington Seahawks @ East Carolina Pirates",
     "open": null,
     "taken": 2.7,
     "taken_time": "2026-11-07 18:59 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B623",
+    "sport": "NCAAB",
+    "event": "Pacific Tigers @ Bradley Braves",
+    "open": null,
+    "taken": 1.87,
+    "taken_time": "2026-11-08 00:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B624",
+    "sport": "NCAAB",
+    "event": "SE Louisiana Lions @ Little Rock Trojans",
+    "open": null,
+    "taken": 4.8,
+    "taken_time": "2026-11-08 00:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B625",
+    "sport": "Football",
+    "event": "Eldense @ Las Palmas",
+    "open": null,
+    "taken": 2.05,
+    "taken_time": "2026-11-08 00:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B626",
+    "sport": "NFL",
+    "event": "Los Angeles Chargers @ Baltimore Ravens",
+    "open": null,
+    "taken": 1.98,
+    "taken_time": "2026-11-08 00:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B627",
+    "sport": "Football",
+    "event": "Criciúma @ Vila Nova",
+    "open": null,
+    "taken": 2.55,
+    "taken_time": "2026-11-08 00:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B628",
+    "sport": "UFC",
+    "event": "Jose Henrique Souza @ Jonny Parsons",
+    "open": null,
+    "taken": 2.9,
+    "taken_time": "2026-11-08 00:05 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -134700,12 +136319,12 @@
  ],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 140,
-   "mean_clv_pct": -5.15
+   "n": 143,
+   "mean_clv_pct": -5.06
   },
   "Polymarket": {
-   "n": 209,
-   "mean_clv_pct": -2.22
+   "n": 213,
+   "mean_clv_pct": -2.25
   },
   "NCAAF": {
    "n": 41,
