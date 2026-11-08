@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 296.0914,
+ "cash_usd": 297.8374,
  "open_bets": [
   {
    "id": "B077",
@@ -194,35 +194,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-01_2356 id=295007)",
    "reasoning": "scan PASS EV=6.83% models=['EloFD', 'DRatings']; scan stake $1.0 (raw 1.99; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
    "scan_id": "295007"
-  },
-  {
-   "id": "B493",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Fresno State Bulldogs @ Utah State Aggies",
-   "kickoff": "2026-11-08 06:30",
-   "selection": "Fresno State Bulldogs",
-   "odds": 1.769,
-   "book": "Action Network real book id49",
-   "p": 0.5877,
-   "implied_pct": 56.5,
-   "edge_pct": 3.97,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-02 00:06 (Tbilisi)",
-   "odds_time": "2026-11-02 00:06 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.63
-    },
-    "mkt": 0.5453,
-    "nbooks": 4,
-    "blend_p": 0.5877,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-01_2356 id=289907)",
-   "reasoning": "scan PASS EV=3.97% models=['ESPN']; scan stake $1.0 (raw 2.78; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "289907"
   },
   {
    "id": "B506",
@@ -1205,36 +1176,6 @@
     "checked": "2026-11-07 00:06 (Tbilisi)",
     "rule": "L007"
    }
-  },
-  {
-   "id": "B611",
-   "sport": "NBA",
-   "league": "nba",
-   "event": "San Antonio Spurs @ Portland Trail Blazers",
-   "kickoff": "2026-11-08 07:00",
-   "selection": "San Antonio Spurs",
-   "odds": 1.746,
-   "book": "Action Network real book id69",
-   "p": 0.6147,
-   "implied_pct": 57.3,
-   "edge_pct": 7.35,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-07 09:03 (Tbilisi)",
-   "odds_time": "2026-11-07 09:03 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.602,
-     "DRatings": 0.644
-    },
-    "mkt": 0.6065,
-    "nbooks": 4,
-    "blend_p": 0.6147,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-07_0857 id=295396)",
-   "reasoning": "scan PASS EV=7.35% models=['ESPN', 'DRatings']; scan stake $1.96 (raw 11.26; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
-   "scan_id": "295396"
   },
   {
    "id": "B625",
@@ -30676,6 +30617,98 @@
    "settle_source": "ESPN UFC event 600061268 bout 401928118 STATUS_FINAL, José Souza winner",
    "closing_odds": null,
    "closing_note": "no real close recorded (UFC; ESPN pickcenter n/a)"
+  },
+  {
+   "id": "B493",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Fresno State Bulldogs @ Utah State Aggies",
+   "kickoff": "2026-11-08 06:30",
+   "selection": "Fresno State Bulldogs",
+   "odds": 1.769,
+   "book": "Action Network real book id49",
+   "p": 0.5877,
+   "implied_pct": 56.5,
+   "edge_pct": 3.97,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-02 00:06 (Tbilisi)",
+   "odds_time": "2026-11-02 00:06 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.63
+    },
+    "mkt": 0.5453,
+    "nbooks": 4,
+    "blend_p": 0.5877,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-01_2356 id=289907)",
+   "reasoning": "scan PASS EV=3.97% models=['ESPN']; scan stake $1.0 (raw 2.78; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "289907",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-11-08 10:59 (Tbilisi)",
+   "final_score": "Utah State Aggies 17, Fresno State Bulldogs 10 (FT)",
+   "score": "Utah State Aggies 17, Fresno State Bulldogs 10 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860913",
+   "settle_source": "ESPN ncaaf event 401860913 STATUS_FINAL, Utah State Aggies winner",
+   "closing_odds": 1.9259,
+   "closing_fair_odds": 2.0174,
+   "clv_pct": -12.31,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-112', 'away': '-108'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860913",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-112', 'away': '-108'}; no-vig fair 2.0174; recorded HOURLY 2026-11-08 10:59 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-08 10:59 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -12.31% (1.769 vs DraftKings no-vig close 2.0174); final Utah State Aggies 17, Fresno State Bulldogs 10 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B611",
+   "sport": "NBA",
+   "league": "nba",
+   "event": "San Antonio Spurs @ Portland Trail Blazers",
+   "kickoff": "2026-11-08 07:00",
+   "selection": "San Antonio Spurs",
+   "odds": 1.746,
+   "book": "Action Network real book id69",
+   "p": 0.6147,
+   "implied_pct": 57.3,
+   "edge_pct": 7.35,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-07 09:03 (Tbilisi)",
+   "odds_time": "2026-11-07 09:03 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.602,
+     "DRatings": 0.644
+    },
+    "mkt": 0.6065,
+    "nbooks": 4,
+    "blend_p": 0.6147,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-07_0857 id=295396)",
+   "reasoning": "scan PASS EV=7.35% models=['ESPN', 'DRatings']; scan stake $1.96 (raw 11.26; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "295396",
+   "result": "won",
+   "pl_usd": 0.75,
+   "settled_at": "2026-11-08 10:59 (Tbilisi)",
+   "final_score": "Portland Trail Blazers 103, San Antonio Spurs 125 (FT)",
+   "score": "Portland Trail Blazers 103, San Antonio Spurs 125 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909944",
+   "settle_source": "ESPN nba event 401909944 STATUS_FINAL, San Antonio Spurs winner",
+   "closing_odds": 1.4608,
+   "closing_fair_odds": 1.5217,
+   "clv_pct": 14.74,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+180', 'away': '-217'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909944",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+180', 'away': '-217'}; no-vig fair 1.5217; recorded HOURLY 2026-11-08 10:59 (Tbilisi)"
   }
  ],
  "positions": [
@@ -30690,7 +30723,7 @@
    "stop_loss": 74157.6,
    "take_profit": 104494.8,
    "thesis": "BTC აღმავალ ტრენდშია და ახლა მცირედ უკან დაიხია: ფასი ≈MA20 ",
-   "last_price": 75781
+   "last_price": 75743
   },
   {
    "symbol": "SPY",
@@ -30774,7 +30807,7 @@
    "cost_usd": 10.0,
    "stop_loss": 74350.3,
    "take_profit": 104766.4,
-   "last_price": 75781,
+   "last_price": 75743,
    "opened_at": "2026-10-21 19:05 (Tbilisi)",
    "paper": true,
    "thesis": "MID 2026-10-21: BTC 84489 > MA20 83206 (+1.5%) and > SMA50 81715 (A1); CoinGecko price; X check: no hack/delisting, ETF inflows, short liquidations; stop −12% / TP +24% set before entry",
@@ -130081,7 +130114,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 75781,
+  "BTC": 75743,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 735.29,
@@ -130139,8 +130172,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 79061.25,
-  "BTC_MA50": 81781.99,
+  "BTC_MA20": 79059.34,
+  "BTC_MA50": 81781.23,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -130159,19 +130192,19 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-08 09:04 (Tbilisi)",
-  "total_value": 469.12,
+  "time": "2026-11-08 10:59 (Tbilisi)",
+  "total_value": 468.86,
   "deposits_usd": 500,
-  "vs_deposits_usd": -30.88,
-  "vs_deposits_pct": -6.18,
-  "btc_bench": 459.87,
-  "vs_btc_usd": 9.25,
+  "vs_deposits_usd": -31.14,
+  "vs_deposits_pct": -6.23,
+  "btc_bench": 459.64,
+  "vs_btc_usd": 9.22,
   "bets": {
-   "n": 592,
-   "wins": 216,
-   "losses": 376,
-   "open": 42,
-   "pl_usd": -26.81,
+   "n": 594,
+   "wins": 217,
+   "losses": 377,
+   "open": 40,
+   "pl_usd": -27.06,
    "roi_pct": -2.5
   },
   "by_sport": {
@@ -130204,18 +130237,18 @@
     "roi_pct": 2.8
    },
    "NCAAF": {
-    "n": 58,
+    "n": 59,
     "wins": 25,
-    "losses": 33,
-    "pl_usd": -14.39,
-    "roi_pct": -12.4
+    "losses": 34,
+    "pl_usd": -15.39,
+    "roi_pct": -13.2
    },
    "NBA": {
-    "n": 48,
-    "wins": 16,
+    "n": 49,
+    "wins": 17,
     "losses": 32,
-    "pl_usd": -34.63,
-    "roi_pct": -32.4
+    "pl_usd": -33.88,
+    "roi_pct": -31.4
    },
    "Polymarket": {
     "n": 232,
@@ -130255,10 +130288,10 @@
   },
   "crypto": {
    "open_n": 2,
-   "value_usd": 22.44,
-   "unrealized_usd": -2.56,
+   "value_usd": 22.43,
+   "unrealized_usd": -2.57,
    "realized_usd": -2.19,
-   "total_pl_usd": -4.75
+   "total_pl_usd": -4.76
   },
   "stocks": {
    "open_n": 6,
@@ -130267,9 +130300,9 @@
    "realized_usd": 0.48,
    "total_pl_usd": 0.68
   },
-  "cash_usd": 296.0914,
+  "cash_usd": 297.8374,
   "scanned": 47170,
-  "open_bets_usd": 89.89,
+  "open_bets_usd": 87.89,
   "desk_stats": {
    "FOOTBALL": {
     "n": 179,
@@ -130279,18 +130312,18 @@
     "roi_pct": 2.8
    },
    "BASKETBALL": {
-    "n": 51,
-    "wins": 17,
+    "n": 52,
+    "wins": 18,
     "losses": 34,
-    "pl_usd": -33.07,
-    "roi_pct": -29.6
+    "pl_usd": -32.32,
+    "roi_pct": -28.7
    },
    "US SPORTS": {
-    "n": 121,
+    "n": 122,
     "wins": 56,
-    "losses": 65,
-    "pl_usd": 24.78,
-    "roi_pct": 9.3
+    "losses": 66,
+    "pl_usd": 23.78,
+    "roi_pct": 8.9
    },
    "TENNIS": {
     "n": 1,
@@ -130343,7 +130376,7 @@
    }
   }
  },
- "last_refresh": "2026-11-08 09:04 (Tbilisi)",
+ "last_refresh": "2026-11-08 10:59 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -131596,7 +131629,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-08 09:04 (Tbilisi)",
+  "updated": "2026-11-08 10:59 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -131636,21 +131669,21 @@
     "lean": "early"
    },
    "NCAAF": {
-    "n": 53,
+    "n": 54,
     "early_better": 38,
-    "late_better": 13,
+    "late_better": 14,
     "equal": 2,
-    "avg_clv_pct": 6.12,
-    "no_close": 9,
+    "avg_clv_pct": 5.85,
+    "no_close": 8,
     "lean": "early"
    },
    "NBA": {
-    "n": 47,
-    "early_better": 31,
+    "n": 48,
+    "early_better": 32,
     "late_better": 14,
     "equal": 2,
-    "avg_clv_pct": 4.53,
-    "no_close": 2,
+    "avg_clv_pct": 4.84,
+    "no_close": 1,
     "lean": "early"
    },
    "Polymarket": {
@@ -138737,6 +138770,30 @@
     "better": null
    },
    {
+    "id": "B493",
+    "sport": "NCAAF",
+    "event": "Fresno State Bulldogs @ Utah State Aggies",
+    "open": null,
+    "taken": 1.769,
+    "taken_time": "2026-11-02 00:06 (Tbilisi)",
+    "close": 1.9259,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860913",
+    "clv_pct": -8.15,
+    "better": "late"
+   },
+   {
+    "id": "B611",
+    "sport": "NBA",
+    "event": "San Antonio Spurs @ Portland Trail Blazers",
+    "open": null,
+    "taken": 1.746,
+    "taken_time": "2026-11-07 09:03 (Tbilisi)",
+    "close": 1.4608,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909944",
+    "clv_pct": 19.52,
+    "better": "early"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -138797,17 +138854,6 @@
     "event": "Union Berlin @ Freiburg",
     "open": null,
     "taken": 4.7,
-    "taken_time": "2026-11-02 00:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B493",
-    "sport": "NCAAF",
-    "event": "Fresno State Bulldogs @ Utah State Aggies",
-    "open": null,
-    "taken": 1.769,
     "taken_time": "2026-11-02 00:06 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -139100,17 +139146,6 @@
     "better": null
    },
    {
-    "id": "B611",
-    "sport": "NBA",
-    "event": "San Antonio Spurs @ Portland Trail Blazers",
-    "open": null,
-    "taken": 1.746,
-    "taken_time": "2026-11-07 09:03 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B625",
     "sport": "Football",
     "event": "Eldense @ Las Palmas",
@@ -139215,8 +139250,8 @@
    "mean_clv_pct": -2.05
   },
   "NCAAF": {
-   "n": 53,
-   "mean_clv_pct": 1.77
+   "n": 54,
+   "mean_clv_pct": 1.51
   },
   "NFL": {
    "n": 17,
@@ -139227,8 +139262,8 @@
    "mean_clv_pct": -1.25
   },
   "NBA": {
-   "n": 47,
-   "mean_clv_pct": 0.27
+   "n": 48,
+   "mean_clv_pct": 0.57
   },
   "Basketball": {
    "n": 3,
