@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 331.682,
+ "cash_usd": 317.632,
  "open_bets": [
   {
    "id": "B077",
@@ -134,49 +134,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaaf/summary?event=401856863",
    "reasoning": "scan PASS EV=5.43% models=['ESPN']; scan stake $5.0 (raw 7.78; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
    "scan_id": "espn401856863"
-  },
-  {
-   "id": "B598",
-   "sport": "Polymarket",
-   "league": "soc_nor.1",
-   "event": "Vålerenga @ Kristiansund BK",
-   "kickoff": "2026-11-09 22:00",
-   "selection": "Vålerenga",
-   "odds": 2.778,
-   "book": "Polymarket ask",
-   "p": 0.4138,
-   "implied_pct": 36.0,
-   "edge_pct": 14.94,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-06 18:56 (Tbilisi)",
-   "odds_time": "2026-11-06 18:56 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "DRatings": 0.47
-    },
-    "mkt": 0.3575,
-    "nbooks": 1,
-    "blend_p": 0.4138,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=nor-kbk-vif-2026-11-07-vif",
-   "reasoning": "scan PASS EV=14.94% models=['DRatings']; scan stake $1.0 (raw 9.89; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "pm:nor-kbk-vif-2026-11-07-vif",
-   "polymarket_slug": "nor-kbk-vif-2026-11-07-vif",
-   "outcome_price": 0.36,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Kristiansund BK vs. Vålerenga Fotball",
-    "pm_league": "NOR1",
-    "pm_kickoff_utc": "2026-11-07T15:00Z",
-    "checked": "2026-11-06 18:56 (Tbilisi)",
-    "rule": "L007"
-   },
-   "tb1_dog_25_40": true,
-   "kickoff_original": "2026-11-07 19:00",
-   "kickoff_note": "rescheduled: Polymarket gameStartTime 2026-11-09 18:00:00+00 (checked 2026-11-08 08:57 (Tbilisi)); market open [\"0.41\", \"0.59\"]"
   },
   {
    "id": "B625",
@@ -875,6 +832,135 @@
     "checked": "2026-11-09 19:02 (Tbilisi)",
     "rule": "L007"
    }
+  },
+  {
+   "id": "B656",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "North Texas Mean Green @ UTSA Roadrunners",
+   "kickoff": "2026-11-15 06:00",
+   "selection": "North Texas Mean Green",
+   "odds": 1.826,
+   "book": "Action Network real book id71",
+   "p": 0.5812,
+   "implied_pct": 54.8,
+   "edge_pct": 6.16,
+   "stake": 5.0,
+   "status": "open",
+   "opened_at": "2026-11-10 00:04 (Tbilisi)",
+   "odds_time": "2026-11-10 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.63
+    },
+    "mkt": 0.5325,
+    "nbooks": 5,
+    "blend_p": 0.5812,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_2353 id=290046)",
+   "reasoning": "scan PASS EV=6.16% models=['ESPN']; scan stake $5.0 (raw 8.55; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "290046"
+  },
+  {
+   "id": "B657",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Louisiana Ragin' Cajuns @ UL-Monroe Warhawks",
+   "kickoff": "2026-11-13 06:00",
+   "selection": "Louisiana Ragin' Cajuns",
+   "odds": 1.26,
+   "book": "Action Network real book id69",
+   "p": 0.8369,
+   "implied_pct": 79.4,
+   "edge_pct": 5.42,
+   "stake": 5.0,
+   "status": "open",
+   "opened_at": "2026-11-10 00:04 (Tbilisi)",
+   "odds_time": "2026-11-10 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.909,
+     "DRatings": 0.893
+    },
+    "mkt": 0.7727,
+    "nbooks": 5,
+    "blend_p": 0.8369,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_2353 id=289950)",
+   "reasoning": "scan PASS EV=5.42% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 24.16; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "289950"
+  },
+  {
+   "id": "B658",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Wake Forest Demon Deacons @ SMU Mustangs",
+   "kickoff": "2026-11-14 21:00",
+   "selection": "Wake Forest Demon Deacons",
+   "odds": 1.901,
+   "book": "Action Network real book id69",
+   "p": 0.5536,
+   "implied_pct": 52.6,
+   "edge_pct": 5.23,
+   "stake": 3.0,
+   "status": "open",
+   "opened_at": "2026-11-10 00:04 (Tbilisi)",
+   "odds_time": "2026-11-10 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.594
+    },
+    "mkt": 0.5132,
+    "nbooks": 5,
+    "blend_p": 0.5536,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_2353 id=289964)",
+   "reasoning": "scan PASS EV=5.23% models=['ESPN']; scan stake $5.0 (raw 6.7; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $3.0; NEWS shrink → TITAN APPROVED at $3.0",
+   "scan_id": "289964"
+  },
+  {
+   "id": "B659",
+   "sport": "Polymarket",
+   "league": "soc_eng.4",
+   "event": "Newport County @ Crewe Alexandra",
+   "kickoff": "2026-11-14 19:00",
+   "selection": "Crewe Alexandra",
+   "odds": 2.128,
+   "book": "Polymarket ask",
+   "p": 0.4893,
+   "implied_pct": 47.0,
+   "edge_pct": 4.11,
+   "stake": 1.05,
+   "status": "open",
+   "opened_at": "2026-11-10 00:04 (Tbilisi)",
+   "odds_time": "2026-11-10 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5174
+    },
+    "mkt": 0.4613,
+    "nbooks": 1,
+    "blend_p": 0.4893,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el2-cre-new-2026-11-14-cre",
+   "reasoning": "scan PASS EV=4.11% models=['EloFD']; scan stake $1.05 (raw 1.05; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.05",
+   "scan_id": "pm:el2-cre-new-2026-11-14-cre",
+   "polymarket_slug": "el2-cre-new-2026-11-14-cre",
+   "outcome_price": 0.4699,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Crewe Alexandra FC vs. Newport County AFC",
+    "pm_league": "ENG4",
+    "pm_kickoff_utc": "2026-11-14T15:00Z",
+    "checked": "2026-11-10 00:04 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true
   }
  ],
  "settled_bets": [
@@ -31970,6 +32056,69 @@
    "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/summary?event=401885398",
    "settle_source": "ESPN por.1 event 401885398 STATUS_FULL_TIME, C.D. Nacional winner; Polymarket resolved Yes=1.0 (umaResolutionStatus resolved)",
    "closing_odds": null
+  },
+  {
+   "id": "B598",
+   "sport": "Polymarket",
+   "league": "soc_nor.1",
+   "event": "Vålerenga @ Kristiansund BK",
+   "kickoff": "2026-11-09 22:00",
+   "selection": "Vålerenga",
+   "odds": 2.778,
+   "book": "Polymarket ask",
+   "p": 0.4138,
+   "implied_pct": 36.0,
+   "edge_pct": 14.94,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-06 18:56 (Tbilisi)",
+   "odds_time": "2026-11-06 18:56 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.47
+    },
+    "mkt": 0.3575,
+    "nbooks": 1,
+    "blend_p": 0.4138,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=nor-kbk-vif-2026-11-07-vif",
+   "reasoning": "scan PASS EV=14.94% models=['DRatings']; scan stake $1.0 (raw 9.89; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:nor-kbk-vif-2026-11-07-vif",
+   "polymarket_slug": "nor-kbk-vif-2026-11-07-vif",
+   "outcome_price": 0.36,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Kristiansund BK vs. Vålerenga Fotball",
+    "pm_league": "NOR1",
+    "pm_kickoff_utc": "2026-11-07T15:00Z",
+    "checked": "2026-11-06 18:56 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "kickoff_original": "2026-11-07 19:00",
+   "kickoff_note": "rescheduled: Polymarket gameStartTime 2026-11-09 18:00:00+00 (checked 2026-11-08 08:57 (Tbilisi)); market open [\"0.41\", \"0.59\"]",
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-11-10 00:04 (Tbilisi)",
+   "final_score": "Kristiansund BK 1, Vålerenga 0 (FT)",
+   "score": "Kristiansund BK 1, Vålerenga 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/summary?event=401843480",
+   "settle_source": "ESPN nor.1 event 401843480 STATUS_FULL_TIME, Kristiansund BK winner; Polymarket Vålerenga Yes trading 0.0005 (UMA resolution pending)",
+   "closing_odds": 2.1,
+   "closing_fair_odds": 2.2241,
+   "clv_pct": 24.9,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+190', 'away': '+110', 'draw': '+320'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/summary?event=401843480",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+190', 'away': '+110', 'draw': '+320'}; no-vig fair 2.2241; recorded PM 2026-11-10 00:04 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-10 00:04 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +24.90% (2.778 vs DraftKings no-vig close 2.2241); final Kristiansund BK 1, Vålerenga 0 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -31983,7 +32132,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 752.24
+   "last_price": 753.4
   },
   {
    "symbol": "AAPL",
@@ -31995,7 +32144,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 349.3,
+   "last_price": 351.16,
    "adds": [
     {
      "date": "2026-10-14",
@@ -32016,7 +32165,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 95.75
+   "last_price": 95.77
   },
   {
    "symbol": "MSFT",
@@ -32024,7 +32173,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 544.08,
+   "last_price": 547.31,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -32033,7 +32182,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 398.64,
+   "last_price": 397.96,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -32042,7 +32191,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 424.11,
+   "last_price": 423.56,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   }
  ],
@@ -33197,6 +33346,14 @@
    "total_value": 454.46,
    "cash": 322.5314,
    "btc_bench": 454.59
+  },
+  {
+   "date": "2026-11-09",
+   "slot": "PM",
+   "time": "2026-11-10 00:04 (Tbilisi)",
+   "total_value": 460.12,
+   "cash": 317.632,
+   "btc_bench": 454.45
   }
  ],
  "benchmarks_start": {
@@ -135195,6 +135352,939 @@
    "plan": "MID 2026-11-09: გამოტოვებული PM 8 ნოე./AM 9 ნოე. აღდგენა. დასახლება მხოლოდ რეალური საბოლოო შედეგებით; B294/B551/B625 ღია; BTC gate დახურული; Football/Polymarket/NBA ცალკე იზომება.",
    "settle_note": "ESPN/gamma finals: 0 settled 0W/0L +0.0 — . Left open (not final / B294 postponed): B625.",
    "closed_at": "2026-11-09 19:02 (Tbilisi)"
+  },
+  {
+   "date": "2026-11-09",
+   "slot": "PM",
+   "time": "2026-11-09 23:53 (Tbilisi)",
+   "status": "complete",
+   "note": "PM: 4 new bets (scan 4 PASS), TITAN blocked 0, shrunk 1, settled 1 (-1.0), ledger 1, post-mortems 1, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: 0 SL/TP, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 20W/34L +11.53, Polymarket 38W/66L +9.51, NBA 8W/19L -14.66",
+   "ledger": [
+    {
+     "id": "B598",
+     "odds": 2.778,
+     "close": 2.1,
+     "fair": 2.2241,
+     "clv_pct": 24.9,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/summary?event=401843480"
+    }
+   ],
+   "postmortem": [
+    {
+     "id": "B598",
+     "cause": "variance",
+     "clv_pct": 24.9,
+     "note": "CLV +24.90% (2.778 vs DraftKings no-vig close 2.2241); final Kristiansund BK 1, Vålerenga 0 (FT). Price beat the close — loss is variance.",
+     "lesson": null
+    }
+   ],
+   "not_final_left_open": [
+    {
+     "id": "B625",
+     "event": "Eldense @ Las Palmas",
+     "espn": "STATUS_FIRST_HALF"
+    }
+   ],
+   "research": {
+    "settled": [
+     {
+      "id": "B598",
+      "event": "Vålerenga @ Kristiansund BK",
+      "sel": "Vålerenga",
+      "odds": 2.778,
+      "stake": 1.0,
+      "result": "lost",
+      "pl_usd": -1.0,
+      "score": "Kristiansund BK 1, Vålerenga 0",
+      "sport": "Polymarket"
+     }
+    ],
+    "note": "PM paper cycle 2026-11-09 ",
+    "btc_hold": "NO BUY: BTC 74888 < MA20 78607 (below SMA50 81636) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00",
+    "btc": 74888,
+    "btc_ma20": 78606.96,
+    "btc_ma50": 81635.77,
+    "tokens_passed": 86,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B656",
+     "B657",
+     "B658",
+     "B659"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 0,
+    "titan_shrunk": 1,
+    "nova_approved": 4,
+    "x_calls": 4,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-11-09_2353",
+    "time": "2026-11-09 23:53 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 306,
+    "funnel": {
+     "options_AN": 9565,
+     "events_AN": 432,
+     "events_ESPN": 1588,
+     "options_ESPN": 984,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 1003,
+     "model_rows_DR": 295,
+     "model_rows_FTS": 11,
+     "events_upcoming": 527,
+     "selections_priced": 1168,
+     "drop_too_few_books": 597,
+     "selections_consensus": 551,
+     "with_model": 469,
+     "with_2plus_model": 194,
+     "with_1_model": 275,
+     "elo_matched_events": 70,
+     "drop_nhl_calibration": 20,
+     "drop_no_model": 82,
+     "dup_open_variant": 3,
+     "gate_ev<3": 399,
+     "gate_dup_open": 11,
+     "gate_PASS": 4,
+     "gate_A3_range": 22,
+     "gate_L004_single_model_gap": 6,
+     "gate_odds>5": 19,
+     "gate_TITAN_elo_disagree>10pt": 1,
+     "gate_model_ev<=0": 7,
+     "options_Polymarket": 42060,
+     "pm_markets": 21030,
+     "pm_liq1k": 5358,
+     "pm_sports_ml": 1408,
+     "pm_drop_L007_no_strict_match": 181,
+     "pm_drop_L007_league_unmapped": 212,
+     "pm_matched_model": 114,
+     "pm_gate_ev<3": 84,
+     "pm_gate_odds>5": 7,
+     "pm_gate_model_ev<=0": 6,
+     "pm_gate_dup_open": 3,
+     "pm_gate_TITAN_elo_disagree>10pt": 2,
+     "pm_gate_A3_range": 9,
+     "pm_tb1_tagged": 17,
+     "pm_gate_L004_single_model_gap": 2,
+     "pm_gate_PASS": 1,
+     "dup_open": 14,
+     "bank_live": 461.12,
+     "bank_stale_overall_report": 460.99,
+     "prior_veto": 1,
+     "prior_veto_list_24h": 2,
+     "ledger_halve_suppressed": 1,
+     "final_after_caps": 4,
+     "stake_total": 16.05,
+     "budget_caps": 93.67,
+     "tokens_src_dexscreener_tokens": 75,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 0,
+     "tokens_gt_fetch_seconds": 86,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 773,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 760,
+     "tokens_chain_solana": 211,
+     "tokens_chain_ethereum": 170,
+     "tokens_chain_elysium": 15,
+     "tokens_chain_robinhood": 9,
+     "tokens_chain_bsc": 180,
+     "tokens_chain_base": 175,
+     "tokens_gate_liquidity": 407,
+     "tokens_gate_pass": 144,
+     "tokens_gate_too_new": 83,
+     "tokens_gate_thin_liq_fdv": 83,
+     "tokens_gate_rug_dump": 3,
+     "tokens_gate_low_activity": 40,
+     "tokens_safety_fail": 28,
+     "tokens_safety_pass": 86,
+     "tokens_safety_unverified": 30,
+     "tokens_passed_safety": 86,
+     "options_scanned_total": 53369
+    },
+    "coverage_events_by_sport": {
+     "nba": 102,
+     "ncaaf": 70,
+     "ncaab": 109,
+     "nfl": 15,
+     "nhl": 95,
+     "soccer": 114,
+     "ufc": 22
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 53369,
+     "candidates": [
+      {
+       "name": "North Texas Mean Green",
+       "type": "ncaaf",
+       "score": 56,
+       "why": "EV 6.16% @1.826 models=['ESPN']"
+      },
+      {
+       "name": "Louisiana Ragin' Cajuns",
+       "type": "ncaaf",
+       "score": 55,
+       "why": "EV 5.42% @1.26 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Wake Forest Demon Deacons",
+       "type": "ncaaf",
+       "score": 55,
+       "why": "EV 5.23% @1.901 models=['ESPN']"
+      },
+      {
+       "name": "Crewe Alexandra",
+       "type": "Polymarket",
+       "score": 54,
+       "why": "EV 4.11% @2.128 models=['EloFD']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 53369,
+      "with_model": 469,
+      "gate_PASS": 4,
+      "pm_gate_PASS": 1,
+      "dup_open": 14,
+      "prior_veto": 1,
+      "final_after_caps": 4,
+      "pm_tb1_tagged": 17,
+      "pm_tb1_tagged_pass": null,
+      "tokens_tokens_unique": 773,
+      "tokens_passed_safety": 86,
+      "stake_total": 16.05,
+      "budget_caps": 93.67
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 74899.42,
+       "tp": 80891.37,
+       "stop": 71154.45,
+       "support": 74740.42,
+       "resistance": 84082.27,
+       "prices": [
+        84082.27,
+        81328.21,
+        81102.31,
+        80810.57,
+        80048.85,
+        80029.43,
+        80800.83,
+        81274.37,
+        77838.81,
+        77275.05,
+        77520.89,
+        78293.84,
+        76709.41,
+        77384.59,
+        80442.71,
+        76005.51,
+        75775.28,
+        75776.38,
+        74740.42,
+        74899.42
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 753.4,
+       "tp": 813.67,
+       "stop": 715.73,
+       "support": 733.0,
+       "resistance": 778.01,
+       "prices": [
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29,
+        753.4
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "up",
+       "entry": 547.31,
+       "tp": 591.09,
+       "stop": 519.94,
+       "support": 507.12,
+       "resistance": 555.8,
+       "prices": [
+        543.45,
+        533.69,
+        539.44,
+        529.05,
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61,
+        547.31
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1059.79,
+       "tp": 1144.57,
+       "stop": 1006.8,
+       "support": 954.63,
+       "resistance": 1065.59,
+       "prices": [
+        954.63,
+        982.0,
+        978.01,
+        989.11,
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56,
+        1059.79
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 576.51,
+       "tp": 622.63,
+       "stop": 547.68,
+       "support": 520.59,
+       "resistance": 579.09,
+       "prices": [
+        520.59,
+        526.35,
+        525.68,
+        532.02,
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89,
+        576.51
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 163.24,
+       "tp": 176.3,
+       "stop": 155.08,
+       "support": 163.24,
+       "resistance": 187.25,
+       "prices": [
+        174.08,
+        177.01,
+        174.68,
+        178.98,
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87,
+        163.24
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 214.52,
+       "tp": 231.68,
+       "stop": 203.79,
+       "support": 213.65,
+       "resistance": 250.29,
+       "prices": [
+        238.01,
+        235.95,
+        246.74,
+        240.7,
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65,
+        214.52
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1415.87,
+       "tp": 1529.14,
+       "stop": 1345.08,
+       "support": 1166.51,
+       "resistance": 1417.99,
+       "prices": [
+        1166.51,
+        1208.74,
+        1251.61,
+        1257.03,
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0,
+        1415.87
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "North Texas Mean Green",
+       "stance": "bullish",
+       "text": "X: only fan complaints about North Texas QB play/discipline in the Rice game (Nov 7, UNT won); no specific injury/suspension for UNT or UTSA",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Louisiana Ragin' Cajuns",
+       "stance": "bullish",
+       "text": "X: Louisiana beat South Alabama 28-26 (Nov 7), ULM upset Arkansas State 19-17; no injury/suspension news for either side → clear at $5.00",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Wake Forest Demon Deacons",
+       "stance": "watch",
+       "text": "Wake Forest star QB Gio Lopez sat out the 77-0 Merrimack win as a precaution; coach Dickert: \"right back at practice\" — our side, health sti",
+       "source": "https://x.com/vegasbedwards/status/2119836584585691297"
+      },
+      {
+       "candidate": "Crewe Alexandra",
+       "stance": "watch",
+       "text": "Newport County podcast: \"The Vicar\" injury \"not good news\" — opponent side, cannot raise our stake",
+       "source": "https://x.com/1912Exiles/status/2118436189271187859"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "North Texas Mean Green",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Louisiana Ragin' Cajuns",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Wake Forest Demon Deacon",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Crewe Alexandra",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": 0.0
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "North Texas Mean Green (North Texas Mean Green @ UTSA Roadrunner)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "X: only fan complaints about North Texas QB play/discipline in the Rice game (Nov 7, UNT won); no specific injury/suspension for UNT or UTSA → clear at $5.00"
+      },
+      {
+       "candidate": "Louisiana Ragin' Cajuns (Louisiana Ragin' Cajuns @ UL-Monroe Warh)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "X: Louisiana beat South Alabama 28-26 (Nov 7), ULM upset Arkansas State 19-17; no injury/suspension news for either side → clear at $5.00"
+      },
+      {
+       "candidate": "Wake Forest Demon Deacons (Wake Forest Demon Deacons @ SMU Mustangs)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Wake Forest (our side) QB Gio Lopez missed last game (precaution), coach says ready → TITAN shrink $5.00 → $3.00 for residual risk"
+      },
+      {
+       "candidate": "Crewe Alexandra (Newport County @ Crewe Alexandra)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Crewe: 2-1 FA Cup win (Nov 7), one change only, no Crewe injury found; Newport injury is opponent-side (cannot raise) → clear at $1.05"
+      }
+     ],
+     "blocked_count": 0
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "North Texas Mean Green (North Texas Mean Green @ UTSA Roadru)",
+       "action": "BUY",
+       "size_usd": 5.0
+      },
+      {
+       "candidate": "Louisiana Ragin' Cajuns (Louisiana Ragin' Cajuns @ UL-Monroe )",
+       "action": "BUY",
+       "size_usd": 5.0
+      },
+      {
+       "candidate": "Wake Forest Demon Deacons (Wake Forest Demon Deacons @ SMU Must)",
+       "action": "BUY",
+       "size_usd": 3.0
+      },
+      {
+       "candidate": "Crewe Alexandra (Newport County @ Crewe Alexandra)",
+       "action": "BUY",
+       "size_usd": 1.05
+      }
+     ],
+     "desk_pl_today": -1.0
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 4,
+      "approved": 4,
+      "blocked": 0,
+      "note": "სკანი 53369 ოფცია; with_model 469; PASS 4+PM 1 → caps 4 (dup_open 14, prior_veto 1); NEWS/TITAN-ის შემდეგ 4"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 74888 vs MA20 78607 & SMA50 81636 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 4,
+      "approved": 4,
+      "blocked": 0,
+      "note": "X search_posts_all (4 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 4,
+      "approved": 4,
+      "blocked": 0,
+      "note": "overall 0.0"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 4,
+      "approved": 4,
+      "blocked": 0,
+      "note": "ფსონები: სკანის 4 PASS → 0 ვეტო (არა), 1 შემცირება (Wake Forest Demon Deacons); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 4,
+      "approved": 4,
+      "blocked": 0,
+      "note": "4 ფსონი (B656 North Texas Mean Green @1.826 $5.0, B657 Louisiana Ragin' Cajuns @1.26 $5.0, B658 Wake Forest Demon Deacons @1.901 $3.0, B659 Crewe Alexandra @2.128 $1.05); ბიუჯეტი ქეპებში $94.32 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 4,
+      "approved": 4,
+      "blocked": 0,
+      "note": "4 PASS კანდიდატი → 4 x-call (search_posts_all): 0 ბლოკი, 1 შემცირება, 3 clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 0,
+      "note": "1 post-mortem: B598 variance; ამ რანში დასახლებული ფსონი არ არის → ახალი post-mortem/გაკვეთილი არ არის."
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 1/1; Football n=157 mean -4.79%; Polymarket n=238 mean -1.99%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 17, pass 0"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): B598 Vålerenga -1.00"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 3,
+      "approved": 3,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 74888 < MA20 78607 (-4.7%), < SMA50 81636 → no buy, hold 0 lots; ETH 2132 (MA20 2294, SMA50 2471), SOL 86.65 (SMA50 106.72) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "773 scanned, 86 passed safety; buying needs BTC>MA20 → gate closed → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი იხურება 00:00 თბილისით (ორშაბათი; Yahoo live SPY 753.4 Yahoo); 6 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; stop/TP არ მოხვდა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "L007: unmapped 212, no strict 181, matched 114; PM PASS 1; TB1 pass None; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "ორშაბათი 9 ნოემბერი — CPI/FOMC დღეს არ არის; ტესტირებული აქციის შესვლა არა → 0"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "290046",
+     "event": "North Texas Mean Green @ UTSA Roadrunners",
+     "sel": "North Texas Mean Green",
+     "queries": [
+      "(\"North Texas\" OR \"Mean Green\" OR UTSA) football (injury OR injured OR QB OR \"ruled out\" OR out) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "X: only fan complaints about North Texas QB play/discipline in the Rice game (Nov 7, UNT won); no specific injury/suspension for UNT or UTSA → clear at $5.00"
+    },
+    {
+     "candidate": "289950",
+     "event": "Louisiana Ragin' Cajuns @ UL-Monroe Warhawks",
+     "sel": "Louisiana Ragin' Cajuns",
+     "queries": [
+      "(\"Ragin Cajuns\" OR \"Louisiana football\" OR \"UL Monroe\" OR ULM Warhawks) (injury OR injured OR QB OR \"ruled out\" OR out) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "X: Louisiana beat South Alabama 28-26 (Nov 7), ULM upset Arkansas State 19-17; no injury/suspension news for either side → clear at $5.00"
+    },
+    {
+     "candidate": "289964",
+     "event": "Wake Forest Demon Deacons @ SMU Mustangs",
+     "sel": "Wake Forest Demon Deacons",
+     "queries": [
+      "(\"Wake Forest\" OR \"SMU Mustangs\" OR \"SMU football\") (injury OR injured OR QB OR \"ruled out\" OR out) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Wake Forest star QB Gio Lopez sat out the 77-0 Merrimack win as a precaution; coach Dickert: \"right back at practice\" — our side, health still uncertain",
+       "source": "https://x.com/vegasbedwards/status/2119836584585691297",
+       "time": "2026-11-09 20:56 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Dickert says QB Gio Lopez will be \"ready to go\" for SMU (watch)",
+       "source": "https://x.com/loganncampbelll/status/2119854772933280096",
+       "time": "2026-11-09 22:08 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Wake Forest (our side) QB Gio Lopez missed last game (precaution), coach says ready → TITAN shrink $5.00 → $3.00 for residual risk"
+    },
+    {
+     "candidate": "pm:el2-cre-new-2026-11-14-cre",
+     "event": "Newport County @ Crewe Alexandra",
+     "sel": "Crewe Alexandra",
+     "queries": [
+      "(\"Crewe Alexandra\" OR \"Newport County\" OR #crewealex OR #NCAFC) (injury OR injured OR suspended OR ruled out OR manager OR sacked) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Newport County podcast: \"The Vicar\" injury \"not good news\" — opponent side, cannot raise our stake",
+       "source": "https://x.com/1912Exiles/status/2118436189271187859",
+       "time": "2026-11-06 00:12 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Crewe: 2-1 FA Cup win (Nov 7), one change only, no Crewe injury found; Newport injury is opponent-side (cannot raise) → clear at $1.05"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 75,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 0,
+     "gt_fetch_seconds": 86,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 773,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 760,
+     "chain_solana": 211,
+     "chain_ethereum": 170,
+     "chain_elysium": 15,
+     "chain_robinhood": 9,
+     "chain_bsc": 180,
+     "chain_base": 175,
+     "gate_liquidity": 407,
+     "gate_pass": 144,
+     "gate_too_new": 83,
+     "gate_thin_liq_fdv": 83,
+     "gate_rug_dump": 3,
+     "gate_low_activity": 40,
+     "safety_fail": 28,
+     "safety_pass": 86,
+     "safety_unverified": 30
+    },
+    "passed_n": 86,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 1 final(s): B598 lost -1.0 (P/L -1.0). Not final → left open for the hourly refresh: B625. LEDGER: DK closes 1/1; Football n=157 mean CLV -4.79%; Polymarket n=238 mean -1.99% (halving OFF by owner order 2026-10-28; tracked only). DOC: 1 post-mortems. Scan 53369 options → with_model 469 → PASS 4+PM 1 → 4 after dedup/caps (prior_veto 1); SHERLOCK/TITAN: 0 blocked, 1 shrunk → 4 bets. NO BUY: BTC 74888 < MA20 78607 (below SMA50 81636) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US Monday open (Yahoo); BTC stops hit in apply_px; no tested equity entry; no tested entry rule → 0 new buys.",
+   "plan": "PM 2026-11-09: საღამოს ციკლი. დასახლება მხოლოდ რეალური საბოლოო შედეგებით; B294/B551/B625 ღია; BTC gate დახურული; Football/Polymarket/NBA ცალკე იზომება.",
+   "settle_note": "ESPN/gamma finals: 1 settled 0W/1L -1.0 — B598 Vålerenga lost (Kristiansund BK 1, Vålerenga 0). Left open (not final / B294 postponed): B625.",
+   "closed_at": "2026-11-10 00:04 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -135535,22 +136625,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 74764,
+  "BTC": 74888,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 752.24,
+  "SPY": 753.4,
   "META": 615.42,
-  "AAPL": 349.3,
+  "AAPL": 351.16,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
-  "GOOGL": 290.69,
+  "GOOGL": 289.02,
   "QQQ": 659.27,
-  "XLV": 188.05,
-  "MSFT": 544.08,
+  "XLV": 188.61,
+  "MSFT": 547.31,
   "PLTR": 161.34,
-  "V": 424.11,
-  "BRK-B": 570.5,
+  "V": 423.56,
+  "BRK-B": 576.51,
   "ETH": 2230.84,
   "SOL": 89.94,
   "AMD": 448.25,
@@ -135560,23 +136650,23 @@
   "JPM": 336.69,
   "JNJ": 275.62,
   "BAC": 49.81,
-  "UNH": 398.64,
-  "COST": 1057.78,
-  "XOM": 165.12,
-  "CRM": 216.5,
-  "KO": 95.75,
+  "UNH": 397.96,
+  "COST": 1059.79,
+  "XOM": 163.24,
+  "CRM": 214.52,
+  "KO": 95.77,
   "NFLX": 63.64,
-  "WMT": 125.19,
+  "WMT": 125.14,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1404.05,
+  "LLY": 1415.87,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.16,
-  "XLE": 62.15,
+  "XLE": 61.42,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -135593,8 +136683,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 78599.55,
-  "BTC_MA50": 81632.81,
+  "BTC_MA20": 78606.96,
+  "BTC_MA50": 81635.77,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -135613,20 +136703,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-09 21:56 (Tbilisi)",
-  "total_value": 460.99,
+  "time": "2026-11-10 00:04 (Tbilisi)",
+  "total_value": 460.12,
   "deposits_usd": 500,
-  "vs_deposits_usd": -39.01,
-  "vs_deposits_pct": -7.8,
-  "btc_bench": 453.7,
-  "vs_btc_usd": 7.29,
+  "vs_deposits_usd": -39.88,
+  "vs_deposits_pct": -7.98,
+  "btc_bench": 454.45,
+  "vs_btc_usd": 5.66,
   "bets": {
-   "n": 628,
+   "n": 629,
    "wins": 229,
-   "losses": 399,
-   "open": 27,
-   "pl_usd": -35.27,
-   "roi_pct": -3.0
+   "losses": 400,
+   "open": 30,
+   "pl_usd": -36.27,
+   "roi_pct": -3.1
   },
   "by_sport": {
    "NHL": {
@@ -135672,11 +136762,11 @@
     "roi_pct": -31.4
    },
    "Polymarket": {
-    "n": 249,
+    "n": 250,
     "wins": 87,
-    "losses": 162,
-    "pl_usd": -11.69,
-    "roi_pct": -2.7
+    "losses": 163,
+    "pl_usd": -12.69,
+    "roi_pct": -2.9
    },
    "NFL": {
     "n": 21,
@@ -135716,14 +136806,14 @@
   },
   "stocks": {
    "open_n": 6,
-   "value_usd": 61.59,
-   "unrealized_usd": 1.09,
+   "value_usd": 61.71,
+   "unrealized_usd": 1.21,
    "realized_usd": 0.48,
-   "total_pl_usd": 1.57
+   "total_pl_usd": 1.7
   },
-  "cash_usd": 331.682,
-  "scanned": 52480,
-  "open_bets_usd": 67.72,
+  "cash_usd": 317.632,
+  "scanned": 53369,
+  "open_bets_usd": 80.77,
   "desk_stats": {
    "FOOTBALL": {
     "n": 187,
@@ -135768,11 +136858,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 249,
+    "n": 250,
     "wins": 87,
-    "losses": 162,
-    "pl_usd": -11.69,
-    "roi_pct": -2.7
+    "losses": 163,
+    "pl_usd": -12.69,
+    "roi_pct": -2.9
    },
    "CRYPTO MAJORS": {
     "n": 5,
@@ -135797,7 +136887,7 @@
    }
   }
  },
- "last_refresh": "2026-11-09 21:56 (Tbilisi)",
+ "last_refresh": "2026-11-10 00:04 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -137050,7 +138140,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-09 21:56 (Tbilisi)",
+  "updated": "2026-11-10 00:04 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -137095,7 +138185,7 @@
     "late_better": 15,
     "equal": 2,
     "avg_clv_pct": 5.6,
-    "no_close": 15,
+    "no_close": 18,
     "lean": "early"
    },
    "NBA": {
@@ -137108,11 +138198,11 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 237,
-    "early_better": 144,
+    "n": 238,
+    "early_better": 145,
     "late_better": 90,
     "equal": 3,
-    "avg_clv_pct": 3.74,
+    "avg_clv_pct": 3.86,
     "no_close": 19,
     "lean": "early"
    },
@@ -144622,6 +145712,18 @@
     "better": null
    },
    {
+    "id": "B598",
+    "sport": "Polymarket",
+    "event": "Vålerenga @ Kristiansund BK",
+    "open": null,
+    "taken": 2.778,
+    "taken_time": "2026-11-06 18:56 (Tbilisi)",
+    "close": 2.1,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/summary?event=401843480",
+    "clv_pct": 32.29,
+    "better": "early"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -144661,17 +145763,6 @@
     "open": null,
     "taken": 1.847,
     "taken_time": "2026-11-05 08:58 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B598",
-    "sport": "Polymarket",
-    "event": "Vålerenga @ Kristiansund BK",
-    "open": null,
-    "taken": 2.778,
-    "taken_time": "2026-11-06 18:56 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -144917,6 +146008,50 @@
     "close": null,
     "close_source": null,
     "better": null
+   },
+   {
+    "id": "B656",
+    "sport": "NCAAF",
+    "event": "North Texas Mean Green @ UTSA Roadrunners",
+    "open": null,
+    "taken": 1.826,
+    "taken_time": "2026-11-10 00:04 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B657",
+    "sport": "NCAAF",
+    "event": "Louisiana Ragin' Cajuns @ UL-Monroe Warhawks",
+    "open": null,
+    "taken": 1.26,
+    "taken_time": "2026-11-10 00:04 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B658",
+    "sport": "NCAAF",
+    "event": "Wake Forest Demon Deacons @ SMU Mustangs",
+    "open": null,
+    "taken": 1.901,
+    "taken_time": "2026-11-10 00:04 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B659",
+    "sport": "Polymarket",
+    "event": "Newport County @ Crewe Alexandra",
+    "open": null,
+    "taken": 2.128,
+    "taken_time": "2026-11-10 00:04 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
    }
   ]
  },
@@ -144931,8 +146066,8 @@
    "mean_clv_pct": -4.79
   },
   "Polymarket": {
-   "n": 237,
-   "mean_clv_pct": -2.11
+   "n": 238,
+   "mean_clv_pct": -1.99
   },
   "NCAAF": {
    "n": 55,
