@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 337.5314,
+ "cash_usd": 322.5314,
  "open_bets": [
   {
    "id": "B077",
@@ -225,7 +225,7 @@
    "sport": "Football",
    "league": "soc_esp.2",
    "event": "Eldense @ Las Palmas",
-   "kickoff": "2026-11-08 21:30",
+   "kickoff": "2026-11-09 23:30",
    "selection": "Las Palmas",
    "odds": 2.05,
    "book": "DraftKings via ESPN (ESPN-DK)",
@@ -248,7 +248,9 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883140",
    "reasoning": "scan PASS EV=5.53% models=['EloFD']; scan stake $3.11 (raw 3.11; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $3.11",
    "scan_id": "espn401883140",
-   "elo_only": true
+   "elo_only": true,
+   "kickoff_original": "2026-11-08 21:30",
+   "kickoff_note": "ESPN esp.2 event 401883140 shows 2026-11-09T19:30Z STATUS_SCHEDULED (moved from 11-08 21:30); checked MID 2026-11-09 18:5x"
   },
   {
    "id": "B626",
@@ -645,6 +647,276 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401920877",
    "reasoning": "scan PASS EV=3.69% models=['ESPN', 'DRatings']; scan stake $1.07 (raw 1.07; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.07",
    "scan_id": "espn401920877"
+  },
+  {
+   "id": "B648",
+   "sport": "Football",
+   "league": "ligue1",
+   "event": "Rennes @ Lorient",
+   "kickoff": "2026-11-22 20:15",
+   "selection": "Lorient",
+   "odds": 3.1,
+   "book": "Action Network real book id71",
+   "p": 0.3478,
+   "implied_pct": 32.3,
+   "edge_pct": 7.83,
+   "stake": 2.0,
+   "status": "open",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3658,
+     "DRatings": 0.359
+    },
+    "mkt": 0.3332,
+    "nbooks": 4,
+    "blend_p": 0.3478,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-09_1854 id=296315)",
+   "reasoning": "scan PASS EV=7.83% models=['EloFD', 'DRatings']; scan stake $4.23 (raw 4.23; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.0; NEWS shrink → TITAN APPROVED at $2.0",
+   "scan_id": "296315"
+  },
+  {
+   "id": "B649",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Appalachian State Mountaineers @ Marshall Thundering Herd",
+   "kickoff": "2026-11-15 03:00",
+   "selection": "Appalachian State Mountaineers",
+   "odds": 1.833,
+   "book": "Action Network real book id68",
+   "p": 0.5719,
+   "implied_pct": 54.6,
+   "edge_pct": 4.85,
+   "stake": 3.29,
+   "status": "open",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.606
+    },
+    "mkt": 0.5378,
+    "nbooks": 5,
+    "blend_p": 0.5719,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=290043)",
+   "reasoning": "scan PASS EV=4.85% models=['ESPN']; scan stake $3.29 (raw 3.29; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $3.29",
+   "scan_id": "290043"
+  },
+  {
+   "id": "B650",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Buffalo Bulls @ Ball State Cardinals",
+   "kickoff": "2026-11-12 04:30",
+   "selection": "Buffalo Bulls",
+   "odds": 1.746,
+   "book": "Action Network real book id69",
+   "p": 0.5937,
+   "implied_pct": 57.3,
+   "edge_pct": 3.68,
+   "stake": 2.79,
+   "status": "open",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.652,
+     "DRatings": 0.62
+    },
+    "mkt": 0.5514,
+    "nbooks": 5,
+    "blend_p": 0.5937,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=289947)",
+   "reasoning": "scan PASS EV=3.68% models=['ESPN', 'DRatings']; scan stake $2.79 (raw 2.79; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.79",
+   "scan_id": "289947"
+  },
+  {
+   "id": "B651",
+   "sport": "Polymarket",
+   "league": "bundesliga",
+   "event": "RB Leipzig @ Union Berlin",
+   "kickoff": "2026-11-21 18:30",
+   "selection": "Union Berlin",
+   "odds": 5.0,
+   "book": "Polymarket ask",
+   "p": 0.2161,
+   "implied_pct": 20.0,
+   "edge_pct": 8.05,
+   "stake": 1.5,
+   "status": "open",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.2244,
+     "DRatings": 0.262
+    },
+    "mkt": 0.189,
+    "nbooks": 4,
+    "blend_p": 0.2161,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bun-uni-lei-2026-11-21-uni",
+   "reasoning": "scan PASS EV=8.05% models=['EloFD', 'DRatings']; scan stake $2.29 (raw 2.29; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.5; NEWS shrink → TITAN APPROVED at $1.5",
+   "scan_id": "pm:bun-uni-lei-2026-11-21-uni",
+   "polymarket_slug": "bun-uni-lei-2026-11-21-uni",
+   "outcome_price": 0.2,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "1. FC Union Berlin vs. RB Leipzig",
+    "pm_league": "GER1",
+    "pm_kickoff_utc": "2026-11-21T14:30:00.000Z",
+    "checked": "2026-11-09 19:02 (Tbilisi)",
+    "rule": "L007"
+   }
+  },
+  {
+   "id": "B652",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Florida Gators @ Kentucky Wildcats",
+   "kickoff": "2026-11-15 03:15",
+   "selection": "Florida Gators",
+   "odds": 2.4,
+   "book": "Action Network real book id68",
+   "p": 0.4343,
+   "implied_pct": 41.7,
+   "edge_pct": 4.24,
+   "stake": 1.72,
+   "status": "open",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.462
+    },
+    "mkt": 0.4066,
+    "nbooks": 5,
+    "blend_p": 0.4343,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=289969)",
+   "reasoning": "scan PASS EV=4.24% models=['ESPN']; scan stake $1.72 (raw 1.72; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.72",
+   "scan_id": "289969"
+  },
+  {
+   "id": "B653",
+   "sport": "Polymarket",
+   "league": "seriea",
+   "event": "Genoa @ Sassuolo",
+   "kickoff": "2026-11-22 18:00",
+   "selection": "Sassuolo",
+   "odds": 2.564,
+   "book": "Polymarket ask",
+   "p": 0.4054,
+   "implied_pct": 39.0,
+   "edge_pct": 3.95,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.406,
+     "DRatings": 0.46
+    },
+    "mkt": 0.3779,
+    "nbooks": 4,
+    "blend_p": 0.4054,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=sea-sas-gen-2026-11-22-sas",
+   "reasoning": "scan PASS EV=3.95% models=['EloFD', 'DRatings']; scan stake $1.43 (raw 1.43; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $1.0; NEWS shrink → TITAN APPROVED at $1.0",
+   "scan_id": "pm:sea-sas-gen-2026-11-22-sas",
+   "polymarket_slug": "sea-sas-gen-2026-11-22-sas",
+   "outcome_price": 0.39,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "US Sassuolo Calcio vs. Genoa CFC",
+    "pm_league": "ITA1",
+    "pm_kickoff_utc": "2026-11-22T14:00:00.000Z",
+    "checked": "2026-11-09 19:02 (Tbilisi)",
+    "rule": "L007"
+   }
+  },
+  {
+   "id": "B654",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Cincinnati Bearcats @ Iowa State Cyclones",
+   "kickoff": "2026-11-14 21:00",
+   "selection": "Cincinnati Bearcats",
+   "odds": 2.24,
+   "book": "Action Network real book id68",
+   "p": 0.4603,
+   "implied_pct": 44.6,
+   "edge_pct": 3.12,
+   "stake": 1.42,
+   "status": "open",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.486
+    },
+    "mkt": 0.4347,
+    "nbooks": 5,
+    "blend_p": 0.4603,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=289977)",
+   "reasoning": "scan PASS EV=3.12% models=['ESPN']; scan stake $1.42 (raw 1.42; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.42",
+   "scan_id": "289977"
+  },
+  {
+   "id": "B655",
+   "sport": "Polymarket",
+   "league": "ligue1",
+   "event": "Lyon @ Lille",
+   "kickoff": "2026-11-21 23:45",
+   "selection": "Lille",
+   "odds": 2.381,
+   "book": "Polymarket ask",
+   "p": 0.4331,
+   "implied_pct": 42.0,
+   "edge_pct": 3.12,
+   "stake": 1.28,
+   "status": "open",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4796,
+     "DRatings": 0.446
+    },
+    "mkt": 0.4033,
+    "nbooks": 4,
+    "blend_p": 0.4331,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-lil-lyo-2026-11-21-lil",
+   "reasoning": "scan PASS EV=3.12% models=['EloFD', 'DRatings']; scan stake $1.28 (raw 1.28; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.28",
+   "scan_id": "pm:fl1-lil-lyo-2026-11-21-lil",
+   "polymarket_slug": "fl1-lil-lyo-2026-11-21-lil",
+   "outcome_price": 0.42,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Lille OSC vs. Olympique Lyonnais",
+    "pm_league": "FRA1",
+    "pm_kickoff_utc": "2026-11-21T19:45:00.000Z",
+    "checked": "2026-11-09 19:02 (Tbilisi)",
+    "rule": "L007"
+   }
   }
  ],
  "settled_bets": [
@@ -31703,7 +31975,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 735.29
+   "last_price": 747.71
   },
   {
    "symbol": "AAPL",
@@ -31715,7 +31987,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 342.37,
+   "last_price": 348.54,
    "adds": [
     {
      "date": "2026-10-14",
@@ -31736,7 +32008,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 95.67
+   "last_price": 94.98
   },
   {
    "symbol": "MSFT",
@@ -31744,7 +32016,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 530.61,
+   "last_price": 540.7,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -31753,7 +32025,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 394.15,
+   "last_price": 396.25,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -31762,7 +32034,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 422.65,
+   "last_price": 419.24,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   }
  ],
@@ -32909,6 +33181,14 @@
    "total_value": 453.97,
    "cash": 337.5314,
    "btc_bench": 448.32
+  },
+  {
+   "date": "2026-11-09",
+   "slot": "MID",
+   "time": "2026-11-09 19:02 (Tbilisi)",
+   "total_value": 454.46,
+   "cash": 322.5314,
+   "btc_bench": 454.59
   }
  ],
  "benchmarks_start": {
@@ -133777,6 +134057,1136 @@
    "plan": "CATCHUP 2026-11-09: გამოტოვებული PM 8 ნოე./AM 9 ნოე. აღდგენა. დასახლება მხოლოდ რეალური საბოლოო შედეგებით; B294/B551/B625 ღია; BTC gate დახურული; Football/Polymarket/NBA ცალკე იზომება.",
    "settle_note": "ESPN/gamma finals: 28 settled 9W/19L -23.44 — B397 Indianapolis Colts lost (Indianapolis Colts 23, Dallas Cowboys 27); B417 Lorient won (Le Havre AC 0, Lorient 2); B490 Draw (Union Berlin @ Freiburg) lost (SC Freiburg 2, 1. FC Union Berlin 0); B508 Carrarese lost (Carrarese 0, Sampdoria 1); B511 Tampa Bay Buccaneers lost (Chicago Bears 27, Tampa Bay Buccaneers 24); B516 SK Sturm Graz lost (SK Sturm Graz 3, RB Salzburg 4); B520 Genoa lost (Genoa 1, AC Milan 2); B521 Angers lost (Angers 0, Nice 2); B526 Cincinnati Bengals won (Atlanta Falcons 17, Cincinnati Bengals 34); B531 Draw (Barcelona @ Atletico Madrid) lost (Atlético Madrid 1, Barcelona 2); B536 Denver Broncos won (Carolina Panthers 21, Denver Broncos 26); B548 FC Utrecht lost (FC Utrecht 2, NEC Nijmegen 3); B566 Mjällby AIF lost (IF Brommapojkarna 0, Mjällby AIF 0); B576 Alanyaspor lost (Alanyaspor 0, Trabzonspor 2); B583 Hamarkameratene won (Hamarkameratene 3, Sarpsborg FK 0); B587 Lillestrom won (Lillestrom 3, Aalesund 2); B591 Sunderland won (Sunderland 1, Chelsea 0); B592 Inter won (Internazionale 2, Como 0); B593 Draw (Liverpool @ Crystal Palace) lost (Crystal Palace 1, Liverpool 3); B595 Modena won (Virtus Entella 0, Modena 2); B599 Ipswich Town lost (Ipswich Town 1, AFC Bournemouth 2); B629 Idaho State Bengals lost (Air Force Falcons 89, Idaho State Bengals 82); B630 Arkansas Razorbacks lost (Virginia Cavaliers 91, Arkansas Razorbacks 72); B631 Western Kentucky Hilltoppers lost (Tennessee Tech Golden Eagles 97, Western Kentucky Hilltoppers 94); B633 Boise State Broncos won (Boise State Broncos 100, Butler Bulldogs 81); B635 Sandefjord lost (Sandefjord 5, Molde 5); B637 Sporting Gijón lost (Sporting Gijón 1, Real Valladolid 2); B638 Levante lost (Celta Vigo 0, Levante 0). Left open (not final / B294 postponed): B625.",
    "closed_at": "2026-11-09 12:25 (Tbilisi)"
+  },
+  {
+   "date": "2026-11-09",
+   "slot": "MID",
+   "time": "2026-11-09 18:53 (Tbilisi)",
+   "status": "complete",
+   "note": "MID: 8 new bets (scan 8 PASS), TITAN blocked 0, shrunk 3, settled 0 (+0.0), ledger 0, post-mortems 0, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: 0 SL/TP, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 20W/34L +11.53, Polymarket 37W/65L +4.38, NBA 8W/19L -14.66",
+   "ledger": [],
+   "postmortem": [],
+   "not_final_left_open": [
+    {
+     "id": "B625",
+     "event": "Eldense @ Las Palmas",
+     "espn": "STATUS_SCHEDULED"
+    }
+   ],
+   "research": {
+    "settled": [],
+    "note": "MID paper cycle 2026-11-09 ",
+    "btc_hold": "NO BUY: BTC 74911 < MA20 78606 (below SMA50 81636) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00",
+    "btc": 74911,
+    "btc_ma20": 78606.37,
+    "btc_ma50": 81635.54,
+    "tokens_passed": 87,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B648",
+     "B649",
+     "B650",
+     "B651",
+     "B652",
+     "B653",
+     "B654",
+     "B655"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 0,
+    "titan_shrunk": 3,
+    "nova_approved": 8,
+    "x_calls": 8,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-11-09_1854",
+    "time": "2026-11-09 18:54 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 297,
+    "funnel": {
+     "options_AN": 9096,
+     "events_AN": 430,
+     "events_ESPN": 1588,
+     "options_ESPN": 968,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 1005,
+     "model_rows_DR": 288,
+     "model_rows_FTS": 11,
+     "events_upcoming": 531,
+     "selections_priced": 1182,
+     "drop_too_few_books": 611,
+     "selections_consensus": 565,
+     "with_model": 485,
+     "with_2plus_model": 201,
+     "with_1_model": 284,
+     "elo_matched_events": 75,
+     "drop_nhl_calibration": 6,
+     "drop_no_model": 80,
+     "gate_ev<3": 414,
+     "gate_PASS": 6,
+     "gate_A3_range": 24,
+     "gate_dup_open": 5,
+     "gate_L004_single_model_gap": 7,
+     "gate_odds>5": 19,
+     "gate_TITAN_elo_disagree>10pt": 2,
+     "gate_model_ev<=0": 8,
+     "options_Polymarket": 41684,
+     "pm_markets": 20842,
+     "pm_liq1k": 5098,
+     "pm_sports_ml": 1397,
+     "pm_drop_L007_league_unmapped": 211,
+     "pm_matched_model": 116,
+     "pm_gate_ev<3": 88,
+     "pm_gate_model_ev<=0": 8,
+     "pm_gate_odds>5": 6,
+     "pm_drop_L007_no_strict_match": 163,
+     "pm_gate_PASS": 3,
+     "pm_gate_TITAN_elo_disagree>10pt": 1,
+     "pm_gate_A3_range": 8,
+     "pm_tb1_tagged": 16,
+     "pm_gate_L004_single_model_gap": 1,
+     "pm_gate_dup_open": 1,
+     "dup_open": 6,
+     "bank_live": 454.46,
+     "bank_stale_overall_report": 453.97,
+     "prior_veto": 1,
+     "prior_veto_list_24h": 2,
+     "ledger_halve_suppressed": 4,
+     "final_after_caps": 8,
+     "stake_total": 18.45,
+     "budget_caps": 103.32,
+     "tokens_src_dexscreener_tokens": 70,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 0,
+     "tokens_gt_fetch_seconds": 86,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 742,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 732,
+     "tokens_chain_solana": 184,
+     "tokens_chain_elysium": 14,
+     "tokens_chain_robinhood": 13,
+     "tokens_chain_bsc": 183,
+     "tokens_chain_base": 172,
+     "tokens_chain_ethereum": 166,
+     "tokens_gate_liquidity": 407,
+     "tokens_gate_pump": 2,
+     "tokens_gate_too_new": 59,
+     "tokens_gate_pass": 143,
+     "tokens_gate_thin_liq_fdv": 80,
+     "tokens_gate_rug_dump": 2,
+     "tokens_gate_low_activity": 39,
+     "tokens_safety_pass": 87,
+     "tokens_safety_fail": 23,
+     "tokens_safety_unverified": 33,
+     "tokens_passed_safety": 87,
+     "options_scanned_total": 52480
+    },
+    "coverage_events_by_sport": {
+     "nba": 102,
+     "ncaaf": 70,
+     "ncaab": 107,
+     "nfl": 15,
+     "nhl": 95,
+     "soccer": 120,
+     "ufc": 22
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 52480,
+     "candidates": [
+      {
+       "name": "Lorient",
+       "type": "soccer",
+       "score": 57,
+       "why": "EV 7.83% @3.1 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Appalachian State Mountainee",
+       "type": "ncaaf",
+       "score": 54,
+       "why": "EV 4.85% @1.833 models=['ESPN']"
+      },
+      {
+       "name": "Buffalo Bulls",
+       "type": "ncaaf",
+       "score": 53,
+       "why": "EV 3.68% @1.746 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Union Berlin",
+       "type": "Polymarket",
+       "score": 58,
+       "why": "EV 8.05% @5.0 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Florida Gators",
+       "type": "ncaaf",
+       "score": 54,
+       "why": "EV 4.24% @2.4 models=['ESPN']"
+      },
+      {
+       "name": "Sassuolo",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.95% @2.564 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Cincinnati Bearcats",
+       "type": "ncaaf",
+       "score": 53,
+       "why": "EV 3.12% @2.24 models=['ESPN']"
+      },
+      {
+       "name": "Lille",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.12% @2.381 models=['EloFD', 'DRatings']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 52480,
+      "with_model": 485,
+      "gate_PASS": 6,
+      "pm_gate_PASS": 3,
+      "dup_open": 6,
+      "prior_veto": 1,
+      "final_after_caps": 8,
+      "pm_tb1_tagged": 16,
+      "pm_tb1_tagged_pass": null,
+      "tokens_tokens_unique": 742,
+      "tokens_passed_safety": 87,
+      "stake_total": 18.45,
+      "budget_caps": 103.32
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 74887.64,
+       "tp": 80878.65,
+       "stop": 71143.26,
+       "support": 74740.42,
+       "resistance": 84082.27,
+       "prices": [
+        84082.27,
+        81328.21,
+        81102.31,
+        80810.57,
+        80048.85,
+        80029.43,
+        80800.83,
+        81274.37,
+        77838.81,
+        77275.05,
+        77520.89,
+        78293.84,
+        76709.41,
+        77384.59,
+        80442.71,
+        76005.51,
+        75775.28,
+        75776.38,
+        74740.42,
+        74887.64
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 747.71,
+       "tp": 807.53,
+       "stop": 710.32,
+       "support": 733.0,
+       "resistance": 778.01,
+       "prices": [
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29,
+        747.71
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "up",
+       "entry": 540.7,
+       "tp": 583.96,
+       "stop": 513.66,
+       "support": 507.12,
+       "resistance": 555.8,
+       "prices": [
+        543.45,
+        533.69,
+        539.44,
+        529.05,
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61,
+        540.7
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1048.73,
+       "tp": 1132.63,
+       "stop": 996.29,
+       "support": 954.63,
+       "resistance": 1065.59,
+       "prices": [
+        954.63,
+        982.0,
+        978.01,
+        989.11,
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56,
+        1048.73
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 569.41,
+       "tp": 614.96,
+       "stop": 540.94,
+       "support": 520.59,
+       "resistance": 579.09,
+       "prices": [
+        520.59,
+        526.35,
+        525.68,
+        532.02,
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89,
+        569.41
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 164.85,
+       "tp": 178.04,
+       "stop": 156.61,
+       "support": 164.85,
+       "resistance": 187.25,
+       "prices": [
+        174.08,
+        177.01,
+        174.68,
+        178.98,
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87,
+        164.85
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 215.09,
+       "tp": 232.3,
+       "stop": 204.34,
+       "support": 213.65,
+       "resistance": 250.29,
+       "prices": [
+        238.01,
+        235.95,
+        246.74,
+        240.7,
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65,
+        215.09
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1389.19,
+       "tp": 1500.33,
+       "stop": 1319.73,
+       "support": 1166.51,
+       "resistance": 1417.99,
+       "prices": [
+        1166.51,
+        1208.74,
+        1251.61,
+        1257.03,
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0,
+        1389.19
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "Lorient",
+       "stance": "watch",
+       "text": "Lorient: Isaak Touré out (scored vs Le Havre Nov 8), return unknown — our side",
+       "source": "https://x.com/injuryreportst/status/2119519387216388316"
+      },
+      {
+       "candidate": "Appalachian State Mountaineers",
+       "stance": "bullish",
+       "text": "X: only fan complaints about App State offense; no specific App State / Marshall injury news → clear at $3.29",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Buffalo Bulls",
+       "stance": "bullish",
+       "text": "X: no Buffalo / Ball State injury news for Nov 12 → clear at $2.79",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Union Berlin",
+       "stance": "watch",
+       "text": "Union Berlin: Aljoscha Kemlein out (shoulder injury), return unknown — our side",
+       "source": "https://x.com/injuryreportst/status/2119765022188695997"
+      },
+      {
+       "candidate": "Florida Gators",
+       "stance": "bullish",
+       "text": "X: Florida QB debate after 23-7 loss to Oklahoma, no specific injury for Nov 14 at Kentucky → clear at $1.72",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Sassuolo",
+       "stance": "watch",
+       "text": "Sassuolo: Domenico Berardi and Cristian Volpato out injured (missed Roma, Nov 7) — our side, return date unknown",
+       "source": "https://x.com/AntonioParr8/status/2118684525202940364"
+      },
+      {
+       "candidate": "Cincinnati Bearcats",
+       "stance": "watch",
+       "text": "Iowa State WR Cody Jackson exited Baylor game with injury (opponent — cannot raise our Cincinnati stake)",
+       "source": "https://x.com/DMRegister/status/2119161736594890782"
+      },
+      {
+       "candidate": "Lille",
+       "stance": "watch",
+       "text": "Lille: Ayase Ueda out for Rennes trip, return hoped vs Lyon Nov 21 (our side, watch)",
+       "source": "https://x.com/ActuL1_/status/2119365560668704780"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "Lorient",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Appalachian State Mounta",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Buffalo Bulls",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Union Berlin",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Florida Gators",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Sassuolo",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Cincinnati Bearcats",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Lille",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": -0.05
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "Lorient (Rennes @ Lorient)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Lorient (our side) two absences (Touré, Baldé) → TITAN shrink $4.23 → $2.00"
+      },
+      {
+       "candidate": "Appalachian State Mountaineers (Appalachian State Mountaineers @ Marshal)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "X: only fan complaints about App State offense; no specific App State / Marshall injury news → clear at $3.29"
+      },
+      {
+       "candidate": "Buffalo Bulls (Buffalo Bulls @ Ball State Cardinals)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "X: no Buffalo / Ball State injury news for Nov 12 → clear at $2.79"
+      },
+      {
+       "candidate": "Union Berlin (RB Leipzig @ Union Berlin)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Union (our side) midfielder Kemlein out, return unknown → TITAN shrink $2.29 → $1.50"
+      },
+      {
+       "candidate": "Florida Gators (Florida Gators @ Kentucky Wildcats)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "X: Florida QB debate after 23-7 loss to Oklahoma, no specific injury for Nov 14 at Kentucky → clear at $1.72"
+      },
+      {
+       "candidate": "Sassuolo (Genoa @ Sassuolo)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Sassuolo (our side) star Berardi + Volpato injured, may not be back by Nov 22 → TITAN shrink $1.43 → $1.00"
+      },
+      {
+       "candidate": "Cincinnati Bearcats (Cincinnati Bearcats @ Iowa State Cyclone)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Opponent WR Cody Jackson injured — cannot raise. No Cincinnati injury found → clear at $1.42"
+      },
+      {
+       "candidate": "Lille (Lyon @ Lille)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Ueda expected back for Lyon match; Lyon injuries are opponent-side (cannot raise) → clear at $1.28"
+      }
+     ],
+     "blocked_count": 0
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Lorient (Rennes @ Lorient)",
+       "action": "BUY",
+       "size_usd": 2.0
+      },
+      {
+       "candidate": "Appalachian State Mountaineers (Appalachian State Mountaineers @ Mar)",
+       "action": "BUY",
+       "size_usd": 3.29
+      },
+      {
+       "candidate": "Buffalo Bulls (Buffalo Bulls @ Ball State Cardinals)",
+       "action": "BUY",
+       "size_usd": 2.79
+      },
+      {
+       "candidate": "Union Berlin (RB Leipzig @ Union Berlin)",
+       "action": "BUY",
+       "size_usd": 1.5
+      },
+      {
+       "candidate": "Florida Gators (Florida Gators @ Kentucky Wildcats)",
+       "action": "BUY",
+       "size_usd": 1.72
+      },
+      {
+       "candidate": "Sassuolo (Genoa @ Sassuolo)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Cincinnati Bearcats (Cincinnati Bearcats @ Iowa State Cyc)",
+       "action": "BUY",
+       "size_usd": 1.42
+      },
+      {
+       "candidate": "Lille (Lyon @ Lille)",
+       "action": "BUY",
+       "size_usd": 1.28
+      }
+     ],
+     "desk_pl_today": 0.0
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 8,
+      "blocked": 0,
+      "note": "სკანი 52480 ოფცია; with_model 485; PASS 6+PM 3 → caps 8 (dup_open 6, prior_veto 1); NEWS/TITAN-ის შემდეგ 8"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 74911 vs MA20 78606 & SMA50 81636 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 8,
+      "blocked": 0,
+      "note": "X search_posts_all (8 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 8,
+      "blocked": 0,
+      "note": "overall -0.05"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 8,
+      "blocked": 0,
+      "note": "ფსონები: სკანის 8 PASS → 0 ვეტო (არა), 3 შემცირება (Lorient, Union Berlin, Sassuolo); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 8,
+      "blocked": 0,
+      "note": "8 ფსონი (B648 Lorient @3.1 $2.0, B649 Appalachian State Mountaineers @1.833 $3.29, B650 Buffalo Bulls @1.746 $2.79, B651 Union Berlin @5.0 $1.5, B652 Florida Gators @2.4 $1.72, B653 Sassuolo @2.564 $1.0, B654 Cincinnati Bearcats @2.24 $1.42, B655 Lille @2.381 $1.28); ბიუჯეტი ქეპებში $103.32 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 8,
+      "approved": 8,
+      "blocked": 0,
+      "note": "8 PASS კანდიდატი → 8 x-call (search_posts_all): 0 ბლოკი, 3 შემცირება, 5 clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 post-mortem: none; ამ რანში დასახლებული ფსონი არ არის → ახალი post-mortem/გაკვეთილი არ არის."
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 0/0; Football n=157 mean -4.79%; Polymarket n=237 mean -2.11%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 16, pass 0"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): "
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 4,
+      "approved": 4,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 74911 < MA20 78606 (-4.7%), < SMA50 81636 → no buy, hold 0 lots; ETH 2134 (MA20 2294, SMA50 2471), SOL 87.45 (SMA50 106.74) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "742 scanned, 87 passed safety; buying needs BTC>MA20 → gate closed → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი ღიაა (ორშაბათი; Yahoo live SPY 747.71 Yahoo); 6 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; stop/TP არ მოხვდა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 3,
+      "approved": 3,
+      "blocked": 0,
+      "note": "L007: unmapped 211, no strict 163, matched 116; PM PASS 3; TB1 pass None; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "ორშაბათი 9 ნოემბერი — CPI/FOMC დღეს არ არის; ტესტირებული აქციის შესვლა არა → 0"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "296315",
+     "event": "Rennes @ Lorient",
+     "sel": "Lorient",
+     "queries": [
+      "(Lorient OR \"FC Lorient\" OR \"Stade Rennais\" OR Rennes) (blessure OR blessé OR forfait OR suspendu OR injury OR absent) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Lorient: Isaak Touré out (scored vs Le Havre Nov 8), return unknown — our side",
+       "source": "https://x.com/injuryreportst/status/2119519387216388316",
+       "time": "2026-11-08 23:56 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Lorient: Ibrahima Baldé out (heel injury), return unknown — our side",
+       "source": "https://x.com/injuryreportst/status/2119705843629478247",
+       "time": "2026-11-09 12:17 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Ouest-France: coach Dujeux worried after Touré injury",
+       "source": "https://x.com/ThomasFCL56/status/2119594497524838593",
+       "time": "2026-11-09 04:54 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Lorient (our side) two absences (Touré, Baldé) → TITAN shrink $4.23 → $2.00"
+    },
+    {
+     "candidate": "290043",
+     "event": "Appalachian State Mountaineers @ Marshall Thundering Herd",
+     "sel": "Appalachian State Mountaineers",
+     "queries": [
+      "(\"App State\" OR \"Appalachian State\" OR Marshall Thundering Herd) (injury OR injured OR out OR QB OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "X: only fan complaints about App State offense; no specific App State / Marshall injury news → clear at $3.29"
+    },
+    {
+     "candidate": "289947",
+     "event": "Buffalo Bulls @ Ball State Cardinals",
+     "sel": "Buffalo Bulls",
+     "queries": [
+      "(\"Buffalo Bulls\" OR \"UB Football\" OR \"Ball State\") (injury OR injured OR QB OR \"ruled out\" OR out) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "X: no Buffalo / Ball State injury news for Nov 12 → clear at $2.79"
+    },
+    {
+     "candidate": "pm:bun-uni-lei-2026-11-21-uni",
+     "event": "RB Leipzig @ Union Berlin",
+     "sel": "Union Berlin",
+     "queries": [
+      "(\"Union Berlin\" OR \"RB Leipzig\") (injury OR injured OR verletzt OR ausfall OR fehlt OR suspended OR Sperre) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Union Berlin: Aljoscha Kemlein out (shoulder injury), return unknown — our side",
+       "source": "https://x.com/injuryreportst/status/2119765022188695997",
+       "time": "2026-11-09 16:12 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Union (our side) midfielder Kemlein out, return unknown → TITAN shrink $2.29 → $1.50"
+    },
+    {
+     "candidate": "289969",
+     "event": "Florida Gators @ Kentucky Wildcats",
+     "sel": "Florida Gators",
+     "queries": [
+      "(\"Florida Gators\" OR \"Kentucky Wildcats\" OR \"Kentucky football\" OR \"Gators football\") (injury OR injured OR out OR QB OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "X: Florida QB debate after 23-7 loss to Oklahoma, no specific injury for Nov 14 at Kentucky → clear at $1.72"
+    },
+    {
+     "candidate": "pm:sea-sas-gen-2026-11-22-sas",
+     "event": "Genoa @ Sassuolo",
+     "sel": "Sassuolo",
+     "queries": [
+      "(Sassuolo OR Genoa) (infortunio OR infortunato OR squalificato OR assente OR injury) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Sassuolo: Domenico Berardi and Cristian Volpato out injured (missed Roma, Nov 7) — our side, return date unknown",
+       "source": "https://x.com/AntonioParr8/status/2118684525202940364",
+       "time": "2026-11-06 16:38 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Sassuolo (our side) star Berardi + Volpato injured, may not be back by Nov 22 → TITAN shrink $1.43 → $1.00"
+    },
+    {
+     "candidate": "289977",
+     "event": "Cincinnati Bearcats @ Iowa State Cyclones",
+     "sel": "Cincinnati Bearcats",
+     "queries": [
+      "(\"Cincinnati Bearcats\" OR \"Iowa State\" OR Cyclones) football (injury OR injured OR QB OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Iowa State WR Cody Jackson exited Baylor game with injury (opponent — cannot raise our Cincinnati stake)",
+       "source": "https://x.com/DMRegister/status/2119161736594890782",
+       "time": "2026-11-08 00:15 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Opponent WR Cody Jackson injured — cannot raise. No Cincinnati injury found → clear at $1.42"
+    },
+    {
+     "candidate": "pm:fl1-lil-lyo-2026-11-21-lil",
+     "event": "Lyon @ Lille",
+     "sel": "Lille",
+     "queries": [
+      "(LOSC OR Lille OR \"OL\" Lyon) (blessure OR blessé OR forfait OR suspendu OR injury) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Lille: Ayase Ueda out for Rennes trip, return hoped vs Lyon Nov 21 (our side, watch)",
+       "source": "https://x.com/ActuL1_/status/2119365560668704780",
+       "time": "2026-11-08 13:45 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Lyon long absence list (Ouedraogo, Morton, Tessmann, Openda; Niakhaté, Nuamah muscular) — opponent, cannot raise",
+       "source": "https://x.com/MPGLaurent/status/2118677278523613377",
+       "time": "2026-11-06 16:10 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Ueda expected back for Lyon match; Lyon injuries are opponent-side (cannot raise) → clear at $1.28"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 70,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 0,
+     "gt_fetch_seconds": 86,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 742,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 732,
+     "chain_solana": 184,
+     "chain_elysium": 14,
+     "chain_robinhood": 13,
+     "chain_bsc": 183,
+     "chain_base": 172,
+     "chain_ethereum": 166,
+     "gate_liquidity": 407,
+     "gate_pump": 2,
+     "gate_too_new": 59,
+     "gate_pass": 143,
+     "gate_thin_liq_fdv": 80,
+     "gate_rug_dump": 2,
+     "gate_low_activity": 39,
+     "safety_pass": 87,
+     "safety_fail": 23,
+     "safety_unverified": 33
+    },
+    "passed_n": 87,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 0 final(s): none (P/L +0.0). Not final → left open for the hourly refresh: B625. LEDGER: DK closes 0/0; Football n=157 mean CLV -4.79%; Polymarket n=237 mean -2.11% (halving OFF by owner order 2026-10-28; tracked only). DOC: 0 post-mortems. Scan 52480 options → with_model 485 → PASS 6+PM 3 → 8 after dedup/caps (prior_veto 1); SHERLOCK/TITAN: 0 blocked, 3 shrunk → 8 bets. NO BUY: BTC 74911 < MA20 78606 (below SMA50 81636) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US Monday open (Yahoo); BTC stops hit in apply_px; no tested equity entry; no tested entry rule → 0 new buys.",
+   "plan": "MID 2026-11-09: გამოტოვებული PM 8 ნოე./AM 9 ნოე. აღდგენა. დასახლება მხოლოდ რეალური საბოლოო შედეგებით; B294/B551/B625 ღია; BTC gate დახურული; Football/Polymarket/NBA ცალკე იზომება.",
+   "settle_note": "ESPN/gamma finals: 0 settled 0W/0L +0.0 — . Left open (not final / B294 postponed): B625.",
+   "closed_at": "2026-11-09 19:02 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -134117,22 +135527,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 73877,
+  "BTC": 74911,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 735.29,
+  "SPY": 747.71,
   "META": 615.42,
-  "AAPL": 342.37,
+  "AAPL": 348.54,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
-  "GOOGL": 284.78,
+  "GOOGL": 293.0,
   "QQQ": 659.27,
-  "XLV": 184.8,
-  "MSFT": 530.61,
+  "XLV": 186.13,
+  "MSFT": 540.7,
   "PLTR": 161.34,
-  "V": 422.65,
-  "BRK-B": 570.89,
+  "V": 419.24,
+  "BRK-B": 569.41,
   "ETH": 2230.84,
   "SOL": 89.94,
   "AMD": 448.25,
@@ -134142,23 +135552,23 @@
   "JPM": 336.69,
   "JNJ": 275.62,
   "BAC": 49.81,
-  "UNH": 394.15,
-  "COST": 1053.56,
-  "XOM": 165.87,
-  "CRM": 213.65,
-  "KO": 95.67,
+  "UNH": 396.25,
+  "COST": 1048.73,
+  "XOM": 164.85,
+  "CRM": 215.09,
+  "KO": 94.98,
   "NFLX": 63.64,
-  "WMT": 125.52,
+  "WMT": 124.37,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1354.0,
+  "LLY": 1389.19,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.16,
-  "XLE": 61.62,
+  "XLE": 61.66,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -134175,8 +135585,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 78555.85,
-  "BTC_MA50": 81615.33,
+  "BTC_MA20": 78606.37,
+  "BTC_MA50": 81635.54,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -134195,18 +135605,18 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-09 12:25 (Tbilisi)",
-  "total_value": 453.97,
+  "time": "2026-11-09 19:02 (Tbilisi)",
+  "total_value": 454.46,
   "deposits_usd": 500,
-  "vs_deposits_usd": -46.03,
-  "vs_deposits_pct": -9.21,
-  "btc_bench": 448.32,
-  "vs_btc_usd": 5.65,
+  "vs_deposits_usd": -45.54,
+  "vs_deposits_pct": -9.11,
+  "btc_bench": 454.59,
+  "vs_btc_usd": -0.14,
   "bets": {
    "n": 627,
    "wins": 228,
    "losses": 399,
-   "open": 20,
+   "open": 28,
    "pl_usd": -41.4,
    "roi_pct": -3.6
   },
@@ -134298,14 +135708,14 @@
   },
   "stocks": {
    "open_n": 6,
-   "value_usd": 60.7,
-   "unrealized_usd": 0.2,
+   "value_usd": 61.19,
+   "unrealized_usd": 0.69,
    "realized_usd": 0.48,
-   "total_pl_usd": 0.68
+   "total_pl_usd": 1.17
   },
-  "cash_usd": 337.5314,
-  "scanned": 51315,
-  "open_bets_usd": 55.74,
+  "cash_usd": 322.5314,
+  "scanned": 52480,
+  "open_bets_usd": 70.74,
   "desk_stats": {
    "FOOTBALL": {
     "n": 187,
@@ -134379,7 +135789,7 @@
    }
   }
  },
- "last_refresh": "2026-11-09 12:25 (Tbilisi)",
+ "last_refresh": "2026-11-09 19:02 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -135632,7 +137042,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-09 12:25 (Tbilisi)",
+  "updated": "2026-11-09 19:02 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -135668,7 +137078,7 @@
     "late_better": 64,
     "equal": 17,
     "avg_clv_pct": 0.86,
-    "no_close": 33,
+    "no_close": 34,
     "lean": "early"
    },
    "NCAAF": {
@@ -135677,7 +137087,7 @@
     "late_better": 15,
     "equal": 2,
     "avg_clv_pct": 5.6,
-    "no_close": 11,
+    "no_close": 15,
     "lean": "early"
    },
    "NBA": {
@@ -135695,7 +137105,7 @@
     "late_better": 90,
     "equal": 3,
     "avg_clv_pct": 3.74,
-    "no_close": 16,
+    "no_close": 19,
     "lean": "early"
    },
    "NFL": {
@@ -143408,6 +144818,94 @@
     "open": null,
     "taken": 2.95,
     "taken_time": "2026-11-09 12:25 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B648",
+    "sport": "Football",
+    "event": "Rennes @ Lorient",
+    "open": null,
+    "taken": 3.1,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B649",
+    "sport": "NCAAF",
+    "event": "Appalachian State Mountaineers @ Marshall Thundering Herd",
+    "open": null,
+    "taken": 1.833,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B650",
+    "sport": "NCAAF",
+    "event": "Buffalo Bulls @ Ball State Cardinals",
+    "open": null,
+    "taken": 1.746,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B651",
+    "sport": "Polymarket",
+    "event": "RB Leipzig @ Union Berlin",
+    "open": null,
+    "taken": 5.0,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B652",
+    "sport": "NCAAF",
+    "event": "Florida Gators @ Kentucky Wildcats",
+    "open": null,
+    "taken": 2.4,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B653",
+    "sport": "Polymarket",
+    "event": "Genoa @ Sassuolo",
+    "open": null,
+    "taken": 2.564,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B654",
+    "sport": "NCAAF",
+    "event": "Cincinnati Bearcats @ Iowa State Cyclones",
+    "open": null,
+    "taken": 2.24,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B655",
+    "sport": "Polymarket",
+    "event": "Lyon @ Lille",
+    "open": null,
+    "taken": 2.381,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
