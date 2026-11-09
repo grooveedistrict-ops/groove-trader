@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 322.5314,
+ "cash_usd": 331.682,
  "open_bets": [
   {
    "id": "B077",
@@ -105,48 +105,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/summary?event=401878541",
    "reasoning": "scan PASS EV=8.44% models=['FTS', 'EloFD']; scan stake $1.75 (raw 2.33; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.75",
    "scan_id": "espn401878541"
-  },
-  {
-   "id": "B551",
-   "sport": "Polymarket",
-   "league": "soc_por.1",
-   "event": "Académico de Viseu @ C.D. Nacional",
-   "kickoff": "2026-11-07 19:30",
-   "selection": "C.D. Nacional",
-   "odds": 3.03,
-   "book": "Polymarket ask",
-   "p": 0.3476,
-   "implied_pct": 33.0,
-   "edge_pct": 5.33,
-   "stake": 3.02,
-   "status": "open",
-   "opened_at": "2026-11-04 19:05 (Tbilisi)",
-   "odds_time": "2026-11-04 19:05 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.3613,
-     "DRatings": 0.395
-    },
-    "mkt": 0.3171,
-    "nbooks": 1,
-    "blend_p": 0.3476,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=por-nac-acv-2026-11-07-nac",
-   "reasoning": "scan PASS EV=5.33% models=['EloFD', 'DRatings']; scan stake $3.02 (raw 3.02; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $3.02",
-   "scan_id": "pm:por-nac-acv-2026-11-07-nac",
-   "polymarket_slug": "por-nac-acv-2026-11-07-nac",
-   "outcome_price": 0.33,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "CD Nacional vs. Académico de Viseu FC",
-    "pm_league": "POR1",
-    "pm_kickoff_utc": "2026-11-07T15:30Z",
-    "checked": "2026-11-04 19:05 (Tbilisi)",
-    "rule": "L007"
-   },
-   "tb1_dog_25_40": true
   },
   {
    "id": "B563",
@@ -31962,6 +31920,56 @@
     "note": "CLV -2.46% (4.6 vs DraftKings no-vig close 4.7162); final Celta Vigo 0, Levante 0 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B551",
+   "sport": "Polymarket",
+   "league": "soc_por.1",
+   "event": "Académico de Viseu @ C.D. Nacional",
+   "kickoff": "2026-11-07 19:30",
+   "selection": "C.D. Nacional",
+   "odds": 3.03,
+   "book": "Polymarket ask",
+   "p": 0.3476,
+   "implied_pct": 33.0,
+   "edge_pct": 5.33,
+   "stake": 3.02,
+   "status": "settled",
+   "opened_at": "2026-11-04 19:05 (Tbilisi)",
+   "odds_time": "2026-11-04 19:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.3613,
+     "DRatings": 0.395
+    },
+    "mkt": 0.3171,
+    "nbooks": 1,
+    "blend_p": 0.3476,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=por-nac-acv-2026-11-07-nac",
+   "reasoning": "scan PASS EV=5.33% models=['EloFD', 'DRatings']; scan stake $3.02 (raw 3.02; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $3.02",
+   "scan_id": "pm:por-nac-acv-2026-11-07-nac",
+   "polymarket_slug": "por-nac-acv-2026-11-07-nac",
+   "outcome_price": 0.33,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "CD Nacional vs. Académico de Viseu FC",
+    "pm_league": "POR1",
+    "pm_kickoff_utc": "2026-11-07T15:30Z",
+    "checked": "2026-11-04 19:05 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "result": "won",
+   "pl_usd": 6.13,
+   "settled_at": "2026-11-09 21:56 (Tbilisi)",
+   "final_score": "C.D. Nacional 1, Académico de Viseu 0 (FT)",
+   "score": "C.D. Nacional 1, Académico de Viseu 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/summary?event=401885398",
+   "settle_source": "ESPN por.1 event 401885398 STATUS_FULL_TIME, C.D. Nacional winner; Polymarket resolved Yes=1.0 (umaResolutionStatus resolved)",
+   "closing_odds": null
   }
  ],
  "positions": [
@@ -31975,7 +31983,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 747.71
+   "last_price": 752.24
   },
   {
    "symbol": "AAPL",
@@ -31987,7 +31995,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 348.54,
+   "last_price": 349.3,
    "adds": [
     {
      "date": "2026-10-14",
@@ -32008,7 +32016,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 94.98
+   "last_price": 95.75
   },
   {
    "symbol": "MSFT",
@@ -32016,7 +32024,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 540.7,
+   "last_price": 544.08,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -32025,7 +32033,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 396.25,
+   "last_price": 398.64,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -32034,7 +32042,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 419.24,
+   "last_price": 424.11,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   }
  ],
@@ -135527,22 +135535,22 @@
   }
  ],
  "last_prices": {
-  "BTC": 74911,
+  "BTC": 74764,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 747.71,
+  "SPY": 752.24,
   "META": 615.42,
-  "AAPL": 348.54,
+  "AAPL": 349.3,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
-  "GOOGL": 293.0,
+  "GOOGL": 290.69,
   "QQQ": 659.27,
-  "XLV": 186.13,
-  "MSFT": 540.7,
+  "XLV": 188.05,
+  "MSFT": 544.08,
   "PLTR": 161.34,
-  "V": 419.24,
-  "BRK-B": 569.41,
+  "V": 424.11,
+  "BRK-B": 570.5,
   "ETH": 2230.84,
   "SOL": 89.94,
   "AMD": 448.25,
@@ -135552,23 +135560,23 @@
   "JPM": 336.69,
   "JNJ": 275.62,
   "BAC": 49.81,
-  "UNH": 396.25,
-  "COST": 1048.73,
-  "XOM": 164.85,
-  "CRM": 215.09,
-  "KO": 94.98,
+  "UNH": 398.64,
+  "COST": 1057.78,
+  "XOM": 165.12,
+  "CRM": 216.5,
+  "KO": 95.75,
   "NFLX": 63.64,
-  "WMT": 124.37,
+  "WMT": 125.19,
   "INTC": 98.12,
   "PEP": 129.27,
-  "LLY": 1389.19,
+  "LLY": 1404.05,
   "DIS": 108.99,
   "MA": 603.24,
   "CSCO": 113.64,
   "ADBE": 240.68,
   "XLP": 86.06,
   "IWM": 274.16,
-  "XLE": 61.66,
+  "XLE": 62.15,
   "XRP": 1.33,
   "ADA": 0.228681,
   "DOGE": 0.081586,
@@ -135585,8 +135593,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 78606.37,
-  "BTC_MA50": 81635.54,
+  "BTC_MA20": 78599.55,
+  "BTC_MA50": 81632.81,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -135605,20 +135613,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-09 19:02 (Tbilisi)",
-  "total_value": 454.46,
+  "time": "2026-11-09 21:56 (Tbilisi)",
+  "total_value": 460.99,
   "deposits_usd": 500,
-  "vs_deposits_usd": -45.54,
-  "vs_deposits_pct": -9.11,
-  "btc_bench": 454.59,
-  "vs_btc_usd": -0.14,
+  "vs_deposits_usd": -39.01,
+  "vs_deposits_pct": -7.8,
+  "btc_bench": 453.7,
+  "vs_btc_usd": 7.29,
   "bets": {
-   "n": 627,
-   "wins": 228,
+   "n": 628,
+   "wins": 229,
    "losses": 399,
-   "open": 28,
-   "pl_usd": -41.4,
-   "roi_pct": -3.6
+   "open": 27,
+   "pl_usd": -35.27,
+   "roi_pct": -3.0
   },
   "by_sport": {
    "NHL": {
@@ -135664,11 +135672,11 @@
     "roi_pct": -31.4
    },
    "Polymarket": {
-    "n": 248,
-    "wins": 86,
+    "n": 249,
+    "wins": 87,
     "losses": 162,
-    "pl_usd": -17.82,
-    "roi_pct": -4.1
+    "pl_usd": -11.69,
+    "roi_pct": -2.7
    },
    "NFL": {
     "n": 21,
@@ -135708,14 +135716,14 @@
   },
   "stocks": {
    "open_n": 6,
-   "value_usd": 61.19,
-   "unrealized_usd": 0.69,
+   "value_usd": 61.59,
+   "unrealized_usd": 1.09,
    "realized_usd": 0.48,
-   "total_pl_usd": 1.17
+   "total_pl_usd": 1.57
   },
-  "cash_usd": 322.5314,
+  "cash_usd": 331.682,
   "scanned": 52480,
-  "open_bets_usd": 70.74,
+  "open_bets_usd": 67.72,
   "desk_stats": {
    "FOOTBALL": {
     "n": 187,
@@ -135760,11 +135768,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 248,
-    "wins": 86,
+    "n": 249,
+    "wins": 87,
     "losses": 162,
-    "pl_usd": -17.82,
-    "roi_pct": -4.1
+    "pl_usd": -11.69,
+    "roi_pct": -2.7
    },
    "CRYPTO MAJORS": {
     "n": 5,
@@ -135789,7 +135797,7 @@
    }
   }
  },
- "last_refresh": "2026-11-09 19:02 (Tbilisi)",
+ "last_refresh": "2026-11-09 21:56 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -137042,7 +137050,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-09 19:02 (Tbilisi)",
+  "updated": "2026-11-09 21:56 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -144603,6 +144611,17 @@
     "better": "early"
    },
    {
+    "id": "B551",
+    "sport": "Polymarket",
+    "event": "Académico de Viseu @ C.D. Nacional",
+    "open": null,
+    "taken": 3.03,
+    "taken_time": "2026-11-04 19:05 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -144631,17 +144650,6 @@
     "open": null,
     "taken": 3.3,
     "taken_time": "2026-10-24 09:00 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B551",
-    "sport": "Polymarket",
-    "event": "Académico de Viseu @ C.D. Nacional",
-    "open": null,
-    "taken": 3.03,
-    "taken_time": "2026-11-04 19:05 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
