@@ -32365,7 +32365,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 752.69
+   "last_price": 748.24
   },
   {
    "symbol": "AAPL",
@@ -32377,7 +32377,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 350.69,
+   "last_price": 349.63,
    "adds": [
     {
      "date": "2026-10-14",
@@ -32398,7 +32398,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 96.03
+   "last_price": 96.13
   },
   {
    "symbol": "MSFT",
@@ -32406,7 +32406,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 545.18,
+   "last_price": 541.45,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -32415,7 +32415,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 397.62,
+   "last_price": 398.76,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -32424,7 +32424,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 422.16,
+   "last_price": 421.13,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   }
  ],
@@ -33595,6 +33595,14 @@
    "total_value": 452.0,
    "cash": 306.0075,
    "btc_bench": 453.08
+  },
+  {
+   "date": "2026-11-10",
+   "slot": "MID",
+   "time": "2026-11-10 19:02 (Tbilisi)",
+   "total_value": 446.84,
+   "cash": 306.0075,
+   "btc_bench": 448.95
   }
  ],
  "benchmarks_start": {
@@ -137677,6 +137685,1048 @@
    "plan": "AM 2026-11-10: დილის ციკლი. დასახლება მხოლოდ რეალური საბოლოო შედეგებით; B640 (Pelicans–Warriors) მიმდინარეობს, B294 გადადებული; BTC gate დახურული; Football/Polymarket/NBA ცალკე იზომება.",
    "settle_note": "ESPN/gamma finals: 5 settled 1W/4L -8.02 — B625 Las Palmas won (Las Palmas 2, Eldense 0); B641 Atlanta Hawks lost (Atlanta Hawks 114, Los Angeles Lakers 124); B643 Washington Wizards lost (Detroit Pistons 122, Washington Wizards 111); B646 South Carolina Upstate Spartans lost (Coastal Carolina Chanticleers 65, South Carolina Upstate Spartans 56); B647 Kansas City Roos lost (Jacksonville Dolphins 79, Kansas City Roos 61). Left open (not final / B294 postponed): B640.",
    "closed_at": "2026-11-10 09:06 (Tbilisi)"
+  },
+  {
+   "date": "2026-11-10",
+   "slot": "MID",
+   "time": "2026-11-10 18:52 (Tbilisi)",
+   "status": "complete",
+   "note": "DRAWDOWN BRAKE TRIGGERED (bank $446.84 ≤ $450 = −10% vs $500 deposits) → 0 new bets/buys (5 TITAN-approved candidates skipped). MID: 0 new bets (scan 6 PASS), TITAN blocked 1, shrunk 2, settled 0 (+0.0), ledger 0, post-mortems 0, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: 0 SL/TP, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 21W/34L +14.80, Polymarket 38W/66L +9.51, NBA 8W/22L -28.25",
+   "ledger": [],
+   "postmortem": [],
+   "not_final_left_open": [],
+   "research": {
+    "settled": [],
+    "note": "MID paper cycle 2026-11-10",
+    "btc_hold": "NO BUY: BTC 73981 < MA20 78120 (below SMA50 81391) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00",
+    "btc": 73981,
+    "btc_ma20": 78120.19,
+    "btc_ma50": 81390.78,
+    "tokens_passed": 84,
+    "tokens_bought": 0,
+    "new_bet_ids": [],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 1,
+    "titan_shrunk": 2,
+    "nova_approved": 0,
+    "x_calls": 4,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-11-10_1852",
+    "time": "2026-11-10 18:52 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 358,
+    "funnel": {
+     "options_AN": 10031,
+     "events_AN": 440,
+     "events_ESPN": 1601,
+     "options_ESPN": 1394,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 997,
+     "model_rows_DR": 324,
+     "model_rows_FTS": 0,
+     "events_upcoming": 643,
+     "selections_priced": 1492,
+     "drop_too_few_books": 617,
+     "selections_consensus": 861,
+     "with_model": 728,
+     "with_2plus_model": 310,
+     "with_1_model": 418,
+     "elo_matched_events": 138,
+     "drop_no_model": 133,
+     "drop_nhl_calibration": 14,
+     "dup_open_variant": 3,
+     "gate_ev<3": 632,
+     "gate_PASS": 7,
+     "gate_dup_open": 11,
+     "gate_A3_range": 30,
+     "gate_L004_single_model_gap": 8,
+     "gate_odds>5": 32,
+     "gate_TITAN_elo_disagree>10pt": 1,
+     "gate_model_ev<=0": 7,
+     "options_Polymarket": 41840,
+     "pm_markets": 20920,
+     "pm_liq1k": 6206,
+     "pm_sports_ml": 1762,
+     "pm_drop_L007_no_strict_match": 181,
+     "pm_matched_model": 136,
+     "pm_gate_ev<3": 103,
+     "pm_drop_L007_league_unmapped": 326,
+     "pm_gate_odds>5": 9,
+     "pm_gate_model_ev<=0": 6,
+     "pm_gate_dup_open": 4,
+     "pm_gate_TITAN_elo_disagree>10pt": 2,
+     "pm_gate_A3_range": 11,
+     "pm_tb1_tagged": 17,
+     "pm_gate_L004_single_model_gap": 1,
+     "dup_open": 15,
+     "bank_live": 446.84,
+     "bank_stale_overall_report": 447.0,
+     "prior_veto": 1,
+     "prior_veto_list_24h": 2,
+     "ledger_halve_suppressed": 5,
+     "final_after_caps": 6,
+     "stake_total": 19.38,
+     "budget_caps": 77.02,
+     "tokens_src_dexscreener_tokens": 65,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 0,
+     "tokens_gt_fetch_seconds": 86,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 750,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 734,
+     "tokens_chain_solana": 197,
+     "tokens_chain_elysium": 7,
+     "tokens_chain_robinhood": 5,
+     "tokens_chain_bsc": 180,
+     "tokens_chain_ethereum": 172,
+     "tokens_chain_base": 173,
+     "tokens_gate_liquidity": 391,
+     "tokens_gate_too_new": 85,
+     "tokens_gate_pass": 132,
+     "tokens_gate_pump": 1,
+     "tokens_gate_rug_dump": 4,
+     "tokens_gate_thin_liq_fdv": 76,
+     "tokens_gate_low_activity": 45,
+     "tokens_safety_pass": 84,
+     "tokens_safety_fail": 25,
+     "tokens_safety_unverified": 23,
+     "tokens_passed_safety": 84,
+     "options_scanned_total": 53999
+    },
+    "coverage_events_by_sport": {
+     "nba": 105,
+     "ncaaf": 70,
+     "ncaab": 127,
+     "nfl": 14,
+     "nhl": 99,
+     "soccer": 206,
+     "ufc": 22
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 53999,
+     "candidates": [
+      {
+       "name": "FC Utrecht",
+       "type": "soccer",
+       "score": 60,
+       "why": "EV 10.31% @1.952 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Mississippi State Bulldogs",
+       "type": "ncaaf",
+       "score": 56,
+       "why": "EV 6.24% @2.25 models=['ESPN']"
+      },
+      {
+       "name": "Nicholls Colonels",
+       "type": "ncaab",
+       "score": 60,
+       "why": "EV 10.35% @4.4 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Lommel SK",
+       "type": "soccer",
+       "score": 56,
+       "why": "EV 6.07% @3.25 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Kilmarnock",
+       "type": "soccer",
+       "score": 55,
+       "why": "EV 5.79% @2.65 models=['EloFD']"
+      },
+      {
+       "name": "Annecy",
+       "type": "soccer",
+       "score": 53,
+       "why": "EV 3.03% @2.15 models=['EloFD']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 53999,
+      "with_model": 728,
+      "gate_PASS": 7,
+      "pm_gate_PASS": null,
+      "dup_open": 15,
+      "prior_veto": 1,
+      "final_after_caps": 6,
+      "pm_tb1_tagged": 17,
+      "pm_tb1_tagged_pass": null,
+      "tokens_tokens_unique": 750,
+      "tokens_passed_safety": 84,
+      "stake_total": 19.38,
+      "budget_caps": 77.02
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 73979.63,
+       "tp": 79898.0,
+       "stop": 70280.65,
+       "support": 73979.63,
+       "resistance": 81328.21,
+       "prices": [
+        81328.21,
+        81102.31,
+        80810.57,
+        80048.85,
+        80029.43,
+        80800.83,
+        81274.37,
+        77838.81,
+        77275.05,
+        77520.89,
+        78293.84,
+        76709.41,
+        77384.59,
+        80442.71,
+        76005.51,
+        75775.28,
+        75776.38,
+        74740.42,
+        75266.77,
+        73979.63
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 748.24,
+       "tp": 808.1,
+       "stop": 710.83,
+       "support": 733.0,
+       "resistance": 773.09,
+       "prices": [
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29,
+        752.69,
+        748.24
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "up",
+       "entry": 541.45,
+       "tp": 584.77,
+       "stop": 514.38,
+       "support": 507.12,
+       "resistance": 555.8,
+       "prices": [
+        533.69,
+        539.44,
+        529.05,
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61,
+        545.18,
+        541.45
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1061.98,
+       "tp": 1146.94,
+       "stop": 1008.88,
+       "support": 978.01,
+       "resistance": 1066.18,
+       "prices": [
+        982.0,
+        978.01,
+        989.11,
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56,
+        1066.18,
+        1061.98
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 577.42,
+       "tp": 623.61,
+       "stop": 548.55,
+       "support": 525.68,
+       "resistance": 579.09,
+       "prices": [
+        526.35,
+        525.68,
+        532.02,
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89,
+        575.25,
+        577.42
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 163.75,
+       "tp": 176.85,
+       "stop": 155.56,
+       "support": 163.75,
+       "resistance": 187.25,
+       "prices": [
+        177.01,
+        174.68,
+        178.98,
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87,
+        164.73,
+        163.75
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 213.82,
+       "tp": 230.93,
+       "stop": 203.13,
+       "support": 213.65,
+       "resistance": 250.29,
+       "prices": [
+        235.95,
+        246.74,
+        240.7,
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65,
+        214.94,
+        213.82
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1416.04,
+       "tp": 1529.32,
+       "stop": 1345.24,
+       "support": 1208.74,
+       "resistance": 1417.99,
+       "prices": [
+        1208.74,
+        1251.61,
+        1257.03,
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0,
+        1411.95,
+        1416.04
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "FC Utrecht",
+       "stance": "watch",
+       "text": "FC Utrecht poor start; coach Anthony Correia under pressure, \"defensively very vulnerable\" (NU.nl) — our side, priced in line",
+       "source": "https://x.com/NUnl/status/2119700609062351330"
+      },
+      {
+       "candidate": "Mississippi State Bulldogs",
+       "stance": "bearish",
+       "text": "\"Mississippi State has also faced the top 3 defenses ... in 3 of the 4 games KT was out\" — starting QB Kamario Taylor still out (fan post; c",
+       "source": "https://x.com/Familymeddawg/status/2119766517613297907"
+      },
+      {
+       "candidate": "Nicholls Colonels",
+       "stance": "watch",
+       "text": "Tulane preview: \"Bounce Back Night\" vs Nicholls after loss to Jackson State; no injury/suspension listed for either side",
+       "source": "https://x.com/RollDatWave/status/2120130897122841003"
+      },
+      {
+       "candidate": "Lommel SK",
+       "stance": "watch",
+       "text": "Lommel: Henry Oware out (hamstring), Josias Lama out",
+       "source": "https://x.com/injuryreportst/status/2119936263176491434"
+      },
+      {
+       "candidate": "Kilmarnock",
+       "stance": "watch",
+       "text": "Aberdeen (opponent) sacked manager Stephen Robinson on Nov 10 — new-manager effect / uncertainty vs our side Kilmarnock",
+       "source": "https://x.com/spflmysportstab/status/2120158986611912721"
+      },
+      {
+       "candidate": "Annecy",
+       "stance": "bullish",
+       "text": "Annecy (our side, Elo-only $1.00): no Annecy/Clermont injury or coach news in X results → clear at $1.00",
+       "source": "x search (no result)"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "FC Utrecht",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Mississippi State Bulldo",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Nicholls Colonels",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Lommel SK",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Kilmarnock",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Annecy",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": -0.15
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "FC Utrecht (SC Cambuur @ FC Utrecht)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "FC Utrecht (our side): form/coach pressure is public and already in the price; no injury/suspension → clear at $5.00 (watch)"
+      },
+      {
+       "candidate": "Mississippi State Bulldogs (Auburn Tigers @ Mississippi State Bulldo)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Mississippi State (our side): still without starting QB Kamario Taylor — same veto as CATCHUP Nov 9 / AM Nov 8 / MID Nov 6 (ESPN-only model) → TITAN REJECT"
+      },
+      {
+       "candidate": "Nicholls Colonels (Nicholls Colonels @ Tulane Green Wave)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Nicholls (our side) @4.40: no injury/suspension news for Nicholls or Tulane (other \"Nicholls\" hits = horse racing/cricket) → clear at $3.40"
+      },
+      {
+       "candidate": "Lommel SK (Standard Liege @ Lommel SK)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Lommel SK (our side) @3.25: three players out (aggregator source); opponent also depleted → TITAN shrink $3.02 → $2.00"
+      },
+      {
+       "candidate": "Kilmarnock (Aberdeen @ Kilmarnock)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Kilmarnock (our side, Elo-only half stake): opponent manager change 11 days before kickoff → uncertainty → TITAN shrink $1.96 → $1.00"
+      },
+      {
+       "candidate": "Annecy (Clermont Foot @ Annecy)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Annecy (our side, Elo-only $1.00): no Annecy/Clermont injury or coach news in X results → clear at $1.00"
+      }
+     ],
+     "blocked_count": 1
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "FC Utrecht (SC Cambuur @ FC Utrecht)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Mississippi State Bulldogs (Auburn Tigers @ Mississippi State Bu)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Nicholls Colonels (Nicholls Colonels @ Tulane Green Wav)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Lommel SK (Standard Liege @ Lommel SK)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Kilmarnock (Aberdeen @ Kilmarnock)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Annecy (Clermont Foot @ Annecy)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      }
+     ],
+     "desk_pl_today": 0.0
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 0,
+      "blocked": 1,
+      "note": "სკანი 53999 ოფცია; with_model 728; PASS 7+PM 0 → caps 6 (dup_open 15, prior_veto 1); NEWS/TITAN-ის შემდეგ 0"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 73981 vs MA20 78120 & SMA50 81391 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 0,
+      "blocked": 1,
+      "note": "X search_posts_all (4 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 0,
+      "blocked": 1,
+      "note": "overall -0.15"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 6,
+      "approved": 0,
+      "blocked": 1,
+      "note": "ფსონები: სკანის 6 PASS → 1 ვეტო (Mississippi State Bulldogs), 2 შემცირება (Lommel SK, Kilmarnock); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 ფსონი (none); ბიუჯეტი ქეპებში $0.00 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 6,
+      "approved": 0,
+      "blocked": 1,
+      "note": "6 PASS კანდიდატი → 4 x-call (search_posts_all): 1 ბლოკი, 2 შემცირება, 3 clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 post-mortem: none; no new settled losses this MID → no new post-mortem/lesson."
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 0/0; Football n=158 mean -4.81%; Polymarket n=238 mean -1.99%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 17, pass 0"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 4,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): "
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 2,
+      "approved": 0,
+      "blocked": 1,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 73981 < MA20 78120 (-5.3%), < SMA50 81391 → no buy, hold 0 lots; ETH 2072 (MA20 2274, SMA50 2457), SOL 83.78 (SMA50 106.02) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "750 scanned, 84 passed safety; buying needs BTC>MA20 → gate closed → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი ღიაა (სამშაბათი, სესია; Yahoo live SPY 748.24); 6 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; stop/TP არ მოხვდა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "L007: unmapped 326, no strict 181, matched 136; PM PASS None; TB1 pass None; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "სამშაბათი 10 ნოემბერი (MID) — მაკრო კალენდარი ამ ციკლში ახალი წყაროთი არ შემოწმებულა; ფსონებზე გავლენა არა; ტესტირებული აქციის შესვლა არა → 0"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "espn401875544",
+     "event": "SC Cambuur @ FC Utrecht",
+     "sel": "FC Utrecht",
+     "queries": [
+      "(\"FC Utrecht\" OR Cambuur OR \"Lommel\" OR \"Standard Luik\" OR \"Standard Liege\") (blessure OR geblesseerd OR injury OR geschorst OR suspended OR trainer) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "coach",
+       "text": "FC Utrecht poor start; coach Anthony Correia under pressure, \"defensively very vulnerable\" (NU.nl) — our side, priced in line",
+       "source": "https://x.com/NUnl/status/2119700609062351330",
+       "time": "2026-11-09 11:56 (Tbilisi)"
+      },
+      {
+       "type": "none",
+       "text": "Cambuur unbeaten run ended at PSV (VI)",
+       "source": "https://x.com/VI_nl/status/2120094479856390272",
+       "time": "2026-11-10 14:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "FC Utrecht (our side): form/coach pressure is public and already in the price; no injury/suspension → clear at $5.00 (watch)"
+    },
+    {
+     "candidate": "289963",
+     "event": "Auburn Tigers @ Mississippi State Bulldogs",
+     "sel": "Mississippi State Bulldogs",
+     "queries": [
+      "(\"Mississippi State\" OR \"Miss State\" OR Auburn) football (injury OR injured OR QB OR \"ruled out\" OR questionable OR out) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "\"Mississippi State has also faced the top 3 defenses ... in 3 of the 4 games KT was out\" — starting QB Kamario Taylor still out (fan post; consistent with confirmed earlier reports)",
+       "source": "https://x.com/Familymeddawg/status/2119766517613297907",
+       "time": "2026-11-09 16:18 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "\"Mississippi State was a really good football team until they lost their qb\"",
+       "source": "https://x.com/Judster76/status/2119516219732795551",
+       "time": "2026-11-08 23:47 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "Mississippi State (our side): still without starting QB Kamario Taylor — same veto as CATCHUP Nov 9 / AM Nov 8 / MID Nov 6 (ESPN-only model) → TITAN REJECT"
+    },
+    {
+     "candidate": "espn401919003",
+     "event": "Nicholls Colonels @ Tulane Green Wave",
+     "sel": "Nicholls Colonels",
+     "queries": [
+      "(Nicholls OR \"Tulane basketball\" OR \"Tulane Green Wave\") (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Tulane preview: \"Bounce Back Night\" vs Nicholls after loss to Jackson State; no injury/suspension listed for either side",
+       "source": "https://x.com/RollDatWave/status/2120130897122841003",
+       "time": "2026-11-10 16:26 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Nicholls (our side) @4.40: no injury/suspension news for Nicholls or Tulane (other \"Nicholls\" hits = horse racing/cricket) → clear at $3.40"
+    },
+    {
+     "candidate": "espn401878934",
+     "event": "Standard Liege @ Lommel SK",
+     "sel": "Lommel SK",
+     "queries": [
+      "(\"FC Utrecht\" OR Cambuur OR \"Lommel\" OR \"Standard Luik\" OR \"Standard Liege\") (blessure OR geblesseerd OR injury OR geschorst OR suspended OR trainer) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Lommel: Henry Oware out (hamstring), Josias Lama out",
+       "source": "https://x.com/injuryreportst/status/2119936263176491434",
+       "time": "2026-11-10 03:32 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Lommel: Jesper Tolinsson out (minor knock)",
+       "source": "https://x.com/injuryreportst/status/2120113610760364300",
+       "time": "2026-11-10 15:17 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Standard Liège: Fossey (ACL), Noah Sy, Lavalée, Nguene out (opponent)",
+       "source": "https://x.com/injuryreportst/status/2119765252883804235",
+       "time": "2026-11-09 16:13 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Lommel SK (our side) @3.25: three players out (aggregator source); opponent also depleted → TITAN shrink $3.02 → $2.00"
+    },
+    {
+     "candidate": "espn401878334",
+     "event": "Aberdeen @ Kilmarnock",
+     "sel": "Kilmarnock",
+     "queries": [
+      "(Kilmarnock OR Aberdeen OR Annecy OR \"Clermont Foot\") (injury OR injured OR suspended OR manager OR sacked OR blessure) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "coach",
+       "text": "Aberdeen (opponent) sacked manager Stephen Robinson on Nov 10 — new-manager effect / uncertainty vs our side Kilmarnock",
+       "source": "https://x.com/spflmysportstab/status/2120158986611912721",
+       "time": "2026-11-10 18:17 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Kilmarnock (our side, Elo-only half stake): opponent manager change 11 days before kickoff → uncertainty → TITAN shrink $1.96 → $1.00"
+    },
+    {
+     "candidate": "espn401876691",
+     "event": "Clermont Foot @ Annecy",
+     "sel": "Annecy",
+     "queries": [
+      "(Kilmarnock OR Aberdeen OR Annecy OR \"Clermont Foot\") (injury OR injured OR suspended OR manager OR sacked OR blessure) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Annecy (our side, Elo-only $1.00): no Annecy/Clermont injury or coach news in X results → clear at $1.00"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 65,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 0,
+     "gt_fetch_seconds": 86,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 750,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 734,
+     "chain_solana": 197,
+     "chain_elysium": 7,
+     "chain_robinhood": 5,
+     "chain_bsc": 180,
+     "chain_ethereum": 172,
+     "chain_base": 173,
+     "gate_liquidity": 391,
+     "gate_too_new": 85,
+     "gate_pass": 132,
+     "gate_pump": 1,
+     "gate_rug_dump": 4,
+     "gate_thin_liq_fdv": 76,
+     "gate_low_activity": 45,
+     "safety_pass": 84,
+     "safety_fail": 25,
+     "safety_unverified": 23
+    },
+    "passed_n": 84,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 0 final(s): none (P/L +0.0). Not final → left open for the hourly refresh: none. LEDGER: DK closes 0/0; Football n=158 mean CLV -4.81%; Polymarket n=238 mean -1.99% (halving OFF by owner order 2026-10-28; tracked only). DOC: 0 post-mortems. Scan 53999 options → with_model 728 → PASS 7+PM None → 6 after dedup/caps (prior_veto 1); SHERLOCK/TITAN: 1 blocked, 2 shrunk → 0 bets. NO BUY: BTC 73981 < MA20 78120 (below SMA50 81391) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US session open (Yahoo live quotes), no SL/TP touched; no tested equity entry; no tested entry rule → 0 new buys. Drawdown brake: bank $446.84 ≤ $450 → budget 0, no new bets/buys this cycle.",
+   "plan": "MID 2026-11-10: საღამოს ციკლი. დასახლება მხოლოდ რეალური საბოლოო შედეგებით (ამ ციკლში დასრულებული ღია ფსონი არ იყო); B294 გადადებული; ვარდნის სამუხრუჭე (ბანკი ≤ $450) → ახალი ფსონი/ყიდვა არა; BTC gate დახურული; Football/Polymarket/NBA ცალკე იზომება.",
+   "drawdown_brake": {
+    "deposits": 500,
+    "threshold": 450.0,
+    "bank": 446.84,
+    "vs_deposits_pct": -10.63,
+    "triggered": true,
+    "effect": "budget=0 → no new bets/buys; scan/news/TITAN run for reporting; SL/TP exits still allowed",
+    "skipped_by_brake": [
+     "espn401875544",
+     "espn401919003",
+     "espn401878934",
+     "espn401878334",
+     "espn401876691"
+    ]
+   },
+   "settle_note": "ESPN/gamma finals: 0 settled 0W/0L +0.0 — . Left open (not final / B294 postponed): none.",
+   "closed_at": "2026-11-10 19:02 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -138017,21 +139067,21 @@
   }
  ],
  "last_prices": {
-  "BTC": 74614,
+  "BTC": 73981,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 752.69,
+  "SPY": 748.24,
   "META": 615.42,
-  "AAPL": 350.69,
+  "AAPL": 349.63,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
   "GOOGL": 288.15,
   "QQQ": 659.27,
   "XLV": 188.33,
-  "MSFT": 545.18,
+  "MSFT": 541.45,
   "PLTR": 161.34,
-  "V": 422.16,
+  "V": 421.13,
   "BRK-B": 575.25,
   "ETH": 2230.84,
   "SOL": 89.94,
@@ -138042,11 +139092,11 @@
   "JPM": 336.69,
   "JNJ": 275.62,
   "BAC": 49.81,
-  "UNH": 397.62,
+  "UNH": 398.76,
   "COST": 1066.18,
   "XOM": 164.73,
   "CRM": 214.94,
-  "KO": 96.03,
+  "KO": 96.13,
   "NFLX": 63.64,
   "WMT": 125.66,
   "INTC": 98.12,
@@ -138075,8 +139125,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 78151.42,
-  "BTC_MA50": 81403.27,
+  "BTC_MA20": 78120.19,
+  "BTC_MA50": 81390.78,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -138095,13 +139145,13 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-10 10:56 (Tbilisi)",
-  "total_value": 447.0,
+  "time": "2026-11-10 19:02 (Tbilisi)",
+  "total_value": 446.84,
   "deposits_usd": 500,
-  "vs_deposits_usd": -53.0,
-  "vs_deposits_pct": -10.6,
-  "btc_bench": 452.79,
-  "vs_btc_usd": -5.8,
+  "vs_deposits_usd": -53.16,
+  "vs_deposits_pct": -10.63,
+  "btc_bench": 448.95,
+  "vs_btc_usd": -2.11,
   "bets": {
    "n": 635,
    "wins": 230,
@@ -138198,13 +139248,13 @@
   },
   "stocks": {
    "open_n": 6,
-   "value_usd": 61.62,
-   "unrealized_usd": 1.12,
+   "value_usd": 61.46,
+   "unrealized_usd": 0.96,
    "realized_usd": 0.48,
-   "total_pl_usd": 1.6
+   "total_pl_usd": 1.44
   },
   "cash_usd": 306.0075,
-  "scanned": 52441,
+  "scanned": 53999,
   "open_bets_usd": 79.37,
   "desk_stats": {
    "FOOTBALL": {
@@ -138279,7 +139329,7 @@
    }
   }
  },
- "last_refresh": "2026-11-10 10:56 (Tbilisi)",
+ "last_refresh": "2026-11-10 19:02 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -139532,7 +140582,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-10 10:56 (Tbilisi)",
+  "updated": "2026-11-10 19:02 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
