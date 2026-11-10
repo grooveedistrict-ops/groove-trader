@@ -283,36 +283,6 @@
    "scan_id": "289995"
   },
   {
-   "id": "B640",
-   "sport": "NBA",
-   "league": "nba",
-   "event": "New Orleans Pelicans @ Golden State Warriors",
-   "kickoff": "2026-11-10 07:00",
-   "selection": "New Orleans Pelicans",
-   "odds": 4.1,
-   "book": "Action Network real book id69",
-   "p": 0.294,
-   "implied_pct": 24.4,
-   "edge_pct": 20.54,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-11-09 12:25 (Tbilisi)",
-   "odds_time": "2026-11-09 12:25 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.302,
-     "DRatings": 0.393
-    },
-    "mkt": 0.2405,
-    "nbooks": 5,
-    "blend_p": 0.294,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-09_1218 id=295411)",
-   "reasoning": "scan PASS EV=20.54% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 7.52; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
-   "scan_id": "295411"
-  },
-  {
    "id": "B642",
    "sport": "NCAAF",
    "league": "ncaaf",
@@ -32330,6 +32300,56 @@
     "cause": "variance",
     "clv_sign": "+",
     "note": "CLV +13.15% (2.95 vs DraftKings no-vig close 2.6071); final Jacksonville Dolphins 79, Kansas City Roos 61 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B640",
+   "sport": "NBA",
+   "league": "nba",
+   "event": "New Orleans Pelicans @ Golden State Warriors",
+   "kickoff": "2026-11-10 07:00",
+   "selection": "New Orleans Pelicans",
+   "odds": 4.1,
+   "book": "Action Network real book id69",
+   "p": 0.294,
+   "implied_pct": 24.4,
+   "edge_pct": 20.54,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-11-09 12:25 (Tbilisi)",
+   "odds_time": "2026-11-09 12:25 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.302,
+     "DRatings": 0.393
+    },
+    "mkt": 0.2405,
+    "nbooks": 5,
+    "blend_p": 0.294,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nba (scan/2026-11-09_1218 id=295411)",
+   "reasoning": "scan PASS EV=20.54% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 7.52; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "295411",
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-11-10 10:55 (Tbilisi)",
+   "final_score": "Golden State Warriors 138, New Orleans Pelicans 87 (FT)",
+   "score": "Golden State Warriors 138, New Orleans Pelicans 87 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909959",
+   "settle_source": "ESPN nba event 401909959 STATUS_FINAL, Golden State Warriors winner",
+   "closing_odds": 5.09,
+   "closing_fair_odds": 5.2972,
+   "clv_pct": -22.6,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-542', 'away': '+409'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909959",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-542', 'away': '+409'}; no-vig fair 5.2972; recorded HOURLY 2026-11-10 10:55 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-10 10:55 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -22.60% (4.1 vs DraftKings no-vig close 5.2972); final Golden State Warriors 138, New Orleans Pelicans 87 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
   }
@@ -137997,7 +138017,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 74662,
+  "BTC": 74614,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 752.69,
@@ -138055,8 +138075,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 78154.31,
-  "BTC_MA50": 81404.43,
+  "BTC_MA20": 78151.42,
+  "BTC_MA50": 81403.27,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -138075,20 +138095,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-10 09:06 (Tbilisi)",
-  "total_value": 452.0,
+  "time": "2026-11-10 10:56 (Tbilisi)",
+  "total_value": 447.0,
   "deposits_usd": 500,
-  "vs_deposits_usd": -48.0,
-  "vs_deposits_pct": -9.6,
-  "btc_bench": 453.08,
-  "vs_btc_usd": -1.09,
+  "vs_deposits_usd": -53.0,
+  "vs_deposits_pct": -10.6,
+  "btc_bench": 452.79,
+  "vs_btc_usd": -5.8,
   "bets": {
-   "n": 634,
+   "n": 635,
    "wins": 230,
-   "losses": 404,
-   "open": 29,
-   "pl_usd": -44.29,
-   "roi_pct": -3.7
+   "losses": 405,
+   "open": 28,
+   "pl_usd": -49.29,
+   "roi_pct": -4.2
   },
   "by_sport": {
    "NHL": {
@@ -138127,11 +138147,11 @@
     "roi_pct": -14.2
    },
    "NBA": {
-    "n": 51,
+    "n": 52,
     "wins": 17,
-    "losses": 34,
-    "pl_usd": -42.47,
-    "roi_pct": -36.5
+    "losses": 35,
+    "pl_usd": -47.47,
+    "roi_pct": -39.1
    },
    "Polymarket": {
     "n": 250,
@@ -138185,7 +138205,7 @@
   },
   "cash_usd": 306.0075,
   "scanned": 52441,
-  "open_bets_usd": 84.37,
+  "open_bets_usd": 79.37,
   "desk_stats": {
    "FOOTBALL": {
     "n": 188,
@@ -138195,11 +138215,11 @@
     "roi_pct": 0.7
    },
    "BASKETBALL": {
-    "n": 54,
+    "n": 55,
     "wins": 18,
-    "losses": 36,
-    "pl_usd": -40.91,
-    "roi_pct": -33.7
+    "losses": 37,
+    "pl_usd": -45.91,
+    "roi_pct": -36.3
    },
    "US SPORTS": {
     "n": 133,
@@ -138259,7 +138279,7 @@
    }
   }
  },
- "last_refresh": "2026-11-10 09:06 (Tbilisi)",
+ "last_refresh": "2026-11-10 10:56 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -139512,7 +139532,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-10 09:06 (Tbilisi)",
+  "updated": "2026-11-10 10:56 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -139561,12 +139581,12 @@
     "lean": "early"
    },
    "NBA": {
-    "n": 50,
+    "n": 51,
     "early_better": 34,
-    "late_better": 14,
+    "late_better": 15,
     "equal": 2,
-    "avg_clv_pct": 5.5,
-    "no_close": 2,
+    "avg_clv_pct": 5.02,
+    "no_close": 1,
     "lean": "early"
    },
    "Polymarket": {
@@ -147156,6 +147176,18 @@
     "better": "early"
    },
    {
+    "id": "B640",
+    "sport": "NBA",
+    "event": "New Orleans Pelicans @ Golden State Warriors",
+    "open": null,
+    "taken": 4.1,
+    "taken_time": "2026-11-09 12:25 (Tbilisi)",
+    "close": 5.09,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909959",
+    "clv_pct": -19.45,
+    "better": "late"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -147250,17 +147282,6 @@
     "open": null,
     "taken": 4.1,
     "taken_time": "2026-11-08 19:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B640",
-    "sport": "NBA",
-    "event": "New Orleans Pelicans @ Golden State Warriors",
-    "open": null,
-    "taken": 4.1,
-    "taken_time": "2026-11-09 12:25 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -147503,8 +147524,8 @@
    "mean_clv_pct": -1.25
   },
   "NBA": {
-   "n": 50,
-   "mean_clv_pct": 1.21
+   "n": 51,
+   "mean_clv_pct": 0.74
   },
   "Basketball": {
    "n": 3,
