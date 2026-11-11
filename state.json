@@ -32418,7 +32418,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 749.92
+   "last_price": 755.78
   },
   {
    "symbol": "AAPL",
@@ -32430,7 +32430,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 348.51,
+   "last_price": 353.63,
    "adds": [
     {
      "date": "2026-10-14",
@@ -32451,7 +32451,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 96.91
+   "last_price": 96.6
   },
   {
    "symbol": "MSFT",
@@ -32459,7 +32459,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 533.16,
+   "last_price": 528.47,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -32468,7 +32468,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 405.12,
+   "last_price": 397.02,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   },
   {
@@ -32477,7 +32477,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 423.0,
+   "last_price": 420.69,
    "opened_at": "2026-10-15 18:59 (Tbilisi)"
   }
  ],
@@ -33672,6 +33672,14 @@
    "total_value": 439.74,
    "cash": 313.8625,
    "btc_bench": 447.14
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "MID",
+   "time": "2026-11-11 19:02 (Tbilisi)",
+   "total_value": 439.58,
+   "cash": 313.8625,
+   "btc_bench": 446.8
   }
  ],
  "benchmarks_start": {
@@ -141594,6 +141602,1525 @@
      "id": "111Jkaa--AycVYega7fqNLHrOPwdXV8uE"
     }
    }
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "MID",
+   "time": "2026-11-11 18:54 (Tbilisi)",
+   "status": "complete",
+   "note": "DRAWDOWN BRAKE TRIGGERED (bank $439.58 ≤ $450 = −10% vs $500 deposits) → 0 new bets/buys (15 TITAN-approved candidates skipped). MID: 0 new bets (scan 15 PASS), TITAN blocked 0, shrunk 3, settled 0 (+0.0), ledger 0, post-mortems 0, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: 0 SL/TP, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 21W/34L +14.80, Polymarket 38W/66L +9.51, NBA 8W/22L -28.25",
+   "ledger": [],
+   "postmortem": [],
+   "not_final_left_open": [],
+   "research": {
+    "settled": [],
+    "note": "MID paper cycle 2026-11-11",
+    "btc_hold": "NO BUY: BTC 73627 < MA20 77723 (below SMA50 81135) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00",
+    "btc": 73627,
+    "btc_ma20": 77723.43,
+    "btc_ma50": 81134.97,
+    "tokens_passed": 85,
+    "tokens_bought": 0,
+    "new_bet_ids": [],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 0,
+    "titan_shrunk": 3,
+    "nova_approved": 0,
+    "x_calls": 2,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-11-11_1854",
+    "time": "2026-11-11 18:54 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 295,
+    "funnel": {
+     "options_AN": 11562,
+     "events_AN": 440,
+     "events_ESPN": 1645,
+     "options_ESPN": 1514,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 1007,
+     "model_rows_DR": 405,
+     "model_rows_FTS": 1,
+     "events_upcoming": 662,
+     "selections_priced": 1558,
+     "drop_too_few_books": 594,
+     "selections_consensus": 952,
+     "with_model": 799,
+     "with_2plus_model": 422,
+     "with_1_model": 377,
+     "elo_matched_events": 146,
+     "drop_no_model": 153,
+     "drop_nhl_calibration": 12,
+     "dup_open_variant": 3,
+     "gate_ev<3": 685,
+     "gate_dup_open": 7,
+     "gate_A3_range": 25,
+     "gate_model_ev<=0": 15,
+     "gate_PASS": 15,
+     "gate_odds>5": 42,
+     "gate_L004_single_model_gap": 9,
+     "gate_TITAN_elo_disagree>10pt": 1,
+     "options_Polymarket": 42084,
+     "pm_markets": 21042,
+     "pm_liq1k": 6791,
+     "pm_sports_ml": 1962,
+     "pm_drop_L007_league_unmapped": 353,
+     "pm_drop_L007_no_strict_match": 168,
+     "pm_matched_model": 161,
+     "pm_gate_ev<3": 118,
+     "pm_gate_model_ev<=0": 7,
+     "pm_gate_odds>5": 12,
+     "pm_gate_dup_open": 4,
+     "pm_gate_TITAN_elo_disagree>10pt": 3,
+     "pm_gate_A3_range": 16,
+     "pm_gate_PASS": 1,
+     "pm_tb1_tagged": 20,
+     "dup_open": 11,
+     "bank_live": 439.58,
+     "bank_stale_overall_report": 439.74,
+     "drop_same_event": 1,
+     "prior_veto": 0,
+     "prior_veto_list_24h": 3,
+     "ledger_halve_suppressed": 10,
+     "final_after_caps": 15,
+     "stake_total": 51.62,
+     "budget_caps": 89.48,
+     "tokens_src_dexscreener_tokens": 79,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 0,
+     "tokens_gt_fetch_seconds": 86,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 756,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 742,
+     "tokens_chain_solana": 207,
+     "tokens_chain_robinhood": 5,
+     "tokens_chain_elysium": 3,
+     "tokens_chain_bsc": 187,
+     "tokens_chain_base": 170,
+     "tokens_chain_ethereum": 170,
+     "tokens_gate_liquidity": 425,
+     "tokens_gate_pass": 133,
+     "tokens_gate_too_new": 68,
+     "tokens_gate_pump": 1,
+     "tokens_gate_rug_dump": 1,
+     "tokens_gate_thin_liq_fdv": 68,
+     "tokens_gate_low_activity": 46,
+     "tokens_safety_pass": 85,
+     "tokens_safety_fail": 25,
+     "tokens_safety_unverified": 23,
+     "tokens_passed_safety": 85,
+     "options_scanned_total": 55902
+    },
+    "coverage_events_by_sport": {
+     "nba": 101,
+     "ncaaf": 67,
+     "ncaab": 118,
+     "nhl": 93,
+     "nfl": 27,
+     "soccer": 234,
+     "ufc": 22
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 55902,
+     "candidates": [
+      {
+       "name": "North Carolina Central Eagle",
+       "type": "ncaab",
+       "score": 69,
+       "why": "EV 19.35% @3.95 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Kent State Golden Flashes",
+       "type": "ncaab",
+       "score": 67,
+       "why": "EV 17.97% @3.95 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Sam Houston Bearkats",
+       "type": "ncaab",
+       "score": 63,
+       "why": "EV 13.39% @2.24 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "FC Utrecht",
+       "type": "soccer",
+       "score": 59,
+       "why": "EV 9.96% @1.952 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Tulane Green Wave",
+       "type": "ncaaf",
+       "score": 57,
+       "why": "EV 7.22% @2.13 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Kansas City Chiefs",
+       "type": "nfl",
+       "score": 56,
+       "why": "EV 6.12% @1.568 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Colorado State Rams",
+       "type": "ncaaf",
+       "score": 58,
+       "why": "EV 8.99% @3.85 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Navy Midshipmen",
+       "type": "ncaab",
+       "score": 57,
+       "why": "EV 7.18% @3.6 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Lommel SK",
+       "type": "soccer",
+       "score": 56,
+       "why": "EV 6.07% @3.25 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Fresno State Bulldogs",
+       "type": "ncaaf",
+       "score": 57,
+       "why": "EV 7.72% @3.95 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Saint Joseph's Hawks",
+       "type": "ncaab",
+       "score": 56,
+       "why": "EV 6.86% @3.75 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Kilmarnock",
+       "type": "soccer",
+       "score": 55,
+       "why": "EV 5.79% @2.65 models=['EloFD']"
+      },
+      {
+       "name": "Konyaspor",
+       "type": "soccer",
+       "score": 56,
+       "why": "EV 6.57% @4.8 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Carolina Panthers",
+       "type": "nfl",
+       "score": 53,
+       "why": "EV 3.71% @2.2 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Annecy",
+       "type": "Polymarket",
+       "score": 54,
+       "why": "EV 4.17% @2.174 models=['EloFD']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 55902,
+      "with_model": 799,
+      "gate_PASS": 15,
+      "pm_gate_PASS": 1,
+      "dup_open": 11,
+      "prior_veto": 0,
+      "final_after_caps": 15,
+      "pm_tb1_tagged": 20,
+      "pm_tb1_tagged_pass": null,
+      "tokens_tokens_unique": 756,
+      "tokens_passed_safety": 85,
+      "stake_total": 51.62,
+      "budget_caps": 89.48
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 73651.36,
+       "tp": 79543.47,
+       "stop": 69968.79,
+       "support": 73651.36,
+       "resistance": 81274.37,
+       "prices": [
+        81102.31,
+        80810.57,
+        80048.85,
+        80029.43,
+        80800.83,
+        81274.37,
+        77838.81,
+        77275.05,
+        77520.89,
+        78293.84,
+        76709.41,
+        77384.59,
+        80442.71,
+        76005.51,
+        75775.28,
+        75776.38,
+        74740.42,
+        75266.77,
+        73721.18,
+        73651.36
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 755.78,
+       "tp": 816.24,
+       "stop": 717.99,
+       "support": 733.0,
+       "resistance": 773.09,
+       "prices": [
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29,
+        752.69,
+        749.92,
+        755.78
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "down",
+       "entry": 528.47,
+       "tp": 570.75,
+       "stop": 502.05,
+       "support": 507.12,
+       "resistance": 555.8,
+       "prices": [
+        539.44,
+        529.05,
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61,
+        545.18,
+        533.16,
+        528.47
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1078.73,
+       "tp": 1165.03,
+       "stop": 1024.79,
+       "support": 978.01,
+       "resistance": 1078.73,
+       "prices": [
+        978.01,
+        989.11,
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56,
+        1066.18,
+        1066.14,
+        1078.73
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 579.01,
+       "tp": 625.33,
+       "stop": 550.06,
+       "support": 525.68,
+       "resistance": 583.34,
+       "prices": [
+        525.68,
+        532.02,
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89,
+        575.25,
+        583.34,
+        579.01
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 165.62,
+       "tp": 178.87,
+       "stop": 157.34,
+       "support": 164.47,
+       "resistance": 187.25,
+       "prices": [
+        174.68,
+        178.98,
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87,
+        164.73,
+        164.47,
+        165.62
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 215.08,
+       "tp": 232.29,
+       "stop": 204.33,
+       "support": 213.48,
+       "resistance": 250.29,
+       "prices": [
+        246.74,
+        240.7,
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65,
+        214.94,
+        213.48,
+        215.08
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1416.27,
+       "tp": 1529.57,
+       "stop": 1345.46,
+       "support": 1240.34,
+       "resistance": 1432.29,
+       "prices": [
+        1251.61,
+        1257.03,
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0,
+        1411.95,
+        1432.29,
+        1416.27
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "North Carolina Central Eagles",
+       "stance": "bullish",
+       "text": "NC Central (our side) @3.15: no NCCU/VMI injury news in X results → clear at $5.00 [MID 18:5x re-check (CBB2): nothing new/material]",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Kent State Golden Flashes",
+       "stance": "watch",
+       "text": "Kent State MBB practiced Tuesday ahead of UNCW game; no injury listed",
+       "source": "https://x.com/BrunswickCC_MBB/status/2120348402634367082"
+      },
+      {
+       "candidate": "Sam Houston Bearkats",
+       "stance": "watch",
+       "text": "Sam Houston MBB confirms Wednesday home game vs Pepperdine (Hometown Heroes Night); no injury listed",
+       "source": "https://x.com/BearkatsMBB/status/2119897914621272075"
+      },
+      {
+       "candidate": "FC Utrecht",
+       "stance": "watch",
+       "text": "FC Utrecht poor start; coach Anthony Correia under pressure, \"defensively very vulnerable\" (NU.nl) — our side, priced in line",
+       "source": "https://x.com/NUnl/status/2119700609062351330"
+      },
+      {
+       "candidate": "Tulane Green Wave",
+       "stance": "watch",
+       "text": "Tulane (our side) HC Will Hall under heavy pressure after 3 losses; reports of a $5–6M buyout to move on after the season",
+       "source": "https://x.com/JJGREENWAVE/status/2120254519510532243"
+      },
+      {
+       "candidate": "Kansas City Chiefs",
+       "stance": "watch",
+       "text": "Chiefs trade for Colts WR Josh Downs (per ESPN Schefter) — our side adds a WR",
+       "source": "https://x.com/TheBigLead/status/2120366019005047110"
+      },
+      {
+       "candidate": "Colorado State Rams",
+       "stance": "bullish",
+       "text": "Colorado State (our side) @3.85: no Colorado State/Washington State injury or QB news in X results → clear at $3.47 [MID 18:5x re-check (NFL",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Navy Midshipmen",
+       "stance": "bullish",
+       "text": "Navy (our side) @3.60: no Navy/Penn injury or suspension news in MID X results (25 posts, none relevant) → clear at $3.03",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Lommel SK",
+       "stance": "watch",
+       "text": "Lommel: Henry Oware out (hamstring), Josias Lama out",
+       "source": "https://x.com/injuryreportst/status/2119936263176491434"
+      },
+      {
+       "candidate": "Fresno State Bulldogs",
+       "stance": "bullish",
+       "text": "Fresno State (our side) @3.95: no Fresno State/Texas State injury or QB news in X results → clear at $2.88 [MID 18:5x re-check (NFL2): only ",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Saint Joseph's Hawks",
+       "stance": "bullish",
+       "text": "Saint Joseph's (our side) @3.45: no Saint Joseph's/USF injury news in X results (only women's bracketology hit) → clear at $3.85 [MID 18:5x ",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Kilmarnock",
+       "stance": "watch",
+       "text": "Aberdeen (opponent) sacked manager Stephen Robinson on Nov 10 — new-manager effect / uncertainty vs our side Kilmarnock",
+       "source": "https://x.com/spflmysportstab/status/2120158986611912721"
+      },
+      {
+       "candidate": "Konyaspor",
+       "stance": "watch",
+       "text": "Beşiktaş (opponent) captain Orkun Kökçü suspended (yellow-card accumulation) for the Konyaspor away match",
+       "source": "https://x.com/FredoPod/status/2120226254742024631"
+      },
+      {
+       "candidate": "Carolina Panthers",
+       "stance": "watch",
+       "text": "Panthers placed WR Ihmir Smith-Marsette on practice-squad injured list (depth player)",
+       "source": "https://x.com/manhour_buck/status/2120356248264597891"
+      },
+      {
+       "candidate": "Annecy",
+       "stance": "bullish",
+       "text": "Annecy (our side, Polymarket ask, Elo-only $1.00): no Annecy/Clermont injury or coach news in X results (AM/PM checks reused) → clear at $1.",
+       "source": "x search (no result)"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "North Carolina Central E",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Kent State Golden Flashe",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Sam Houston Bearkats",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "FC Utrecht",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Tulane Green Wave",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Kansas City Chiefs",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Colorado State Rams",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Navy Midshipmen",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Lommel SK",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Fresno State Bulldogs",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Saint Joseph's Hawks",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Kilmarnock",
+       "mood": -0.3,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Konyaspor",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Carolina Panthers",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Annecy",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": 0.02
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "North Carolina Central Eagles (North Carolina Central Eagles @ VMI Keyd)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "NC Central (our side) @3.15: no NCCU/VMI injury news in X results → clear at $5.00 [MID 18:5x re-check (CBB2): nothing new/material]"
+      },
+      {
+       "candidate": "Kent State Golden Flashes (Kent State Golden Flashes @ UNC Wilmingt)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Kent State (our side) @3.40: no Kent State/UNCW injury news in X results → clear at $5.00 [MID 18:5x re-check (CBB2): nothing new/material]"
+      },
+      {
+       "candidate": "Sam Houston Bearkats (Pepperdine Waves @ Sam Houston Bearkats)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Sam Houston (our side) @1.926: no injury/suspension news for either side → clear at $5.00 [MID 18:5x re-check (CBB2): nothing new/material]"
+      },
+      {
+       "candidate": "FC Utrecht (SC Cambuur @ FC Utrecht)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "FC Utrecht (our side): form/coach pressure is public and already in the price; no injury/suspension → clear at $5.00 (watch) [PM 00:09 / MID 19:02 findings reus"
+      },
+      {
+       "candidate": "Tulane Green Wave (Tulane Green Wave @ Rice Owls)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Tulane Green Wave (our side) @2.13: coach-status turmoil / morale risk (no injury) → TITAN shrink $5.00 → $3.00 [MID 18:5x re-check (NFL2): only fan chatter; no"
+      },
+      {
+       "candidate": "Kansas City Chiefs (Kansas City Chiefs @ Atlanta Falcons)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Kansas City Chiefs (our side) @1.568: no negative for KC (deadline moves favour us; news never adds) → clear at $5.00 [MID 18:5x re-check (NFL2): only fan chatt"
+      },
+      {
+       "candidate": "Colorado State Rams (Colorado State Rams @ Washington State C)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Colorado State (our side) @3.85: no Colorado State/Washington State injury or QB news in X results → clear at $3.47 [MID 18:5x re-check (NFL2): only fan chatter"
+      },
+      {
+       "candidate": "Navy Midshipmen (Pennsylvania Quakers @ Navy Midshipmen)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Navy (our side) @3.60: no Navy/Penn injury or suspension news in MID X results (25 posts, none relevant) → clear at $3.03"
+      },
+      {
+       "candidate": "Lommel SK (Standard Liege @ Lommel SK)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Lommel SK (our side) @3.25: three players out (aggregator source); opponent also depleted → TITAN shrink $3.02 → $2.00 [PM 00:09 / MID 19:02 findings reused, re"
+      },
+      {
+       "candidate": "Fresno State Bulldogs (Fresno State Bulldogs @ Texas State Bobc)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Fresno State (our side) @3.95: no Fresno State/Texas State injury or QB news in X results → clear at $2.88 [MID 18:5x re-check (NFL2): only fan chatter; nothing"
+      },
+      {
+       "candidate": "Saint Joseph's Hawks (Saint Joseph's Hawks @ South Florida Bul)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Saint Joseph's (our side) @3.45: no Saint Joseph's/USF injury news in X results (only women's bracketology hit) → clear at $3.85 [MID 18:5x re-check (CBB2): not"
+      },
+      {
+       "candidate": "Kilmarnock (Aberdeen @ Kilmarnock)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Kilmarnock (our side, Elo-only half stake): opponent manager change 11 days before kickoff → uncertainty → TITAN shrink $1.96 → $1.00 [PM 00:09 / MID 19:02 find"
+      },
+      {
+       "candidate": "Konyaspor (Besiktas @ Konyaspor)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Konyaspor (our side) @4.80: no Konyaspor injury/suspension; opponent missing Kökçü (favours us, not used to add) → clear at $1.93 [PM 00:09 / MID 19:02 findings"
+      },
+      {
+       "candidate": "Carolina Panthers (Carolina Panthers @ New Orleans Saints)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Carolina Panthers (our side) @2.20: only a practice-squad WR to IR — not material → clear at $1.48 [MID 18:5x re-check (NFL2): only fan chatter; nothing materia"
+      },
+      {
+       "candidate": "Annecy (Clermont Foot @ Annecy)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Annecy (our side, Polymarket ask, Elo-only $1.00): no Annecy/Clermont injury or coach news in X results (AM/PM checks reused) → clear at $1.00"
+      }
+     ],
+     "blocked_count": 0
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "North Carolina Central Eagles (North Carolina Central Eagles @ VMI )",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Kent State Golden Flashes (Kent State Golden Flashes @ UNC Wilm)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Sam Houston Bearkats (Pepperdine Waves @ Sam Houston Beark)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "FC Utrecht (SC Cambuur @ FC Utrecht)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Tulane Green Wave (Tulane Green Wave @ Rice Owls)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Kansas City Chiefs (Kansas City Chiefs @ Atlanta Falcons)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Colorado State Rams (Colorado State Rams @ Washington Sta)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Navy Midshipmen (Pennsylvania Quakers @ Navy Midshipm)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Lommel SK (Standard Liege @ Lommel SK)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Fresno State Bulldogs (Fresno State Bulldogs @ Texas State )",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Saint Joseph's Hawks (Saint Joseph's Hawks @ South Florida)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Kilmarnock (Aberdeen @ Kilmarnock)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Konyaspor (Besiktas @ Konyaspor)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Carolina Panthers (Carolina Panthers @ New Orleans Sain)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Annecy (Clermont Foot @ Annecy)",
+       "action": "SKIP (drawdown brake: bank ≤ $450)",
+       "size_usd": 0
+      }
+     ],
+     "desk_pl_today": 0.0
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 15,
+      "approved": 0,
+      "blocked": 0,
+      "note": "სკანი 55902 ოფცია; with_model 799; PASS 15+PM 1 → caps 15 (dup_open 11, prior_veto 0); NEWS/TITAN-ის შემდეგ 0"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 73627 vs MA20 77723 & SMA50 81135 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 15,
+      "approved": 0,
+      "blocked": 0,
+      "note": "X search_posts_all (2 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 15,
+      "approved": 0,
+      "blocked": 0,
+      "note": "overall 0.02"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 15,
+      "approved": 0,
+      "blocked": 0,
+      "note": "ფსონები: სკანის 15 PASS → 0 ვეტო (არა), 3 შემცირება (Tulane Green Wave, Lommel SK, Kilmarnock); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 ფსონი (none); ბიუჯეტი ქეპებში $0.00 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 15,
+      "approved": 0,
+      "blocked": 0,
+      "note": "15 PASS კანდიდატი → 2 x-call (search_posts_all): 0 ბლოკი, 3 შემცირება, 12 clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 post-mortem: none; No bets settled this MID (no open bet finished; B294 postponed) → no new post-mortems or lessons."
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 0/0; Football n=158 mean -4.81%; Polymarket n=238 mean -1.99%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 20, pass 0"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 4,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): "
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 10,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 73627 < MA20 77723 (-5.3%), < SMA50 81135 → no buy, hold 0 lots; ETH 2055 (MA20 2257, SMA50 2443), SOL 84.05 (SMA50 105.32) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "756 scanned, 85 passed safety; buying needs BTC>MA20 → gate closed → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი ღიაა (ოთხშაბათი, სესია; Yahoo live SPY 755.78); 6 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; stop/TP არ მოხვდა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 0,
+      "note": "L007: unmapped 353, no strict 168, matched 161; PM PASS 1; TB1 pass None; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "ოთხშაბათი 11 ნოემბერი (MID) — მაკრო კალენდარი ამ ციკლში ახალი წყაროთი არ შემოწმებულა; ფსონებზე გავლენა არა; ტესტირებული აქციის შესვლა არა → 0"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "espn401926202",
+     "event": "North Carolina Central Eagles @ VMI Keydets",
+     "sel": "North Carolina Central Eagles",
+     "queries": [
+      "(\"NC Central\" OR \"North Carolina Central\" OR VMI OR \"Kent State\" OR UNCW OR \"Saint Joseph's\" OR \"South Florida\" OR Pepperdine OR \"Sam Houston\") basketball (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet",
+      "(\"NC Central\" OR \"North Carolina Central\" OR VMI OR \"Kent State\" OR UNCW OR \"Sam Houston\" OR Pepperdine OR \"Navy basketball\" OR \"Penn basketball\" OR \"Saint Joseph's\" OR \"USF basketball\") (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "NC Central (our side) @3.15: no NCCU/VMI injury news in X results → clear at $5.00 [MID 18:5x re-check (CBB2): nothing new/material]"
+    },
+    {
+     "candidate": "espn401926863",
+     "event": "Kent State Golden Flashes @ UNC Wilmington Seahawks",
+     "sel": "Kent State Golden Flashes",
+     "queries": [
+      "(\"NC Central\" OR \"North Carolina Central\" OR VMI OR \"Kent State\" OR UNCW OR \"Saint Joseph's\" OR \"South Florida\" OR Pepperdine OR \"Sam Houston\") basketball (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet",
+      "(\"NC Central\" OR \"North Carolina Central\" OR VMI OR \"Kent State\" OR UNCW OR \"Sam Houston\" OR Pepperdine OR \"Navy basketball\" OR \"Penn basketball\" OR \"Saint Joseph's\" OR \"USF basketball\") (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Kent State MBB practiced Tuesday ahead of UNCW game; no injury listed",
+       "source": "https://x.com/BrunswickCC_MBB/status/2120348402634367082",
+       "time": "2026-11-11 06:50 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Kent State (our side) @3.40: no Kent State/UNCW injury news in X results → clear at $5.00 [MID 18:5x re-check (CBB2): nothing new/material]"
+    },
+    {
+     "candidate": "espn401928794",
+     "event": "Pepperdine Waves @ Sam Houston Bearkats",
+     "sel": "Sam Houston Bearkats",
+     "queries": [
+      "(\"NC Central\" OR \"North Carolina Central\" OR VMI OR \"Kent State\" OR UNCW OR \"Saint Joseph's\" OR \"South Florida\" OR Pepperdine OR \"Sam Houston\") basketball (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet",
+      "(\"NC Central\" OR \"North Carolina Central\" OR VMI OR \"Kent State\" OR UNCW OR \"Sam Houston\" OR Pepperdine OR \"Navy basketball\" OR \"Penn basketball\" OR \"Saint Joseph's\" OR \"USF basketball\") (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 2,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Sam Houston MBB confirms Wednesday home game vs Pepperdine (Hometown Heroes Night); no injury listed",
+       "source": "https://x.com/BearkatsMBB/status/2119897914621272075",
+       "time": "2026-11-10 01:00 (Tbilisi)"
+      },
+      {
+       "type": "none",
+       "text": "Sam Houston confirms Veterans Day home game vs Pepperdine 6:30pm; no injury listed",
+       "source": "https://x.com/SSN_SHSU/status/2120515060233638211",
+       "time": "2026-11-11 17:52 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Sam Houston (our side) @1.926: no injury/suspension news for either side → clear at $5.00 [MID 18:5x re-check (CBB2): nothing new/material]"
+    },
+    {
+     "candidate": "espn401875544",
+     "event": "SC Cambuur @ FC Utrecht",
+     "sel": "FC Utrecht",
+     "queries": [
+      "(\"FC Utrecht\" OR Cambuur OR \"Lommel\" OR \"Standard Luik\" OR \"Standard Liege\") (blessure OR geblesseerd OR injury OR geschorst OR suspended OR trainer) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "coach",
+       "text": "FC Utrecht poor start; coach Anthony Correia under pressure, \"defensively very vulnerable\" (NU.nl) — our side, priced in line",
+       "source": "https://x.com/NUnl/status/2119700609062351330",
+       "time": "2026-11-09 11:56 (Tbilisi)"
+      },
+      {
+       "type": "none",
+       "text": "Cambuur unbeaten run ended at PSV (VI)",
+       "source": "https://x.com/VI_nl/status/2120094479856390272",
+       "time": "2026-11-10 14:01 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "FC Utrecht (our side): form/coach pressure is public and already in the price; no injury/suspension → clear at $5.00 (watch) [PM 00:09 / MID 19:02 findings reused, refreshed stake from AM scan]"
+    },
+    {
+     "candidate": "290047",
+     "event": "Tulane Green Wave @ Rice Owls",
+     "sel": "Tulane Green Wave",
+     "queries": [
+      "(\"Colorado State\" OR \"Washington State\" OR \"Fresno State\" OR \"Texas State\" OR Tulane OR \"Rice Owls\") football (injury OR injured OR QB OR \"ruled out\" OR out) -is:retweet",
+      "(Chiefs OR Falcons OR Panthers OR Saints OR \"Tulane football\" OR \"Rice football\" OR \"Colorado State Rams\" OR \"Fresno State\" OR \"Texas State Bobcats\" OR \"Washington State Cougars\") (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended) -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "coach",
+       "text": "Tulane (our side) HC Will Hall under heavy pressure after 3 losses; reports of a $5–6M buyout to move on after the season",
+       "source": "https://x.com/JJGREENWAVE/status/2120254519510532243",
+       "time": "2026-11-11 00:37 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Tulane Green Wave (our side) @2.13: coach-status turmoil / morale risk (no injury) → TITAN shrink $5.00 → $3.00 [MID 18:5x re-check (NFL2): only fan chatter; nothing material]"
+    },
+    {
+     "candidate": "290977",
+     "event": "Kansas City Chiefs @ Atlanta Falcons",
+     "sel": "Kansas City Chiefs",
+     "queries": [
+      "(Chiefs OR Falcons OR Panthers OR Saints) (injury OR injured OR \"ruled out\" OR IR OR questionable OR traded OR suspended) -is:retweet lang:en",
+      "(Chiefs OR Falcons OR Panthers OR Saints OR \"Tulane football\" OR \"Rice football\" OR \"Colorado State Rams\" OR \"Fresno State\" OR \"Texas State Bobcats\" OR \"Washington State Cougars\") (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended) -is:retweet lang:en"
+     ],
+     "tool_calls": 2,
+     "findings": [
+      {
+       "type": "lineup",
+       "text": "Chiefs trade for Colts WR Josh Downs (per ESPN Schefter) — our side adds a WR",
+       "source": "https://x.com/TheBigLead/status/2120366019005047110",
+       "time": "2026-11-11 08:00 (Tbilisi)"
+      },
+      {
+       "type": "lineup",
+       "text": "Falcons (opponent) traded S Jessie Bates to Jaguars and C Ryan Neuzil to Ravens at the deadline",
+       "source": "https://x.com/TheNFLWire/status/2120365960355790876",
+       "time": "2026-11-11 08:00 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Kansas City Chiefs (our side) @1.568: no negative for KC (deadline moves favour us; news never adds) → clear at $5.00 [MID 18:5x re-check (NFL2): only fan chatter; nothing material]"
+    },
+    {
+     "candidate": "289997",
+     "event": "Colorado State Rams @ Washington State Cougars",
+     "sel": "Colorado State Rams",
+     "queries": [
+      "(\"Colorado State\" OR \"Washington State\" OR \"Fresno State\" OR \"Texas State\" OR Tulane OR \"Rice Owls\") football (injury OR injured OR QB OR \"ruled out\" OR out) -is:retweet",
+      "(Chiefs OR Falcons OR Panthers OR Saints OR \"Tulane football\" OR \"Rice football\" OR \"Colorado State Rams\" OR \"Fresno State\" OR \"Texas State Bobcats\" OR \"Washington State Cougars\") (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended) -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Colorado State (our side) @3.85: no Colorado State/Washington State injury or QB news in X results → clear at $3.47 [MID 18:5x re-check (NFL2): only fan chatter; nothing material]"
+    },
+    {
+     "candidate": "espn401921181",
+     "event": "Pennsylvania Quakers @ Navy Midshipmen",
+     "sel": "Navy Midshipmen",
+     "queries": [
+      "(\"NC Central\" OR \"North Carolina Central\" OR VMI OR \"Kent State\" OR UNCW OR \"Sam Houston\" OR Pepperdine OR \"Navy basketball\" OR \"Penn basketball\" OR \"Saint Joseph's\" OR \"USF basketball\") (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Navy (our side) @3.60: no Navy/Penn injury or suspension news in MID X results (25 posts, none relevant) → clear at $3.03"
+    },
+    {
+     "candidate": "espn401878934",
+     "event": "Standard Liege @ Lommel SK",
+     "sel": "Lommel SK",
+     "queries": [
+      "(\"FC Utrecht\" OR Cambuur OR \"Lommel\" OR \"Standard Luik\" OR \"Standard Liege\") (blessure OR geblesseerd OR injury OR geschorst OR suspended OR trainer) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Lommel: Henry Oware out (hamstring), Josias Lama out",
+       "source": "https://x.com/injuryreportst/status/2119936263176491434",
+       "time": "2026-11-10 03:32 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Lommel: Jesper Tolinsson out (minor knock)",
+       "source": "https://x.com/injuryreportst/status/2120113610760364300",
+       "time": "2026-11-10 15:17 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Standard Liège: Fossey (ACL), Noah Sy, Lavalée, Nguene out (opponent)",
+       "source": "https://x.com/injuryreportst/status/2119765252883804235",
+       "time": "2026-11-09 16:13 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Lommel SK (our side) @3.25: three players out (aggregator source); opponent also depleted → TITAN shrink $3.02 → $2.00 [PM 00:09 / MID 19:02 findings reused, refreshed stake from AM scan]"
+    },
+    {
+     "candidate": "289992",
+     "event": "Fresno State Bulldogs @ Texas State Bobcats",
+     "sel": "Fresno State Bulldogs",
+     "queries": [
+      "(\"Colorado State\" OR \"Washington State\" OR \"Fresno State\" OR \"Texas State\" OR Tulane OR \"Rice Owls\") football (injury OR injured OR QB OR \"ruled out\" OR out) -is:retweet",
+      "(Chiefs OR Falcons OR Panthers OR Saints OR \"Tulane football\" OR \"Rice football\" OR \"Colorado State Rams\" OR \"Fresno State\" OR \"Texas State Bobcats\" OR \"Washington State Cougars\") (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended) -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Fresno State (our side) @3.95: no Fresno State/Texas State injury or QB news in X results → clear at $2.88 [MID 18:5x re-check (NFL2): only fan chatter; nothing material]"
+    },
+    {
+     "candidate": "espn401918992",
+     "event": "Saint Joseph's Hawks @ South Florida Bulls",
+     "sel": "Saint Joseph's Hawks",
+     "queries": [
+      "(\"NC Central\" OR \"North Carolina Central\" OR VMI OR \"Kent State\" OR UNCW OR \"Saint Joseph's\" OR \"South Florida\" OR Pepperdine OR \"Sam Houston\") basketball (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet",
+      "(\"NC Central\" OR \"North Carolina Central\" OR VMI OR \"Kent State\" OR UNCW OR \"Sam Houston\" OR Pepperdine OR \"Navy basketball\" OR \"Penn basketball\" OR \"Saint Joseph's\" OR \"USF basketball\") (injury OR injured OR out OR suspended OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Saint Joseph's (our side) @3.45: no Saint Joseph's/USF injury news in X results (only women's bracketology hit) → clear at $3.85 [MID 18:5x re-check (CBB2): nothing new/material]"
+    },
+    {
+     "candidate": "espn401878334",
+     "event": "Aberdeen @ Kilmarnock",
+     "sel": "Kilmarnock",
+     "queries": [
+      "(Kilmarnock OR Aberdeen OR Annecy OR \"Clermont Foot\") (injury OR injured OR suspended OR manager OR sacked OR blessure) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "coach",
+       "text": "Aberdeen (opponent) sacked manager Stephen Robinson on Nov 10 — new-manager effect / uncertainty vs our side Kilmarnock",
+       "source": "https://x.com/spflmysportstab/status/2120158986611912721",
+       "time": "2026-11-10 18:17 (Tbilisi)"
+      }
+     ],
+     "verdict": "shrink",
+     "titan": "APPROVED (shrunk)",
+     "note": "Kilmarnock (our side, Elo-only half stake): opponent manager change 11 days before kickoff → uncertainty → TITAN shrink $1.96 → $1.00 [PM 00:09 / MID 19:02 findings reused, refreshed stake from AM scan]"
+    },
+    {
+     "candidate": "espn401888246",
+     "event": "Besiktas @ Konyaspor",
+     "sel": "Konyaspor",
+     "queries": [
+      "(Konyaspor OR Beşiktaş OR Besiktas) (sakatlık OR sakat OR cezalı OR injury OR suspended OR \"teknik direktör\") -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "suspension",
+       "text": "Beşiktaş (opponent) captain Orkun Kökçü suspended (yellow-card accumulation) for the Konyaspor away match",
+       "source": "https://x.com/FredoPod/status/2120226254742024631",
+       "time": "2026-11-10 22:45 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Konyaspor (our side) @4.80: no Konyaspor injury/suspension; opponent missing Kökçü (favours us, not used to add) → clear at $1.93 [PM 00:09 / MID 19:02 findings reused, refreshed stake from AM scan]"
+    },
+    {
+     "candidate": "290976",
+     "event": "Carolina Panthers @ New Orleans Saints",
+     "sel": "Carolina Panthers",
+     "queries": [
+      "(Chiefs OR Falcons OR Panthers OR Saints) (injury OR injured OR \"ruled out\" OR IR OR questionable OR traded OR suspended) -is:retweet lang:en",
+      "(Chiefs OR Falcons OR Panthers OR Saints OR \"Tulane football\" OR \"Rice football\" OR \"Colorado State Rams\" OR \"Fresno State\" OR \"Texas State Bobcats\" OR \"Washington State Cougars\") (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended) -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Panthers placed WR Ihmir Smith-Marsette on practice-squad injured list (depth player)",
+       "source": "https://x.com/manhour_buck/status/2120356248264597891",
+       "time": "2026-11-11 07:21 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Carolina Panthers (our side) @2.20: only a practice-squad WR to IR — not material → clear at $1.48 [MID 18:5x re-check (NFL2): only fan chatter; nothing material]"
+    },
+    {
+     "candidate": "pm:fr2-fca-clf-2026-11-20-fca",
+     "event": "Clermont Foot @ Annecy",
+     "sel": "Annecy",
+     "queries": [
+      "(Kilmarnock OR Aberdeen OR Annecy OR \"Clermont Foot\") (injury OR injured OR suspended OR manager OR sacked OR blessure) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Annecy (our side, Polymarket ask, Elo-only $1.00): no Annecy/Clermont injury or coach news in X results (AM/PM checks reused) → clear at $1.00"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 79,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 0,
+     "gt_fetch_seconds": 86,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 756,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 742,
+     "chain_solana": 207,
+     "chain_robinhood": 5,
+     "chain_elysium": 3,
+     "chain_bsc": 187,
+     "chain_base": 170,
+     "chain_ethereum": 170,
+     "gate_liquidity": 425,
+     "gate_pass": 133,
+     "gate_too_new": 68,
+     "gate_pump": 1,
+     "gate_rug_dump": 1,
+     "gate_thin_liq_fdv": 68,
+     "gate_low_activity": 46,
+     "safety_pass": 85,
+     "safety_fail": 25,
+     "safety_unverified": 23
+    },
+    "passed_n": 85,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 0 final(s): none (P/L +0.0). Not final → left open for the hourly refresh: none. LEDGER: DK closes 0/0; Football n=158 mean CLV -4.81%; Polymarket n=238 mean -1.99% (halving OFF by owner order 2026-10-28; tracked only). DOC: 0 post-mortems. Scan 55902 options → with_model 799 → PASS 15+PM 1 → 15 after dedup/caps (prior_veto 0); SHERLOCK/TITAN: 0 blocked, 3 shrunk → 0 bets. NO BUY: BTC 73627 < MA20 77723 (below SMA50 81135) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US session open (Yahoo live quotes), no SL/TP touched; no tested equity entry; no tested entry rule → 0 new buys. Drawdown brake: bank $439.58 ≤ $450 → budget 0, no new bets/buys this cycle.",
+   "plan": "MID 2026-11-11: საღამოს ციკლი. დასახლება მხოლოდ რეალური საბოლოო შედეგებით (ამ ციკლში დასრულებული ღია ფსონი არ იყო); B294 გადადებული; ვარდნის სამუხრუჭე (ბანკი ≤ $450) → ახალი ფსონი/ყიდვა არა; BTC gate დახურული; Football/Polymarket/NBA ცალკე იზომება.",
+   "drawdown_brake": {
+    "deposits": 500,
+    "threshold": 450.0,
+    "bank": 439.58,
+    "vs_deposits_pct": -12.08,
+    "triggered": true,
+    "effect": "budget=0 → no new bets/buys; scan/news/TITAN run for reporting; SL/TP exits still allowed",
+    "skipped_by_brake": [
+     "espn401926202",
+     "espn401926863",
+     "espn401928794",
+     "espn401875544",
+     "290047",
+     "290977",
+     "289997",
+     "espn401921181",
+     "espn401878934",
+     "289992",
+     "espn401918992",
+     "espn401878334",
+     "espn401888246",
+     "290976",
+     "pm:fr2-fca-clf-2026-11-20-fca"
+    ]
+   },
+   "settle_note": "ESPN/gamma finals: 0 settled 0W/0L +0.0 — . Left open (not final / B294 postponed): none.",
+   "closed_at": "2026-11-11 19:02 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -141934,21 +143461,21 @@
   }
  ],
  "last_prices": {
-  "BTC": 73551,
+  "BTC": 73627,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 749.92,
+  "SPY": 755.78,
   "META": 615.42,
-  "AAPL": 348.51,
+  "AAPL": 353.63,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
   "GOOGL": 288.15,
   "QQQ": 659.27,
   "XLV": 188.33,
-  "MSFT": 533.16,
+  "MSFT": 528.47,
   "PLTR": 161.34,
-  "V": 423.0,
+  "V": 420.69,
   "BRK-B": 575.25,
   "ETH": 2230.84,
   "SOL": 89.94,
@@ -141959,11 +143486,11 @@
   "JPM": 336.69,
   "JNJ": 275.62,
   "BAC": 49.81,
-  "UNH": 405.12,
+  "UNH": 397.02,
   "COST": 1066.18,
   "XOM": 164.73,
   "CRM": 214.94,
-  "KO": 96.91,
+  "KO": 96.6,
   "NFLX": 63.64,
   "WMT": 125.66,
   "INTC": 98.12,
@@ -141992,8 +143519,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 77718.53,
-  "BTC_MA50": 81133.01,
+  "BTC_MA20": 77723.43,
+  "BTC_MA50": 81134.97,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -142012,13 +143539,13 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-11 11:02 (Tbilisi)",
-  "total_value": 439.74,
+  "time": "2026-11-11 19:02 (Tbilisi)",
+  "total_value": 439.58,
   "deposits_usd": 500,
-  "vs_deposits_usd": -60.26,
-  "vs_deposits_pct": -12.05,
-  "btc_bench": 446.34,
-  "vs_btc_usd": -6.6,
+  "vs_deposits_usd": -60.42,
+  "vs_deposits_pct": -12.08,
+  "btc_bench": 446.8,
+  "vs_btc_usd": -7.22,
   "bets": {
    "n": 638,
    "wins": 231,
@@ -142115,13 +143642,13 @@
   },
   "stocks": {
    "open_n": 6,
-   "value_usd": 61.51,
-   "unrealized_usd": 1.01,
+   "value_usd": 61.35,
+   "unrealized_usd": 0.85,
    "realized_usd": 0.48,
-   "total_pl_usd": 1.49
+   "total_pl_usd": 1.33
   },
   "cash_usd": 313.8625,
-  "scanned": 55713,
+  "scanned": 55902,
   "open_bets_usd": 64.37,
   "desk_stats": {
    "FOOTBALL": {
@@ -142196,7 +143723,7 @@
    }
   }
  },
- "last_refresh": "2026-11-11 11:02 (Tbilisi)",
+ "last_refresh": "2026-11-11 19:02 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -143449,7 +144976,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-11 11:02 (Tbilisi)",
+  "updated": "2026-11-11 19:02 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
