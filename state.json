@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 318.7338,
+ "cash_usd": 307.0138,
  "open_bets": [
   {
    "id": "B077",
@@ -651,36 +651,6 @@
    "scan_id": "290046"
   },
   {
-   "id": "B657",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Louisiana Ragin' Cajuns @ UL-Monroe Warhawks",
-   "kickoff": "2026-11-13 06:00",
-   "selection": "Louisiana Ragin' Cajuns",
-   "odds": 1.26,
-   "book": "Action Network real book id69",
-   "p": 0.8369,
-   "implied_pct": 79.4,
-   "edge_pct": 5.42,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-11-10 00:04 (Tbilisi)",
-   "odds_time": "2026-11-10 00:04 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.909,
-     "DRatings": 0.893
-    },
-    "mkt": 0.7727,
-    "nbooks": 5,
-    "blend_p": 0.8369,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_2353 id=289950)",
-   "reasoning": "scan PASS EV=5.42% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 24.16; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
-   "scan_id": "289950"
-  },
-  {
    "id": "B658",
    "sport": "NCAAF",
    "league": "ncaaf",
@@ -779,6 +749,283 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nfl/summary?event=401873059",
    "reasoning": "scan PASS EV=10.31% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 15.75; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $3.0; NEWS shrink → TITAN APPROVED at $3.0",
    "scan_id": "espn401873059"
+  },
+  {
+   "id": "B664",
+   "sport": "Polymarket",
+   "league": "soc_ned.1",
+   "event": "SC Cambuur @ FC Utrecht",
+   "kickoff": "2026-11-21 21:45",
+   "selection": "FC Utrecht",
+   "odds": 1.961,
+   "book": "Polymarket ask",
+   "p": 0.566,
+   "implied_pct": 51.0,
+   "edge_pct": 10.98,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.6202,
+     "DRatings": 0.691
+    },
+    "mkt": 0.4765,
+    "nbooks": 1,
+    "blend_p": 0.566,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=ere-utr-cam-2026-11-21-utr",
+   "reasoning": "scan PASS EV=10.98% models=['EloFD', 'DRatings']; scan stake $5.0 (raw 12.68; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "pm:ere-utr-cam-2026-11-21-utr",
+   "learning_mode": true,
+   "polymarket_slug": "ere-utr-cam-2026-11-21-utr",
+   "outcome_price": 0.5099,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "FC Utrecht vs. SC Cambuur-Leeuwarden",
+    "pm_league": "NED1",
+    "pm_kickoff_utc": "2026-11-21T17:45Z",
+    "checked": "2026-11-13 19:07 (Tbilisi)",
+    "rule": "L007"
+   }
+  },
+  {
+   "id": "B665",
+   "sport": "NFL",
+   "league": "nfl",
+   "event": "Tampa Bay Buccaneers @ Detroit Lions",
+   "kickoff": "2026-11-22 22:00",
+   "selection": "Tampa Bay Buccaneers",
+   "odds": 2.5,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.4383,
+   "implied_pct": 40.0,
+   "edge_pct": 9.57,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.493
+    },
+    "mkt": 0.3836,
+    "nbooks": 1,
+    "blend_p": 0.4383,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nfl/summary?event=401873072",
+   "reasoning": "scan PASS EV=9.57% models=['ESPN']; scan stake $5.0 (raw 7.08; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "espn401873072",
+   "learning_mode": true
+  },
+  {
+   "id": "B666",
+   "sport": "Polymarket",
+   "league": "soc_nor.1",
+   "event": "Sandefjord @ Kristiansund BK",
+   "kickoff": "2026-11-22 20:00",
+   "selection": "Sandefjord",
+   "odds": 2.439,
+   "book": "Polymarket ask",
+   "p": 0.4428,
+   "implied_pct": 41.0,
+   "edge_pct": 8.0,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.498
+    },
+    "mkt": 0.3875,
+    "nbooks": 1,
+    "blend_p": 0.4428,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=nor-kbk-san-2026-11-22-san",
+   "reasoning": "scan PASS EV=8.0% models=['DRatings']; scan stake $5.0 (raw 6.16; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "pm:nor-kbk-san-2026-11-22-san",
+   "learning_mode": true,
+   "polymarket_slug": "nor-kbk-san-2026-11-22-san",
+   "outcome_price": 0.41,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Kristiansund BK vs. Sandefjord Fotball",
+    "pm_league": "NOR1",
+    "pm_kickoff_utc": "2026-11-22T16:00Z",
+    "checked": "2026-11-13 19:07 (Tbilisi)",
+    "rule": "L007"
+   }
+  },
+  {
+   "id": "B667",
+   "sport": "Polymarket",
+   "league": "soc_sco.1",
+   "event": "Aberdeen @ Kilmarnock",
+   "kickoff": "2026-11-21 19:00",
+   "selection": "Kilmarnock",
+   "odds": 2.703,
+   "book": "Polymarket ask",
+   "p": 0.3992,
+   "implied_pct": 37.0,
+   "edge_pct": 7.89,
+   "stake": 1.28,
+   "status": "open",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4477
+    },
+    "mkt": 0.3507,
+    "nbooks": 1,
+    "blend_p": 0.3992,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=scop-kil-abe-2026-11-21-kil",
+   "reasoning": "scan PASS EV=7.89% models=['EloFD']; scan stake $2.57 (raw 2.57; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $1.28; NEWS clear → TITAN APPROVED at $1.28",
+   "scan_id": "pm:scop-kil-abe-2026-11-21-kil",
+   "learning_mode": true,
+   "polymarket_slug": "scop-kil-abe-2026-11-21-kil",
+   "outcome_price": 0.37,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Kilmarnock FC vs. Aberdeen FC",
+    "pm_league": "SCO1",
+    "pm_kickoff_utc": "2026-11-21T15:00Z",
+    "checked": "2026-11-13 19:07 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true
+  },
+  {
+   "id": "B668",
+   "sport": "NFL",
+   "league": "nfl",
+   "event": "Kansas City Chiefs @ Atlanta Falcons",
+   "kickoff": "2026-11-15 22:00",
+   "selection": "Kansas City Chiefs",
+   "odds": 1.575,
+   "book": "Action Network real book id69",
+   "p": 0.6763,
+   "implied_pct": 63.5,
+   "edge_pct": 6.5,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.783,
+     "DRatings": 0.682
+    },
+    "mkt": 0.6202,
+    "nbooks": 5,
+    "blend_p": 0.6763,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl (scan/2026-11-13_1858 id=290977)",
+   "reasoning": "scan PASS EV=6.5% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 12.57; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "290977",
+   "learning_mode": true
+  },
+  {
+   "id": "B669",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "DePaul Blue Demons @ Northwestern Wildcats",
+   "kickoff": "2026-11-14 06:00",
+   "selection": "Northwestern Wildcats",
+   "odds": 1.926,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5516,
+   "implied_pct": 51.9,
+   "edge_pct": 6.23,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.676,
+     "DRatings": 0.539
+    },
+    "mkt": 0.4957,
+    "nbooks": 1,
+    "blend_p": 0.5516,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401909503",
+   "reasoning": "scan PASS EV=6.23% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 7.47; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "espn401909503",
+   "learning_mode": true
+  },
+  {
+   "id": "B670",
+   "sport": "Football",
+   "league": "champions",
+   "event": "Villarreal @ Slavia Prague",
+   "kickoff": "2026-11-25 21:45",
+   "selection": "Villarreal",
+   "odds": 2.28,
+   "book": "Action Network real book id71",
+   "p": 0.4653,
+   "implied_pct": 43.9,
+   "edge_pct": 6.1,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.494
+    },
+    "mkt": 0.4367,
+    "nbooks": 4,
+    "blend_p": 0.4653,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-13_1858 id=296548)",
+   "reasoning": "scan PASS EV=6.1% models=['DRatings']; scan stake $5.0 (raw 5.27; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "296548",
+   "learning_mode": true
+  },
+  {
+   "id": "B671",
+   "sport": "UFC",
+   "league": "ufc",
+   "event": "Josh Hokit @ Ciryl Gane",
+   "kickoff": "2026-11-15 07:30",
+   "selection": "Josh Hokit",
+   "odds": 2.8,
+   "book": "Action Network real book id68",
+   "p": 0.3773,
+   "implied_pct": 35.7,
+   "edge_pct": 5.64,
+   "stake": 1.74,
+   "status": "open",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.392
+    },
+    "mkt": 0.3625,
+    "nbooks": 4,
+    "blend_p": 0.3773,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ufc (scan/2026-11-13_1858 id=114227)",
+   "reasoning": "scan PASS EV=5.64% models=['DRatings']; scan stake $3.48 (raw 3.48; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $1.74; NEWS clear → TITAN APPROVED at $1.74",
+   "scan_id": "114227",
+   "learning_mode": true
   }
  ],
  "settled_bets": [
@@ -32418,6 +32665,49 @@
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '-108', 'away': '-112'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866461",
    "closing_note": "DraftKings close via ESPN pickcenter {'home': '-108', 'away': '-112'}; no-vig fair 1.9829; recorded AM 2026-11-12 08:58 (Tbilisi)"
+  },
+  {
+   "id": "B657",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Louisiana Ragin' Cajuns @ UL-Monroe Warhawks",
+   "kickoff": "2026-11-13 06:00",
+   "selection": "Louisiana Ragin' Cajuns",
+   "odds": 1.26,
+   "book": "Action Network real book id69",
+   "p": 0.8369,
+   "implied_pct": 79.4,
+   "edge_pct": 5.42,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-11-10 00:04 (Tbilisi)",
+   "odds_time": "2026-11-10 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.909,
+     "DRatings": 0.893
+    },
+    "mkt": 0.7727,
+    "nbooks": 5,
+    "blend_p": 0.8369,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_2353 id=289950)",
+   "reasoning": "scan PASS EV=5.42% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 24.16; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "289950",
+   "result": "won",
+   "pl_usd": 1.3,
+   "settled_at": "2026-11-13 18:58 (Tbilisi)",
+   "final_score": "UL Monroe Warhawks 21, Louisiana Ragin' Cajuns 42 (FT)",
+   "score": "UL Monroe Warhawks 21, Louisiana Ragin' Cajuns 42 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869969",
+   "settle_source": "ESPN ncaaf event 401869969 STATUS_FINAL, Louisiana Ragin' Cajuns winner",
+   "closing_odds": 1.2532,
+   "closing_fair_odds": 1.3057,
+   "clv_pct": -3.5,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+310', 'away': '-395'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869969",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+310', 'away': '-395'}; no-vig fair 1.3057; recorded MID 2026-11-13 18:58 (Tbilisi)"
   }
  ],
  "positions": [
@@ -32431,7 +32721,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 757.93
+   "last_price": 754.57
   },
   {
    "symbol": "AAPL",
@@ -32443,7 +32733,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 355.58,
+   "last_price": 359.77,
    "adds": [
     {
      "date": "2026-10-14",
@@ -32464,7 +32754,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 97.72
+   "last_price": 98.62
   },
   {
    "symbol": "MSFT",
@@ -32472,8 +32762,11 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 522.79,
-   "opened_at": "2026-10-15 18:59 (Tbilisi)"
+   "last_price": 522.72,
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "stop_loss": 493.81,
+   "take_profit": 611.89,
+   "sl_tp_note": "owner order 2026-11-13 03:29 (Tbilisi): SL −8% / TP +14% of entry 536.7452; set 2026-11-13 03:33 (Tbilisi) via statelock (paper)"
   },
   {
    "symbol": "UNH",
@@ -32481,8 +32774,11 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 404.96,
-   "opened_at": "2026-10-15 18:59 (Tbilisi)"
+   "last_price": 404.92,
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "stop_loss": 371.96,
+   "take_profit": 460.9,
+   "sl_tp_note": "owner order 2026-11-13 03:29 (Tbilisi): SL −8% / TP +14% of entry 404.3023; set 2026-11-13 03:33 (Tbilisi) via statelock (paper)"
   },
   {
    "symbol": "V",
@@ -32490,8 +32786,11 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 422.61,
-   "opened_at": "2026-10-15 18:59 (Tbilisi)"
+   "last_price": 424.94,
+   "opened_at": "2026-10-15 18:59 (Tbilisi)",
+   "stop_loss": 367.22,
+   "take_profit": 455.04,
+   "sl_tp_note": "owner order 2026-11-13 03:29 (Tbilisi): SL −8% / TP +14% of entry 399.157; set 2026-11-13 03:33 (Tbilisi) via statelock (paper)"
   }
  ],
  "closed_trades": [
@@ -33725,6 +34024,14 @@
    "total_value": 441.95,
    "cash": 318.7338,
    "btc_bench": 434.15
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "MID",
+   "time": "2026-11-13 19:07 (Tbilisi)",
+   "total_value": 443.5,
+   "cash": 307.0138,
+   "btc_bench": 418.08
   }
  ],
  "benchmarks_start": {
@@ -150630,6 +150937,1849 @@
    },
    "settle_note": "ESPN/gamma finals: 0 settled 0W/0L +0.0 — . Left open (not final / B294 postponed): none.",
    "closed_at": "2026-11-13 00:01 (Tbilisi)"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "MID",
+   "time": "2026-11-13 18:58 (Tbilisi)",
+   "status": "complete",
+   "note": "LEARNING MODE (bank $443.5 = -11.3% vs $500 deposits): 8 learning bets at $1-$2.50 (max 8), 10 approved candidates over the limit skipped. MID: 8 new bets (scan 21 PASS), TITAN blocked 3, shrunk 0, settled 1 (+1.3), ledger 1, post-mortems 0, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: 0 SL/TP, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 21W/34L +14.80, Polymarket 38W/66L +9.51, NBA 8W/22L -28.25",
+   "ledger": [
+    {
+     "id": "B657",
+     "odds": 1.26,
+     "close": 1.2532,
+     "fair": 1.3057,
+     "clv_pct": -3.5,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869969"
+    }
+   ],
+   "postmortem": [],
+   "not_final_left_open": [],
+   "research": {
+    "settled": [
+     {
+      "id": "B657",
+      "event": "Louisiana Ragin' Cajuns @ UL-Monroe Warhawks",
+      "sel": "Louisiana Ragin' Cajuns",
+      "odds": 1.26,
+      "stake": 5.0,
+      "result": "won",
+      "pl_usd": 1.3,
+      "score": "UL Monroe Warhawks 21, Louisiana Ragin' Cajuns 42",
+      "sport": "NCAAF"
+     }
+    ],
+    "note": "MID paper cycle 2026-11-13 (only cycle of the day)",
+    "btc_hold": "NO BUY: BTC 68894 < MA20 76656 (below SMA50 80571) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00",
+    "btc": 68894,
+    "btc_ma20": 76655.62,
+    "btc_ma50": 80570.9,
+    "tokens_passed": 80,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B664",
+     "B665",
+     "B666",
+     "B667",
+     "B668",
+     "B669",
+     "B670",
+     "B671"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 3,
+    "titan_shrunk": 0,
+    "nova_approved": 8,
+    "x_calls": 5,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-11-13_1858",
+    "time": "2026-11-13 18:58 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 303,
+    "funnel": {
+     "options_AN": 13406,
+     "events_AN": 459,
+     "events_ESPN": 1687,
+     "options_ESPN": 1753,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 978,
+     "model_rows_DR": 444,
+     "model_rows_FTS": 13,
+     "events_upcoming": 711,
+     "selections_priced": 1705,
+     "selections_consensus": 1079,
+     "with_model": 917,
+     "with_2plus_model": 433,
+     "drop_too_few_books": 622,
+     "elo_matched_events": 163,
+     "with_1_model": 484,
+     "drop_no_model": 162,
+     "drop_nhl_calibration": 4,
+     "dup_open_variant": 3,
+     "gate_ev<3": 786,
+     "gate_V2_nba_shadow": 1,
+     "gate_A3_range": 33,
+     "gate_PASS": 18,
+     "gate_V2_odds>2.99": 6,
+     "gate_odds>5": 46,
+     "gate_dup_open": 5,
+     "gate_TITAN_elo_disagree>10pt": 1,
+     "gate_model_ev<=0": 9,
+     "gate_L004_single_model_gap": 11,
+     "gate_V2_ev>12": 1,
+     "options_Polymarket": 41904,
+     "pm_markets": 20952,
+     "pm_liq1k": 7117,
+     "pm_sports_ml": 1985,
+     "pm_drop_L007_league_unmapped": 438,
+     "pm_drop_L007_no_strict_match": 200,
+     "pm_matched_model": 247,
+     "pm_gate_A3_range": 19,
+     "pm_gate_ev<3": 186,
+     "pm_tb1_tagged": 26,
+     "pm_gate_odds>5": 15,
+     "pm_gate_model_ev<=0": 8,
+     "pm_gate_V2_odds>2.99": 3,
+     "pm_gate_dup_open": 4,
+     "pm_gate_L004_single_model_gap": 3,
+     "pm_gate_PASS": 8,
+     "pm_gate_TITAN_elo_disagree>10pt": 1,
+     "pm_tb1_tagged_pass": 1,
+     "dup_open": 9,
+     "bank_live": 443.5,
+     "bank_stale_overall_report": 441.95,
+     "drop_same_event": 3,
+     "prior_veto": 1,
+     "prior_veto_list_24h": 1,
+     "drop_TITAN_elo_only_over5": 1,
+     "ledger_halve_suppressed": 13,
+     "final_after_caps": 21,
+     "stake_total": 66.96,
+     "budget_caps": 98.64,
+     "v2_nba_shadow": 1,
+     "v2_nba_shadow_clean": 1,
+     "tokens_daily_rule": "BTC gate closed, first token scan today",
+     "tokens_src_dexscreener_tokens": 65,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 0,
+     "tokens_gt_fetch_seconds": 86,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 735,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 728,
+     "tokens_chain_solana": 191,
+     "tokens_chain_robinhood": 4,
+     "tokens_chain_elysium": 1,
+     "tokens_chain_base": 175,
+     "tokens_chain_bsc": 185,
+     "tokens_chain_ton": 1,
+     "tokens_chain_ethereum": 171,
+     "tokens_gate_liquidity": 410,
+     "tokens_gate_pass": 126,
+     "tokens_gate_too_new": 64,
+     "tokens_gate_thin_liq_fdv": 78,
+     "tokens_gate_rug_dump": 2,
+     "tokens_gate_pump": 4,
+     "tokens_gate_low_activity": 44,
+     "tokens_safety_pass": 80,
+     "tokens_safety_fail": 25,
+     "tokens_safety_unverified": 21,
+     "tokens_passed_safety": 80,
+     "options_scanned_total": 57791
+    },
+    "coverage_events_by_sport": {
+     "nba": 97,
+     "ncaab": 121,
+     "ncaaf": 72,
+     "nhl": 90,
+     "nfl": 26,
+     "soccer": 283,
+     "ufc": 22
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 57791,
+     "candidates": [
+      {
+       "name": "FC Utrecht",
+       "type": "Polymarket",
+       "score": 60,
+       "why": "EV 10.98% @1.961 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Tampa Bay Buccaneers",
+       "type": "nfl",
+       "score": 59,
+       "why": "EV 9.57% @2.5 models=['ESPN']"
+      },
+      {
+       "name": "Sandefjord",
+       "type": "Polymarket",
+       "score": 58,
+       "why": "EV 8.0% @2.439 models=['DRatings']"
+      },
+      {
+       "name": "Tulane Green Wave",
+       "type": "ncaaf",
+       "score": 57,
+       "why": "EV 7.13% @2.15 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Kansas City Chiefs",
+       "type": "nfl",
+       "score": 56,
+       "why": "EV 6.5% @1.575 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Northwestern Wildcats",
+       "type": "ncaab",
+       "score": 56,
+       "why": "EV 6.23% @1.926 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Villarreal",
+       "type": "soccer",
+       "score": 56,
+       "why": "EV 6.1% @2.28 models=['DRatings']"
+      },
+      {
+       "name": "Yale Bulldogs",
+       "type": "ncaab",
+       "score": 55,
+       "why": "EV 5.03% @1.769 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Josh Hokit",
+       "type": "ufc",
+       "score": 55,
+       "why": "EV 5.64% @2.8 models=['DRatings']"
+      },
+      {
+       "name": "Drew Dober",
+       "type": "ufc",
+       "score": 55,
+       "why": "EV 5.17% @2.65 models=['DRatings']"
+      },
+      {
+       "name": "Kilmarnock",
+       "type": "Polymarket",
+       "score": 57,
+       "why": "EV 7.89% @2.703 models=['EloFD']"
+      },
+      {
+       "name": "Aston Villa",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.4% @1.818 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Elon Phoenix",
+       "type": "ncaab",
+       "score": 53,
+       "why": "EV 3.05% @1.741 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Los Angeles Chargers",
+       "type": "nfl",
+       "score": 53,
+       "why": "EV 3.27% @1.8 models=['ESPN']"
+      },
+      {
+       "name": "Bodo/Glimt",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.14% @2.0 models=['DRatings']"
+      },
+      {
+       "name": "North Carolina State Wolfpac",
+       "type": "ncaaf",
+       "score": 53,
+       "why": "EV 3.87% @2.24 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Bolton Wanderers",
+       "type": "soccer",
+       "score": 55,
+       "why": "EV 5.28% @2.75 models=['EloFD']"
+      },
+      {
+       "name": "Cesar Almeida",
+       "type": "ufc",
+       "score": 54,
+       "why": "EV 4.52% @2.55 models=['DRatings']"
+      },
+      {
+       "name": "Oldham Athletic",
+       "type": "Polymarket",
+       "score": 55,
+       "why": "EV 5.47% @2.941 models=['EloFD']"
+      },
+      {
+       "name": "Mallorca",
+       "type": "Polymarket",
+       "score": 54,
+       "why": "EV 4.35% @1.961 models=['EloFD']"
+      },
+      {
+       "name": "Wigan Athletic",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.55% @2.5 models=['EloFD']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 57791,
+      "with_model": 917,
+      "gate_PASS": 18,
+      "pm_gate_PASS": 8,
+      "dup_open": 9,
+      "prior_veto": 1,
+      "final_after_caps": 21,
+      "pm_tb1_tagged": 26,
+      "pm_tb1_tagged_pass": 1,
+      "tokens_tokens_unique": 735,
+      "tokens_passed_safety": 80,
+      "stake_total": 66.96,
+      "budget_caps": 98.64
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 68861.63,
+       "tp": 74370.56,
+       "stop": 65418.55,
+       "support": 68861.63,
+       "resistance": 81274.37,
+       "prices": [
+        80048.85,
+        80029.43,
+        80800.83,
+        81274.37,
+        77838.81,
+        77275.05,
+        77520.89,
+        78293.84,
+        76709.41,
+        77384.59,
+        80442.71,
+        76005.51,
+        75775.28,
+        75776.38,
+        74740.42,
+        75266.77,
+        73721.18,
+        73974.39,
+        71371.98,
+        68861.63
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 754.57,
+       "tp": 814.94,
+       "stop": 716.84,
+       "support": 733.0,
+       "resistance": 773.09,
+       "prices": [
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29,
+        752.69,
+        749.92,
+        759.81,
+        757.12,
+        754.57
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "down",
+       "entry": 522.72,
+       "tp": 564.54,
+       "stop": 496.58,
+       "support": 507.12,
+       "resistance": 555.8,
+       "prices": [
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61,
+        545.18,
+        533.16,
+        521.13,
+        523.0,
+        522.72
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1103.74,
+       "tp": 1192.04,
+       "stop": 1048.55,
+       "support": 982.73,
+       "resistance": 1103.74,
+       "prices": [
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56,
+        1066.18,
+        1066.14,
+        1087.61,
+        1092.21,
+        1103.74
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 593.7,
+       "tp": 641.2,
+       "stop": 564.01,
+       "support": 532.23,
+       "resistance": 593.7,
+       "prices": [
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89,
+        575.25,
+        583.34,
+        588.24,
+        589.83,
+        593.7
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 170.54,
+       "tp": 184.18,
+       "stop": 162.01,
+       "support": 164.47,
+       "resistance": 187.25,
+       "prices": [
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87,
+        164.73,
+        164.47,
+        166.71,
+        169.78,
+        170.54
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 217.89,
+       "tp": 235.32,
+       "stop": 207.0,
+       "support": 213.48,
+       "resistance": 250.29,
+       "prices": [
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65,
+        214.94,
+        213.48,
+        218.01,
+        217.57,
+        217.89
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1428.86,
+       "tp": 1543.17,
+       "stop": 1357.42,
+       "support": 1240.34,
+       "resistance": 1437.29,
+       "prices": [
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0,
+        1411.95,
+        1432.29,
+        1437.29,
+        1427.28,
+        1428.86
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "FC Utrecht",
+       "stance": "bullish",
+       "text": "FC Utrecht (our side, Polymarket ask) @1.961 vs Cambuur: no own-side injury/suspension/coach news in MID X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Tampa Bay Buccaneers",
+       "stance": "bullish",
+       "text": "Tampa Bay Buccaneers (our side) @2.50 at Detroit: no own-side injury/suspension/coach news in MID X results (game 2026-11-22) → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Sandefjord",
+       "stance": "watch",
+       "text": "Opponent-unrelated: AaFK player Luca Podlech out after a collision vs Sandefjord in late October (not Sandefjord/Kristiansund)",
+       "source": "https://x.com/Sunnmorecom/status/2121153624801718284"
+      },
+      {
+       "candidate": "Tulane Green Wave",
+       "stance": "bearish",
+       "text": "Tulane (our side) HC Will Hall under heavy fire after record 60-10 loss to Tulsa; fan campaign (planes/billboards) to fire him",
+       "source": "https://x.com/RollDatWave/status/2121211482390372395"
+      },
+      {
+       "candidate": "Kansas City Chiefs",
+       "stance": "watch",
+       "text": "Rapoport/RotoWire: Chiefs QB Patrick Mahomes (knee/right elbow) \"limited swelling, limited pain\", full practices Wed+Thu, expected to start ",
+       "source": "https://x.com/mwiggins92/status/2121252075745026315"
+      },
+      {
+       "candidate": "Northwestern Wildcats",
+       "stance": "bullish",
+       "text": "Northwestern Wildcats (our side) @1.926 vs DePaul: no own-side injury/suspension/coach news in MID X results (only Northwestern football res",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Villarreal",
+       "stance": "bullish",
+       "text": "Villarreal (our side) @2.28 at Slavia Prague: no own-side injury/suspension/coach news in MID X results (only Barcelona/Olmo news) → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Yale Bulldogs",
+       "stance": "bullish",
+       "text": "Yale Bulldogs (our side) @1.769 at Northeastern: no own-side injury/suspension/coach news in MID X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Josh Hokit",
+       "stance": "watch",
+       "text": "Hokit vs Gane: analysts (Chiesa, Cruz) call it closer to 50/50; no injury/weight issue reported",
+       "source": "https://x.com/FightluckBet/status/2121256498420433324"
+      },
+      {
+       "candidate": "Drew Dober",
+       "stance": "bullish",
+       "text": "Drew Dober (our side) @2.65 vs Chris Duncan: no injury/withdrawal/weight issue in MID X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Kilmarnock",
+       "stance": "watch",
+       "text": "Opponent of Kilmarnock last week (Mika Baur) injured — not Kilmarnock/Aberdeen",
+       "source": "https://x.com/rglen816/status/2120907547548742119"
+      },
+      {
+       "candidate": "Aston Villa",
+       "stance": "bearish",
+       "text": "Aston Villa (our side): Johan Manzambi sent home from Switzerland duty with a calf injury; return date unknown",
+       "source": "https://x.com/injuryreportst/status/2120898331216113862"
+      },
+      {
+       "candidate": "Elon Phoenix",
+       "stance": "bullish",
+       "text": "Elon Phoenix (our side) @1.741 vs Chattanooga: no own-side injury/suspension/coach news in MID X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Los Angeles Chargers",
+       "stance": "bullish",
+       "text": "Los Angeles Chargers (our side) @1.80 vs Jets: no own-side injury/suspension/coach news in MID X results (only Henley trade called off) → cl",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Bodo/Glimt",
+       "stance": "bullish",
+       "text": "Bodø/Glimt (our side, Polymarket ask) @2.00 at Molde: no own-side injury/suspension/coach news in MID X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "North Carolina State Wolfpack",
+       "stance": "watch",
+       "text": "NC State (our side): Philip Rivers hired as next head coach (trustees finalize Friday; Doeren fired in late October — interim staff for this",
+       "source": "https://x.com/Complex/status/2120892571983417600"
+      },
+      {
+       "candidate": "Bolton Wanderers",
+       "stance": "watch",
+       "text": "Portsmouth (opponent) have 9 absentees ahead of Bolton",
+       "source": "https://x.com/pompeylive/status/2121194210976002317"
+      },
+      {
+       "candidate": "Cesar Almeida",
+       "stance": "bearish",
+       "text": "Cesar Almeida (our side) weighed in at 189.6 lbs — catch weight (missed middleweight limit)",
+       "source": "https://x.com/PollGuyUFC/status/2121250952061616442"
+      },
+      {
+       "candidate": "Oldham Athletic",
+       "stance": "bullish",
+       "text": "Oldham Athletic (our side, Polymarket ask, Elo-only) @2.941 at Shrewsbury: no own-side injury/suspension/coach news in MID X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Mallorca",
+       "stance": "bullish",
+       "text": "Mallorca (our side, Polymarket ask, Elo-only) @1.961 vs Córdoba: no own-side injury/suspension/coach news in MID X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Wigan Athletic",
+       "stance": "bullish",
+       "text": "Wigan Athletic (our side, Polymarket ask, Elo-only) @2.50 vs Barnsley: no own-side injury/suspension/coach news in MID X results → clear",
+       "source": "x search (no result)"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "FC Utrecht",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Tampa Bay Buccaneers",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Sandefjord",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Tulane Green Wave",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Kansas City Chiefs",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Northwestern Wildcats",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Villarreal",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Yale Bulldogs",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Josh Hokit",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Drew Dober",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Kilmarnock",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Aston Villa",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Elon Phoenix",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Los Angeles Chargers",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Bodo/Glimt",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "North Carolina State Wol",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Bolton Wanderers",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Cesar Almeida",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Oldham Athletic",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Mallorca",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Wigan Athletic",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": 0.0
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "FC Utrecht (SC Cambuur @ FC Utrecht)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "FC Utrecht (our side, Polymarket ask) @1.961 vs Cambuur: no own-side injury/suspension/coach news in MID X results → clear"
+      },
+      {
+       "candidate": "Tampa Bay Buccaneers (Tampa Bay Buccaneers @ Detroit Lions)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Tampa Bay Buccaneers (our side) @2.50 at Detroit: no own-side injury/suspension/coach news in MID X results (game 2026-11-22) → clear"
+      },
+      {
+       "candidate": "Sandefjord (Sandefjord @ Kristiansund BK)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Sandefjord (our side, Polymarket ask) @2.439 at Kristiansund: no own-side injury/suspension/coach news in MID X results → clear"
+      },
+      {
+       "candidate": "Tulane Green Wave (Tulane Green Wave @ Rice Owls)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Tulane Green Wave (our side) @2.15 at Rice: coach-status turmoil continues → TITAN shrink"
+      },
+      {
+       "candidate": "Kansas City Chiefs (Kansas City Chiefs @ Atlanta Falcons)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Kansas City Chiefs (our side) @1.575 at Atlanta: Mahomes now reported expected to start (MRI no significant damage, full practices) → previous uncertainty resol"
+      },
+      {
+       "candidate": "Northwestern Wildcats (DePaul Blue Demons @ Northwestern Wildca)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Northwestern Wildcats (our side) @1.926 vs DePaul: no own-side injury/suspension/coach news in MID X results (only Northwestern football results) → clear"
+      },
+      {
+       "candidate": "Villarreal (Villarreal @ Slavia Prague)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Villarreal (our side) @2.28 at Slavia Prague: no own-side injury/suspension/coach news in MID X results (only Barcelona/Olmo news) → clear"
+      },
+      {
+       "candidate": "Yale Bulldogs (Yale Bulldogs @ Northeastern Huskies)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Yale Bulldogs (our side) @1.769 at Northeastern: no own-side injury/suspension/coach news in MID X results → clear"
+      },
+      {
+       "candidate": "Josh Hokit (Josh Hokit @ Ciryl Gane)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Josh Hokit (our side) @2.80 vs Ciryl Gane: no injury/withdrawal/weight issue in MID X results → clear"
+      },
+      {
+       "candidate": "Drew Dober (Chris Duncan @ Drew Dober)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Drew Dober (our side) @2.65 vs Chris Duncan: no injury/withdrawal/weight issue in MID X results → clear"
+      },
+      {
+       "candidate": "Kilmarnock (Aberdeen @ Kilmarnock)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Kilmarnock (our side, Polymarket ask, Elo-only) @2.703 vs Aberdeen: no own-side injury/suspension/coach news in MID X results → clear"
+      },
+      {
+       "candidate": "Aston Villa (Sunderland @ Aston Villa)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Aston Villa (our side, Polymarket ask) @1.818 vs Sunderland: own-side calf injury (Manzambi) → TITAN shrink"
+      },
+      {
+       "candidate": "Elon Phoenix (Chattanooga Mocs @ Elon Phoenix)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Elon Phoenix (our side) @1.741 vs Chattanooga: no own-side injury/suspension/coach news in MID X results → clear"
+      },
+      {
+       "candidate": "Los Angeles Chargers (New York Jets @ Los Angeles Chargers)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Los Angeles Chargers (our side) @1.80 vs Jets: no own-side injury/suspension/coach news in MID X results (only Henley trade called off) → clear"
+      },
+      {
+       "candidate": "Bodo/Glimt (Bodo/Glimt @ Molde)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Bodø/Glimt (our side, Polymarket ask) @2.00 at Molde: no own-side injury/suspension/coach news in MID X results → clear"
+      },
+      {
+       "candidate": "North Carolina State Wolfpack (Syracuse Orange @ North Carolina State W)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "NC State Wolfpack (our side) @2.24 vs Syracuse: coach change public for weeks (priced); WR Jackson probable → clear"
+      },
+      {
+       "candidate": "Bolton Wanderers (Portsmouth @ Bolton Wanderers)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Bolton Wanderers (our side, Elo-only) @2.75 vs Portsmouth: only opponent absences (not used to add) → clear"
+      },
+      {
+       "candidate": "Cesar Almeida (Cesar Almeida @ Donte Johnson)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Cesar Almeida (our side) @2.55 vs Donte Johnson: own fighter missed weight → TITAN shrink"
+      },
+      {
+       "candidate": "Oldham Athletic (Oldham Athletic @ Shrewsbury Town)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Oldham Athletic (our side, Polymarket ask, Elo-only) @2.941 at Shrewsbury: no own-side injury/suspension/coach news in MID X results → clear"
+      },
+      {
+       "candidate": "Mallorca (Córdoba @ Mallorca)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Mallorca (our side, Polymarket ask, Elo-only) @1.961 vs Córdoba: no own-side injury/suspension/coach news in MID X results → clear"
+      },
+      {
+       "candidate": "Wigan Athletic (Barnsley @ Wigan Athletic)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Wigan Athletic (our side, Polymarket ask, Elo-only) @2.50 vs Barnsley: no own-side injury/suspension/coach news in MID X results → clear"
+      }
+     ],
+     "blocked_count": 3
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "FC Utrecht (SC Cambuur @ FC Utrecht)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Tampa Bay Buccaneers (Tampa Bay Buccaneers @ Detroit Lions)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Sandefjord (Sandefjord @ Kristiansund BK)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Kilmarnock (Aberdeen @ Kilmarnock)",
+       "action": "BUY",
+       "size_usd": 1.28
+      },
+      {
+       "candidate": "Tulane Green Wave (Tulane Green Wave @ Rice Owls)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Kansas City Chiefs (Kansas City Chiefs @ Atlanta Falcons)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Northwestern Wildcats (DePaul Blue Demons @ Northwestern Wi)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Villarreal (Villarreal @ Slavia Prague)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Josh Hokit (Josh Hokit @ Ciryl Gane)",
+       "action": "BUY",
+       "size_usd": 1.74
+      },
+      {
+       "candidate": "Oldham Athletic (Oldham Athletic @ Shrewsbury Town)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Bolton Wanderers (Portsmouth @ Bolton Wanderers)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Drew Dober (Chris Duncan @ Drew Dober)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Yale Bulldogs (Yale Bulldogs @ Northeastern Huskies)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Cesar Almeida (Cesar Almeida @ Donte Johnson)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Mallorca (Córdoba @ Mallorca)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "North Carolina State Wolfpack (Syracuse Orange @ North Carolina Sta)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Wigan Athletic (Barnsley @ Wigan Athletic)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Aston Villa (Sunderland @ Aston Villa)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Los Angeles Chargers (New York Jets @ Los Angeles Chargers)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Bodo/Glimt (Bodo/Glimt @ Molde)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Elon Phoenix (Chattanooga Mocs @ Elon Phoenix)",
+       "action": "SKIP (learning mode: max 8 bets/cycle)",
+       "size_usd": 0
+      }
+     ],
+     "desk_pl_today": 1.3
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 21,
+      "approved": 8,
+      "blocked": 3,
+      "note": "სკანი 57791 ოფცია; with_model 917; PASS 18+PM 8 → caps 21 (dup_open 9, prior_veto 1); NEWS/TITAN-ის შემდეგ 8"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 68894 vs MA20 76656 & SMA50 80571 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 21,
+      "approved": 8,
+      "blocked": 3,
+      "note": "X search_posts_all (5 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 21,
+      "approved": 8,
+      "blocked": 3,
+      "note": "overall 0.0"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 21,
+      "approved": 8,
+      "blocked": 3,
+      "note": "ფსონები: სკანის 21 PASS → 3 ვეტო (Tulane Green Wave, Aston Villa, Cesar Almeida), 0 შემცირება (არა); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 8,
+      "blocked": 0,
+      "note": "8 ფსონი (B664 FC Utrecht @1.961 $2.5, B665 Tampa Bay Buccaneers @2.5 $2.5, B666 Sandefjord @2.439 $2.5, B667 Kilmarnock @2.703 $1.28, B668 Kansas City Chiefs @1.575 $2.5, B669 Northwestern Wildcats @1.926 $2.5, B670 Villarreal @2.28 $2.5, B671 Josh Hokit @2.8 $1.74); ბიუჯეტი ქეპებში $98.64 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 21,
+      "approved": 8,
+      "blocked": 3,
+      "note": "21 PASS კანდიდატი → 5 x-call (search_posts_all): 3 ბლოკი, 0 შემცირება, 18 clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 post-mortem: none; 1 bet settled this MID (B657 Louisiana won +$1.30, CLV −3.50%) → no losses, no new post-mortems or lessons."
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 1/1; Football n=158 mean -4.81%; Polymarket n=238 mean -1.99%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 26, pass 1"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 2,
+      "approved": 1,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): "
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 8,
+      "approved": 3,
+      "blocked": 1,
+      "note": "დასახლდა: B657 Louisiana Ragin' Cajuns +1.30"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 3,
+      "approved": 1,
+      "blocked": 1,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 68894 < MA20 76656 (-10.1%), < SMA50 80571 → no buy, hold 0 lots; ETH 1946 (MA20 2218, SMA50 2415), SOL 80.73 (SMA50 103.91) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "735 scanned, 80 passed safety (daily rule: BTC gate closed, first token scan today); buying needs BTC>MA20 → gate closed (and learning mode: no token buys) → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ სესია ღიაა (პარასკევი ~10:00 ET; Yahoo live SPY 754.57); 6 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; stop/TP არ მოხვდა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 8,
+      "approved": 3,
+      "blocked": 1,
+      "note": "L007: unmapped 438, no strict 200, matched 247; PM PASS 8; TB1 pass 1; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "პარასკევი 13 ნოემბერი (MID) — მაკრო კალენდარი ამ ციკლში ახალი წყაროთი არ შემოწმებულა; ფსონებზე გავლენა არა; სასწავლო რეჟიმში აქციის ყიდვა არა → 0"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "pm:ere-utr-cam-2026-11-21-utr",
+     "event": "SC Cambuur @ FC Utrecht",
+     "sel": "FC Utrecht",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet",
+      "(Utrecht OR Sandefjord OR Kilmarnock OR Villarreal OR Northwestern Wildcats OR \"Yale basketball\" OR \"Elon basketball\") (blessure OR skade OR skadet OR geschorst OR injury OR \"out for\" OR suspended OR baja) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "FC Utrecht (our side, Polymarket ask) @1.961 vs Cambuur: no own-side injury/suspension/coach news in MID X results → clear"
+    },
+    {
+     "candidate": "espn401873072",
+     "event": "Tampa Bay Buccaneers @ Detroit Lions",
+     "sel": "Tampa Bay Buccaneers",
+     "queries": [
+      "(Buccaneers OR Mahomes OR Chiefs OR Tulane OR \"NC State\" OR Chargers) (injury OR injured OR \"ruled out\" OR questionable OR suspended OR fired OR coach) -is:retweet lang:en",
+      "(Mahomes elbow) OR (Buccaneers injury report) OR (Tulane \"Will Hall\") -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Tampa Bay Buccaneers (our side) @2.50 at Detroit: no own-side injury/suspension/coach news in MID X results (game 2026-11-22) → clear"
+    },
+    {
+     "candidate": "pm:nor-kbk-san-2026-11-22-san",
+     "event": "Sandefjord @ Kristiansund BK",
+     "sel": "Sandefjord",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet",
+      "(Utrecht OR Sandefjord OR Kilmarnock OR Villarreal OR Northwestern Wildcats OR \"Yale basketball\" OR \"Elon basketball\") (blessure OR skade OR skadet OR geschorst OR injury OR \"out for\" OR suspended OR baja) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Opponent-unrelated: AaFK player Luca Podlech out after a collision vs Sandefjord in late October (not Sandefjord/Kristiansund)",
+       "source": "https://x.com/Sunnmorecom/status/2121153624801718284",
+       "time": "2026-11-13 12:10 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Sandefjord (our side, Polymarket ask) @2.439 at Kristiansund: no own-side injury/suspension/coach news in MID X results → clear"
+    },
+    {
+     "candidate": "290047",
+     "event": "Tulane Green Wave @ Rice Owls",
+     "sel": "Tulane Green Wave",
+     "queries": [
+      "(Mahomes elbow) OR (Buccaneers injury report) OR (Tulane \"Will Hall\") -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "coach",
+       "text": "Tulane (our side) HC Will Hall under heavy fire after record 60-10 loss to Tulsa; fan campaign (planes/billboards) to fire him",
+       "source": "https://x.com/RollDatWave/status/2121211482390372395",
+       "time": "2026-11-13 16:00 (Tbilisi)"
+      },
+      {
+       "type": "coach",
+       "text": "\"Tulane Football Is at a BREAKING POINT! It's Time to FIRE Will Hall\"",
+       "source": "https://x.com/GreenWaveMan/status/2121105564415742209",
+       "time": "2026-11-13 08:59 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Tulane Green Wave (our side) @2.15 at Rice: coach-status turmoil continues → TITAN shrink"
+    },
+    {
+     "candidate": "290977",
+     "event": "Kansas City Chiefs @ Atlanta Falcons",
+     "sel": "Kansas City Chiefs",
+     "queries": [
+      "(Buccaneers OR Mahomes OR Chiefs OR Tulane OR \"NC State\" OR Chargers) (injury OR injured OR \"ruled out\" OR questionable OR suspended OR fired OR coach) -is:retweet lang:en",
+      "(Mahomes elbow) OR (Buccaneers injury report) OR (Tulane \"Will Hall\") -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Rapoport/RotoWire: Chiefs QB Patrick Mahomes (knee/right elbow) \"limited swelling, limited pain\", full practices Wed+Thu, expected to start Sunday vs Falcons",
+       "source": "https://x.com/mwiggins92/status/2121252075745026315",
+       "time": "2026-11-13 18:41 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Kansas City Chiefs (our side) @1.575 at Atlanta: Mahomes now reported expected to start (MRI no significant damage, full practices) → previous uncertainty resolved → clear"
+    },
+    {
+     "candidate": "espn401909503",
+     "event": "DePaul Blue Demons @ Northwestern Wildcats",
+     "sel": "Northwestern Wildcats",
+     "queries": [
+      "((Northwestern OR Yale OR Elon OR DePaul OR Northeastern OR Chattanooga) basketball (injury OR injured OR out OR suspended OR \"ruled out\")) OR ((\"Josh Hokit\" OR \"Drew Dober\" OR \"Cesar Almeida\" OR \"Ciryl Gane\" OR \"Chris Duncan\" OR \"Donte Johnson\") (injury OR withdraws OR replaced OR \"out of\" OR weight)) -is:retweet",
+      "(Utrecht OR Sandefjord OR Kilmarnock OR Villarreal OR Northwestern Wildcats OR \"Yale basketball\" OR \"Elon basketball\") (blessure OR skade OR skadet OR geschorst OR injury OR \"out for\" OR suspended OR baja) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Northwestern Wildcats (our side) @1.926 vs DePaul: no own-side injury/suspension/coach news in MID X results (only Northwestern football results) → clear"
+    },
+    {
+     "candidate": "296548",
+     "event": "Villarreal @ Slavia Prague",
+     "sel": "Villarreal",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet",
+      "(Utrecht OR Sandefjord OR Kilmarnock OR Villarreal OR Northwestern Wildcats OR \"Yale basketball\" OR \"Elon basketball\") (blessure OR skade OR skadet OR geschorst OR injury OR \"out for\" OR suspended OR baja) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Villarreal (our side) @2.28 at Slavia Prague: no own-side injury/suspension/coach news in MID X results (only Barcelona/Olmo news) → clear"
+    },
+    {
+     "candidate": "espn401920747",
+     "event": "Yale Bulldogs @ Northeastern Huskies",
+     "sel": "Yale Bulldogs",
+     "queries": [
+      "((Northwestern OR Yale OR Elon OR DePaul OR Northeastern OR Chattanooga) basketball (injury OR injured OR out OR suspended OR \"ruled out\")) OR ((\"Josh Hokit\" OR \"Drew Dober\" OR \"Cesar Almeida\" OR \"Ciryl Gane\" OR \"Chris Duncan\" OR \"Donte Johnson\") (injury OR withdraws OR replaced OR \"out of\" OR weight)) -is:retweet",
+      "(Utrecht OR Sandefjord OR Kilmarnock OR Villarreal OR Northwestern Wildcats OR \"Yale basketball\" OR \"Elon basketball\") (blessure OR skade OR skadet OR geschorst OR injury OR \"out for\" OR suspended OR baja) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Yale Bulldogs (our side) @1.769 at Northeastern: no own-side injury/suspension/coach news in MID X results → clear"
+    },
+    {
+     "candidate": "114227",
+     "event": "Josh Hokit @ Ciryl Gane",
+     "sel": "Josh Hokit",
+     "queries": [
+      "((Northwestern OR Yale OR Elon OR DePaul OR Northeastern OR Chattanooga) basketball (injury OR injured OR out OR suspended OR \"ruled out\")) OR ((\"Josh Hokit\" OR \"Drew Dober\" OR \"Cesar Almeida\" OR \"Ciryl Gane\" OR \"Chris Duncan\" OR \"Donte Johnson\") (injury OR withdraws OR replaced OR \"out of\" OR weight)) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Hokit vs Gane: analysts (Chiesa, Cruz) call it closer to 50/50; no injury/weight issue reported",
+       "source": "https://x.com/FightluckBet/status/2121256498420433324",
+       "time": "2026-11-13 18:58 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Josh Hokit (our side) @2.80 vs Ciryl Gane: no injury/withdrawal/weight issue in MID X results → clear"
+    },
+    {
+     "candidate": "114221",
+     "event": "Chris Duncan @ Drew Dober",
+     "sel": "Drew Dober",
+     "queries": [
+      "((Northwestern OR Yale OR Elon OR DePaul OR Northeastern OR Chattanooga) basketball (injury OR injured OR out OR suspended OR \"ruled out\")) OR ((\"Josh Hokit\" OR \"Drew Dober\" OR \"Cesar Almeida\" OR \"Ciryl Gane\" OR \"Chris Duncan\" OR \"Donte Johnson\") (injury OR withdraws OR replaced OR \"out of\" OR weight)) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Drew Dober (our side) @2.65 vs Chris Duncan: no injury/withdrawal/weight issue in MID X results → clear"
+    },
+    {
+     "candidate": "pm:scop-kil-abe-2026-11-21-kil",
+     "event": "Aberdeen @ Kilmarnock",
+     "sel": "Kilmarnock",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet",
+      "(Utrecht OR Sandefjord OR Kilmarnock OR Villarreal OR Northwestern Wildcats OR \"Yale basketball\" OR \"Elon basketball\") (blessure OR skade OR skadet OR geschorst OR injury OR \"out for\" OR suspended OR baja) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Opponent of Kilmarnock last week (Mika Baur) injured — not Kilmarnock/Aberdeen",
+       "source": "https://x.com/rglen816/status/2120907547548742119",
+       "time": "2026-11-12 19:52 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Kilmarnock (our side, Polymarket ask, Elo-only) @2.703 vs Aberdeen: no own-side injury/suspension/coach news in MID X results → clear"
+    },
+    {
+     "candidate": "pm:epl-ast-sun-2026-11-21-ast",
+     "event": "Sunderland @ Aston Villa",
+     "sel": "Aston Villa",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Aston Villa (our side): Johan Manzambi sent home from Switzerland duty with a calf injury; return date unknown",
+       "source": "https://x.com/injuryreportst/status/2120898331216113862",
+       "time": "2026-11-12 19:15 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Aston Villa (our side, Polymarket ask) @1.818 vs Sunderland: own-side calf injury (Manzambi) → TITAN shrink"
+    },
+    {
+     "candidate": "espn401920973",
+     "event": "Chattanooga Mocs @ Elon Phoenix",
+     "sel": "Elon Phoenix",
+     "queries": [
+      "((Northwestern OR Yale OR Elon OR DePaul OR Northeastern OR Chattanooga) basketball (injury OR injured OR out OR suspended OR \"ruled out\")) OR ((\"Josh Hokit\" OR \"Drew Dober\" OR \"Cesar Almeida\" OR \"Ciryl Gane\" OR \"Chris Duncan\" OR \"Donte Johnson\") (injury OR withdraws OR replaced OR \"out of\" OR weight)) -is:retweet",
+      "(Utrecht OR Sandefjord OR Kilmarnock OR Villarreal OR Northwestern Wildcats OR \"Yale basketball\" OR \"Elon basketball\") (blessure OR skade OR skadet OR geschorst OR injury OR \"out for\" OR suspended OR baja) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Elon Phoenix (our side) @1.741 vs Chattanooga: no own-side injury/suspension/coach news in MID X results → clear"
+    },
+    {
+     "candidate": "espn401873074",
+     "event": "New York Jets @ Los Angeles Chargers",
+     "sel": "Los Angeles Chargers",
+     "queries": [
+      "(Buccaneers OR Mahomes OR Chiefs OR Tulane OR \"NC State\" OR Chargers) (injury OR injured OR \"ruled out\" OR questionable OR suspended OR fired OR coach) -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Los Angeles Chargers (our side) @1.80 vs Jets: no own-side injury/suspension/coach news in MID X results (only Henley trade called off) → clear"
+    },
+    {
+     "candidate": "pm:nor-mol-bog-2026-11-20-bog",
+     "event": "Bodo/Glimt @ Molde",
+     "sel": "Bodo/Glimt",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Bodø/Glimt (our side, Polymarket ask) @2.00 at Molde: no own-side injury/suspension/coach news in MID X results → clear"
+    },
+    {
+     "candidate": "290050",
+     "event": "Syracuse Orange @ North Carolina State Wolfpack",
+     "sel": "North Carolina State Wolfpack",
+     "queries": [
+      "(Buccaneers OR Mahomes OR Chiefs OR Tulane OR \"NC State\" OR Chargers) (injury OR injured OR \"ruled out\" OR questionable OR suspended OR fired OR coach) -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "coach",
+       "text": "NC State (our side): Philip Rivers hired as next head coach (trustees finalize Friday; Doeren fired in late October — interim staff for this game)",
+       "source": "https://x.com/Complex/status/2120892571983417600",
+       "time": "2026-11-12 18:52 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "NC State leading receiver Keenan Jackson upgraded to probable",
+       "source": "https://x.com/RCorySmith/status/2121046578102256052",
+       "time": "2026-11-13 05:04 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "NC State Wolfpack (our side) @2.24 vs Syracuse: coach change public for weeks (priced); WR Jackson probable → clear"
+    },
+    {
+     "candidate": "espn401880160",
+     "event": "Portsmouth @ Bolton Wanderers",
+     "sel": "Bolton Wanderers",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Portsmouth (opponent) have 9 absentees ahead of Bolton",
+       "source": "https://x.com/pompeylive/status/2121194210976002317",
+       "time": "2026-11-13 14:51 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Bolton Wanderers (our side, Elo-only) @2.75 vs Portsmouth: only opponent absences (not used to add) → clear"
+    },
+    {
+     "candidate": "115335",
+     "event": "Cesar Almeida @ Donte Johnson",
+     "sel": "Cesar Almeida",
+     "queries": [
+      "((Northwestern OR Yale OR Elon OR DePaul OR Northeastern OR Chattanooga) basketball (injury OR injured OR out OR suspended OR \"ruled out\")) OR ((\"Josh Hokit\" OR \"Drew Dober\" OR \"Cesar Almeida\" OR \"Ciryl Gane\" OR \"Chris Duncan\" OR \"Donte Johnson\") (injury OR withdraws OR replaced OR \"out of\" OR weight)) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "weight",
+       "text": "Cesar Almeida (our side) weighed in at 189.6 lbs — catch weight (missed middleweight limit)",
+       "source": "https://x.com/PollGuyUFC/status/2121250952061616442",
+       "time": "2026-11-13 18:36 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Cesar Almeida (our side) @2.55 vs Donte Johnson: own fighter missed weight → TITAN shrink"
+    },
+    {
+     "candidate": "pm:el2-shr-old-2026-11-14-old",
+     "event": "Oldham Athletic @ Shrewsbury Town",
+     "sel": "Oldham Athletic",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Oldham Athletic (our side, Polymarket ask, Elo-only) @2.941 at Shrewsbury: no own-side injury/suspension/coach news in MID X results → clear"
+    },
+    {
+     "candidate": "pm:es2-rm-cor-2026-11-14-rm",
+     "event": "Córdoba @ Mallorca",
+     "sel": "Mallorca",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Mallorca (our side, Polymarket ask, Elo-only) @1.961 vs Córdoba: no own-side injury/suspension/coach news in MID X results → clear"
+    },
+    {
+     "candidate": "pm:el1-wig-bar-2026-11-14-wig",
+     "event": "Barnsley @ Wigan Athletic",
+     "sel": "Wigan Athletic",
+     "queries": [
+      "(\"FC Utrecht\" OR Sandefjord OR Kilmarnock OR Villarreal OR \"Oldham Athletic\" OR \"Bolton Wanderers\" OR Mallorca OR \"Wigan Athletic\" OR \"Aston Villa\" OR Glimt) (injury OR injured OR suspended OR sacked OR \"ruled out\" OR blessure OR lesión) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Wigan Athletic (our side, Polymarket ask, Elo-only) @2.50 vs Barnsley: no own-side injury/suspension/coach news in MID X results → clear"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 65,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 0,
+     "gt_fetch_seconds": 86,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 735,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 728,
+     "chain_solana": 191,
+     "chain_robinhood": 4,
+     "chain_elysium": 1,
+     "chain_base": 175,
+     "chain_bsc": 185,
+     "chain_ton": 1,
+     "chain_ethereum": 171,
+     "gate_liquidity": 410,
+     "gate_pass": 126,
+     "gate_too_new": 64,
+     "gate_thin_liq_fdv": 78,
+     "gate_rug_dump": 2,
+     "gate_pump": 4,
+     "gate_low_activity": 44,
+     "safety_pass": 80,
+     "safety_fail": 25,
+     "safety_unverified": 21
+    },
+    "passed_n": 80,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 1 final(s): B657 won +1.3 (P/L +1.3). Not final → left open for the hourly refresh: none. LEDGER: DK closes 1/1; Football n=158 mean CLV -4.81%; Polymarket n=238 mean -1.99% (halving OFF by owner order 2026-10-28; tracked only). DOC: 0 post-mortems. Scan 57791 options → with_model 917 → PASS 18+PM 8 → 21 after dedup/caps (prior_veto 1); SHERLOCK/TITAN: 3 blocked, 0 shrunk → 8 bets. NO BUY: BTC 68894 < MA20 76656 (below SMA50 80571) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US session open (Yahoo live quote), no SL/TP touched; no tested equity entry; no tested entry rule → 0 new buys. Learning mode: ≤8 top-EV bets at $1-$2.50.",
+   "plan": "MID 2026-11-13 (დღის ერთადერთი ციკლი 18:50-ზე): Strategy v2 ჩართულია (კოეფ. ≤2.99, მოდელის EV ≤12%, NBA მხოლოდ ჩრდილში, NEWS shrink → block). ბანკი $443.5 (-11.3% დეპოზიტებზე) → სასწავლო რეჟიმი (learning mode): მაქს. 8 ფსონი, ყველაზე მაღალი EV, $1–$2.50, ქეპები/TITAN უცვლელი; კრიპტო/ტოკენ/აქციის ახალი ყიდვა არა. დასახლება მხოლოდ რეალური საბოლოო შედეგით; B294 გადადებული 12-01-მდე; BTC gate დახურული (BTC < MA20/SMA50); MSFT/UNH/V სტოპები/TP მოქმედებს; ახალი ტოკენების სკანი დღეში ერთხელ; Football/Polymarket/NBA ცალკე იზომება.",
+   "strategy_v2": {
+    "enabled": true,
+    "lm_use_v2_filter": false,
+    "rules": "odds<=2.99, EV<=12%, NBA shadow-only, NEWS shrink->block",
+    "news_shrink_blocked": [
+     "290047",
+     "115335",
+     "pm:epl-ast-sun-2026-11-21-ast"
+    ],
+    "scan_v2_rejects": {
+     "gate_V2_nba_shadow": 1,
+     "gate_V2_odds>2.99": 6,
+     "gate_V2_ev>12": 1,
+     "pm_gate_V2_odds>2.99": 3
+    },
+    "nba_shadow_logged": 1,
+    "nba_shadow_clean": 1
+   },
+   "drawdown_brake": {
+    "deposits": 500.0,
+    "threshold": 450.0,
+    "stop_threshold": 400.0,
+    "bank": 443.5,
+    "vs_deposits_pct": -11.3,
+    "mode": "learning",
+    "triggered": true,
+    "learning_mode": true,
+    "learning_mode_enabled": true,
+    "effect": "LEARNING MODE: max 8 bets/cycle, top-EV picks only, stake $1-$2.5 (half normal), caps/TITAN/news unchanged; no crypto/token/equity buys",
+    "placed_learning_bets": 8,
+    "skipped_by_brake": [
+     "pm:el2-shr-old-2026-11-14-old",
+     "espn401880160",
+     "114221",
+     "espn401920747",
+     "pm:es2-rm-cor-2026-11-14-rm",
+     "290050",
+     "pm:el1-wig-bar-2026-11-14-wig",
+     "espn401873074",
+     "pm:nor-mol-bog-2026-11-20-bog",
+     "espn401920973"
+    ]
+   },
+   "settle_note": "ESPN/gamma finals: 1 settled 1W/0L +1.3 — B657 Louisiana Ragin' Cajuns won (UL Monroe Warhawks 21, Louisiana Ragin' Cajuns 42). Left open (not final / B294 postponed): none.",
+   "closed_at": "2026-11-13 19:07 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -150970,21 +153120,21 @@
   }
  ],
  "last_prices": {
-  "BTC": 71542,
+  "BTC": 68894,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 757.93,
+  "SPY": 754.57,
   "META": 615.42,
-  "AAPL": 355.58,
+  "AAPL": 359.77,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
   "GOOGL": 288.15,
   "QQQ": 659.27,
   "XLV": 188.33,
-  "MSFT": 522.79,
+  "MSFT": 522.72,
   "PLTR": 161.34,
-  "V": 422.61,
+  "V": 424.94,
   "BRK-B": 575.25,
   "ETH": 2090.87,
   "SOL": 85.3,
@@ -150995,11 +153145,11 @@
   "JPM": 336.69,
   "JNJ": 275.62,
   "BAC": 49.81,
-  "UNH": 404.96,
+  "UNH": 404.92,
   "COST": 1066.18,
   "XOM": 164.73,
   "CRM": 214.94,
-  "KO": 97.72,
+  "KO": 98.62,
   "NFLX": 63.64,
   "WMT": 125.66,
   "INTC": 98.12,
@@ -151028,8 +153178,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 77261.55,
-  "BTC_MA50": 80884.62,
+  "BTC_MA20": 76655.62,
+  "BTC_MA50": 80570.9,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -151048,20 +153198,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-13 00:01 (Tbilisi)",
-  "total_value": 441.95,
+  "time": "2026-11-13 19:07 (Tbilisi)",
+  "total_value": 443.5,
   "deposits_usd": 500,
-  "vs_deposits_usd": -58.05,
-  "vs_deposits_pct": -11.61,
-  "btc_bench": 434.15,
-  "vs_btc_usd": 7.8,
+  "vs_deposits_usd": -56.5,
+  "vs_deposits_pct": -11.3,
+  "btc_bench": 418.08,
+  "vs_btc_usd": 25.42,
   "bets": {
-   "n": 639,
-   "wins": 232,
+   "n": 640,
+   "wins": 233,
    "losses": 407,
-   "open": 24,
-   "pl_usd": -54.36,
-   "roi_pct": -4.5
+   "open": 31,
+   "pl_usd": -53.06,
+   "roi_pct": -4.4
   },
   "by_sport": {
    "NHL": {
@@ -151093,11 +153243,11 @@
     "roi_pct": 0.7
    },
    "NCAAF": {
-    "n": 61,
-    "wins": 26,
+    "n": 62,
+    "wins": 27,
     "losses": 35,
-    "pl_usd": -14.73,
-    "roi_pct": -12.2
+    "pl_usd": -13.43,
+    "roi_pct": -10.7
    },
    "NBA": {
     "n": 52,
@@ -151151,14 +153301,14 @@
   },
   "stocks": {
    "open_n": 6,
-   "value_usd": 61.64,
-   "unrealized_usd": 1.14,
+   "value_usd": 61.89,
+   "unrealized_usd": 1.39,
    "realized_usd": 0.48,
-   "total_pl_usd": 1.62
+   "total_pl_usd": 1.87
   },
-  "cash_usd": 318.7338,
-  "scanned": 56092,
-  "open_bets_usd": 61.58,
+  "cash_usd": 307.0138,
+  "scanned": 57791,
+  "open_bets_usd": 74.6,
   "desk_stats": {
    "FOOTBALL": {
     "n": 188,
@@ -151175,11 +153325,11 @@
     "roi_pct": -36.3
    },
    "US SPORTS": {
-    "n": 137,
-    "wins": 61,
+    "n": 138,
+    "wins": 62,
     "losses": 76,
-    "pl_usd": 5.25,
-    "roi_pct": 1.7
+    "pl_usd": 6.55,
+    "roi_pct": 2.0
    },
    "TENNIS": {
     "n": 1,
@@ -151230,9 +153380,23 @@
     "pl_usd": 0.48,
     "roi_pct": 0.5
    }
+  },
+  "brake": {
+   "mode": "learning",
+   "label_ka": "🧪 სასწავლო რეჟიმი (learning mode): ≤8 ფსონი/ციკლი, $1–$2.50",
+   "learning_mode_enabled": true,
+   "threshold": 450.0,
+   "stop_threshold": 400.0
+  },
+  "strategy_v2": {
+   "enabled": true,
+   "rules_ka": "კოეფ. ≤2.99 · EV ≤12% · NBA მხოლოდ ჩრდილში · NEWS shrink → block",
+   "nba_shadow_logged": 1,
+   "nba_shadow_settled": 0,
+   "nba_shadow_pl": 0
   }
  },
- "last_refresh": "2026-11-13 00:01 (Tbilisi)",
+ "last_refresh": "2026-11-13 19:07 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -152485,7 +154649,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-13 00:01 (Tbilisi)",
+  "updated": "2026-11-13 19:07 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -152521,16 +154685,16 @@
     "late_better": 65,
     "equal": 17,
     "avg_clv_pct": 0.84,
-    "no_close": 33,
+    "no_close": 34,
     "lean": "early"
    },
    "NCAAF": {
-    "n": 56,
-    "early_better": 38,
+    "n": 57,
+    "early_better": 39,
     "late_better": 16,
     "equal": 2,
-    "avg_clv_pct": 5.36,
-    "no_close": 17,
+    "avg_clv_pct": 5.28,
+    "no_close": 16,
     "lean": "early"
    },
    "NBA": {
@@ -152548,7 +154712,7 @@
     "late_better": 90,
     "equal": 3,
     "avg_clv_pct": 3.86,
-    "no_close": 19,
+    "no_close": 22,
     "lean": "early"
    },
    "NFL": {
@@ -152557,7 +154721,7 @@
     "late_better": 7,
     "equal": 1,
     "avg_clv_pct": 9.26,
-    "no_close": 2,
+    "no_close": 4,
     "lean": "early"
    },
    "Basketball": {
@@ -152575,7 +154739,7 @@
     "late_better": 0,
     "equal": 0,
     "avg_clv_pct": null,
-    "no_close": 8,
+    "no_close": 9,
     "lean": null
    },
    "NCAAB": {
@@ -152584,7 +154748,7 @@
     "late_better": 18,
     "equal": 5,
     "avg_clv_pct": -0.68,
-    "no_close": 1,
+    "no_close": 2,
     "lean": "late"
    }
   },
@@ -160189,6 +162353,18 @@
     "better": "late"
    },
    {
+    "id": "B657",
+    "sport": "NCAAF",
+    "event": "Louisiana Ragin' Cajuns @ UL-Monroe Warhawks",
+    "open": null,
+    "taken": 1.26,
+    "taken_time": "2026-11-10 00:04 (Tbilisi)",
+    "close": 1.2532,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869969",
+    "clv_pct": 0.54,
+    "better": "early"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -160409,17 +162585,6 @@
     "better": null
    },
    {
-    "id": "B657",
-    "sport": "NCAAF",
-    "event": "Louisiana Ragin' Cajuns @ UL-Monroe Warhawks",
-    "open": null,
-    "taken": 1.26,
-    "taken_time": "2026-11-10 00:04 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B658",
     "sport": "NCAAF",
     "event": "Wake Forest Demon Deacons @ SMU Mustangs",
@@ -160451,6 +162616,94 @@
     "close": null,
     "close_source": null,
     "better": null
+   },
+   {
+    "id": "B664",
+    "sport": "Polymarket",
+    "event": "SC Cambuur @ FC Utrecht",
+    "open": null,
+    "taken": 1.961,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B665",
+    "sport": "NFL",
+    "event": "Tampa Bay Buccaneers @ Detroit Lions",
+    "open": null,
+    "taken": 2.5,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B666",
+    "sport": "Polymarket",
+    "event": "Sandefjord @ Kristiansund BK",
+    "open": null,
+    "taken": 2.439,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B667",
+    "sport": "Polymarket",
+    "event": "Aberdeen @ Kilmarnock",
+    "open": null,
+    "taken": 2.703,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B668",
+    "sport": "NFL",
+    "event": "Kansas City Chiefs @ Atlanta Falcons",
+    "open": null,
+    "taken": 1.575,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B669",
+    "sport": "NCAAB",
+    "event": "DePaul Blue Demons @ Northwestern Wildcats",
+    "open": null,
+    "taken": 1.926,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B670",
+    "sport": "Football",
+    "event": "Villarreal @ Slavia Prague",
+    "open": null,
+    "taken": 2.28,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B671",
+    "sport": "UFC",
+    "event": "Josh Hokit @ Ciryl Gane",
+    "open": null,
+    "taken": 2.8,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
    }
   ]
  },
@@ -160469,8 +162722,8 @@
    "mean_clv_pct": -1.99
   },
   "NCAAF": {
-   "n": 56,
-   "mean_clv_pct": 1.04
+   "n": 57,
+   "mean_clv_pct": 0.96
   },
   "NFL": {
    "n": 21,
@@ -160492,5 +162745,45 @@
    "n": 41,
    "mean_clv_pct": -4.76
   }
- }
+ },
+ "v2_shadow_summary": {
+  "updated": "2026-11-13 19:07 (Tbilisi)",
+  "n_logged": 1,
+  "n_settled": 0,
+  "wins": 0,
+  "shadow_pl_usd": 0,
+  "shadow_staked": 0,
+  "mean_clv_pct": null
+ },
+ "v2_shadow_bets": [
+  {
+   "scan_id": "295201",
+   "sport": "NBA",
+   "via": "book",
+   "league": "nba",
+   "event": "Cleveland Cavaliers @ Miami Heat",
+   "home": "Miami Heat",
+   "away": "Cleveland Cavaliers",
+   "side": "away",
+   "sel": "Cleveland Cavaliers",
+   "odds": 2.18,
+   "book": "75",
+   "p": 0.5037,
+   "mkt": 0.4474,
+   "ev": 9.81,
+   "models": {
+    "ESPN": 0.643,
+    "DRatings": 0.477
+   },
+   "start": "2026-11-14T01:00:00.000Z",
+   "slug": null,
+   "shadow_stake": 5.0,
+   "v2_rule": "V2_nba_shadow",
+   "also_fails_v2": null,
+   "scan_stamp": "2026-11-13_1858",
+   "status": "open",
+   "recorded_at": "2026-11-13 18:58 (Tbilisi)",
+   "paper_shadow": true
+  }
+ ]
 }
