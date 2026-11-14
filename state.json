@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 292.1838,
+ "cash_usd": 297.7429,
  "open_bets": [
   {
    "id": "B077",
@@ -309,47 +309,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1218 id=289961)",
    "reasoning": "scan PASS EV=3.89% models=['ESPN']; scan stake $2.7 (raw 2.7; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.7",
    "scan_id": "289961"
-  },
-  {
-   "id": "B645",
-   "sport": "Polymarket",
-   "league": "soc_esp.2",
-   "event": "Castellón @ Real Valladolid",
-   "kickoff": "2026-11-14 17:00",
-   "selection": "Castellón",
-   "odds": 2.326,
-   "book": "Polymarket ask",
-   "p": 0.4539,
-   "implied_pct": 43.0,
-   "edge_pct": 5.56,
-   "stake": 2.39,
-   "status": "open",
-   "opened_at": "2026-11-09 12:25 (Tbilisi)",
-   "odds_time": "2026-11-09 12:25 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5082
-    },
-    "mkt": 0.3995,
-    "nbooks": 1,
-    "blend_p": 0.4539,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=es2-vld-cas-2026-11-14-cas",
-   "reasoning": "scan PASS EV=5.56% models=['EloFD']; scan stake $2.39 (raw 2.39; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.39",
-   "scan_id": "pm:es2-vld-cas-2026-11-14-cas",
-   "polymarket_slug": "es2-vld-cas-2026-11-14-cas",
-   "outcome_price": 0.4299,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Real Valladolid CF vs. CD Castellón",
-    "pm_league": "ESP2",
-    "pm_kickoff_utc": "2026-11-14T13:00Z",
-    "checked": "2026-11-09 12:25 (Tbilisi)",
-    "rule": "L007"
-   },
-   "elo_only": true
   },
   {
    "id": "B648",
@@ -33005,6 +32964,60 @@
     "note": "CLV -1.61% (1.926 vs DraftKings no-vig close 1.9576); final Northwestern Wildcats 47, DePaul Blue Demons 67 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B645",
+   "sport": "Polymarket",
+   "league": "soc_esp.2",
+   "event": "Castellón @ Real Valladolid",
+   "kickoff": "2026-11-14 17:00",
+   "selection": "Castellón",
+   "odds": 2.326,
+   "book": "Polymarket ask",
+   "p": 0.4539,
+   "implied_pct": 43.0,
+   "edge_pct": 5.56,
+   "stake": 2.39,
+   "status": "settled",
+   "opened_at": "2026-11-09 12:25 (Tbilisi)",
+   "odds_time": "2026-11-09 12:25 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5082
+    },
+    "mkt": 0.3995,
+    "nbooks": 1,
+    "blend_p": 0.4539,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=es2-vld-cas-2026-11-14-cas",
+   "reasoning": "scan PASS EV=5.56% models=['EloFD']; scan stake $2.39 (raw 2.39; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.39",
+   "scan_id": "pm:es2-vld-cas-2026-11-14-cas",
+   "polymarket_slug": "es2-vld-cas-2026-11-14-cas",
+   "outcome_price": 0.4299,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Real Valladolid CF vs. CD Castellón",
+    "pm_league": "ESP2",
+    "pm_kickoff_utc": "2026-11-14T13:00Z",
+    "checked": "2026-11-09 12:25 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "result": "won",
+   "pl_usd": 3.17,
+   "settled_at": "2026-11-14 19:44 (Tbilisi)",
+   "final_score": "Real Valladolid 0, Castellón 1 (FT)",
+   "score": "Real Valladolid 0, Castellón 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883114",
+   "settle_source": "ESPN esp.2 event 401883114 STATUS_FULL_TIME, Castellón winner; Polymarket Castellón Yes trading 0.9995 (UMA resolution pending)",
+   "closing_odds": 2.1,
+   "closing_fair_odds": 2.2342,
+   "clv_pct": 4.11,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+215', 'away': '+110', 'draw': '+270'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883114",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+215', 'away': '+110', 'draw': '+270'}; no-vig fair 2.2342; recorded HOURLY 2026-11-14 19:44 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome"
   }
  ],
  "positions": [
@@ -154896,7 +154909,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 65863,
+  "BTC": 65498,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 754.37,
@@ -154954,8 +154967,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 75919.61,
-  "BTC_MA50": 80195.96,
+  "BTC_MA20": 75900.66,
+  "BTC_MA50": 80188.38,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -154974,20 +154987,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-14 19:07 (Tbilisi)",
-  "total_value": 438.16,
+  "time": "2026-11-14 19:44 (Tbilisi)",
+  "total_value": 441.33,
   "deposits_usd": 500,
-  "vs_deposits_usd": -61.84,
-  "vs_deposits_pct": -12.37,
-  "btc_bench": 399.69,
-  "vs_btc_usd": 38.48,
+  "vs_deposits_usd": -58.67,
+  "vs_deposits_pct": -11.73,
+  "btc_bench": 397.47,
+  "vs_btc_usd": 43.86,
   "bets": {
-   "n": 642,
-   "wins": 233,
+   "n": 643,
+   "wins": 234,
    "losses": 409,
-   "open": 37,
-   "pl_usd": -58.44,
-   "roi_pct": -4.8
+   "open": 36,
+   "pl_usd": -55.27,
+   "roi_pct": -4.5
   },
   "by_sport": {
    "NHL": {
@@ -155033,11 +155046,11 @@
     "roi_pct": -39.1
    },
    "Polymarket": {
-    "n": 250,
-    "wins": 87,
+    "n": 251,
+    "wins": 88,
     "losses": 163,
-    "pl_usd": -12.69,
-    "roi_pct": -2.9
+    "pl_usd": -9.52,
+    "roi_pct": -2.1
    },
    "NFL": {
     "n": 21,
@@ -155082,9 +155095,9 @@
    "realized_usd": 0.48,
    "total_pl_usd": 1.91
   },
-  "cash_usd": 292.1838,
+  "cash_usd": 297.7429,
   "scanned": 49674,
-  "open_bets_usd": 84.05,
+  "open_bets_usd": 81.66,
   "desk_stats": {
    "FOOTBALL": {
     "n": 188,
@@ -155129,11 +155142,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 250,
-    "wins": 87,
+    "n": 251,
+    "wins": 88,
     "losses": 163,
-    "pl_usd": -12.69,
-    "roi_pct": -2.9
+    "pl_usd": -9.52,
+    "roi_pct": -2.1
    },
    "CRYPTO MAJORS": {
     "n": 5,
@@ -155172,7 +155185,7 @@
    "nba_shadow_pl": -5.0
   }
  },
- "last_refresh": "2026-11-14 19:07 (Tbilisi)",
+ "last_refresh": "2026-11-14 19:44 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -156425,7 +156438,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-14 19:07 (Tbilisi)",
+  "updated": "2026-11-14 19:44 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -156483,12 +156496,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 238,
-    "early_better": 145,
+    "n": 239,
+    "early_better": 146,
     "late_better": 90,
     "equal": 3,
-    "avg_clv_pct": 3.86,
-    "no_close": 23,
+    "avg_clv_pct": 3.89,
+    "no_close": 22,
     "lean": "early"
    },
    "NFL": {
@@ -164165,6 +164178,18 @@
     "better": "early"
    },
    {
+    "id": "B645",
+    "sport": "Polymarket",
+    "event": "Castellón @ Real Valladolid",
+    "open": null,
+    "taken": 2.326,
+    "taken_time": "2026-11-09 12:25 (Tbilisi)",
+    "close": 2.1,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883114",
+    "clv_pct": 10.76,
+    "better": "early"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -164269,17 +164294,6 @@
     "event": "Utah Utes @ Arizona Wildcats",
     "open": null,
     "taken": 1.82,
-    "taken_time": "2026-11-09 12:25 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B645",
-    "sport": "Polymarket",
-    "event": "Castellón @ Real Valladolid",
-    "open": null,
-    "taken": 2.326,
     "taken_time": "2026-11-09 12:25 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -164584,8 +164598,8 @@
    "mean_clv_pct": -4.81
   },
   "Polymarket": {
-   "n": 238,
-   "mean_clv_pct": -1.99
+   "n": 239,
+   "mean_clv_pct": -1.97
   },
   "NCAAF": {
    "n": 58,
