@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 297.7429,
+ "cash_usd": 342.2963,
  "open_bets": [
   {
    "id": "B077",
@@ -107,35 +107,6 @@
    "scan_id": "espn401878541"
   },
   {
-   "id": "B563",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Texas Tech Red Raiders @ Oklahoma State Cowboys",
-   "kickoff": "2026-11-14 09:00",
-   "selection": "Texas Tech Red Raiders",
-   "odds": 1.847,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.5707,
-   "implied_pct": 54.1,
-   "edge_pct": 5.43,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-11-05 08:58 (Tbilisi)",
-   "odds_time": "2026-11-05 08:58 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.624
-    },
-    "mkt": 0.5174,
-    "nbooks": 1,
-    "blend_p": 0.5707,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaaf/summary?event=401856863",
-   "reasoning": "scan PASS EV=5.43% models=['ESPN']; scan stake $5.0 (raw 7.78; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
-   "scan_id": "espn401856863"
-  },
-  {
    "id": "B626",
    "sport": "NFL",
    "league": "nfl",
@@ -163,35 +134,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nfl/summary?event=401873065",
    "reasoning": "scan PASS EV=4.33% models=['ESPN']; scan stake $2.59 (raw 2.59; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.59",
    "scan_id": "espn401873065"
-  },
-  {
-   "id": "B632",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Tennessee Volunteers @ Texas A&M Aggies",
-   "kickoff": "2026-11-14 09:00",
-   "selection": "Texas A&M Aggies",
-   "odds": 2.3,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.4565,
-   "implied_pct": 43.5,
-   "edge_pct": 5.0,
-   "stake": 4.51,
-   "status": "open",
-   "opened_at": "2026-11-08 09:03 (Tbilisi)",
-   "odds_time": "2026-11-08 09:03 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.496
-    },
-    "mkt": 0.417,
-    "nbooks": 1,
-    "blend_p": 0.4565,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaaf/summary?event=401856888",
-   "reasoning": "scan PASS EV=5.0% models=['ESPN']; scan stake $4.51 (raw 4.51; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $4.51",
-   "scan_id": "espn401856888"
   },
   {
    "id": "B634",
@@ -224,93 +166,6 @@
    "elo_only": true
   },
   {
-   "id": "B636",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Texas Longhorns @ LSU Tigers",
-   "kickoff": "2026-11-14 09:00",
-   "selection": "Texas Longhorns",
-   "odds": 2.45,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.4319,
-   "implied_pct": 40.8,
-   "edge_pct": 5.81,
-   "stake": 2.0,
-   "status": "open",
-   "opened_at": "2026-11-08 19:06 (Tbilisi)",
-   "odds_time": "2026-11-08 19:06 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.473
-    },
-    "mkt": 0.3908,
-    "nbooks": 1,
-    "blend_p": 0.4319,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaaf/summary?event=401856885",
-   "reasoning": "scan PASS EV=5.81% models=['ESPN']; scan stake $4.79 (raw 4.79; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.0; NEWS shrink → TITAN APPROVED at $2.0",
-   "scan_id": "espn401856885"
-  },
-  {
-   "id": "B642",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Washington Huskies @ Michigan State Spartans",
-   "kickoff": "2026-11-15 01:15",
-   "selection": "Michigan State Spartans",
-   "odds": 2.7,
-   "book": "Action Network real book id68",
-   "p": 0.4232,
-   "implied_pct": 37.0,
-   "edge_pct": 14.26,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-11-09 12:25 (Tbilisi)",
-   "odds_time": "2026-11-09 12:25 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.482
-    },
-    "mkt": 0.3644,
-    "nbooks": 5,
-    "blend_p": 0.4232,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1218 id=289957)",
-   "reasoning": "scan PASS EV=14.26% models=['ESPN']; scan stake $5.0 (raw 9.52; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
-   "scan_id": "289957"
-  },
-  {
-   "id": "B644",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Utah Utes @ Arizona Wildcats",
-   "kickoff": "2026-11-15 04:30",
-   "selection": "Utah Utes",
-   "odds": 1.82,
-   "book": "Action Network real book id69",
-   "p": 0.5709,
-   "implied_pct": 54.9,
-   "edge_pct": 3.89,
-   "stake": 2.7,
-   "status": "open",
-   "opened_at": "2026-11-09 12:25 (Tbilisi)",
-   "odds_time": "2026-11-09 12:25 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.604
-    },
-    "mkt": 0.5378,
-    "nbooks": 5,
-    "blend_p": 0.5709,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1218 id=289961)",
-   "reasoning": "scan PASS EV=3.89% models=['ESPN']; scan stake $2.7 (raw 2.7; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.7",
-   "scan_id": "289961"
-  },
-  {
    "id": "B648",
    "sport": "Football",
    "league": "ligue1",
@@ -339,35 +194,6 @@
    "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-09_1854 id=296315)",
    "reasoning": "scan PASS EV=7.83% models=['EloFD', 'DRatings']; scan stake $4.23 (raw 4.23; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.0; NEWS shrink → TITAN APPROVED at $2.0",
    "scan_id": "296315"
-  },
-  {
-   "id": "B649",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Appalachian State Mountaineers @ Marshall Thundering Herd",
-   "kickoff": "2026-11-15 03:00",
-   "selection": "Appalachian State Mountaineers",
-   "odds": 1.833,
-   "book": "Action Network real book id68",
-   "p": 0.5719,
-   "implied_pct": 54.6,
-   "edge_pct": 4.85,
-   "stake": 3.29,
-   "status": "open",
-   "opened_at": "2026-11-09 19:02 (Tbilisi)",
-   "odds_time": "2026-11-09 19:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.606
-    },
-    "mkt": 0.5378,
-    "nbooks": 5,
-    "blend_p": 0.5719,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=290043)",
-   "reasoning": "scan PASS EV=4.85% models=['ESPN']; scan stake $3.29 (raw 3.29; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $3.29",
-   "scan_id": "290043"
   },
   {
    "id": "B651",
@@ -411,35 +237,6 @@
    }
   },
   {
-   "id": "B652",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Florida Gators @ Kentucky Wildcats",
-   "kickoff": "2026-11-15 03:15",
-   "selection": "Florida Gators",
-   "odds": 2.4,
-   "book": "Action Network real book id68",
-   "p": 0.4343,
-   "implied_pct": 41.7,
-   "edge_pct": 4.24,
-   "stake": 1.72,
-   "status": "open",
-   "opened_at": "2026-11-09 19:02 (Tbilisi)",
-   "odds_time": "2026-11-09 19:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.462
-    },
-    "mkt": 0.4066,
-    "nbooks": 5,
-    "blend_p": 0.4343,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=289969)",
-   "reasoning": "scan PASS EV=4.24% models=['ESPN']; scan stake $1.72 (raw 1.72; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.72",
-   "scan_id": "289969"
-  },
-  {
    "id": "B653",
    "sport": "Polymarket",
    "league": "seriea",
@@ -481,35 +278,6 @@
    }
   },
   {
-   "id": "B654",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Cincinnati Bearcats @ Iowa State Cyclones",
-   "kickoff": "2026-11-14 21:00",
-   "selection": "Cincinnati Bearcats",
-   "odds": 2.24,
-   "book": "Action Network real book id68",
-   "p": 0.4603,
-   "implied_pct": 44.6,
-   "edge_pct": 3.12,
-   "stake": 1.42,
-   "status": "open",
-   "opened_at": "2026-11-09 19:02 (Tbilisi)",
-   "odds_time": "2026-11-09 19:02 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.486
-    },
-    "mkt": 0.4347,
-    "nbooks": 5,
-    "blend_p": 0.4603,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=289977)",
-   "reasoning": "scan PASS EV=3.12% models=['ESPN']; scan stake $1.42 (raw 1.42; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.42",
-   "scan_id": "289977"
-  },
-  {
    "id": "B655",
    "sport": "Polymarket",
    "league": "ligue1",
@@ -549,105 +317,6 @@
     "checked": "2026-11-09 19:02 (Tbilisi)",
     "rule": "L007"
    }
-  },
-  {
-   "id": "B656",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "North Texas Mean Green @ UTSA Roadrunners",
-   "kickoff": "2026-11-15 06:00",
-   "selection": "North Texas Mean Green",
-   "odds": 1.826,
-   "book": "Action Network real book id71",
-   "p": 0.5812,
-   "implied_pct": 54.8,
-   "edge_pct": 6.16,
-   "stake": 5.0,
-   "status": "open",
-   "opened_at": "2026-11-10 00:04 (Tbilisi)",
-   "odds_time": "2026-11-10 00:04 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.63
-    },
-    "mkt": 0.5325,
-    "nbooks": 5,
-    "blend_p": 0.5812,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_2353 id=290046)",
-   "reasoning": "scan PASS EV=6.16% models=['ESPN']; scan stake $5.0 (raw 8.55; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
-   "scan_id": "290046"
-  },
-  {
-   "id": "B658",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Wake Forest Demon Deacons @ SMU Mustangs",
-   "kickoff": "2026-11-14 21:00",
-   "selection": "Wake Forest Demon Deacons",
-   "odds": 1.901,
-   "book": "Action Network real book id69",
-   "p": 0.5536,
-   "implied_pct": 52.6,
-   "edge_pct": 5.23,
-   "stake": 3.0,
-   "status": "open",
-   "opened_at": "2026-11-10 00:04 (Tbilisi)",
-   "odds_time": "2026-11-10 00:04 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.594
-    },
-    "mkt": 0.5132,
-    "nbooks": 5,
-    "blend_p": 0.5536,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_2353 id=289964)",
-   "reasoning": "scan PASS EV=5.23% models=['ESPN']; scan stake $5.0 (raw 6.7; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $3.0; NEWS shrink → TITAN APPROVED at $3.0",
-   "scan_id": "289964"
-  },
-  {
-   "id": "B659",
-   "sport": "Polymarket",
-   "league": "soc_eng.4",
-   "event": "Newport County @ Crewe Alexandra",
-   "kickoff": "2026-11-14 19:00",
-   "selection": "Crewe Alexandra",
-   "odds": 2.128,
-   "book": "Polymarket ask",
-   "p": 0.4893,
-   "implied_pct": 47.0,
-   "edge_pct": 4.11,
-   "stake": 1.05,
-   "status": "open",
-   "opened_at": "2026-11-10 00:04 (Tbilisi)",
-   "odds_time": "2026-11-10 00:04 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5174
-    },
-    "mkt": 0.4613,
-    "nbooks": 1,
-    "blend_p": 0.4893,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el2-cre-new-2026-11-14-cre",
-   "reasoning": "scan PASS EV=4.11% models=['EloFD']; scan stake $1.05 (raw 1.05; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.05",
-   "scan_id": "pm:el2-cre-new-2026-11-14-cre",
-   "polymarket_slug": "el2-cre-new-2026-11-14-cre",
-   "outcome_price": 0.4699,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "Crewe Alexandra FC vs. Newport County AFC",
-    "pm_league": "ENG4",
-    "pm_kickoff_utc": "2026-11-14T15:00Z",
-    "checked": "2026-11-10 00:04 (Tbilisi)",
-    "rule": "L007"
-   },
-   "elo_only": true
   },
   {
    "id": "B661",
@@ -896,159 +565,6 @@
    "learning_mode": true
   },
   {
-   "id": "B671",
-   "sport": "UFC",
-   "league": "ufc",
-   "event": "Josh Hokit @ Ciryl Gane",
-   "kickoff": "2026-11-15 07:30",
-   "selection": "Josh Hokit",
-   "odds": 2.8,
-   "book": "Action Network real book id68",
-   "p": 0.3773,
-   "implied_pct": 35.7,
-   "edge_pct": 5.64,
-   "stake": 1.74,
-   "status": "open",
-   "opened_at": "2026-11-13 19:07 (Tbilisi)",
-   "odds_time": "2026-11-13 19:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "DRatings": 0.392
-    },
-    "mkt": 0.3625,
-    "nbooks": 4,
-    "blend_p": 0.3773,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ufc (scan/2026-11-13_1858 id=114227)",
-   "reasoning": "scan PASS EV=5.64% models=['DRatings']; scan stake $3.48 (raw 3.48; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $1.74; NEWS clear → TITAN APPROVED at $1.74",
-   "scan_id": "114227",
-   "learning_mode": true
-  },
-  {
-   "id": "B672",
-   "sport": "NCAAB",
-   "league": "ncaab",
-   "event": "IU Indianapolis Jaguars @ Morehead State Eagles",
-   "kickoff": "2026-11-15 04:30",
-   "selection": "Morehead State Eagles",
-   "odds": 2.14,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.5183,
-   "implied_pct": 46.7,
-   "edge_pct": 10.91,
-   "stake": 2.5,
-   "status": "open",
-   "opened_at": "2026-11-14 19:07 (Tbilisi)",
-   "odds_time": "2026-11-14 19:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.678,
-     "DRatings": 0.498
-    },
-    "mkt": 0.4486,
-    "nbooks": 1,
-    "blend_p": 0.5183,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401920961",
-   "reasoning": "scan PASS EV=10.91% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 10.49; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
-   "scan_id": "espn401920961",
-   "learning_mode": true
-  },
-  {
-   "id": "B673",
-   "sport": "Football",
-   "league": "soc_bra.2",
-   "event": "Goiás @ Sport",
-   "kickoff": "2026-11-14 23:30",
-   "selection": "Sport",
-   "odds": 2.75,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.4018,
-   "implied_pct": 36.4,
-   "edge_pct": 10.51,
-   "stake": 2.5,
-   "status": "open",
-   "opened_at": "2026-11-14 19:07 (Tbilisi)",
-   "odds_time": "2026-11-14 19:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "FTS": 0.46
-    },
-    "mkt": 0.3437,
-    "nbooks": 1,
-    "blend_p": 0.4018,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/summary?event=401860433",
-   "reasoning": "scan PASS EV=10.51% models=['FTS']; scan stake $5.0 (raw 6.57; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
-   "scan_id": "espn401860433",
-   "learning_mode": true
-  },
-  {
-   "id": "B674",
-   "sport": "NCAAB",
-   "league": "ncaab",
-   "event": "LSU Tigers @ Gonzaga Bulldogs",
-   "kickoff": "2026-11-15 00:30",
-   "selection": "Gonzaga Bulldogs",
-   "odds": 1.488,
-   "book": "Action Network real book id69",
-   "p": 0.7261,
-   "implied_pct": 67.2,
-   "edge_pct": 8.03,
-   "stake": 2.5,
-   "status": "open",
-   "opened_at": "2026-11-14 19:07 (Tbilisi)",
-   "odds_time": "2026-11-14 19:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.861,
-     "DRatings": 0.716
-    },
-    "mkt": 0.6636,
-    "nbooks": 5,
-    "blend_p": 0.7261,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaab (scan/2026-11-14_1901 id=297799)",
-   "reasoning": "scan PASS EV=8.03% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 18.06; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
-   "scan_id": "297799",
-   "learning_mode": true
-  },
-  {
-   "id": "B675",
-   "sport": "NCAAF",
-   "league": "ncaaf",
-   "event": "Nevada Wolf Pack @ Northern Illinois Huskies",
-   "kickoff": "2026-11-15 00:30",
-   "selection": "Nevada Wolf Pack",
-   "odds": 1.488,
-   "book": "Action Network real book id69",
-   "p": 0.708,
-   "implied_pct": 67.2,
-   "edge_pct": 5.33,
-   "stake": 2.5,
-   "status": "open",
-   "opened_at": "2026-11-14 19:07 (Tbilisi)",
-   "odds_time": "2026-11-14 19:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.742,
-     "DRatings": 0.761
-    },
-    "mkt": 0.6644,
-    "nbooks": 5,
-    "blend_p": 0.708,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-14_1901 id=290040)",
-   "reasoning": "scan PASS EV=5.33% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 12.01; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
-   "scan_id": "290040",
-   "learning_mode": true
-  },
-  {
    "id": "B676",
    "sport": "Football",
    "league": "soc_eng.2",
@@ -1080,107 +596,276 @@
    "elo_only": true
   },
   {
-   "id": "B677",
-   "sport": "UFC",
-   "league": "ufc",
-   "event": "Chris Duncan @ Drew Dober",
-   "kickoff": "2026-11-15 04:40",
-   "selection": "Drew Dober",
-   "odds": 2.65,
-   "book": "Action Network real book id75",
-   "p": 0.3969,
-   "implied_pct": 37.7,
-   "edge_pct": 5.17,
-   "stake": 1.72,
-   "status": "open",
-   "opened_at": "2026-11-14 19:07 (Tbilisi)",
-   "odds_time": "2026-11-14 19:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "DRatings": 0.42
-    },
-    "mkt": 0.3737,
-    "nbooks": 4,
-    "blend_p": 0.3969,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ufc (scan/2026-11-14_1901 id=114221)",
-   "reasoning": "scan PASS EV=5.17% models=['DRatings']; scan stake $3.44 (raw 3.44; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $1.72; NEWS clear → TITAN APPROVED at $1.72",
-   "scan_id": "114221",
-   "learning_mode": true
-  },
-  {
-   "id": "B678",
+   "id": "B680",
    "sport": "NCAAB",
    "league": "ncaab",
-   "event": "Montana Grizzlies @ North Dakota Fighting Hawks",
-   "kickoff": "2026-11-15 06:00",
-   "selection": "Montana Grizzlies",
-   "odds": 1.98,
+   "event": "UAlbany Great Danes @ Holy Cross Crusaders",
+   "kickoff": "2026-11-15 23:00",
+   "selection": "Holy Cross Crusaders",
+   "odds": 2.42,
    "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.5251,
-   "implied_pct": 50.5,
-   "edge_pct": 3.98,
-   "stake": 1.11,
+   "p": 0.4579,
+   "implied_pct": 41.3,
+   "edge_pct": 10.8,
+   "stake": 2.5,
    "status": "open",
-   "opened_at": "2026-11-14 19:07 (Tbilisi)",
-   "odds_time": "2026-11-14 19:07 (Tbilisi)",
+   "opened_at": "2026-11-15 18:58 (Tbilisi)",
+   "odds_time": "2026-11-15 18:58 (Tbilisi)",
    "model_inputs": {
     "models": {
-     "ESPN": 0.63,
-     "DRatings": 0.505
+     "ESPN": 0.586,
+     "DRatings": 0.453
     },
-    "mkt": 0.4826,
+    "mkt": 0.3962,
     "nbooks": 1,
-    "blend_p": 0.5251,
+    "blend_p": 0.4579,
     "elo_only": false
    },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401922031",
-   "reasoning": "scan PASS EV=3.98% models=['ESPN', 'DRatings']; scan stake $2.22 (raw 2.22; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $1.11; NEWS clear → TITAN APPROVED at $1.11",
-   "scan_id": "espn401922031",
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401921287",
+   "reasoning": "scan PASS EV=10.8% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 8.45; A4/LEDGER applied in scan.py); LEARNING MODE (bank $444.12 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "espn401921287",
    "learning_mode": true
   },
   {
-   "id": "B679",
+   "id": "B681",
    "sport": "Polymarket",
-   "league": "soc_col.1",
-   "event": "Independiente Medellín @ Águilas Doradas",
-   "kickoff": "2026-11-15 00:30",
-   "selection": "Águilas Doradas",
-   "odds": 2.564,
+   "league": "soc_ger.2",
+   "event": "VfL Osnabruck @ Karlsruher SC",
+   "kickoff": "2026-11-22 16:30",
+   "selection": "Karlsruher SC",
+   "odds": 2.273,
    "book": "Polymarket ask",
-   "p": 0.402,
-   "implied_pct": 39.0,
-   "edge_pct": 3.08,
+   "p": 0.4615,
+   "implied_pct": 44.0,
+   "edge_pct": 4.89,
    "stake": 1.0,
    "status": "open",
-   "opened_at": "2026-11-14 19:07 (Tbilisi)",
-   "odds_time": "2026-11-14 19:07 (Tbilisi)",
+   "opened_at": "2026-11-15 18:58 (Tbilisi)",
+   "odds_time": "2026-11-15 18:58 (Tbilisi)",
    "model_inputs": {
     "models": {
-     "FTS": 0.42
+     "EloFD": 0.5035
     },
-    "mkt": 0.384,
+    "mkt": 0.4196,
     "nbooks": 1,
-    "blend_p": 0.402,
-    "elo_only": false
+    "blend_p": 0.4615,
+    "elo_only": true
    },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=col1-gdr-inm-2026-11-14-gdr",
-   "reasoning": "scan PASS EV=3.08% models=['FTS']; scan stake $1.08 (raw 1.08; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "pm:col1-gdr-inm-2026-11-14-gdr",
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bl2-ksc-vfl-2026-11-22-ksc",
+   "reasoning": "scan PASS EV=4.89% models=['EloFD']; scan stake $1.07 (raw 1.07; A4/LEDGER applied in scan.py); LEARNING MODE (bank $444.12 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:bl2-ksc-vfl-2026-11-22-ksc",
    "learning_mode": true,
-   "polymarket_slug": "col1-gdr-inm-2026-11-14-gdr",
+   "polymarket_slug": "bl2-ksc-vfl-2026-11-22-ksc",
+   "outcome_price": 0.4399,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Karlsruher SC vs. VfL Osnabrück",
+    "pm_league": "GER2",
+    "pm_kickoff_utc": "2026-11-22T12:30Z",
+    "checked": "2026-11-15 18:58 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true
+  },
+  {
+   "id": "B682",
+   "sport": "Polymarket",
+   "league": "soc_jpn.1",
+   "event": "Avispa Fukuoka @ Kawasaki Frontale",
+   "kickoff": "2026-11-21 10:00",
+   "selection": "Kawasaki Frontale",
+   "odds": 1.887,
+   "book": "Polymarket ask",
+   "p": 0.5511,
+   "implied_pct": 53.0,
+   "edge_pct": 3.98,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-11-15 18:58 (Tbilisi)",
+   "odds_time": "2026-11-15 18:58 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.6087
+    },
+    "mkt": 0.4935,
+    "nbooks": 1,
+    "blend_p": 0.5511,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=jap-kaw-avi-2026-11-21-kaw",
+   "reasoning": "scan PASS EV=3.98% models=['EloFD']; scan stake $1.25 (raw 1.25; A4/LEDGER applied in scan.py); LEARNING MODE (bank $444.12 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:jap-kaw-avi-2026-11-21-kaw",
+   "learning_mode": true,
+   "polymarket_slug": "jap-kaw-avi-2026-11-21-kaw",
+   "outcome_price": 0.5299,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Kawasaki Frontale vs. Avispa Fukuoka",
+    "pm_league": "JPN1",
+    "pm_kickoff_utc": "2026-11-21T06:00Z",
+    "checked": "2026-11-15 18:58 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true
+  },
+  {
+   "id": "B683",
+   "sport": "Polymarket",
+   "league": "soc_eng.2",
+   "event": "West Bromwich Albion @ Swansea City",
+   "kickoff": "2026-11-21 19:00",
+   "selection": "Swansea City",
+   "odds": 2.564,
+   "book": "Polymarket ask",
+   "p": 0.4041,
+   "implied_pct": 39.0,
+   "edge_pct": 3.62,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-11-15 18:58 (Tbilisi)",
+   "odds_time": "2026-11-15 18:58 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4278
+    },
+    "mkt": 0.3804,
+    "nbooks": 1,
+    "blend_p": 0.4041,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=elc-swa-wba-2026-11-21-swa",
+   "reasoning": "scan PASS EV=3.62% models=['EloFD']; scan stake $1.0 (raw 0.64; A4/LEDGER applied in scan.py); LEARNING MODE (bank $444.12 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:elc-swa-wba-2026-11-21-swa",
+   "learning_mode": true,
+   "polymarket_slug": "elc-swa-wba-2026-11-21-swa",
    "outcome_price": 0.39,
    "match_check": {
     "status": "ok",
     "issues": [],
-    "pm_title": "Águilas Doradas Rionegro vs. Independiente Medellín",
-    "pm_league": "COL1",
-    "pm_kickoff_utc": "2026-11-14T20:30Z",
-    "checked": "2026-11-14 19:07 (Tbilisi)",
+    "pm_title": "Swansea City AFC vs. West Bromwich Albion FC",
+    "pm_league": "ENG2",
+    "pm_kickoff_utc": "2026-11-21T15:00Z",
+    "checked": "2026-11-15 18:58 (Tbilisi)",
     "rule": "L007"
    },
+   "elo_only": true,
    "tb1_dog_25_40": true
+  },
+  {
+   "id": "B684",
+   "sport": "Football",
+   "league": "champions",
+   "event": "FC Porto @ Feyenoord",
+   "kickoff": "2026-11-25 00:00",
+   "selection": "Feyenoord",
+   "odds": 2.95,
+   "book": "Action Network real book id71",
+   "p": 0.3509,
+   "implied_pct": 33.9,
+   "edge_pct": 3.52,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-11-15 18:58 (Tbilisi)",
+   "odds_time": "2026-11-15 18:58 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.354
+    },
+    "mkt": 0.3478,
+    "nbooks": 4,
+    "blend_p": 0.3509,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-15_1847 id=296545)",
+   "reasoning": "scan PASS EV=3.52% models=['DRatings']; scan stake $1.0 (raw 1.0; A4/LEDGER applied in scan.py); LEARNING MODE (bank $444.12 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "296545",
+   "learning_mode": true
+  },
+  {
+   "id": "B685",
+   "sport": "Polymarket",
+   "league": "soc_eng.3",
+   "event": "Leicester City @ Huddersfield Town",
+   "kickoff": "2026-11-21 19:00",
+   "selection": "Huddersfield Town",
+   "odds": 1.961,
+   "book": "Polymarket ask",
+   "p": 0.5273,
+   "implied_pct": 51.0,
+   "edge_pct": 3.39,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-11-15 18:58 (Tbilisi)",
+   "odds_time": "2026-11-15 18:58 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5735
+    },
+    "mkt": 0.481,
+    "nbooks": 1,
+    "blend_p": 0.5273,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el1-hud-lei-2026-11-21-hud",
+   "reasoning": "scan PASS EV=3.39% models=['EloFD']; scan stake $1.0 (raw 0.98; A4/LEDGER applied in scan.py); LEARNING MODE (bank $444.12 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:el1-hud-lei-2026-11-21-hud",
+   "learning_mode": true,
+   "polymarket_slug": "el1-hud-lei-2026-11-21-hud",
+   "outcome_price": 0.5099,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Huddersfield Town AFC vs. Leicester City FC",
+    "pm_league": "ENG3",
+    "pm_kickoff_utc": "2026-11-21T15:00Z",
+    "checked": "2026-11-15 18:58 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true
+  },
+  {
+   "id": "B686",
+   "sport": "Polymarket",
+   "league": "ligue1",
+   "event": "Brest @ Strasbourg",
+   "kickoff": "2026-11-21 23:45",
+   "selection": "Strasbourg",
+   "odds": 2.273,
+   "book": "Polymarket ask",
+   "p": 0.4544,
+   "implied_pct": 44.0,
+   "edge_pct": 3.27,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-11-15 18:58 (Tbilisi)",
+   "odds_time": "2026-11-15 18:58 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4634,
+     "DRatings": 0.491
+    },
+    "mkt": 0.4316,
+    "nbooks": 4,
+    "blend_p": 0.4544,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=fl1-str-sbr-2026-11-21-str",
+   "reasoning": "scan PASS EV=3.27% models=['EloFD', 'DRatings']; scan stake $1.43 (raw 1.43; A4/LEDGER applied in scan.py); LEARNING MODE (bank $444.12 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:fl1-str-sbr-2026-11-21-str",
+   "learning_mode": true,
+   "polymarket_slug": "fl1-str-sbr-2026-11-21-str",
+   "outcome_price": 0.4399,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "RC Strasbourg Alsace vs. Stade Brestois 29",
+    "pm_league": "FRA1",
+    "pm_kickoff_utc": "2026-11-21T19:45:00.000Z",
+    "checked": "2026-11-15 18:58 (Tbilisi)",
+    "rule": "L007"
+   }
   }
  ],
  "settled_bets": [
@@ -33018,6 +32703,895 @@
    "closing_book": "DraftKings (ESPN pickcenter) {'home': '+215', 'away': '+110', 'draw': '+270'}",
    "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883114",
    "closing_note": "DraftKings close via ESPN pickcenter {'home': '+215', 'away': '+110', 'draw': '+270'}; no-vig fair 2.2342; recorded HOURLY 2026-11-14 19:44 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome"
+  },
+  {
+   "id": "B563",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Texas Tech Red Raiders @ Oklahoma State Cowboys",
+   "kickoff": "2026-11-14 09:00",
+   "selection": "Texas Tech Red Raiders",
+   "odds": 1.847,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5707,
+   "implied_pct": 54.1,
+   "edge_pct": 5.43,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-11-05 08:58 (Tbilisi)",
+   "odds_time": "2026-11-05 08:58 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.624
+    },
+    "mkt": 0.5174,
+    "nbooks": 1,
+    "blend_p": 0.5707,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaaf/summary?event=401856863",
+   "reasoning": "scan PASS EV=5.43% models=['ESPN']; scan stake $5.0 (raw 7.78; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "espn401856863",
+   "result": "won",
+   "pl_usd": 4.23,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Oklahoma State Cowboys 27, Texas Tech Red Raiders 52 (FT)",
+   "score": "Oklahoma State Cowboys 27, Texas Tech Red Raiders 52 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856863",
+   "settle_source": "ESPN ncaaf event 401856863 STATUS_FINAL, Texas Tech Red Raiders winner",
+   "closing_odds": 2.6,
+   "closing_fair_odds": 2.7096,
+   "clv_pct": -31.83,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-192', 'away': '+160'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856863",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-192', 'away': '+160'}; no-vig fair 2.7096; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B632",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Tennessee Volunteers @ Texas A&M Aggies",
+   "kickoff": "2026-11-14 09:00",
+   "selection": "Texas A&M Aggies",
+   "odds": 2.3,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.4565,
+   "implied_pct": 43.5,
+   "edge_pct": 5.0,
+   "stake": 4.51,
+   "status": "settled",
+   "opened_at": "2026-11-08 09:03 (Tbilisi)",
+   "odds_time": "2026-11-08 09:03 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.496
+    },
+    "mkt": 0.417,
+    "nbooks": 1,
+    "blend_p": 0.4565,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaaf/summary?event=401856888",
+   "reasoning": "scan PASS EV=5.0% models=['ESPN']; scan stake $4.51 (raw 4.51; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $4.51",
+   "scan_id": "espn401856888",
+   "result": "lost",
+   "pl_usd": -4.51,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Texas A&M Aggies 7, Tennessee Volunteers 22 (FT)",
+   "score": "Texas A&M Aggies 7, Tennessee Volunteers 22 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856888",
+   "settle_source": "ESPN ncaaf event 401856888 STATUS_FINAL, Tennessee Volunteers winner",
+   "closing_odds": 1.9524,
+   "closing_fair_odds": 2.0443,
+   "clv_pct": 12.51,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-105', 'away': '-115'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856888",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-105', 'away': '-115'}; no-vig fair 2.0443; recorded MID 2026-11-15 18:46 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-15 18:46 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +12.51% (2.3 vs DraftKings no-vig close 2.0443); final Texas A&M Aggies 7, Tennessee Volunteers 22 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B636",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Texas Longhorns @ LSU Tigers",
+   "kickoff": "2026-11-14 09:00",
+   "selection": "Texas Longhorns",
+   "odds": 2.45,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.4319,
+   "implied_pct": 40.8,
+   "edge_pct": 5.81,
+   "stake": 2.0,
+   "status": "settled",
+   "opened_at": "2026-11-08 19:06 (Tbilisi)",
+   "odds_time": "2026-11-08 19:06 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.473
+    },
+    "mkt": 0.3908,
+    "nbooks": 1,
+    "blend_p": 0.4319,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaaf/summary?event=401856885",
+   "reasoning": "scan PASS EV=5.81% models=['ESPN']; scan stake $4.79 (raw 4.79; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $2.0; NEWS shrink → TITAN APPROVED at $2.0",
+   "scan_id": "espn401856885",
+   "result": "won",
+   "pl_usd": 2.9,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "LSU Tigers 21, Texas Longhorns 22 (FT)",
+   "score": "LSU Tigers 21, Texas Longhorns 22 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856885",
+   "settle_source": "ESPN ncaaf event 401856885 STATUS_FINAL, Texas Longhorns winner",
+   "closing_odds": 2.7,
+   "closing_fair_odds": 2.8148,
+   "clv_pct": -12.96,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-205', 'away': '+170'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856885",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-205', 'away': '+170'}; no-vig fair 2.8148; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B642",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Washington Huskies @ Michigan State Spartans",
+   "kickoff": "2026-11-15 01:15",
+   "selection": "Michigan State Spartans",
+   "odds": 2.7,
+   "book": "Action Network real book id68",
+   "p": 0.4232,
+   "implied_pct": 37.0,
+   "edge_pct": 14.26,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-11-09 12:25 (Tbilisi)",
+   "odds_time": "2026-11-09 12:25 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.482
+    },
+    "mkt": 0.3644,
+    "nbooks": 5,
+    "blend_p": 0.4232,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1218 id=289957)",
+   "reasoning": "scan PASS EV=14.26% models=['ESPN']; scan stake $5.0 (raw 9.52; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "289957",
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Michigan State Spartans 14, Washington Huskies 21 (FT)",
+   "score": "Michigan State Spartans 14, Washington Huskies 21 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858521",
+   "settle_source": "ESPN ncaaf event 401858521 STATUS_FINAL, Washington Huskies winner",
+   "closing_odds": 2.2,
+   "closing_fair_odds": 2.2909,
+   "clv_pct": 17.86,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+120', 'away': '-142'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858521",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+120', 'away': '-142'}; no-vig fair 2.2909; recorded MID 2026-11-15 18:46 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-15 18:46 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +17.86% (2.7 vs DraftKings no-vig close 2.2909); final Michigan State Spartans 14, Washington Huskies 21 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B644",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Utah Utes @ Arizona Wildcats",
+   "kickoff": "2026-11-15 04:30",
+   "selection": "Utah Utes",
+   "odds": 1.82,
+   "book": "Action Network real book id69",
+   "p": 0.5709,
+   "implied_pct": 54.9,
+   "edge_pct": 3.89,
+   "stake": 2.7,
+   "status": "settled",
+   "opened_at": "2026-11-09 12:25 (Tbilisi)",
+   "odds_time": "2026-11-09 12:25 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.604
+    },
+    "mkt": 0.5378,
+    "nbooks": 5,
+    "blend_p": 0.5709,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1218 id=289961)",
+   "reasoning": "scan PASS EV=3.89% models=['ESPN']; scan stake $2.7 (raw 2.7; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.7",
+   "scan_id": "289961",
+   "result": "won",
+   "pl_usd": 2.21,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Arizona Wildcats 39, Utah Utes 40 (FT)",
+   "score": "Arizona Wildcats 39, Utah Utes 40 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856864",
+   "settle_source": "ESPN ncaaf event 401856864 STATUS_FINAL, Utah Utes winner",
+   "closing_odds": 1.7042,
+   "closing_fair_odds": 1.7746,
+   "clv_pct": 2.56,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+120', 'away': '-142'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856864",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+120', 'away': '-142'}; no-vig fair 1.7746; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B649",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Appalachian State Mountaineers @ Marshall Thundering Herd",
+   "kickoff": "2026-11-15 03:00",
+   "selection": "Appalachian State Mountaineers",
+   "odds": 1.833,
+   "book": "Action Network real book id68",
+   "p": 0.5719,
+   "implied_pct": 54.6,
+   "edge_pct": 4.85,
+   "stake": 3.29,
+   "status": "settled",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.606
+    },
+    "mkt": 0.5378,
+    "nbooks": 5,
+    "blend_p": 0.5719,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=290043)",
+   "reasoning": "scan PASS EV=4.85% models=['ESPN']; scan stake $3.29 (raw 3.29; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $3.29",
+   "scan_id": "290043",
+   "result": "won",
+   "pl_usd": 2.74,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Marshall Thundering Herd 16, App State Mountaineers 20 (FT)",
+   "score": "Marshall Thundering Herd 16, App State Mountaineers 20 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869928",
+   "settle_source": "ESPN ncaaf event 401869928 STATUS_FINAL, App State Mountaineers winner",
+   "closing_odds": 1.9524,
+   "closing_fair_odds": 2.0443,
+   "clv_pct": -10.34,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-115', 'away': '-105'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869928",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-115', 'away': '-105'}; no-vig fair 2.0443; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B652",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Florida Gators @ Kentucky Wildcats",
+   "kickoff": "2026-11-15 03:15",
+   "selection": "Florida Gators",
+   "odds": 2.4,
+   "book": "Action Network real book id68",
+   "p": 0.4343,
+   "implied_pct": 41.7,
+   "edge_pct": 4.24,
+   "stake": 1.72,
+   "status": "settled",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.462
+    },
+    "mkt": 0.4066,
+    "nbooks": 5,
+    "blend_p": 0.4343,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=289969)",
+   "reasoning": "scan PASS EV=4.24% models=['ESPN']; scan stake $1.72 (raw 1.72; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.72",
+   "scan_id": "289969",
+   "result": "won",
+   "pl_usd": 2.41,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Kentucky Wildcats 14, Florida Gators 21 (FT)",
+   "score": "Kentucky Wildcats 14, Florida Gators 21 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856884",
+   "settle_source": "ESPN ncaaf event 401856884 STATUS_FINAL, Florida Gators winner",
+   "closing_odds": 2.24,
+   "closing_fair_odds": 2.3368,
+   "clv_pct": 2.7,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-148', 'away': '+124'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856884",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-148', 'away': '+124'}; no-vig fair 2.3368; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B654",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Cincinnati Bearcats @ Iowa State Cyclones",
+   "kickoff": "2026-11-14 21:00",
+   "selection": "Cincinnati Bearcats",
+   "odds": 2.24,
+   "book": "Action Network real book id68",
+   "p": 0.4603,
+   "implied_pct": 44.6,
+   "edge_pct": 3.12,
+   "stake": 1.42,
+   "status": "settled",
+   "opened_at": "2026-11-09 19:02 (Tbilisi)",
+   "odds_time": "2026-11-09 19:02 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.486
+    },
+    "mkt": 0.4347,
+    "nbooks": 5,
+    "blend_p": 0.4603,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_1854 id=289977)",
+   "reasoning": "scan PASS EV=3.12% models=['ESPN']; scan stake $1.42 (raw 1.42; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.42",
+   "scan_id": "289977",
+   "result": "lost",
+   "pl_usd": -1.42,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Iowa State Cyclones 41, Cincinnati Bearcats 13 (FT)",
+   "score": "Iowa State Cyclones 41, Cincinnati Bearcats 13 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856859",
+   "settle_source": "ESPN ncaaf event 401856859 STATUS_FINAL, Iowa State Cyclones winner",
+   "closing_odds": 2.1,
+   "closing_fair_odds": 2.187,
+   "clv_pct": 2.42,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-130', 'away': '+110'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856859",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-130', 'away': '+110'}; no-vig fair 2.187; recorded MID 2026-11-15 18:46 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-15 18:46 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +2.42% (2.24 vs DraftKings no-vig close 2.187); final Iowa State Cyclones 41, Cincinnati Bearcats 13 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B656",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "North Texas Mean Green @ UTSA Roadrunners",
+   "kickoff": "2026-11-15 06:00",
+   "selection": "North Texas Mean Green",
+   "odds": 1.826,
+   "book": "Action Network real book id71",
+   "p": 0.5812,
+   "implied_pct": 54.8,
+   "edge_pct": 6.16,
+   "stake": 5.0,
+   "status": "settled",
+   "opened_at": "2026-11-10 00:04 (Tbilisi)",
+   "odds_time": "2026-11-10 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.63
+    },
+    "mkt": 0.5325,
+    "nbooks": 5,
+    "blend_p": 0.5812,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_2353 id=290046)",
+   "reasoning": "scan PASS EV=6.16% models=['ESPN']; scan stake $5.0 (raw 8.55; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $5.0",
+   "scan_id": "290046",
+   "result": "lost",
+   "pl_usd": -5.0,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "UTSA Roadrunners 35, North Texas Mean Green 16 (FT)",
+   "score": "UTSA Roadrunners 35, North Texas Mean Green 16 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862827",
+   "settle_source": "ESPN ncaaf event 401862827 STATUS_FINAL, UTSA Roadrunners winner",
+   "closing_odds": 1.7042,
+   "closing_fair_odds": 1.7746,
+   "clv_pct": 2.9,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+120', 'away': '-142'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862827",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+120', 'away': '-142'}; no-vig fair 1.7746; recorded MID 2026-11-15 18:46 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-15 18:46 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +2.90% (1.826 vs DraftKings no-vig close 1.7746); final UTSA Roadrunners 35, North Texas Mean Green 16 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B658",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Wake Forest Demon Deacons @ SMU Mustangs",
+   "kickoff": "2026-11-14 21:00",
+   "selection": "Wake Forest Demon Deacons",
+   "odds": 1.901,
+   "book": "Action Network real book id69",
+   "p": 0.5536,
+   "implied_pct": 52.6,
+   "edge_pct": 5.23,
+   "stake": 3.0,
+   "status": "settled",
+   "opened_at": "2026-11-10 00:04 (Tbilisi)",
+   "odds_time": "2026-11-10 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.594
+    },
+    "mkt": 0.5132,
+    "nbooks": 5,
+    "blend_p": 0.5536,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-09_2353 id=289964)",
+   "reasoning": "scan PASS EV=5.23% models=['ESPN']; scan stake $5.0 (raw 6.7; A4/LEDGER applied in scan.py); NEWS/TITAN shrink → $3.0; NEWS shrink → TITAN APPROVED at $3.0",
+   "scan_id": "289964",
+   "result": "won",
+   "pl_usd": 2.7,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "SMU Mustangs 7, Wake Forest Demon Deacons 49 (FT)",
+   "score": "SMU Mustangs 7, Wake Forest Demon Deacons 49 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858301",
+   "settle_source": "ESPN ncaaf event 401858301 STATUS_FINAL, Wake Forest Demon Deacons winner",
+   "closing_odds": 2.2,
+   "closing_fair_odds": 2.2909,
+   "clv_pct": -17.02,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-142', 'away': '+120'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858301",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-142', 'away': '+120'}; no-vig fair 2.2909; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B659",
+   "sport": "Polymarket",
+   "league": "soc_eng.4",
+   "event": "Newport County @ Crewe Alexandra",
+   "kickoff": "2026-11-14 19:00",
+   "selection": "Crewe Alexandra",
+   "odds": 2.128,
+   "book": "Polymarket ask",
+   "p": 0.4893,
+   "implied_pct": 47.0,
+   "edge_pct": 4.11,
+   "stake": 1.05,
+   "status": "settled",
+   "opened_at": "2026-11-10 00:04 (Tbilisi)",
+   "odds_time": "2026-11-10 00:04 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5174
+    },
+    "mkt": 0.4613,
+    "nbooks": 1,
+    "blend_p": 0.4893,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el2-cre-new-2026-11-14-cre",
+   "reasoning": "scan PASS EV=4.11% models=['EloFD']; scan stake $1.05 (raw 1.05; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.05",
+   "scan_id": "pm:el2-cre-new-2026-11-14-cre",
+   "polymarket_slug": "el2-cre-new-2026-11-14-cre",
+   "outcome_price": 0.4699,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Crewe Alexandra FC vs. Newport County AFC",
+    "pm_league": "ENG4",
+    "pm_kickoff_utc": "2026-11-14T15:00Z",
+    "checked": "2026-11-10 00:04 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "result": "lost",
+   "pl_usd": -1.05,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Crewe Alexandra 2, Newport County 2 (FT)",
+   "score": "Crewe Alexandra 2, Newport County 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.4/summary?event=401881274",
+   "settle_source": "ESPN eng.4 event 401881274 STATUS_FULL_TIME, draw; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 2.15,
+   "closing_fair_odds": 2.2747,
+   "clv_pct": -6.45,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+115', 'away': '+230', 'draw': '+245'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.4/summary?event=401881274",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+115', 'away': '+230', 'draw': '+245'}; no-vig fair 2.2747; recorded MID 2026-11-15 18:46 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-15 18:46 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -6.45% (2.128 vs DraftKings no-vig close 2.2747); final Crewe Alexandra 2, Newport County 2 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B672",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "IU Indianapolis Jaguars @ Morehead State Eagles",
+   "kickoff": "2026-11-15 04:30",
+   "selection": "Morehead State Eagles",
+   "odds": 2.14,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5183,
+   "implied_pct": 46.7,
+   "edge_pct": 10.91,
+   "stake": 2.5,
+   "status": "settled",
+   "opened_at": "2026-11-14 19:07 (Tbilisi)",
+   "odds_time": "2026-11-14 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.678,
+     "DRatings": 0.498
+    },
+    "mkt": 0.4486,
+    "nbooks": 1,
+    "blend_p": 0.5183,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401920961",
+   "reasoning": "scan PASS EV=10.91% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 10.49; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "espn401920961",
+   "learning_mode": true,
+   "result": "won",
+   "pl_usd": 2.85,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Morehead State Eagles 79, IU Indianapolis Jaguars 75 (FT)",
+   "score": "Morehead State Eagles 79, IU Indianapolis Jaguars 75 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401920961",
+   "settle_source": "ESPN ncaab event 401920961 STATUS_FINAL, Morehead State Eagles winner",
+   "closing_odds": 2.1,
+   "closing_fair_odds": 2.187,
+   "clv_pct": -2.15,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+110', 'away': '-130'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401920961",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+110', 'away': '-130'}; no-vig fair 2.187; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B673",
+   "sport": "Football",
+   "league": "soc_bra.2",
+   "event": "Goiás @ Sport",
+   "kickoff": "2026-11-14 23:30",
+   "selection": "Sport",
+   "odds": 2.75,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.4018,
+   "implied_pct": 36.4,
+   "edge_pct": 10.51,
+   "stake": 2.5,
+   "status": "settled",
+   "opened_at": "2026-11-14 19:07 (Tbilisi)",
+   "odds_time": "2026-11-14 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.46
+    },
+    "mkt": 0.3437,
+    "nbooks": 1,
+    "blend_p": 0.4018,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/summary?event=401860433",
+   "reasoning": "scan PASS EV=10.51% models=['FTS']; scan stake $5.0 (raw 6.57; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "espn401860433",
+   "learning_mode": true,
+   "result": "won",
+   "pl_usd": 4.38,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Sport 3, Goiás 0 (FT)",
+   "score": "Sport 3, Goiás 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/summary?event=401860433",
+   "settle_source": "ESPN bra.2 event 401860433 STATUS_FULL_TIME, Sport winner",
+   "closing_odds": 2.55,
+   "closing_fair_odds": 2.7083,
+   "clv_pct": 1.54,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+155', 'away': '+155', 'draw': '+260'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/summary?event=401860433",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+155', 'away': '+155', 'draw': '+260'}; no-vig fair 2.7083; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B674",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "LSU Tigers @ Gonzaga Bulldogs",
+   "kickoff": "2026-11-15 00:30",
+   "selection": "Gonzaga Bulldogs",
+   "odds": 1.488,
+   "book": "Action Network real book id69",
+   "p": 0.7261,
+   "implied_pct": 67.2,
+   "edge_pct": 8.03,
+   "stake": 2.5,
+   "status": "settled",
+   "opened_at": "2026-11-14 19:07 (Tbilisi)",
+   "odds_time": "2026-11-14 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.861,
+     "DRatings": 0.716
+    },
+    "mkt": 0.6636,
+    "nbooks": 5,
+    "blend_p": 0.7261,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaab (scan/2026-11-14_1901 id=297799)",
+   "reasoning": "scan PASS EV=8.03% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 18.06; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "297799",
+   "learning_mode": true,
+   "result": "lost",
+   "pl_usd": -2.5,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Gonzaga Bulldogs 80, LSU Tigers 81 (FT)",
+   "score": "Gonzaga Bulldogs 80, LSU Tigers 81 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401921689",
+   "settle_source": "ESPN ncaab event 401921689 STATUS_FINAL, LSU Tigers winner",
+   "closing_odds": 1.4587,
+   "closing_fair_odds": 1.521,
+   "clv_pct": -2.17,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-218', 'away': '+180'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401921689",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-218', 'away': '+180'}; no-vig fair 1.521; recorded MID 2026-11-15 18:46 (Tbilisi)",
+   "postmortem": {
+    "time": "2026-11-15 18:46 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -2.17% (1.488 vs DraftKings no-vig close 1.521); final Gonzaga Bulldogs 80, LSU Tigers 81 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B675",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Nevada Wolf Pack @ Northern Illinois Huskies",
+   "kickoff": "2026-11-15 00:30",
+   "selection": "Nevada Wolf Pack",
+   "odds": 1.488,
+   "book": "Action Network real book id69",
+   "p": 0.708,
+   "implied_pct": 67.2,
+   "edge_pct": 5.33,
+   "stake": 2.5,
+   "status": "settled",
+   "opened_at": "2026-11-14 19:07 (Tbilisi)",
+   "odds_time": "2026-11-14 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.742,
+     "DRatings": 0.761
+    },
+    "mkt": 0.6644,
+    "nbooks": 5,
+    "blend_p": 0.708,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-14_1901 id=290040)",
+   "reasoning": "scan PASS EV=5.33% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 12.01; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "290040",
+   "learning_mode": true,
+   "result": "won",
+   "pl_usd": 1.22,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Northern Illinois Huskies 7, Nevada Wolf Pack 28 (FT)",
+   "score": "Northern Illinois Huskies 7, Nevada Wolf Pack 28 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864536",
+   "settle_source": "ESPN ncaaf event 401864536 STATUS_FINAL, Nevada Wolf Pack winner",
+   "closing_odds": 1.4202,
+   "closing_fair_odds": 1.4814,
+   "clv_pct": 0.45,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+195', 'away': '-238'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864536",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+195', 'away': '-238'}; no-vig fair 1.4814; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B678",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "Montana Grizzlies @ North Dakota Fighting Hawks",
+   "kickoff": "2026-11-15 06:00",
+   "selection": "Montana Grizzlies",
+   "odds": 1.98,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5251,
+   "implied_pct": 50.5,
+   "edge_pct": 3.98,
+   "stake": 1.11,
+   "status": "settled",
+   "opened_at": "2026-11-14 19:07 (Tbilisi)",
+   "odds_time": "2026-11-14 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.63,
+     "DRatings": 0.505
+    },
+    "mkt": 0.4826,
+    "nbooks": 1,
+    "blend_p": 0.5251,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401922031",
+   "reasoning": "scan PASS EV=3.98% models=['ESPN', 'DRatings']; scan stake $2.22 (raw 2.22; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $1.11; NEWS clear → TITAN APPROVED at $1.11",
+   "scan_id": "espn401922031",
+   "learning_mode": true,
+   "result": "won",
+   "pl_usd": 1.09,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "North Dakota Fighting Hawks 71, Montana Grizzlies 80 (FT)",
+   "score": "North Dakota Fighting Hawks 71, Montana Grizzlies 80 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401922031",
+   "settle_source": "ESPN ncaab event 401922031 STATUS_FINAL, Montana Grizzlies winner",
+   "closing_odds": 1.8696,
+   "closing_fair_odds": 1.9576,
+   "clv_pct": 1.14,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-105', 'away': '-115'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401922031",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-105', 'away': '-115'}; no-vig fair 1.9576; recorded MID 2026-11-15 18:46 (Tbilisi)"
+  },
+  {
+   "id": "B679",
+   "sport": "Polymarket",
+   "league": "soc_col.1",
+   "event": "Independiente Medellín @ Águilas Doradas",
+   "kickoff": "2026-11-15 00:30",
+   "selection": "Águilas Doradas",
+   "odds": 2.564,
+   "book": "Polymarket ask",
+   "p": 0.402,
+   "implied_pct": 39.0,
+   "edge_pct": 3.08,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-14 19:07 (Tbilisi)",
+   "odds_time": "2026-11-14 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "FTS": 0.42
+    },
+    "mkt": 0.384,
+    "nbooks": 1,
+    "blend_p": 0.402,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=col1-gdr-inm-2026-11-14-gdr",
+   "reasoning": "scan PASS EV=3.08% models=['FTS']; scan stake $1.08 (raw 1.08; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:col1-gdr-inm-2026-11-14-gdr",
+   "learning_mode": true,
+   "polymarket_slug": "col1-gdr-inm-2026-11-14-gdr",
+   "outcome_price": 0.39,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Águilas Doradas Rionegro vs. Independiente Medellín",
+    "pm_league": "COL1",
+    "pm_kickoff_utc": "2026-11-14T20:30Z",
+    "checked": "2026-11-14 19:07 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-11-15 18:46 (Tbilisi)",
+   "final_score": "Águilas Doradas 0, Independiente Medellín 1 (FT)",
+   "score": "Águilas Doradas 0, Independiente Medellín 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/summary?event=401877770",
+   "settle_source": "ESPN col.1 event 401877770 STATUS_FULL_TIME, Independiente Medellín winner; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 2.35,
+   "closing_fair_odds": 2.5476,
+   "clv_pct": 0.64,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+135', 'away': '+185', 'draw': '+225'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/summary?event=401877770",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+135', 'away': '+185', 'draw': '+225'}; no-vig fair 2.5476; recorded MID 2026-11-15 18:46 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-15 18:46 (Tbilisi)",
+    "cause": "variance",
+    "clv_sign": "+",
+    "note": "CLV +0.64% (2.564 vs DraftKings no-vig close 2.5476); final Águilas Doradas 0, Independiente Medellín 1 (FT). Price beat the close — loss is variance.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B671",
+   "sport": "UFC",
+   "league": "ufc",
+   "event": "Josh Hokit @ Ciryl Gane",
+   "kickoff": "2026-11-15 07:30",
+   "selection": "Josh Hokit",
+   "odds": 2.8,
+   "book": "Action Network real book id68",
+   "p": 0.3773,
+   "implied_pct": 35.7,
+   "edge_pct": 5.64,
+   "stake": 1.74,
+   "status": "settled",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.392
+    },
+    "mkt": 0.3625,
+    "nbooks": 4,
+    "blend_p": 0.3773,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ufc (scan/2026-11-13_1858 id=114227)",
+   "reasoning": "scan PASS EV=5.64% models=['DRatings']; scan stake $3.48 (raw 3.48; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $1.74; NEWS clear → TITAN APPROVED at $1.74",
+   "scan_id": "114227",
+   "learning_mode": true,
+   "result": "lost",
+   "pl_usd": -1.74,
+   "settled_at": "2026-11-15 18:47 (Tbilisi)",
+   "final_score": "Ciryl Gane def. Josh Hokit (FINAL)",
+   "score": "Ciryl Gane def. Josh Hokit (FINAL)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261114",
+   "settle_source": "ESPN UFC event 600061400 bout 401913646 STATUS_FINAL, Ciryl Gane winner",
+   "closing_odds": null,
+   "closing_note": "no real close recorded (UFC; ESPN pickcenter n/a)",
+   "postmortem": {
+    "time": "2026-11-15 18:47 (Tbilisi)",
+    "cause": "variance (no close)",
+    "clv_sign": null,
+    "note": "No real close recorded; final Ciryl Gane def. Josh Hokit (FINAL).",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B677",
+   "sport": "UFC",
+   "league": "ufc",
+   "event": "Chris Duncan @ Drew Dober",
+   "kickoff": "2026-11-15 04:40",
+   "selection": "Drew Dober",
+   "odds": 2.65,
+   "book": "Action Network real book id75",
+   "p": 0.3969,
+   "implied_pct": 37.7,
+   "edge_pct": 5.17,
+   "stake": 1.72,
+   "status": "settled",
+   "opened_at": "2026-11-14 19:07 (Tbilisi)",
+   "odds_time": "2026-11-14 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.42
+    },
+    "mkt": 0.3737,
+    "nbooks": 4,
+    "blend_p": 0.3969,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ufc (scan/2026-11-14_1901 id=114221)",
+   "reasoning": "scan PASS EV=5.17% models=['DRatings']; scan stake $3.44 (raw 3.44; A4/LEDGER applied in scan.py); LEARNING MODE (bank $438.16 ≤ -10% vs $500): half stake → $1.72; NEWS clear → TITAN APPROVED at $1.72",
+   "scan_id": "114221",
+   "learning_mode": true,
+   "result": "lost",
+   "pl_usd": -1.72,
+   "settled_at": "2026-11-15 18:47 (Tbilisi)",
+   "final_score": "Chris Duncan def. Drew Dober (FINAL)",
+   "score": "Chris Duncan def. Drew Dober (FINAL)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261114",
+   "settle_source": "ESPN UFC event 600061400 bout 401922642 STATUS_FINAL, Chris Duncan winner",
+   "closing_odds": null,
+   "closing_note": "no real close recorded (UFC; ESPN pickcenter n/a)",
+   "postmortem": {
+    "time": "2026-11-15 18:47 (Tbilisi)",
+    "cause": "variance (no close)",
+    "clv_sign": null,
+    "note": "No real close recorded; final Chris Duncan def. Drew Dober (FINAL).",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -34350,6 +34924,14 @@
    "total_value": 438.16,
    "cash": 292.1838,
    "btc_bench": 399.69
+  },
+  {
+   "date": "2026-11-15",
+   "slot": "MID",
+   "time": "2026-11-15 18:58 (Tbilisi)",
+   "total_value": 444.12,
+   "cash": 342.2963,
+   "btc_bench": 392.12
   }
  ],
  "benchmarks_start": {
@@ -154569,6 +155151,1623 @@
    },
    "settle_note": "ESPN/gamma finals: 2 settled 0W/2L -5.38 — B639 Illinois Fighting Illini lost (UCLA Bruins 22, Illinois Fighting Illini 14); B669 Northwestern Wildcats lost (Northwestern Wildcats 47, DePaul Blue Demons 67). Left open (not final / B294 postponed): B563, B632, B636, B645, B659.",
    "closed_at": "2026-11-14 19:07 (Tbilisi)"
+  },
+  {
+   "date": "2026-11-15",
+   "slot": "MID",
+   "time": "2026-11-15 18:46 (Tbilisi)",
+   "status": "complete",
+   "note": "LEARNING MODE (bank $444.12 = -11.2% vs $500 deposits): 7 learning bets at $1-$2.50 (max 8), 0 approved candidates over the limit skipped. MID: 7 new bets (scan 9 PASS), TITAN blocked 2, shrunk 0, settled 19 (+2.79), ledger 19, post-mortems 9, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: 0 SL/TP, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 22W/34L +19.18, Polymarket 39W/68L +10.63, NBA 8W/22L -28.25",
+   "ledger": [
+    {
+     "id": "B563",
+     "odds": 1.847,
+     "close": 2.6,
+     "fair": 2.7096,
+     "clv_pct": -31.83,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856863"
+    },
+    {
+     "id": "B632",
+     "odds": 2.3,
+     "close": 1.9524,
+     "fair": 2.0443,
+     "clv_pct": 12.51,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856888"
+    },
+    {
+     "id": "B636",
+     "odds": 2.45,
+     "close": 2.7,
+     "fair": 2.8148,
+     "clv_pct": -12.96,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856885"
+    },
+    {
+     "id": "B642",
+     "odds": 2.7,
+     "close": 2.2,
+     "fair": 2.2909,
+     "clv_pct": 17.86,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858521"
+    },
+    {
+     "id": "B644",
+     "odds": 1.82,
+     "close": 1.7042,
+     "fair": 1.7746,
+     "clv_pct": 2.56,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856864"
+    },
+    {
+     "id": "B649",
+     "odds": 1.833,
+     "close": 1.9524,
+     "fair": 2.0443,
+     "clv_pct": -10.34,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869928"
+    },
+    {
+     "id": "B652",
+     "odds": 2.4,
+     "close": 2.24,
+     "fair": 2.3368,
+     "clv_pct": 2.7,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856884"
+    },
+    {
+     "id": "B654",
+     "odds": 2.24,
+     "close": 2.1,
+     "fair": 2.187,
+     "clv_pct": 2.42,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856859"
+    },
+    {
+     "id": "B656",
+     "odds": 1.826,
+     "close": 1.7042,
+     "fair": 1.7746,
+     "clv_pct": 2.9,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862827"
+    },
+    {
+     "id": "B658",
+     "odds": 1.901,
+     "close": 2.2,
+     "fair": 2.2909,
+     "clv_pct": -17.02,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858301"
+    },
+    {
+     "id": "B659",
+     "odds": 2.128,
+     "close": 2.15,
+     "fair": 2.2747,
+     "clv_pct": -6.45,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.4/summary?event=401881274"
+    },
+    {
+     "id": "B672",
+     "odds": 2.14,
+     "close": 2.1,
+     "fair": 2.187,
+     "clv_pct": -2.15,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401920961"
+    },
+    {
+     "id": "B673",
+     "odds": 2.75,
+     "close": 2.55,
+     "fair": 2.7083,
+     "clv_pct": 1.54,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/summary?event=401860433"
+    },
+    {
+     "id": "B674",
+     "odds": 1.488,
+     "close": 1.4587,
+     "fair": 1.521,
+     "clv_pct": -2.17,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401921689"
+    },
+    {
+     "id": "B675",
+     "odds": 1.488,
+     "close": 1.4202,
+     "fair": 1.4814,
+     "clv_pct": 0.45,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864536"
+    },
+    {
+     "id": "B678",
+     "odds": 1.98,
+     "close": 1.8696,
+     "fair": 1.9576,
+     "clv_pct": 1.14,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401922031"
+    },
+    {
+     "id": "B679",
+     "odds": 2.564,
+     "close": 2.35,
+     "fair": 2.5476,
+     "clv_pct": 0.64,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/summary?event=401877770"
+    },
+    {
+     "id": "B671",
+     "odds": 2.8,
+     "close": null,
+     "fair": null,
+     "clv_pct": null,
+     "source": null
+    },
+    {
+     "id": "B677",
+     "odds": 2.65,
+     "close": null,
+     "fair": null,
+     "clv_pct": null,
+     "source": null
+    }
+   ],
+   "postmortem": [
+    {
+     "id": "B632",
+     "cause": "variance",
+     "clv_pct": 12.51,
+     "note": "CLV +12.51% (2.3 vs DraftKings no-vig close 2.0443); final Texas A&M Aggies 7, Tennessee Volunteers 22 (FT). Price beat the close — loss is variance.",
+     "lesson": null
+    },
+    {
+     "id": "B642",
+     "cause": "variance",
+     "clv_pct": 17.86,
+     "note": "CLV +17.86% (2.7 vs DraftKings no-vig close 2.2909); final Michigan State Spartans 14, Washington Huskies 21 (FT). Price beat the close — loss is variance.",
+     "lesson": null
+    },
+    {
+     "id": "B654",
+     "cause": "variance",
+     "clv_pct": 2.42,
+     "note": "CLV +2.42% (2.24 vs DraftKings no-vig close 2.187); final Iowa State Cyclones 41, Cincinnati Bearcats 13 (FT). Price beat the close — loss is variance.",
+     "lesson": null
+    },
+    {
+     "id": "B656",
+     "cause": "variance",
+     "clv_pct": 2.9,
+     "note": "CLV +2.90% (1.826 vs DraftKings no-vig close 1.7746); final UTSA Roadrunners 35, North Texas Mean Green 16 (FT). Price beat the close — loss is variance.",
+     "lesson": null
+    },
+    {
+     "id": "B659",
+     "cause": "price+variance",
+     "clv_pct": -6.45,
+     "note": "CLV -6.45% (2.128 vs DraftKings no-vig close 2.2747); final Crewe Alexandra 2, Newport County 2 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
+    },
+    {
+     "id": "B674",
+     "cause": "price+variance",
+     "clv_pct": -2.17,
+     "note": "CLV -2.17% (1.488 vs DraftKings no-vig close 1.521); final Gonzaga Bulldogs 80, LSU Tigers 81 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
+    },
+    {
+     "id": "B679",
+     "cause": "variance",
+     "clv_pct": 0.64,
+     "note": "CLV +0.64% (2.564 vs DraftKings no-vig close 2.5476); final Águilas Doradas 0, Independiente Medellín 1 (FT). Price beat the close — loss is variance.",
+     "lesson": null
+    },
+    {
+     "id": "B671",
+     "cause": "variance (no close)",
+     "clv_pct": null,
+     "note": "No real close recorded; final Ciryl Gane def. Josh Hokit (FINAL).",
+     "lesson": null
+    },
+    {
+     "id": "B677",
+     "cause": "variance (no close)",
+     "clv_pct": null,
+     "note": "No real close recorded; final Chris Duncan def. Drew Dober (FINAL).",
+     "lesson": null
+    }
+   ],
+   "not_final_left_open": [],
+   "research": {
+    "settled": [
+     {
+      "id": "B563",
+      "event": "Texas Tech Red Raiders @ Oklahoma State Cowboys",
+      "sel": "Texas Tech Red Raiders",
+      "odds": 1.847,
+      "stake": 5.0,
+      "result": "won",
+      "pl_usd": 4.23,
+      "score": "Oklahoma State Cowboys 27, Texas Tech Red Raiders 52",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B632",
+      "event": "Tennessee Volunteers @ Texas A&M Aggies",
+      "sel": "Texas A&M Aggies",
+      "odds": 2.3,
+      "stake": 4.51,
+      "result": "lost",
+      "pl_usd": -4.51,
+      "score": "Texas A&M Aggies 7, Tennessee Volunteers 22",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B636",
+      "event": "Texas Longhorns @ LSU Tigers",
+      "sel": "Texas Longhorns",
+      "odds": 2.45,
+      "stake": 2.0,
+      "result": "won",
+      "pl_usd": 2.9,
+      "score": "LSU Tigers 21, Texas Longhorns 22",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B642",
+      "event": "Washington Huskies @ Michigan State Spartans",
+      "sel": "Michigan State Spartans",
+      "odds": 2.7,
+      "stake": 5.0,
+      "result": "lost",
+      "pl_usd": -5.0,
+      "score": "Michigan State Spartans 14, Washington Huskies 21",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B644",
+      "event": "Utah Utes @ Arizona Wildcats",
+      "sel": "Utah Utes",
+      "odds": 1.82,
+      "stake": 2.7,
+      "result": "won",
+      "pl_usd": 2.21,
+      "score": "Arizona Wildcats 39, Utah Utes 40",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B649",
+      "event": "Appalachian State Mountaineers @ Marshall Thundering Herd",
+      "sel": "Appalachian State Mountaineers",
+      "odds": 1.833,
+      "stake": 3.29,
+      "result": "won",
+      "pl_usd": 2.74,
+      "score": "Marshall Thundering Herd 16, App State Mountaineers 20",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B652",
+      "event": "Florida Gators @ Kentucky Wildcats",
+      "sel": "Florida Gators",
+      "odds": 2.4,
+      "stake": 1.72,
+      "result": "won",
+      "pl_usd": 2.41,
+      "score": "Kentucky Wildcats 14, Florida Gators 21",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B654",
+      "event": "Cincinnati Bearcats @ Iowa State Cyclones",
+      "sel": "Cincinnati Bearcats",
+      "odds": 2.24,
+      "stake": 1.42,
+      "result": "lost",
+      "pl_usd": -1.42,
+      "score": "Iowa State Cyclones 41, Cincinnati Bearcats 13",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B656",
+      "event": "North Texas Mean Green @ UTSA Roadrunners",
+      "sel": "North Texas Mean Green",
+      "odds": 1.826,
+      "stake": 5.0,
+      "result": "lost",
+      "pl_usd": -5.0,
+      "score": "UTSA Roadrunners 35, North Texas Mean Green 16",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B658",
+      "event": "Wake Forest Demon Deacons @ SMU Mustangs",
+      "sel": "Wake Forest Demon Deacons",
+      "odds": 1.901,
+      "stake": 3.0,
+      "result": "won",
+      "pl_usd": 2.7,
+      "score": "SMU Mustangs 7, Wake Forest Demon Deacons 49",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B659",
+      "event": "Newport County @ Crewe Alexandra",
+      "sel": "Crewe Alexandra",
+      "odds": 2.128,
+      "stake": 1.05,
+      "result": "lost",
+      "pl_usd": -1.05,
+      "score": "Crewe Alexandra 2, Newport County 2",
+      "sport": "Polymarket"
+     },
+     {
+      "id": "B672",
+      "event": "IU Indianapolis Jaguars @ Morehead State Eagles",
+      "sel": "Morehead State Eagles",
+      "odds": 2.14,
+      "stake": 2.5,
+      "result": "won",
+      "pl_usd": 2.85,
+      "score": "Morehead State Eagles 79, IU Indianapolis Jaguars 75",
+      "sport": "NCAAB"
+     },
+     {
+      "id": "B673",
+      "event": "Goiás @ Sport",
+      "sel": "Sport",
+      "odds": 2.75,
+      "stake": 2.5,
+      "result": "won",
+      "pl_usd": 4.38,
+      "score": "Sport 3, Goiás 0",
+      "sport": "Football"
+     },
+     {
+      "id": "B674",
+      "event": "LSU Tigers @ Gonzaga Bulldogs",
+      "sel": "Gonzaga Bulldogs",
+      "odds": 1.488,
+      "stake": 2.5,
+      "result": "lost",
+      "pl_usd": -2.5,
+      "score": "Gonzaga Bulldogs 80, LSU Tigers 81",
+      "sport": "NCAAB"
+     },
+     {
+      "id": "B675",
+      "event": "Nevada Wolf Pack @ Northern Illinois Huskies",
+      "sel": "Nevada Wolf Pack",
+      "odds": 1.488,
+      "stake": 2.5,
+      "result": "won",
+      "pl_usd": 1.22,
+      "score": "Northern Illinois Huskies 7, Nevada Wolf Pack 28",
+      "sport": "NCAAF"
+     },
+     {
+      "id": "B678",
+      "event": "Montana Grizzlies @ North Dakota Fighting Hawks",
+      "sel": "Montana Grizzlies",
+      "odds": 1.98,
+      "stake": 1.11,
+      "result": "won",
+      "pl_usd": 1.09,
+      "score": "North Dakota Fighting Hawks 71, Montana Grizzlies 80",
+      "sport": "NCAAB"
+     },
+     {
+      "id": "B679",
+      "event": "Independiente Medellín @ Águilas Doradas",
+      "sel": "Águilas Doradas",
+      "odds": 2.564,
+      "stake": 1.0,
+      "result": "lost",
+      "pl_usd": -1.0,
+      "score": "Águilas Doradas 0, Independiente Medellín 1",
+      "sport": "Polymarket"
+     },
+     {
+      "id": "B671",
+      "event": "Josh Hokit @ Ciryl Gane",
+      "sel": "Josh Hokit",
+      "odds": 2.8,
+      "stake": 1.74,
+      "result": "lost",
+      "pl_usd": -1.74,
+      "score": "Ciryl Gane def. Josh Hokit (FINAL)",
+      "sport": "UFC"
+     },
+     {
+      "id": "B677",
+      "event": "Chris Duncan @ Drew Dober",
+      "sel": "Drew Dober",
+      "odds": 2.65,
+      "stake": 1.72,
+      "result": "lost",
+      "pl_usd": -1.72,
+      "score": "Chris Duncan def. Drew Dober (FINAL)",
+      "sport": "UFC"
+     }
+    ],
+    "note": "MID paper cycle 2026-11-15 (only cycle of the day)",
+    "btc_hold": "NO BUY: BTC 64616 < MA20 75060 (below SMA50 79764) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00",
+    "btc": 64616,
+    "btc_ma20": 75060.06,
+    "btc_ma50": 79764.39,
+    "tokens_passed": 72,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B680",
+     "B681",
+     "B682",
+     "B683",
+     "B684",
+     "B685",
+     "B686"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 2,
+    "titan_shrunk": 0,
+    "nova_approved": 7,
+    "x_calls": 6,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-11-15_1847",
+    "time": "2026-11-15 18:47 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 308,
+    "funnel": {
+     "options_AN": 13624,
+     "events_AN": 482,
+     "events_ESPN": 1744,
+     "options_ESPN": 1671,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 968,
+     "model_rows_DR": 266,
+     "model_rows_FTS": 20,
+     "events_upcoming": 692,
+     "selections_priced": 1721,
+     "selections_consensus": 1073,
+     "with_model": 927,
+     "with_2plus_model": 344,
+     "drop_too_few_books": 638,
+     "elo_matched_events": 208,
+     "with_1_model": 583,
+     "drop_nhl_calibration": 10,
+     "drop_no_model": 146,
+     "dup_open_variant": 3,
+     "gate_ev<3": 784,
+     "gate_dup_open": 10,
+     "gate_PASS": 6,
+     "gate_A3_range": 40,
+     "gate_odds>5": 51,
+     "gate_TITAN_elo_disagree>10pt": 3,
+     "gate_model_ev<=0": 8,
+     "gate_L004_single_model_gap": 16,
+     "gate_V2_odds>2.99": 8,
+     "gate_V2_ev>12": 1,
+     "options_Polymarket": 42348,
+     "pm_markets": 21174,
+     "pm_liq1k": 6165,
+     "pm_sports_ml": 2015,
+     "pm_matched_model": 393,
+     "pm_gate_ev<3": 297,
+     "pm_drop_L007_league_unmapped": 320,
+     "pm_drop_L007_no_strict_match": 229,
+     "pm_tb1_tagged": 93,
+     "pm_gate_L004_single_model_gap": 12,
+     "pm_gate_odds>5": 28,
+     "pm_gate_A3_range": 27,
+     "pm_gate_model_ev<=0": 7,
+     "pm_gate_V2_odds>2.99": 4,
+     "pm_gate_dup_open": 7,
+     "pm_gate_PASS": 7,
+     "pm_tb1_tagged_pass": 2,
+     "pm_gate_TITAN_elo_disagree>10pt": 4,
+     "dup_open": 17,
+     "bank_live": 444.12,
+     "bank_stale_overall_report": 441.33,
+     "drop_same_event": 2,
+     "prior_veto": 2,
+     "prior_veto_list_24h": 4,
+     "ledger_halve_suppressed": 9,
+     "final_after_caps": 9,
+     "stake_total": 18.79,
+     "budget_caps": 124.04,
+     "v2_nba_shadow": 1,
+     "v2_nba_shadow_clean": 0,
+     "tokens_daily_rule": "BTC gate closed, first token scan today",
+     "tokens_src_dexscreener_tokens": 64,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 0,
+     "tokens_gt_fetch_seconds": 86,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 734,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 728,
+     "tokens_chain_solana": 209,
+     "tokens_chain_robinhood": 5,
+     "tokens_chain_ethereum": 166,
+     "tokens_chain_bsc": 179,
+     "tokens_chain_base": 169,
+     "tokens_gate_liquidity": 419,
+     "tokens_gate_pass": 123,
+     "tokens_gate_too_new": 60,
+     "tokens_gate_thin_liq_fdv": 75,
+     "tokens_gate_low_activity": 49,
+     "tokens_gate_pump": 2,
+     "tokens_safety_pass": 72,
+     "tokens_safety_fail": 27,
+     "tokens_safety_unverified": 24,
+     "tokens_passed_safety": 72,
+     "options_scanned_total": 58371
+    },
+    "coverage_events_by_sport": {
+     "nfl": 24,
+     "ncaab": 99,
+     "ncaaf": 22,
+     "soccer": 337,
+     "nba": 99,
+     "nhl": 102,
+     "ufc": 9
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 58371,
+     "candidates": [
+      {
+       "name": "Augsburg",
+       "type": "Polymarket",
+       "score": 61,
+       "why": "EV 11.28% @2.778 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Holy Cross Crusaders",
+       "type": "ncaab",
+       "score": 60,
+       "why": "EV 10.8% @2.42 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Aston Villa",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.02% @1.818 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Strasbourg",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.27% @2.273 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Kawasaki Frontale",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.98% @1.887 models=['EloFD']"
+      },
+      {
+       "name": "Karlsruher SC",
+       "type": "Polymarket",
+       "score": 54,
+       "why": "EV 4.89% @2.273 models=['EloFD']"
+      },
+      {
+       "name": "Swansea City",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.62% @2.564 models=['EloFD']"
+      },
+      {
+       "name": "Feyenoord",
+       "type": "soccer",
+       "score": 53,
+       "why": "EV 3.52% @2.95 models=['DRatings']"
+      },
+      {
+       "name": "Huddersfield Town",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.39% @1.961 models=['EloFD']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 58371,
+      "with_model": 927,
+      "gate_PASS": 6,
+      "pm_gate_PASS": 7,
+      "dup_open": 17,
+      "prior_veto": 2,
+      "final_after_caps": 9,
+      "pm_tb1_tagged": 93,
+      "pm_tb1_tagged_pass": 2,
+      "tokens_tokens_unique": 734,
+      "tokens_passed_safety": 72,
+      "stake_total": 18.79,
+      "budget_caps": 124.04
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 64594.76,
+       "tp": 69762.34,
+       "stop": 61365.02,
+       "support": 64120.24,
+       "resistance": 81274.37,
+       "prices": [
+        80800.83,
+        81274.37,
+        77838.81,
+        77275.05,
+        77520.89,
+        78293.84,
+        76709.41,
+        77384.59,
+        80442.71,
+        76005.51,
+        75775.28,
+        75776.38,
+        74740.42,
+        75266.77,
+        73721.18,
+        73974.39,
+        71371.98,
+        68313.71,
+        64120.24,
+        64594.76
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 754.37,
+       "tp": 814.72,
+       "stop": 716.65,
+       "support": 733.0,
+       "resistance": 773.09,
+       "prices": [
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29,
+        752.69,
+        749.92,
+        759.81,
+        757.12,
+        754.37
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "down",
+       "entry": 523.88,
+       "tp": 565.79,
+       "stop": 497.69,
+       "support": 507.12,
+       "resistance": 555.8,
+       "prices": [
+        533.52,
+        531.87,
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61,
+        545.18,
+        533.16,
+        521.13,
+        523.0,
+        523.88
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1106.21,
+       "tp": 1194.71,
+       "stop": 1050.9,
+       "support": 982.73,
+       "resistance": 1106.21,
+       "prices": [
+        995.53,
+        994.61,
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56,
+        1066.18,
+        1066.14,
+        1087.61,
+        1092.21,
+        1106.21
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 592.94,
+       "tp": 640.38,
+       "stop": 563.29,
+       "support": 532.23,
+       "resistance": 592.94,
+       "prices": [
+        532.23,
+        539.82,
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89,
+        575.25,
+        583.34,
+        588.24,
+        589.83,
+        592.94
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 170.59,
+       "tp": 184.24,
+       "stop": 162.06,
+       "support": 164.47,
+       "resistance": 187.25,
+       "prices": [
+        178.28,
+        177.86,
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87,
+        164.73,
+        164.47,
+        166.71,
+        169.78,
+        170.59
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 217.84,
+       "tp": 235.27,
+       "stop": 206.95,
+       "support": 213.48,
+       "resistance": 250.29,
+       "prices": [
+        242.45,
+        242.43,
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65,
+        214.94,
+        213.48,
+        218.01,
+        217.57,
+        217.84
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1443.5,
+       "tp": 1558.98,
+       "stop": 1371.33,
+       "support": 1240.34,
+       "resistance": 1443.5,
+       "prices": [
+        1240.34,
+        1283.66,
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0,
+        1411.95,
+        1432.29,
+        1437.29,
+        1427.28,
+        1443.5
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "Augsburg",
+       "stance": "bearish",
+       "text": "FC Augsburg (our side): kicker — \"Matsima-Ausfall droht\": CB Chrislain Matsima newly injured, back-three changes hurt Augsburg stability",
+       "source": "https://x.com/kickDE/status/2121914684865413478"
+      },
+      {
+       "candidate": "Holy Cross Crusaders",
+       "stance": "bullish",
+       "text": "Holy Cross Crusaders (our side, ESPN-DK) @2.42 vs UAlbany: no own-side injury/suspension/coach news in X results (1 irrelevant post) → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Aston Villa",
+       "stance": "bearish",
+       "text": "Aston Villa (our side): RB Matty Cash out after concussion on Poland duty, return unknown",
+       "source": "https://x.com/injuryreportst/status/2121908450254872603"
+      },
+      {
+       "candidate": "Strasbourg",
+       "stance": "bullish",
+       "text": "RC Strasbourg (our side, Polymarket ask) @2.273 vs Brest: X hits only SIG Strasbourg basketball (different club) → no own-side injury/suspen",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Kawasaki Frontale",
+       "stance": "bullish",
+       "text": "Kawasaki Frontale (our side, Polymarket ask, Elo-only) @1.887 vs Avispa Fukuoka: no own-side injury/suspension/coach news in X results → cle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Karlsruher SC",
+       "stance": "bullish",
+       "text": "Karlsruher SC (our side, Polymarket ask, Elo-only) @2.273 vs Osnabrück: no own-side injury/suspension/coach news in X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Swansea City",
+       "stance": "bullish",
+       "text": "Swansea City (our side, Polymarket ask, Elo-only) @2.564 vs West Brom: no own-side injury/suspension/coach news in X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Feyenoord",
+       "stance": "bullish",
+       "text": "Feyenoord (our side, AN book 71) @2.95 vs FC Porto (UCL): no own-side injury/suspension/coach news in X results (Dutch query 0 results) → cl",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Huddersfield Town",
+       "stance": "watch",
+       "text": "Huddersfield Town are League One leaders (context only, no team news)",
+       "source": "https://x.com/_SByrne/status/2121606656589209894"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "Augsburg",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Holy Cross Crusaders",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Aston Villa",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Strasbourg",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Kawasaki Frontale",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Karlsruher SC",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Swansea City",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Feyenoord",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Huddersfield Town",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": -0.06
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "Augsburg (Mainz 05 @ Augsburg)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Augsburg (our side, Polymarket ask) @2.778 vs Mainz: own starting CB Matsima likely out → TITAN shrink"
+      },
+      {
+       "candidate": "Holy Cross Crusaders (UAlbany Great Danes @ Holy Cross Crusade)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Holy Cross Crusaders (our side, ESPN-DK) @2.42 vs UAlbany: no own-side injury/suspension/coach news in X results (1 irrelevant post) → clear"
+      },
+      {
+       "candidate": "Aston Villa (Sunderland @ Aston Villa)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Aston Villa (our side, Polymarket ask) @1.818 vs Sunderland: three own-side absences (Cash concussion, Manzambi ca"
+      },
+      {
+       "candidate": "Strasbourg (Brest @ Strasbourg)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "RC Strasbourg (our side, Polymarket ask) @2.273 vs Brest: X hits only SIG Strasbourg basketball (different club) → no own-side injury/suspension/coach news in X"
+      },
+      {
+       "candidate": "Kawasaki Frontale (Avispa Fukuoka @ Kawasaki Frontale)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Kawasaki Frontale (our side, Polymarket ask, Elo-only) @1.887 vs Avispa Fukuoka: no own-side injury/suspension/coach news in X results → clear"
+      },
+      {
+       "candidate": "Karlsruher SC (VfL Osnabruck @ Karlsruher SC)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Karlsruher SC (our side, Polymarket ask, Elo-only) @2.273 vs Osnabrück: no own-side injury/suspension/coach news in X results → clear"
+      },
+      {
+       "candidate": "Swansea City (West Bromwich Albion @ Swansea City)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Swansea City (our side, Polymarket ask, Elo-only) @2.564 vs West Brom: no own-side injury/suspension/coach news in X results → clear"
+      },
+      {
+       "candidate": "Feyenoord (FC Porto @ Feyenoord)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Feyenoord (our side, AN book 71) @2.95 vs FC Porto (UCL): no own-side injury/suspension/coach news in X results (Dutch query 0 results) → clear"
+      },
+      {
+       "candidate": "Huddersfield Town (Leicester City @ Huddersfield Town)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Huddersfield Town (our side, Polymarket ask, Elo-only) @1.961 vs Leicester: no own-side injury/suspension/coach news in X results → clear"
+      }
+     ],
+     "blocked_count": 2
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Augsburg (Mainz 05 @ Augsburg)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Holy Cross Crusaders (UAlbany Great Danes @ Holy Cross Cru)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Karlsruher SC (VfL Osnabruck @ Karlsruher SC)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Kawasaki Frontale (Avispa Fukuoka @ Kawasaki Frontale)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Swansea City (West Bromwich Albion @ Swansea City)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Feyenoord (FC Porto @ Feyenoord)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Huddersfield Town (Leicester City @ Huddersfield Town)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Strasbourg (Brest @ Strasbourg)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Aston Villa (Sunderland @ Aston Villa)",
+       "action": "SKIP",
+       "size_usd": 0
+      }
+     ],
+     "desk_pl_today": 2.79
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 9,
+      "approved": 7,
+      "blocked": 2,
+      "note": "სკანი 58371 ოფცია; with_model 927; PASS 6+PM 7 → caps 9 (dup_open 17, prior_veto 2); NEWS/TITAN-ის შემდეგ 7"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 64616 vs MA20 75060 & SMA50 79764 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 9,
+      "approved": 7,
+      "blocked": 2,
+      "note": "X search_posts_all (6 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 9,
+      "approved": 7,
+      "blocked": 2,
+      "note": "overall -0.06"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 9,
+      "approved": 7,
+      "blocked": 2,
+      "note": "ფსონები: სკანის 9 PASS → 2 ვეტო (Augsburg, Aston Villa), 0 შემცირება (არა); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 7,
+      "approved": 7,
+      "blocked": 0,
+      "note": "7 ფსონი (B680 Holy Cross Crusaders @2.42 $2.5, B681 Karlsruher SC @2.273 $1.0, B682 Kawasaki Frontale @1.887 $1.0, B683 Swansea City @2.564 $1.0, B684 Feyenoord @2.95 $1.0, B685 Huddersfield Town @1.961 $1.0, B686 Strasbourg @2.273 $1.0); ბიუჯეტი ქეპებში $124.04 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 9,
+      "approved": 7,
+      "blocked": 2,
+      "note": "9 PASS კანდიდატი → 6 x-call (search_posts_all): 2 ბლოკი, 0 შემცირება, 7 clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 9,
+      "approved": 0,
+      "blocked": 0,
+      "note": "9 post-mortem: B632 variance, B642 variance, B654 variance, B656 variance, B659 price+variance, B674 price+variance, B679 variance, B671 variance (no close), B677 variance (no close); 9 losses settled this MID (B632 Texas A&M, B642 Michigan St, B654 Cincinnati, B656 North Texas, B659 Crewe, B674 Gonzaga, B679 Águilas, B671 Hokit, B677 Dober) → CLV+ losses = variance; CLV− = price+variance; UFC no close; all covered by existing lessons, no new lesson."
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 19,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 17/19; Football n=159 mean -4.77%; Polymarket n=241 mean -1.98%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 93, pass 2"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): B659 Crewe Alexandra -1.05, B673 Sport +4.38, B679 Águilas Doradas -1.00"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 1,
+      "blocked": 0,
+      "note": "დასახლდა: B563 Texas Tech Red Raiders +4.23, B632 Texas A&M Aggies -4.51, B636 Texas Longhorns +2.90, B642 Michigan State Spartans -5.00, B644 Utah Utes +2.21, B649 Appalachian State Mountaineers +2.74, B652 Florida Gators +2.41, B654 Cincinnati Bearcats -1.42, B656 North Texas Mean Green -5.00, B658 Wake Forest Demon Deacons +2.70, B672 Morehead State Eagles +2.85, B674 Gonzaga Bulldogs -2.50, B675 Nevada Wolf Pack +1.22, B678 Montana Grizzlies +1.09"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: B671 Josh Hokit -1.74, B677 Drew Dober -1.72"
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 64616 < MA20 75060 (-13.9%), < SMA50 79764 → no buy, hold 0 lots; ETH 1799 (MA20 2163, SMA50 2378), SOL 71.23 (SMA50 101.82) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "734 scanned, 72 passed safety (daily rule: BTC gate closed, first token scan today); buying needs BTC>MA20 → gate closed (and learning mode: no token buys) → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი დაკეტილია (კვირა; Yahoo პარასკევის დახურვა SPY 754.37); 6 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; stop/TP არ მოხვდა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 7,
+      "approved": 5,
+      "blocked": 2,
+      "note": "L007: unmapped 320, no strict 229, matched 393; PM PASS 7; TB1 pass 2; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "კვირა 15 ნოემბერი (MID) — მაკრო კალენდარი ამ ციკლში ახალი წყაროთი არ შემოწმებულა; ფსონებზე გავლენა არა; სასწავლო რეჟიმში აქციის ყიდვა არა → 0"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "pm:bun-aug-mai-2026-11-22-aug",
+     "event": "Mainz 05 @ Augsburg",
+     "sel": "Augsburg",
+     "queries": [
+      "(Augsburg OR \"Mainz 05\" OR \"Karlsruher SC\" OR KSC OR \"VfL Osnabrück\" OR Osnabrueck) (verletzt OR Ausfall OR fehlt OR gesperrt OR injury OR injured OR suspended OR \"ruled out\" OR entlassen) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "FC Augsburg (our side): kicker — \"Matsima-Ausfall droht\": CB Chrislain Matsima newly injured, back-three changes hurt Augsburg stability",
+       "source": "https://x.com/kickDE/status/2121914684865413478",
+       "time": "2026-11-15 14:34 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Augsburg (our side, Polymarket ask) @2.778 vs Mainz: own starting CB Matsima likely out → TITAN shrink"
+    },
+    {
+     "candidate": "espn401921287",
+     "event": "UAlbany Great Danes @ Holy Cross Crusaders",
+     "sel": "Holy Cross Crusaders",
+     "queries": [
+      "(\"Holy Cross\" OR UAlbany OR \"Albany Great Danes\") (basketball OR MBB OR hoops) (injury OR injured OR out OR suspended OR \"ruled out\" OR questionable) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Holy Cross Crusaders (our side, ESPN-DK) @2.42 vs UAlbany: no own-side injury/suspension/coach news in X results (1 irrelevant post) → clear"
+    },
+    {
+     "candidate": "pm:epl-ast-sun-2026-11-21-ast",
+     "event": "Sunderland @ Aston Villa",
+     "sel": "Aston Villa",
+     "queries": [
+      "(\"West Brom\" OR Swansea OR \"Huddersfield Town\" OR \"Leicester City\" OR \"Aston Villa\" OR Sunderland) (injury OR injured OR suspended OR \"ruled out\" OR sacked OR \"out for\") -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Aston Villa (our side): RB Matty Cash out after concussion on Poland duty, return unknown",
+       "source": "https://x.com/injuryreportst/status/2121908450254872603",
+       "time": "2026-11-15 14:09 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Aston Villa (our side): Johan Manzambi left Swiss squad with calf problem (2–6 weeks typical); Villa v Sunderland 21 Nov",
+       "source": "https://x.com/injurywirelive/status/2121656920780267572",
+       "time": "2026-11-14 21:30 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Aston Villa (our side): Amadou Onana sidelined (ACL)",
+       "source": "https://x.com/BigSixFanHub/status/2121949626194395284",
+       "time": "2026-11-15 16:53 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Aston Villa (our side, Polymarket ask) @1.818 vs Sunderland: three own-side absences (Cash concussion, Manzambi calf, Onana ACL) → TITAN shrink"
+    },
+    {
+     "candidate": "pm:fl1-str-sbr-2026-11-21-str",
+     "event": "Brest @ Strasbourg",
+     "sel": "Strasbourg",
+     "queries": [
+      "(\"Kawasaki Frontale\" OR \"Avispa Fukuoka\" OR Feyenoord OR \"FC Porto\" OR \"RC Strasbourg\" OR Strasbourg OR \"Stade Brestois\") (injury OR injured OR blessure OR blessé OR suspendu OR geschorst OR suspended OR \"ruled out\" OR sacked OR limogé) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "RC Strasbourg (our side, Polymarket ask) @2.273 vs Brest: X hits only SIG Strasbourg basketball (different club) → no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "pm:jap-kaw-avi-2026-11-21-kaw",
+     "event": "Avispa Fukuoka @ Kawasaki Frontale",
+     "sel": "Kawasaki Frontale",
+     "queries": [
+      "(\"Kawasaki Frontale\" OR \"Avispa Fukuoka\" OR Feyenoord OR \"FC Porto\" OR \"RC Strasbourg\" OR Strasbourg OR \"Stade Brestois\") (injury OR injured OR blessure OR blessé OR suspendu OR geschorst OR suspended OR \"ruled out\" OR sacked OR limogé) -is:retweet",
+      "(\"Swansea City\" OR \"Huddersfield Town\" OR \"Kawasaki Frontale\" OR \"Karlsruher SC\") (injury OR injured OR suspended OR \"ruled out\" OR sacked OR verletzt OR \"head coach\") -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Kawasaki Frontale (our side, Polymarket ask, Elo-only) @1.887 vs Avispa Fukuoka: no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "pm:bl2-ksc-vfl-2026-11-22-ksc",
+     "event": "VfL Osnabruck @ Karlsruher SC",
+     "sel": "Karlsruher SC",
+     "queries": [
+      "(Augsburg OR \"Mainz 05\" OR \"Karlsruher SC\" OR KSC OR \"VfL Osnabrück\" OR Osnabrueck) (verletzt OR Ausfall OR fehlt OR gesperrt OR injury OR injured OR suspended OR \"ruled out\" OR entlassen) -is:retweet",
+      "(\"Swansea City\" OR \"Huddersfield Town\" OR \"Kawasaki Frontale\" OR \"Karlsruher SC\") (injury OR injured OR suspended OR \"ruled out\" OR sacked OR verletzt OR \"head coach\") -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Karlsruher SC (our side, Polymarket ask, Elo-only) @2.273 vs Osnabrück: no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "pm:elc-swa-wba-2026-11-21-swa",
+     "event": "West Bromwich Albion @ Swansea City",
+     "sel": "Swansea City",
+     "queries": [
+      "(\"West Brom\" OR Swansea OR \"Huddersfield Town\" OR \"Leicester City\" OR \"Aston Villa\" OR Sunderland) (injury OR injured OR suspended OR \"ruled out\" OR sacked OR \"out for\") -is:retweet lang:en",
+      "(\"Swansea City\" OR \"Huddersfield Town\" OR \"Kawasaki Frontale\" OR \"Karlsruher SC\") (injury OR injured OR suspended OR \"ruled out\" OR sacked OR verletzt OR \"head coach\") -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Swansea City (our side, Polymarket ask, Elo-only) @2.564 vs West Brom: no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "296545",
+     "event": "FC Porto @ Feyenoord",
+     "sel": "Feyenoord",
+     "queries": [
+      "(\"Kawasaki Frontale\" OR \"Avispa Fukuoka\" OR Feyenoord OR \"FC Porto\" OR \"RC Strasbourg\" OR Strasbourg OR \"Stade Brestois\") (injury OR injured OR blessure OR blessé OR suspendu OR geschorst OR suspended OR \"ruled out\" OR sacked OR limogé) -is:retweet",
+      "Feyenoord (blessure OR geblesseerd OR geschorst OR injury OR injured OR suspended OR \"ruled out\") -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Feyenoord (our side, AN book 71) @2.95 vs FC Porto (UCL): no own-side injury/suspension/coach news in X results (Dutch query 0 results) → clear"
+    },
+    {
+     "candidate": "pm:el1-hud-lei-2026-11-21-hud",
+     "event": "Leicester City @ Huddersfield Town",
+     "sel": "Huddersfield Town",
+     "queries": [
+      "(\"West Brom\" OR Swansea OR \"Huddersfield Town\" OR \"Leicester City\" OR \"Aston Villa\" OR Sunderland) (injury OR injured OR suspended OR \"ruled out\" OR sacked OR \"out for\") -is:retweet lang:en",
+      "(\"Swansea City\" OR \"Huddersfield Town\" OR \"Kawasaki Frontale\" OR \"Karlsruher SC\") (injury OR injured OR suspended OR \"ruled out\" OR sacked OR verletzt OR \"head coach\") -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Huddersfield Town are League One leaders (context only, no team news)",
+       "source": "https://x.com/_SByrne/status/2121606656589209894",
+       "time": "2026-11-14 18:10 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Huddersfield Town (our side, Polymarket ask, Elo-only) @1.961 vs Leicester: no own-side injury/suspension/coach news in X results → clear"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 64,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 0,
+     "gt_fetch_seconds": 86,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 734,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 728,
+     "chain_solana": 209,
+     "chain_robinhood": 5,
+     "chain_ethereum": 166,
+     "chain_bsc": 179,
+     "chain_base": 169,
+     "gate_liquidity": 419,
+     "gate_pass": 123,
+     "gate_too_new": 60,
+     "gate_thin_liq_fdv": 75,
+     "gate_low_activity": 49,
+     "gate_pump": 2,
+     "safety_pass": 72,
+     "safety_fail": 27,
+     "safety_unverified": 24
+    },
+    "passed_n": 72,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 19 final(s): B563 won +4.23, B632 lost -4.51, B636 won +2.9, B642 lost -5.0, B644 won +2.21, B649 won +2.74, B652 won +2.41, B654 lost -1.42, B656 lost -5.0, B658 won +2.7, B659 lost -1.05, B672 won +2.85, B673 won +4.38, B674 lost -2.5, B675 won +1.22, B678 won +1.09, B679 lost -1.0, B671 lost -1.74, B677 lost -1.72 (P/L +2.79). Not final → left open for the hourly refresh: none. LEDGER: DK closes 17/19; Football n=159 mean CLV -4.77%; Polymarket n=241 mean -1.98% (halving OFF by owner order 2026-10-28; tracked only). DOC: 9 post-mortems. Scan 58371 options → with_model 927 → PASS 6+PM 7 → 9 after dedup/caps (prior_veto 2); SHERLOCK/TITAN: 2 blocked, 0 shrunk → 7 bets. NO BUY: BTC 64616 < MA20 75060 (below SMA50 79764) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US market closed (Sunday; Yahoo Friday close), no SL/TP touched; no tested equity entry; no tested entry rule → 0 new buys. Learning mode: ≤8 top-EV bets at $1-$2.50.",
+   "plan": "MID 2026-11-15 (დღის ერთადერთი ციკლი, კვირა ~18:50): Strategy v2 ჩართულია (კოეფ. ≤2.99, მოდელის EV ≤12%, NBA მხოლოდ ჩრდილში, NEWS shrink → block). ბანკი $444.12 (-11.2% დეპოზიტებზე) → სასწავლო რეჟიმი (learning mode): მაქს. 8 ფსონი, ყველაზე მაღალი EV, $1–$2.50, ქეპები/TITAN უცვლელი; კრიპტო/ტოკენ/აქციის ახალი ყიდვა არა. დასახლება მხოლოდ რეალური საბოლოო შედეგით; B294 გადადებული 12-01-მდე; BTC gate დახურული (BTC < MA20/SMA50); MSFT/UNH/V სტოპები/TP მოქმედებს; ახალი ტოკენების სკანი დღეში ერთხელ; Football/Polymarket/NBA ცალკე იზომება.",
+   "strategy_v2": {
+    "enabled": true,
+    "lm_use_v2_filter": false,
+    "rules": "odds<=2.99, EV<=12%, NBA shadow-only, NEWS shrink->block",
+    "news_shrink_blocked": [
+     "pm:bun-aug-mai-2026-11-22-aug",
+     "pm:epl-ast-sun-2026-11-21-ast"
+    ],
+    "scan_v2_rejects": {
+     "gate_V2_odds>2.99": 8,
+     "gate_V2_ev>12": 1,
+     "pm_gate_V2_odds>2.99": 4
+    },
+    "nba_shadow_logged": 1,
+    "nba_shadow_clean": 0
+   },
+   "drawdown_brake": {
+    "deposits": 500.0,
+    "threshold": 450.0,
+    "stop_threshold": 400.0,
+    "bank": 444.12,
+    "vs_deposits_pct": -11.18,
+    "mode": "learning",
+    "triggered": true,
+    "learning_mode": true,
+    "learning_mode_enabled": true,
+    "effect": "LEARNING MODE: max 8 bets/cycle, top-EV picks only, stake $1-$2.5 (half normal), caps/TITAN/news unchanged; no crypto/token/equity buys",
+    "placed_learning_bets": 7,
+    "skipped_by_brake": []
+   },
+   "settle_note": "ESPN/gamma finals: 19 settled 10W/9L +2.79 — B563 Texas Tech Red Raiders won (Oklahoma State Cowboys 27, Texas Tech Red Raiders 52); B632 Texas A&M Aggies lost (Texas A&M Aggies 7, Tennessee Volunteers 22); B636 Texas Longhorns won (LSU Tigers 21, Texas Longhorns 22); B642 Michigan State Spartans lost (Michigan State Spartans 14, Washington Huskies 21); B644 Utah Utes won (Arizona Wildcats 39, Utah Utes 40); B649 Appalachian State Mountaineers won (Marshall Thundering Herd 16, App State Mountaineers 20); B652 Florida Gators won (Kentucky Wildcats 14, Florida Gators 21); B654 Cincinnati Bearcats lost (Iowa State Cyclones 41, Cincinnati Bearcats 13); B656 North Texas Mean Green lost (UTSA Roadrunners 35, North Texas Mean Green 16); B658 Wake Forest Demon Deacons won (SMU Mustangs 7, Wake Forest Demon Deacons 49); B659 Crewe Alexandra lost (Crewe Alexandra 2, Newport County 2); B672 Morehead State Eagles won (Morehead State Eagles 79, IU Indianapolis Jaguars 75); B673 Sport won (Sport 3, Goiás 0); B674 Gonzaga Bulldogs lost (Gonzaga Bulldogs 80, LSU Tigers 81); B675 Nevada Wolf Pack won (Northern Illinois Huskies 7, Nevada Wolf Pack 28); B678 Montana Grizzlies won (North Dakota Fighting Hawks 71, Montana Grizzlies 80); B679 Águilas Doradas lost (Águilas Doradas 0, Independiente Medellín 1); B671 Josh Hokit lost (Ciryl Gane def. Josh Hokit (FINAL)); B677 Drew Dober lost (Chris Duncan def. Drew Dober (FINAL)). Left open (not final / B294 postponed): none.",
+   "closed_at": "2026-11-15 18:58 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -154909,7 +157108,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 65498,
+  "BTC": 64616,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 754.37,
@@ -154967,8 +157166,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 75900.66,
-  "BTC_MA50": 80188.38,
+  "BTC_MA20": 75060.06,
+  "BTC_MA50": 79764.39,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -154987,20 +157186,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-14 19:44 (Tbilisi)",
-  "total_value": 441.33,
+  "time": "2026-11-15 18:58 (Tbilisi)",
+  "total_value": 444.12,
   "deposits_usd": 500,
-  "vs_deposits_usd": -58.67,
-  "vs_deposits_pct": -11.73,
-  "btc_bench": 397.47,
-  "vs_btc_usd": 43.86,
+  "vs_deposits_usd": -55.88,
+  "vs_deposits_pct": -11.18,
+  "btc_bench": 392.12,
+  "vs_btc_usd": 52.01,
   "bets": {
-   "n": 643,
-   "wins": 234,
-   "losses": 409,
-   "open": 36,
-   "pl_usd": -55.27,
-   "roi_pct": -4.5
+   "n": 662,
+   "wins": 244,
+   "losses": 418,
+   "open": 24,
+   "pl_usd": -52.48,
+   "roi_pct": -4.1
   },
   "by_sport": {
    "NHL": {
@@ -155025,18 +157224,18 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 188,
-    "wins": 62,
+    "n": 189,
+    "wins": 63,
     "losses": 126,
-    "pl_usd": 2.01,
-    "roi_pct": 0.7
+    "pl_usd": 6.39,
+    "roi_pct": 2.2
    },
    "NCAAF": {
-    "n": 63,
-    "wins": 27,
-    "losses": 36,
-    "pl_usd": -16.31,
-    "roi_pct": -12.7
+    "n": 74,
+    "wins": 34,
+    "losses": 40,
+    "pl_usd": -13.83,
+    "roi_pct": -8.4
    },
    "NBA": {
     "n": 52,
@@ -155046,11 +157245,11 @@
     "roi_pct": -39.1
    },
    "Polymarket": {
-    "n": 251,
+    "n": 253,
     "wins": 88,
-    "losses": 163,
-    "pl_usd": -9.52,
-    "roi_pct": -2.1
+    "losses": 165,
+    "pl_usd": -11.57,
+    "roi_pct": -2.6
    },
    "NFL": {
     "n": 21,
@@ -155067,18 +157266,18 @@
     "roi_pct": 31.6
    },
    "UFC": {
-    "n": 8,
+    "n": 10,
     "wins": 4,
-    "losses": 4,
-    "pl_usd": -2.02,
-    "roi_pct": -6.6
+    "losses": 6,
+    "pl_usd": -5.48,
+    "roi_pct": -16.2
    },
    "NCAAB": {
-    "n": 43,
-    "wins": 18,
-    "losses": 25,
-    "pl_usd": 5.97,
-    "roi_pct": 4.6
+    "n": 46,
+    "wins": 20,
+    "losses": 26,
+    "pl_usd": 7.41,
+    "roi_pct": 5.5
    }
   },
   "crypto": {
@@ -155095,16 +157294,16 @@
    "realized_usd": 0.48,
    "total_pl_usd": 1.91
   },
-  "cash_usd": 297.7429,
-  "scanned": 49674,
-  "open_bets_usd": 81.66,
+  "cash_usd": 342.2963,
+  "scanned": 58371,
+  "open_bets_usd": 39.9,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 188,
-    "wins": 62,
+    "n": 189,
+    "wins": 63,
     "losses": 126,
-    "pl_usd": 2.01,
-    "roi_pct": 0.7
+    "pl_usd": 6.39,
+    "roi_pct": 2.2
    },
    "BASKETBALL": {
     "n": 55,
@@ -155114,11 +157313,11 @@
     "roi_pct": -36.3
    },
    "US SPORTS": {
-    "n": 140,
-    "wins": 62,
-    "losses": 78,
-    "pl_usd": 1.17,
-    "roi_pct": 0.4
+    "n": 154,
+    "wins": 71,
+    "losses": 83,
+    "pl_usd": 5.09,
+    "roi_pct": 1.4
    },
    "TENNIS": {
     "n": 1,
@@ -155128,11 +157327,11 @@
     "roi_pct": -100.0
    },
    "MMA/UFC": {
-    "n": 8,
+    "n": 10,
     "wins": 4,
-    "losses": 4,
-    "pl_usd": -2.02,
-    "roi_pct": -6.6
+    "losses": 6,
+    "pl_usd": -5.48,
+    "roi_pct": -16.2
    },
    "ESPORTS": {
     "n": 0,
@@ -155142,11 +157341,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 251,
+    "n": 253,
     "wins": 88,
-    "losses": 163,
-    "pl_usd": -9.52,
-    "roi_pct": -2.1
+    "losses": 165,
+    "pl_usd": -11.57,
+    "roi_pct": -2.6
    },
    "CRYPTO MAJORS": {
     "n": 5,
@@ -155180,12 +157379,12 @@
   "strategy_v2": {
    "enabled": true,
    "rules_ka": "კოეფ. ≤2.99 · EV ≤12% · NBA მხოლოდ ჩრდილში · NEWS shrink → block",
-   "nba_shadow_logged": 3,
-   "nba_shadow_settled": 1,
-   "nba_shadow_pl": -5.0
+   "nba_shadow_logged": 4,
+   "nba_shadow_settled": 3,
+   "nba_shadow_pl": 2.52
   }
  },
- "last_refresh": "2026-11-14 19:44 (Tbilisi)",
+ "last_refresh": "2026-11-15 18:58 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -156438,7 +158637,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-14 19:44 (Tbilisi)",
+  "updated": "2026-11-15 18:58 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -156469,21 +158668,21 @@
     "lean": null
    },
    "Football": {
-    "n": 158,
-    "early_better": 76,
+    "n": 159,
+    "early_better": 77,
     "late_better": 65,
     "equal": 17,
-    "avg_clv_pct": 0.84,
+    "avg_clv_pct": 0.89,
     "no_close": 36,
     "lean": "early"
    },
    "NCAAF": {
-    "n": 58,
-    "early_better": 39,
-    "late_better": 17,
+    "n": 69,
+    "early_better": 46,
+    "late_better": 21,
     "equal": 2,
-    "avg_clv_pct": 5.07,
-    "no_close": 16,
+    "avg_clv_pct": 4.48,
+    "no_close": 5,
     "lean": "early"
    },
    "NBA": {
@@ -156496,12 +158695,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 239,
-    "early_better": 146,
-    "late_better": 90,
+    "n": 241,
+    "early_better": 147,
+    "late_better": 91,
     "equal": 3,
     "avg_clv_pct": 3.89,
-    "no_close": 22,
+    "no_close": 25,
     "lean": "early"
    },
    "NFL": {
@@ -156532,12 +158731,12 @@
     "lean": null
    },
    "NCAAB": {
-    "n": 42,
-    "early_better": 19,
+    "n": 45,
+    "early_better": 22,
     "late_better": 18,
     "equal": 5,
-    "avg_clv_pct": -0.59,
-    "no_close": 4,
+    "avg_clv_pct": -0.34,
+    "no_close": 2,
     "lean": "early"
    }
   },
@@ -164190,6 +166389,232 @@
     "better": "early"
    },
    {
+    "id": "B563",
+    "sport": "NCAAF",
+    "event": "Texas Tech Red Raiders @ Oklahoma State Cowboys",
+    "open": null,
+    "taken": 1.847,
+    "taken_time": "2026-11-05 08:58 (Tbilisi)",
+    "close": 2.6,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856863",
+    "clv_pct": -28.96,
+    "better": "late"
+   },
+   {
+    "id": "B632",
+    "sport": "NCAAF",
+    "event": "Tennessee Volunteers @ Texas A&M Aggies",
+    "open": null,
+    "taken": 2.3,
+    "taken_time": "2026-11-08 09:03 (Tbilisi)",
+    "close": 1.9524,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856888",
+    "clv_pct": 17.8,
+    "better": "early"
+   },
+   {
+    "id": "B636",
+    "sport": "NCAAF",
+    "event": "Texas Longhorns @ LSU Tigers",
+    "open": null,
+    "taken": 2.45,
+    "taken_time": "2026-11-08 19:06 (Tbilisi)",
+    "close": 2.7,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856885",
+    "clv_pct": -9.26,
+    "better": "late"
+   },
+   {
+    "id": "B642",
+    "sport": "NCAAF",
+    "event": "Washington Huskies @ Michigan State Spartans",
+    "open": null,
+    "taken": 2.7,
+    "taken_time": "2026-11-09 12:25 (Tbilisi)",
+    "close": 2.2,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858521",
+    "clv_pct": 22.73,
+    "better": "early"
+   },
+   {
+    "id": "B644",
+    "sport": "NCAAF",
+    "event": "Utah Utes @ Arizona Wildcats",
+    "open": null,
+    "taken": 1.82,
+    "taken_time": "2026-11-09 12:25 (Tbilisi)",
+    "close": 1.7042,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856864",
+    "clv_pct": 6.79,
+    "better": "early"
+   },
+   {
+    "id": "B649",
+    "sport": "NCAAF",
+    "event": "Appalachian State Mountaineers @ Marshall Thundering Herd",
+    "open": null,
+    "taken": 1.833,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": 1.9524,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869928",
+    "clv_pct": -6.12,
+    "better": "late"
+   },
+   {
+    "id": "B652",
+    "sport": "NCAAF",
+    "event": "Florida Gators @ Kentucky Wildcats",
+    "open": null,
+    "taken": 2.4,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": 2.24,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856884",
+    "clv_pct": 7.14,
+    "better": "early"
+   },
+   {
+    "id": "B654",
+    "sport": "NCAAF",
+    "event": "Cincinnati Bearcats @ Iowa State Cyclones",
+    "open": null,
+    "taken": 2.24,
+    "taken_time": "2026-11-09 19:02 (Tbilisi)",
+    "close": 2.1,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856859",
+    "clv_pct": 6.67,
+    "better": "early"
+   },
+   {
+    "id": "B656",
+    "sport": "NCAAF",
+    "event": "North Texas Mean Green @ UTSA Roadrunners",
+    "open": null,
+    "taken": 1.826,
+    "taken_time": "2026-11-10 00:04 (Tbilisi)",
+    "close": 1.7042,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862827",
+    "clv_pct": 7.15,
+    "better": "early"
+   },
+   {
+    "id": "B658",
+    "sport": "NCAAF",
+    "event": "Wake Forest Demon Deacons @ SMU Mustangs",
+    "open": null,
+    "taken": 1.901,
+    "taken_time": "2026-11-10 00:04 (Tbilisi)",
+    "close": 2.2,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858301",
+    "clv_pct": -13.59,
+    "better": "late"
+   },
+   {
+    "id": "B659",
+    "sport": "Polymarket",
+    "event": "Newport County @ Crewe Alexandra",
+    "open": null,
+    "taken": 2.128,
+    "taken_time": "2026-11-10 00:04 (Tbilisi)",
+    "close": 2.15,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.4/summary?event=401881274",
+    "clv_pct": -1.02,
+    "better": "late"
+   },
+   {
+    "id": "B672",
+    "sport": "NCAAB",
+    "event": "IU Indianapolis Jaguars @ Morehead State Eagles",
+    "open": null,
+    "taken": 2.14,
+    "taken_time": "2026-11-14 19:07 (Tbilisi)",
+    "close": 2.1,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401920961",
+    "clv_pct": 1.9,
+    "better": "early"
+   },
+   {
+    "id": "B673",
+    "sport": "Football",
+    "event": "Goiás @ Sport",
+    "open": null,
+    "taken": 2.75,
+    "taken_time": "2026-11-14 19:07 (Tbilisi)",
+    "close": 2.55,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/summary?event=401860433",
+    "clv_pct": 7.84,
+    "better": "early"
+   },
+   {
+    "id": "B674",
+    "sport": "NCAAB",
+    "event": "LSU Tigers @ Gonzaga Bulldogs",
+    "open": null,
+    "taken": 1.488,
+    "taken_time": "2026-11-14 19:07 (Tbilisi)",
+    "close": 1.4587,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401921689",
+    "clv_pct": 2.01,
+    "better": "early"
+   },
+   {
+    "id": "B675",
+    "sport": "NCAAF",
+    "event": "Nevada Wolf Pack @ Northern Illinois Huskies",
+    "open": null,
+    "taken": 1.488,
+    "taken_time": "2026-11-14 19:07 (Tbilisi)",
+    "close": 1.4202,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864536",
+    "clv_pct": 4.77,
+    "better": "early"
+   },
+   {
+    "id": "B678",
+    "sport": "NCAAB",
+    "event": "Montana Grizzlies @ North Dakota Fighting Hawks",
+    "open": null,
+    "taken": 1.98,
+    "taken_time": "2026-11-14 19:07 (Tbilisi)",
+    "close": 1.8696,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401922031",
+    "clv_pct": 5.91,
+    "better": "early"
+   },
+   {
+    "id": "B679",
+    "sport": "Polymarket",
+    "event": "Independiente Medellín @ Águilas Doradas",
+    "open": null,
+    "taken": 2.564,
+    "taken_time": "2026-11-14 19:07 (Tbilisi)",
+    "close": 2.35,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/col.1/summary?event=401877770",
+    "clv_pct": 9.11,
+    "better": "early"
+   },
+   {
+    "id": "B671",
+    "sport": "UFC",
+    "event": "Josh Hokit @ Ciryl Gane",
+    "open": null,
+    "taken": 2.8,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B677",
+    "sport": "UFC",
+    "event": "Chris Duncan @ Drew Dober",
+    "open": null,
+    "taken": 2.65,
+    "taken_time": "2026-11-14 19:07 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -164223,34 +166648,12 @@
     "better": null
    },
    {
-    "id": "B563",
-    "sport": "NCAAF",
-    "event": "Texas Tech Red Raiders @ Oklahoma State Cowboys",
-    "open": null,
-    "taken": 1.847,
-    "taken_time": "2026-11-05 08:58 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B626",
     "sport": "NFL",
     "event": "Los Angeles Chargers @ Baltimore Ravens",
     "open": null,
     "taken": 1.98,
     "taken_time": "2026-11-08 00:05 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B632",
-    "sport": "NCAAF",
-    "event": "Tennessee Volunteers @ Texas A&M Aggies",
-    "open": null,
-    "taken": 2.3,
-    "taken_time": "2026-11-08 09:03 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -164267,55 +166670,11 @@
     "better": null
    },
    {
-    "id": "B636",
-    "sport": "NCAAF",
-    "event": "Texas Longhorns @ LSU Tigers",
-    "open": null,
-    "taken": 2.45,
-    "taken_time": "2026-11-08 19:06 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B642",
-    "sport": "NCAAF",
-    "event": "Washington Huskies @ Michigan State Spartans",
-    "open": null,
-    "taken": 2.7,
-    "taken_time": "2026-11-09 12:25 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B644",
-    "sport": "NCAAF",
-    "event": "Utah Utes @ Arizona Wildcats",
-    "open": null,
-    "taken": 1.82,
-    "taken_time": "2026-11-09 12:25 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B648",
     "sport": "Football",
     "event": "Rennes @ Lorient",
     "open": null,
     "taken": 3.1,
-    "taken_time": "2026-11-09 19:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B649",
-    "sport": "NCAAF",
-    "event": "Appalachian State Mountaineers @ Marshall Thundering Herd",
-    "open": null,
-    "taken": 1.833,
     "taken_time": "2026-11-09 19:02 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -164333,33 +166692,11 @@
     "better": null
    },
    {
-    "id": "B652",
-    "sport": "NCAAF",
-    "event": "Florida Gators @ Kentucky Wildcats",
-    "open": null,
-    "taken": 2.4,
-    "taken_time": "2026-11-09 19:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B653",
     "sport": "Polymarket",
     "event": "Genoa @ Sassuolo",
     "open": null,
     "taken": 2.564,
-    "taken_time": "2026-11-09 19:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B654",
-    "sport": "NCAAF",
-    "event": "Cincinnati Bearcats @ Iowa State Cyclones",
-    "open": null,
-    "taken": 2.24,
     "taken_time": "2026-11-09 19:02 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -164372,39 +166709,6 @@
     "open": null,
     "taken": 2.381,
     "taken_time": "2026-11-09 19:02 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B656",
-    "sport": "NCAAF",
-    "event": "North Texas Mean Green @ UTSA Roadrunners",
-    "open": null,
-    "taken": 1.826,
-    "taken_time": "2026-11-10 00:04 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B658",
-    "sport": "NCAAF",
-    "event": "Wake Forest Demon Deacons @ SMU Mustangs",
-    "open": null,
-    "taken": 1.901,
-    "taken_time": "2026-11-10 00:04 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B659",
-    "sport": "Polymarket",
-    "event": "Newport County @ Crewe Alexandra",
-    "open": null,
-    "taken": 2.128,
-    "taken_time": "2026-11-10 00:04 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -164487,61 +166791,6 @@
     "better": null
    },
    {
-    "id": "B671",
-    "sport": "UFC",
-    "event": "Josh Hokit @ Ciryl Gane",
-    "open": null,
-    "taken": 2.8,
-    "taken_time": "2026-11-13 19:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B672",
-    "sport": "NCAAB",
-    "event": "IU Indianapolis Jaguars @ Morehead State Eagles",
-    "open": null,
-    "taken": 2.14,
-    "taken_time": "2026-11-14 19:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B673",
-    "sport": "Football",
-    "event": "Goiás @ Sport",
-    "open": null,
-    "taken": 2.75,
-    "taken_time": "2026-11-14 19:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B674",
-    "sport": "NCAAB",
-    "event": "LSU Tigers @ Gonzaga Bulldogs",
-    "open": null,
-    "taken": 1.488,
-    "taken_time": "2026-11-14 19:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B675",
-    "sport": "NCAAF",
-    "event": "Nevada Wolf Pack @ Northern Illinois Huskies",
-    "open": null,
-    "taken": 1.488,
-    "taken_time": "2026-11-14 19:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B676",
     "sport": "Football",
     "event": "Portsmouth @ Bolton Wanderers",
@@ -164553,34 +166802,78 @@
     "better": null
    },
    {
-    "id": "B677",
-    "sport": "UFC",
-    "event": "Chris Duncan @ Drew Dober",
-    "open": null,
-    "taken": 2.65,
-    "taken_time": "2026-11-14 19:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B678",
+    "id": "B680",
     "sport": "NCAAB",
-    "event": "Montana Grizzlies @ North Dakota Fighting Hawks",
+    "event": "UAlbany Great Danes @ Holy Cross Crusaders",
     "open": null,
-    "taken": 1.98,
-    "taken_time": "2026-11-14 19:07 (Tbilisi)",
+    "taken": 2.42,
+    "taken_time": "2026-11-15 18:58 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
    },
    {
-    "id": "B679",
+    "id": "B681",
     "sport": "Polymarket",
-    "event": "Independiente Medellín @ Águilas Doradas",
+    "event": "VfL Osnabruck @ Karlsruher SC",
+    "open": null,
+    "taken": 2.273,
+    "taken_time": "2026-11-15 18:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B682",
+    "sport": "Polymarket",
+    "event": "Avispa Fukuoka @ Kawasaki Frontale",
+    "open": null,
+    "taken": 1.887,
+    "taken_time": "2026-11-15 18:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B683",
+    "sport": "Polymarket",
+    "event": "West Bromwich Albion @ Swansea City",
     "open": null,
     "taken": 2.564,
-    "taken_time": "2026-11-14 19:07 (Tbilisi)",
+    "taken_time": "2026-11-15 18:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B684",
+    "sport": "Football",
+    "event": "FC Porto @ Feyenoord",
+    "open": null,
+    "taken": 2.95,
+    "taken_time": "2026-11-15 18:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B685",
+    "sport": "Polymarket",
+    "event": "Leicester City @ Huddersfield Town",
+    "open": null,
+    "taken": 1.961,
+    "taken_time": "2026-11-15 18:58 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B686",
+    "sport": "Polymarket",
+    "event": "Brest @ Strasbourg",
+    "open": null,
+    "taken": 2.273,
+    "taken_time": "2026-11-15 18:58 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -164594,16 +166887,16 @@
  ],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 158,
-   "mean_clv_pct": -4.81
+   "n": 159,
+   "mean_clv_pct": -4.77
   },
   "Polymarket": {
-   "n": 239,
-   "mean_clv_pct": -1.97
+   "n": 241,
+   "mean_clv_pct": -1.98
   },
   "NCAAF": {
-   "n": 58,
-   "mean_clv_pct": 0.76
+   "n": 69,
+   "mean_clv_pct": 0.19
   },
   "NFL": {
    "n": 21,
@@ -164622,18 +166915,18 @@
    "mean_clv_pct": -8.73
   },
   "NCAAB": {
-   "n": 42,
-   "mean_clv_pct": -4.69
+   "n": 45,
+   "mean_clv_pct": -4.45
   }
  },
  "v2_shadow_summary": {
-  "updated": "2026-11-14 19:01 (Tbilisi)",
-  "n_logged": 1,
-  "n_settled": 1,
-  "wins": 0,
-  "shadow_pl_usd": -5.0,
-  "shadow_staked": 5.0,
-  "mean_clv_pct": -4.84
+  "updated": "2026-11-15 18:47 (Tbilisi)",
+  "n_logged": 3,
+  "n_settled": 3,
+  "wins": 2,
+  "shadow_pl_usd": 2.52,
+  "shadow_staked": 11.63,
+  "mean_clv_pct": -16.92
  },
  "v2_shadow_bets": [
   {
@@ -164700,9 +166993,19 @@
    "v2_rule": "V2_nba_shadow",
    "also_fails_v2": null,
    "scan_stamp": "2026-11-14_1901",
-   "status": "open",
+   "status": "settled",
    "recorded_at": "2026-11-14 19:01 (Tbilisi)",
-   "paper_shadow": true
+   "paper_shadow": true,
+   "espn_event": "401909981",
+   "result": "won",
+   "shadow_pl_usd": 4.81,
+   "final_score": "Cleveland Cavaliers 127, Dallas Mavericks 117 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909981",
+   "settled_at": "2026-11-15 18:47 (Tbilisi)",
+   "closing_odds": 3.76,
+   "closing_fair_odds": 3.9131,
+   "clv_pct": -49.86,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+276', 'away': '-344'}"
   },
   {
    "scan_id": "295435",
@@ -164729,8 +167032,47 @@
    "v2_rule": "V2_nba_shadow",
    "also_fails_v2": null,
    "scan_stamp": "2026-11-14_1901",
-   "status": "open",
+   "status": "settled",
    "recorded_at": "2026-11-14 19:01 (Tbilisi)",
+   "paper_shadow": true,
+   "espn_event": "401909982",
+   "result": "won",
+   "shadow_pl_usd": 2.71,
+   "final_score": "Miami Heat 137, Detroit Pistons 117 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909982",
+   "settled_at": "2026-11-15 18:47 (Tbilisi)",
+   "closing_odds": 2.46,
+   "closing_fair_odds": 2.5589,
+   "clv_pct": 3.95,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+146', 'away': '-173'}"
+  },
+  {
+   "scan_id": "295443",
+   "sport": "NBA",
+   "via": "book",
+   "league": "nba",
+   "event": "Houston Rockets @ Washington Wizards",
+   "home": "Washington Wizards",
+   "away": "Houston Rockets",
+   "side": "home",
+   "sel": "Washington Wizards",
+   "odds": 4.2,
+   "book": "69",
+   "p": 0.2567,
+   "mkt": 0.2488,
+   "ev": 7.8,
+   "models": {
+    "ESPN": 0.28,
+    "DRatings": 0.249
+   },
+   "start": "2026-11-16T00:00:00.000Z",
+   "slug": null,
+   "shadow_stake": 2.71,
+   "v2_rule": "V2_nba_shadow",
+   "also_fails_v2": "V2_odds>2.99",
+   "scan_stamp": "2026-11-15_1847",
+   "status": "open",
+   "recorded_at": "2026-11-15 18:47 (Tbilisi)",
    "paper_shadow": true
   }
  ]
