@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 336.9768,
+ "cash_usd": 333.6575,
  "open_bets": [
   {
    "id": "B077",
@@ -105,35 +105,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/summary?event=401878541",
    "reasoning": "scan PASS EV=8.44% models=['FTS', 'EloFD']; scan stake $1.75 (raw 2.33; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.75",
    "scan_id": "espn401878541"
-  },
-  {
-   "id": "B626",
-   "sport": "NFL",
-   "league": "nfl",
-   "event": "Los Angeles Chargers @ Baltimore Ravens",
-   "kickoff": "2026-11-17 05:15",
-   "selection": "Los Angeles Chargers",
-   "odds": 1.98,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.5268,
-   "implied_pct": 50.5,
-   "edge_pct": 4.33,
-   "stake": 2.59,
-   "status": "open",
-   "opened_at": "2026-11-08 00:05 (Tbilisi)",
-   "odds_time": "2026-11-08 00:05 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.571
-    },
-    "mkt": 0.4826,
-    "nbooks": 1,
-    "blend_p": 0.5268,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nfl/summary?event=401873065",
-   "reasoning": "scan PASS EV=4.33% models=['ESPN']; scan stake $2.59 (raw 2.59; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.59",
-   "scan_id": "espn401873065"
   },
   {
    "id": "B634",
@@ -953,37 +924,6 @@
    "learning_mode": true
   },
   {
-   "id": "B692",
-   "sport": "NCAAB",
-   "league": "ncaab",
-   "event": "St. Thomas Tommies @ Long Island University Sharks",
-   "kickoff": "2026-11-17 04:00",
-   "selection": "St. Thomas Tommies",
-   "odds": 1.769,
-   "book": "DraftKings via ESPN (ESPN-DK)",
-   "p": 0.5951,
-   "implied_pct": 56.5,
-   "edge_pct": 5.29,
-   "stake": 2.5,
-   "status": "open",
-   "opened_at": "2026-11-16 18:51 (Tbilisi)",
-   "odds_time": "2026-11-16 18:51 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "ESPN": 0.631,
-     "DRatings": 0.664
-    },
-    "mkt": 0.5427,
-    "nbooks": 1,
-    "blend_p": 0.5951,
-    "elo_only": false
-   },
-   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401919807",
-   "reasoning": "scan PASS EV=5.29% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 7.64; A4/LEDGER applied in scan.py); LEARNING MODE (bank $445.39 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
-   "scan_id": "espn401919807",
-   "learning_mode": true
-  },
-  {
    "id": "B693",
    "sport": "Polymarket",
    "league": "soc_swe.1",
@@ -1066,6 +1006,252 @@
     "rule": "L007"
    },
    "elo_only": true
+  },
+  {
+   "id": "B695",
+   "sport": "NFL",
+   "league": "nfl",
+   "event": "Baltimore Ravens @ Carolina Panthers",
+   "kickoff": "2026-11-22 22:00",
+   "selection": "Carolina Panthers",
+   "odds": 1.758,
+   "book": "Action Network real book id69",
+   "p": 0.6257,
+   "implied_pct": 56.9,
+   "edge_pct": 9.98,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-17 18:54 (Tbilisi)",
+   "odds_time": "2026-11-17 18:54 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.687,
+     "DRatings": 0.689
+    },
+    "mkt": 0.5635,
+    "nbooks": 5,
+    "blend_p": 0.6257,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/nfl (scan/2026-11-17_1845 id=290989)",
+   "reasoning": "scan PASS EV=9.98% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 14.79; A4/LEDGER applied in scan.py); LEARNING MODE (bank $448.67 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "290989",
+   "learning_mode": true
+  },
+  {
+   "id": "B696",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "Liberty Flames @ Southern Illinois Salukis",
+   "kickoff": "2026-11-18 03:00",
+   "selection": "Liberty Flames",
+   "odds": 2.14,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5013,
+   "implied_pct": 46.7,
+   "edge_pct": 7.27,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-17 18:54 (Tbilisi)",
+   "odds_time": "2026-11-17 18:54 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.599,
+     "DRatings": 0.509
+    },
+    "mkt": 0.4486,
+    "nbooks": 1,
+    "blend_p": 0.5013,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401920953",
+   "reasoning": "scan PASS EV=7.27% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 7.16; A4/LEDGER applied in scan.py); LEARNING MODE (bank $448.67 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "espn401920953",
+   "learning_mode": true
+  },
+  {
+   "id": "B697",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "Michigan State Spartans @ Tennessee Volunteers",
+   "kickoff": "2026-11-18 06:00",
+   "selection": "Tennessee Volunteers",
+   "odds": 2.3,
+   "book": "Action Network real book id49",
+   "p": 0.4554,
+   "implied_pct": 43.5,
+   "edge_pct": 4.74,
+   "stake": 1.02,
+   "status": "open",
+   "opened_at": "2026-11-17 18:54 (Tbilisi)",
+   "odds_time": "2026-11-17 18:54 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.505,
+     "DRatings": 0.477
+    },
+    "mkt": 0.4198,
+    "nbooks": 5,
+    "blend_p": 0.4554,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaab (scan/2026-11-17_1845 id=297849)",
+   "reasoning": "scan PASS EV=4.74% models=['ESPN', 'DRatings']; scan stake $2.05 (raw 2.05; A4/LEDGER applied in scan.py); LEARNING MODE (bank $448.67 ≤ -10% vs $500): half stake → $1.02; NEWS clear → TITAN APPROVED at $1.02",
+   "scan_id": "297849",
+   "learning_mode": true
+  },
+  {
+   "id": "B698",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Colorado Buffaloes @ Cincinnati Bearcats",
+   "kickoff": "2026-11-21 21:00",
+   "selection": "Cincinnati Bearcats",
+   "odds": 1.704,
+   "book": "Action Network real book id69",
+   "p": 0.612,
+   "implied_pct": 58.7,
+   "edge_pct": 4.29,
+   "stake": 1.71,
+   "status": "open",
+   "opened_at": "2026-11-17 18:54 (Tbilisi)",
+   "odds_time": "2026-11-17 18:54 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.633
+    },
+    "mkt": 0.5909,
+    "nbooks": 5,
+    "blend_p": 0.612,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-17_1845 id=290110)",
+   "reasoning": "scan PASS EV=4.29% models=['ESPN']; scan stake $3.41 (raw 3.41; A4/LEDGER applied in scan.py); LEARNING MODE (bank $448.67 ≤ -10% vs $500): half stake → $1.71; NEWS clear → TITAN APPROVED at $1.71",
+   "scan_id": "290110",
+   "learning_mode": true
+  },
+  {
+   "id": "B699",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Rice Owls @ Temple Owls",
+   "kickoff": "2026-11-20 04:30",
+   "selection": "Temple Owls",
+   "odds": 1.725,
+   "book": "Action Network real book id69",
+   "p": 0.6033,
+   "implied_pct": 58.0,
+   "edge_pct": 4.04,
+   "stake": 1.57,
+   "status": "open",
+   "opened_at": "2026-11-17 18:54 (Tbilisi)",
+   "odds_time": "2026-11-17 18:54 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.67,
+     "DRatings": 0.599
+    },
+    "mkt": 0.5721,
+    "nbooks": 5,
+    "blend_p": 0.6033,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-17_1845 id=290081)",
+   "reasoning": "scan PASS EV=4.04% models=['ESPN', 'DRatings']; scan stake $3.15 (raw 3.15; A4/LEDGER applied in scan.py); LEARNING MODE (bank $448.67 ≤ -10% vs $500): half stake → $1.57; NEWS clear → TITAN APPROVED at $1.57",
+   "scan_id": "290081",
+   "learning_mode": true
+  },
+  {
+   "id": "B700",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Iowa State Cyclones @ UCF Knights",
+   "kickoff": "2026-11-21 03:00",
+   "selection": "Iowa State Cyclones",
+   "odds": 2.12,
+   "book": "Action Network real book id71",
+   "p": 0.4906,
+   "implied_pct": 47.2,
+   "edge_pct": 4.0,
+   "stake": 1.0,
+   "status": "open",
+   "opened_at": "2026-11-17 18:54 (Tbilisi)",
+   "odds_time": "2026-11-17 18:54 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.483,
+     "DRatings": 0.555
+    },
+    "mkt": 0.4622,
+    "nbooks": 5,
+    "blend_p": 0.4906,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-17_1845 id=290082)",
+   "reasoning": "scan PASS EV=4.0% models=['ESPN', 'DRatings']; scan stake $2.01 (raw 2.01; A4/LEDGER applied in scan.py); LEARNING MODE (bank $448.67 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "290082",
+   "learning_mode": true
+  },
+  {
+   "id": "B701",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Syracuse Orange @ Boston College Eagles",
+   "kickoff": "2026-11-21 21:00",
+   "selection": "Syracuse Orange",
+   "odds": 1.741,
+   "book": "Action Network real book id68",
+   "p": 0.5947,
+   "implied_pct": 57.4,
+   "edge_pct": 3.52,
+   "stake": 1.34,
+   "status": "open",
+   "opened_at": "2026-11-17 18:54 (Tbilisi)",
+   "odds_time": "2026-11-17 18:54 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.633
+    },
+    "mkt": 0.5564,
+    "nbooks": 5,
+    "blend_p": 0.5947,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-17_1845 id=290104)",
+   "reasoning": "scan PASS EV=3.52% models=['ESPN']; scan stake $2.68 (raw 2.68; A4/LEDGER applied in scan.py); LEARNING MODE (bank $448.67 ≤ -10% vs $500): half stake → $1.34; NEWS clear → TITAN APPROVED at $1.34",
+   "scan_id": "290104",
+   "learning_mode": true
+  },
+  {
+   "id": "B702",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "Cal State Northridge Matadors @ Troy Trojans",
+   "kickoff": "2026-11-18 04:00",
+   "selection": "Troy Trojans",
+   "odds": 1.8,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.575,
+   "implied_pct": 55.6,
+   "edge_pct": 3.5,
+   "stake": 1.23,
+   "status": "open",
+   "opened_at": "2026-11-17 18:54 (Tbilisi)",
+   "odds_time": "2026-11-17 18:54 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.647,
+     "DRatings": 0.588
+    },
+    "mkt": 0.5325,
+    "nbooks": 1,
+    "blend_p": 0.575,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401920297",
+   "reasoning": "scan PASS EV=3.5% models=['ESPN', 'DRatings']; scan stake $2.45 (raw 2.45; A4/LEDGER applied in scan.py); LEARNING MODE (bank $448.67 ≤ -10% vs $500): half stake → $1.23; NEWS clear → TITAN APPROVED at $1.23",
+   "scan_id": "espn401920297",
+   "learning_mode": true
   }
  ],
  "settled_bets": [
@@ -33930,6 +34116,92 @@
     "note": "CLV +0.92% (2.42 vs DraftKings no-vig close 2.398); final Holy Cross Crusaders 60, UAlbany Great Danes 62 (FT). Price beat the close — loss is variance.",
     "lesson": null
    }
+  },
+  {
+   "id": "B626",
+   "sport": "NFL",
+   "league": "nfl",
+   "event": "Los Angeles Chargers @ Baltimore Ravens",
+   "kickoff": "2026-11-17 05:15",
+   "selection": "Los Angeles Chargers",
+   "odds": 1.98,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5268,
+   "implied_pct": 50.5,
+   "edge_pct": 4.33,
+   "stake": 2.59,
+   "status": "settled",
+   "opened_at": "2026-11-08 00:05 (Tbilisi)",
+   "odds_time": "2026-11-08 00:05 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.571
+    },
+    "mkt": 0.4826,
+    "nbooks": 1,
+    "blend_p": 0.5268,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nfl/summary?event=401873065",
+   "reasoning": "scan PASS EV=4.33% models=['ESPN']; scan stake $2.59 (raw 2.59; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $2.59",
+   "scan_id": "espn401873065",
+   "result": "won",
+   "pl_usd": 2.54,
+   "settled_at": "2026-11-17 18:44 (Tbilisi)",
+   "final_score": "Baltimore Ravens 20, Los Angeles Chargers 23 (FT)",
+   "score": "Baltimore Ravens 20, Los Angeles Chargers 23 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065",
+   "settle_source": "ESPN nfl event 401873065 STATUS_FINAL, Los Angeles Chargers winner",
+   "closing_odds": 2.8,
+   "closing_fair_odds": 2.9195,
+   "clv_pct": -32.18,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-218', 'away': '+180'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-218', 'away': '+180'}; no-vig fair 2.9195; recorded MID 2026-11-17 18:44 (Tbilisi)"
+  },
+  {
+   "id": "B692",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "St. Thomas Tommies @ Long Island University Sharks",
+   "kickoff": "2026-11-17 04:00",
+   "selection": "St. Thomas Tommies",
+   "odds": 1.769,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.5951,
+   "implied_pct": 56.5,
+   "edge_pct": 5.29,
+   "stake": 2.5,
+   "status": "settled",
+   "opened_at": "2026-11-16 18:51 (Tbilisi)",
+   "odds_time": "2026-11-16 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.631,
+     "DRatings": 0.664
+    },
+    "mkt": 0.5427,
+    "nbooks": 1,
+    "blend_p": 0.5951,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401919807",
+   "reasoning": "scan PASS EV=5.29% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 7.64; A4/LEDGER applied in scan.py); LEARNING MODE (bank $445.39 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "espn401919807",
+   "learning_mode": true,
+   "result": "won",
+   "pl_usd": 1.92,
+   "settled_at": "2026-11-17 18:44 (Tbilisi)",
+   "final_score": "Long Island University Sharks 70, St. Thomas Tommies 79 (FT)",
+   "score": "Long Island University Sharks 70, St. Thomas Tommies 79 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401919807",
+   "settle_source": "ESPN ncaab event 401919807 STATUS_FINAL, St. Thomas Tommies winner",
+   "closing_odds": 1.9259,
+   "closing_fair_odds": 2.0174,
+   "clv_pct": -12.31,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-112', 'away': '-108'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401919807",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '-112', 'away': '-108'}; no-vig fair 2.0174; recorded MID 2026-11-17 18:44 (Tbilisi)"
   }
  ],
  "positions": [
@@ -33943,7 +34215,7 @@
    "stop_loss": 720.42,
    "take_profit": 867.6,
    "thesis": "S&P 500-ის ETF ბაზის პოზიციაა. ფასი MA20/MA50-ზე მაღლაა, RSI",
-   "last_price": 744.66
+   "last_price": 738.22
   },
   {
    "symbol": "AAPL",
@@ -33955,7 +34227,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 354.25,
+   "last_price": 352.85,
    "adds": [
     {
      "date": "2026-10-14",
@@ -33976,7 +34248,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 100.06
+   "last_price": 98.95
   },
   {
    "symbol": "MSFT",
@@ -33984,7 +34256,7 @@
    "qty": 0.02422006,
    "entry_price": 536.7452,
    "cost_usd": 13.0,
-   "last_price": 520.46,
+   "last_price": 511.9,
    "opened_at": "2026-10-15 18:59 (Tbilisi)",
    "stop_loss": 493.81,
    "take_profit": 611.89,
@@ -33996,7 +34268,7 @@
    "qty": 0.02473397,
    "entry_price": 404.3023,
    "cost_usd": 10.0,
-   "last_price": 411.81,
+   "last_price": 390.0,
    "opened_at": "2026-10-15 18:59 (Tbilisi)",
    "stop_loss": 371.96,
    "take_profit": 460.9,
@@ -34008,7 +34280,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 429.43,
+   "last_price": 423.9,
    "opened_at": "2026-10-15 18:59 (Tbilisi)",
    "stop_loss": 367.22,
    "take_profit": 455.04,
@@ -35278,6 +35550,14 @@
    "total_value": 445.39,
    "cash": 336.9768,
    "btc_bench": 395.75
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "MID",
+   "time": "2026-11-17 18:54 (Tbilisi)",
+   "total_value": 448.67,
+   "cash": 333.6575,
+   "btc_bench": 395.26
   }
  ],
  "benchmarks_start": {
@@ -158478,6 +158758,1347 @@
    },
    "settle_note": "ESPN/gamma finals: 3 settled 2W/1L +1.16 — B661 Indianapolis Colts won (Indianapolis Colts 24, Miami Dolphins 22); B668 Kansas City Chiefs won (Atlanta Falcons 13, Kansas City Chiefs 35); B680 Holy Cross Crusaders lost (Holy Cross Crusaders 60, UAlbany Great Danes 62). Left open (not final / B294 postponed): none.",
    "closed_at": "2026-11-16 18:51 (Tbilisi)"
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "MID",
+   "time": "2026-11-17 18:44 (Tbilisi)",
+   "status": "complete",
+   "note": "LEARNING MODE (bank $448.67 = -10.3% vs $500 deposits): 8 learning bets at $1-$2.50 (max 8), 0 approved candidates over the limit skipped. MID: 8 new bets (scan 11 PASS), TITAN blocked 3, shrunk 0, settled 2 (+4.46), ledger 2, post-mortems 0, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: 0 SL/TP, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 22W/34L +19.18, Polymarket 39W/68L +10.63, NBA 8W/22L -28.25",
+   "ledger": [
+    {
+     "id": "B626",
+     "odds": 1.98,
+     "close": 2.8,
+     "fair": 2.9195,
+     "clv_pct": -32.18,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065"
+    },
+    {
+     "id": "B692",
+     "odds": 1.769,
+     "close": 1.9259,
+     "fair": 2.0174,
+     "clv_pct": -12.31,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401919807"
+    }
+   ],
+   "postmortem": [],
+   "not_final_left_open": [],
+   "research": {
+    "settled": [
+     {
+      "id": "B626",
+      "event": "Los Angeles Chargers @ Baltimore Ravens",
+      "sel": "Los Angeles Chargers",
+      "odds": 1.98,
+      "stake": 2.59,
+      "result": "won",
+      "pl_usd": 2.54,
+      "score": "Baltimore Ravens 20, Los Angeles Chargers 23",
+      "sport": "NFL"
+     },
+     {
+      "id": "B692",
+      "event": "St. Thomas Tommies @ Long Island University Sharks",
+      "sel": "St. Thomas Tommies",
+      "odds": 1.769,
+      "stake": 2.5,
+      "result": "won",
+      "pl_usd": 1.92,
+      "score": "Long Island University Sharks 70, St. Thomas Tommies 79",
+      "sport": "NCAAB"
+     }
+    ],
+    "note": "MID paper cycle 2026-11-17 (only cycle of the day)",
+    "btc_hold": "NO BUY: BTC 65133 < MA20 73493 (below SMA50 79021) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00",
+    "btc": 65133,
+    "btc_ma20": 73492.99,
+    "btc_ma50": 79020.51,
+    "tokens_passed": 86,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B695",
+     "B696",
+     "B697",
+     "B698",
+     "B699",
+     "B700",
+     "B701",
+     "B702"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 3,
+    "titan_shrunk": 0,
+    "nova_approved": 8,
+    "x_calls": 7,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-11-17_1845",
+    "time": "2026-11-17 18:45 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 315,
+    "funnel": {
+     "options_AN": 16108,
+     "events_AN": 506,
+     "events_ESPN": 1844,
+     "options_ESPN": 2080,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 957,
+     "model_rows_DR": 353,
+     "model_rows_FTS": 7,
+     "events_upcoming": 798,
+     "selections_priced": 1983,
+     "selections_consensus": 1336,
+     "with_model": 1135,
+     "with_2plus_model": 407,
+     "with_1_model": 728,
+     "drop_too_few_books": 625,
+     "elo_matched_events": 241,
+     "drop_no_model": 201,
+     "drop_nhl_calibration": 22,
+     "dup_open_variant": 3,
+     "gate_ev<3": 973,
+     "gate_PASS": 14,
+     "gate_V2_odds>2.99": 8,
+     "gate_dup_open": 6,
+     "gate_A3_range": 57,
+     "gate_L004_single_model_gap": 10,
+     "gate_odds>5": 61,
+     "gate_V2_ev>12": 2,
+     "gate_model_ev<=0": 2,
+     "gate_TITAN_elo_disagree>10pt": 2,
+     "options_Polymarket": 41730,
+     "pm_markets": 20865,
+     "pm_liq1k": 6944,
+     "pm_sports_ml": 2148,
+     "pm_drop_L007_league_unmapped": 255,
+     "pm_drop_L007_no_strict_match": 281,
+     "pm_matched_model": 437,
+     "pm_gate_odds>5": 34,
+     "pm_gate_ev<3": 349,
+     "pm_gate_A3_range": 28,
+     "pm_tb1_tagged": 120,
+     "pm_gate_V2_odds>2.99": 3,
+     "pm_gate_L004_single_model_gap": 8,
+     "pm_gate_dup_open": 9,
+     "pm_gate_model_ev<=0": 4,
+     "pm_gate_PASS": 1,
+     "pm_tb1_tagged_pass": 1,
+     "pm_gate_TITAN_elo_disagree>10pt": 1,
+     "dup_open": 15,
+     "bank_live": 448.67,
+     "bank_stale_overall_report": 445.31,
+     "drop_same_event": 1,
+     "drop_same_event_variant": 1,
+     "prior_veto": 3,
+     "prior_veto_list_24h": 4,
+     "ledger_halve_suppressed": 4,
+     "final_after_caps": 11,
+     "stake_total": 36.75,
+     "budget_caps": 115.74,
+     "v2_nba_shadow": 0,
+     "v2_nba_shadow_clean": 0,
+     "tokens_daily_rule": "BTC gate closed, first token scan today",
+     "tokens_src_dexscreener_tokens": 74,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 0,
+     "tokens_gt_fetch_seconds": 86,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 742,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 737,
+     "tokens_chain_solana": 223,
+     "tokens_chain_ethereum": 161,
+     "tokens_chain_bsc": 184,
+     "tokens_chain_robinhood": 5,
+     "tokens_chain_base": 164,
+     "tokens_gate_liquidity": 409,
+     "tokens_gate_pass": 130,
+     "tokens_gate_too_new": 82,
+     "tokens_gate_thin_liq_fdv": 78,
+     "tokens_gate_rug_dump": 2,
+     "tokens_gate_low_activity": 34,
+     "tokens_gate_pump": 2,
+     "tokens_safety_pass": 86,
+     "tokens_safety_fail": 24,
+     "tokens_safety_unverified": 20,
+     "tokens_passed_safety": 86,
+     "options_scanned_total": 60655
+    },
+    "coverage_events_by_sport": {
+     "ncaaf": 75,
+     "nfl": 13,
+     "ncaab": 110,
+     "soccer": 387,
+     "nba": 99,
+     "nhl": 103,
+     "ufc": 11
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 60655,
+     "candidates": [
+      {
+       "name": "Carolina Panthers",
+       "type": "nfl",
+       "score": 59,
+       "why": "EV 9.98% @1.758 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Michigan Wolverines",
+       "type": "ncaaf",
+       "score": 58,
+       "why": "EV 8.24% @2.54 models=['ESPN']"
+      },
+      {
+       "name": "Jacksonville Jaguars",
+       "type": "nfl",
+       "score": 57,
+       "why": "EV 7.53% @1.408 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Liberty Flames",
+       "type": "ncaab",
+       "score": 57,
+       "why": "EV 7.27% @2.14 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Cincinnati Bearcats",
+       "type": "ncaaf",
+       "score": 54,
+       "why": "EV 4.29% @1.704 models=['ESPN']"
+      },
+      {
+       "name": "Temple Owls",
+       "type": "ncaaf",
+       "score": 54,
+       "why": "EV 4.04% @1.725 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Syracuse Orange",
+       "type": "ncaaf",
+       "score": 53,
+       "why": "EV 3.52% @1.741 models=['ESPN']"
+      },
+      {
+       "name": "Troy Trojans",
+       "type": "ncaab",
+       "score": 53,
+       "why": "EV 3.5% @1.8 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Tennessee Volunteers",
+       "type": "ncaab",
+       "score": 54,
+       "why": "EV 4.74% @2.3 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Iowa State Cyclones",
+       "type": "ncaaf",
+       "score": 54,
+       "why": "EV 4.0% @2.12 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Mansfield Town",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.67% @2.564 models=['EloFD']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 60655,
+      "with_model": 1135,
+      "gate_PASS": 14,
+      "pm_gate_PASS": 1,
+      "dup_open": 15,
+      "prior_veto": 3,
+      "final_after_caps": 11,
+      "pm_tb1_tagged": 120,
+      "pm_tb1_tagged_pass": 1,
+      "tokens_tokens_unique": 742,
+      "tokens_passed_safety": 86,
+      "stake_total": 36.75,
+      "budget_caps": 115.74
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 65182.43,
+       "tp": 70397.02,
+       "stop": 61923.31,
+       "support": 64120.24,
+       "resistance": 80442.71,
+       "prices": [
+        77838.81,
+        77275.05,
+        77520.89,
+        78293.84,
+        76709.41,
+        77384.59,
+        80442.71,
+        76005.51,
+        75775.28,
+        75776.38,
+        74740.42,
+        75266.77,
+        73721.18,
+        73974.39,
+        71371.98,
+        68313.71,
+        64120.24,
+        65305.28,
+        64840.87,
+        65182.43
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 738.22,
+       "tp": 797.28,
+       "stop": 701.31,
+       "support": 733.0,
+       "resistance": 773.09,
+       "prices": [
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29,
+        752.69,
+        749.92,
+        759.81,
+        757.12,
+        754.37,
+        739.95,
+        738.22
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "down",
+       "entry": 511.9,
+       "tp": 552.85,
+       "stop": 486.3,
+       "support": 507.12,
+       "resistance": 555.8,
+       "prices": [
+        532.95,
+        521.08,
+        524.51,
+        532.6,
+        531.33,
+        531.01,
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61,
+        545.18,
+        533.16,
+        521.13,
+        523.0,
+        523.88,
+        517.99,
+        511.9
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1116.54,
+       "tp": 1205.86,
+       "stop": 1060.71,
+       "support": 982.73,
+       "resistance": 1116.54,
+       "prices": [
+        998.31,
+        1018.21,
+        1003.32,
+        1005.16,
+        992.13,
+        982.73,
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56,
+        1066.18,
+        1066.14,
+        1087.61,
+        1092.21,
+        1106.21,
+        1113.74,
+        1116.54
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 588.11,
+       "tp": 635.16,
+       "stop": 558.7,
+       "support": 538.99,
+       "resistance": 592.94,
+       "prices": [
+        538.99,
+        546.97,
+        542.19,
+        548.56,
+        542.99,
+        540.34,
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89,
+        575.25,
+        583.34,
+        588.24,
+        589.83,
+        592.94,
+        592.85,
+        588.11
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 169.06,
+       "tp": 182.58,
+       "stop": 160.61,
+       "support": 164.47,
+       "resistance": 187.25,
+       "prices": [
+        178.09,
+        178.23,
+        183.21,
+        184.54,
+        179.91,
+        182.02,
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87,
+        164.73,
+        164.47,
+        166.71,
+        169.78,
+        170.59,
+        166.87,
+        169.06
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 204.78,
+       "tp": 221.16,
+       "stop": 194.54,
+       "support": 204.78,
+       "resistance": 250.29,
+       "prices": [
+        241.78,
+        250.29,
+        248.57,
+        247.61,
+        240.89,
+        242.11,
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65,
+        214.94,
+        213.48,
+        218.01,
+        217.57,
+        217.84,
+        214.83,
+        204.78
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1422.17,
+       "tp": 1535.94,
+       "stop": 1351.06,
+       "support": 1270.75,
+       "resistance": 1443.5,
+       "prices": [
+        1270.75,
+        1306.69,
+        1273.46,
+        1279.14,
+        1281.91,
+        1288.3,
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0,
+        1411.95,
+        1432.29,
+        1437.29,
+        1427.28,
+        1443.5,
+        1431.67,
+        1422.17
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "Carolina Panthers",
+       "stance": "watch",
+       "text": "Ravens (opponent): Lamar Jackson (thumb) and Tyler Huntley (toe) on IR, Jacoby Brissett starting",
+       "source": "https://x.com/PTSportsPicks/status/2122336387454402901"
+      },
+      {
+       "candidate": "Michigan Wolverines",
+       "stance": "bearish",
+       "text": "Michigan (our side): football player Nate Marshall suspended; assistant coach Jason Beck fired",
+       "source": "https://x.com/NILnotNLI/status/2121990729115582598"
+      },
+      {
+       "candidate": "Jacksonville Jaguars",
+       "stance": "bearish",
+       "text": "Jaguars (our side): report that QB Trevor Lawrence has a shoulder (AC joint) injury and is unlikely to play, Mac Jones expected to start (lo",
+       "source": "https://x.com/NFLInjuryPulse/status/2122340447679025555"
+      },
+      {
+       "candidate": "Liberty Flames",
+       "stance": "bullish",
+       "text": "Liberty Flames (our side, ESPN-DK) @2.14 at Southern Illinois: no own-side injury/suspension/coach news in X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Cincinnati Bearcats",
+       "stance": "bullish",
+       "text": "Cincinnati Bearcats (our side) @1.704 vs Colorado: no own-side injury/suspension/coach news in X results (results = Bengals NFL; a \"former\" ",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Temple Owls",
+       "stance": "bullish",
+       "text": "Temple Owls (our side) @1.725 vs Rice: no own-side injury/suspension/coach news in X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Syracuse Orange",
+       "stance": "bullish",
+       "text": "Syracuse Orange (our side) @1.741 at Boston College: no own-side injury/suspension/coach news in X results (BC coach O'Brien on hot seat = o",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Troy Trojans",
+       "stance": "bullish",
+       "text": "Troy Trojans (our side, ESPN-DK) @1.80 vs CSUN: no own-side injury/suspension/coach news in X results (only a women's commit post) → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Tennessee Volunteers",
+       "stance": "watch",
+       "text": "Michigan State (opponent): Jordan Scott injury \"could be worse\" (minor)",
+       "source": "https://x.com/spartans_hit/status/2122383160084164800"
+      },
+      {
+       "candidate": "Iowa State Cyclones",
+       "stance": "bullish",
+       "text": "Iowa State Cyclones (our side) @2.12 at UCF: no own-side injury/suspension/coach news in X results (Fennelly suspension = women's basketball",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Mansfield Town",
+       "stance": "bearish",
+       "text": "Mansfield Town (our side): Nigel Clough injury news — players back in training, two deemed \"50/50\" for MK Dons",
+       "source": "https://x.com/ChadNews/status/2122681732369383662"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "Carolina Panthers",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Michigan Wolverines",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Jacksonville Jaguars",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Liberty Flames",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Cincinnati Bearcats",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Temple Owls",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Syracuse Orange",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Troy Trojans",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Tennessee Volunteers",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Iowa State Cyclones",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Mansfield Town",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": -0.09
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "Carolina Panthers (Baltimore Ravens @ Carolina Panthers)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Carolina Panthers (our side) @1.758 vs Ravens: no own-side injury; opponent QB on IR (priced) → clear"
+      },
+      {
+       "candidate": "Michigan Wolverines (UCLA Bruins @ Michigan Wolverines)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Michigan Wolverines (our side) @2.54 vs UCLA: own-side suspension + injury hit + QB uncertainty → TITAN shrink"
+      },
+      {
+       "candidate": "Jacksonville Jaguars (Jacksonville Jaguars @ New York Giants)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Jacksonville Jaguars (our side) @1.408 at Giants: unconfirmed own-side starting-QB injury report → TITAN shrink (c"
+      },
+      {
+       "candidate": "Liberty Flames (Liberty Flames @ Southern Illinois Saluk)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Liberty Flames (our side, ESPN-DK) @2.14 at Southern Illinois: no own-side injury/suspension/coach news in X results → clear"
+      },
+      {
+       "candidate": "Cincinnati Bearcats (Colorado Buffaloes @ Cincinnati Bearcats)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Cincinnati Bearcats (our side) @1.704 vs Colorado: no own-side injury/suspension/coach news in X results (results = Bengals NFL; a \"former\" UC coach fired elsew"
+      },
+      {
+       "candidate": "Temple Owls (Rice Owls @ Temple Owls)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Temple Owls (our side) @1.725 vs Rice: no own-side injury/suspension/coach news in X results → clear"
+      },
+      {
+       "candidate": "Syracuse Orange (Syracuse Orange @ Boston College Eagles)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Syracuse Orange (our side) @1.741 at Boston College: no own-side injury/suspension/coach news in X results (BC coach O'Brien on hot seat = opponent) → clear"
+      },
+      {
+       "candidate": "Troy Trojans (Cal State Northridge Matadors @ Troy Tro)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Troy Trojans (our side, ESPN-DK) @1.80 vs CSUN: no own-side injury/suspension/coach news in X results (only a women's commit post) → clear"
+      },
+      {
+       "candidate": "Tennessee Volunteers (Michigan State Spartans @ Tennessee Volu)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Tennessee Volunteers (our side) @2.30 vs Michigan State: Tennessee injury posts are all football (WR Mike Matthews), none for basketball → clear"
+      },
+      {
+       "candidate": "Iowa State Cyclones (Iowa State Cyclones @ UCF Knights)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Iowa State Cyclones (our side) @2.12 at UCF: no own-side injury/suspension/coach news in X results (Fennelly suspension = women's basketball, not football) → cl"
+      },
+      {
+       "candidate": "Mansfield Town (Milton Keynes Dons @ Mansfield Town)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Mansfield Town (our side, Polymarket ask, Elo-only) @2.564 vs MK Dons: two own-side players 50/50 → TITAN shrink"
+      }
+     ],
+     "blocked_count": 3
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Carolina Panthers (Baltimore Ravens @ Carolina Panthers)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Michigan Wolverines (UCLA Bruins @ Michigan Wolverines)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Jacksonville Jaguars (Jacksonville Jaguars @ New York Gian)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Liberty Flames (Liberty Flames @ Southern Illinois S)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Tennessee Volunteers (Michigan State Spartans @ Tennessee )",
+       "action": "BUY",
+       "size_usd": 1.02
+      },
+      {
+       "candidate": "Cincinnati Bearcats (Colorado Buffaloes @ Cincinnati Bear)",
+       "action": "BUY",
+       "size_usd": 1.71
+      },
+      {
+       "candidate": "Temple Owls (Rice Owls @ Temple Owls)",
+       "action": "BUY",
+       "size_usd": 1.57
+      },
+      {
+       "candidate": "Iowa State Cyclones (Iowa State Cyclones @ UCF Knights)",
+       "action": "BUY",
+       "size_usd": 1.0
+      },
+      {
+       "candidate": "Mansfield Town (Milton Keynes Dons @ Mansfield Town)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Syracuse Orange (Syracuse Orange @ Boston College Eag)",
+       "action": "BUY",
+       "size_usd": 1.34
+      },
+      {
+       "candidate": "Troy Trojans (Cal State Northridge Matadors @ Troy)",
+       "action": "BUY",
+       "size_usd": 1.23
+      }
+     ],
+     "desk_pl_today": 4.46
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 11,
+      "approved": 8,
+      "blocked": 3,
+      "note": "სკანი 60655 ოფცია; with_model 1135; PASS 14+PM 1 → caps 11 (dup_open 15, prior_veto 3); NEWS/TITAN-ის შემდეგ 8"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 65133 vs MA20 73493 & SMA50 79021 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 11,
+      "approved": 8,
+      "blocked": 3,
+      "note": "X search_posts_all (7 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 11,
+      "approved": 8,
+      "blocked": 3,
+      "note": "overall -0.09"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 11,
+      "approved": 8,
+      "blocked": 3,
+      "note": "ფსონები: სკანის 11 PASS → 3 ვეტო (Michigan Wolverines, Jacksonville Jaguars, Mansfield Town), 0 შემცირება (არა); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 8,
+      "blocked": 0,
+      "note": "8 ფსონი (B695 Carolina Panthers @1.758 $2.5, B696 Liberty Flames @2.14 $2.5, B697 Tennessee Volunteers @2.3 $1.02, B698 Cincinnati Bearcats @1.704 $1.71, B699 Temple Owls @1.725 $1.57, B700 Iowa State Cyclones @2.12 $1.0, B701 Syracuse Orange @1.741 $1.34, B702 Troy Trojans @1.8 $1.23); ბიუჯეტი ქეპებში $115.74 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 11,
+      "approved": 8,
+      "blocked": 3,
+      "note": "11 PASS კანდიდატი → 7 x-call (search_posts_all): 3 ბლოკი, 0 შემცირება, 8 clear"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 post-mortem: none; 0 losses settled this MID (B626 Chargers W, B692 St. Thomas W) → no post-mortem, no new lesson."
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 2,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 2/2; Football n=159 mean -4.77%; Polymarket n=241 mean -1.98%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 120, pass 1"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): არა; B294 გადაიდო 2026-12-01-მდე; ჰალვინგი გამორთულია (მფლობელი 28 ოქტ.)"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: არა; post-unhalve NBA 8W/22L -28.25 (წაგებაშია → მფლობელს ეცნობება); NBA real bets = 0 (V2-3); NBA shadow: 5 logged, 5 settled, P/L -1.83$ (not staked)"
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 10,
+      "approved": 8,
+      "blocked": 2,
+      "note": "დასახლდა: B626 Los Angeles Chargers +2.54, B692 St. Thomas Tommies +1.92"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 65133 < MA20 73493 (-11.4%), < SMA50 79021 → no buy, hold 0 lots; ETH 1823 (MA20 2112, SMA50 2344), SOL 73.94 (SMA50 99.95) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "742 scanned, 86 passed safety (daily rule: BTC gate closed, first token scan today); buying needs BTC>MA20 → gate closed (and learning mode: no token buys) → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი ღიაა (სამშაბათი, სესია 18:30-დან; Yahoo live SPY 738.22, MSFT 511.9, UNH 390.0, V 423.9); 6 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; stop/TP არ მოხვდა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 1,
+      "note": "L007: unmapped 255, no strict 281, matched 437; PM PASS 1; TB1 pass 1; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "სამშაბათი 17 ნოემბერი (MID) — მაკრო კალენდარი ამ ციკლში ახალი წყაროთი არ შემოწმებულა; ფსონებზე გავლენა არა; სასწავლო რეჟიმში აქციის ყიდვა არა → 0"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "290989",
+     "event": "Baltimore Ravens @ Carolina Panthers",
+     "sel": "Carolina Panthers",
+     "queries": [
+      "(Panthers OR \"Bryce Young\" OR Jaguars OR \"Trevor Lawrence\") (injury OR injured OR \"ruled out\" OR questionable OR suspended OR IR) -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Ravens (opponent): Lamar Jackson (thumb) and Tyler Huntley (toe) on IR, Jacoby Brissett starting",
+       "source": "https://x.com/PTSportsPicks/status/2122336387454402901",
+       "time": "2026-11-16 18:30 (Tbilisi)"
+      },
+      {
+       "type": "none",
+       "text": "Panthers (our side): Bryce Young off the injury report",
+       "source": "https://x.com/Wyatt_054/status/2122025093077377524",
+       "time": "2026-11-15 21:53 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Carolina Panthers (our side) @1.758 vs Ravens: no own-side injury; opponent QB on IR (priced) → clear"
+    },
+    {
+     "candidate": "290115",
+     "event": "UCLA Bruins @ Michigan Wolverines",
+     "sel": "Michigan Wolverines",
+     "queries": [
+      "(Michigan OR Wolverines OR Cincinnati OR Bearcats OR \"Temple Owls\" OR \"Temple football\") football (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended OR fired) -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "suspension",
+       "text": "Michigan (our side): football player Nate Marshall suspended; assistant coach Jason Beck fired",
+       "source": "https://x.com/NILnotNLI/status/2121990729115582598",
+       "time": "2026-11-15 19:36 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Michigan football \"has taken a significant injury hit\"; QB plan vs UCLA unsettled (Tommy Carr or Bryce Underwood)",
+       "source": "https://x.com/BrandonLittleBL/status/2122366562862592362",
+       "time": "2026-11-16 20:29 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Michigan Wolverines (our side) @2.54 vs UCLA: own-side suspension + injury hit + QB uncertainty → TITAN shrink"
+    },
+    {
+     "candidate": "290988",
+     "event": "Jacksonville Jaguars @ New York Giants",
+     "sel": "Jacksonville Jaguars",
+     "queries": [
+      "(Panthers OR \"Bryce Young\" OR Jaguars OR \"Trevor Lawrence\") (injury OR injured OR \"ruled out\" OR questionable OR suspended OR IR) -is:retweet lang:en",
+      "(\"Trevor Lawrence\" OR Jaguars) (shoulder OR \"Mac Jones\" OR status OR practice) (Giants OR Coen OR update) -is:retweet lang:en"
+     ],
+     "tool_calls": 2,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Jaguars (our side): report that QB Trevor Lawrence has a shoulder (AC joint) injury and is unlikely to play, Mac Jones expected to start (low-credibility account, names Lions as opponent; not confirmed by team notes)",
+       "source": "https://x.com/NFLInjuryPulse/status/2122340447679025555",
+       "time": "2026-11-16 18:46 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Jacksonville Jaguars (our side) @1.408 at Giants: unconfirmed own-side starting-QB injury report → TITAN shrink (caution)"
+    },
+    {
+     "candidate": "espn401920953",
+     "event": "Liberty Flames @ Southern Illinois Salukis",
+     "sel": "Liberty Flames",
+     "queries": [
+      "(\"Liberty Flames\" OR \"Liberty basketball\" OR \"Tennessee basketball\" OR Vols OR \"Troy Trojans\" OR \"Troy basketball\") (injury OR injured OR out OR suspended OR questionable OR \"ruled out\") -is:retweet lang:en",
+      "(\"Rick Barnes\" OR \"Tennessee basketball\" OR \"Vols basketball\" OR \"Michigan State\" OR \"Liberty Flames\" OR \"Southern Illinois\" OR Salukis) (injury OR injured OR out OR questionable OR suspended) basketball -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Liberty Flames (our side, ESPN-DK) @2.14 at Southern Illinois: no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "290110",
+     "event": "Colorado Buffaloes @ Cincinnati Bearcats",
+     "sel": "Cincinnati Bearcats",
+     "queries": [
+      "(Michigan OR Wolverines OR Cincinnati OR Bearcats OR \"Temple Owls\" OR \"Temple football\") football (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended OR fired) -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Cincinnati Bearcats (our side) @1.704 vs Colorado: no own-side injury/suspension/coach news in X results (results = Bengals NFL; a \"former\" UC coach fired elsewhere) → clear"
+    },
+    {
+     "candidate": "290081",
+     "event": "Rice Owls @ Temple Owls",
+     "sel": "Temple Owls",
+     "queries": [
+      "(Michigan OR Wolverines OR Cincinnati OR Bearcats OR \"Temple Owls\" OR \"Temple football\") football (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended OR fired) -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Temple Owls (our side) @1.725 vs Rice: no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "290104",
+     "event": "Syracuse Orange @ Boston College Eagles",
+     "sel": "Syracuse Orange",
+     "queries": [
+      "(\"Iowa State\" OR Cyclones OR Syracuse OR \"Cuse football\") football (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended OR fired) -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Syracuse Orange (our side) @1.741 at Boston College: no own-side injury/suspension/coach news in X results (BC coach O'Brien on hot seat = opponent) → clear"
+    },
+    {
+     "candidate": "espn401920297",
+     "event": "Cal State Northridge Matadors @ Troy Trojans",
+     "sel": "Troy Trojans",
+     "queries": [
+      "(\"Liberty Flames\" OR \"Liberty basketball\" OR \"Tennessee basketball\" OR Vols OR \"Troy Trojans\" OR \"Troy basketball\") (injury OR injured OR out OR suspended OR questionable OR \"ruled out\") -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Troy Trojans (our side, ESPN-DK) @1.80 vs CSUN: no own-side injury/suspension/coach news in X results (only a women's commit post) → clear"
+    },
+    {
+     "candidate": "297849",
+     "event": "Michigan State Spartans @ Tennessee Volunteers",
+     "sel": "Tennessee Volunteers",
+     "queries": [
+      "(\"Liberty Flames\" OR \"Liberty basketball\" OR \"Tennessee basketball\" OR Vols OR \"Troy Trojans\" OR \"Troy basketball\") (injury OR injured OR out OR suspended OR questionable OR \"ruled out\") -is:retweet lang:en",
+      "(\"Rick Barnes\" OR \"Tennessee basketball\" OR \"Vols basketball\" OR \"Michigan State\" OR \"Liberty Flames\" OR \"Southern Illinois\" OR Salukis) (injury OR injured OR out OR questionable OR suspended) basketball -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Michigan State (opponent): Jordan Scott injury \"could be worse\" (minor)",
+       "source": "https://x.com/spartans_hit/status/2122383160084164800",
+       "time": "2026-11-16 21:35 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Tennessee Volunteers (our side) @2.30 vs Michigan State: Tennessee injury posts are all football (WR Mike Matthews), none for basketball → clear"
+    },
+    {
+     "candidate": "290082",
+     "event": "Iowa State Cyclones @ UCF Knights",
+     "sel": "Iowa State Cyclones",
+     "queries": [
+      "(\"Iowa State\" OR Cyclones OR Syracuse OR \"Cuse football\") football (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended OR fired) -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Iowa State Cyclones (our side) @2.12 at UCF: no own-side injury/suspension/coach news in X results (Fennelly suspension = women's basketball, not football) → clear"
+    },
+    {
+     "candidate": "pm:el1-man-mkd-2026-11-21-man",
+     "event": "Milton Keynes Dons @ Mansfield Town",
+     "sel": "Mansfield Town",
+     "queries": [
+      "(\"Mansfield Town\" OR Stags OR \"MK Dons\") (injury OR injured OR suspended OR \"ruled out\" OR sacked OR manager) -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Mansfield Town (our side): Nigel Clough injury news — players back in training, two deemed \"50/50\" for MK Dons",
+       "source": "https://x.com/ChadNews/status/2122681732369383662",
+       "time": "2026-11-17 17:22 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Mansfield Town (our side, Polymarket ask, Elo-only) @2.564 vs MK Dons: two own-side players 50/50 → TITAN shrink"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 74,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 0,
+     "gt_fetch_seconds": 86,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 742,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 737,
+     "chain_solana": 223,
+     "chain_ethereum": 161,
+     "chain_bsc": 184,
+     "chain_robinhood": 5,
+     "chain_base": 164,
+     "gate_liquidity": 409,
+     "gate_pass": 130,
+     "gate_too_new": 82,
+     "gate_thin_liq_fdv": 78,
+     "gate_rug_dump": 2,
+     "gate_low_activity": 34,
+     "gate_pump": 2,
+     "safety_pass": 86,
+     "safety_fail": 24,
+     "safety_unverified": 20
+    },
+    "passed_n": 86,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 2 final(s): B626 won +2.54, B692 won +1.92 (P/L +4.46). Not final → left open for the hourly refresh: none. LEDGER: DK closes 2/2; Football n=159 mean CLV -4.77%; Polymarket n=241 mean -1.98% (halving OFF by owner order 2026-10-28; tracked only). DOC: 0 post-mortems. Scan 60655 options → with_model 1135 → PASS 14+PM 1 → 11 after dedup/caps (prior_veto 3); SHERLOCK/TITAN: 3 blocked, 0 shrunk → 8 bets. NO BUY: BTC 65133 < MA20 73493 (below SMA50 79021) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US session open (Tuesday, Yahoo live quotes ~18:45 Tbilisi), no SL/TP touched; no tested equity entry; no tested entry rule → 0 new buys. Learning mode: ≤8 top-EV bets at $1-$2.50.",
+   "plan": "MID 2026-11-17 (დღის ერთადერთი ციკლი, სამშაბათი ~18:50): Strategy v2 ჩართულია (კოეფ. ≤2.99, მოდელის EV ≤12%, NBA მხოლოდ ჩრდილში, NEWS shrink → block). ბანკი $448.67 (-10.3% დეპოზიტებზე) → სასწავლო რეჟიმი (learning mode): მაქს. 8 ფსონი, ყველაზე მაღალი EV, $1–$2.50, ქეპები/TITAN უცვლელი; კრიპტო/ტოკენ/აქციის ახალი ყიდვა არა. დასახლება მხოლოდ რეალური საბოლოო შედეგით; B294 გადადებული 12-01-მდე; BTC gate დახურული (BTC < MA20/SMA50); MSFT/UNH/V სტოპები/TP მოქმედებს; ახალი ტოკენების სკანი დღეში ერთხელ; Football/Polymarket/NBA ცალკე იზომება.",
+   "strategy_v2": {
+    "enabled": true,
+    "lm_use_v2_filter": false,
+    "rules": "odds<=2.99, EV<=12%, NBA shadow-only, NEWS shrink->block",
+    "news_shrink_blocked": [
+     "290115",
+     "290988",
+     "pm:el1-man-mkd-2026-11-21-man"
+    ],
+    "scan_v2_rejects": {
+     "gate_V2_odds>2.99": 8,
+     "gate_V2_ev>12": 2,
+     "pm_gate_V2_odds>2.99": 3
+    },
+    "nba_shadow_logged": 0,
+    "nba_shadow_clean": 0
+   },
+   "drawdown_brake": {
+    "deposits": 500.0,
+    "threshold": 450.0,
+    "stop_threshold": 400.0,
+    "bank": 448.67,
+    "vs_deposits_pct": -10.27,
+    "mode": "learning",
+    "triggered": true,
+    "learning_mode": true,
+    "learning_mode_enabled": true,
+    "effect": "LEARNING MODE: max 8 bets/cycle, top-EV picks only, stake $1-$2.5 (half normal), caps/TITAN/news unchanged; no crypto/token/equity buys",
+    "placed_learning_bets": 8,
+    "skipped_by_brake": []
+   },
+   "settle_note": "ESPN/gamma finals: 2 settled 2W/0L +4.46 — B626 Los Angeles Chargers won (Baltimore Ravens 20, Los Angeles Chargers 23); B692 St. Thomas Tommies won (Long Island University Sharks 70, St. Thomas Tommies 79). Left open (not final / B294 postponed): none.",
+   "closed_at": "2026-11-17 18:54 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -158818,21 +160439,21 @@
   }
  ],
  "last_prices": {
-  "BTC": 64163,
+  "BTC": 65133,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 744.66,
+  "SPY": 738.22,
   "META": 615.42,
-  "AAPL": 354.25,
+  "AAPL": 352.85,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
   "GOOGL": 288.15,
   "QQQ": 659.27,
   "XLV": 188.33,
-  "MSFT": 520.46,
+  "MSFT": 511.9,
   "PLTR": 161.34,
-  "V": 429.43,
+  "V": 423.9,
   "BRK-B": 575.25,
   "ETH": 2090.87,
   "SOL": 85.3,
@@ -158843,11 +160464,11 @@
   "JPM": 336.69,
   "JNJ": 275.62,
   "BAC": 49.81,
-  "UNH": 411.81,
+  "UNH": 390.0,
   "COST": 1066.18,
   "XOM": 164.73,
   "CRM": 214.94,
-  "KO": 100.06,
+  "KO": 98.95,
   "NFLX": 63.64,
   "WMT": 125.66,
   "INTC": 98.12,
@@ -158876,8 +160497,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 74263.69,
-  "BTC_MA50": 79372.88,
+  "BTC_MA20": 73492.99,
+  "BTC_MA50": 79020.51,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -158896,20 +160517,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-16 19:42 (Tbilisi)",
-  "total_value": 445.31,
+  "time": "2026-11-17 18:54 (Tbilisi)",
+  "total_value": 448.67,
   "deposits_usd": 500,
-  "vs_deposits_usd": -54.69,
-  "vs_deposits_pct": -10.94,
-  "btc_bench": 389.37,
-  "vs_btc_usd": 55.94,
+  "vs_deposits_usd": -51.33,
+  "vs_deposits_pct": -10.27,
+  "btc_bench": 395.26,
+  "vs_btc_usd": 53.42,
   "bets": {
-   "n": 665,
-   "wins": 246,
+   "n": 667,
+   "wins": 248,
    "losses": 419,
-   "open": 29,
-   "pl_usd": -51.32,
-   "roi_pct": -4.0
+   "open": 35,
+   "pl_usd": -46.86,
+   "roi_pct": -3.7
   },
   "by_sport": {
    "NHL": {
@@ -158962,11 +160583,11 @@
     "roi_pct": -2.6
    },
    "NFL": {
-    "n": 23,
-    "wins": 13,
+    "n": 24,
+    "wins": 14,
     "losses": 10,
-    "pl_usd": 18.89,
-    "roi_pct": 33.5
+    "pl_usd": 21.43,
+    "roi_pct": 36.4
    },
    "Basketball": {
     "n": 3,
@@ -158983,11 +160604,11 @@
     "roi_pct": -16.2
    },
    "NCAAB": {
-    "n": 47,
-    "wins": 20,
+    "n": 48,
+    "wins": 21,
     "losses": 27,
-    "pl_usd": 4.91,
-    "roi_pct": 3.6
+    "pl_usd": 6.83,
+    "roi_pct": 4.9
    }
   },
   "crypto": {
@@ -158999,14 +160620,14 @@
   },
   "stocks": {
    "open_n": 6,
-   "value_usd": 61.95,
-   "unrealized_usd": 1.45,
+   "value_usd": 60.86,
+   "unrealized_usd": 0.36,
    "realized_usd": 0.48,
-   "total_pl_usd": 1.93
+   "total_pl_usd": 0.84
   },
-  "cash_usd": 336.9768,
-  "scanned": 55595,
-  "open_bets_usd": 46.38,
+  "cash_usd": 333.6575,
+  "scanned": 60655,
+  "open_bets_usd": 54.16,
   "desk_stats": {
    "FOOTBALL": {
     "n": 189,
@@ -159023,11 +160644,11 @@
     "roi_pct": -36.3
    },
    "US SPORTS": {
-    "n": 157,
-    "wins": 73,
+    "n": 159,
+    "wins": 75,
     "losses": 84,
-    "pl_usd": 6.25,
-    "roi_pct": 1.7
+    "pl_usd": 10.71,
+    "roi_pct": 2.8
    },
    "TENNIS": {
     "n": 1,
@@ -159090,11 +160711,11 @@
    "enabled": true,
    "rules_ka": "კოეფ. ≤2.99 · EV ≤12% · NBA მხოლოდ ჩრდილში · NEWS shrink → block",
    "nba_shadow_logged": 5,
-   "nba_shadow_settled": 4,
-   "nba_shadow_pl": -0.19
+   "nba_shadow_settled": 5,
+   "nba_shadow_pl": -1.83
   }
  },
- "last_refresh": "2026-11-16 19:42 (Tbilisi)",
+ "last_refresh": "2026-11-17 18:54 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -160347,7 +161968,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-16 19:42 (Tbilisi)",
+  "updated": "2026-11-17 18:54 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -160392,7 +162013,7 @@
     "late_better": 21,
     "equal": 2,
     "avg_clv_pct": 4.48,
-    "no_close": 7,
+    "no_close": 11,
     "lean": "early"
    },
    "NBA": {
@@ -160414,11 +162035,11 @@
     "lean": "early"
    },
    "NFL": {
-    "n": 23,
+    "n": 24,
     "early_better": 15,
-    "late_better": 7,
+    "late_better": 8,
     "equal": 1,
-    "avg_clv_pct": 9.45,
+    "avg_clv_pct": 7.83,
     "no_close": 2,
     "lean": "early"
    },
@@ -160441,12 +162062,12 @@
     "lean": null
    },
    "NCAAB": {
-    "n": 46,
+    "n": 47,
     "early_better": 23,
-    "late_better": 18,
+    "late_better": 19,
     "equal": 5,
-    "avg_clv_pct": -0.21,
-    "no_close": 2,
+    "avg_clv_pct": -0.38,
+    "no_close": 4,
     "lean": "early"
    }
   },
@@ -168361,6 +169982,30 @@
     "better": "early"
    },
    {
+    "id": "B626",
+    "sport": "NFL",
+    "event": "Los Angeles Chargers @ Baltimore Ravens",
+    "open": null,
+    "taken": 1.98,
+    "taken_time": "2026-11-08 00:05 (Tbilisi)",
+    "close": 2.8,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065",
+    "clv_pct": -29.29,
+    "better": "late"
+   },
+   {
+    "id": "B692",
+    "sport": "NCAAB",
+    "event": "St. Thomas Tommies @ Long Island University Sharks",
+    "open": null,
+    "taken": 1.769,
+    "taken_time": "2026-11-16 18:51 (Tbilisi)",
+    "close": 1.9259,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401919807",
+    "clv_pct": -8.15,
+    "better": "late"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -168389,17 +170034,6 @@
     "open": null,
     "taken": 3.3,
     "taken_time": "2026-10-24 09:00 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B626",
-    "sport": "NFL",
-    "event": "Los Angeles Chargers @ Baltimore Ravens",
-    "open": null,
-    "taken": 1.98,
-    "taken_time": "2026-11-08 00:05 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -168647,17 +170281,6 @@
     "better": null
    },
    {
-    "id": "B692",
-    "sport": "NCAAB",
-    "event": "St. Thomas Tommies @ Long Island University Sharks",
-    "open": null,
-    "taken": 1.769,
-    "taken_time": "2026-11-16 18:51 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B693",
     "sport": "Polymarket",
     "event": "Djurgården @ IK Sirius",
@@ -168675,6 +170298,94 @@
     "open": null,
     "taken": 2.083,
     "taken_time": "2026-11-16 18:51 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B695",
+    "sport": "NFL",
+    "event": "Baltimore Ravens @ Carolina Panthers",
+    "open": null,
+    "taken": 1.758,
+    "taken_time": "2026-11-17 18:54 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B696",
+    "sport": "NCAAB",
+    "event": "Liberty Flames @ Southern Illinois Salukis",
+    "open": null,
+    "taken": 2.14,
+    "taken_time": "2026-11-17 18:54 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B697",
+    "sport": "NCAAB",
+    "event": "Michigan State Spartans @ Tennessee Volunteers",
+    "open": null,
+    "taken": 2.3,
+    "taken_time": "2026-11-17 18:54 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B698",
+    "sport": "NCAAF",
+    "event": "Colorado Buffaloes @ Cincinnati Bearcats",
+    "open": null,
+    "taken": 1.704,
+    "taken_time": "2026-11-17 18:54 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B699",
+    "sport": "NCAAF",
+    "event": "Rice Owls @ Temple Owls",
+    "open": null,
+    "taken": 1.725,
+    "taken_time": "2026-11-17 18:54 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B700",
+    "sport": "NCAAF",
+    "event": "Iowa State Cyclones @ UCF Knights",
+    "open": null,
+    "taken": 2.12,
+    "taken_time": "2026-11-17 18:54 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B701",
+    "sport": "NCAAF",
+    "event": "Syracuse Orange @ Boston College Eagles",
+    "open": null,
+    "taken": 1.741,
+    "taken_time": "2026-11-17 18:54 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B702",
+    "sport": "NCAAB",
+    "event": "Cal State Northridge Matadors @ Troy Trojans",
+    "open": null,
+    "taken": 1.8,
+    "taken_time": "2026-11-17 18:54 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -168700,8 +170411,8 @@
    "mean_clv_pct": 0.19
   },
   "NFL": {
-   "n": 23,
-   "mean_clv_pct": 4.95
+   "n": 24,
+   "mean_clv_pct": 3.4
   },
   "MLB": {
    "n": 2,
@@ -168716,18 +170427,18 @@
    "mean_clv_pct": -8.73
   },
   "NCAAB": {
-   "n": 46,
-   "mean_clv_pct": -4.33
+   "n": 47,
+   "mean_clv_pct": -4.5
   }
  },
  "v2_shadow_summary": {
-  "updated": "2026-11-16 18:44 (Tbilisi)",
-  "n_logged": 4,
-  "n_settled": 4,
+  "updated": "2026-11-17 18:44 (Tbilisi)",
+  "n_logged": 5,
+  "n_settled": 5,
   "wins": 2,
-  "shadow_pl_usd": -0.19,
-  "shadow_staked": 14.34,
-  "mean_clv_pct": -11.56
+  "shadow_pl_usd": -1.83,
+  "shadow_staked": 15.98,
+  "mean_clv_pct": -10.28
  },
  "v2_shadow_bets": [
   {
@@ -168911,9 +170622,19 @@
    "v2_rule": "V2_nba_shadow",
    "also_fails_v2": null,
    "scan_stamp": "2026-11-16_1844",
-   "status": "open",
+   "status": "settled",
    "recorded_at": "2026-11-16 18:44 (Tbilisi)",
-   "paper_shadow": true
+   "paper_shadow": true,
+   "espn_event": "401909996",
+   "result": "lost",
+   "shadow_pl_usd": -1.64,
+   "final_score": "Washington Wizards 120, Memphis Grizzlies 136 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909996",
+   "settled_at": "2026-11-17 18:44 (Tbilisi)",
+   "closing_odds": 2.43,
+   "closing_fair_odds": 2.53,
+   "clv_pct": -5.14,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+143', 'away': '-170'}"
   }
  ]
 }
