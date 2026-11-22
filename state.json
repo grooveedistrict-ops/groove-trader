@@ -168518,7 +168518,7 @@
    "slot": "MID",
    "time": "2026-11-22 18:45 (Tbilisi)",
    "status": "complete",
-   "note": "LEARNING MODE (bank $409.27 = -18.1% vs $500 deposits): 8 learning bets at $1-$2.50 (max 8), 4 approved candidates over the limit skipped. MID: 8 new bets (scan 13 PASS), TITAN blocked 1, shrunk 0, settled 25 (-30.9), ledger 28, post-mortems 23, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: SL none / TP none, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 23W/35L +19.23, Polymarket 44W/84L -6.60, NBA 8W/22L -28.25",
+   "note": "LEARNING MODE (bank $409.27 = -18.1% vs $500 deposits): 8 learning bets at $1-$2.50 (max 8), 4 approved candidates over the limit skipped. MID: 8 new bets (scan 13 PASS), TITAN blocked 1, shrunk 0, settled 28 (5W/23L -36.94, incl. 3 UFC: B704 L -5.00, B706 L -5.00, B714 W +3.96), ledger 28, post-mortems 23, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: SL none / TP none, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 23W/35L +19.23, Polymarket 44W/84L -6.60, NBA 8W/22L -28.25",
    "ledger": [
     {
      "id": "B634",
@@ -170191,7 +170191,7 @@
       "proposals": 23,
       "approved": 0,
       "blocked": 0,
-      "note": "23 post-mortem: B651 price+variance, B655 price+variance, B664 price+variance, B667 variance, B676 variance, B681 price+variance, B683 price+variance, B685 price+variance, B686 price+variance, B687 variance, B690 variance, B701 variance, B703 price+variance, B710 price+variance, B715 price+variance, B721 variance, B725 price+variance, B728 price+variance, B730 variance, B731 price+variance, B733 price+variance, B704 variance (no close), B706 variance (no close); 28 bets settled this MID (5W/23L −$36.94): 23 losses post-mortemed (mostly soccer draws/home favourites + 2 UFC), CLV mixed (12 −, 9 +, 2 UFC no close) — variance + price; no rule break, no new lesson (learning mode already caps stakes)."
+      "note": "23 post-mortem: B651 price+variance, B655 price+variance, B664 price+variance, B667 variance, B676 variance, B681 price+variance, B683 price+variance, B685 price+variance, B686 price+variance, B687 variance, B690 variance, B701 variance, B703 price+variance, B710 price+variance, B715 price+variance, B721 variance, B725 price+variance, B728 price+variance, B730 variance, B731 price+variance, B733 price+variance, B704 variance (no close), B706 variance (no close); 28 bets settled this MID (5W/23L −$36.94): 23 losses post-mortemed (mostly soccer draws/home favourites + 2 UFC), CLV mixed (14 −, 7 +, 2 UFC no close) — variance + price; no rule break, no new lesson (learning mode already caps stakes)."
      },
      {
       "id": "LEDGER",
@@ -170241,7 +170241,7 @@
       "proposals": 0,
       "approved": 0,
       "blocked": 0,
-      "note": "დასახლდა: არა; post-unhalve NBA 8W/22L -28.25 (წაგებაშია → მფლობელს ეცნობება); NBA real bets = 0 (V2-3); NBA shadow: 5 logged, 5 settled, P/L -1.83$ (not staked)"
+      "note": "დასახლდა: არა; post-unhalve NBA 8W/22L -28.25 (წაგებაშია → მფლობელს ეცნობება); NBA real bets = 0 (V2-3); NBA shadow: 3 new logged this scan (8 total), 5 settled, P/L -1.83$ (not staked)"
      },
      {
       "id": "USSPORTS",
@@ -170271,7 +170271,7 @@
       "proposals": 0,
       "approved": 0,
       "blocked": 0,
-      "note": "დასახლდა: "
+      "note": "დასახლდა (ESPN UFC FINAL): B704 Nikolas Motta -5.00, B706 Jiri Prochazka -5.00, B714 Tallison Teixeira +3.96 → 1W/2L -6.04; ახალი UFC კანდიდატი არა"
      },
      {
       "id": "ESPORTS",
@@ -170602,7 +170602,7 @@
     "bought": [],
     "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
    },
-   "analysis": "Settled 25 final(s): B634 won +1.05, B651 lost -1.5, B655 lost -1.28, B664 lost -2.5, B667 lost -1.28, B676 lost -1.0, B681 lost -1.0, B683 lost -1.0, B685 lost -1.0, B686 lost -1.0, B687 lost -2.34, B690 lost -2.5, B698 won +1.2, B701 lost -1.34, B703 lost -5.0, B710 lost -1.81, B715 lost -1.0, B721 lost -2.5, B724 won +2.6, B725 lost -1.0, B728 lost -1.0, B730 lost -2.5, B731 lost -2.5, B733 lost -2.5, B734 won +1.8 (P/L -30.9). Not final → left open for the hourly refresh: B653, B689, B693, B694. LEDGER: DK closes 25/28; Football n=161 mean CLV -4.76%; Polymarket n=262 mean -2.21% (halving OFF by owner order 2026-10-28; tracked only). DOC: 23 post-mortems. Scan 54288 options → with_model 758 → PASS 10+PM 11 → 13 after dedup/caps (prior_veto 0); SHERLOCK/TITAN: 1 blocked, 0 shrunk → 8 bets. NO BUY: BTC 60739 < MA20 69327 (below SMA50 76681) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US market closed (Sunday; Yahoo Friday close), no SL/TP touched (AAPL/KO/V within SL/TP); no tested equity entry; no tested entry rule → 0 new buys. Learning mode: ≤8 top-EV bets at $1-$2.50.",
+   "analysis": "Settled 25 final(s): B634 won +1.05, B651 lost -1.5, B655 lost -1.28, B664 lost -2.5, B667 lost -1.28, B676 lost -1.0, B681 lost -1.0, B683 lost -1.0, B685 lost -1.0, B686 lost -1.0, B687 lost -2.34, B690 lost -2.5, B698 won +1.2, B701 lost -1.34, B703 lost -5.0, B710 lost -1.81, B715 lost -1.0, B721 lost -2.5, B724 won +2.6, B725 lost -1.0, B728 lost -1.0, B730 lost -2.5, B731 lost -2.5, B733 lost -2.5, B734 won +1.8 (P/L -30.9) + UFC B704 lost -5.00, B706 lost -5.00, B714 won +3.96 → total 28 settled, P/L -36.94. Not final → left open for the hourly refresh: B653, B689, B693, B694. LEDGER: DK closes 25/28; Football n=161 mean CLV -4.76%; Polymarket n=262 mean -2.21% (halving OFF by owner order 2026-10-28; tracked only). DOC: 23 post-mortems. Scan 54288 options → with_model 758 → PASS 10+PM 11 → 13 after dedup/caps (prior_veto 0); SHERLOCK/TITAN: 1 blocked, 0 shrunk → 8 bets. NO BUY: BTC 60739 < MA20 69327 (below SMA50 76681) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US market closed (Sunday; Yahoo Friday close), no SL/TP touched (AAPL/KO/V within SL/TP); no tested equity entry; no tested entry rule → 0 new buys. Learning mode: ≤8 top-EV bets at $1-$2.50.",
    "plan": "MID 2026-11-22 (დღის ერთადერთი ციკლი, კვირა ~18:50): Strategy v2 ჩართულია (კოეფ. ≤2.99, მოდელის EV ≤12%, NBA მხოლოდ ჩრდილში, NEWS shrink → block). ბანკი $409.27 (-18.1% დეპოზიტებზე) → სასწავლო რეჟიმი (learning mode): მაქს. 8 ფსონი, ყველაზე მაღალი EV, $1–$2.50, ქეპები/TITAN უცვლელი; კრიპტო/ტოკენ/აქციის ახალი ყიდვა არა. დასახლება მხოლოდ რეალური საბოლოო შედეგით; B294 გადადებული 12-01-მდე; BTC gate დახურული (BTC < MA20/SMA50); AAPL/KO/V-ს სტოპი/TP მოქმედებს, დღეს არცერთი არ შეხებია (MSFT 21.11 და UNH 18.11 სტოპით გავიდა); Union Berlin-ის სახელის ალიასი დაემატა settle-ში (მხოლოდ შედარება); ახალი ტოკენების სკანი დღეში ერთხელ; Football/Polymarket/NBA ცალკე იზომება.",
    "strategy_v2": {
     "enabled": true,
@@ -170638,7 +170638,7 @@
      "espn401921205"
     ]
    },
-   "settle_note": "ESPN/gamma finals: 25 settled 4W/21L -30.9 — B634 AFC Bournemouth won (AFC Bournemouth 2, Nottingham Forest 0); B651 Union Berlin lost (1. FC Union Berlin 1, RB Leipzig 5); B655 Lille lost (Lille 0, Lyon 1); B664 FC Utrecht lost (FC Utrecht 2, SC Cambuur 3); B667 Kilmarnock lost (Kilmarnock 2, Aberdeen 4); B676 Bolton Wanderers lost (Bolton Wanderers 1, Portsmouth 1); B681 Karlsruher SC lost (Karlsruher SC 0, VfL Osnabruck 0); B683 Swansea City lost (Swansea City 2, West Bromwich Albion 2); B685 Huddersfield Town lost (Huddersfield Town 0, Leicester City 1); B686 Strasbourg lost (Strasbourg 0, Brest 1); B687 Kaiserslautern lost (Kaiserslautern 2, Dynamo Dresden 2); B690 South Florida Bulls lost (Florida Atlantic Owls 35, South Florida Bulls 14); B698 Cincinnati Bearcats won (Cincinnati Bearcats 35, Colorado Buffaloes 28); B701 Syracuse Orange lost (Boston College Eagles 27, Syracuse Orange 15); B703 Northwestern Wildcats lost (Minnesota Golden Gophers 20, Northwestern Wildcats 17); B710 Real Betis lost (Sevilla 1, Real Betis 1); B715 Cheltenham Town lost (Cheltenham Town 0, Bristol Rovers 3); B721 Ohio State Buckeyes lost (Nebraska Cornhuskers 31, Ohio State Buckeyes 28); B724 GAIS won (GAIS 3, Västerås SK 1); B725 Mansfield Town lost (Mansfield Town 1, Milton Keynes Dons 1); B728 Plymouth Argyle lost (Plymouth Argyle 0, Peterborough United 2); B730 Santos lost (Santos 1, León 2); B731 Lens lost (Lens 1, Toulouse 1); B733 Memphis Tigers lost (Navy Midshipmen 38, Memphis Tigers 34); B734 North Florida Ospreys won (North Florida Ospreys 99, Little Rock Trojans 87). Left open (not final / B294 postponed): B653, B689, B693, B694.",
+   "settle_note": "ESPN/gamma finals: 28 settled 5W/23L -36.94 (25 ESPN team-sport + 3 ESPN UFC) — B634 AFC Bournemouth won (AFC Bournemouth 2, Nottingham Forest 0); B651 Union Berlin lost (1. FC Union Berlin 1, RB Leipzig 5); B655 Lille lost (Lille 0, Lyon 1); B664 FC Utrecht lost (FC Utrecht 2, SC Cambuur 3); B667 Kilmarnock lost (Kilmarnock 2, Aberdeen 4); B676 Bolton Wanderers lost (Bolton Wanderers 1, Portsmouth 1); B681 Karlsruher SC lost (Karlsruher SC 0, VfL Osnabruck 0); B683 Swansea City lost (Swansea City 2, West Bromwich Albion 2); B685 Huddersfield Town lost (Huddersfield Town 0, Leicester City 1); B686 Strasbourg lost (Strasbourg 0, Brest 1); B687 Kaiserslautern lost (Kaiserslautern 2, Dynamo Dresden 2); B690 South Florida Bulls lost (Florida Atlantic Owls 35, South Florida Bulls 14); B698 Cincinnati Bearcats won (Cincinnati Bearcats 35, Colorado Buffaloes 28); B701 Syracuse Orange lost (Boston College Eagles 27, Syracuse Orange 15); B703 Northwestern Wildcats lost (Minnesota Golden Gophers 20, Northwestern Wildcats 17); B710 Real Betis lost (Sevilla 1, Real Betis 1); B715 Cheltenham Town lost (Cheltenham Town 0, Bristol Rovers 3); B721 Ohio State Buckeyes lost (Nebraska Cornhuskers 31, Ohio State Buckeyes 28); B724 GAIS won (GAIS 3, Västerås SK 1); B725 Mansfield Town lost (Mansfield Town 1, Milton Keynes Dons 1); B728 Plymouth Argyle lost (Plymouth Argyle 0, Peterborough United 2); B730 Santos lost (Santos 1, León 2); B731 Lens lost (Lens 1, Toulouse 1); B733 Memphis Tigers lost (Navy Midshipmen 38, Memphis Tigers 34); B734 North Florida Ospreys won (North Florida Ospreys 99, Little Rock Trojans 87); UFC (ESPN mma/ufc 2026-11-21 STATUS_FINAL): B704 Nikolas Motta lost (Dom Mar Fan def. Nikolas Motta (FINAL)); B706 Jiri Prochazka lost (Navajo Stirling def. Jiří Procházka (FINAL)); B714 Tallison Teixeira won (Tallison Teixeira def. Shamil Gaziev (FINAL)). Left open (not final / B294 postponed): B653, B689, B693, B694.",
    "closed_at": "2026-11-22 19:03 (Tbilisi)"
   }
  ],
@@ -171058,7 +171058,7 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-22 19:03 (Tbilisi)",
+  "time": "2026-11-22 19:05 (Tbilisi)",
   "total_value": 409.27,
   "deposits_usd": 500,
   "vs_deposits_usd": -90.73,
@@ -171256,7 +171256,7 @@
    "nba_shadow_pl": -1.83
   }
  },
- "last_refresh": "2026-11-22 19:03 (Tbilisi)",
+ "last_refresh": "2026-11-22 19:05 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -172509,7 +172509,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-22 19:03 (Tbilisi)",
+  "updated": "2026-11-22 19:05 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
