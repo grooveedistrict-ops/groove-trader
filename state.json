@@ -383,90 +383,6 @@
    "tb1_dog_25_40": true
   },
   {
-   "id": "B693",
-   "sport": "Polymarket",
-   "league": "soc_swe.1",
-   "event": "Djurgården @ IK Sirius",
-   "kickoff": "2026-11-22 17:00",
-   "selection": "Djurgården",
-   "odds": 2.703,
-   "book": "Polymarket ask",
-   "p": 0.3878,
-   "implied_pct": 37.0,
-   "edge_pct": 4.81,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-16 18:51 (Tbilisi)",
-   "odds_time": "2026-11-16 18:51 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "DRatings": 0.419
-    },
-    "mkt": 0.3566,
-    "nbooks": 1,
-    "blend_p": 0.3878,
-    "elo_only": false
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=swe-sir-dju-2026-11-22-dju",
-   "reasoning": "scan PASS EV=4.81% models=['DRatings']; scan stake $1.58 (raw 1.58; A4/LEDGER applied in scan.py); LEARNING MODE (bank $445.39 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "pm:swe-sir-dju-2026-11-22-dju",
-   "learning_mode": true,
-   "polymarket_slug": "swe-sir-dju-2026-11-22-dju",
-   "outcome_price": 0.37,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "IK Sirius vs. Djurgardens IF",
-    "pm_league": "SWE1",
-    "pm_kickoff_utc": "2026-11-22T13:00Z",
-    "checked": "2026-11-16 18:51 (Tbilisi)",
-    "rule": "L007"
-   },
-   "tb1_dog_25_40": true
-  },
-  {
-   "id": "B694",
-   "sport": "Polymarket",
-   "league": "soc_aut.1",
-   "event": "SK Sturm Graz @ SC Rheindorf Altach",
-   "kickoff": "2026-11-22 17:30",
-   "selection": "SK Sturm Graz",
-   "odds": 2.083,
-   "book": "Polymarket ask",
-   "p": 0.4991,
-   "implied_pct": 48.0,
-   "edge_pct": 3.98,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-16 18:51 (Tbilisi)",
-   "odds_time": "2026-11-16 18:51 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5484
-    },
-    "mkt": 0.4499,
-    "nbooks": 1,
-    "blend_p": 0.4991,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=aut-alt-stu-2026-11-22-stu",
-   "reasoning": "scan PASS EV=3.98% models=['EloFD']; scan stake $1.02 (raw 1.02; A4/LEDGER applied in scan.py); LEARNING MODE (bank $445.39 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "pm:aut-alt-stu-2026-11-22-stu",
-   "learning_mode": true,
-   "polymarket_slug": "aut-alt-stu-2026-11-22-stu",
-   "outcome_price": 0.4801,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "SCR Altach vs. SK Sturm Graz",
-    "pm_league": "AUT1",
-    "pm_kickoff_utc": "2026-11-22T13:30Z",
-    "checked": "2026-11-16 18:51 (Tbilisi)",
-    "rule": "L007"
-   },
-   "elo_only": true
-  },
-  {
    "id": "B695",
    "sport": "NFL",
    "league": "nfl",
@@ -36510,6 +36426,130 @@
    "settle_source": "ESPN UFC event 600061665 bout 401927852 STATUS_FINAL, Tallison Teixeira winner",
    "closing_odds": null,
    "closing_note": "no real close recorded (UFC; ESPN pickcenter n/a)"
+  },
+  {
+   "id": "B693",
+   "sport": "Polymarket",
+   "league": "soc_swe.1",
+   "event": "Djurgården @ IK Sirius",
+   "kickoff": "2026-11-22 17:00",
+   "selection": "Djurgården",
+   "odds": 2.703,
+   "book": "Polymarket ask",
+   "p": 0.3878,
+   "implied_pct": 37.0,
+   "edge_pct": 4.81,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-16 18:51 (Tbilisi)",
+   "odds_time": "2026-11-16 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.419
+    },
+    "mkt": 0.3566,
+    "nbooks": 1,
+    "blend_p": 0.3878,
+    "elo_only": false
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=swe-sir-dju-2026-11-22-dju",
+   "reasoning": "scan PASS EV=4.81% models=['DRatings']; scan stake $1.58 (raw 1.58; A4/LEDGER applied in scan.py); LEARNING MODE (bank $445.39 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:swe-sir-dju-2026-11-22-dju",
+   "learning_mode": true,
+   "polymarket_slug": "swe-sir-dju-2026-11-22-dju",
+   "outcome_price": 0.37,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "IK Sirius vs. Djurgardens IF",
+    "pm_league": "SWE1",
+    "pm_kickoff_utc": "2026-11-22T13:00Z",
+    "checked": "2026-11-16 18:51 (Tbilisi)",
+    "rule": "L007"
+   },
+   "tb1_dog_25_40": true,
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-11-22 19:42 (Tbilisi)",
+   "final_score": "IK Sirius 1, Djurgården 0 (FT)",
+   "score": "IK Sirius 1, Djurgården 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842885",
+   "settle_source": "ESPN swe.1 event 401842885 STATUS_FULL_TIME, IK Sirius winner; Polymarket Djurgården Yes trading 0.0005 (UMA resolution pending)",
+   "closing_odds": 3.05,
+   "closing_fair_odds": 3.227,
+   "clv_pct": -16.24,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+125', 'away': '+205', 'draw': '+250'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842885",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+125', 'away': '+205', 'draw': '+250'}; no-vig fair 3.227; recorded HOURLY 2026-11-22 19:42 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-22 19:42 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -16.24% (2.703 vs DraftKings no-vig close 3.227); final IK Sirius 1, Djurgården 0 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
+  },
+  {
+   "id": "B694",
+   "sport": "Polymarket",
+   "league": "soc_aut.1",
+   "event": "SK Sturm Graz @ SC Rheindorf Altach",
+   "kickoff": "2026-11-22 17:30",
+   "selection": "SK Sturm Graz",
+   "odds": 2.083,
+   "book": "Polymarket ask",
+   "p": 0.4991,
+   "implied_pct": 48.0,
+   "edge_pct": 3.98,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-16 18:51 (Tbilisi)",
+   "odds_time": "2026-11-16 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5484
+    },
+    "mkt": 0.4499,
+    "nbooks": 1,
+    "blend_p": 0.4991,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=aut-alt-stu-2026-11-22-stu",
+   "reasoning": "scan PASS EV=3.98% models=['EloFD']; scan stake $1.02 (raw 1.02; A4/LEDGER applied in scan.py); LEARNING MODE (bank $445.39 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:aut-alt-stu-2026-11-22-stu",
+   "learning_mode": true,
+   "polymarket_slug": "aut-alt-stu-2026-11-22-stu",
+   "outcome_price": 0.4801,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "SCR Altach vs. SK Sturm Graz",
+    "pm_league": "AUT1",
+    "pm_kickoff_utc": "2026-11-22T13:30Z",
+    "checked": "2026-11-16 18:51 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "result": "lost",
+   "pl_usd": -1.0,
+   "settled_at": "2026-11-22 19:42 (Tbilisi)",
+   "final_score": "SC Rheindorf Altach 1, SK Sturm Graz 0 (FT)",
+   "score": "SC Rheindorf Altach 1, SK Sturm Graz 0 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/summary?event=401881745",
+   "settle_source": "ESPN aut.1 event 401881745 STATUS_FULL_TIME, SC Rheindorf Altach winner; Polymarket SK Sturm Graz Yes trading 0.0005 (UMA resolution pending)",
+   "closing_odds": 2.1,
+   "closing_fair_odds": 2.2377,
+   "clv_pct": -6.91,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+225', 'away': '+110', 'draw': '+255'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/summary?event=401881745",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+225', 'away': '+110', 'draw': '+255'}; no-vig fair 2.2377; recorded HOURLY 2026-11-22 19:42 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-22 19:42 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -6.91% (2.083 vs DraftKings no-vig close 2.2377); final SC Rheindorf Altach 1, SK Sturm Graz 0 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -168743,6 +168783,22 @@
      "fair": null,
      "clv_pct": null,
      "source": null
+    },
+    {
+     "id": "B693",
+     "odds": 2.703,
+     "close": 3.05,
+     "fair": 3.227,
+     "clv_pct": -16.24,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842885"
+    },
+    {
+     "id": "B694",
+     "odds": 2.083,
+     "close": 2.1,
+     "fair": 2.2377,
+     "clv_pct": -6.91,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/summary?event=401881745"
     }
    ],
    "postmortem": [
@@ -168906,6 +168962,20 @@
      "clv_pct": null,
      "note": "No real close recorded; final Navajo Stirling def. Jiří Procházka (FINAL).",
      "lesson": null
+    },
+    {
+     "id": "B693",
+     "cause": "price+variance",
+     "clv_pct": -16.24,
+     "note": "CLV -16.24% (2.703 vs DraftKings no-vig close 3.227); final IK Sirius 1, Djurgården 0 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
+    },
+    {
+     "id": "B694",
+     "cause": "price+variance",
+     "clv_pct": -6.91,
+     "note": "CLV -6.91% (2.083 vs DraftKings no-vig close 2.2377); final SC Rheindorf Altach 1, SK Sturm Graz 0 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
     }
    ],
    "not_final_left_open": [
@@ -168920,14 +168990,19 @@
      "espn": "STATUS_FIRST_HALF"
     },
     {
-     "id": "B693",
-     "event": "Djurgården @ IK Sirius",
+     "id": "B653",
+     "event": "Genoa @ Sassuolo",
      "espn": "STATUS_SECOND_HALF"
     },
     {
-     "id": "B694",
-     "event": "SK Sturm Graz @ SC Rheindorf Altach",
+     "id": "B689",
+     "event": "Atromitos @ Levadiakos",
      "espn": "STATUS_SECOND_HALF"
+    },
+    {
+     "id": "B723",
+     "event": "Volos NFC @ Panetolikos",
+     "espn": "STATUS_FIRST_HALF"
     }
    ],
    "research": {
@@ -169239,6 +169314,28 @@
       "pl_usd": 3.96,
       "score": "Tallison Teixeira def. Shamil Gaziev (FINAL)",
       "sport": "UFC"
+     },
+     {
+      "id": "B693",
+      "event": "Djurgården @ IK Sirius",
+      "sel": "Djurgården",
+      "odds": 2.703,
+      "stake": 1.0,
+      "result": "lost",
+      "pl_usd": -1.0,
+      "score": "IK Sirius 1, Djurgården 0",
+      "sport": "Polymarket"
+     },
+     {
+      "id": "B694",
+      "event": "SK Sturm Graz @ SC Rheindorf Altach",
+      "sel": "SK Sturm Graz",
+      "odds": 2.083,
+      "stake": 1.0,
+      "result": "lost",
+      "pl_usd": -1.0,
+      "score": "SC Rheindorf Altach 1, SK Sturm Graz 0",
+      "sport": "Polymarket"
      }
     ],
     "note": "MID paper cycle 2026-11-22 (only cycle of the day)",
@@ -170980,7 +171077,7 @@
   }
  ],
  "last_prices": {
-  "BTC": 60739,
+  "BTC": 60776,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 689.81,
@@ -171038,8 +171135,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 69326.71,
-  "BTC_MA50": 76680.61,
+  "BTC_MA20": 69328.28,
+  "BTC_MA50": 76681.24,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -171058,20 +171155,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-22 19:05 (Tbilisi)",
-  "total_value": 409.27,
+  "time": "2026-11-22 19:42 (Tbilisi)",
+  "total_value": 407.27,
   "deposits_usd": 500,
-  "vs_deposits_usd": -90.73,
-  "vs_deposits_pct": -18.15,
-  "btc_bench": 368.59,
-  "vs_btc_usd": 40.68,
+  "vs_deposits_usd": -92.73,
+  "vs_deposits_pct": -18.55,
+  "btc_bench": 368.82,
+  "vs_btc_usd": 38.46,
   "bets": {
-   "n": 712,
+   "n": 714,
    "wins": 264,
-   "losses": 448,
-   "open": 32,
-   "pl_usd": -83.75,
-   "roi_pct": -6.1
+   "losses": 450,
+   "open": 30,
+   "pl_usd": -85.75,
+   "roi_pct": -6.2
   },
   "by_sport": {
    "NHL": {
@@ -171117,11 +171214,11 @@
     "roi_pct": -39.1
    },
    "Polymarket": {
-    "n": 274,
+    "n": 276,
     "wins": 93,
-    "losses": 181,
-    "pl_usd": -28.8,
-    "roi_pct": -6.0
+    "losses": 183,
+    "pl_usd": -30.8,
+    "roi_pct": -6.4
    },
    "NFL": {
     "n": 24,
@@ -171168,7 +171265,7 @@
   },
   "cash_usd": 326.687,
   "scanned": 54288,
-  "open_bets_usd": 52.0,
+  "open_bets_usd": 50.0,
   "desk_stats": {
    "FOOTBALL": {
     "n": 191,
@@ -171213,11 +171310,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 274,
+    "n": 276,
     "wins": 93,
-    "losses": 181,
-    "pl_usd": -28.8,
-    "roi_pct": -6.0
+    "losses": 183,
+    "pl_usd": -30.8,
+    "roi_pct": -6.4
    },
    "CRYPTO MAJORS": {
     "n": 5,
@@ -171256,7 +171353,7 @@
    "nba_shadow_pl": -1.83
   }
  },
- "last_refresh": "2026-11-22 19:05 (Tbilisi)",
+ "last_refresh": "2026-11-22 19:42 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -172509,7 +172606,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-22 19:05 (Tbilisi)",
+  "updated": "2026-11-22 19:42 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -172567,12 +172664,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 262,
+    "n": 264,
     "early_better": 157,
-    "late_better": 102,
+    "late_better": 104,
     "equal": 3,
-    "avg_clv_pct": 3.63,
-    "no_close": 30,
+    "avg_clv_pct": 3.55,
+    "no_close": 28,
     "lean": "early"
    },
    "NFL": {
@@ -181084,6 +181181,30 @@
     "better": null
    },
    {
+    "id": "B693",
+    "sport": "Polymarket",
+    "event": "Djurgården @ IK Sirius",
+    "open": null,
+    "taken": 2.703,
+    "taken_time": "2026-11-16 18:51 (Tbilisi)",
+    "close": 3.05,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401842885",
+    "clv_pct": -11.38,
+    "better": "late"
+   },
+   {
+    "id": "B694",
+    "sport": "Polymarket",
+    "event": "SK Sturm Graz @ SC Rheindorf Altach",
+    "open": null,
+    "taken": 2.083,
+    "taken_time": "2026-11-16 18:51 (Tbilisi)",
+    "close": 2.1,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/summary?event=401881745",
+    "clv_pct": -0.81,
+    "better": "late"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -181199,28 +181320,6 @@
     "event": "Atromitos @ Levadiakos",
     "open": null,
     "taken": 2.564,
-    "taken_time": "2026-11-16 18:51 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B693",
-    "sport": "Polymarket",
-    "event": "Djurgården @ IK Sirius",
-    "open": null,
-    "taken": 2.703,
-    "taken_time": "2026-11-16 18:51 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B694",
-    "sport": "Polymarket",
-    "event": "SK Sturm Graz @ SC Rheindorf Altach",
-    "open": null,
-    "taken": 2.083,
     "taken_time": "2026-11-16 18:51 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -181448,8 +181547,8 @@
    "mean_clv_pct": -4.76
   },
   "Polymarket": {
-   "n": 262,
-   "mean_clv_pct": -2.21
+   "n": 264,
+   "mean_clv_pct": -2.28
   },
   "NCAAF": {
    "n": 78,
