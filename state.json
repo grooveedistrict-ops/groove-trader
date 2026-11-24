@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 342.3757,
+ "cash_usd": 332.9495,
  "open_bets": [
   {
    "id": "B077",
@@ -167,37 +167,6 @@
    "learning_mode": true
   },
   {
-   "id": "B688",
-   "sport": "Football",
-   "league": "mls",
-   "event": "Los Angeles FC @ St. Louis City",
-   "kickoff": "2026-11-24 05:00",
-   "selection": "St. Louis City",
-   "odds": 2.48,
-   "book": "Action Network real book id71",
-   "p": 0.4325,
-   "implied_pct": 40.3,
-   "edge_pct": 7.25,
-   "stake": 1.36,
-   "status": "open",
-   "opened_at": "2026-11-16 18:51 (Tbilisi)",
-   "odds_time": "2026-11-16 18:51 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.482
-    },
-    "mkt": 0.3829,
-    "nbooks": 4,
-    "blend_p": 0.4325,
-    "elo_only": true
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-16_1844 id=309578)",
-   "reasoning": "scan PASS EV=7.25% models=['EloFD']; scan stake $2.73 (raw 2.73; A4/LEDGER applied in scan.py); LEARNING MODE (bank $445.39 ≤ -10% vs $500): half stake → $1.36; NEWS clear → TITAN APPROVED at $1.36",
-   "scan_id": "309578",
-   "learning_mode": true,
-   "elo_only": true
-  },
-  {
    "id": "B713",
    "sport": "Polymarket",
    "league": "soc_bra.1",
@@ -268,48 +237,6 @@
    "reasoning": "scan PASS EV=6.31% models=['ESPN']; scan stake $5.0 (raw 7.16; A4/LEDGER applied in scan.py); LEARNING MODE (bank $446.53 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
    "scan_id": "espn401856761",
    "learning_mode": true
-  },
-  {
-   "id": "B720",
-   "sport": "Polymarket",
-   "league": "soc_esp.2",
-   "event": "Almería @ Ceuta",
-   "kickoff": "2026-11-23 23:30",
-   "selection": "Almería",
-   "odds": 2.041,
-   "book": "Polymarket ask",
-   "p": 0.5122,
-   "implied_pct": 49.0,
-   "edge_pct": 4.53,
-   "stake": 1.0,
-   "status": "open",
-   "opened_at": "2026-11-19 18:45 (Tbilisi)",
-   "odds_time": "2026-11-19 18:45 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.5499
-    },
-    "mkt": 0.4744,
-    "nbooks": 1,
-    "blend_p": 0.5122,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=es2-ceu-alm-2026-11-23-alm",
-   "reasoning": "scan PASS EV=4.53% models=['EloFD']; scan stake $1.22 (raw 1.22; A4/LEDGER applied in scan.py); LEARNING MODE (bank $446.53 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
-   "scan_id": "pm:es2-ceu-alm-2026-11-23-alm",
-   "learning_mode": true,
-   "polymarket_slug": "es2-ceu-alm-2026-11-23-alm",
-   "outcome_price": 0.49,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "AD Ceuta FC vs. UD Almería",
-    "pm_league": "ESP2",
-    "pm_kickoff_utc": "2026-11-23T19:30Z",
-    "checked": "2026-11-19 18:45 (Tbilisi)",
-    "rule": "L007"
-   },
-   "elo_only": true
   },
   {
    "id": "B729",
@@ -615,6 +542,275 @@
    "scan_id": "espn401883102",
    "learning_mode": true,
    "elo_only": true
+  },
+  {
+   "id": "B745",
+   "sport": "Football",
+   "league": "soc_eng.5",
+   "event": "Barrow @ Boston United",
+   "kickoff": "2026-11-24 23:45",
+   "selection": "Boston United",
+   "odds": 2.9,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.3805,
+   "implied_pct": 34.5,
+   "edge_pct": 10.35,
+   "stake": 1.37,
+   "status": "open",
+   "opened_at": "2026-11-24 18:51 (Tbilisi)",
+   "odds_time": "2026-11-24 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4403
+    },
+    "mkt": 0.3208,
+    "nbooks": 1,
+    "blend_p": 0.3805,
+    "elo_only": true
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.5/summary?event=401889188",
+   "reasoning": "scan PASS EV=10.35% models=['EloFD']; scan stake $2.74 (raw 2.74; A4/LEDGER applied in scan.py); LEARNING MODE (bank $402.66 ≤ -10% vs $500): half stake → $1.37; NEWS clear → TITAN APPROVED at $1.37",
+   "scan_id": "espn401889188",
+   "learning_mode": true,
+   "elo_only": true
+  },
+  {
+   "id": "B746",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Florida Atlantic Owls @ East Carolina Pirates",
+   "kickoff": "2026-11-28 22:00",
+   "selection": "East Carolina Pirates",
+   "odds": 1.926,
+   "book": "Action Network real book id69",
+   "p": 0.571,
+   "implied_pct": 51.9,
+   "edge_pct": 9.97,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-24 18:51 (Tbilisi)",
+   "odds_time": "2026-11-24 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.63
+    },
+    "mkt": 0.512,
+    "nbooks": 5,
+    "blend_p": 0.571,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-24_1844 id=290210)",
+   "reasoning": "scan PASS EV=9.97% models=['ESPN']; scan stake $5.0 (raw 10.84; A4/LEDGER applied in scan.py); LEARNING MODE (bank $402.66 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "290210",
+   "learning_mode": true
+  },
+  {
+   "id": "B747",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "Vermont Catamounts @ Siena Saints",
+   "kickoff": "2026-11-25 04:00",
+   "selection": "Vermont Catamounts",
+   "odds": 2.6,
+   "book": "DraftKings via ESPN (ESPN-DK)",
+   "p": 0.4208,
+   "implied_pct": 38.5,
+   "edge_pct": 9.4,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-24 18:51 (Tbilisi)",
+   "odds_time": "2026-11-24 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.523,
+     "DRatings": 0.422
+    },
+    "mkt": 0.3691,
+    "nbooks": 1,
+    "blend_p": 0.4208,
+    "elo_only": false
+   },
+   "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ncaab/summary?event=401920695",
+   "reasoning": "scan PASS EV=9.4% models=['ESPN', 'DRatings']; scan stake $5.0 (raw 5.92; A4/LEDGER applied in scan.py); LEARNING MODE (bank $402.66 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "espn401920695",
+   "learning_mode": true
+  },
+  {
+   "id": "B748",
+   "sport": "Football",
+   "league": "mls",
+   "event": "Chicago Fire FC @ Charlotte FC",
+   "kickoff": "2026-11-28 21:30",
+   "selection": "Charlotte FC",
+   "odds": 2.7,
+   "book": "Action Network real book id68",
+   "p": 0.405,
+   "implied_pct": 37.0,
+   "edge_pct": 9.36,
+   "stake": 1.39,
+   "status": "open",
+   "opened_at": "2026-11-24 18:51 (Tbilisi)",
+   "odds_time": "2026-11-24 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4505
+    },
+    "mkt": 0.3595,
+    "nbooks": 4,
+    "blend_p": 0.405,
+    "elo_only": true
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-24_1844 id=309581)",
+   "reasoning": "scan PASS EV=9.36% models=['EloFD']; scan stake $2.77 (raw 2.77; A4/LEDGER applied in scan.py); LEARNING MODE (bank $402.66 ≤ -10% vs $500): half stake → $1.39; NEWS clear → TITAN APPROVED at $1.39",
+   "scan_id": "309581",
+   "learning_mode": true,
+   "elo_only": true
+  },
+  {
+   "id": "B749",
+   "sport": "NCAAF",
+   "league": "ncaaf",
+   "event": "Virginia Cavaliers @ Virginia Tech Hokies",
+   "kickoff": "2026-11-29 00:00",
+   "selection": "Virginia Cavaliers",
+   "odds": 2.31,
+   "book": "Action Network real book id49",
+   "p": 0.4705,
+   "implied_pct": 43.3,
+   "edge_pct": 8.68,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-24 18:51 (Tbilisi)",
+   "odds_time": "2026-11-24 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "ESPN": 0.521
+    },
+    "mkt": 0.4199,
+    "nbooks": 5,
+    "blend_p": 0.4705,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaaf (scan/2026-11-24_1844 id=290238)",
+   "reasoning": "scan PASS EV=8.68% models=['ESPN']; scan stake $5.0 (raw 6.67; A4/LEDGER applied in scan.py); LEARNING MODE (bank $402.66 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "290238",
+   "learning_mode": true
+  },
+  {
+   "id": "B750",
+   "sport": "Polymarket",
+   "league": "soc_eng.3",
+   "event": "Cambridge United @ Peterborough United",
+   "kickoff": "2026-11-28 16:30",
+   "selection": "Cambridge United",
+   "odds": 2.857,
+   "book": "Polymarket ask",
+   "p": 0.3767,
+   "implied_pct": 35.0,
+   "edge_pct": 7.63,
+   "stake": 1.03,
+   "status": "open",
+   "opened_at": "2026-11-24 18:51 (Tbilisi)",
+   "odds_time": "2026-11-24 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4254
+    },
+    "mkt": 0.328,
+    "nbooks": 1,
+    "blend_p": 0.3767,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el1-pet-cam-2026-11-28-cam",
+   "reasoning": "scan PASS EV=7.63% models=['EloFD']; scan stake $2.07 (raw 2.07; A4/LEDGER applied in scan.py); LEARNING MODE (bank $402.66 ≤ -10% vs $500): half stake → $1.03; NEWS clear → TITAN APPROVED at $1.03",
+   "scan_id": "pm:el1-pet-cam-2026-11-28-cam",
+   "learning_mode": true,
+   "polymarket_slug": "el1-pet-cam-2026-11-28-cam",
+   "outcome_price": 0.35,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Peterborough United FC vs. Cambridge United FC",
+    "pm_league": "ENG3",
+    "pm_kickoff_utc": "2026-11-28T12:30Z",
+    "checked": "2026-11-24 18:51 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "tb1_dog_25_40": true
+  },
+  {
+   "id": "B751",
+   "sport": "Polymarket",
+   "league": "soc_eng.3",
+   "event": "Plymouth Argyle @ Wigan Athletic",
+   "kickoff": "2026-11-28 19:00",
+   "selection": "Plymouth Argyle",
+   "odds": 2.703,
+   "book": "Polymarket ask",
+   "p": 0.3963,
+   "implied_pct": 37.0,
+   "edge_pct": 7.11,
+   "stake": 1.05,
+   "status": "open",
+   "opened_at": "2026-11-24 18:51 (Tbilisi)",
+   "odds_time": "2026-11-24 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.4301
+    },
+    "mkt": 0.3624,
+    "nbooks": 1,
+    "blend_p": 0.3963,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=el1-wig-ply-2026-11-28-ply",
+   "reasoning": "scan PASS EV=7.11% models=['EloFD']; scan stake $2.1 (raw 2.1; A4/LEDGER applied in scan.py); LEARNING MODE (bank $402.66 ≤ -10% vs $500): half stake → $1.05; NEWS clear → TITAN APPROVED at $1.05",
+   "scan_id": "pm:el1-wig-ply-2026-11-28-ply",
+   "learning_mode": true,
+   "polymarket_slug": "el1-wig-ply-2026-11-28-ply",
+   "outcome_price": 0.37,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "Wigan Athletic FC vs. Plymouth Argyle FC",
+    "pm_league": "ENG3",
+    "pm_kickoff_utc": "2026-11-28T15:00Z",
+    "checked": "2026-11-24 18:51 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "tb1_dog_25_40": true
+  },
+  {
+   "id": "B752",
+   "sport": "NCAAB",
+   "league": "ncaab",
+   "event": "BYU Cougars @ Ole Miss Rebels",
+   "kickoff": "2026-11-24 23:30",
+   "selection": "BYU Cougars",
+   "odds": 1.952,
+   "book": "Action Network real book id75",
+   "p": 0.545,
+   "implied_pct": 51.2,
+   "edge_pct": 6.4,
+   "stake": 2.5,
+   "status": "open",
+   "opened_at": "2026-11-24 18:51 (Tbilisi)",
+   "odds_time": "2026-11-24 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.59
+    },
+    "mkt": 0.5,
+    "nbooks": 4,
+    "blend_p": 0.545,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/ncaab (scan/2026-11-24_1844 id=309895)",
+   "reasoning": "scan PASS EV=6.4% models=['DRatings']; scan stake $5.0 (raw 6.75; A4/LEDGER applied in scan.py); LEARNING MODE (bank $402.66 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "309895",
+   "learning_mode": true
   }
  ],
  "settled_bets": [
@@ -36775,6 +36971,105 @@
     "note": "CLV +2.56% (1.926 vs DraftKings no-vig close 1.878); final Utah Tech Trailblazers 73, South Dakota Coyotes 74 (FT). Price beat the close — loss is variance.",
     "lesson": null
    }
+  },
+  {
+   "id": "B688",
+   "sport": "Football",
+   "league": "mls",
+   "event": "Los Angeles FC @ St. Louis City",
+   "kickoff": "2026-11-24 05:00",
+   "selection": "St. Louis City",
+   "odds": 2.48,
+   "book": "Action Network real book id71",
+   "p": 0.4325,
+   "implied_pct": 40.3,
+   "edge_pct": 7.25,
+   "stake": 1.36,
+   "status": "settled",
+   "opened_at": "2026-11-16 18:51 (Tbilisi)",
+   "odds_time": "2026-11-16 18:51 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.482
+    },
+    "mkt": 0.3829,
+    "nbooks": 4,
+    "blend_p": 0.4325,
+    "elo_only": true
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-16_1844 id=309578)",
+   "reasoning": "scan PASS EV=7.25% models=['EloFD']; scan stake $2.73 (raw 2.73; A4/LEDGER applied in scan.py); LEARNING MODE (bank $445.39 ≤ -10% vs $500): half stake → $1.36; NEWS clear → TITAN APPROVED at $1.36",
+   "scan_id": "309578",
+   "learning_mode": true,
+   "elo_only": true,
+   "result": "won",
+   "pl_usd": 2.01,
+   "settled_at": "2026-11-24 18:43 (Tbilisi)",
+   "final_score": "St. Louis CITY SC 3, LAFC 2 (FT)",
+   "score": "St. Louis CITY SC 3, LAFC 2 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=401933728",
+   "settle_source": "ESPN usa.1 event 401933728 STATUS_FULL_TIME, St. Louis CITY SC winner",
+   "closing_odds": 2.75,
+   "closing_fair_odds": 2.9667,
+   "clv_pct": -16.41,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+175', 'away': '+140', 'draw': '+235'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=401933728",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+175', 'away': '+140', 'draw': '+235'}; no-vig fair 2.9667; recorded MID 2026-11-24 18:43 (Tbilisi)"
+  },
+  {
+   "id": "B720",
+   "sport": "Polymarket",
+   "league": "soc_esp.2",
+   "event": "Almería @ Ceuta",
+   "kickoff": "2026-11-23 23:30",
+   "selection": "Almería",
+   "odds": 2.041,
+   "book": "Polymarket ask",
+   "p": 0.5122,
+   "implied_pct": 49.0,
+   "edge_pct": 4.53,
+   "stake": 1.0,
+   "status": "settled",
+   "opened_at": "2026-11-19 18:45 (Tbilisi)",
+   "odds_time": "2026-11-19 18:45 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.5499
+    },
+    "mkt": 0.4744,
+    "nbooks": 1,
+    "blend_p": 0.5122,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=es2-ceu-alm-2026-11-23-alm",
+   "reasoning": "scan PASS EV=4.53% models=['EloFD']; scan stake $1.22 (raw 1.22; A4/LEDGER applied in scan.py); LEARNING MODE (bank $446.53 ≤ -10% vs $500): half stake → $1.0; NEWS clear → TITAN APPROVED at $1.0",
+   "scan_id": "pm:es2-ceu-alm-2026-11-23-alm",
+   "learning_mode": true,
+   "polymarket_slug": "es2-ceu-alm-2026-11-23-alm",
+   "outcome_price": 0.49,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "AD Ceuta FC vs. UD Almería",
+    "pm_league": "ESP2",
+    "pm_kickoff_utc": "2026-11-23T19:30Z",
+    "checked": "2026-11-19 18:45 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "result": "won",
+   "pl_usd": 1.04,
+   "settled_at": "2026-11-24 18:43 (Tbilisi)",
+   "final_score": "Ceuta 2, Almería 3 (FT)",
+   "score": "Ceuta 2, Almería 3 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883110",
+   "settle_source": "ESPN esp.2 event 401883110 STATUS_FULL_TIME, Almería winner; Polymarket resolved Yes=1.0 (umaResolutionStatus resolved)",
+   "closing_odds": 2.1,
+   "closing_fair_odds": 2.2102,
+   "clv_pct": -7.66,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+235', 'away': '+110', 'draw': '+260'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883110",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+235', 'away': '+110', 'draw': '+260'}; no-vig fair 2.2102; recorded MID 2026-11-24 18:43 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome"
   }
  ],
  "positions": [
@@ -36788,7 +37083,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 352.54,
+   "last_price": 350.68,
    "adds": [
     {
      "date": "2026-10-14",
@@ -36809,7 +37104,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 96.26
+   "last_price": 96.77
   },
   {
    "symbol": "V",
@@ -36817,7 +37112,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 410.7,
+   "last_price": 411.72,
    "opened_at": "2026-10-15 18:59 (Tbilisi)",
    "stop_loss": 367.22,
    "take_profit": 455.04,
@@ -38197,6 +38492,14 @@
    "total_value": 399.39,
    "cash": 342.3757,
    "btc_bench": 383.98
+  },
+  {
+   "date": "2026-11-24",
+   "slot": "MID",
+   "time": "2026-11-24 18:51 (Tbilisi)",
+   "total_value": 402.66,
+   "cash": 332.9495,
+   "btc_bench": 365.93
   }
  ],
  "benchmarks_start": {
@@ -172779,6 +173082,1975 @@
    },
    "settle_note": "ESPN/gamma finals: 13 settled 5W/8L -8.18 — B648 Lorient lost (Lorient 1, Stade Rennais 1); B653 Sassuolo lost (Sassuolo 0, Genoa 2); B665 Tampa Bay Buccaneers lost (Detroit Lions 31, Tampa Bay Buccaneers 21); B666 Sandefjord lost (Kristiansund BK 2, Sandefjord 2); B689 Levadiakos lost (Levadiakos 1, Atromitos 1); B695 Carolina Panthers won (Carolina Panthers 35, Baltimore Ravens 33); B718 Burgos won (Burgos 1, Albacete 0); B723 Panetolikos won (Panetolikos 1, Volos NFC 0); B726 Red Bull Bragantino won (Red Bull Bragantino 1, Vasco da Gama 0); B732 Jacksonville Jaguars lost (New York Giants 23, Jacksonville Jaguars 18); B736 SK Brann won (KFUM Oslo 3, SK Brann 4); B738 F.C. København lost (FC Nordsjælland 5, F.C. København 0); B739 Utah Tech Trailblazers lost (Utah Tech Trailblazers 73, South Dakota Coyotes 74). Left open (not final / B294 postponed): none.",
    "closed_at": "2026-11-23 18:53 (Tbilisi)"
+  },
+  {
+   "date": "2026-11-24",
+   "slot": "MID",
+   "time": "2026-11-24 18:43 (Tbilisi)",
+   "status": "complete",
+   "note": "LEARNING MODE (bank $402.66 = -19.5% vs $500 deposits): 8 learning bets at $1-$2.50 (max 8), 12 approved candidates over the limit skipped. MID: 8 new bets (scan 24 PASS), TITAN blocked 4, shrunk 0, settled 2 (+3.05), ledger 2, post-mortems 0, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: SL none / TP none, 0 new buys (no tested entry rule), tokens 0 (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 25W/36L +21.11, Polymarket 48W/90L -10.01, NBA 8W/22L -28.25",
+   "ledger": [
+    {
+     "id": "B688",
+     "odds": 2.48,
+     "close": 2.75,
+     "fair": 2.9667,
+     "clv_pct": -16.41,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=401933728"
+    },
+    {
+     "id": "B720",
+     "odds": 2.041,
+     "close": 2.1,
+     "fair": 2.2102,
+     "clv_pct": -7.66,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883110"
+    }
+   ],
+   "postmortem": [],
+   "not_final_left_open": [],
+   "research": {
+    "settled": [
+     {
+      "id": "B688",
+      "event": "Los Angeles FC @ St. Louis City",
+      "sel": "St. Louis City",
+      "odds": 2.48,
+      "stake": 1.36,
+      "result": "won",
+      "pl_usd": 2.01,
+      "score": "St. Louis CITY SC 3, LAFC 2",
+      "sport": "Football"
+     },
+     {
+      "id": "B720",
+      "event": "Almería @ Ceuta",
+      "sel": "Almería",
+      "odds": 2.041,
+      "stake": 1.0,
+      "result": "won",
+      "pl_usd": 1.04,
+      "score": "Ceuta 2, Almería 3",
+      "sport": "Polymarket"
+     }
+    ],
+    "note": "MID paper cycle 2026-11-24 (only cycle of the day)",
+    "btc_hold": "NO BUY: BTC 60301 < MA20 67535 (below SMA50 75675) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00",
+    "btc": 60301,
+    "btc_ma20": 67535.3,
+    "btc_ma50": 75675.38,
+    "tokens_passed": 81,
+    "tokens_bought": 0,
+    "new_bet_ids": [
+     "B745",
+     "B746",
+     "B747",
+     "B748",
+     "B749",
+     "B750",
+     "B751",
+     "B752"
+    ],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 4,
+    "titan_shrunk": 0,
+    "nova_approved": 8,
+    "x_calls": 5,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": []
+   },
+   "funnel": {
+    "stamp": "2026-11-24_1844",
+    "time": "2026-11-24 18:44 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 305,
+    "funnel": {
+     "options_AN": 16066,
+     "events_AN": 488,
+     "events_ESPN": 1784,
+     "options_ESPN": 2016,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 873,
+     "model_rows_DR": 353,
+     "model_rows_FTS": 39,
+     "events_upcoming": 795,
+     "selections_priced": 1972,
+     "drop_too_few_books": 624,
+     "selections_consensus": 1346,
+     "with_model": 1150,
+     "with_2plus_model": 513,
+     "with_1_model": 637,
+     "elo_matched_events": 215,
+     "drop_nhl_calibration": 2,
+     "drop_no_model": 196,
+     "gate_ev<3": 980,
+     "gate_odds>5": 48,
+     "gate_PASS": 21,
+     "gate_A3_range": 66,
+     "gate_dup_open": 5,
+     "gate_model_ev<=0": 10,
+     "gate_V2_odds>2.99": 12,
+     "gate_TITAN_elo_disagree>10pt": 3,
+     "gate_V2_ev>12": 2,
+     "gate_L004_single_model_gap": 3,
+     "options_Polymarket": 40042,
+     "pm_markets": 20021,
+     "pm_liq1k": 6544,
+     "pm_sports_ml": 1852,
+     "pm_drop_L007_league_unmapped": 322,
+     "pm_drop_L007_no_strict_match": 174,
+     "pm_matched_model": 340,
+     "pm_gate_ev<3": 252,
+     "pm_tb1_tagged": 105,
+     "pm_gate_A3_range": 24,
+     "pm_gate_model_ev<=0": 11,
+     "pm_gate_PASS": 7,
+     "pm_gate_odds>5": 29,
+     "pm_gate_V2_odds>2.99": 9,
+     "pm_tb1_tagged_pass": 6,
+     "pm_gate_TITAN_elo_disagree>10pt": 4,
+     "pm_gate_dup_open": 3,
+     "pm_gate_L004_single_model_gap": 1,
+     "dup_open": 8,
+     "bank_live": 402.66,
+     "bank_stale_overall_report": 399.6,
+     "drop_same_event": 2,
+     "drop_same_event_variant": 1,
+     "prior_veto": 0,
+     "prior_veto_list_24h": 17,
+     "drop_TITAN_elo_only_over5": 2,
+     "ledger_halve_suppressed": 13,
+     "final_after_caps": 24,
+     "stake_total": 72.78,
+     "budget_caps": 117.16,
+     "v2_nba_shadow": 1,
+     "v2_nba_shadow_clean": 0,
+     "tokens_daily_rule": "BTC gate closed, first token scan today",
+     "tokens_src_dexscreener_tokens": 56,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 0,
+     "tokens_gt_fetch_seconds": 86,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 729,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 722,
+     "tokens_chain_solana": 200,
+     "tokens_chain_base": 168,
+     "tokens_chain_bsc": 179,
+     "tokens_chain_robinhood": 2,
+     "tokens_chain_ethereum": 173,
+     "tokens_gate_liquidity": 422,
+     "tokens_gate_too_new": 58,
+     "tokens_gate_pass": 124,
+     "tokens_gate_pump": 1,
+     "tokens_gate_thin_liq_fdv": 84,
+     "tokens_gate_low_activity": 33,
+     "tokens_safety_pass": 81,
+     "tokens_safety_fail": 28,
+     "tokens_safety_unverified": 15,
+     "tokens_passed_safety": 81,
+     "options_scanned_total": 58846
+    },
+    "coverage_events_by_sport": {
+     "ncaab": 142,
+     "ncaaf": 74,
+     "nhl": 101,
+     "nfl": 16,
+     "soccer": 382,
+     "nba": 67,
+     "ufc": 13
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 58846,
+     "candidates": [
+      {
+       "name": "East Carolina Pirates",
+       "type": "ncaaf",
+       "score": 59,
+       "why": "EV 9.97% @1.926 models=['ESPN']"
+      },
+      {
+       "name": "Clemson Tigers",
+       "type": "ncaaf",
+       "score": 59,
+       "why": "EV 9.97% @2.8 models=['ESPN']"
+      },
+      {
+       "name": "Vermont Catamounts",
+       "type": "ncaab",
+       "score": 59,
+       "why": "EV 9.4% @2.6 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Virginia Cavaliers",
+       "type": "ncaaf",
+       "score": 58,
+       "why": "EV 8.68% @2.31 models=['ESPN']"
+      },
+      {
+       "name": "Los Angeles Rams",
+       "type": "nfl",
+       "score": 56,
+       "why": "EV 6.84% @1.746 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "BYU Cougars",
+       "type": "ncaab",
+       "score": 56,
+       "why": "EV 6.4% @1.952 models=['DRatings']"
+      },
+      {
+       "name": "Tennessee Volunteers",
+       "type": "ncaab",
+       "score": 56,
+       "why": "EV 6.13% @1.581 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Lindenwood Lions",
+       "type": "ncaab",
+       "score": 55,
+       "why": "EV 5.34% @1.769 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Nebraska Cornhuskers",
+       "type": "ncaaf",
+       "score": 59,
+       "why": "EV 9.29% @2.95 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "RB Salzburg",
+       "type": "Polymarket",
+       "score": 58,
+       "why": "EV 8.3% @2.5 models=['EloFD']"
+      },
+      {
+       "name": "Charlotte FC",
+       "type": "soccer",
+       "score": 59,
+       "why": "EV 9.36% @2.7 models=['EloFD']"
+      },
+      {
+       "name": "Boston United",
+       "type": "soccer",
+       "score": 60,
+       "why": "EV 10.35% @2.9 models=['EloFD']"
+      },
+      {
+       "name": "Olympiacos",
+       "type": "Polymarket",
+       "score": 55,
+       "why": "EV 5.29% @2.941 models=['DRatings']"
+      },
+      {
+       "name": "Los Angeles Chargers",
+       "type": "nfl",
+       "score": 54,
+       "why": "EV 4.47% @1.893 models=['ESPN']"
+      },
+      {
+       "name": "Plymouth Argyle",
+       "type": "Polymarket",
+       "score": 57,
+       "why": "EV 7.11% @2.703 models=['EloFD']"
+      },
+      {
+       "name": "Cambridge United",
+       "type": "Polymarket",
+       "score": 57,
+       "why": "EV 7.63% @2.857 models=['EloFD']"
+      },
+      {
+       "name": "Oregon State Beavers",
+       "type": "ncaaf",
+       "score": 54,
+       "why": "EV 4.08% @2.3 models=['ESPN']"
+      },
+      {
+       "name": "UCF Knights",
+       "type": "ncaaf",
+       "score": 53,
+       "why": "EV 3.02% @2.08 models=['ESPN']"
+      },
+      {
+       "name": "UMass Minutemen",
+       "type": "ncaaf",
+       "score": 53,
+       "why": "EV 3.58% @2.3 models=['ESPN']"
+      },
+      {
+       "name": "Georgia State Panthers",
+       "type": "ncaaf",
+       "score": 54,
+       "why": "EV 4.97% @2.88 models=['ESPN']"
+      },
+      {
+       "name": "Ascoli",
+       "type": "Polymarket",
+       "score": 54,
+       "why": "EV 4.17% @2.778 models=['FTS', 'EloFD']"
+      },
+      {
+       "name": "Académico de Viseu",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.86% @2.703 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Baylor Bears",
+       "type": "ncaaf",
+       "score": 53,
+       "why": "EV 3.72% @2.7 models=['ESPN']"
+      },
+      {
+       "name": "Colorado Buffaloes",
+       "type": "ncaab",
+       "score": 53,
+       "why": "EV 3.38% @2.54 models=['ESPN', 'DRatings']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 58846,
+      "with_model": 1150,
+      "gate_PASS": 21,
+      "pm_gate_PASS": 7,
+      "dup_open": 8,
+      "prior_veto": 0,
+      "final_after_caps": 24,
+      "pm_tb1_tagged": 105,
+      "pm_tb1_tagged_pass": 6,
+      "tokens_tokens_unique": 729,
+      "tokens_passed_safety": 81,
+      "stake_total": 72.78,
+      "budget_caps": 117.16
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 60347.78,
+       "tp": 65175.6,
+       "stop": 57330.39,
+       "support": 58817.93,
+       "resistance": 76005.51,
+       "prices": [
+        76005.51,
+        75775.28,
+        75776.38,
+        74740.42,
+        75266.77,
+        73721.18,
+        73974.39,
+        71371.98,
+        68313.71,
+        64120.24,
+        65305.28,
+        64840.87,
+        64889.41,
+        62996.68,
+        61921.36,
+        58817.93,
+        60121.3,
+        61172.02,
+        61227.55,
+        60347.78
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 716.48,
+       "tp": 773.8,
+       "stop": 680.66,
+       "support": 689.81,
+       "resistance": 772.31,
+       "prices": [
+        772.31,
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29,
+        752.69,
+        749.92,
+        759.81,
+        757.12,
+        754.37,
+        739.95,
+        732.44,
+        730.2,
+        715.87,
+        689.81,
+        722.29,
+        716.48
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "down",
+       "entry": 491.73,
+       "tp": 531.07,
+       "stop": 467.14,
+       "support": 484.52,
+       "resistance": 555.8,
+       "prices": [
+        531.01,
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61,
+        545.18,
+        533.16,
+        521.13,
+        523.0,
+        523.88,
+        517.99,
+        506.24,
+        508.29,
+        498.3,
+        484.52,
+        492.5,
+        491.73
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1078.8,
+       "tp": 1165.1,
+       "stop": 1024.86,
+       "support": 982.73,
+       "resistance": 1113.74,
+       "prices": [
+        982.73,
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56,
+        1066.18,
+        1066.14,
+        1087.61,
+        1092.21,
+        1106.21,
+        1113.74,
+        1110.08,
+        1096.62,
+        1093.83,
+        1102.15,
+        1097.91,
+        1078.8
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 576.01,
+       "tp": 622.09,
+       "stop": 547.21,
+       "support": 540.34,
+       "resistance": 592.94,
+       "prices": [
+        540.34,
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89,
+        575.25,
+        583.34,
+        588.24,
+        589.83,
+        592.94,
+        592.85,
+        586.76,
+        574.62,
+        572.04,
+        570.0,
+        572.36,
+        576.01
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 158.67,
+       "tp": 171.36,
+       "stop": 150.74,
+       "support": 156.9,
+       "resistance": 187.25,
+       "prices": [
+        182.02,
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87,
+        164.73,
+        164.47,
+        166.71,
+        169.78,
+        170.59,
+        166.87,
+        167.21,
+        160.58,
+        158.93,
+        159.99,
+        156.9,
+        158.67
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 188.74,
+       "tp": 203.84,
+       "stop": 179.3,
+       "support": 180.62,
+       "resistance": 242.11,
+       "prices": [
+        242.11,
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65,
+        214.94,
+        213.48,
+        218.01,
+        217.57,
+        217.84,
+        214.83,
+        194.52,
+        190.4,
+        183.31,
+        180.62,
+        185.46,
+        188.74
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "up",
+       "entry": 1406.91,
+       "tp": 1519.46,
+       "stop": 1336.56,
+       "support": 1288.3,
+       "resistance": 1443.5,
+       "prices": [
+        1288.3,
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0,
+        1411.95,
+        1432.29,
+        1437.29,
+        1427.28,
+        1443.5,
+        1431.67,
+        1415.55,
+        1382.75,
+        1351.12,
+        1347.11,
+        1364.6,
+        1406.91
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "East Carolina Pirates",
+       "stance": "bullish",
+       "text": "East Carolina Pirates (our side) @1.926 vs Florida Atlantic: no own-side injury/suspension/coach news in X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Clemson Tigers",
+       "stance": "bearish",
+       "text": "Clemson (our side): starting QB Christopher Vizzina \"definitely\" out for South Carolina per Dabo Swinney; Trent Pearman (3rd-string) starts ",
+       "source": "https://x.com/DevyDose/status/2125052802237862381"
+      },
+      {
+       "candidate": "Vermont Catamounts",
+       "stance": "bullish",
+       "text": "Vermont Catamounts (our side) @2.60 at Siena: no own-side injury/suspension/coach news in X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Virginia Cavaliers",
+       "stance": "bullish",
+       "text": "Virginia Cavaliers (our side) @2.31 at Virginia Tech: no own-side injury/suspension/coach news in X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Los Angeles Rams",
+       "stance": "bearish",
+       "text": "Rams (our side) lost WR Puka Nacua and TE Terrance Ferguson for the season; WR Davante Adams out until December",
+       "source": "https://x.com/BBFFMikey/status/2125239263956779501"
+      },
+      {
+       "candidate": "BYU Cougars",
+       "stance": "bullish",
+       "text": "BYU Cougars (our side) @1.952 at Ole Miss: no own-side injury/suspension/coach news in X results (only AJ Dybantsa prop/hype posts) → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Tennessee Volunteers",
+       "stance": "bullish",
+       "text": "Tennessee Volunteers @1.581 (Maryland Terrapins @ Tennessee Volunteers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Lindenwood Lions",
+       "stance": "bullish",
+       "text": "Lindenwood Lions @1.769 (Lindenwood Lions @ New Haven Chargers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TI",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Nebraska Cornhuskers",
+       "stance": "bearish",
+       "text": "Nebraska (our side) played Ohio State without four defensive starters; unclear whether any of the injured Huskers return for Iowa",
+       "source": "https://x.com/JournalStarNews/status/2124957265157410965"
+      },
+      {
+       "candidate": "RB Salzburg",
+       "stance": "bearish",
+       "text": "RB Salzburg (our side): Damir Redzic out (hamstring, return unknown); Dominik Schmid expected back",
+       "source": "https://x.com/injuryreportst/status/2123860979192660396"
+      },
+      {
+       "candidate": "Charlotte FC",
+       "stance": "watch",
+       "text": "Charlotte FC won game 1 on the road vs Chicago Fire; Pep Biel back from knee injury and scoring (positive, not used to add)",
+       "source": "https://x.com/AlyTrostMartin/status/2124885550737809470"
+      },
+      {
+       "candidate": "Boston United",
+       "stance": "bullish",
+       "text": "Boston United (our side, ESPN-DK) @2.90 vs Barrow: no own-side injury/suspension/coach news in X results → clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Olympiacos",
+       "stance": "bullish",
+       "text": "Olympiacos @2.941 (AC Milan @ Olympiacos): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Los Angeles Chargers",
+       "stance": "bullish",
+       "text": "Los Angeles Chargers @1.893 (New England Patriots @ Los Angeles Chargers): not reviewed — learning mode takes max 8 top-EV picks and 8 clear",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Plymouth Argyle",
+       "stance": "watch",
+       "text": "Plymouth fan post: poor form, \"players get injured for fun\" (no named absence)",
+       "source": "https://x.com/Pilgrimrich/status/2124189303689662772"
+      },
+      {
+       "candidate": "Cambridge United",
+       "stance": "watch",
+       "text": "Peterborough (opponent): injured players could return for the Cambridge derby",
+       "source": "https://x.com/peterboroughtel/status/2124763123852677601"
+      },
+      {
+       "candidate": "Oregon State Beavers",
+       "stance": "bullish",
+       "text": "Oregon State Beavers @2.3 (Oregon State Beavers @ Fresno State Bulldogs): not reviewed — learning mode takes max 8 top-EV picks and 8 cleare",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "UCF Knights",
+       "stance": "bullish",
+       "text": "UCF Knights @2.08 (UCF Knights @ Colorado Buffaloes): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above t",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "UMass Minutemen",
+       "stance": "bullish",
+       "text": "UMass Minutemen @2.3 (UMass Minutemen @ Bowling Green Falcons): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TIT",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Georgia State Panthers",
+       "stance": "bullish",
+       "text": "Georgia State Panthers @2.88 (Louisiana Ragin' Cajuns @ Georgia State Panthers): not reviewed — learning mode takes max 8 top-EV picks and 8",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Ascoli",
+       "stance": "bullish",
+       "text": "Ascoli @2.778 (Ascoli @ Cesena): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 4.17%)",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Académico de Viseu",
+       "stance": "bullish",
+       "text": "Académico de Viseu @2.703 (Alverca @ Académico de Viseu): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN abo",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Baylor Bears",
+       "stance": "bullish",
+       "text": "Baylor Bears @2.7 (Baylor Bears @ Houston Cougars): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above thi",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Colorado Buffaloes",
+       "stance": "bullish",
+       "text": "Colorado Buffaloes @2.54 (Stanford Cardinal @ Colorado Buffaloes): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/",
+       "source": "x search (no result)"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "East Carolina Pirates",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Clemson Tigers",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Vermont Catamounts",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Virginia Cavaliers",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Los Angeles Rams",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "BYU Cougars",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Tennessee Volunteers",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Lindenwood Lions",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Nebraska Cornhuskers",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "RB Salzburg",
+       "mood": -0.6,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Charlotte FC",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Boston United",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Olympiacos",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Los Angeles Chargers",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Plymouth Argyle",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Cambridge United",
+       "mood": 0.1,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Oregon State Beavers",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "UCF Knights",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "UMass Minutemen",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Georgia State Panthers",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Ascoli",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Académico de Viseu",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Baylor Bears",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Colorado Buffaloes",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": -0.07
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "East Carolina Pirates (Florida Atlantic Owls @ East Carolina Pi)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "East Carolina Pirates (our side) @1.926 vs Florida Atlantic: no own-side injury/suspension/coach news in X results → clear"
+      },
+      {
+       "candidate": "Clemson Tigers (South Carolina Gamecocks @ Clemson Tiger)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Clemson Tigers (our side) @2.80 vs South Carolina: starting QB out, 3rd-string QB starts → TITAN shrink (V2-4 → bl"
+      },
+      {
+       "candidate": "Vermont Catamounts (Vermont Catamounts @ Siena Saints)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Vermont Catamounts (our side) @2.60 at Siena: no own-side injury/suspension/coach news in X results → clear"
+      },
+      {
+       "candidate": "Virginia Cavaliers (Virginia Cavaliers @ Virginia Tech Hokie)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Virginia Cavaliers (our side) @2.31 at Virginia Tech: no own-side injury/suspension/coach news in X results → clear"
+      },
+      {
+       "candidate": "Los Angeles Rams (Green Bay Packers @ Los Angeles Rams)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Los Angeles Rams (our side) @1.746 vs Packers: top WRs Nacua (season) and Adams out → TITAN shrink (V2-4 → block)"
+      },
+      {
+       "candidate": "BYU Cougars (BYU Cougars @ Ole Miss Rebels)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "BYU Cougars (our side) @1.952 at Ole Miss: no own-side injury/suspension/coach news in X results (only AJ Dybantsa prop/hype posts) → clear"
+      },
+      {
+       "candidate": "Tennessee Volunteers (Maryland Terrapins @ Tennessee Volunteer)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Tennessee Volunteers @1.581 (Maryland Terrapins @ Tennessee Volunteers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above th"
+      },
+      {
+       "candidate": "Lindenwood Lions (Lindenwood Lions @ New Haven Chargers)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Lindenwood Lions @1.769 (Lindenwood Lions @ New Haven Chargers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one ("
+      },
+      {
+       "candidate": "Nebraska Cornhuskers (Nebraska Cornhuskers @ Iowa Hawkeyes)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. Nebraska Cornhuskers (our side) @2.95 at Iowa: four defensive starters injured, return uncertain → TITAN shrink (V"
+      },
+      {
+       "candidate": "RB Salzburg (LASK Linz @ RB Salzburg)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "V2-4 (owner 2026-11-13): NEWS shrink → block. RB Salzburg (our side, Polymarket ask) @2.50 vs LASK: several own-side absences (Redzic, Tabakovic, Kitano) → TITA"
+      },
+      {
+       "candidate": "Charlotte FC (Chicago Fire FC @ Charlotte FC)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Charlotte FC (our side) @2.70 vs Chicago Fire (series game 2): no negative own-side news → clear"
+      },
+      {
+       "candidate": "Boston United (Barrow @ Boston United)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Boston United (our side, ESPN-DK) @2.90 vs Barrow: no own-side injury/suspension/coach news in X results → clear"
+      },
+      {
+       "candidate": "Olympiacos (AC Milan @ Olympiacos)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Olympiacos @2.941 (AC Milan @ Olympiacos): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 5.29%)"
+      },
+      {
+       "candidate": "Los Angeles Chargers (New England Patriots @ Los Angeles Charg)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Los Angeles Chargers @1.893 (New England Patriots @ Los Angeles Chargers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above "
+      },
+      {
+       "candidate": "Plymouth Argyle (Plymouth Argyle @ Wigan Athletic)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Plymouth Argyle (our side, Polymarket ask) @2.703 at Wigan: only non-specific fan criticism, no named injury/suspension → clear"
+      },
+      {
+       "candidate": "Cambridge United (Cambridge United @ Peterborough United)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "BUY",
+       "objection": "Cambridge United (our side, Polymarket ask) @2.857 at Peterborough: only opponent returns, nothing on our side → clear"
+      },
+      {
+       "candidate": "Oregon State Beavers (Oregon State Beavers @ Fresno State Bull)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Oregon State Beavers @2.3 (Oregon State Beavers @ Fresno State Bulldogs): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above t"
+      },
+      {
+       "candidate": "UCF Knights (UCF Knights @ Colorado Buffaloes)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "UCF Knights @2.08 (UCF Knights @ Colorado Buffaloes): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 3.02%)"
+      },
+      {
+       "candidate": "UMass Minutemen (UMass Minutemen @ Bowling Green Falcons)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "UMass Minutemen @2.3 (UMass Minutemen @ Bowling Green Falcons): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (E"
+      },
+      {
+       "candidate": "Georgia State Panthers (Louisiana Ragin' Cajuns @ Georgia State )",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Georgia State Panthers @2.88 (Louisiana Ragin' Cajuns @ Georgia State Panthers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN "
+      },
+      {
+       "candidate": "Ascoli (Ascoli @ Cesena)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Ascoli @2.778 (Ascoli @ Cesena): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 4.17%)"
+      },
+      {
+       "candidate": "Académico de Viseu (Alverca @ Académico de Viseu)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Académico de Viseu @2.703 (Alverca @ Académico de Viseu): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 3.86"
+      },
+      {
+       "candidate": "Baylor Bears (Baylor Bears @ Houston Cougars)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Baylor Bears @2.7 (Baylor Bears @ Houston Cougars): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 3.72%)"
+      },
+      {
+       "candidate": "Colorado Buffaloes (Stanford Cardinal @ Colorado Buffaloes)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Colorado Buffaloes @2.54 (Stanford Cardinal @ Colorado Buffaloes): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one"
+      }
+     ],
+     "blocked_count": 4
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "Boston United (Barrow @ Boston United)",
+       "action": "BUY",
+       "size_usd": 1.37
+      },
+      {
+       "candidate": "East Carolina Pirates (Florida Atlantic Owls @ East Carolin)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Clemson Tigers (South Carolina Gamecocks @ Clemson T)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Vermont Catamounts (Vermont Catamounts @ Siena Saints)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Charlotte FC (Chicago Fire FC @ Charlotte FC)",
+       "action": "BUY",
+       "size_usd": 1.39
+      },
+      {
+       "candidate": "Nebraska Cornhuskers (Nebraska Cornhuskers @ Iowa Hawkeyes)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Virginia Cavaliers (Virginia Cavaliers @ Virginia Tech H)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "RB Salzburg (LASK Linz @ RB Salzburg)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Cambridge United (Cambridge United @ Peterborough Unit)",
+       "action": "BUY",
+       "size_usd": 1.03
+      },
+      {
+       "candidate": "Plymouth Argyle (Plymouth Argyle @ Wigan Athletic)",
+       "action": "BUY",
+       "size_usd": 1.05
+      },
+      {
+       "candidate": "Los Angeles Rams (Green Bay Packers @ Los Angeles Rams)",
+       "action": "SKIP",
+       "size_usd": 0
+      },
+      {
+       "candidate": "BYU Cougars (BYU Cougars @ Ole Miss Rebels)",
+       "action": "BUY",
+       "size_usd": 2.5
+      },
+      {
+       "candidate": "Tennessee Volunteers (Maryland Terrapins @ Tennessee Volun)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Lindenwood Lions (Lindenwood Lions @ New Haven Charger)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Olympiacos (AC Milan @ Olympiacos)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Georgia State Panthers (Louisiana Ragin' Cajuns @ Georgia St)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Los Angeles Chargers (New England Patriots @ Los Angeles C)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Ascoli (Ascoli @ Cesena)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Oregon State Beavers (Oregon State Beavers @ Fresno State )",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Académico de Viseu (Alverca @ Académico de Viseu)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Baylor Bears (Baylor Bears @ Houston Cougars)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "UMass Minutemen (UMass Minutemen @ Bowling Green Falc)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Colorado Buffaloes (Stanford Cardinal @ Colorado Buffalo)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "UCF Knights (UCF Knights @ Colorado Buffaloes)",
+       "action": "SKIP (learning mode: below top-8 EV cut, not reviewed)",
+       "size_usd": 0
+      }
+     ],
+     "desk_pl_today": 3.05
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 24,
+      "approved": 8,
+      "blocked": 4,
+      "note": "სკანი 58846 ოფცია; with_model 1150; PASS 21+PM 7 → caps 24 (dup_open 8, prior_veto 0); NEWS/TITAN-ის შემდეგ 8"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 60301 vs MA20 67535 & SMA50 75675 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 24,
+      "approved": 8,
+      "blocked": 4,
+      "note": "X search_posts_all (5 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 24,
+      "approved": 8,
+      "blocked": 4,
+      "note": "overall -0.07"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 24,
+      "approved": 8,
+      "blocked": 4,
+      "note": "ფსონები: სკანის 24 PASS → 4 ვეტო (Clemson Tigers, Los Angeles Rams, Nebraska Cornhuskers, RB Salzburg), 0 შემცირება (არა); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 8,
+      "blocked": 0,
+      "note": "8 ფსონი (B745 Boston United @2.9 $1.37, B746 East Carolina Pirates @1.926 $2.5, B747 Vermont Catamounts @2.6 $2.5, B748 Charlotte FC @2.7 $1.39, B749 Virginia Cavaliers @2.31 $2.5, B750 Cambridge United @2.857 $1.03, B751 Plymouth Argyle @2.703 $1.05, B752 BYU Cougars @1.952 $2.5); ბიუჯეტი ქეპებში $117.16 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 24,
+      "approved": 8,
+      "blocked": 4,
+      "note": "24 PASS კანდიდატი → 5 x-call (search_posts_all): 4 ბლოკი, 0 შემცირება, 8 clear, 12 არ შემოწმდა (სასწავლო რეჟიმი: 8 სუფთა top-EV კანდიდატი უკვე მოიძებნა, დანარჩენი ზღვარს ქვემოთაა)"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 post-mortem: none; 2 bets settled this MID (2W/0L +$3.05: B688 St. Louis City 3-2 LAFC, B720 Almería 3-2 at Ceuta); no losses → no post-mortem; both CLV negative (−16.41%, −7.66%) → wins were variance, not price. Bank back above $400 → learning mode."
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 2,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 2/2; Football n=164 mean -5.01%; Polymarket n=272 mean -2.36%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 105, pass 6"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 2,
+      "approved": 2,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): B688 St. Louis City +2.01, B720 Almería +1.04; B294 გადაიდო 2026-12-01-მდე; ჰალვინგი გამორთულია (მფლობელი 28 ოქტ.)"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: არა; post-unhalve NBA 8W/22L -28.25 (წაგებაშია → მფლობელს ეცნობება); NBA real bets = 0 (V2-3); NBA shadow: 10 logged, 10 settled, P/L +6.33$ (not staked)"
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 16,
+      "approved": 4,
+      "blocked": 3,
+      "note": "დასახლდა: არა"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 60301 < MA20 67535 (-10.7%), < SMA50 75675 → no buy, hold 0 lots; ETH 1693 (MA20 1911, SMA50 2206), SOL 69.76 (SMA50 93.21) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "729 scanned, 81 passed safety (daily rule: BTC gate closed, first token scan today); buying needs BTC>MA20 → gate closed (and learning mode: no token buys) → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი ღიაა (სამშაბათი; Yahoo live: SPY 716.48, AAPL 350.68, KO 96.77, V 411.72); 3 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 6,
+      "approved": 2,
+      "blocked": 1,
+      "note": "L007: unmapped 322, no strict 174, matched 340; PM PASS 7; TB1 pass 6; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "სამშაბათი 24 ნოემბერი (MID) — მაკრო კალენდარი ამ ციკლში ახალი წყაროთი არ შემოწმებულა; სასწავლო რეჟიმი → ფსონები მხოლოდ $1–$2.50, კრიპტო/აქციის ახალი ყიდვა არა → 0"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "290210",
+     "event": "Florida Atlantic Owls @ East Carolina Pirates",
+     "sel": "East Carolina Pirates",
+     "queries": [
+      "(\"East Carolina\" OR ECU OR Clemson OR Nebraska Cornhuskers OR \"Virginia Cavaliers\" OR UVA OR \"Vermont Catamounts\") (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended OR \"out for\") -is:retweet lang:en",
+      "(\"East Carolina\" OR \"ECU Pirates\" OR Huskers OR \"Nebraska football\" OR \"Virginia football\" OR Wahoos OR \"Tony Elliott\") (injury OR injured OR \"ruled out\" OR questionable OR \"out for\" OR suspended OR \"will not play\") -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "East Carolina Pirates (our side) @1.926 vs Florida Atlantic: no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "290256",
+     "event": "South Carolina Gamecocks @ Clemson Tigers",
+     "sel": "Clemson Tigers",
+     "queries": [
+      "(\"East Carolina\" OR ECU OR Clemson OR Nebraska Cornhuskers OR \"Virginia Cavaliers\" OR UVA OR \"Vermont Catamounts\") (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended OR \"out for\") -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Clemson (our side): starting QB Christopher Vizzina \"definitely\" out for South Carolina per Dabo Swinney; Trent Pearman (3rd-string) starts again",
+       "source": "https://x.com/DevyDose/status/2125052802237862381",
+       "time": "2026-11-24 06:24 (Tbilisi)"
+      },
+      {
+       "type": "lineup",
+       "text": "Clemson depth chart vs South Carolina: Trent Pearman QB1, Brock Bradley QB2; DT Champ Thompson removed",
+       "source": "https://x.com/Nick_Coppola__/status/2125048176444953072",
+       "time": "2026-11-24 06:05 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Clemson Tigers (our side) @2.80 vs South Carolina: starting QB out, 3rd-string QB starts → TITAN shrink (V2-4 → block)"
+    },
+    {
+     "candidate": "espn401920695",
+     "event": "Vermont Catamounts @ Siena Saints",
+     "sel": "Vermont Catamounts",
+     "queries": [
+      "(\"Vermont Catamounts\" OR \"Vermont basketball\" OR UVMmbb OR \"Siena Saints\" OR \"Boston United\" OR \"Charlotte FC\" OR Rams OR \"Matthew Stafford\") (injury OR injured OR \"ruled out\" OR questionable OR out OR suspended) -is:retweet lang:en",
+      "(\"Vermont basketball\" OR \"UVM basketball\" OR Catamounts OR \"BYU basketball\" OR \"BYU Cougars\" OR \"AJ Dybantsa\" OR \"Boston United\" OR \"Charlotte FC\" OR \"Dean Smith\") (injury OR injured OR \"ruled out\" OR questionable OR \"will not play\" OR suspended OR doubtful OR sacked) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Vermont Catamounts (our side) @2.60 at Siena: no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "290238",
+     "event": "Virginia Cavaliers @ Virginia Tech Hokies",
+     "sel": "Virginia Cavaliers",
+     "queries": [
+      "(\"East Carolina\" OR ECU OR Clemson OR Nebraska Cornhuskers OR \"Virginia Cavaliers\" OR UVA OR \"Vermont Catamounts\") (injury OR injured OR \"ruled out\" OR questionable OR QB OR suspended OR \"out for\") -is:retweet lang:en",
+      "(\"East Carolina\" OR \"ECU Pirates\" OR Huskers OR \"Nebraska football\" OR \"Virginia football\" OR Wahoos OR \"Tony Elliott\") (injury OR injured OR \"ruled out\" OR questionable OR \"out for\" OR suspended OR \"will not play\") -is:retweet lang:en"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Virginia Cavaliers (our side) @2.31 at Virginia Tech: no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "290825",
+     "event": "Green Bay Packers @ Los Angeles Rams",
+     "sel": "Los Angeles Rams",
+     "queries": [
+      "(\"Vermont Catamounts\" OR \"Vermont basketball\" OR UVMmbb OR \"Siena Saints\" OR \"Boston United\" OR \"Charlotte FC\" OR Rams OR \"Matthew Stafford\") (injury OR injured OR \"ruled out\" OR questionable OR out OR suspended) -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Rams (our side) lost WR Puka Nacua and TE Terrance Ferguson for the season; WR Davante Adams out until December",
+       "source": "https://x.com/BBFFMikey/status/2125239263956779501",
+       "time": "2026-11-24 18:45 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "Packers (opponent) RB Josh Jacobs out for Wednesday at the Rams",
+       "source": "https://x.com/Run32835678/status/2125236165280145588",
+       "time": "2026-11-24 18:32 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Los Angeles Rams (our side) @1.746 vs Packers: top WRs Nacua (season) and Adams out → TITAN shrink (V2-4 → block)"
+    },
+    {
+     "candidate": "309895",
+     "event": "BYU Cougars @ Ole Miss Rebels",
+     "sel": "BYU Cougars",
+     "queries": [
+      "(\"Vermont basketball\" OR \"UVM basketball\" OR Catamounts OR \"BYU basketball\" OR \"BYU Cougars\" OR \"AJ Dybantsa\" OR \"Boston United\" OR \"Charlotte FC\" OR \"Dean Smith\") (injury OR injured OR \"ruled out\" OR questionable OR \"will not play\" OR suspended OR doubtful OR sacked) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "BYU Cougars (our side) @1.952 at Ole Miss: no own-side injury/suspension/coach news in X results (only AJ Dybantsa prop/hype posts) → clear"
+    },
+    {
+     "candidate": "298019",
+     "event": "Maryland Terrapins @ Tennessee Volunteers",
+     "sel": "Tennessee Volunteers",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Tennessee Volunteers @1.581 (Maryland Terrapins @ Tennessee Volunteers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 6.13%)"
+    },
+    {
+     "candidate": "espn401929035",
+     "event": "Lindenwood Lions @ New Haven Chargers",
+     "sel": "Lindenwood Lions",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Lindenwood Lions @1.769 (Lindenwood Lions @ New Haven Chargers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 5.34%)"
+    },
+    {
+     "candidate": "290214",
+     "event": "Nebraska Cornhuskers @ Iowa Hawkeyes",
+     "sel": "Nebraska Cornhuskers",
+     "queries": [
+      "(\"East Carolina\" OR \"ECU Pirates\" OR Huskers OR \"Nebraska football\" OR \"Virginia football\" OR Wahoos OR \"Tony Elliott\") (injury OR injured OR \"ruled out\" OR questionable OR \"out for\" OR suspended OR \"will not play\") -is:retweet lang:en"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Nebraska (our side) played Ohio State without four defensive starters; unclear whether any of the injured Huskers return for Iowa",
+       "source": "https://x.com/JournalStarNews/status/2124957265157410965",
+       "time": "2026-11-24 00:04 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. Nebraska Cornhuskers (our side) @2.95 at Iowa: four defensive starters injured, return uncertain → TITAN shrink (V2-4 → block)"
+    },
+    {
+     "candidate": "pm:aut-rbs-ask-2026-11-29-rbs",
+     "event": "LASK Linz @ RB Salzburg",
+     "sel": "RB Salzburg",
+     "queries": [
+      "(\"Boston United\" OR \"Charlotte FC\" OR \"RB Salzburg\" OR \"Red Bull Salzburg\" OR \"Cambridge United\" OR \"Plymouth Argyle\") (injury OR injured OR \"ruled out\" OR suspended OR sacked OR doubt OR verletzt) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "RB Salzburg (our side): Damir Redzic out (hamstring, return unknown); Dominik Schmid expected back",
+       "source": "https://x.com/injuryreportst/status/2123860979192660396",
+       "time": "2026-11-20 23:28 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "RB Salzburg: striker Haris Tabakovic injury update, expected return unknown",
+       "source": "https://x.com/injuryreportst/status/2122982736642318701",
+       "time": "2026-11-18 13:18 (Tbilisi)"
+      },
+      {
+       "type": "injury",
+       "text": "RB Salzburg lost 0-1 at Austria Vienna on 22 Nov; Sota Kitano not in squad (injured)",
+       "source": "https://x.com/BookmakerBukume/status/2125128948774494486",
+       "time": "2026-11-24 11:26 (Tbilisi)"
+      }
+     ],
+     "verdict": "block",
+     "titan": "REJECTED",
+     "note": "V2-4 (owner 2026-11-13): NEWS shrink → block. RB Salzburg (our side, Polymarket ask) @2.50 vs LASK: several own-side absences (Redzic, Tabakovic, Kitano) → TITAN shrink (V2-4 → block)"
+    },
+    {
+     "candidate": "309581",
+     "event": "Chicago Fire FC @ Charlotte FC",
+     "sel": "Charlotte FC",
+     "queries": [
+      "(\"Boston United\" OR \"Charlotte FC\" OR \"RB Salzburg\" OR \"Red Bull Salzburg\" OR \"Cambridge United\" OR \"Plymouth Argyle\") (injury OR injured OR \"ruled out\" OR suspended OR sacked OR doubt OR verletzt) -is:retweet",
+      "(\"Vermont basketball\" OR \"UVM basketball\" OR Catamounts OR \"BYU basketball\" OR \"BYU Cougars\" OR \"AJ Dybantsa\" OR \"Boston United\" OR \"Charlotte FC\" OR \"Dean Smith\") (injury OR injured OR \"ruled out\" OR questionable OR \"will not play\" OR suspended OR doubtful OR sacked) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Charlotte FC won game 1 on the road vs Chicago Fire; Pep Biel back from knee injury and scoring (positive, not used to add)",
+       "source": "https://x.com/AlyTrostMartin/status/2124885550737809470",
+       "time": "2026-11-23 19:19 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Charlotte FC (our side) @2.70 vs Chicago Fire (series game 2): no negative own-side news → clear"
+    },
+    {
+     "candidate": "espn401889188",
+     "event": "Barrow @ Boston United",
+     "sel": "Boston United",
+     "queries": [
+      "(\"Boston United\" OR \"Charlotte FC\" OR \"RB Salzburg\" OR \"Red Bull Salzburg\" OR \"Cambridge United\" OR \"Plymouth Argyle\") (injury OR injured OR \"ruled out\" OR suspended OR sacked OR doubt OR verletzt) -is:retweet",
+      "(\"Vermont Catamounts\" OR \"Vermont basketball\" OR UVMmbb OR \"Siena Saints\" OR \"Boston United\" OR \"Charlotte FC\" OR Rams OR \"Matthew Stafford\") (injury OR injured OR \"ruled out\" OR questionable OR out OR suspended) -is:retweet lang:en",
+      "(\"Vermont basketball\" OR \"UVM basketball\" OR Catamounts OR \"BYU basketball\" OR \"BYU Cougars\" OR \"AJ Dybantsa\" OR \"Boston United\" OR \"Charlotte FC\" OR \"Dean Smith\") (injury OR injured OR \"ruled out\" OR questionable OR \"will not play\" OR suspended OR doubtful OR sacked) -is:retweet"
+     ],
+     "tool_calls": 1,
+     "findings": [],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Boston United (our side, ESPN-DK) @2.90 vs Barrow: no own-side injury/suspension/coach news in X results → clear"
+    },
+    {
+     "candidate": "pm:uel-oly-mil1-2026-11-26-oly",
+     "event": "AC Milan @ Olympiacos",
+     "sel": "Olympiacos",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Olympiacos @2.941 (AC Milan @ Olympiacos): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 5.29%)"
+    },
+    {
+     "candidate": "291006",
+     "event": "New England Patriots @ Los Angeles Chargers",
+     "sel": "Los Angeles Chargers",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Los Angeles Chargers @1.893 (New England Patriots @ Los Angeles Chargers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 4.47%)"
+    },
+    {
+     "candidate": "pm:el1-wig-ply-2026-11-28-ply",
+     "event": "Plymouth Argyle @ Wigan Athletic",
+     "sel": "Plymouth Argyle",
+     "queries": [
+      "(\"Boston United\" OR \"Charlotte FC\" OR \"RB Salzburg\" OR \"Red Bull Salzburg\" OR \"Cambridge United\" OR \"Plymouth Argyle\") (injury OR injured OR \"ruled out\" OR suspended OR sacked OR doubt OR verletzt) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "none",
+       "text": "Plymouth fan post: poor form, \"players get injured for fun\" (no named absence)",
+       "source": "https://x.com/Pilgrimrich/status/2124189303689662772",
+       "time": "2026-11-21 21:12 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Plymouth Argyle (our side, Polymarket ask) @2.703 at Wigan: only non-specific fan criticism, no named injury/suspension → clear"
+    },
+    {
+     "candidate": "pm:el1-pet-cam-2026-11-28-cam",
+     "event": "Cambridge United @ Peterborough United",
+     "sel": "Cambridge United",
+     "queries": [
+      "(\"Boston United\" OR \"Charlotte FC\" OR \"RB Salzburg\" OR \"Red Bull Salzburg\" OR \"Cambridge United\" OR \"Plymouth Argyle\") (injury OR injured OR \"ruled out\" OR suspended OR sacked OR doubt OR verletzt) -is:retweet"
+     ],
+     "tool_calls": 0,
+     "findings": [
+      {
+       "type": "injury",
+       "text": "Peterborough (opponent): injured players could return for the Cambridge derby",
+       "source": "https://x.com/peterboroughtel/status/2124763123852677601",
+       "time": "2026-11-23 11:12 (Tbilisi)"
+      }
+     ],
+     "verdict": "clear",
+     "titan": "APPROVED",
+     "note": "Cambridge United (our side, Polymarket ask) @2.857 at Peterborough: only opponent returns, nothing on our side → clear"
+    },
+    {
+     "candidate": "309830",
+     "event": "Oregon State Beavers @ Fresno State Bulldogs",
+     "sel": "Oregon State Beavers",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Oregon State Beavers @2.3 (Oregon State Beavers @ Fresno State Bulldogs): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 4.08%)"
+    },
+    {
+     "candidate": "290220",
+     "event": "UCF Knights @ Colorado Buffaloes",
+     "sel": "UCF Knights",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "UCF Knights @2.08 (UCF Knights @ Colorado Buffaloes): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 3.02%)"
+    },
+    {
+     "candidate": "290232",
+     "event": "UMass Minutemen @ Bowling Green Falcons",
+     "sel": "UMass Minutemen",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "UMass Minutemen @2.3 (UMass Minutemen @ Bowling Green Falcons): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 3.58%)"
+    },
+    {
+     "candidate": "290251",
+     "event": "Louisiana Ragin' Cajuns @ Georgia State Panthers",
+     "sel": "Georgia State Panthers",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Georgia State Panthers @2.88 (Louisiana Ragin' Cajuns @ Georgia State Panthers): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 4.97%)"
+    },
+    {
+     "candidate": "pm:itsb-ces-asc-2026-11-24-asc",
+     "event": "Ascoli @ Cesena",
+     "sel": "Ascoli",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Ascoli @2.778 (Ascoli @ Cesena): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 4.17%)"
+    },
+    {
+     "candidate": "pm:por-acv-alv-2026-11-28-acv",
+     "event": "Alverca @ Académico de Viseu",
+     "sel": "Académico de Viseu",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Académico de Viseu @2.703 (Alverca @ Académico de Viseu): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 3.86%)"
+    },
+    {
+     "candidate": "290230",
+     "event": "Baylor Bears @ Houston Cougars",
+     "sel": "Baylor Bears",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Baylor Bears @2.7 (Baylor Bears @ Houston Cougars): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 3.72%)"
+    },
+    {
+     "candidate": "espn401909763",
+     "event": "Stanford Cardinal @ Colorado Buffaloes",
+     "sel": "Colorado Buffaloes",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (learning mode: below the top-8 EV cut)",
+     "note": "Colorado Buffaloes @2.54 (Stanford Cardinal @ Colorado Buffaloes): not reviewed — learning mode takes max 8 top-EV picks and 8 cleared NEWS/TITAN above this one (EV 3.38%)"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 56,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 0,
+     "gt_fetch_seconds": 86,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 729,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 722,
+     "chain_solana": 200,
+     "chain_base": 168,
+     "chain_bsc": 179,
+     "chain_robinhood": 2,
+     "chain_ethereum": 173,
+     "gate_liquidity": 422,
+     "gate_too_new": 58,
+     "gate_pass": 124,
+     "gate_pump": 1,
+     "gate_thin_liq_fdv": 84,
+     "gate_low_activity": 33,
+     "safety_pass": 81,
+     "safety_fail": 28,
+     "safety_unverified": 15
+    },
+    "passed_n": 81,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 2 final(s): B688 won +2.01, B720 won +1.04 (P/L +3.05). Not final → left open for the hourly refresh: none. LEDGER: DK closes 2/2; Football n=164 mean CLV -5.01%; Polymarket n=272 mean -2.36% (halving OFF by owner order 2026-10-28; tracked only). DOC: 0 post-mortems. Scan 58846 options → with_model 1150 → PASS 21+PM 7 → 24 after dedup/caps (prior_veto 0); SHERLOCK/TITAN: 4 blocked, 0 shrunk → 8 bets. NO BUY: BTC 60301 < MA20 67535 (below SMA50 75675) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed → 0; stocks: US market open (Tuesday; Yahoo live quotes), no SL/TP touched (AAPL/KO/V within SL/TP); no tested equity entry; no tested entry rule → 0 new buys. Learning mode: ≤8 top-EV bets at $1-$2.50.",
+   "plan": "MID 2026-11-24 (დღის ერთადერთი ციკლი, სამშაბათი ~18:50): Strategy v2 ჩართულია (კოეფ. ≤2.99, მოდელის EV ≤12%, NBA მხოლოდ ჩრდილში, NEWS shrink → block). ბანკი $402.66 (-19.5% დეპოზიტებზე) → სასწავლო რეჟიმი (learning mode): მაქს. 8 ფსონი, ყველაზე მაღალი EV, $1–$2.50, ქეპები/TITAN უცვლელი; კრიპტო/ტოკენ/აქციის ახალი ყიდვა არა. დასახლება მხოლოდ რეალური საბოლოო შედეგით; B294 გადადებული 12-01-მდე; BTC gate დახურული (BTC < MA20/SMA50); AAPL/KO/V-ს სტოპი/TP მოქმედებს, დღეს არცერთი არ შეხებია (MSFT 21.11 და UNH 18.11 სტოპით გავიდა); St. Louis CITY SC-ის სახელის ალიასი დაემატა settle-ში (მხოლოდ შედარება, L007); ახალი ტოკენების სკანი დღეში ერთხელ; Football/Polymarket/NBA ცალკე იზომება.",
+   "strategy_v2": {
+    "enabled": true,
+    "lm_use_v2_filter": false,
+    "rules": "odds<=2.99, EV<=12%, NBA shadow-only, NEWS shrink->block",
+    "news_shrink_blocked": [
+     "290256",
+     "290214",
+     "pm:aut-rbs-ask-2026-11-29-rbs",
+     "290825"
+    ],
+    "scan_v2_rejects": {
+     "gate_V2_odds>2.99": 12,
+     "gate_V2_ev>12": 2,
+     "pm_gate_V2_odds>2.99": 9
+    },
+    "nba_shadow_logged": 1,
+    "nba_shadow_clean": 0
+   },
+   "drawdown_brake": {
+    "deposits": 500.0,
+    "threshold": 450.0,
+    "stop_threshold": 400.0,
+    "bank": 402.66,
+    "vs_deposits_pct": -19.47,
+    "mode": "learning",
+    "triggered": true,
+    "learning_mode": true,
+    "learning_mode_enabled": true,
+    "effect": "LEARNING MODE: max 8 bets/cycle, top-EV picks only, stake $1-$2.5 (half normal), caps/TITAN/news unchanged; no crypto/token/equity buys",
+    "placed_learning_bets": 8,
+    "skipped_by_brake": [
+     "298019",
+     "espn401929035",
+     "pm:uel-oly-mil1-2026-11-26-oly",
+     "290251",
+     "291006",
+     "pm:itsb-ces-asc-2026-11-24-asc",
+     "309830",
+     "pm:por-acv-alv-2026-11-28-acv",
+     "290230",
+     "290232",
+     "espn401909763",
+     "290220"
+    ]
+   },
+   "settle_note": "ESPN/gamma finals: 2 settled 2W/0L +3.05 — B688 St. Louis City won (St. Louis CITY SC 3, LAFC 2); B720 Almería won (Ceuta 2, Almería 3). Left open (not final / B294 postponed): none.",
+   "closed_at": "2026-11-24 18:51 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -173119,21 +175391,21 @@
   }
  ],
  "last_prices": {
-  "BTC": 63177,
+  "BTC": 60301,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 717.24,
+  "SPY": 716.48,
   "META": 615.42,
-  "AAPL": 352.54,
+  "AAPL": 350.68,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
   "GOOGL": 288.15,
   "QQQ": 659.27,
   "XLV": 188.33,
-  "MSFT": 502.16,
+  "MSFT": 491.74,
   "PLTR": 161.34,
-  "V": 410.7,
+  "V": 411.72,
   "BRK-B": 575.25,
   "ETH": 2090.87,
   "SOL": 85.3,
@@ -173144,11 +175416,11 @@
   "JPM": 336.69,
   "JNJ": 275.62,
   "BAC": 49.81,
-  "UNH": 327.64,
+  "UNH": 334.02,
   "COST": 1066.18,
   "XOM": 164.73,
   "CRM": 214.94,
-  "KO": 96.26,
+  "KO": 96.77,
   "NFLX": 63.64,
   "WMT": 125.66,
   "INTC": 98.12,
@@ -173177,8 +175449,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 68636.59,
-  "BTC_MA50": 76222.46,
+  "BTC_MA20": 67535.3,
+  "BTC_MA50": 75675.38,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -173197,20 +175469,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-23 19:41 (Tbilisi)",
-  "total_value": 399.6,
+  "time": "2026-11-24 18:51 (Tbilisi)",
+  "total_value": 402.66,
   "deposits_usd": 500,
-  "vs_deposits_usd": -100.4,
-  "vs_deposits_pct": -20.08,
-  "btc_bench": 383.39,
-  "vs_btc_usd": 16.22,
+  "vs_deposits_usd": -97.34,
+  "vs_deposits_pct": -19.47,
+  "btc_bench": 365.93,
+  "vs_btc_usd": 36.73,
   "bets": {
-   "n": 727,
-   "wins": 269,
+   "n": 729,
+   "wins": 271,
    "losses": 458,
-   "open": 17,
-   "pl_usd": -93.93,
-   "roi_pct": -6.7
+   "open": 23,
+   "pl_usd": -90.88,
+   "roi_pct": -6.5
   },
   "by_sport": {
    "NHL": {
@@ -173235,11 +175507,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 193,
-    "wins": 65,
+    "n": 194,
+    "wins": 66,
     "losses": 128,
-    "pl_usd": 6.31,
-    "roi_pct": 2.1
+    "pl_usd": 8.32,
+    "roi_pct": 2.8
    },
    "NCAAF": {
     "n": 83,
@@ -173256,11 +175528,11 @@
     "roi_pct": -39.1
    },
    "Polymarket": {
-    "n": 283,
-    "wins": 96,
+    "n": 284,
+    "wins": 97,
     "losses": 187,
-    "pl_usd": -33.25,
-    "roi_pct": -6.7
+    "pl_usd": -32.21,
+    "roi_pct": -6.5
    },
    "NFL": {
     "n": 27,
@@ -173305,16 +175577,16 @@
    "realized_usd": -2.26,
    "total_pl_usd": -1.16
   },
-  "cash_usd": 342.3757,
-  "scanned": 58299,
-  "open_bets_usd": 26.13,
+  "cash_usd": 332.9495,
+  "scanned": 58846,
+  "open_bets_usd": 38.61,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 193,
-    "wins": 65,
+    "n": 194,
+    "wins": 66,
     "losses": 128,
-    "pl_usd": 6.31,
-    "roi_pct": 2.1
+    "pl_usd": 8.32,
+    "roi_pct": 2.8
    },
    "BASKETBALL": {
     "n": 55,
@@ -173352,11 +175624,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 283,
-    "wins": 96,
+    "n": 284,
+    "wins": 97,
     "losses": 187,
-    "pl_usd": -33.25,
-    "roi_pct": -6.7
+    "pl_usd": -32.21,
+    "roi_pct": -6.5
    },
    "CRYPTO MAJORS": {
     "n": 5,
@@ -173381,8 +175653,8 @@
    }
   },
   "brake": {
-   "mode": "stop",
-   "label_ka": "⛔ სრული გაჩერება (−20%): ახალი ფსონი არა",
+   "mode": "learning",
+   "label_ka": "🧪 სასწავლო რეჟიმი (learning mode): ≤8 ფსონი/ციკლი, $1–$2.50",
    "learning_mode_enabled": true,
    "threshold": 450.0,
    "stop_threshold": 400.0
@@ -173390,12 +175662,12 @@
   "strategy_v2": {
    "enabled": true,
    "rules_ka": "კოეფ. ≤2.99 · EV ≤12% · NBA მხოლოდ ჩრდილში · NEWS shrink → block",
-   "nba_shadow_logged": 10,
-   "nba_shadow_settled": 8,
-   "nba_shadow_pl": -2.59
+   "nba_shadow_logged": 11,
+   "nba_shadow_settled": 10,
+   "nba_shadow_pl": 6.33
   }
  },
- "last_refresh": "2026-11-23 19:41 (Tbilisi)",
+ "last_refresh": "2026-11-24 18:51 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -174648,7 +176920,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-23 19:41 (Tbilisi)",
+  "updated": "2026-11-24 18:51 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -174679,12 +176951,12 @@
     "lean": null
    },
    "Football": {
-    "n": 163,
+    "n": 164,
     "early_better": 78,
-    "late_better": 68,
+    "late_better": 69,
     "equal": 17,
-    "avg_clv_pct": 0.68,
-    "no_close": 35,
+    "avg_clv_pct": 0.62,
+    "no_close": 36,
     "lean": "early"
    },
    "NCAAF": {
@@ -174693,7 +176965,7 @@
     "late_better": 24,
     "equal": 2,
     "avg_clv_pct": 4.49,
-    "no_close": 6,
+    "no_close": 8,
     "lean": "early"
    },
    "NBA": {
@@ -174706,12 +176978,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 271,
+    "n": 272,
     "early_better": 161,
-    "late_better": 107,
+    "late_better": 108,
     "equal": 3,
-    "avg_clv_pct": 3.49,
-    "no_close": 21,
+    "avg_clv_pct": 3.47,
+    "no_close": 22,
     "lean": "early"
    },
    "NFL": {
@@ -174747,7 +177019,7 @@
     "late_better": 22,
     "equal": 6,
     "avg_clv_pct": 0.1,
-    "no_close": 1,
+    "no_close": 3,
     "lean": "early"
    }
   },
@@ -183403,6 +185675,30 @@
     "better": "early"
    },
    {
+    "id": "B688",
+    "sport": "Football",
+    "event": "Los Angeles FC @ St. Louis City",
+    "open": null,
+    "taken": 2.48,
+    "taken_time": "2026-11-16 18:51 (Tbilisi)",
+    "close": 2.75,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/summary?event=401933728",
+    "clv_pct": -9.82,
+    "better": "late"
+   },
+   {
+    "id": "B720",
+    "sport": "Polymarket",
+    "event": "Almería @ Ceuta",
+    "open": null,
+    "taken": 2.041,
+    "taken_time": "2026-11-19 18:45 (Tbilisi)",
+    "close": 2.1,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/summary?event=401883110",
+    "clv_pct": -2.81,
+    "better": "late"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -183458,17 +185754,6 @@
     "better": null
    },
    {
-    "id": "B688",
-    "sport": "Football",
-    "event": "Los Angeles FC @ St. Louis City",
-    "open": null,
-    "taken": 2.48,
-    "taken_time": "2026-11-16 18:51 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
     "id": "B713",
     "sport": "Polymarket",
     "event": "Corinthians @ Atlético-MG",
@@ -183485,17 +185770,6 @@
     "event": "Louisville Cardinals @ Kentucky Wildcats",
     "open": null,
     "taken": 1.98,
-    "taken_time": "2026-11-19 18:45 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B720",
-    "sport": "Polymarket",
-    "event": "Almería @ Ceuta",
-    "open": null,
-    "taken": 2.041,
     "taken_time": "2026-11-19 18:45 (Tbilisi)",
     "close": null,
     "close_source": null,
@@ -183588,6 +185862,94 @@
     "close": null,
     "close_source": null,
     "better": null
+   },
+   {
+    "id": "B745",
+    "sport": "Football",
+    "event": "Barrow @ Boston United",
+    "open": null,
+    "taken": 2.9,
+    "taken_time": "2026-11-24 18:51 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B746",
+    "sport": "NCAAF",
+    "event": "Florida Atlantic Owls @ East Carolina Pirates",
+    "open": null,
+    "taken": 1.926,
+    "taken_time": "2026-11-24 18:51 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B747",
+    "sport": "NCAAB",
+    "event": "Vermont Catamounts @ Siena Saints",
+    "open": null,
+    "taken": 2.6,
+    "taken_time": "2026-11-24 18:51 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B748",
+    "sport": "Football",
+    "event": "Chicago Fire FC @ Charlotte FC",
+    "open": null,
+    "taken": 2.7,
+    "taken_time": "2026-11-24 18:51 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B749",
+    "sport": "NCAAF",
+    "event": "Virginia Cavaliers @ Virginia Tech Hokies",
+    "open": null,
+    "taken": 2.31,
+    "taken_time": "2026-11-24 18:51 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B750",
+    "sport": "Polymarket",
+    "event": "Cambridge United @ Peterborough United",
+    "open": null,
+    "taken": 2.857,
+    "taken_time": "2026-11-24 18:51 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B751",
+    "sport": "Polymarket",
+    "event": "Plymouth Argyle @ Wigan Athletic",
+    "open": null,
+    "taken": 2.703,
+    "taken_time": "2026-11-24 18:51 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
+   },
+   {
+    "id": "B752",
+    "sport": "NCAAB",
+    "event": "BYU Cougars @ Ole Miss Rebels",
+    "open": null,
+    "taken": 1.952,
+    "taken_time": "2026-11-24 18:51 (Tbilisi)",
+    "close": null,
+    "close_source": null,
+    "better": null
    }
   ]
  },
@@ -183598,12 +185960,12 @@
  ],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 163,
-   "mean_clv_pct": -4.94
+   "n": 164,
+   "mean_clv_pct": -5.01
   },
   "Polymarket": {
-   "n": 271,
-   "mean_clv_pct": -2.34
+   "n": 272,
+   "mean_clv_pct": -2.36
   },
   "NCAAF": {
    "n": 78,
@@ -183631,13 +185993,13 @@
   }
  },
  "v2_shadow_summary": {
-  "updated": "2026-11-23 18:47 (Tbilisi)",
-  "n_logged": 8,
-  "n_settled": 8,
-  "wins": 4,
-  "shadow_pl_usd": -2.59,
-  "shadow_staked": 22.69,
-  "mean_clv_pct": -7.85
+  "updated": "2026-11-24 18:44 (Tbilisi)",
+  "n_logged": 10,
+  "n_settled": 10,
+  "wins": 6,
+  "shadow_pl_usd": 6.33,
+  "shadow_staked": 29.17,
+  "mean_clv_pct": -5.86
  },
  "v2_shadow_bets": [
   {
@@ -183977,9 +186339,19 @@
    "v2_rule": "V2_nba_shadow",
    "also_fails_v2": "V2_odds>2.99",
    "scan_stamp": "2026-11-23_1847",
-   "status": "open",
+   "status": "settled",
    "recorded_at": "2026-11-23 18:47 (Tbilisi)",
-   "paper_shadow": true
+   "paper_shadow": true,
+   "espn_event": "401910039",
+   "result": "won",
+   "shadow_pl_usd": 5.59,
+   "final_score": "Toronto Raptors 111, Milwaukee Bucks 116 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401910039",
+   "settled_at": "2026-11-24 18:44 (Tbilisi)",
+   "closing_odds": 4.3,
+   "closing_fair_odds": 4.4747,
+   "clv_pct": 6.82,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-421', 'away': '+330'}"
   },
   {
    "scan_id": "295493",
@@ -184006,8 +186378,47 @@
    "v2_rule": "V2_nba_shadow",
    "also_fails_v2": null,
    "scan_stamp": "2026-11-23_1847",
-   "status": "open",
+   "status": "settled",
    "recorded_at": "2026-11-23 18:47 (Tbilisi)",
+   "paper_shadow": true,
+   "espn_event": "401910042",
+   "result": "won",
+   "shadow_pl_usd": 3.33,
+   "final_score": "New Orleans Pelicans 119, Phoenix Suns 123 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401910042",
+   "settled_at": "2026-11-24 18:44 (Tbilisi)",
+   "closing_odds": 1.6452,
+   "closing_fair_odds": 1.7122,
+   "clv_pct": -2.64,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+131', 'away': '-155'}"
+  },
+  {
+   "scan_id": "295224",
+   "sport": "NBA",
+   "via": "book",
+   "league": "nba",
+   "event": "Phoenix Suns @ Houston Rockets",
+   "home": "Houston Rockets",
+   "away": "Phoenix Suns",
+   "side": "away",
+   "sel": "Phoenix Suns",
+   "odds": 4.19,
+   "book": "68",
+   "p": 0.2544,
+   "mkt": 0.2364,
+   "ev": 6.61,
+   "models": {
+    "ESPN": 0.259,
+    "DRatings": 0.286
+   },
+   "start": "2026-11-26T01:30:00.000Z",
+   "slug": null,
+   "shadow_stake": 2.08,
+   "v2_rule": "V2_nba_shadow",
+   "also_fails_v2": "V2_odds>2.99",
+   "scan_stamp": "2026-11-24_1844",
+   "status": "open",
+   "recorded_at": "2026-11-24 18:44 (Tbilisi)",
    "paper_shadow": true
   }
  ]
