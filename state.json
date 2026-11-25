@@ -37216,7 +37216,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 348.39,
+   "last_price": 346.61,
    "adds": [
     {
      "date": "2026-10-14",
@@ -37237,7 +37237,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 97.9
+   "last_price": 97.99
   },
   {
    "symbol": "V",
@@ -37245,7 +37245,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 413.6,
+   "last_price": 416.92,
    "opened_at": "2026-10-15 18:59 (Tbilisi)",
    "stop_loss": 367.22,
    "take_profit": 455.04,
@@ -177397,12 +177397,12 @@
   }
  ],
  "last_prices": {
-  "BTC": 57530,
+  "BTC": 58162,
   "NEAR": 5.11,
   "AVAX": 10.17,
   "SPY": 696.14,
   "META": 615.42,
-  "AAPL": 348.39,
+  "AAPL": 346.61,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
@@ -177411,7 +177411,7 @@
   "XLV": 188.33,
   "MSFT": 477.67,
   "PLTR": 161.34,
-  "V": 413.6,
+  "V": 416.92,
   "BRK-B": 575.25,
   "ETH": 2090.87,
   "SOL": 85.3,
@@ -177426,7 +177426,7 @@
   "COST": 1066.18,
   "XOM": 164.73,
   "CRM": 214.94,
-  "KO": 97.9,
+  "KO": 97.99,
   "NFLX": 63.64,
   "WMT": 125.66,
   "INTC": 98.12,
@@ -177455,8 +177455,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 66582.72,
-  "BTC_MA50": 75103.66,
+  "BTC_MA20": 66615.68,
+  "BTC_MA50": 75116.84,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -177475,13 +177475,13 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-25 18:51 (Tbilisi)",
-  "total_value": 394.93,
+  "time": "2026-11-25 19:37 (Tbilisi)",
+  "total_value": 394.96,
   "deposits_usd": 500,
-  "vs_deposits_usd": -105.07,
+  "vs_deposits_usd": -105.04,
   "vs_deposits_pct": -21.01,
-  "btc_bench": 349.12,
-  "vs_btc_usd": 45.81,
+  "btc_bench": 352.95,
+  "vs_btc_usd": 42.01,
   "bets": {
    "n": 736,
    "wins": 272,
@@ -177578,10 +177578,10 @@
   },
   "stocks": {
    "open_n": 3,
-   "value_usd": 31.17,
-   "unrealized_usd": 1.17,
+   "value_usd": 31.19,
+   "unrealized_usd": 1.19,
    "realized_usd": -2.26,
-   "total_pl_usd": -1.09
+   "total_pl_usd": -1.06
   },
   "cash_usd": 336.8975,
   "scanned": 60169,
@@ -177673,7 +177673,7 @@
    "nba_shadow_pl": 6.33
   }
  },
- "last_refresh": "2026-11-25 18:51 (Tbilisi)",
+ "last_refresh": "2026-11-25 19:37 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -178926,7 +178926,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-25 18:51 (Tbilisi)",
+  "updated": "2026-11-25 19:37 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
