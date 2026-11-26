@@ -3,7 +3,7 @@
  "start_date": "2026-10-07",
  "start_value_usd": 100,
  "target_usd": 500000,
- "cash_usd": 336.8975,
+ "cash_usd": 342.5975,
  "open_bets": [
   {
    "id": "B077",
@@ -105,78 +105,6 @@
    "odds_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.2/summary?event=401878541",
    "reasoning": "scan PASS EV=8.44% models=['FTS', 'EloFD']; scan stake $1.75 (raw 2.33; A4/LEDGER applied in scan.py); NEWS clear → TITAN APPROVED at $1.75",
    "scan_id": "espn401878541"
-  },
-  {
-   "id": "B670",
-   "sport": "Football",
-   "league": "champions",
-   "event": "Villarreal @ Slavia Prague",
-   "kickoff": "2026-11-25 21:45",
-   "selection": "Villarreal",
-   "odds": 2.28,
-   "book": "Action Network real book id71",
-   "p": 0.4653,
-   "implied_pct": 43.9,
-   "edge_pct": 6.1,
-   "stake": 2.5,
-   "status": "open",
-   "opened_at": "2026-11-13 19:07 (Tbilisi)",
-   "odds_time": "2026-11-13 19:07 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "DRatings": 0.494
-    },
-    "mkt": 0.4367,
-    "nbooks": 4,
-    "blend_p": 0.4653,
-    "elo_only": false
-   },
-   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-13_1858 id=296548)",
-   "reasoning": "scan PASS EV=6.1% models=['DRatings']; scan stake $5.0 (raw 5.27; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
-   "scan_id": "296548",
-   "learning_mode": true
-  },
-  {
-   "id": "B713",
-   "sport": "Polymarket",
-   "league": "soc_bra.1",
-   "event": "Corinthians @ Atlético-MG",
-   "kickoff": "2026-11-26 03:00",
-   "selection": "Atlético-MG",
-   "odds": 2.381,
-   "book": "Polymarket ask",
-   "p": 0.4518,
-   "implied_pct": 42.0,
-   "edge_pct": 7.57,
-   "stake": 1.53,
-   "status": "open",
-   "opened_at": "2026-11-19 18:45 (Tbilisi)",
-   "odds_time": "2026-11-19 18:45 (Tbilisi)",
-   "model_inputs": {
-    "models": {
-     "EloFD": 0.502
-    },
-    "mkt": 0.4016,
-    "nbooks": 1,
-    "blend_p": 0.4518,
-    "elo_only": true
-   },
-   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bra-cam-cor1-2026-11-25-cam",
-   "reasoning": "scan PASS EV=7.57% models=['EloFD']; scan stake $3.06 (raw 3.06; A4/LEDGER applied in scan.py); LEARNING MODE (bank $446.53 ≤ -10% vs $500): half stake → $1.53; NEWS clear → TITAN APPROVED at $1.53",
-   "scan_id": "pm:bra-cam-cor1-2026-11-25-cam",
-   "learning_mode": true,
-   "polymarket_slug": "bra-cam-cor1-2026-11-25-cam",
-   "outcome_price": 0.42,
-   "match_check": {
-    "status": "ok",
-    "issues": [],
-    "pm_title": "CA Mineiro vs. SC Corinthians Paulista",
-    "pm_league": "BRA1",
-    "pm_kickoff_utc": "2026-11-25T23:00Z",
-    "checked": "2026-11-19 18:45 (Tbilisi)",
-    "rule": "L007"
-   },
-   "elo_only": true
   },
   {
    "id": "B717",
@@ -37203,6 +37131,111 @@
     "note": "CLV -12.44% (1.952 vs DraftKings no-vig close 2.2294); final BYU Cougars 63, Ole Miss Rebels 73 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
     "lesson": null
    }
+  },
+  {
+   "id": "B670",
+   "sport": "Football",
+   "league": "champions",
+   "event": "Villarreal @ Slavia Prague",
+   "kickoff": "2026-11-25 21:45",
+   "selection": "Villarreal",
+   "odds": 2.28,
+   "book": "Action Network real book id71",
+   "p": 0.4653,
+   "implied_pct": 43.9,
+   "edge_pct": 6.1,
+   "stake": 2.5,
+   "status": "settled",
+   "opened_at": "2026-11-13 19:07 (Tbilisi)",
+   "odds_time": "2026-11-13 19:07 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "DRatings": 0.494
+    },
+    "mkt": 0.4367,
+    "nbooks": 4,
+    "blend_p": 0.4653,
+    "elo_only": false
+   },
+   "odds_source_url": "https://api.actionnetwork.com/web/v2/scoreboard/soccer (scan/2026-11-13_1858 id=296548)",
+   "reasoning": "scan PASS EV=6.1% models=['DRatings']; scan stake $5.0 (raw 5.27; A4/LEDGER applied in scan.py); LEARNING MODE (bank $443.5 ≤ -10% vs $500): half stake → $2.5; NEWS clear → TITAN APPROVED at $2.5",
+   "scan_id": "296548",
+   "learning_mode": true,
+   "result": "won",
+   "pl_usd": 3.2,
+   "settled_at": "2026-11-26 18:40 (Tbilisi)",
+   "final_score": "Slavia Prague 0, Villarreal 1 (FT)",
+   "score": "Slavia Prague 0, Villarreal 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915293",
+   "settle_source": "ESPN uefa.champions event 401915293 STATUS_FULL_TIME, Villarreal winner",
+   "closing_odds": 2.5,
+   "closing_fair_odds": 2.6133,
+   "clv_pct": -12.75,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+175', 'away': '+150', 'draw': '+255'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915293",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+175', 'away': '+150', 'draw': '+255'}; no-vig fair 2.6133; recorded MID 2026-11-26 18:40 (Tbilisi)"
+  },
+  {
+   "id": "B713",
+   "sport": "Polymarket",
+   "league": "soc_bra.1",
+   "event": "Corinthians @ Atlético-MG",
+   "kickoff": "2026-11-26 03:00",
+   "selection": "Atlético-MG",
+   "odds": 2.381,
+   "book": "Polymarket ask",
+   "p": 0.4518,
+   "implied_pct": 42.0,
+   "edge_pct": 7.57,
+   "stake": 1.53,
+   "status": "settled",
+   "opened_at": "2026-11-19 18:45 (Tbilisi)",
+   "odds_time": "2026-11-19 18:45 (Tbilisi)",
+   "model_inputs": {
+    "models": {
+     "EloFD": 0.502
+    },
+    "mkt": 0.4016,
+    "nbooks": 1,
+    "blend_p": 0.4518,
+    "elo_only": true
+   },
+   "odds_source_url": "https://gamma-api.polymarket.com/markets?slug=bra-cam-cor1-2026-11-25-cam",
+   "reasoning": "scan PASS EV=7.57% models=['EloFD']; scan stake $3.06 (raw 3.06; A4/LEDGER applied in scan.py); LEARNING MODE (bank $446.53 ≤ -10% vs $500): half stake → $1.53; NEWS clear → TITAN APPROVED at $1.53",
+   "scan_id": "pm:bra-cam-cor1-2026-11-25-cam",
+   "learning_mode": true,
+   "polymarket_slug": "bra-cam-cor1-2026-11-25-cam",
+   "outcome_price": 0.42,
+   "match_check": {
+    "status": "ok",
+    "issues": [],
+    "pm_title": "CA Mineiro vs. SC Corinthians Paulista",
+    "pm_league": "BRA1",
+    "pm_kickoff_utc": "2026-11-25T23:00Z",
+    "checked": "2026-11-19 18:45 (Tbilisi)",
+    "rule": "L007"
+   },
+   "elo_only": true,
+   "result": "lost",
+   "pl_usd": -1.53,
+   "settled_at": "2026-11-26 18:40 (Tbilisi)",
+   "final_score": "Atlético-MG 1, Corinthians 1 (FT)",
+   "score": "Atlético-MG 1, Corinthians 1 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary?event=401841319",
+   "settle_source": "ESPN bra.1 event 401841319 STATUS_FULL_TIME, draw; Polymarket resolved Yes=0.0 (umaResolutionStatus resolved)",
+   "closing_odds": 2.65,
+   "closing_fair_odds": 2.7969,
+   "clv_pct": -14.87,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '+165', 'away': '+170', 'draw': '+225'}",
+   "closing_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary?event=401841319",
+   "closing_note": "DraftKings close via ESPN pickcenter {'home': '+165', 'away': '+170', 'draw': '+225'}; no-vig fair 2.7969; recorded MID 2026-11-26 18:40 (Tbilisi); Polymarket price vs book no-vig close of the same team-win outcome",
+   "postmortem": {
+    "time": "2026-11-26 18:40 (Tbilisi)",
+    "cause": "price+variance",
+    "clv_sign": "−",
+    "note": "CLV -14.87% (2.381 vs DraftKings no-vig close 2.7969); final Atlético-MG 1, Corinthians 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+    "lesson": null
+   }
   }
  ],
  "positions": [
@@ -37216,7 +37249,7 @@
    "stop_loss": 312.8,
    "take_profit": 386.79,
    "thesis": "Apple სტაბილურ აღმავალ ტრენდშია: ფასი MA20 ($334.5) და MA50 ",
-   "last_price": 346.61,
+   "last_price": 355.58,
    "adds": [
     {
      "date": "2026-10-14",
@@ -37237,7 +37270,7 @@
    "stop_loss": 84.46,
    "take_profit": 105.57,
    "thesis": "CPI hot day: defensive consumer staple add (no MA filter on stocks)",
-   "last_price": 97.99
+   "last_price": 97.59
   },
   {
    "symbol": "V",
@@ -37245,7 +37278,7 @@
    "qty": 0.0250528,
    "entry_price": 399.157,
    "cost_usd": 10.0,
-   "last_price": 416.92,
+   "last_price": 424.39,
    "opened_at": "2026-10-15 18:59 (Tbilisi)",
    "stop_loss": 367.22,
    "take_profit": 455.04,
@@ -38641,6 +38674,14 @@
    "total_value": 394.93,
    "cash": 336.8975,
    "btc_bench": 349.12
+  },
+  {
+   "date": "2026-11-26",
+   "slot": "MID",
+   "time": "2026-11-26 18:45 (Tbilisi)",
+   "total_value": 397.1,
+   "cash": 342.5975,
+   "btc_bench": 368.59
   }
  ],
  "benchmarks_start": {
@@ -177057,6 +177098,1949 @@
    },
    "settle_note": "ESPN/gamma finals: 7 settled 1W/6L -7.79 — B684 Feyenoord lost (Feyenoord Rotterdam 0, FC Porto 1); B729 Yokohama F. Marinos won (Avispa Fukuoka 1, Yokohama F. Marinos 2); B737 Vicenza lost (Vicenza 0, Carrarese 1); B742 Lincoln City lost (Charlton Athletic 4, Lincoln City 0); B745 Boston United lost (Boston United 0, Barrow 1); B747 Vermont Catamounts lost (Siena Saints 98, Vermont Catamounts 88); B752 BYU Cougars lost (BYU Cougars 63, Ole Miss Rebels 73). Left open (not final / B294 postponed): none.",
    "closed_at": "2026-11-25 18:51 (Tbilisi)"
+  },
+  {
+   "date": "2026-11-26",
+   "slot": "MID",
+   "time": "2026-11-26 18:39 (Tbilisi)",
+   "status": "complete",
+   "note": "DRAWDOWN FULL STOP (bank $397.1, mode stop) → 0 new bets/buys (25 scan-PASS candidates skipped, X/NEWS check not run since no bet was possible). MID: 0 new bets (scan 25 PASS), TITAN blocked 0, shrunk 0, settled 2 (+1.67), ledger 2, post-mortems 1, no new lessons, halving OFF (owner), BTC no buy (<MA20/SMA50), stocks: SL none / TP none, 0 new buys (no tested entry rule), tokens 0 bought (gate closed); Post-unhalve tracking (bets ≥2026-10-28 02:44): Football 26W/38L +21.94, Polymarket 49W/93L -11.96, NBA 8W/22L -28.25",
+   "ledger": [
+    {
+     "id": "B670",
+     "odds": 2.28,
+     "close": 2.5,
+     "fair": 2.6133,
+     "clv_pct": -12.75,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915293"
+    },
+    {
+     "id": "B713",
+     "odds": 2.381,
+     "close": 2.65,
+     "fair": 2.7969,
+     "clv_pct": -14.87,
+     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary?event=401841319"
+    }
+   ],
+   "postmortem": [
+    {
+     "id": "B713",
+     "cause": "price+variance",
+     "clv_pct": -14.87,
+     "note": "CLV -14.87% (2.381 vs DraftKings no-vig close 2.7969); final Atlético-MG 1, Corinthians 1 (FT). Market moved against us before kick-off (price), then lost — no rule break.",
+     "lesson": null
+    }
+   ],
+   "not_final_left_open": [],
+   "research": {
+    "settled": [
+     {
+      "id": "B670",
+      "event": "Villarreal @ Slavia Prague",
+      "sel": "Villarreal",
+      "odds": 2.28,
+      "stake": 2.5,
+      "result": "won",
+      "pl_usd": 3.2,
+      "score": "Slavia Prague 0, Villarreal 1",
+      "sport": "Football"
+     },
+     {
+      "id": "B713",
+      "event": "Corinthians @ Atlético-MG",
+      "sel": "Atlético-MG",
+      "odds": 2.381,
+      "stake": 1.53,
+      "result": "lost",
+      "pl_usd": -1.53,
+      "score": "Atlético-MG 1, Corinthians 1",
+      "sport": "Polymarket"
+     }
+    ],
+    "note": "MID paper cycle 2026-11-26 (only cycle of the day)",
+    "btc_hold": "NO BUY: BTC 60738 < MA20 65972 (below SMA50 74709) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00",
+    "btc": 60738,
+    "btc_ma20": 65971.99,
+    "btc_ma50": 74709.23,
+    "tokens_passed": 81,
+    "tokens_bought": 0,
+    "new_bet_ids": [],
+    "stocks": [],
+    "crypto": [],
+    "token_review": [],
+    "titan_blocked": 0,
+    "titan_shrunk": 0,
+    "nova_approved": 0,
+    "x_calls": 2,
+    "stops_hit": [],
+    "tp_hit": [],
+    "pm_mismatch": [],
+    "closed_trades": [],
+    "x_context": [
+     {
+      "query": "(Lions OR Bears) (injury OR inactive OR \"ruled out\" OR questionable) Thanksgiving",
+      "tool": "x search_posts_all",
+      "calls": 1,
+      "findings": [
+       "Bears rule out RB Roschon Johnson, CB Kyler Gordon and S Elijah Hicks for Thanksgiving at Detroit (x.com/CodyA09/status/2125953772413145308; x.com/CloseTheLineAu/status/2125867224795943315)",
+       "Lions DB Brian Branch back from injury (x.com/CpLions/status/2125948083272106297)",
+       "DK/FD: Chicago −1.5, total 56.5 (x.com/LinesNHeadlines/status/2125958221315658059)"
+      ],
+      "note": "Info only for open bet B743 (Detroit Lions @2.26, kickoff 22:00 Tbilisi); already placed, news cannot create/change bets; no action."
+     },
+     {
+      "query": "(bitcoin OR BTC) (hack OR exploit OR crash OR liquidations)",
+      "tool": "x search_posts_all",
+      "calls": 1,
+      "findings": [
+       "21Shares (via The Block): BTC sell-off deepened after Binance hack; stablecoin supply −$10.7B; possible test of ~$53.25K realized price (x.com/TheBlockCo/status/2125855911713616141)",
+       "Spot BTC ETFs −$453M Wed, ~−$5B+ outflows in November; BTC bounced from ~$57.5K to ~$61K with short liquidations (x.com/Dominikz177/status/2125956095722029153)"
+      ],
+      "note": "BTC gate stays closed (BTC 60738 < MA20 65972 / SMA50 74709); no crypto/token buys (FULL STOP)."
+     }
+    ]
+   },
+   "funnel": {
+    "stamp": "2026-11-26_1840",
+    "time": "2026-11-26 18:40 (Tbilisi)",
+    "dry_run": false,
+    "fetch_s": 290,
+    "funnel": {
+     "options_AN": 16632,
+     "events_AN": 476,
+     "events_ESPN": 1705,
+     "options_ESPN": 2022,
+     "elo_countries_accepted": 25,
+     "model_rows_ESPN": 834,
+     "model_rows_DR": 370,
+     "model_rows_FTS": 43,
+     "events_upcoming": 759,
+     "selections_priced": 1920,
+     "drop_too_few_books": 550,
+     "selections_consensus": 1370,
+     "with_model": 1217,
+     "with_2plus_model": 497,
+     "with_1_model": 720,
+     "elo_matched_events": 242,
+     "drop_no_model": 153,
+     "gate_ev<3": 1017,
+     "gate_odds>5": 54,
+     "gate_A3_range": 86,
+     "gate_PASS": 21,
+     "gate_dup_open": 5,
+     "gate_V2_odds>2.99": 12,
+     "gate_V2_ev>12": 1,
+     "gate_model_ev<=0": 8,
+     "gate_TITAN_elo_disagree>10pt": 2,
+     "gate_L004_single_model_gap": 11,
+     "options_Polymarket": 39680,
+     "pm_markets": 19840,
+     "pm_liq1k": 6922,
+     "pm_sports_ml": 2324,
+     "pm_drop_L007_league_unmapped": 439,
+     "pm_drop_L007_no_strict_match": 249,
+     "pm_matched_model": 475,
+     "pm_gate_ev<3": 345,
+     "pm_tb1_tagged": 145,
+     "pm_gate_L004_single_model_gap": 7,
+     "pm_gate_A3_range": 49,
+     "pm_gate_odds>5": 42,
+     "pm_gate_model_ev<=0": 5,
+     "pm_gate_PASS": 16,
+     "pm_tb1_tagged_pass": 9,
+     "pm_gate_TITAN_elo_disagree>10pt": 2,
+     "pm_gate_V2_odds>2.99": 6,
+     "pm_gate_dup_open": 3,
+     "dup_open": 8,
+     "bank_live": 397.1,
+     "bank_stale_overall_report": 394.96,
+     "drop_same_event": 4,
+     "prior_veto": 0,
+     "prior_veto_list_24h": 21,
+     "drop_TITAN_elo_only_over5": 8,
+     "ledger_halve_suppressed": 14,
+     "final_after_caps": 25,
+     "stake_total": 86.75,
+     "budget_caps": 116.14,
+     "v2_nba_shadow": 1,
+     "v2_nba_shadow_clean": 0,
+     "tokens_daily_rule": "BTC gate closed, first token scan today",
+     "tokens_src_dexscreener_tokens": 66,
+     "tokens_gt_pages_ok": 40,
+     "tokens_src_gt_pools": 800,
+     "tokens_gt_pages_failed": 0,
+     "tokens_gt_429_events": 0,
+     "tokens_gt_fetch_seconds": 86,
+     "tokens_tokens_fetch_failed": 0,
+     "tokens_tokens_fetch_failed_detail": [],
+     "tokens_tokens_unique": 721,
+     "tokens_tokens_pairs_fetch_failed": 0,
+     "tokens_tokens_with_pairs": 717,
+     "tokens_chain_solana": 206,
+     "tokens_chain_robinhood": 6,
+     "tokens_chain_elysium": 4,
+     "tokens_chain_base": 158,
+     "tokens_chain_bsc": 172,
+     "tokens_chain_ethereum": 171,
+     "tokens_gate_liquidity": 436,
+     "tokens_gate_pass": 128,
+     "tokens_gate_too_new": 40,
+     "tokens_gate_thin_liq_fdv": 85,
+     "tokens_gate_low_activity": 26,
+     "tokens_gate_pump": 1,
+     "tokens_gate_rug_dump": 1,
+     "tokens_safety_pass": 81,
+     "tokens_safety_fail": 29,
+     "tokens_safety_unverified": 18,
+     "tokens_passed_safety": 81,
+     "options_scanned_total": 59051
+    },
+    "coverage_events_by_sport": {
+     "ncaab": 88,
+     "ncaaf": 72,
+     "nhl": 99,
+     "nfl": 29,
+     "soccer": 402,
+     "nba": 55,
+     "ufc": 14
+    },
+    "note": "paper only; TITAN veto still applies after this funnel"
+   },
+   "desk": {
+    "scout": {
+     "scanned": 59051,
+     "candidates": [
+      {
+       "name": "San Diego State Aztecs",
+       "type": "ncaab",
+       "score": 60,
+       "why": "EV 10.84% @2.85 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Galatasaray",
+       "type": "soccer",
+       "score": 60,
+       "why": "EV 10.23% @2.65 models=['DRatings']"
+      },
+      {
+       "name": "Arizona Cardinals",
+       "type": "nfl",
+       "score": 58,
+       "why": "EV 8.96% @2.31 models=['ESPN']"
+      },
+      {
+       "name": "Jacksonville Jaguars",
+       "type": "nfl",
+       "score": 58,
+       "why": "EV 8.06% @2.3 models=['ESPN']"
+      },
+      {
+       "name": "Houston Texans",
+       "type": "nfl",
+       "score": 57,
+       "why": "EV 7.81% @1.339 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Jacksonville State Gamecocks",
+       "type": "ncaaf",
+       "score": 57,
+       "why": "EV 7.05% @2.2 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "UCF Knights",
+       "type": "ncaaf",
+       "score": 55,
+       "why": "EV 5.9% @2.1 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Army Black Knights",
+       "type": "ncaaf",
+       "score": 55,
+       "why": "EV 5.24% @1.488 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Clemson Tigers",
+       "type": "ncaaf",
+       "score": 59,
+       "why": "EV 9.06% @2.9 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Louisiana Tech Bulldogs",
+       "type": "ncaaf",
+       "score": 55,
+       "why": "EV 5.44% @2.16 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Baylor Bears",
+       "type": "ncaaf",
+       "score": 57,
+       "why": "EV 7.95% @2.7 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Lens",
+       "type": "soccer",
+       "score": 55,
+       "why": "EV 5.43% @2.35 models=['DRatings']"
+      },
+      {
+       "name": "Western Kentucky Hilltoppers",
+       "type": "ncaaf",
+       "score": 55,
+       "why": "EV 5.25% @2.43 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Millwall",
+       "type": "Polymarket",
+       "score": 57,
+       "why": "EV 7.89% @2.174 models=['EloFD']"
+      },
+      {
+       "name": "Las Palmas",
+       "type": "Polymarket",
+       "score": 56,
+       "why": "EV 6.93% @2.222 models=['EloFD']"
+      },
+      {
+       "name": "Southern Miss Golden Eagles",
+       "type": "ncaaf",
+       "score": 55,
+       "why": "EV 5.46% @2.95 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Cremonese",
+       "type": "Polymarket",
+       "score": 59,
+       "why": "EV 9.71% @2.857 models=['EloFD']"
+      },
+      {
+       "name": "Kashiwa Reysol",
+       "type": "soccer",
+       "score": 59,
+       "why": "EV 9.53% @2.95 models=['EloFD']"
+      },
+      {
+       "name": "Dynamo Dresden",
+       "type": "Polymarket",
+       "score": 58,
+       "why": "EV 8.85% @2.941 models=['EloFD']"
+      },
+      {
+       "name": "SC Freiburg",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.65% @1.852 models=['FTS']"
+      },
+      {
+       "name": "Arsenal",
+       "type": "soccer",
+       "score": 53,
+       "why": "EV 3.59% @2.0 models=['DRatings']"
+      },
+      {
+       "name": "Valencia",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.77% @2.273 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Alanyaspor",
+       "type": "Polymarket",
+       "score": 54,
+       "why": "EV 4.46% @2.703 models=['EloFD', 'DRatings']"
+      },
+      {
+       "name": "Tennessee Volunteers",
+       "type": "ncaab",
+       "score": 53,
+       "why": "EV 3.38% @2.43 models=['ESPN', 'DRatings']"
+      },
+      {
+       "name": "Sparta Prague",
+       "type": "Polymarket",
+       "score": 53,
+       "why": "EV 3.09% @2.941 models=['FTS', 'DRatings']"
+      }
+     ],
+     "funnel_summary": {
+      "options_scanned_total": 59051,
+      "with_model": 1217,
+      "gate_PASS": 21,
+      "pm_gate_PASS": 16,
+      "dup_open": 8,
+      "prior_veto": 0,
+      "final_after_caps": 25,
+      "pm_tb1_tagged": 145,
+      "pm_tb1_tagged_pass": 9,
+      "tokens_tokens_unique": 721,
+      "tokens_passed_safety": 81,
+      "stake_total": 86.75,
+      "budget_caps": 116.14
+     }
+    },
+    "charts": {
+     "setups": [
+      {
+       "candidate": "BTC",
+       "trend": "down",
+       "entry": 60729.34,
+       "tp": 65587.69,
+       "stop": 57692.87,
+       "support": 58817.93,
+       "resistance": 75776.38,
+       "prices": [
+        75776.38,
+        74740.42,
+        75266.77,
+        73721.18,
+        73974.39,
+        71371.98,
+        68313.71,
+        64120.24,
+        65305.28,
+        64840.87,
+        64889.41,
+        62996.68,
+        61921.36,
+        58817.93,
+        60121.3,
+        61172.02,
+        61227.55,
+        59758.92,
+        60374.15,
+        60729.34
+       ]
+      },
+      {
+       "candidate": "SPY",
+       "trend": "down",
+       "entry": 716.7,
+       "tp": 774.04,
+       "stop": 680.87,
+       "support": 689.81,
+       "resistance": 769.36,
+       "prices": [
+        769.36,
+        755.72,
+        752.1,
+        754.35,
+        766.81,
+        733.0,
+        735.29,
+        752.69,
+        749.92,
+        759.81,
+        757.12,
+        754.37,
+        739.95,
+        732.44,
+        730.2,
+        715.87,
+        689.81,
+        722.29,
+        718.78,
+        716.7
+       ]
+      },
+      {
+       "candidate": "MSFT",
+       "trend": "down",
+       "entry": 489.93,
+       "tp": 529.12,
+       "stop": 465.43,
+       "support": 484.52,
+       "resistance": 555.8,
+       "prices": [
+        530.14,
+        521.91,
+        507.12,
+        520.99,
+        555.8,
+        535.93,
+        530.61,
+        545.18,
+        533.16,
+        521.13,
+        523.0,
+        523.88,
+        517.99,
+        506.24,
+        508.29,
+        498.3,
+        484.52,
+        492.5,
+        496.13,
+        489.93
+       ]
+      },
+      {
+       "candidate": "COST",
+       "trend": "up",
+       "entry": 1086.81,
+       "tp": 1173.75,
+       "stop": 1032.47,
+       "support": 996.08,
+       "resistance": 1113.74,
+       "prices": [
+        996.08,
+        1012.28,
+        1040.55,
+        1019.26,
+        1046.47,
+        1065.59,
+        1053.56,
+        1066.18,
+        1066.14,
+        1087.61,
+        1092.21,
+        1106.21,
+        1113.74,
+        1110.08,
+        1096.62,
+        1093.83,
+        1102.15,
+        1097.91,
+        1091.71,
+        1086.81
+       ]
+      },
+      {
+       "candidate": "BRK-B",
+       "trend": "up",
+       "entry": 579.32,
+       "tp": 625.67,
+       "stop": 550.35,
+       "support": 541.96,
+       "resistance": 592.94,
+       "prices": [
+        541.96,
+        542.49,
+        556.11,
+        557.07,
+        579.09,
+        572.33,
+        570.89,
+        575.25,
+        583.34,
+        588.24,
+        589.83,
+        592.94,
+        592.85,
+        586.76,
+        574.62,
+        572.04,
+        570.0,
+        572.36,
+        577.21,
+        579.32
+       ]
+      },
+      {
+       "candidate": "XOM",
+       "trend": "down",
+       "entry": 158.08,
+       "tp": 170.73,
+       "stop": 150.18,
+       "support": 156.9,
+       "resistance": 187.25,
+       "prices": [
+        183.29,
+        187.25,
+        179.67,
+        177.46,
+        169.27,
+        165.3,
+        165.87,
+        164.73,
+        164.47,
+        166.71,
+        169.78,
+        170.59,
+        166.87,
+        167.21,
+        160.58,
+        158.93,
+        159.99,
+        156.9,
+        158.23,
+        158.08
+       ]
+      },
+      {
+       "candidate": "CRM",
+       "trend": "down",
+       "entry": 197.21,
+       "tp": 212.99,
+       "stop": 187.35,
+       "support": 180.62,
+       "resistance": 230.9,
+       "prices": [
+        230.9,
+        229.17,
+        226.18,
+        222.2,
+        227.11,
+        222.41,
+        213.65,
+        214.94,
+        213.48,
+        218.01,
+        217.57,
+        217.84,
+        214.83,
+        194.52,
+        190.4,
+        183.31,
+        180.62,
+        185.46,
+        193.26,
+        197.21
+       ]
+      },
+      {
+       "candidate": "LLY",
+       "trend": "down",
+       "entry": 1392.22,
+       "tp": 1503.6,
+       "stop": 1322.61,
+       "support": 1347.11,
+       "resistance": 1443.5,
+       "prices": [
+        1373.7,
+        1417.54,
+        1410.99,
+        1409.38,
+        1417.99,
+        1364.73,
+        1354.0,
+        1411.95,
+        1432.29,
+        1437.29,
+        1427.28,
+        1443.5,
+        1431.67,
+        1415.55,
+        1382.75,
+        1351.12,
+        1347.11,
+        1364.6,
+        1407.59,
+        1392.22
+       ]
+      }
+     ]
+    },
+    "news": {
+     "items": [
+      {
+       "candidate": "San Diego State Aztecs",
+       "stance": "bullish",
+       "text": "San Diego State Aztecs @2.85 (San Diego State Aztecs @ Maryland Terrapins): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possi",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Galatasaray",
+       "stance": "bullish",
+       "text": "Galatasaray @2.65 (Galatasaray @ AEK Athens): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Arizona Cardinals",
+       "stance": "bullish",
+       "text": "Arizona Cardinals @2.31 (Philadelphia Eagles @ Arizona Cardinals): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this ",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Jacksonville Jaguars",
+       "stance": "bullish",
+       "text": "Jacksonville Jaguars @2.3 (Jacksonville Jaguars @ Chicago Bears): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this c",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Houston Texans",
+       "stance": "bullish",
+       "text": "Houston Texans @1.339 (Baltimore Ravens @ Houston Texans): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Jacksonville State Gamecocks",
+       "stance": "bullish",
+       "text": "Jacksonville State Gamecocks @2.2 (Jacksonville State Gamecocks @ Delaware Fightin Bl): X/NEWS check not run — FULL STOP (bank ≤ $400), no n",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "UCF Knights",
+       "stance": "bullish",
+       "text": "UCF Knights @2.1 (UCF Knights @ Colorado Buffaloes): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Army Black Knights",
+       "stance": "bullish",
+       "text": "Army Black Knights @1.488 (Army Black Knights @ Rice Owls): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Clemson Tigers",
+       "stance": "bullish",
+       "text": "Clemson Tigers @2.9 (South Carolina Gamecocks @ Clemson Tigers): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cy",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Louisiana Tech Bulldogs",
+       "stance": "bullish",
+       "text": "Louisiana Tech Bulldogs @2.16 (Louisiana Tech Bulldogs @ Georgia Southern Eagles): X/NEWS check not run — FULL STOP (bank ≤ $400), no new be",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Baylor Bears",
+       "stance": "bullish",
+       "text": "Baylor Bears @2.7 (Baylor Bears @ Houston Cougars): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Lens",
+       "stance": "bullish",
+       "text": "Lens @2.35 (Bodoe/Glimt @ Lens): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Western Kentucky Hilltoppers",
+       "stance": "bullish",
+       "text": "Western Kentucky Hilltoppers @2.43 (Kennesaw State Owls @ Western Kentucky Hilltoppers): X/NEWS check not run — FULL STOP (bank ≤ $400), no ",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Millwall",
+       "stance": "bullish",
+       "text": "Millwall @2.174 (Burnley @ Millwall): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Las Palmas",
+       "stance": "bullish",
+       "text": "Las Palmas @2.222 (FC Andorra @ Las Palmas): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Southern Miss Golden Eagles",
+       "stance": "bullish",
+       "text": "Southern Miss Golden Eagles @2.95 (Southern Miss Golden Eagles @ Old Dominion Monarch): X/NEWS check not run — FULL STOP (bank ≤ $400), no n",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Cremonese",
+       "stance": "bullish",
+       "text": "Cremonese @2.857 (Cremonese @ Sampdoria): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Kashiwa Reysol",
+       "stance": "bullish",
+       "text": "Kashiwa Reysol @2.95 (Sanfrecce Hiroshima @ Kashiwa Reysol): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Dynamo Dresden",
+       "stance": "bullish",
+       "text": "Dynamo Dresden @2.941 (St. Pauli @ Dynamo Dresden): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "SC Freiburg",
+       "stance": "bullish",
+       "text": "SC Freiburg @1.852 (FC Twente @ SC Freiburg): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Arsenal",
+       "stance": "bullish",
+       "text": "Arsenal @2.0 (Real Madrid @ Arsenal): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Valencia",
+       "stance": "bullish",
+       "text": "Valencia @2.273 (Osasuna @ Valencia): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Alanyaspor",
+       "stance": "bullish",
+       "text": "Alanyaspor @2.703 (Konyaspor @ Alanyaspor): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Tennessee Volunteers",
+       "stance": "bullish",
+       "text": "Tennessee Volunteers @2.43 (Iowa State Cyclones @ Tennessee Volunteers): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible",
+       "source": "x search (no result)"
+      },
+      {
+       "candidate": "Sparta Prague",
+       "stance": "bullish",
+       "text": "Sparta Prague @2.941 (AZ Alkmaar @ Sparta Prague): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle",
+       "source": "x search (no result)"
+      }
+     ]
+    },
+    "sentiment": {
+     "items": [
+      {
+       "candidate": "San Diego State Aztecs",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Galatasaray",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Arizona Cardinals",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Jacksonville Jaguars",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Houston Texans",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Jacksonville State Gamec",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "UCF Knights",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Army Black Knights",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Clemson Tigers",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Louisiana Tech Bulldogs",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Baylor Bears",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Lens",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Western Kentucky Hilltop",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Millwall",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Las Palmas",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Southern Miss Golden Eag",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Cremonese",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Kashiwa Reysol",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Dynamo Dresden",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "SC Freiburg",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Arsenal",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Valencia",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Alanyaspor",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Tennessee Volunteers",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      },
+      {
+       "candidate": "Sparta Prague",
+       "mood": 0.0,
+       "note": "from X NEWS check"
+      }
+     ],
+     "overall": 0.0
+    },
+    "skeptic": {
+     "reviews": [
+      {
+       "candidate": "San Diego State Aztecs (San Diego State Aztecs @ Maryland Terrap)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "San Diego State Aztecs @2.85 (San Diego State Aztecs @ Maryland Terrapins): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Galatasaray (Galatasaray @ AEK Athens)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Galatasaray @2.65 (Galatasaray @ AEK Athens): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Arizona Cardinals (Philadelphia Eagles @ Arizona Cardinals)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Arizona Cardinals @2.31 (Philadelphia Eagles @ Arizona Cardinals): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Jacksonville Jaguars (Jacksonville Jaguars @ Chicago Bears)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Jacksonville Jaguars @2.3 (Jacksonville Jaguars @ Chicago Bears): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Houston Texans (Baltimore Ravens @ Houston Texans)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Houston Texans @1.339 (Baltimore Ravens @ Houston Texans): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Jacksonville State Gamecocks (Jacksonville State Gamecocks @ Delaware )",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Jacksonville State Gamecocks @2.2 (Jacksonville State Gamecocks @ Delaware Fightin Bl): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this"
+      },
+      {
+       "candidate": "UCF Knights (UCF Knights @ Colorado Buffaloes)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "UCF Knights @2.1 (UCF Knights @ Colorado Buffaloes): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Army Black Knights (Army Black Knights @ Rice Owls)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Army Black Knights @1.488 (Army Black Knights @ Rice Owls): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Clemson Tigers (South Carolina Gamecocks @ Clemson Tiger)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Clemson Tigers @2.9 (South Carolina Gamecocks @ Clemson Tigers): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Louisiana Tech Bulldogs (Louisiana Tech Bulldogs @ Georgia Southe)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Louisiana Tech Bulldogs @2.16 (Louisiana Tech Bulldogs @ Georgia Southern Eagles): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycl"
+      },
+      {
+       "candidate": "Baylor Bears (Baylor Bears @ Houston Cougars)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Baylor Bears @2.7 (Baylor Bears @ Houston Cougars): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Lens (Bodoe/Glimt @ Lens)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Lens @2.35 (Bodoe/Glimt @ Lens): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Western Kentucky Hilltoppers (Kennesaw State Owls @ Western Kentucky H)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Western Kentucky Hilltoppers @2.43 (Kennesaw State Owls @ Western Kentucky Hilltoppers): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible thi"
+      },
+      {
+       "candidate": "Millwall (Burnley @ Millwall)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Millwall @2.174 (Burnley @ Millwall): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Las Palmas (FC Andorra @ Las Palmas)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Las Palmas @2.222 (FC Andorra @ Las Palmas): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Southern Miss Golden Eagles (Southern Miss Golden Eagles @ Old Domini)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Southern Miss Golden Eagles @2.95 (Southern Miss Golden Eagles @ Old Dominion Monarch): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this"
+      },
+      {
+       "candidate": "Cremonese (Cremonese @ Sampdoria)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Cremonese @2.857 (Cremonese @ Sampdoria): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Kashiwa Reysol (Sanfrecce Hiroshima @ Kashiwa Reysol)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Kashiwa Reysol @2.95 (Sanfrecce Hiroshima @ Kashiwa Reysol): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Dynamo Dresden (St. Pauli @ Dynamo Dresden)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Dynamo Dresden @2.941 (St. Pauli @ Dynamo Dresden): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "SC Freiburg (FC Twente @ SC Freiburg)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "SC Freiburg @1.852 (FC Twente @ SC Freiburg): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Arsenal (Real Madrid @ Arsenal)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Arsenal @2.0 (Real Madrid @ Arsenal): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Valencia (Osasuna @ Valencia)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Valencia @2.273 (Osasuna @ Valencia): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Alanyaspor (Konyaspor @ Alanyaspor)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Alanyaspor @2.703 (Konyaspor @ Alanyaspor): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Tennessee Volunteers (Iowa State Cyclones @ Tennessee Voluntee)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Tennessee Volunteers @2.43 (Iowa State Cyclones @ Tennessee Volunteers): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      },
+      {
+       "candidate": "Sparta Prague (AZ Alkmaar @ Sparta Prague)",
+       "checks": {
+        "size": true,
+        "max_loss": true,
+        "correlation": true,
+        "exposure": true,
+        "risk_reward": true
+       },
+       "verdict": "SKIP",
+       "objection": "Sparta Prague @2.941 (AZ Alkmaar @ Sparta Prague): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+      }
+     ],
+     "blocked_count": 0
+    },
+    "chief": {
+     "decisions": [
+      {
+       "candidate": "San Diego State Aztecs (San Diego State Aztecs @ Maryland Te)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Galatasaray (Galatasaray @ AEK Athens)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Arizona Cardinals (Philadelphia Eagles @ Arizona Cardin)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Jacksonville Jaguars (Jacksonville Jaguars @ Chicago Bears)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Houston Texans (Baltimore Ravens @ Houston Texans)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Jacksonville State Gamecocks (Jacksonville State Gamecocks @ Delaw)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "UCF Knights (UCF Knights @ Colorado Buffaloes)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Army Black Knights (Army Black Knights @ Rice Owls)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Clemson Tigers (South Carolina Gamecocks @ Clemson T)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Louisiana Tech Bulldogs (Louisiana Tech Bulldogs @ Georgia So)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Baylor Bears (Baylor Bears @ Houston Cougars)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Lens (Bodoe/Glimt @ Lens)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Western Kentucky Hilltoppers (Kennesaw State Owls @ Western Kentuc)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Millwall (Burnley @ Millwall)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Las Palmas (FC Andorra @ Las Palmas)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Southern Miss Golden Eagles (Southern Miss Golden Eagles @ Old Do)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Cremonese (Cremonese @ Sampdoria)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Kashiwa Reysol (Sanfrecce Hiroshima @ Kashiwa Reysol)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Dynamo Dresden (St. Pauli @ Dynamo Dresden)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "SC Freiburg (FC Twente @ SC Freiburg)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Arsenal (Real Madrid @ Arsenal)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Valencia (Osasuna @ Valencia)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Alanyaspor (Konyaspor @ Alanyaspor)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Tennessee Volunteers (Iowa State Cyclones @ Tennessee Volu)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      },
+      {
+       "candidate": "Sparta Prague (AZ Alkmaar @ Sparta Prague)",
+       "action": "SKIP (drawdown full stop: bank ≤ -20%)",
+       "size_usd": 0
+      }
+     ],
+     "desk_pl_today": 1.67
+    },
+    "agents": [
+     {
+      "id": "ATLAS",
+      "name": "ATLAS",
+      "role_ka": "სკაუტი — ყველა ბაზრის სკანი",
+      "group": "HQ",
+      "proposals": 25,
+      "approved": 0,
+      "blocked": 0,
+      "note": "სკანი 59051 ოფცია; with_model 1217; PASS 21+PM 16 → caps 25 (dup_open 8, prior_veto 0); NEWS/TITAN-ის შემდეგ 0"
+     },
+     {
+      "id": "VEGA",
+      "name": "VEGA",
+      "role_ka": "ჩარტები — ტრენდი/შესვლა/სტოპი",
+      "group": "HQ",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "CG/Yahoo real history; BTC 60738 vs MA20 65972 & SMA50 74709 (BTC < MA20 → gate closed); ETH/SOL checked vs SMA50; stops hit none, TP none"
+     },
+     {
+      "id": "ORION",
+      "name": "ORION",
+      "role_ka": "სიახლეები — წყაროთი",
+      "group": "HQ",
+      "proposals": 25,
+      "approved": 0,
+      "blocked": 0,
+      "note": "X search_posts_all (2 calls)"
+     },
+     {
+      "id": "LUNA",
+      "name": "LUNA",
+      "role_ka": "სენტიმენტი — X",
+      "group": "HQ",
+      "proposals": 25,
+      "approved": 0,
+      "blocked": 0,
+      "note": "overall 0.0"
+     },
+     {
+      "id": "TITAN",
+      "name": "TITAN",
+      "role_ka": "სკეპტიკოსი — ვეტოს უფლებით",
+      "group": "HQ",
+      "proposals": 25,
+      "approved": 0,
+      "blocked": 0,
+      "note": "ფსონები: სკანის 25 PASS → 0 ვეტო (არა), 0 შემცირება (არა); კრიპტო/ტოკენები: BTC < MA20 და SMA50 → კარიბჭე დახურულია"
+     },
+     {
+      "id": "NOVA",
+      "name": "NOVA",
+      "role_ka": "მთავარი — საბოლოო განაწილება",
+      "group": "HQ",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "0 ფსონი (none); ბიუჯეტი ქეპებში $0.00 (ღია ≤35%, ქეში ≥10%)"
+     },
+     {
+      "id": "NEWS",
+      "name": "SHERLOCK",
+      "role_ka": "სიახლეები/X ყოველ კანდიდატზე",
+      "group": "specialist",
+      "proposals": 25,
+      "approved": 0,
+      "blocked": 0,
+      "note": "25 PASS კანდიდატი → 2 x-call (search_posts_all): 0 ბლოკი, 0 შემცირება, 0 clear, 25 არ შემოწმდა (სრული გაჩერება — ფსონი შეუძლებელია, X-ბიუჯეტი არ დაიხარჯა)"
+     },
+     {
+      "id": "POSTMORTEM",
+      "name": "DOC",
+      "role_ka": "წაგებების ღრმა ანალიზი → გაკვეთილები",
+      "group": "specialist",
+      "proposals": 1,
+      "approved": 0,
+      "blocked": 0,
+      "note": "1 post-mortem: B713 price+variance; 2 bets settled this MID (1W/1L +$1.67): B670 Villarreal won 1-0 at Slavia (+$3.20, CLV −12.75%), B713 Atlético-MG drew 1-1 with Corinthians (−$1.53, CLV −14.87%) → post-mortem: price+variance, no rule break; both had negative CLV (market moved against us) — already covered by L010/L014, no new lesson. Bank $397.10 still ≤ $400 → FULL STOP continues."
+     },
+     {
+      "id": "LEDGER",
+      "name": "PENNY",
+      "role_ka": "CLV აღრიცხვა სპორტების მიხედვით",
+      "group": "specialist",
+      "proposals": 2,
+      "approved": 0,
+      "blocked": 0,
+      "note": "DK close backfill 2/2; Football n=167 mean -5.17%; Polymarket n=276 mean -2.45%; halved=['Football', 'NCAAB', 'Polymarket']"
+     },
+     {
+      "id": "TIMING",
+      "name": "CHRONO",
+      "role_ka": "ადრე vs გვიან CLV",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "refresh.py → timing.py"
+     },
+     {
+      "id": "SIMULATION",
+      "name": "TESLA",
+      "role_ka": "წესების სიმულაცია",
+      "group": "specialist",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "TB1 tag only: tagged 145, pass 9"
+     },
+     {
+      "id": "FOOTBALL",
+      "name": "PELE",
+      "role_ka": "ფეხბურთი — ლიგები და ევროთასები",
+      "group": "desk",
+      "proposals": 4,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა (Football/Polymarket): B670 Villarreal +3.20, B713 Atlético-MG -1.53; B294 გადაიდო 2026-12-01-მდე; ჰალვინგი გამორთულია (მფლობელი 28 ოქტ.)"
+     },
+     {
+      "id": "BASKETBALL",
+      "name": "JORDAN",
+      "role_ka": "კალათბურთი — NBA / Euroleague",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: არა; post-unhalve NBA 8W/22L -28.25 (წაგებაშია → მფლობელს ეცნობება); NBA real bets = 0 (V2-3); NBA shadow: 11 logged, 11 settled, P/L +4.25$ (not staked)"
+     },
+     {
+      "id": "USSPORTS",
+      "name": "BRADY",
+      "role_ka": "ამერიკული სპორტი — NFL/NCAAF/NCAAB/MLB/NHL",
+      "group": "desk",
+      "proposals": 13,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: არა"
+     },
+     {
+      "id": "TENNIS",
+      "name": "ACE",
+      "role_ka": "ჩოგბურთი — ATP/WTA",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "MMA",
+      "name": "KHABIB",
+      "role_ka": "შერეული ორთაბრძოლები — UFC",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "დასახლდა: "
+     },
+     {
+      "id": "ESPORTS",
+      "name": "PIXEL",
+      "role_ka": "კიბერსპორტი — CS2/LoL/Dota",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "—"
+     },
+     {
+      "id": "CRYPTO",
+      "name": "SATOSHI",
+      "role_ka": "დიდი კრიპტო — BTC/ETH/SOL, SMA50 ფილტრი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "BTC 60738 < MA20 65972 (-7.9%), < SMA50 74709 → no buy, hold 0 lots; ETH 1699 (MA20 1856, SMA50 2168), SOL 71.29 (SMA50 91.30) → no alts (BTC gate closed)"
+     },
+     {
+      "id": "NEWTOKENS",
+      "name": "SCOUT",
+      "role_ka": "ახალი ტოკენები — უსაფრთხოება",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "721 scanned, 81 passed safety (daily rule: BTC gate closed, first token scan today); buying needs BTC>MA20 → gate closed (and FULL STOP: no buys) → 0 bought (no X check needed)"
+     },
+     {
+      "id": "EQUITIES",
+      "name": "BUFFETT",
+      "role_ka": "აშშ აქციები და ETF-ები",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "აშშ ბაზარი დაკეტილია (ხუთშაბათი, Thanksgiving; Yahoo ბოლო ფასი = 25.11 დახურვა: SPY 716.7, AAPL 355.58, KO 97.59, V 424.39); 3 პოზიცია Yahoo-ს ფასით; stop არა, TP არა; ტესტირებული შესვლის წესი არ არის → 0 ახალი ყიდვა"
+     },
+     {
+      "id": "POLYMARKET",
+      "name": "ORACLE",
+      "role_ka": "პროგნოზების ბაზარი",
+      "group": "desk",
+      "proposals": 8,
+      "approved": 0,
+      "blocked": 0,
+      "note": "L007: unmapped 439, no strict 249, matched 475; PM PASS 16; TB1 pass 9; MISMATCH none; halving OFF (owner 2026-10-28)"
+     },
+     {
+      "id": "MACRO",
+      "name": "KEYNES",
+      "role_ka": "CPI/Fed/განაკვეთების კალენდარი",
+      "group": "desk",
+      "proposals": 0,
+      "approved": 0,
+      "blocked": 0,
+      "note": "ხუთშაბათი 26 ნოემბერი (MID) — აშშ Thanksgiving, NYSE/Nasdaq დაკეტილია (ახალი მაკრო მონაცემი ამ ციკლში არ შემოწმებულა); სრული გაჩერება → ახალი ფსონი/ყიდვა არა → 0"
+     }
+    ]
+   },
+   "news_check": [
+    {
+     "candidate": "espn401920528",
+     "event": "San Diego State Aztecs @ Maryland Terrapins",
+     "sel": "San Diego State Aztecs",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "San Diego State Aztecs @2.85 (San Diego State Aztecs @ Maryland Terrapins): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "297038",
+     "event": "Galatasaray @ AEK Athens",
+     "sel": "Galatasaray",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Galatasaray @2.65 (Galatasaray @ AEK Athens): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "espn401873104",
+     "event": "Philadelphia Eagles @ Arizona Cardinals",
+     "sel": "Arizona Cardinals",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Arizona Cardinals @2.31 (Philadelphia Eagles @ Arizona Cardinals): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "espn401873100",
+     "event": "Jacksonville Jaguars @ Chicago Bears",
+     "sel": "Jacksonville Jaguars",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Jacksonville Jaguars @2.3 (Jacksonville Jaguars @ Chicago Bears): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "290999",
+     "event": "Baltimore Ravens @ Houston Texans",
+     "sel": "Houston Texans",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Houston Texans @1.339 (Baltimore Ravens @ Houston Texans): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "290262",
+     "event": "Jacksonville State Gamecocks @ Delaware Fightin Blue Hens",
+     "sel": "Jacksonville State Gamecocks",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Jacksonville State Gamecocks @2.2 (Jacksonville State Gamecocks @ Delaware Fightin Bl): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "290220",
+     "event": "UCF Knights @ Colorado Buffaloes",
+     "sel": "UCF Knights",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "UCF Knights @2.1 (UCF Knights @ Colorado Buffaloes): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "290240",
+     "event": "Army Black Knights @ Rice Owls",
+     "sel": "Army Black Knights",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Army Black Knights @1.488 (Army Black Knights @ Rice Owls): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "290256",
+     "event": "South Carolina Gamecocks @ Clemson Tigers",
+     "sel": "Clemson Tigers",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Clemson Tigers @2.9 (South Carolina Gamecocks @ Clemson Tigers): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "290254",
+     "event": "Louisiana Tech Bulldogs @ Georgia Southern Eagles",
+     "sel": "Louisiana Tech Bulldogs",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Louisiana Tech Bulldogs @2.16 (Louisiana Tech Bulldogs @ Georgia Southern Eagles): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "290230",
+     "event": "Baylor Bears @ Houston Cougars",
+     "sel": "Baylor Bears",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Baylor Bears @2.7 (Baylor Bears @ Houston Cougars): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "297067",
+     "event": "Bodoe/Glimt @ Lens",
+     "sel": "Lens",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Lens @2.35 (Bodoe/Glimt @ Lens): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "290398",
+     "event": "Kennesaw State Owls @ Western Kentucky Hilltoppers",
+     "sel": "Western Kentucky Hilltoppers",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Western Kentucky Hilltoppers @2.43 (Kennesaw State Owls @ Western Kentucky Hilltoppers): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "pm:elc-mil-bur-2026-11-28-mil",
+     "event": "Burnley @ Millwall",
+     "sel": "Millwall",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Millwall @2.174 (Burnley @ Millwall): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "pm:es2-lpm-and-2026-11-28-lpm",
+     "event": "FC Andorra @ Las Palmas",
+     "sel": "Las Palmas",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Las Palmas @2.222 (FC Andorra @ Las Palmas): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "290216",
+     "event": "Southern Miss Golden Eagles @ Old Dominion Monarchs",
+     "sel": "Southern Miss Golden Eagles",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Southern Miss Golden Eagles @2.95 (Southern Miss Golden Eagles @ Old Dominion Monarch): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "pm:itsb-sam-cre-2026-11-29-cre",
+     "event": "Cremonese @ Sampdoria",
+     "sel": "Cremonese",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Cremonese @2.857 (Cremonese @ Sampdoria): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "espn401877525",
+     "event": "Sanfrecce Hiroshima @ Kashiwa Reysol",
+     "sel": "Kashiwa Reysol",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Kashiwa Reysol @2.95 (Sanfrecce Hiroshima @ Kashiwa Reysol): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "pm:bl2-dyn-stp-2026-11-28-dyn",
+     "event": "St. Pauli @ Dynamo Dresden",
+     "sel": "Dynamo Dresden",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Dynamo Dresden @2.941 (St. Pauli @ Dynamo Dresden): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "pm:col-scf-twe-2026-11-26-scf",
+     "event": "FC Twente @ SC Freiburg",
+     "sel": "SC Freiburg",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "SC Freiburg @1.852 (FC Twente @ SC Freiburg): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "297072",
+     "event": "Real Madrid @ Arsenal",
+     "sel": "Arsenal",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Arsenal @2.0 (Real Madrid @ Arsenal): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "pm:lal-val-osa-2026-11-29-val",
+     "event": "Osasuna @ Valencia",
+     "sel": "Valencia",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Valencia @2.273 (Osasuna @ Valencia): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "pm:tur-ala-kon-2026-11-27-ala",
+     "event": "Konyaspor @ Alanyaspor",
+     "sel": "Alanyaspor",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Alanyaspor @2.703 (Konyaspor @ Alanyaspor): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "309932",
+     "event": "Iowa State Cyclones @ Tennessee Volunteers",
+     "sel": "Tennessee Volunteers",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Tennessee Volunteers @2.43 (Iowa State Cyclones @ Tennessee Volunteers): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    },
+    {
+     "candidate": "pm:uel-spp-az-2026-11-26-spp",
+     "event": "AZ Alkmaar @ Sparta Prague",
+     "sel": "Sparta Prague",
+     "queries": [],
+     "tool_calls": 0,
+     "findings": [],
+     "verdict": "n/a",
+     "titan": "NOT REVIEWED (FULL STOP: bank <= $400, no bet possible)",
+     "note": "Sparta Prague @2.941 (AZ Alkmaar @ Sparta Prague): X/NEWS check not run — FULL STOP (bank ≤ $400), no new bet possible this cycle"
+    }
+   ],
+   "token_scan": {
+    "stats": {
+     "src_dexscreener_tokens": 66,
+     "gt_pages_ok": 40,
+     "src_gt_pools": 800,
+     "gt_pages_failed": 0,
+     "gt_429_events": 0,
+     "gt_fetch_seconds": 86,
+     "tokens_fetch_failed": 0,
+     "tokens_fetch_failed_detail": [],
+     "tokens_unique": 721,
+     "tokens_pairs_fetch_failed": 0,
+     "tokens_with_pairs": 717,
+     "chain_solana": 206,
+     "chain_robinhood": 6,
+     "chain_elysium": 4,
+     "chain_base": 158,
+     "chain_bsc": 172,
+     "chain_ethereum": 171,
+     "gate_liquidity": 436,
+     "gate_pass": 128,
+     "gate_too_new": 40,
+     "gate_thin_liq_fdv": 85,
+     "gate_low_activity": 26,
+     "gate_pump": 1,
+     "gate_rug_dump": 1,
+     "safety_pass": 81,
+     "safety_fail": 29,
+     "safety_unverified": 18
+    },
+    "passed_n": 81,
+    "shortlist": [],
+    "bought": [],
+    "why_none": "BTC < MA20 → token buying gate closed (PLAYBOOK/addendum)"
+   },
+   "analysis": "Settled 2 final(s): B670 won +3.2, B713 lost -1.53 (P/L +1.67). Not final → left open for the hourly refresh: none. LEDGER: DK closes 2/2; Football n=167 mean CLV -5.17%; Polymarket n=276 mean -2.45% (halving OFF by owner order 2026-10-28; tracked only). DOC: 1 post-mortems. Scan 59051 options → with_model 1217 → PASS 21+PM 16 → 25 after dedup/caps (prior_veto 0); SHERLOCK/TITAN: 0 blocked, 0 shrunk → 0 bets. NO BUY: BTC 60738 < MA20 65972 (below SMA50 74709) → trend gate closed; hold existing crypto lots (stops not hit); crypto $0.00; tokens: BTC gate closed (and FULL STOP) → 0 bought; stocks: US market closed (Thursday, Thanksgiving; Yahoo last = Wed 11-25 close), no SL/TP touched (AAPL/KO/V within SL/TP); no tested equity entry; no tested entry rule → 0 new buys. Drawdown stop: bank $397.1 → budget 0, no new bets/buys this cycle.",
+   "plan": "MID 2026-11-26 (დღის ერთადერთი ციკლი, ხუთშაბათი ~18:50): Strategy v2 ჩართულია (კოეფ. ≤2.99, მოდელის EV ≤12%, NBA მხოლოდ ჩრდილში, NEWS shrink → block). ბანკი $397.1 ≤ $400 → სრული გაჩერება: ახალი ფსონი/ყიდვა არა (SL/TP გასვლები დაშვებულია); სრული გაჩერება რჩება, სანამ ბანკი $400-ს ზემოთ არ ავა ღია ფსონების დასახლებით. დასახლება მხოლოდ რეალური საბოლოო შედეგით; B294 გადადებული 12-01-მდე; BTC gate დახურული (BTC < MA20/SMA50); AAPL/KO/V-ს სტოპი/TP მოქმედებს, დღეს არცერთი არ შეხებია (აშშ ბაზარი Thanksgiving-ზე დაკეტილია; MSFT 21.11 და UNH 18.11 სტოპით გავიდა); ახალი ტოკენების სკანი დღეში ერთხელ; Football/Polymarket/NBA ცალკე იზომება.",
+   "strategy_v2": {
+    "enabled": true,
+    "lm_use_v2_filter": false,
+    "rules": "odds<=2.99, EV<=12%, NBA shadow-only, NEWS shrink->block",
+    "news_shrink_blocked": [],
+    "scan_v2_rejects": {
+     "gate_V2_odds>2.99": 12,
+     "gate_V2_ev>12": 1,
+     "pm_gate_V2_odds>2.99": 6
+    },
+    "nba_shadow_logged": 1,
+    "nba_shadow_clean": 0
+   },
+   "drawdown_brake": {
+    "deposits": 500.0,
+    "threshold": 450.0,
+    "stop_threshold": 400.0,
+    "bank": 397.1,
+    "vs_deposits_pct": -20.58,
+    "mode": "stop",
+    "triggered": true,
+    "learning_mode": false,
+    "learning_mode_enabled": true,
+    "effect": "FULL STOP (<= -20% vs deposits): budget=0, no new bets/buys; SL/TP exits still allowed",
+    "placed_learning_bets": 0,
+    "skipped_by_brake": [
+     "espn401920528",
+     "297038",
+     "espn401873104",
+     "espn401873100",
+     "290999",
+     "290262",
+     "290220",
+     "290240",
+     "290256",
+     "290254",
+     "290230",
+     "297067",
+     "290398",
+     "pm:elc-mil-bur-2026-11-28-mil",
+     "pm:es2-lpm-and-2026-11-28-lpm",
+     "290216",
+     "pm:itsb-sam-cre-2026-11-29-cre",
+     "espn401877525",
+     "pm:bl2-dyn-stp-2026-11-28-dyn",
+     "pm:col-scf-twe-2026-11-26-scf",
+     "297072",
+     "pm:lal-val-osa-2026-11-29-val",
+     "pm:tur-ala-kon-2026-11-27-ala",
+     "309932",
+     "pm:uel-spp-az-2026-11-26-spp"
+    ]
+   },
+   "settle_note": "ESPN/gamma finals: 2 settled 1W/1L +1.67 — B670 Villarreal won (Slavia Prague 0, Villarreal 1); B713 Atlético-MG lost (Atlético-MG 1, Corinthians 1). Left open (not final / B294 postponed): none.",
+   "closed_at": "2026-11-26 18:45 (Tbilisi)"
   }
  ],
  "calibration": {
@@ -177397,21 +179381,21 @@
   }
  ],
  "last_prices": {
-  "BTC": 58162,
+  "BTC": 60738,
   "NEAR": 5.11,
   "AVAX": 10.17,
-  "SPY": 696.14,
+  "SPY": 716.7,
   "META": 615.42,
-  "AAPL": 346.61,
+  "AAPL": 355.58,
   "NVDA": 188.42,
   "AMZN": 261.66,
   "TSLA": 361.1,
   "GOOGL": 288.15,
   "QQQ": 659.27,
   "XLV": 188.33,
-  "MSFT": 477.67,
+  "MSFT": 489.93,
   "PLTR": 161.34,
-  "V": 416.92,
+  "V": 424.39,
   "BRK-B": 575.25,
   "ETH": 2090.87,
   "SOL": 85.3,
@@ -177422,11 +179406,11 @@
   "JPM": 336.69,
   "JNJ": 275.62,
   "BAC": 49.81,
-  "UNH": 335.62,
+  "UNH": 346.19,
   "COST": 1066.18,
   "XOM": 164.73,
   "CRM": 214.94,
-  "KO": 97.99,
+  "KO": 97.59,
   "NFLX": 63.64,
   "WMT": 125.66,
   "INTC": 98.12,
@@ -177455,8 +179439,8 @@
   "AAVE": 155.68,
   "MNT": 0.527943,
   "XLF": 57.41,
-  "BTC_MA20": 66615.68,
-  "BTC_MA50": 75116.84,
+  "BTC_MA20": 65971.99,
+  "BTC_MA50": 74709.23,
   "_meta": {
    "BTC_MA20": 83841.32,
    "BTC_MA50": 81178.76,
@@ -177475,20 +179459,20 @@
  },
  "plan": "PM გეგმა (2026-10-16 00:07 (Tbilisi)): ღია ფსონები 73; ქეში $231.17. ევროპის 23:00 მატჩები (B037, B061, B081, B111) — სეტლი შემდეგ refresh-ზე რეალური FT-ით. ღია ფსონების 35% ქეპი თითქმის სავსეა → ახალი ფსონები მხოლოდ სეტლის შემდეგ. ტოკენები/ალტები მხოლოდ BTC>MA20. Fed/CPI რისკი — B066 მონიტორინგი.",
  "overall_report": {
-  "time": "2026-11-25 19:37 (Tbilisi)",
-  "total_value": 394.96,
+  "time": "2026-11-26 18:45 (Tbilisi)",
+  "total_value": 397.1,
   "deposits_usd": 500,
-  "vs_deposits_usd": -105.04,
-  "vs_deposits_pct": -21.01,
-  "btc_bench": 352.95,
-  "vs_btc_usd": 42.01,
+  "vs_deposits_usd": -102.9,
+  "vs_deposits_pct": -20.58,
+  "btc_bench": 368.59,
+  "vs_btc_usd": 28.51,
   "bets": {
-   "n": 736,
-   "wins": 272,
-   "losses": 464,
-   "open": 16,
-   "pl_usd": -98.67,
-   "roi_pct": -7.0
+   "n": 738,
+   "wins": 273,
+   "losses": 465,
+   "open": 14,
+   "pl_usd": -97.0,
+   "roi_pct": -6.8
   },
   "by_sport": {
    "NHL": {
@@ -177513,11 +179497,11 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "n": 196,
-    "wins": 66,
+    "n": 197,
+    "wins": 67,
     "losses": 130,
-    "pl_usd": 5.95,
-    "roi_pct": 2.0
+    "pl_usd": 9.15,
+    "roi_pct": 3.0
    },
    "NCAAF": {
     "n": 83,
@@ -177534,11 +179518,11 @@
     "roi_pct": -39.1
    },
    "Polymarket": {
-    "n": 287,
+    "n": 288,
     "wins": 98,
-    "losses": 189,
-    "pl_usd": -32.63,
-    "roi_pct": -6.5
+    "losses": 190,
+    "pl_usd": -34.16,
+    "roi_pct": -6.8
    },
    "NFL": {
     "n": 27,
@@ -177578,21 +179562,21 @@
   },
   "stocks": {
    "open_n": 3,
-   "value_usd": 31.19,
-   "unrealized_usd": 1.19,
+   "value_usd": 31.66,
+   "unrealized_usd": 1.66,
    "realized_usd": -2.26,
-   "total_pl_usd": -1.06
+   "total_pl_usd": -0.59
   },
-  "cash_usd": 336.8975,
-  "scanned": 60169,
-  "open_bets_usd": 26.87,
+  "cash_usd": 342.5975,
+  "scanned": 59051,
+  "open_bets_usd": 22.84,
   "desk_stats": {
    "FOOTBALL": {
-    "n": 196,
-    "wins": 66,
+    "n": 197,
+    "wins": 67,
     "losses": 130,
-    "pl_usd": 5.95,
-    "roi_pct": 2.0
+    "pl_usd": 9.15,
+    "roi_pct": 3.0
    },
    "BASKETBALL": {
     "n": 55,
@@ -177630,11 +179614,11 @@
     "roi_pct": null
    },
    "POLYMARKET": {
-    "n": 287,
+    "n": 288,
     "wins": 98,
-    "losses": 189,
-    "pl_usd": -32.63,
-    "roi_pct": -6.5
+    "losses": 190,
+    "pl_usd": -34.16,
+    "roi_pct": -6.8
    },
    "CRYPTO MAJORS": {
     "n": 5,
@@ -177668,12 +179652,12 @@
   "strategy_v2": {
    "enabled": true,
    "rules_ka": "კოეფ. ≤2.99 · EV ≤12% · NBA მხოლოდ ჩრდილში · NEWS shrink → block",
-   "nba_shadow_logged": 11,
-   "nba_shadow_settled": 10,
-   "nba_shadow_pl": 6.33
+   "nba_shadow_logged": 12,
+   "nba_shadow_settled": 11,
+   "nba_shadow_pl": 4.25
   }
  },
- "last_refresh": "2026-11-25 19:37 (Tbilisi)",
+ "last_refresh": "2026-11-26 18:45 (Tbilisi)",
  "deposits": [
   {
    "date": "2026-10-14 22:30",
@@ -178926,7 +180910,7 @@
   ]
  },
  "timing": {
-  "updated": "2026-11-25 19:37 (Tbilisi)",
+  "updated": "2026-11-26 18:45 (Tbilisi)",
   "note": "early=taken price beat close (CLV>0). lean needs n>=10. Missing open/close = not recorded, never estimated.",
   "by_sport": {
    "NHL": {
@@ -178957,12 +180941,12 @@
     "lean": null
    },
    "Football": {
-    "n": 166,
+    "n": 167,
     "early_better": 79,
-    "late_better": 70,
+    "late_better": 71,
     "equal": 17,
-    "avg_clv_pct": 0.51,
-    "no_close": 34,
+    "avg_clv_pct": 0.45,
+    "no_close": 33,
     "lean": "early"
    },
    "NCAAF": {
@@ -178984,12 +180968,12 @@
     "lean": "early"
    },
    "Polymarket": {
-    "n": 275,
+    "n": 276,
     "early_better": 162,
-    "late_better": 110,
+    "late_better": 111,
     "equal": 3,
-    "avg_clv_pct": 3.42,
-    "no_close": 19,
+    "avg_clv_pct": 3.37,
+    "no_close": 18,
     "lean": "early"
    },
    "NFL": {
@@ -187789,6 +189773,30 @@
     "better": "late"
    },
    {
+    "id": "B670",
+    "sport": "Football",
+    "event": "Villarreal @ Slavia Prague",
+    "open": null,
+    "taken": 2.28,
+    "taken_time": "2026-11-13 19:07 (Tbilisi)",
+    "close": 2.5,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915293",
+    "clv_pct": -8.8,
+    "better": "late"
+   },
+   {
+    "id": "B713",
+    "sport": "Polymarket",
+    "event": "Corinthians @ Atlético-MG",
+    "open": null,
+    "taken": 2.381,
+    "taken_time": "2026-11-19 18:45 (Tbilisi)",
+    "close": 2.65,
+    "close_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary?event=401841319",
+    "clv_pct": -10.15,
+    "better": "late"
+   },
+   {
     "id": "B077",
     "sport": "Polymarket",
     "event": "Will Marine Le Pen win the 2027 French presidential election?",
@@ -187817,28 +189825,6 @@
     "open": null,
     "taken": 3.3,
     "taken_time": "2026-10-24 09:00 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B670",
-    "sport": "Football",
-    "event": "Villarreal @ Slavia Prague",
-    "open": null,
-    "taken": 2.28,
-    "taken_time": "2026-11-13 19:07 (Tbilisi)",
-    "close": null,
-    "close_source": null,
-    "better": null
-   },
-   {
-    "id": "B713",
-    "sport": "Polymarket",
-    "event": "Corinthians @ Atlético-MG",
-    "open": null,
-    "taken": 2.381,
-    "taken_time": "2026-11-19 18:45 (Tbilisi)",
     "close": null,
     "close_source": null,
     "better": null
@@ -187973,12 +189959,12 @@
  ],
  "ledger_clv_by_sport": {
   "Football": {
-   "n": 166,
-   "mean_clv_pct": -5.13
+   "n": 167,
+   "mean_clv_pct": -5.17
   },
   "Polymarket": {
-   "n": 275,
-   "mean_clv_pct": -2.4
+   "n": 276,
+   "mean_clv_pct": -2.45
   },
   "NCAAF": {
    "n": 78,
@@ -188006,13 +189992,13 @@
   }
  },
  "v2_shadow_summary": {
-  "updated": "2026-11-25 18:45 (Tbilisi)",
+  "updated": "2026-11-26 18:40 (Tbilisi)",
   "n_logged": 11,
-  "n_settled": 10,
+  "n_settled": 11,
   "wins": 6,
-  "shadow_pl_usd": 6.33,
-  "shadow_staked": 29.17,
-  "mean_clv_pct": -5.86
+  "shadow_pl_usd": 4.25,
+  "shadow_staked": 31.25,
+  "mean_clv_pct": -5.27
  },
  "v2_shadow_bets": [
   {
@@ -188430,8 +190416,47 @@
    "v2_rule": "V2_nba_shadow",
    "also_fails_v2": "V2_odds>2.99",
    "scan_stamp": "2026-11-24_1844",
-   "status": "open",
+   "status": "settled",
    "recorded_at": "2026-11-24 18:44 (Tbilisi)",
+   "paper_shadow": true,
+   "espn_event": "401909323",
+   "result": "lost",
+   "shadow_pl_usd": -2.08,
+   "final_score": "Houston Rockets 116, Phoenix Suns 104 (FT)",
+   "result_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909323",
+   "settled_at": "2026-11-26 18:40 (Tbilisi)",
+   "closing_odds": 4.0,
+   "closing_fair_odds": 4.1631,
+   "clv_pct": 0.65,
+   "closing_book": "DraftKings (ESPN pickcenter) {'home': '-378', 'away': '+300'}"
+  },
+  {
+   "scan_id": "295231",
+   "sport": "NBA",
+   "via": "book",
+   "league": "nba",
+   "event": "Atlanta Hawks @ Boston Celtics",
+   "home": "Boston Celtics",
+   "away": "Atlanta Hawks",
+   "side": "away",
+   "sel": "Atlanta Hawks",
+   "odds": 3.95,
+   "book": "69",
+   "p": 0.2713,
+   "mkt": 0.2476,
+   "ev": 7.17,
+   "models": {
+    "ESPN": 0.294,
+    "DRatings": 0.296
+   },
+   "start": "2026-11-28T01:00:00.000Z",
+   "slug": null,
+   "shadow_stake": 2.41,
+   "v2_rule": "V2_nba_shadow",
+   "also_fails_v2": "V2_odds>2.99",
+   "scan_stamp": "2026-11-26_1840",
+   "status": "open",
+   "recorded_at": "2026-11-26 18:40 (Tbilisi)",
    "paper_shadow": true
   }
  ]
